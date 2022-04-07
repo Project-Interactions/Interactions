@@ -25,6 +25,8 @@ mods.contenttweaker.MaterialSystem.getPartBuilder().setName("cluster").setPartTy
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("sheet").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("sheet").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("casing").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("casing").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("wire").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("wire").build();
+mods.contenttweaker.MaterialSystem.getPartBuilder().setName("singularity").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("singularity").build();
+
 //part block
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("scaffolding").setPartType(mods.contenttweaker.MaterialSystem.getPartType("block")).setOreDictName("scaffolding").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("sheetmetal").setPartType(mods.contenttweaker.MaterialSystem.getPartType("block")).setOreDictName("sheetmetal").build();
