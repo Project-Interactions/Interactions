@@ -3,7 +3,7 @@ import crafttweaker.oredict.IOreDict;
 
 import mods.mekatweaker.InfuserType;
 
-var types as string[] = ["Enderium"];
+var types as string[] = ["enderium"];
 
 for type in types {
     InfuserType.addType(type);
