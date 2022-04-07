@@ -108,7 +108,6 @@ recipes.remove(<techreborn:energycrystal>);
 recipes.addShaped(<techreborn:plate_bending_machine>, [[<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>],[<ore:circuitBasic>, <techreborn:machine_frame>, <ore:circuitBasic>], [<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>]]);
 recipes.addShaped(<techreborn:machine_casing:1>*2, [[<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>],[<techreborn:part:13>, <techreborn:machine_frame:1>, <techreborn:part:13>], [<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>]]);
 
-mods.techreborn.plateBendingMachine.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>, 40, 10);
 
 //
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:15>);
