@@ -1,13 +1,7 @@
-
-import crafttweaker.oredict.IOreDict;
-
+#loader mekatweaker
+#no_fix_recipe_book
+import crafttweaker.oredict.IOreDictEntry;
 import mods.mekatweaker.InfuserType;
 
-var types as string[] = ["enderium"];
 
-for type in types {
-    InfuserType.addType(type);
-    InfuserType.addTypeObject(oreDict.get("ingot" + type), type, 10);
-    InfuserType.addTypeObject(oreDict.get("block" + type), type, 90);
-
-}
+InfuserType.addType("ENDERIUM");
