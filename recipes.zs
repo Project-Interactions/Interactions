@@ -13,8 +13,6 @@ recipes.remove(<extrabotany:manabarrel>);
 recipes.remove(<environmentaltech:void_ore_miner_cont_6>);
 recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
 recipes.remove(<rftools:machine_base>);
-recipes.remove(<planarartifice:bismuth_plate> * 3);
-recipes.remove(<planarartifice:alkimium_plate> * 3);
 recipes.remove(<projectex:final_star>);
 recipes.remove(<equivalentenergistics:emc_condenser:3>);
 recipes.remove(<equivalentenergistics:emc_condenser:2>);
