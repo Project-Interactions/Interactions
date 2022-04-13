@@ -2,7 +2,7 @@
 	title: "介绍",
 	icon: "moreplates:infinity_plate",
 	x: -1.0d,
-	y: -3.0d,
+	y: -4.0d,
 	shape: "diamond",
 	text: [
 		"本整合包由mczph制作",
@@ -308,6 +308,412 @@
 					}
 				},
 				"akashictome:is_morphing": 1b
+			}
+		}
+	},
+	{
+		uid: "91d63f71",
+		type: "item",
+		item: {
+			id: "tconstruct:lumberaxe",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"skyblock2",
+						"skyblock",
+						"skyblock",
+						"skyblock"
+					],
+					Modifiers: [
+						"tinkertweaks",
+						"log_breaker",
+						"reinforced",
+						"soulbound"
+					],
+					UsedModifiers: 6
+				},
+				Stats: {
+					Durability: 1,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 2,
+					HarvestLevel: 0,
+					Attack: 2.75f,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool"
+					]
+				},
+				Modifiers: [{
+					identifier: "skyblock",
+					color: -3652181,
+					level: 1
+				},
+				{
+					identifier: "tinkertweaks",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "log_breaker",
+					color: 9659178,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				}],
+				Traits: [
+					"skyblock",
+					"tinkertweaks",
+					"log_breaker",
+					"reinforced"
+				],
+				Unbreakable: 1b,
+				display: {
+					LocName: "item.tinkerskyblock.axe"
+				}
+			},
+			ForgeCaps: {
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				}
+			}
+		}
+	},
+	{
+		uid: "fefdbe28",
+		type: "item",
+		item: {
+			id: "tconstruct:pickaxe",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"skyblock2",
+						"skyblock",
+						"skyblock"
+					],
+					Modifiers: [
+						"tinkertweaks",
+						"cobble_breaker",
+						"reinforced",
+						"soulbound"
+					],
+					UsedModifiers: 6
+				},
+				Stats: {
+					Durability: 1,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 1,
+					HarvestLevel: 0,
+					Attack: 0.75f,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool"
+					]
+				},
+				Modifiers: [{
+					identifier: "skyblock",
+					color: -3652181,
+					level: 1
+				},
+				{
+					identifier: "tinkertweaks",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "cobble_breaker",
+					color: 10000536,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				}],
+				Traits: [
+					"skyblock",
+					"tinkertweaks",
+					"cobble_breaker",
+					"reinforced"
+				],
+				Unbreakable: 1b,
+				display: {
+					LocName: "item.tinkerskyblock.pickaxe"
+				}
+			},
+			ForgeCaps: {
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				}
+			}
+		}
+	},
+	{
+		uid: "c121f2c7",
+		type: "item",
+		item: {
+			id: "tconstruct:scythe",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"skyblock2",
+						"skyblock",
+						"skyblock",
+						"skyblock2"
+					],
+					Modifiers: [
+						"tinkertweaks",
+						"leaf_breaker",
+						"reinforced",
+						"soulbound",
+						"harvestwidth",
+						"harvestheight"
+					],
+					UsedModifiers: 8
+				},
+				Stats: {
+					Durability: 1,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 2,
+					HarvestLevel: 0,
+					Attack: 0.75f,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"weapon",
+						"tool"
+					]
+				},
+				Modifiers: [{
+					identifier: "skyblock",
+					color: -3652181,
+					level: 1
+				},
+				{
+					identifier: "tinkertweaks",
+					color: 16777215,
+					level: 1,
+					xp: 7,
+					bonus_modifiers: 0
+				},
+				{
+					identifier: "leaf_breaker",
+					color: 51456,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				},
+				{
+					identifier: "harvestwidth",
+					color: 13301410
+				},
+				{
+					identifier: "harvestheight",
+					color: 13301410
+				}],
+				Traits: [
+					"skyblock",
+					"tinkertweaks",
+					"leaf_breaker",
+					"reinforced"
+				],
+				Unbreakable: 1b,
+				ench: [{
+					id: 33s,
+					lvl: 1s
+				}],
+				display: {
+					LocName: "item.tinkerskyblock.scythe"
+				}
+			},
+			ForgeCaps: {
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				}
+			}
+		}
+	},
+	{
+		uid: "31b00ced",
+		type: "item",
+		item: {
+			id: "tconstruct:frypan",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"skyblock",
+						"sponge"
+					],
+					Modifiers: [
+						"tinkertweaks",
+						"knockback",
+						"reinforced",
+						"soulbound"
+					],
+					UsedModifiers: 15
+				},
+				Stats: {
+					Durability: 1,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 788,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					MiningSpeed: 2.265f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				Modifiers: [{
+					identifier: "skyblock",
+					color: -3652181,
+					level: 1
+				},
+				{
+					identifier: "squeaky",
+					color: -3486642,
+					level: 1
+				},
+				{
+					identifier: "tinkertweaks",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "knockback",
+					color: 10461087,
+					level: 10,
+					current: 100,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				}],
+				Traits: [
+					"skyblock",
+					"squeaky",
+					"tinkertweaks",
+					"knockback",
+					"reinforced"
+				],
+				ench: [{
+					id: 33s,
+					lvl: 1s
+				}],
+				Unbreakable: 1b,
+				display: {
+					LocName: "item.tinkerskyblock.frypan"
+				}
+			},
+			ForgeCaps: {
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				}
 			}
 		}
 	}]

@@ -1,6 +1,6 @@
 {
 	title: "世界物质",
-	x: 3.5d,
+	x: 3.0d,
 	y: -0.5d,
 	dependencies: [
 		"197ea553",
