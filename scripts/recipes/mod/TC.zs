@@ -16,12 +16,6 @@ recipes.removeByRecipeName("hammercore:thaumadditions_recipestar.0");
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:fabric>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tc:fabric","",5, [<aspect:aer>, <aspect:ignis>, <aspect:terra>],<thaumcraft:fabric>,[[null,<botania:manaresource:22>,null],[<botania:manaresource:22>,null,<botania:manaresource:22>],[null,<botania:manaresource:22>,null]]);
 
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:diffusion_core>*2);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("smny:ks","",10, [],<thaumicenergistics:diffusion_core>*2,[[<thaumcraft:nugget:5>,<thaumcraft:nugget:5>,<thaumcraft:nugget:5>],[<appliedenergistics2:material:43>,<planarartifice:alkimium_plate>,<appliedenergistics2:material:43>],[<thaumcraft:nugget:5>,<thaumcraft:nugget:5>,<thaumcraft:nugget:5>]]);
-
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:coalescence_core>*2);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("smny:jj","",10, [],<thaumicenergistics:coalescence_core>*2,[[<thaumcraft:nugget:5>,<thaumcraft:nugget:5>,<thaumcraft:nugget:5>],[<appliedenergistics2:material:44>,<planarartifice:bismuth_plate>,<appliedenergistics2:material:44>],[<thaumcraft:nugget:5>,<thaumcraft:nugget:5>,<thaumcraft:nugget:5>]]);
-
 mods.thaumcraft.Infusion.registerRecipe("seed_tier4", "", <mysticalagriculture:crafting:20>, 4, [<aspect:herba>*20,<aspect:alkimia>*20], <mysticalagriculture:crafting:19>, [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]);
 
 mods.thaumcraft.Infusion.registerRecipe("circuit_13", "", <contenttweaker:circuit_umv>, 5, [<aspect:ordo>*20,<aspect:sol>*20,<aspect:alienis>*20,<aspect:vitium>*20], <contenttweaker:circuit_uiv>, [<qmd:cell:1>.withTag({storage: {amount: 600}}),<qmd:cell:1>.withTag({storage: {amount: 600}}),<thaumicwonders:alienist_stone>]);

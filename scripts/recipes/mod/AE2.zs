@@ -121,3 +121,19 @@ recipes.addShaped(<ae2utilities:enhanced_interface_tier2>, [[<moreplates:vibrant
 recipes.addShaped(<ae2utilities:enhanced_interface_tier3>, [[<moreplates:vivid_alloy_plate>, <threng:material:14>, <moreplates:vivid_alloy_plate>], [<appliedenergistics2:material:44>, <ae2utilities:enhanced_interface_tier2>, <appliedenergistics2:material:43>], [<moreplates:vivid_alloy_plate>, <threng:material:14>, <moreplates:vivid_alloy_plate>]]);
 
 mods.appliedenergistics2.Inscriber.addRecipe(<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:18>,false,<mysticalagriculture:storage:2>);
+
+//精准地量
+recipes.removeShaped(<ae2fc:burette>, [[<ore:ingotIron>, <minecraft:hopper>, <ore:ingotIron>], [<appliedenergistics2:quartz_glass>, <minecraft:bucket>, <appliedenergistics2:quartz_glass>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
+recipes.addShaped(<ae2fc:burette>, [[<ore:ingotIron>, <rftools:shape_card>, <ore:ingotIron>], [<appliedenergistics2:quartz_glass>, <minecraft:bucket>, <appliedenergistics2:quartz_glass>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
+//缓存
+recipes.removeShaped(<ae2fc:ingredient_buffer>, [[<ore:ingotIron>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:material:54>, <ore:ingotIron>]]);
+recipes.addShaped(<ae2fc:ingredient_buffer>, [[<enderio:block_buffer>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:material:54>, <enderio:block_buffer>]]);
+//指令缓存
+recipes.removeShaped(<threng:machine:4>, [[<ore:ingotFluixSteel>, <appliedenergistics2:part:280>, <ore:ingotFluixSteel>], [<appliedenergistics2:material:22>, <threng:material:4>, <appliedenergistics2:material:22>], [<ore:ingotFluixSteel>, <appliedenergistics2:material:53>, <ore:ingotFluixSteel>]]);
+recipes.addShaped(<threng:machine:4>, [[<ore:ingotFluixSteel>, <ae2fc:ingredient_buffer>, <ore:ingotFluixSteel>], [<appliedenergistics2:material:22>, <threng:material:4>, <appliedenergistics2:material:22>], [<ore:ingotFluixSteel>, <appliedenergistics2:material:53>, <ore:ingotFluixSteel>]]);
+//大型分子
+recipes.removeShaped(<threng:big_assembler:2>, [[<threng:big_assembler>, <appliedenergistics2:molecular_assembler>, <threng:big_assembler>], [<appliedenergistics2:part:16>, <threng:material:4>, <appliedenergistics2:part:16>], [<threng:big_assembler>, <appliedenergistics2:interface>, <threng:big_assembler>]]);
+recipes.addShaped(<threng:big_assembler:2>, [[<threng:big_assembler>, <appliedenergistics2:molecular_assembler>, <threng:big_assembler>], [<appliedenergistics2:part:16>, <threng:material:4>, <appliedenergistics2:part:16>], [<threng:big_assembler>, <threng:material:14>, <threng:big_assembler>]]);
+//流体适配
+recipes.removeShaped(<ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ore:workbench>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped(<ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ae2stuff:encoder>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);

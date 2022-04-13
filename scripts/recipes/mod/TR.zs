@@ -134,7 +134,6 @@ mods.techreborn.vacuumFreezer.addRecipe(<thermalfoundation:material:167>,<therma
 mods.techreborn.blastFurnace.addRecipe(<qmd:ingot_alloy:2>,null,<contenttweaker:stainless_steel_dust>,null,1200,400,2011);
 mods.techreborn.blastFurnace.addRecipe(<techreborn:ingot:19>,null,<minecraft:iron_ingot>,null,80,300,1000);
 
-mods.techreborn.blastFurnace.addRecipe(<extendedcrafting:material:36>*2,<appliedenergistics2:material:46>,<deepmoblearning:glitch_infused_ingot>,<taiga:tiberium_ingot>,800,800,3000);
 
 // mods.techreborn.
 mods.techreborn.assemblingMachine.removeRecipe(<techreborn:part:29>);
