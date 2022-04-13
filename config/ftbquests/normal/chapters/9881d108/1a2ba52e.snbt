@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: 19.5d,
+	text: [
+		"等待一段时间就能自动发电"
+	],
+	dependencies: [
+		"ab8a98b6",
+		"75475952"
+	],
+	tasks: [{
+		uid: "34aa080c",
+		type: "item",
+		items: [{
+			item: "calculator:conductormast"
+		}]
+	}],
+	rewards: [{
+		uid: "655b91d2",
+		type: "item",
+		item: "calculator:material 1 6"
+	}]
+}

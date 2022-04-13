@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"d02829b7"
+	],
+	tasks: [{
+		uid: "1edde013",
+		type: "item",
+		items: [{
+			item: "techreborn:matter_fabricator"
+		}]
+	},
+	{
+		uid: "4dabaedc",
+		type: "item",
+		items: [{
+			item: "techreborn:uumatter"
+		}]
+	}]
+}

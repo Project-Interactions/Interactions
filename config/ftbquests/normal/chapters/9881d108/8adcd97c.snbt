@@ -1,0 +1,33 @@
+{
+	x: -2.5d,
+	y: 22.0d,
+	text: [
+		"shift+右键可切换多种模式"
+	],
+	dependencies: [
+		"0b8d8c7f",
+		"0974158b",
+		"4ff707f8"
+	],
+	tasks: [{
+		uid: "dfeadedf",
+		type: "item",
+		items: [{
+			id: "calculator:flawlesscalculator",
+			tag: {
+				0: {},
+				slot4: "Energy Module",
+				1: {},
+				slot3: "Storage",
+				2: {},
+				slot2: "Crafting",
+				3: {},
+				slot1: "Dynamic",
+				4: {},
+				slot0: "Flawless"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

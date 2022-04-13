@@ -1,0 +1,22 @@
+{
+	x: 10.0d,
+	y: 7.5d,
+	dependencies: [
+		"8861a345",
+		"90c2b5e5"
+	],
+	tasks: [{
+		uid: "6b610117",
+		type: "item",
+		items: [{
+			item: "naturesaura:sky_ingot"
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "fb0e1632",
+		type: "item",
+		item: "naturesaura:calling_spirit"
+	}]
+}

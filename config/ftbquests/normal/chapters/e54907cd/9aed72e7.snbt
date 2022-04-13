@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 6.5d,
+	dependencies: [
+		"875d1784"
+	],
+	tasks: [{
+		uid: "39cd1947",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}]
+	}],
+	rewards: [{
+		uid: "f6726160",
+		type: "item",
+		item: "thaumcraft:tube"
+	}]
+}

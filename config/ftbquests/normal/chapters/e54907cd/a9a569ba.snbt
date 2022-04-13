@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: 6.0d,
+	dependencies: [
+		"40a7c949"
+	],
+	tasks: [{
+		uid: "230787aa",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}]
+	},
+	{
+		uid: "dbebb42d",
+		type: "item",
+		items: [{
+			item: "embers:brick_caminite"
+		}]
+	}],
+	rewards: [{
+		uid: "55056a41",
+		type: "item",
+		item: "deepmoblearning:polymer_clay",
+		count: 4
+	}]
+}

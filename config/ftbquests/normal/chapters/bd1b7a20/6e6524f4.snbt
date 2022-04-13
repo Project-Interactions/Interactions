@@ -1,0 +1,54 @@
+{
+	title: "精密装配台",
+	icon: "immersiveintelligence:metal_multiblock 1 6",
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"122dceed"
+	],
+	tasks: [{
+		uid: "e8882d29",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_decoration 1 1"
+		}]
+	},
+	{
+		uid: "aa0b477c",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 12L
+	},
+	{
+		uid: "72e5ca5d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 7L
+	},
+	{
+		uid: "cee572fc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 14L
+	},
+	{
+		uid: "3dcc9fdc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "cef5e037",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 5"
+		}]
+	}]
+}

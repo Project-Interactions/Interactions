@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_caeles_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:caeles_vis_plant",
+  "parent1": "thaumadditions:humanus_vis_plant",
+  "parent2": "thaumadditions:desiderium_vis_plant"
+}

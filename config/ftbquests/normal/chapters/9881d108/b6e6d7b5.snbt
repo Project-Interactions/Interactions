@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 10.5d,
+	text: [
+		"合金制作"
+	],
+	dependencies: [
+		"6b12eeda"
+	],
+	tasks: [{
+		uid: "78051986",
+		type: "item",
+		items: [{
+			item: "contenttweaker:useful_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f7355742",
+		type: "item",
+		item: "extrautils2:machine"
+	}]
+}

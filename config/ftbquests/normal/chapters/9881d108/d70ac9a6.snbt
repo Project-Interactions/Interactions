@@ -1,0 +1,20 @@
+{
+	x: -10.0d,
+	y: 11.0d,
+	text: [
+		"你可以使用这台机器更快捷的制作电路板"
+	],
+	dependencies: [
+		"b7129d45"
+	],
+	tasks: [{
+		uid: "fb7e7ff0",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:circutbuildermk1"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 11.5d,
+	y: 5.0d,
+	dependencies: [
+		"76b92a49"
+	],
+	tasks: [{
+		uid: "fed930b8",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bf5c8b5d",
+		type: "item",
+		item: "naturesaura:infused_iron_block"
+	}]
+}

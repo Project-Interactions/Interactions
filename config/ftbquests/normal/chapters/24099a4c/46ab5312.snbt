@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	dependencies: [
+		"dfe19840"
+	],
+	tasks: [{
+		uid: "a9a86d95",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard_ore"
+		}]
+	},
+	{
+		uid: "53825b49",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard"
+		}],
+		count: 4L
+	}]
+}

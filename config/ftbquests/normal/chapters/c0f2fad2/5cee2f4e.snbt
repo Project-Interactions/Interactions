@@ -1,0 +1,22 @@
+{
+	x: 8.5d,
+	y: 6.0d,
+	dependencies: [
+		"06244d0d",
+		"e382e71c",
+		"5b70ae6a"
+	],
+	tasks: [{
+		uid: "54f81907",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "00c5e158",
+		type: "item",
+		item: "botania:pool",
+		count: 4
+	}]
+}

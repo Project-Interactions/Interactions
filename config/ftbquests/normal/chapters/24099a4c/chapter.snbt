@@ -1,0 +1,10 @@
+{
+	title: "九阶段",
+	icon: "extendedcrafting:material 1 24",
+	description: [
+		"高级火箭和等价交换"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

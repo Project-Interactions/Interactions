@@ -1,0 +1,11 @@
+{
+	x: -7.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "9b74ac39",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: 9.5d,
+	y: 6.0d,
+	dependencies: [
+		"b537cdf5"
+	],
+	tasks: [{
+		uid: "833dab4b",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	},
+	{
+		uid: "972118af",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}],
+		count: 5L
+	},
+	{
+		uid: "289655bd",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	},
+	{
+		uid: "4c116111",
+		type: "item",
+		items: [{
+			id: "embers:tinker_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8037e843",
+		type: "item",
+		item: "embers:dust_ash",
+		count: 64
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"主世界"
+	],
+	dependencies: [
+		"7bcf509c"
+	],
+	tasks: [{
+		uid: "dfcf335a",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		}]
+	}]
+}

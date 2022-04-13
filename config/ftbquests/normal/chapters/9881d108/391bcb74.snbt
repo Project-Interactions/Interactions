@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 10.5d,
+	text: [
+		"提供GP电量"
+	],
+	dependencies: [
+		"7b944400",
+		"1d6bd286",
+		"b6e6d7b5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ed55b624",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "b2e63222",
+		type: "item",
+		item: "contenttweaker:useful_ingot",
+		count: 4
+	}]
+}

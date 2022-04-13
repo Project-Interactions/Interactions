@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumcraft/mutations/thaumcraft_lux_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumcraft:lux_flower_plant",
+  "parent1": "thaumcraft:ignis_flower_plant",
+  "parent2": "thaumcraft:aer_flower_plant"
+}

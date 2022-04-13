@@ -1,0 +1,8 @@
+{
+  "path": "mod_iceandfire/mutations/iceandfire_mythus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "iceandfire:mythus_vis_plant",
+  "parent1": "thaumadditions:bestia_vis_plant",
+  "parent2": "thaumadditions:praecantatio_vis_plant"
+}

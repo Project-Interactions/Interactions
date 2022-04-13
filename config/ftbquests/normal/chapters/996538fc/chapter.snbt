@@ -1,0 +1,10 @@
+{
+	title: "十阶段",
+	icon: "avaritia:resource 1 4",
+	description: [
+		"物品复制和无尽贪婪"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

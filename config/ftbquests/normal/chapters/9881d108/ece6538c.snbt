@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: 12.0d,
+	text: [
+		"可用共振仪获得",
+		"运算工艺还有很多功能，请不要局限于任务"
+	],
+	dependencies: [
+		"391bcb74"
+	],
+	tasks: [{
+		uid: "0c0c5d48",
+		type: "item",
+		title: "Any calculatorReinforcedStone",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "calculatorReinforcedStone"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e30b77e5",
+		type: "item",
+		item: "sonarcore:reinforcedstoneblock",
+		count: 16
+	}]
+}

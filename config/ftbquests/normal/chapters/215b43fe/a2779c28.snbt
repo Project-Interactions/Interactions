@@ -1,0 +1,14 @@
+{
+	x: 21.5d,
+	y: 1.5d,
+	dependencies: [
+		"b162deb7"
+	],
+	tasks: [{
+		uid: "0ba585fa",
+		type: "item",
+		items: [{
+			item: "psi:material 1 6"
+		}]
+	}]
+}

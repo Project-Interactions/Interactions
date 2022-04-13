@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_alkimia_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:alkimia_vis_plant",
+  "parent1": "thaumadditions:praecantatio_vis_plant",
+  "parent2": "thaumadditions:aqua_vis_plant"
+}

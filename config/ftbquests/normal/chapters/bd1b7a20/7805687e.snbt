@@ -1,0 +1,31 @@
+{
+	title: "盔甲装配台",
+	x: -4.5d,
+	y: -2.0d,
+	text: [
+		"盔甲装配台"
+	],
+	dependencies: [
+		"a245f056"
+	],
+	tasks: [{
+		uid: "c4185116",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f2f72bd9",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 4
+	}]
+}

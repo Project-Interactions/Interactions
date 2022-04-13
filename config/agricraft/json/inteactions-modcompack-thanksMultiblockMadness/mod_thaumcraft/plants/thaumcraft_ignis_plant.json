@@ -1,0 +1,74 @@
+{
+  "path": "mod_thaumcraft/plants/thaumcraft_ignis_plant.json",
+  "enabled": true,
+  "id": "thaumcraft:ignis_flower_plant",
+  "plant_name": "Ignis Vis Plant",
+  "seed_name": "Ignis Vis Seeds",
+  "seed_items": [
+    {
+      "item": "thaumadditions:vis_seeds",
+      "meta": 0,
+      "tags": "{Aspect: \"ignis\"}",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        ""
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Ignis Vis Seeds."
+  },
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 4,
+        "chance": 1.0,
+        "required": true,
+        "item": "thaumadditions:vis_pod",
+        "meta": 0,
+        "tags": "{Aspect: \"ignis\"}",
+        "ignoreMeta": false,
+        "ignoreTags": [
+          ""
+        ],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "enchanted_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "agricraft:items/seed_botania_black",
+    "plant_textures": [
+      "agricraft:blocks/crop_botania_black1",
+      "agricraft:blocks/crop_botania_black1",
+      "agricraft:blocks/crop_botania_black1",
+      "agricraft:blocks/crop_botania_black2",
+      "agricraft:blocks/crop_botania_black2",
+      "agricraft:blocks/crop_botania_black3",
+      "agricraft:blocks/crop_botania_black3",
+      "agricraft:blocks/crop_botania_black4"
+    ]
+  }
+}

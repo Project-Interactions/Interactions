@@ -1,0 +1,21 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	dependencies: [
+		"c565d4de"
+	],
+	tasks: [{
+		uid: "2c90729a",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 22"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1b0bd499",
+		type: "item",
+		item: "minecraft:string",
+		count: 16
+	}]
+}

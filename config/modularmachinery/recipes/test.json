@@ -1,0 +1,34 @@
+{
+    "machine": "starmetal",
+    "registryName": "starmetal_test",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item":"minecraft:iron_ore",
+            "amount":4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item":"astralsorcery:blockcollectorcrystal"
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid":"astralsorcery.liquidstarlight",
+            "amount":400
+        },
+        {
+            "type": "starlight",
+            "io-type": "input",
+            "amount": 400
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"astralsorcery:blockcustomore:1"
+        }
+    ]    
+}

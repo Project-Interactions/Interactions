@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "cc8d60fa",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	}],
+	rewards: [{
+		uid: "b5fa7e68",
+		type: "item",
+		item: "minecraft:beetroot_seeds"
+	}]
+}

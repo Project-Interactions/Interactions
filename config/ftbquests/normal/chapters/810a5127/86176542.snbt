@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 7.5d,
+	text: [
+		"盖亚！"
+	],
+	dependencies: [
+		"27db87cf"
+	],
+	tasks: [{
+		uid: "477bc631",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f0701b1e",
+		type: "item",
+		item: "plustic:mirionblock"
+	}]
+}

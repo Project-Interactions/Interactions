@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_vinculum_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:vinculum_vis_plant",
+  "parent1": "thaumadditions:motus_vis_plant",
+  "parent2": "thaumadditions:perditio_vis_plant"
+}

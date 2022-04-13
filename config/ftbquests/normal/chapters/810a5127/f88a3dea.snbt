@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	dependencies: [
+		"b60fb4eb",
+		"c0dbcaf5"
+	],
+	tasks: [{
+		uid: "d8ba1800",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "5bb3778b",
+		type: "xp",
+		xp: 400
+	}]
+}

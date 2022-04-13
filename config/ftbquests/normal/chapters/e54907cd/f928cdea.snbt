@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: -1.5d,
+	dependencies: [
+		"7c92894e"
+	],
+	tasks: [{
+		uid: "0051e136",
+		type: "item",
+		title: "无线流体终端",
+		items: [{
+			id: "wft:wft",
+			tag: {
+				InfinityEnergy: 0
+			}
+		},
+		{
+			id: "aeadditions:terminal.fluid.wireless",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

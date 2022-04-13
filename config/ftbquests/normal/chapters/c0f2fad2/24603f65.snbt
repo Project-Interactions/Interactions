@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: 4.5d,
+	dependencies: [
+		"bee2266f",
+		"c72bc720"
+	],
+	tasks: [{
+		uid: "5288ea8f",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:material_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "054e368b",
+		type: "item",
+		item: "thermalfoundation:material 1 70"
+	}]
+}

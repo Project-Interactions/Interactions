@@ -1,0 +1,512 @@
+{
+  "dependencies": "betweenores",
+  "populate": {
+    "betweenlands_coal": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:coal_ore"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 9
+      },
+      "cluster-count": 20,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_iron": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:iron_ore"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 9
+      },
+      "cluster-count": 20,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_gold": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:gold_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 9
+      },
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_redstone": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:redstone_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 8
+      },
+      "cluster-count": 8,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_lapis": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:lapis_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 7
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 31,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_diamond": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:diamond_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 8
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 18,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_emerald": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:emerald_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 2
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 18,
+      "retrogen": "false",
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "id",
+            "entry": [
+              "thebetweenlands:deep_waters"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_quartz": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:quartz_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 8
+      },
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 18,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_copper": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:copper_ore"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 12
+      },
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_tin": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:tin_ore"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 6
+      },
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_lead": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:lead_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 8
+      },
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 28,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_nickel": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:nickel_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 6
+      },
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 24,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_silver": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:silver_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 6
+      },
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 28,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_aluminum": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:aluminum_ore"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 8
+      },
+      "cluster-count": 8,
+      "min-height": 0,
+      "max-height": 75,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_platinum": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "betweenores:platinum_ore",
+            "weight": 40
+          },
+          {
+            "name": "betweenores:nickel_ore",
+            "weight": 60
+          }
+        ],
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 4
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 30,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_iridium": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "betweenores:iridium_ore",
+            "weight": 40
+          },
+          {
+            "name": "betweenores:platinum_ore",
+            "weight": 60
+          }
+        ],
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 4
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 25,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_mithril": {
+      "enabled": "false",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:mithril_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 2
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 10,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_uranium": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:uranium_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 8
+      },
+      "cluster-count": 8,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_osmium": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:osmium_ore"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 8
+      },
+      "cluster-count": 8,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_ardite": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:ardite_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 4
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 10,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_cobalt": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:cobalt_ore"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 2
+      },
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 10,
+      "retrogen": "false",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    }
+  }
+}

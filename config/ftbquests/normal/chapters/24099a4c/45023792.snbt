@@ -1,0 +1,14 @@
+{
+	x: 22.5d,
+	y: 5.5d,
+	dependencies: [
+		"017d85d6"
+	],
+	tasks: [{
+		uid: "cd0fb0a0",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 8"
+		}]
+	}]
+}

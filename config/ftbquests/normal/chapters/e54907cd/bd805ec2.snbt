@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: 7.5d,
+	dependencies: [
+		"a0cd9bf6"
+	],
+	tasks: [{
+		uid: "f5eb0e6c",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:advanced_pressure_tube"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "acb65e57",
+		type: "item",
+		item: "pneumaticcraft:compressed_iron_block"
+	}]
+}

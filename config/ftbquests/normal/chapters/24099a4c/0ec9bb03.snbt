@@ -1,0 +1,26 @@
+{
+	title: "三种芯片版",
+	x: 0.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "c70e7140",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 5"
+		}]
+	},
+	{
+		uid: "34179de5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 4"
+		}]
+	},
+	{
+		uid: "2f37fadd",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 3"
+		}]
+	}]
+}

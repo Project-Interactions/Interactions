@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 17.5d,
+	text: [
+		"可计算多项加法"
+	],
+	dependencies: [
+		"2301e937",
+		"5c46d3f5"
+	],
+	tasks: [{
+		uid: "d7f52c64",
+		type: "item",
+		items: [{
+			item: "calculator:dynamiccalculator"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "月球的矿石",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"月球采矿"
+	],
+	dependencies: [
+		"ec199187"
+	],
+	tasks: [{
+		uid: "29b575ce",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0"
+		}]
+	},
+	{
+		uid: "97624265",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0 1 8"
+		}]
+	}]
+}

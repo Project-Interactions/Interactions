@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"使用液态混凝土来增产混凝土"
+	],
+	dependencies: [
+		"418aa06b"
+	],
+	tasks: [{
+		uid: "ee3f7b87",
+		type: "fluid",
+		fluid: "gem_water"
+	}]
+}

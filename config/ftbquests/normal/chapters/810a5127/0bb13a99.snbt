@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	text: [
+		"升级版的词典"
+	],
+	dependencies: [
+		"8cc83eed"
+	],
+	tasks: [{
+		uid: "1d7dba4d",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.alfheim: 1b,
+				knowledge.relic: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78412f0b",
+		type: "xp",
+		xp: 100
+	}]
+}

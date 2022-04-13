@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"合成方式请查看JETIF"
+	],
+	dependencies: [
+		"b304dfce"
+	],
+	tasks: [{
+		uid: "4471e90b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "66088aa8",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 4
+	}]
+}

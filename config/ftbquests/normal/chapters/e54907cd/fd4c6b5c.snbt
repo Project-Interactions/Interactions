@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: 6.0d,
+	text: [
+		"放在基岩层使用管道加入煤炭可挖掘晶体"
+	],
+	dependencies: [
+		"a9a569ba"
+	],
+	tasks: [{
+		uid: "c8ccc3a6",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	}],
+	rewards: [{
+		uid: "400b28a9",
+		type: "item",
+		item: "enderio:item_item_conduit"
+	}]
+}

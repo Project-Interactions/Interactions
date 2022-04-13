@@ -1,0 +1,43 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	text: [
+		"使用魔力发射器"
+	],
+	dependencies: [
+		"8cf4d250"
+	],
+	tasks: [{
+		uid: "2ea29eb2",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	},
+	{
+		uid: "65596ae8",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "2d87a046",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "203d42c9",
+		type: "item",
+		item: "botania:livingrock",
+		count: 16
+	},
+	{
+		uid: "3ceacf36",
+		type: "item",
+		item: "botania:livingwood",
+		count: 16
+	}]
+}

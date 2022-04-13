@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"89928471"
+	],
+	tasks: [{
+		uid: "cbb388c2",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "b33acc0b",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 4
+	}]
+}

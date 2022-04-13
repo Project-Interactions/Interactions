@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "996c2219",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:compressed_iron_block"
+		}]
+	}],
+	rewards: [{
+		uid: "d7f05f28",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 8
+	}]
+}

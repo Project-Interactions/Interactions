@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 8.0d,
+	dependencies: [
+		"9aed72e7"
+	],
+	tasks: [{
+		uid: "aeb5c085",
+		type: "item",
+		items: [{
+			item: "thaumcraft:centrifuge"
+		}]
+	}]
+}

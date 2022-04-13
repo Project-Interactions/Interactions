@@ -1,0 +1,29 @@
+{
+	title: "搭建方式",
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"72369c1a"
+	],
+	tasks: [{
+		uid: "bacae357",
+		type: "item",
+		items: [{
+			item: "botanicadds:dreamrock"
+		}],
+		count: 5L
+	},
+	{
+		uid: "036b5548",
+		type: "item",
+		items: [{
+			item: "botanicadds:elven_lapis_block"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8d85a1f7",
+		type: "item",
+		item: "botania:spark"
+	}]
+}

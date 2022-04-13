@@ -1,0 +1,29 @@
+{
+	x: 10.5d,
+	y: 3.0d,
+	dependencies: [
+		"fa56a2f3"
+	],
+	tasks: [{
+		uid: "03aaf5cc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5b2c2851",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3ea0af90",
+		type: "item",
+		item: "astralsorcery:blockcustomsandore",
+		count: 8
+	}]
+}

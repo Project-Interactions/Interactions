@@ -1,0 +1,15 @@
+{
+	x: -8.5d,
+	y: 11.0d,
+	dependencies: [
+		"46eb9ec7",
+		"723a0fe9"
+	],
+	tasks: [{
+		uid: "decab4ee",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing 1 2"
+		}]
+	}]
+}

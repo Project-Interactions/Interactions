@@ -1,0 +1,128 @@
+{
+  "name": "infused_iron",
+  "tool": {
+    "bow": {
+      "speed": 0.9,
+      "range": 1.9,
+      "bonusDamage": 7.9
+    },
+    "fletching": {
+      "accuracy": 0,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 3.15,
+      "speed": 4.5375,
+      "durability": 153,
+      "harvestLevel": 2
+    },
+    "handle": {
+      "modifier": 1,
+      "durability": 45
+    },
+    "arrowShaft": {
+      "modifier": 0,
+      "bonusAmmo": 0
+    },
+    "bowstring": {
+      "modifier": 0
+    },
+    "extra": {
+      "durability": 38
+    }
+  },
+  "color": "#2B8A10",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 712,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Infused Iron",
+    "zh_cn": "灌注铁"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "naturesaura:infused_iron"
+    ],
+    "block": ["naturesaura:infused_iron_block"],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 12,
+      "defense": 16
+    },
+    "plates": {
+      "modifier": 1.2,
+      "durability": 10,
+      "toughness": 1
+    },
+    "trim": {
+      "extraDurability": 10
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "magnetic2",
+      "aura_infusion"
+    ],
+    "HEAD": [
+      "magnetic1",
+      "aura_infusion"
+    ],
+    "HANDLE": [
+      "magnetic1"
+    ],
+    "BOW": [
+      "magnetic1"
+    ],
+    "PROJECTILE": [
+      "magnetic1"
+    ],
+    "CORE": [
+      "aura_infusion",
+      "magnetic2_armor"
+    ],
+    "PLATES": [
+      "magnetic1_armor"
+    ],
+    "TRIM": [
+      "magnetic1_armor"
+    ]
+  }
+}

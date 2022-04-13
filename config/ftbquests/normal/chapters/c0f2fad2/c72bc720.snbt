@@ -1,0 +1,79 @@
+{
+	title: "电弧炉",
+	icon: "immersiveengineering:metal_multiblock 1 13",
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"e1cb37e2"
+	],
+	tasks: [{
+		uid: "729dd7ab",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	},
+	{
+		uid: "a25cd8bd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal_slab 1 8"
+		}],
+		count: 14L
+	},
+	{
+		uid: "6c04a301",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8f3f83a6",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy"
+		}],
+		count: 6L
+	},
+	{
+		uid: "81451c55",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "6ca42620",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "e443a9e2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "3b304d24",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "1e60f820",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	}]
+}

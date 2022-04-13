@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"41667046"
+	],
+	tasks: [{
+		uid: "da3dfd17",
+		type: "item",
+		items: [{
+			item: "teslacorelib:energy_tier2"
+		}]
+	}],
+	rewards: [{
+		uid: "fa05a3bd",
+		type: "item",
+		item: "teslacorelib:energy_tier2"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 16.5d,
+	y: 3.0d,
+	dependencies: [
+		"8149b103"
+	],
+	tasks: [{
+		uid: "2f6fe96c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:geode"
+		}]
+	}]
+}

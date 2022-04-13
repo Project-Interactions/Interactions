@@ -1,0 +1,47 @@
+{
+	title: "三种树苗",
+	x: -4.0d,
+	y: 22.5d,
+	text: [
+		"他们的原木都可以分离出水晶"
+	],
+	dependencies: [
+		"8adcd97c"
+	],
+	tasks: [{
+		uid: "db7c8893",
+		type: "item",
+		items: [{
+			item: "calculator:diamondsapling"
+		}]
+	},
+	{
+		uid: "7dda391a",
+		type: "item",
+		items: [{
+			item: "calculator:tanzanitesapling"
+		}]
+	},
+	{
+		uid: "97edd2e9",
+		type: "item",
+		items: [{
+			item: "calculator:amethystsapling"
+		}]
+	}],
+	rewards: [{
+		uid: "ef09635b",
+		type: "item",
+		item: "calculator:material 1 5"
+	},
+	{
+		uid: "7b49b7e5",
+		type: "item",
+		item: "calculator:material 1 1"
+	},
+	{
+		uid: "75273eba",
+		type: "item",
+		item: "calculator:material"
+	}]
+}

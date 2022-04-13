@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"2334c306"
+	],
+	tasks: [{
+		uid: "9d914d8a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:uranium 1 10"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "912c4319",
+		type: "item",
+		item: "nuclearcraft:fertile_isotope"
+	}]
+}

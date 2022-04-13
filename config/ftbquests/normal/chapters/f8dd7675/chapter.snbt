@@ -1,0 +1,7 @@
+{
+	title: "其他章节：无线设备",
+	icon: "wirelessutils:charged_pearl",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,36 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"合成方式已被修改"
+	],
+	dependencies: [
+		"349caba4"
+	],
+	tasks: [{
+		uid: "2d51935d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "8087ec76",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nugget 1 9"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d3205445",
+		type: "item",
+		item: "thaumcraft:thaumonomicon"
+	},
+	{
+		uid: "b583aef8",
+		type: "item",
+		item: "thaumcraft:nugget 1 9",
+		count: 8
+	}]
+}

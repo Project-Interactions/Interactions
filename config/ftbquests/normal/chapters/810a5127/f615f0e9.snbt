@@ -1,0 +1,28 @@
+{
+	x: 3.5d,
+	y: 4.5d,
+	dependencies: [
+		"f88a3dea"
+	],
+	tasks: [{
+		uid: "1e82ba05",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "b080cc4b",
+		type: "item",
+		item: {
+			id: "techreborn:dynamiccell",
+			tag: {
+				Fluid: {
+					FluidName: "astralsorcery.liquidstarlight",
+					Amount: 1000
+				}
+			}
+		},
+		count: 10
+	}]
+}

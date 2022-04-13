@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"6804c453"
+	],
+	tasks: [{
+		uid: "02cd38f1",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	}],
+	rewards: [{
+		uid: "f6a6984c",
+		type: "item",
+		item: "forestry:sturdy_machine"
+	}]
+}

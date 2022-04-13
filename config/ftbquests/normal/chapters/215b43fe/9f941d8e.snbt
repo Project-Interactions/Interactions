@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"a25a30b4"
+	],
+	tasks: [{
+		uid: "f12a3ff0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:kyronite_crystal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "055fe2eb",
+		type: "item",
+		item: "environmentaltech:modifier_speed"
+	},
+	{
+		uid: "7048011a",
+		type: "item",
+		item: "environmentaltech:kyronite"
+	}]
+}

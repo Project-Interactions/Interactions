@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 16.0d,
+	dependencies: [
+		"06244d0d",
+		"2b96e7ff"
+	],
+	tasks: [{
+		uid: "dd8e8ad5",
+		type: "item",
+		items: [{
+			item: "calculator:enrichedgoldingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f357a00e",
+		type: "item",
+		item: "calculator:material 1 2"
+	}]
+}

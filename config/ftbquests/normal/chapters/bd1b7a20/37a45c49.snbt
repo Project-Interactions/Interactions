@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 6.0d,
+	text: [
+		"用于精炼铁锭"
+	],
+	dependencies: [
+		"17643e90",
+		"de08f26e"
+	],
+	tasks: [{
+		uid: "0272002e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "a198f95a",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	}]
+}

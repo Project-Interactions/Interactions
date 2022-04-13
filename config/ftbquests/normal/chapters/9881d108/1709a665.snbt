@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 10.5d,
+	text: [
+		"只能使用石桶转换"
+	],
+	dependencies: [
+		"2852dda6",
+		"44b68ae0"
+	],
+	tasks: [{
+		uid: "f259eec8",
+		type: "fluid",
+		fluid: "witch_water"
+	}]
+}

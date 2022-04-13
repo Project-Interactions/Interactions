@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"e3564cc2"
+	],
+	tasks: [{
+		uid: "7bd17169",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	},
+	{
+		uid: "f3dd49c0",
+		type: "fluid",
+		fluid: "astralsorcery.liquidstarlight",
+		amount: 2000
+	}],
+	rewards: [{
+		uid: "b03fbbcc",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 8
+	}]
+}

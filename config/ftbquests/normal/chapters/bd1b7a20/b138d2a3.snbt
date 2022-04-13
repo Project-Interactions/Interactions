@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"爆炸后可获得各种宝石粉",
+		"宝石粉可爆炸为宝石"
+	],
+	dependencies: [
+		"58475d41"
+	],
+	tasks: [{
+		uid: "e1a14a2a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gem_essence"
+		}]
+	}]
+}

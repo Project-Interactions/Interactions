@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 10.5d,
+	dependencies: [
+		"09bc1a08"
+	],
+	tasks: [{
+		uid: "a63a2079",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:amadron_tablet 1 30000"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

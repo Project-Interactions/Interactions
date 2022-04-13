@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_potentia_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:potentia_vis_plant",
+  "parent1": "thaumadditions:ordo_vis_plant",
+  "parent2": "thaumadditions:ignis_vis_plant"
+}

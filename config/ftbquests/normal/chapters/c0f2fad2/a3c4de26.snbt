@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	dependencies: [
+		"0297fa47"
+	],
+	tasks: [{
+		uid: "e0cfd6e7",
+		type: "item",
+		title: "Any orePlatinum",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "orePlatinum"
+				}
+			}
+		}]
+	}]
+}

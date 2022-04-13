@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	dependencies: [
+		"3bb892f4",
+		"723cfcc5"
+	],
+	tasks: [{
+		uid: "d48fc7a3",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_control_computer"
+		}]
+	},
+	{
+		uid: "9d85303d",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_coil"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6faa7c9e",
+		type: "item",
+		item: "contenttweaker:material_part 1 73",
+		count: 64
+	}]
+}

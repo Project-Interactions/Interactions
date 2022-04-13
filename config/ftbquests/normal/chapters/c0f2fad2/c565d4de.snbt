@@ -1,0 +1,54 @@
+{
+	title: "魔力物品",
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"d8079d9f"
+	],
+	tasks: [{
+		uid: "e0957ee1",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8cf01dad",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d3174929",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5cc1b615",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}],
+		count: 8L
+	},
+	{
+		uid: "f57f099e",
+		type: "item",
+		items: [{
+			item: "botanicadds:mana_lapis"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bc4c2e18",
+		type: "item",
+		item: "techreborn:ingot 1 19",
+		count: 32
+	}]
+}

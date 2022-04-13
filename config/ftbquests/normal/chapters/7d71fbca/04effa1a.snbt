@@ -1,0 +1,18 @@
+{
+	x: 15.0d,
+	y: 3.0d,
+	dependencies: [
+		"41499ff0"
+	],
+	tasks: [{
+		uid: "89e3a678",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

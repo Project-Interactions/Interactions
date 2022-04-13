@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: 5.0d,
+	text: [
+		"加入燃料将物品转化成要素"
+	],
+	dependencies: [
+		"ef6cb1b8"
+	],
+	tasks: [{
+		uid: "40c4a3e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "37b33289",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "7d6b2306",
+		type: "item",
+		item: "minecraft:coal_block"
+	}]
+}

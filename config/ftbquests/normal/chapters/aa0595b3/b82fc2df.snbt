@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"用于生产水蒸气"
+	],
+	tasks: [{
+		uid: "b3b8ff32",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"0bab1356"
+	],
+	tasks: [{
+		uid: "8a1db4cf",
+		type: "item",
+		items: [{
+			item: "conarm:armorstation"
+		}]
+	}],
+	rewards: [{
+		uid: "718fd8d6",
+		type: "item",
+		item: "minecraft:log",
+		count: 16
+	}]
+}

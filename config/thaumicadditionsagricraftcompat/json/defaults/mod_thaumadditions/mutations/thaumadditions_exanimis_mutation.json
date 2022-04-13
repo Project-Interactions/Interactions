@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_exanimis_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:exanimis_vis_plant",
+  "parent1": "thaumadditions:motus_vis_plant",
+  "parent2": "thaumadditions:mortuus_vis_plant"
+}

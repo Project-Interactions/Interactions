@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 4.5d,
+	text: [
+		"已禁止TNT复制"
+	],
+	dependencies: [
+		"8cc83eed"
+	],
+	tasks: [{
+		uid: "7659d934",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "entropinnyum"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1576ffba",
+		type: "xp",
+		xp: 100
+	}]
+}

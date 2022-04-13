@@ -1,0 +1,127 @@
+{
+  "name": "refinediron",
+  "tool": {
+    "bow": {
+      "speed": 0.7,
+      "range": 1.8,
+      "bonusDamage": 8
+    },
+    "fletching": {
+      "accuracy": 0.0,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 5,
+      "speed": 6,
+      "durability": 420,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 1,
+      "durability": 40
+    },
+    "arrowShaft": {
+      "modifier": 0,
+      "bonusAmmo": 6
+    },
+    "bowstring": {
+      "modifier": 0
+    },
+    "extra": {
+      "durability": 150
+    }
+  },
+  "color": "#E1E8EB",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 700,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Refined Iron",
+    "zh_cn": "精炼铁"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "techreborn:ingot:19"
+    ],
+    "block": ["techreborn:storage2:10"],
+    "nugget": ["techreborn:nuggets:19"],
+    "ore": [],
+    "dust": [],
+    "plate": ["techreborn:plates:35"],
+    "gear": ["contenttweaker:material_part:43"]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 12,
+      "defense": 16
+    },
+    "plates": {
+      "modifier": 1.2,
+      "durability": 10,
+      "toughness": 1
+    },
+    "trim": {
+      "extraDurability": 10
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "magnetic2",
+      "magnetic1"
+    ],
+    "HEAD": [
+      "magnetic1"
+    ],
+    "HANDLE": [
+      "magnetic1"
+    ],
+    "BOW": [
+      "magnetic1"
+    ],
+    "PROJECTILE": [
+      "magnetic1"
+    ],
+    "CORE": [
+      "magnetic1_armor",
+      "magnetic2_armor"
+    ],
+    "PLATES": [
+      "magnetic1_armor"
+    ],
+    "TRIM": [
+      "magnetic1_armor"
+    ]
+  }
+}

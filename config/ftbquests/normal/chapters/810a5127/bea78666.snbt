@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"33485b33"
+	],
+	tasks: [{
+		uid: "11ecdf8c",
+		type: "item",
+		items: [{
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_auram_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:auram_vis_plant",
+  "parent1": "thaumadditions:praecantatio_vis_plant",
+  "parent2": "thaumadditions:aer_vis_plant"
+}

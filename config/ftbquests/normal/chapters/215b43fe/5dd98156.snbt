@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: 4.5d,
+	dependencies: [
+		"4749bb54",
+		"df037d25"
+	],
+	tasks: [{
+		uid: "dfc8ee50",
+		type: "item",
+		items: [{
+			item: "matc:inferiumcrystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

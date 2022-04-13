@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: 9.0d,
+	dependencies: [
+		"7cd6f6d2"
+	],
+	tasks: [{
+		uid: "238a4736",
+		type: "fluid",
+		fluid: "aetherworks.impure_aetherium_gas",
+		amount: 144
+	}]
+}

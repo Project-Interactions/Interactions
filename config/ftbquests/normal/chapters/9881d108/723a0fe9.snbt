@@ -1,0 +1,30 @@
+{
+	x: -7.5d,
+	y: 11.5d,
+	text: [
+		"电解铝土矿石获得小堆钛粉"
+	],
+	dependencies: [
+		"9ab21fca"
+	],
+	tasks: [{
+		uid: "8a13d878",
+		type: "item",
+		title: "Any ingotTitanium",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotTitanium"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "aaec9a6c",
+		type: "item",
+		item: "techreborn:storage 1 2"
+	}]
+}

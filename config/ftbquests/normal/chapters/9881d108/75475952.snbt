@@ -1,0 +1,18 @@
+{
+	x: -6.5d,
+	y: 14.0d,
+	dependencies: [
+		"62e01842",
+		"2f0d9356"
+	],
+	tasks: [{
+		uid: "63f29c69",
+		type: "item",
+		items: [{
+			id: "calculator:energymodule",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

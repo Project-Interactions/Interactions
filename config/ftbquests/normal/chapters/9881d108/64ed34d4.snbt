@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 7.5d,
+	dependencies: [
+		"a4338b01"
+	],
+	tasks: [{
+		uid: "58e60772",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 12"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d4f7887e",
+		type: "item",
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "xu_enchanted_metal"
+			}
+		}
+	}]
+}

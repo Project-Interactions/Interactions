@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_imperium_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:imperium_vis_plant",
+  "parent1": "thaumadditions:cognitio_vis_plant",
+  "parent2": "thaumadditions:machina_vis_plant"
+}

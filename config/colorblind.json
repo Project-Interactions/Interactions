@@ -1,0 +1,77 @@
+{
+  "defaults": [
+    {
+      "stack": "ingotIron",
+      "overlay": "Fe"
+    },
+    {
+      "stack": "ingotGold",
+      "overlay": "Au"
+    },
+    {
+      "stack": "ingotCopper",
+      "overlay": "Cu"
+    },
+    {
+      "stack": "ingotTin",
+      "overlay": "Sn"
+    },
+    {
+      "stack": "ingotLead",
+      "overlay": "Pb"
+    },
+    {
+      "stack": "ingotBronze",
+      "overlay": "Bz"
+    },
+    {
+      "stack": "ingotSteel",
+      "overlay": "Stl"
+    },
+    {
+      "stack": "ingotAluminum",
+      "overlay": "Al"
+    },
+    {
+      "stack": "ingotAluminium",
+      "overlay": "Al"
+    },
+    {
+      "stack": "ingotNickel",
+      "overlay": "Ni"
+    },
+    {
+      "stack": "ingotPlatinum",
+      "overlay": "Pt"
+    },
+    {
+      "stack": "ingotElectrum",
+      "overlay": "Ec"
+    },
+    {
+      "stack": "ingotInvar",
+      "overlay": "Inv"
+    },
+    {
+      "stack": "ingotSilver",
+      "overlay": "Ag"
+    },
+    {
+      "stack": "ingotCobalt",
+      "overlay": "Co"
+    },
+    {
+      "stack": "ingotBrass",
+      "overlay": "Br"
+    },
+    {
+      "stack": "ingotAluminumBrass",
+      "overlay": "AlBr"
+    },
+    {
+      "stack": "ingotArdite",
+      "overlay": "Ard"
+    }
+  ],
+  "custom": []
+}

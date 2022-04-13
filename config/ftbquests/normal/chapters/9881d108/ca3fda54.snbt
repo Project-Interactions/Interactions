@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	dependencies: [
+		"e71e1292"
+	],
+	tasks: [{
+		uid: "d8ce3dbc",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_6"
+		}]
+	}],
+	rewards: [{
+		uid: "5740460b",
+		type: "item",
+		item: "solarflux:photovoltaic_cell_4",
+		count: 3
+	}]
+}

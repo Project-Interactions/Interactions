@@ -1,0 +1,29 @@
+{
+	title: "种子",
+	x: 15.0d,
+	y: 3.5d,
+	dependencies: [
+		"6b42b359"
+	],
+	tasks: [{
+		uid: "4fd92cb2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:blizz_seeds"
+		}]
+	},
+	{
+		uid: "0f63772b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:blitz_seeds"
+		}]
+	},
+	{
+		uid: "23050ee3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:basalz_seeds"
+		}]
+	}]
+}

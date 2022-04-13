@@ -1,0 +1,130 @@
+{
+  "name": "tic_useful_metal",
+  "tool": {
+    "bow": {
+      "speed": 1,
+      "range": 1.0,
+      "bonusDamage": 5.0
+    },
+    "fletching": {
+      "accuracy": 0.0,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 10,
+      "speed": 10,
+      "durability": 1000,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1.0,
+      "durability": 50
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.0
+    },
+    "extra": {
+      "durability": 80
+    }
+  },
+  "color": "#759E7F",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1300,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Useful Metal",
+    "zh_cn": "实用合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "contenttweaker:useful_ingot"
+    ],
+    "block": ["contenttweaker:useful_block"],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 1.2,
+      "durability": 15,
+      "toughness": 2
+    },
+    "trim": {
+      "extraDurability": 10
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "xu_whispering",
+      "xu_withering"
+    ],
+    "HEAD": [
+      "xu_whispering",
+      "xu_withering"
+    ],
+    "HANDLE": [
+      "xu_whispering",
+      "xu_withering"
+    ],
+    "BOW": [
+      "xu_whispering",
+      "xu_withering"
+    ],
+    "PROJECTILE": [
+      "xu_whispering",
+      "xu_withering"
+    ],
+    "CORE": [
+      "dramatic_armor"
+    ],
+    "PLATES": [
+      "dramatic_armor"
+    ],
+    "TRIM": [
+      "dramatic_armor"
+    ]
+  }
+}

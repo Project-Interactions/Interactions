@@ -1,0 +1,8 @@
+{
+  "path": "mod_fossil/mutations/fossil_priscus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "fossil:priscus_vis_plant",
+  "parent1": "thaumadditions:bestia_vis_plant",
+  "parent2": "fossil:chronos_vis_plant"
+}

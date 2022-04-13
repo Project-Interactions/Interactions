@@ -1,0 +1,21 @@
+{
+	x: 11.5d,
+	y: 3.5d,
+	dependencies: [
+		"f293f38e",
+		"37ad84de"
+	],
+	tasks: [{
+		uid: "cf200c0d",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4843c188",
+		type: "item",
+		item: "compactmachines3:psd"
+	}]
+}

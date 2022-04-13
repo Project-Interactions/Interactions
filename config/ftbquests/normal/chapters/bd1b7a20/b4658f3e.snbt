@@ -1,0 +1,41 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	dependencies: [
+		"40686db9"
+	],
+	tasks: [{
+		uid: "d4e896ce",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 26"
+		}]
+	},
+	{
+		uid: "4e3a99d5",
+		type: "item",
+		title: "Any plateNickel",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plateNickel"
+				}
+			}
+		}]
+	},
+	{
+		uid: "be1cbd96",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "bb8f7f98",
+		type: "item",
+		item: "immersiveintelligence:material 1 1"
+	}]
+}

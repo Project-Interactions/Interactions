@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "cbb4d50a",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_1"
+		}]
+	}],
+	rewards: [{
+		uid: "27366377",
+		type: "item",
+		item: "solarflux:mirror",
+		count: 4
+	}]
+}

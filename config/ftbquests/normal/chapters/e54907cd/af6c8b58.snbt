@@ -1,0 +1,42 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"2a299240"
+	],
+	tasks: [{
+		uid: "d6675466",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_valve"
+		}]
+	},
+	{
+		uid: "ad7bc7ca",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_interface"
+		}],
+		count: 2L
+	},
+	{
+		uid: "74cdf2fb",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_wall"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "50b64ad4",
+		type: "item",
+		item: "pneumaticcraft:compressed_iron_block",
+		count: 2
+	},
+	{
+		uid: "d02505ab",
+		type: "item",
+		item: "pneumaticcraft:pressure_tube",
+		count: 2
+	}]
+}

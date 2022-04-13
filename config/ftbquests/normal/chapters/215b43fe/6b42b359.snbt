@@ -1,0 +1,34 @@
+{
+	title: "灵魂碎片",
+	x: 15.0d,
+	y: 2.5d,
+	dependencies: [
+		"f293f38e"
+	],
+	tasks: [{
+		uid: "b6cd3c4a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 21"
+		}]
+	},
+	{
+		uid: "fc395486",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 22"
+		}]
+	},
+	{
+		uid: "d93496ac",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "44a7a020",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 19"
+	}]
+}

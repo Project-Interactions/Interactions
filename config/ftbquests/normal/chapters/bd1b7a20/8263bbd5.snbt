@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	dependencies: [
+		"ad9c2e04"
+	],
+	tasks: [{
+		uid: "cda53252",
+		type: "item",
+		items: [{
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9302641d",
+		type: "item",
+		item: "nuclearcraft:cobblestone_generator"
+	}]
+}

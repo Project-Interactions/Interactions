@@ -1,0 +1,25 @@
+{
+	icon: "immersiveengineering:stone_device 1 7",
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"用于制作基础合金"
+	],
+	dependencies: [
+		"633a444a"
+	],
+	tasks: [{
+		uid: "df87081b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "670fba3d",
+		type: "item",
+		item: "techreborn:ingot 1 2",
+		count: 4
+	}]
+}

@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_tenebrae_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:tenebrae_vis_plant",
+  "parent1": "thaumadditions:vacuos_vis_plant",
+  "parent2": "thaumadditions:lux_vis_plant"
+}

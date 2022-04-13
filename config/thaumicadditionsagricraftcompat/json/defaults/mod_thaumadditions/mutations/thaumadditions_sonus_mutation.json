@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_sonus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:sonus_vis_plant",
+  "parent1": "thaumadditions:fluctus_vis_plant",
+  "parent2": "thaumadditions:aer_vis_plant"
+}

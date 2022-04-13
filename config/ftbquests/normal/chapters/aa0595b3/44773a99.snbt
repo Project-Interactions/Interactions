@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"你需要生产硫酸供化学溶解器使用"
+	],
+	dependencies: [
+		"b06c9298",
+		"b82fc2df",
+		"2f890230"
+	],
+	tasks: [{
+		uid: "84d3a805",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

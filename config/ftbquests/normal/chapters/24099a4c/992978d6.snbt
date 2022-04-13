@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 3.0d,
+	dependencies: [
+		"07175066"
+	],
+	tasks: [{
+		uid: "ddd32281",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enrichedsunnarium"
+		}]
+	}]
+}

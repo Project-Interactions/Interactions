@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_mortuus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:mortuus_vis_plant",
+  "parent1": "thaumadditions:aqua_vis_plant",
+  "parent2": "thaumadditions:perditio_vis_plant"
+}

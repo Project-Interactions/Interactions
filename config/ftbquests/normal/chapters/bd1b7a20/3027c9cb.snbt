@@ -1,0 +1,55 @@
+{
+	title: "混合器",
+	icon: "immersiveengineering:metal_multiblock 1 15",
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"122dceed"
+	],
+	tasks: [{
+		uid: "69812715",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "7c12d901",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 3L
+	},
+	{
+		uid: "521b89a5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "d0d6856b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "99c398df",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 9"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7a9a3058",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}]
+	}]
+}

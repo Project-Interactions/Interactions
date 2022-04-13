@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 7.5d,
+	text: [
+		"天境也有矿物哦",
+		"主大陆可能距离岛屿较远",
+		"冰石可用于制作活石"
+	],
+	dependencies: [
+		"e7935822"
+	],
+	tasks: [{
+		uid: "9b622d5c",
+		type: "dimension",
+		title: "天境",
+		dim: 13
+	}],
+	rewards: [{
+		uid: "670f8289",
+		type: "item",
+		item: "tconstruct:slime_boots"
+	}]
+}

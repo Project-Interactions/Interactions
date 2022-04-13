@@ -1,0 +1,10 @@
+{
+	title: "阶段三",
+	icon: "astralsorcery:itemcraftingcomponent 1 1",
+	description: [
+		"工业先锋与星辉魔法"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

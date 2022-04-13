@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"7b207a56"
+	],
+	tasks: [{
+		uid: "7741ca54",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:deep_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea45ae19",
+		type: "item",
+		item: "deepmoblearning:data_model_blank",
+		count: 2
+	}]
+}

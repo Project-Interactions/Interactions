@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 7.5d,
+	text: [
+		"旁边放岩浆来获取热量进行工作",
+		"岩浆过一段时间会变成黑曜石"
+	],
+	tasks: [{
+		uid: "a410097c",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:refinery"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "5d945c08",
+		type: "item",
+		item: {
+			id: "techreborn:dynamiccell",
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	}]
+}

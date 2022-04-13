@@ -1,0 +1,14 @@
+{
+	x: 20.5d,
+	y: 3.0d,
+	dependencies: [
+		"093c6725"
+	],
+	tasks: [{
+		uid: "ca145ad3",
+		type: "item",
+		items: [{
+			item: "psi:material 1 3"
+		}]
+	}]
+}

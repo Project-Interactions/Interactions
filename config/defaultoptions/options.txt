@@ -1,0 +1,7 @@
+锘�
+
+lang:zh_CN
+
+forceUnicodeFont:true
+
+fullscreen:false

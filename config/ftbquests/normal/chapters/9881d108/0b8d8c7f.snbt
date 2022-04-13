@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 21.0d,
+	dependencies: [
+		"adf3c2eb",
+		"c92d4307"
+	],
+	tasks: [{
+		uid: "0864cd0c",
+		type: "item",
+		items: [{
+			item: "calculator:enddiamond"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 4.5d,
+	dependencies: [
+		"fb7e4419"
+	],
+	tasks: [{
+		uid: "f7b11502",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 8"
+		}]
+	}]
+}

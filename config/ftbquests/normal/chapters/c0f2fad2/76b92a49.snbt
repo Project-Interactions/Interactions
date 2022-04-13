@@ -1,0 +1,20 @@
+{
+	x: 11.5d,
+	y: 3.0d,
+	dependencies: [
+		"9a01903b"
+	],
+	tasks: [{
+		uid: "3681721c",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "832a8136",
+		type: "item",
+		item: "minecraft:stonebrick",
+		count: 32
+	}]
+}

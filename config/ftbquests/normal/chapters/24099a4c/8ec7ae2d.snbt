@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 4.5d,
+	text: [
+		"能量储存21亿"
+	],
+	dependencies: [
+		"46ab5312",
+		"1c211eba",
+		"992978d6"
+	],
+	tasks: [{
+		uid: "3076a686",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	}]
+}

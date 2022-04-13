@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: 12.5d,
+	shape: "gear",
+	text: [
+		"三级电路板"
+	],
+	dependencies: [
+		"81a41d6e"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d2f86897",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 43"
+		}]
+	},
+	{
+		uid: "26f4ddd5",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 1"
+		}]
+	}]
+}

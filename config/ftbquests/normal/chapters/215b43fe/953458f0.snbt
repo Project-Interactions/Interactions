@@ -1,0 +1,15 @@
+{
+	x: 16.5d,
+	y: 0.0d,
+	dependencies: [
+		"cf4d0576"
+	],
+	tasks: [{
+		uid: "6bc4e525",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembly"
+		}],
+		ignore_nbt: 1b
+	}]
+}
