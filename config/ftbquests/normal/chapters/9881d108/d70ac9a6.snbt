@@ -8,12 +8,12 @@
 		"b7129d45"
 	],
 	tasks: [{
-		uid: "fb7e7ff0",
+		uid: "456d1dd5",
 		type: "item",
 		items: [{
 			id: "modularmachinery:itemblueprint",
 			tag: {
-				dynamicmachine: "modularmachinery:circutbuildermk1"
+				dynamicmachine: "modularmachinery:circutbuilderMK1"
 			}
 		}]
 	}]

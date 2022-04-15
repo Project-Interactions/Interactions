@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<minecraft:end_portal_frame>);
 recipes.remove(<enderio:item_item_conduit> * 8);
 recipes.remove(<enderio:block_inventory_panel>);
 recipes.remove(<actuallyadditions:item_mining_lens>);
