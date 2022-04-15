@@ -1,0 +1,15 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+pneumaticcraft:mechanic
+actuallyadditions:jamguy
+actuallyadditions:engineer
+immersiveengineering:engineer
+forestry:arborist
+forestry:apiarist
+extrautils2:alchemist
+extrautils2:red_mechanic
+extrautils2:shady_merchant
