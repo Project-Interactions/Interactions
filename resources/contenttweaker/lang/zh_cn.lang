@@ -65,7 +65,6 @@ contenttweaker.part.sheetmetal=%s板方块
 contenttweaker.part.machine_frame=%s机器框架
 contenttweaker.part.coil=%s线圈
 contenttweaker.part.wire=%s线
-contenttweaker.part.singularity=%s奇点
 item.contenttweaker.circuit_extreme3.name=精致主机
 item.contenttweaker.circuit_elite3.name=处理器主机
 item.contenttweaker.circuit_master3.name=纳米主机
