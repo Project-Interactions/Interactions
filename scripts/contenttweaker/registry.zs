@@ -15,17 +15,12 @@ mods.contenttweaker.MaterialSystem.getPartBuilder().setName("coin").setPartType(
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_tiny").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustTiny").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_small").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustSmall").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("plate_dense").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("plateDense").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_dirty").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustDirty").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("clump").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("clump").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("shard").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("shard").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("crystal").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("crystal").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("crushed").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("crushed").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("purified").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("crushedPurified").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("cluster").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("cluster").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("sheet").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("sheet").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("casing").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("casing").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("wire").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("wire").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("singularity").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("singularity").build();
+mods.contenttweaker.MaterialSystem.getPartBuilder().setName("screw").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("screw").build();
+mods.contenttweaker.MaterialSystem.getPartBuilder().setName("rotor").setPartType(mods.contenttweaker.MaterialSystem.getPartType("rotor")).setOreDictName("frame").build();
 
 //part block
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("scaffolding").setPartType(mods.contenttweaker.MaterialSystem.getPartType("block")).setOreDictName("scaffolding").build();

@@ -2,16 +2,8 @@
     "registryname":"biologyreactionchamber",
     "localizedname":"生物反应室",
     "requires-blueprint":true,
-    "color":"0000000",
+    "color":"003300",
     "parts": [
-        {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
         {
             "x": -1,
             "y": 0,
