@@ -20,7 +20,7 @@ mods.contenttweaker.MaterialSystem.getPartBuilder().setName("casing").setPartTyp
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("wire").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("wire").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("singularity").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("singularity").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("screw").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("screw").build();
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("rotor").setPartType(mods.contenttweaker.MaterialSystem.getPartType("rotor")).setOreDictName("rotor").build();
+mods.contenttweaker.MaterialSystem.getPartBuilder().setName("rotor").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("rotor").build();
 
 //part block
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("scaffolding").setPartType(mods.contenttweaker.MaterialSystem.getPartType("block")).setOreDictName("scaffolding").build();
