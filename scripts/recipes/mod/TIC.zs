@@ -140,8 +140,8 @@ mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:20>, <imme
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:21>, <immersiveengineering:mold:4>, <liquid:electrum>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:22>, <immersiveengineering:mold:4>, <liquid:aluminum>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:23>, <immersiveengineering:mold:4>, <liquid:steel>,144,false, 80);
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:44>, <immersiveengineering:mold:4>, <liquid:refinediron>,144,false, 80);
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:53>, <immersiveengineering:mold:4>, <liquid:gold>,144,false, 80);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:15>, <immersiveengineering:mold:4>, <liquid:refinediron>,144,false, 80);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:16>, <immersiveengineering:mold:4>, <liquid:gold>,144,false, 80);
 
 //高炉
 mods.tcomplement.highoven.HighOven.removeFuel(<ore:fuelCoal>);

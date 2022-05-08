@@ -20,7 +20,7 @@ null, null,
 <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>]);
 
 
-mods.astralsorcery.LightTransmutation.addTransmutation(<twilightforest:wispy_cloud>,<contenttweaker:sub_block_holder_0:5> , 80);
+mods.astralsorcery.LightTransmutation.addTransmutation(<twilightforest:wispy_cloud>,<contenttweaker:sub_block_holder_0:1> , 80);
 
 
 //

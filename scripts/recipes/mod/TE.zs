@@ -99,7 +99,7 @@ recipes.removeShaped(<thermalfoundation:material:515>, [[<ore:dustRedstone>, nul
 
 recipes.removeShapeless(<redstonearsenal:material:160> * 2, [<ore:gemDiamond>, <ore:gemDiamond>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:material_part:132>,<extendedcrafting:material:48> , <liquid:uu>*144,12000 );
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:material_part:82>,<extendedcrafting:material:48> , <liquid:uu>*144,12000 );
 
 
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:1028>,<taiga:adamant_dust> , <liquid:will_alloy>*1000,4800);

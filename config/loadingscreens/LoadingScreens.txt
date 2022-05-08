@@ -1,2 +1,0 @@
-background = addStretchedTexture("top_left", "interaction:gui/loadscreen.png")
-background.setRelRender(1, 1)

@@ -47,13 +47,13 @@ recipes.addShaped(<nuclearcraft:separator>, [[<nuclearcraft:part:1>, <ore:motor>
 recipes.removeShaped(<bloodmagic:altar>, [[<ore:stone>, null, <ore:stone>], [<ore:stone>, <minecraft:furnace>, <ore:stone>], [<ore:ingotGold>, <bloodmagic:monster_soul>, <ore:ingotGold>]]);
 recipes.removeShaped(<bloodmagic:soul_forge>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:stone>, <ore:ingotGold>, <ore:stone>], [<ore:stone>, <ore:blockIron>, <ore:stone>]]);
 //test
-Radiation.setRadiationLevel(<contenttweaker:material_part:96>,2.1);
-Radiation.setRadiationLevel(<contenttweaker:material_part:97>,2.1);
-Radiation.setRadiationLevel(<contenttweaker:material_part:98>,2.1);
-Radiation.setRadiationLevel(<contenttweaker:material_part:99>,2.1);
-Radiation.setRadiationLevel(<contenttweaker:material_part:100>,2.1);
-Radiation.setRadiationLevel(<contenttweaker:material_part:101>,2.1);
-Radiation.setRadiationLevel(<contenttweaker:sub_block_holder_0:7>,3.2);
+Radiation.setRadiationLevel(<contenttweaker:material_part:53>,2.1);
+Radiation.setRadiationLevel(<contenttweaker:material_part:54>,2.1);
+Radiation.setRadiationLevel(<contenttweaker:material_part:55>,2.1);
+Radiation.setRadiationLevel(<contenttweaker:material_part:56>,2.1);
+Radiation.setRadiationLevel(<contenttweaker:material_part:57>,2.1);
+Radiation.setRadiationLevel(<contenttweaker:material_part:58>,2.1);
+Radiation.setRadiationLevel(<contenttweaker:sub_block_holder_0:4>,3.2);
 Radiation.setRadiationLevel(<liquid:heavymetalelements>,2.1);
 Melter.removeRecipeWithOutput(<liquid:crystalline_alloy>*16);
 Melter.removeRecipeWithOutput(<liquid:melodic_alloy>*16);

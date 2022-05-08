@@ -89,11 +89,10 @@ xhsj.build();
 //
 //ganguo
 val gg = mods.modularmachinery.RecipeBuilder.newBuilder("starmetal_ganguo","starmetal", 400);
-gg.addItemInput(<minecraft:cauldron>);
 gg.addItemInput(<botania:manaresource:5>*2);
-gg.addItemInput(<contenttweaker:sub_block_holder_0:5>*16);
+gg.addItemInput(<contenttweaker:sub_block_holder_0:10>*16);
 gg.addStarlightInput(1000,"astralsorcery.constellation.horologium");
-gg.addItemOutput(<thaumcraft:crucible>);
+gg.addItemOutput(<thaumcraft:salis_mundus>);
 gg.build();
 
 //深化魔力池

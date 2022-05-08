@@ -18,7 +18,7 @@ mods.inworldcrafting.FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_wa
 
 mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cobalt>, [<thermalfoundation:geode>*8], true);
 
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:sub_block_holder_0:8>, <liquid:mana>, [<thaumadditions:mithrillium_block>], true);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:sub_block_holder_0:10>, <liquid:mana>, [<thaumadditions:mithrillium_block>], true);
 
 
 mods.inworldcrafting.FluidToFluid.transform(<liquid:witch_water>, <liquid:sewage>, [<tconstruct:slime_dirt>], true);

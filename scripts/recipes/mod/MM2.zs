@@ -12,7 +12,7 @@ val lpt = mods.modularmachinery.RecipeBuilder.newBuilder("circutbuilderMK1_cryst
 lpt.addEnergyPerTickInput(280);
 lpt.addItemInput(<ore:circuitAdvancedQ>,2);
 lpt.addItemInput(<techreborn:energycrystal>);
-lpt.addItemInput(<moreplates:empowered_diamatine_gear>);
+lpt.addItemInput(<moreplates:diamatine_gear>);
 lpt.addItemOutput(<techreborn:lapotroncrystal>.withTag({energy: 0}));
 lpt.addManaInput(32000);
 lpt.build();

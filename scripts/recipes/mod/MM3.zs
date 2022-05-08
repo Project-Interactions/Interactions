@@ -81,7 +81,7 @@ t6.addItemInput(<contenttweaker:circuit_extreme3>);
 t6.addItemInput(<thaumicrestoration:item_plate:4>*4);
 t6.addItemInput(<qmd:ingot_alloy:6>*4);
 t6.addItemInput(<contenttweaker:sunnarium>*4);
-t6.addItemInput(<contenttweaker:material_part:134>*2);
+t6.addItemInput(<contenttweaker:material_part:84>*2);
 t6.addAspcetInput(40,"instrumentum");
 t6.addItemOutput(<contenttweaker:circuit_elite3>);
 t6.build();

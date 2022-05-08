@@ -95,7 +95,7 @@ mods.botania.OrechidIgnem.addOre(<ore:oreValyrium>,5);
 mods.botania.OrechidIgnem.addOre(<ore:oreTiberium>,12);
 
 
-mods.botania.OrechidEndium.removeOre(<ore:oreDraconium>);
+mods.botania.OrechidEndium.removeOre(<ore:oreEndDraconium>);
 mods.botania.OrechidEndium.removeOre(<ore:oreEndInferium>);
 mods.botania.OrechidEndium.removeOre(<ore:oreEndProsperity>);
 //魔力玻璃
