@@ -76,7 +76,6 @@ recipes.remove(<projecte:item.pe_dm_pick>);
 recipes.remove(<projectex:alchemy_table>);
 recipes.remove(<projecte:condenser_mk2>);
 recipes.remove(<projectex:stone_table>);
-recipes.remove(<projectex:clay_matter>);
 
 mods.extendedcrafting.TableCrafting.addShaped(1, <projecte:item.pe_dm_armor_3>, [
 	[null, <conarm:armor_plate>.withTag({Material: "dark_matter"}), null], 
