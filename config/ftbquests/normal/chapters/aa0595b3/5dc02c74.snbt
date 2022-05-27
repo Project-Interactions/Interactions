@@ -19,11 +19,5 @@
 			item: "techreborn:fusion_coil"
 		}],
 		count: 16L
-	}],
-	rewards: [{
-		uid: "6faa7c9e",
-		type: "item",
-		item: "contenttweaker:material_part 1 73",
-		count: 64
 	}]
 }

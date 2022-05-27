@@ -13,11 +13,5 @@
 		items: [{
 			item: "modularcontroller:blastfurnace_mk3_controller"
 		}]
-	}],
-	rewards: [{
-		uid: "40fbb359",
-		type: "item",
-		item: "contenttweaker:material_part 1 96",
-		count: 32
 	}]
 }

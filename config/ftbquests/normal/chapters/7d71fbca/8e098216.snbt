@@ -8,7 +8,7 @@
 		uid: "f7b11502",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_0 1 8"
+			item: "contenttweaker:sub_block_holder_0 1 10"
 		}]
 	}]
 }
