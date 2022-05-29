@@ -94,6 +94,7 @@ recipes.removeShaped(<computronics:colorful_lamp>, [[<ore:ingotIron>, <ore:block
 recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<zensummoning:altar>, [[<moreplates:demon_plate>, null, <moreplates:demon_plate>],[null, <extrautils2:compressednetherrack:3>, null], [<moreplates:demon_plate>, null, <moreplates:demon_plate>]]);
 recipes.addShaped(<enderio:item_item_conduit> * 9, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<tconstruct:materials:14> * 8, [[<moreplates:refined_obsidian_plate>, <ore:plateRefinedObsidian>, <moreplates:refined_obsidian_plate>],[<ore:plateRefinedObsidian>, <tconstruct:metal:5>, <ore:plateRefinedObsidian>], [<moreplates:refined_obsidian_plate>, <ore:plateRefinedObsidian>, <moreplates:refined_obsidian_plate>]]);
 recipes.addShaped(<tconstruct:materials:14> * 4, [[<calculator:purifiedobsidian>, <calculator:purifiedobsidian>, <calculator:purifiedobsidian>],[<calculator:purifiedobsidian>, <tconstruct:metal:5>, <calculator:purifiedobsidian>], [<calculator:purifiedobsidian>, <calculator:purifiedobsidian>, <calculator:purifiedobsidian>]]);
