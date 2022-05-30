@@ -64,14 +64,14 @@
   },
   "smeltingItems": {
     "ingot": [
-      "contenttweaker:material_part:139"
+      "contenttweaker:material_part:89"
     ],
-    "block": ["contenttweaker:sub_block_holder_0:12"],
-    "nugget": ["contenttweaker:material_part:143"],
+    "block": [],
+    "nugget": [],
     "ore": [],
     "dust": [],
-    "plate": ["contenttweaker:material_part:140"],
-    "gear": ["contenttweaker:material_part:141"]
+    "plate": [],
+    "gear": []
   },
   "smeltingTags": {
     "ingot": [],
