@@ -66,12 +66,12 @@
     "ingot": [
       "contenttweaker:material_part:89"
     ],
-    "block": [],
-    "nugget": [],
+    "block": ["contenttweaker:sub_block_holder_0:12"],
+    "nugget": ["contenttweaker:material_part:93"],
     "ore": [],
     "dust": [],
-    "plate": [],
-    "gear": []
+    "plate": ["contenttweaker:material_part:90"],
+    "gear": ["contenttweaker:material_part:91"]
   },
   "smeltingTags": {
     "ingot": [],
