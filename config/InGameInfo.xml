@@ -80,6 +80,38 @@
                 </icon>
             <str> $a</str>
             <var>rltime24</var>
+            <op>
+                <str>gt</str>
+                <var>ping</var>
+                <num>1</num>
+                <num>0</num>
+                <str>$7 |$f $6Ping$f:</str>
+                <str />
+            </op>
+            <op>
+                <str>gt</str>
+                <var>ping</var>
+                <num>500</num>
+                <num>300</num>
+                <num>200</num>
+                <num>150</num>
+                <num>100</num>
+                <num>0</num>
+                <str>$4</str>
+                <str>$c</str>
+                <str>$6</str>
+                <str>$e</str>
+                <str>$b</str>
+                <str>$a</str>
+            </op>
+            <op>
+                <str>gt</str>
+                <var>ping</var>
+                <num>1</num>
+                <num>0</num>
+                <str> $e{ping}ms</str>
+                <str />
+            </op>
             <str>$r</str>
         </line>
     </lines>
