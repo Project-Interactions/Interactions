@@ -134,8 +134,6 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersive
 //
 mods.botania.ManaInfusion.addInfusion(<modularmachinery:itemmodularium>,<immersiveintelligence:material_ingot>,3000);
 
-mods.extrabotany.Pedestal.remove(<minecraft:gravel>,<minecraft:cobblestone>);
-mods.extrabotany.Pedestal.remove(<minecraft:gunpowder>,<minecraft:flint>);
 
 
 //
@@ -159,21 +157,3 @@ Agglomeration.addRecipe(<compactmachines3:machine:1>,
 <compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
 
 
-
-mods.extendedcrafting.TableCrafting.addShaped(2, <extrabotany:manabarrel>, [
-	[<botania:pool:3>, <botania:pool:3>, <botania:pool:3>, <botania:pool:3>, <botania:pool:3>], 
-	[<botania:pool:3>, <ore:plateGaia>, <ore:plateGaia>, <ore:plateGaia>, <botania:pool:3>], 
-	[<botania:pool:3>, <ore:plateGaia>, <enderio:block_buffer:2>, <ore:plateGaia>, <botania:pool:3>], 
-	[<botania:pool:3>, <ore:plateGaia>, <ore:plateGaia>, <ore:plateGaia>, <botania:pool:3>], 
-	[<botania:pool:3>, <botania:pool:3>, <botania:pool:3>, <botania:pool:3>, <botania:pool:3>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(3, <extrabotany:quantummanabuffer>, [
-	[<extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>], 
-	[<extrabotany:manabarrel>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:manabarrel>], 
-	[<extrabotany:manabarrel>, <extrabotany:blockorichalcos>, <ore:circuitUltimateQ>, <ore:circuitUltimateQ>, <ore:circuitUltimateQ>, <extrabotany:blockorichalcos>, <extrabotany:manabarrel>], 
-	[<extrabotany:manabarrel>, <extrabotany:blockorichalcos>, <ore:circuitUltimateQ>, <ore:circuitUltimateQ>, <ore:circuitUltimateQ>, <extrabotany:blockorichalcos>, <extrabotany:manabarrel>], 
-	[<extrabotany:manabarrel>, <extrabotany:blockorichalcos>, <ore:circuitUltimateQ>, <ore:circuitUltimateQ>, <ore:circuitUltimateQ>, <extrabotany:blockorichalcos>, <extrabotany:manabarrel>], 
-	[<extrabotany:manabarrel>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:blockorichalcos>, <extrabotany:manabarrel>], 
-	[<extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>, <extrabotany:manabarrel>]
-]);

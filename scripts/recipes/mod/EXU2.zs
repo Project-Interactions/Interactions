@@ -45,5 +45,5 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:snowglobe>, [
 	[<botania:elfglass>, <aether_legacy:enchanted_aether_grass>, <minecraft:snowball>, <aether_legacy:aether_grass>, <calculator:flawlessglass>], 
 	[<extendedcrafting:material:40>, <appliedenergistics2:paint_ball>, <extrautils2:opinium:8>, <thermalexpansion:morb>, <actuallyadditions:item_misc:19>], 
 	[<twilightforest:auroralized_glass>, <theaurorian:auroriangrass>, <tconstruct:materials:18>, <minecraft:grass>, <ore:blockGlassHardenedWhite>], 
-	[<wrcbe:material:2>, <ore:blockGlassRainbow>, <ore:netherStar>, <ore:blockGlassHardened>, <wirelessutils:void_pearl>]
+	[<minecraft:ender_pearl>, <ore:blockGlassColorless>, <ore:netherStar>, <ore:blockGlassHardened>, <wirelessutils:void_pearl>]
 ]);

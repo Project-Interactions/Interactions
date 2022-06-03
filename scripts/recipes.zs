@@ -9,8 +9,6 @@ recipes.remove(<extrautils2:snowglobe>);
 recipes.remove(<extrautils2:quarryproxy>);
 recipes.remove(<tconstruct:materials:14>);
 recipes.remove(<extendedcrafting:compressor>);
-recipes.remove(<extrabotany:quantummanabuffer>);
-recipes.remove(<extrabotany:manabarrel>);
 recipes.remove(<environmentaltech:void_ore_miner_cont_6>);
 recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
 recipes.remove(<rftools:machine_base>);
@@ -55,7 +53,6 @@ recipes.removeShaped(<wirelessutils:ender_coil>, [[<ore:ingotCopper>, <ore:strin
 recipes.remove(<ncsteamadditions:copper_sheet> * 2);
 recipes.removeShapeless(<wirelessutils:fluxed_pearl>);
 recipes.remove(<storagedrawers:upgrade_conversion>);
-recipes.remove(<extrabotany:managenerator>);
 recipes.remove(<advancedrocketry:ic:5>);
 recipes.remove(<advancedrocketry:ic:4>);
 recipes.remove(<advancedrocketry:ic:3>);

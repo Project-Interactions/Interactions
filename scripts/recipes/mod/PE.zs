@@ -6,7 +6,7 @@ recipes.removeByRecipeName("unidict:ingotiron_x8_size.2");
 recipes.removeByRecipeName("unidict:ingotgold_x1_shape.abbbbbbbb");
 recipes.removeByRecipeName("unidict:ingotgold_x4_size.2");
 //加上下一级主机
-mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_philosophers_stone>, 100000000 , 1000000, <tconstruct:large_plate>.withTag({Material: "extrabotany:ingotorichalcos"}), [<taiga:iox_block>,<thaumadditions:adaminite_block>,<mysticalagriculture:ingot_storage:5>,<projecte:item.pe_covalence_dust:2>,<projecte:item.pe_covalence_dust:1>,<projecte:item.pe_covalence_dust>,<contenttweaker:circuit_superconductor3>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_philosophers_stone>, 100000000 , 1000000, <tconstruct:large_plate>.withTag({Material: "mirion"}), [<taiga:iox_block>,<thaumadditions:adaminite_block>,<mysticalagriculture:ingot_storage:5>,<projecte:item.pe_covalence_dust:2>,<projecte:item.pe_covalence_dust:1>,<projecte:item.pe_covalence_dust>,<contenttweaker:circuit_superconductor3>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:circuit_superconductor3>, 8000000 , 80000, <contenttweaker:circuit_ultimate3>, [<tconevo:material:1>,<tconstruct:materials:11>,<tconstruct:materials:10>,<tconstruct:materials:9>,<tinkersaether:swet_crystal>,<techreborn:upgrades:3>]);
 
 recipes.removeShapeless(<projecte:item.pe_covalence_dust>*40);

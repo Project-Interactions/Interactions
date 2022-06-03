@@ -266,7 +266,6 @@ val cir12 = mods.modularmachinery.RecipeBuilder.newBuilder("asbl_circuit12","ass
 cir12.addEnergyPerTickInput(100000000);
 cir12.addItemOutput(<contenttweaker:circuit_uiv>);
 cir12.addItemInput(<contenttweaker:circuit_uev>);
-cir12.addItemInput(<extrabotany:material:8>*8);
 cir12.addItemInput(<solarflux:photovoltaic_cell_6>);
 cir12.addItemInput(<mekanismgenerators:reactorglass:1>*8);
 cir12.addItemInput(<qmd:luminous_paint>);
