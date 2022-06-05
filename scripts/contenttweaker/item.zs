@@ -6,7 +6,7 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.IItemColorSupplier;
 import mods.contenttweaker.Color;
-//thank industry updrade
+
 VanillaFactory.createItem("enrichedsunnarium").register();
 VanillaFactory.createItem("enrichedsunnariumalloy").register();
 VanillaFactory.createItem("enrichedsunnariumalloy2").register();
@@ -14,5 +14,32 @@ VanillaFactory.createItem("enrichedsunnariumalloy3").register();
 VanillaFactory.createItem("enrichedsunnariumalloy4").register();
 VanillaFactory.createItem("sunnarium").register();
 VanillaFactory.createItem("sunnariumalloy").register();
-
 VanillaFactory.createItem("stemcells").register();
+
+VanillaFactory.createItem("cold_ingot").register();
+VanillaFactory.createItem("crystal_colorful").register();
+VanillaFactory.createItem("crystal_useless").register();
+VanillaFactory.createItem("gem_essence").register();
+VanillaFactory.createItem("hot_irdium_ingot").register();
+VanillaFactory.createItem("ore_essence").register();
+VanillaFactory.createItem("hot_osmium_ingot").register();
+VanillaFactory.createItem("stainless_steel_dust").register();
+VanillaFactory.createItem("twilight_crystal").register();
+VanillaFactory.createItem("useful_ingot").register();
+VanillaFactory.createItem("hot_tungsten_ingot").register();
+
+VanillaFactory.createItem("circuit_uxv").register();
+VanillaFactory.createItem("circuit_uiv").register();
+VanillaFactory.createItem("circuit_master3").register();
+VanillaFactory.createItem("circuit_max").register();
+VanillaFactory.createItem("circuit_uev").register();
+VanillaFactory.createItem("circuit_ultimate3").register();
+VanillaFactory.createItem("circuit_elite3").register();
+VanillaFactory.createItem("circuit_extreme3").register();
+VanillaFactory.createItem("circuit_superconductor3").register();
+VanillaFactory.createItem("circuit_infinite3").register();
+
+
+
+
+

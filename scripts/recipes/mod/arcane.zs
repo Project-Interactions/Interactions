@@ -2,7 +2,7 @@ recipes.removeShaped(<arcanearchives:radiant_resonator>, [[<ore:ingotGold>, <min
 recipes.removeShaped(<arcanearchives:gemcutters_table>, [[<ore:blockMarble> | <ore:stoneMarble> | <minecraft:stone:3>, <ore:paneGlass>, <ore:paper>], [<ore:logWood>, <ore:workbench>, <ore:logWood>], [<arcanearchives:raw_quartz>, <ore:logWood>, <arcanearchives:raw_quartz>]]);
 
 recipes.addShaped(<arcanearchives:gemcutters_table>, [[null, <industrialforegoing:laser_lens:4>, null],[<ironchest:iron_chest:4>, <arcanearchives:storage_raw_quartz>, <ironchest:iron_chest:4>], [<ore:stoneMarble>, <thaumcraft:arcane_workbench>, <ore:stoneMarble>]]);
-recipes.addShaped(<arcanearchives:radiant_resonator>, [[<ore:plateElectrum>, null, <ore:plateElectrum>],[<moreplates:certus_quartz_gear>, <forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000}), <moreplates:certus_quartz_gear>], [<calculator:purifiedobsidian>, null, <calculator:purifiedobsidian>]]);
+recipes.addShaped(<arcanearchives:radiant_resonator>, [[<ore:plateElectrum>, null, <ore:plateElectrum>],[<moreplates:certus_quartz_gear>, <minecraft:water_bucket>, <moreplates:certus_quartz_gear>], [<calculator:purifiedobsidian>, null, <calculator:purifiedobsidian>]]);
 
 
 mods.arcanearchives.GCT.addRecipe("ae2_yangban_1",<appliedenergistics2:material:52>*4,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitGoodQ>]);
