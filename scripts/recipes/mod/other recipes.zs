@@ -96,6 +96,7 @@ mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:45>,<c
 
 
 mods.logistics.hammer.addRecipe(<contenttweaker:ore_essence>,<minecraft:redstone>*3);
+mods.logistics.hammer.addRecipe(<projectred-core:resource_item>,<contenttweaker:printed_manual_circuit_board_substrate>);
 
 recipes.remove(<thermalfoundation:storage:8>);
 furnace.remove(<thermalfoundation:material:136>, <thermalfoundation:ore:8>);

@@ -38,8 +38,15 @@ VanillaFactory.createItem("circuit_elite3").register();
 VanillaFactory.createItem("circuit_extreme3").register();
 VanillaFactory.createItem("circuit_superconductor3").register();
 VanillaFactory.createItem("circuit_infinite3").register();
+VanillaFactory.createItem("circuit_umv").register();
 
 
+VanillaFactory.createItem("andesite_pebble").register();
+VanillaFactory.createItem("granite_pebble").register();
+VanillaFactory.createItem("diorite_pebble").register();
+
+VanillaFactory.createItem("printed_manual_circuit_board_substrate").register();
+VanillaFactory.createItem("manual_circuit").register();
 
 
 
