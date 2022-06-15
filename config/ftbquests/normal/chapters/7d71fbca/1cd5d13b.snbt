@@ -1,9 +1,0 @@
-{
-	x: 16.5d,
-	y: 0.0d,
-	tasks: [{
-		uid: "542efa54",
-		type: "fluid",
-		fluid: "will_alloy"
-	}]
-}

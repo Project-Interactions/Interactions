@@ -1,9 +1,0 @@
-{
-	x: 2.5d,
-	y: 6.0d,
-	tasks: [{
-		uid: "3c3fc740",
-		type: "fluid",
-		fluid: "culture_medium"
-	}]
-}

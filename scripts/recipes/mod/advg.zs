@@ -34,5 +34,5 @@ recipes.addShaped(<advgenerators:power_io>, [
 
 
 
-//高级火箭
-mods.advancedrocketry.Crystallizer.addRecipe(<thermalfoundation:geode>,400,1000,<thermalfoundation:material:1028>,<thaumicrestoration:block_crystal>);
+//高级火箭 wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
+//mods.advancedrocketry.Crystallizer.addRecipe(<thermalfoundation:geode>,400,1000,<thermalfoundation:material:1028>,<thaumicrestoration:block_crystal>);

@@ -111,7 +111,9 @@ recipes.removeShaped(<thaumcraft:plate:3> * 3, [[<ore:ingotVoid>, <ore:ingotVoid
 recipes.removeShaped(<thaumcraft:plate:2> * 3, [[<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>]]);
 recipes.removeShaped(<thaumcraft:plate:1> * 3, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<thaumcraft:plate> * 3, [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>]]);
-mods.advancedrocketry.PlatePresser.removeRecipe(<moreplates:void_plate>);
+
+//wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
+//cedrocketry.PlatePresser.removeRecipe(<moreplates:void_plate>);
 
 
 

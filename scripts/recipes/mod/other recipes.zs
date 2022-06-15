@@ -41,12 +41,11 @@ mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<plustic:osmiridiumingot>*
 
 recipes.addShaped(<contenttweaker:stainless_steel_dust>*9,[[<ore:dustIron>,<ore:dustIron>,<ore:dustNickel>],[<ore:dustIron>,<ore:dustPsi>,<ore:dustManganese>],[<ore:dustIron>,<ore:dustIron>,<ore:dustChrome>]]);
 
+/* wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
 mods.advancedrocketry.RollingMachine.removeRecipe(<moreplates:void_plate>);
 mods.advancedrocketry.RollingMachine.removeRecipe(<techreborn:plates:38>);
-
-
 mods.advancedrocketry.PlatePresser.clear();
-
+*/
 
 recipes.addShaped(<contenttweaker:material_part:81>*2,[[<ore:dustRuby>,<ore:dustDiamond>,<ore:dustRuby>],[<ore:dustDiamond>,<ore:dustRuby>,<ore:dustDiamond>],[<ore:dustRuby>,<ore:dustDiamond>,<ore:dustRuby>]]);
 

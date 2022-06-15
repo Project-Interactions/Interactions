@@ -40,7 +40,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <advancedrocketry:ic:5>, [
 	[null, null, null, <ore:ingotCobalt>, <enderio:item_liquid_conduit:2>, <enderio:item_liquid_conduit:2>, <ore:ingotCobalt>], 
 	[null, null, null, <ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>]
 ]);
-
+/* wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
 mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:3>);
 mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
 mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
@@ -60,7 +60,7 @@ mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuit
 mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuitplate:1>,200,200,[<qmd:semiconductor:3>,<immersiveintelligence:material_ingot>,<contenttweaker:circuit_ultimate3>]);
 mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuitplate:1>,200,200,[<immersiveintelligence:material_plate:5>,<immersiveintelligence:material_ingot>,<contenttweaker:circuit_ultimate3>]);
 mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuitplate:1>,200,200,[<advancedrocketry:wafer>,<immersiveintelligence:material_ingot>,<contenttweaker:circuit_ultimate3>]);
-
+*/
 
 recipes.addShaped(<advancedrocketry:rocketmotor>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [null, <simplyjetpacks:metaitemmods:24>, null], [<ore:plateTitanium>, null, <ore:plateTitanium>]]);
 recipes.addShaped(<advancedrocketry:bipropellantrocketmotor>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>], [null, <simplyjetpacks:metaitemmods:24>, null], [<ore:plateSteel>, null, <ore:plateSteel>]]);
