@@ -1,0 +1,12 @@
+$ cat .gitignore
+#Whitelist
+/*
+
+#Folders
+!/patchouli_books
+!/resources
+!/scripts
+
+#Files
+!/.gitignore
+!/README.md
