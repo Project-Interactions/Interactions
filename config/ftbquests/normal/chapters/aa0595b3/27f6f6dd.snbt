@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"16279130"
+	],
+	tasks: [{
+		uid: "8c7e6337",
+		type: "item",
+		items: [{
+			item: "modularcontroller:molecular_recombiner_controller"
+		}]
+	},
+	{
+		uid: "3d5916d9",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:molecular_recombiner"
+			}
+		}]
+	}]
+}

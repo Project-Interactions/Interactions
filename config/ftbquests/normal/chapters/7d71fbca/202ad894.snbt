@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: -1.5d,
+	dependencies: [
+		"63c9ad21"
+	],
+	tasks: [{
+		uid: "16e34b18",
+		type: "item",
+		items: [{
+			item: "bloodtinker:blood_bronze_block"
+		}]
+	}]
+}

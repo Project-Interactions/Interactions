@@ -1,0 +1,19 @@
+{
+	x: -9.5d,
+	y: 13.0d,
+	dependencies: [
+		"738238c5"
+	],
+	tasks: [{
+		uid: "16615fd2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9ece8c8c",
+		type: "item",
+		item: "thaumadditions:void_thaumometer"
+	}]
+}

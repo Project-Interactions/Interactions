@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: -1.0d,
+	dependencies: [
+		"a13562d1"
+	],
+	tasks: [{
+		uid: "bf14e654",
+		type: "item",
+		items: [{
+			item: "contenttweaker:circuit_master3"
+		}]
+	}]
+}

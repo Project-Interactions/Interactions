@@ -1,0 +1,15 @@
+{
+	x: 7.5d,
+	y: 4.5d,
+	dependencies: [
+		"e3564cc2"
+	],
+	tasks: [{
+		uid: "12586454",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystal_useless"
+		}],
+		count: 4L
+	}]
+}

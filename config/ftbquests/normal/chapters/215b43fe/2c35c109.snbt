@@ -1,0 +1,21 @@
+{
+	x: 9.0d,
+	y: -6.5d,
+	dependencies: [
+		"08b96377",
+		"a1291ad2"
+	],
+	tasks: [{
+		uid: "0d02aeab",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "169bfd2d",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 13",
+		count: 4
+	}]
+}

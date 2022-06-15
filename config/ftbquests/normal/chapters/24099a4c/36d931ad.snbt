@@ -1,0 +1,10 @@
+{
+	x: 4.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "2b57b09d",
+		type: "fluid",
+		fluid: "rocketfuel",
+		amount: 4000
+	}]
+}

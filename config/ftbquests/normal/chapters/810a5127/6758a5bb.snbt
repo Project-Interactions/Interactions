@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	dependencies: [
+		"8cc83eed"
+	],
+	tasks: [{
+		uid: "a37ece04",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b33cd9f1",
+		type: "xp",
+		xp: 100
+	}]
+}

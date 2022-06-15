@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"高级火源"
+	],
+	dependencies: [
+		"67bde826"
+	],
+	tasks: [{
+		uid: "284815fc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}]
+}

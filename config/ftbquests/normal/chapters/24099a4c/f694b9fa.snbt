@@ -1,0 +1,17 @@
+{
+	x: 18.5d,
+	y: 3.0d,
+	text: [
+		"在旁边放置能量收集器进行转化"
+	],
+	dependencies: [
+		"d34d8273"
+	],
+	tasks: [{
+		uid: "b30b8275",
+		type: "item",
+		items: [{
+			item: "projectex:alchemy_table"
+		}]
+	}]
+}

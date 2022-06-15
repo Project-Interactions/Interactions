@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"172c81fb"
+	],
+	tasks: [{
+		uid: "05adfeda",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 16L
+	}]
+}

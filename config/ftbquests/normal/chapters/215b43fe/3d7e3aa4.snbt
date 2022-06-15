@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 3.5d,
+	dependencies: [
+		"da46652e"
+	],
+	tasks: [{
+		uid: "a1d16974",
+		type: "item",
+		items: [{
+			item: "matc:prudentiumcrystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

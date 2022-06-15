@@ -1,0 +1,13 @@
+{
+	x: 7.0d,
+	y: 9.0d,
+	text: [
+		"使用匠魂的盔甲并升级"
+	],
+	tasks: [{
+		uid: "7108d3af",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}]
+}

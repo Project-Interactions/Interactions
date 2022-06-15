@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 22.0d,
+	dependencies: [
+		"07c195cd"
+	],
+	tasks: [{
+		uid: "ee7b63dd",
+		type: "item",
+		items: [{
+			item: "calculator:flawlessassembly"
+		}]
+	}],
+	rewards: [{
+		uid: "c8e40f10",
+		type: "item",
+		item: "calculator:flawlessassembly"
+	}]
+}

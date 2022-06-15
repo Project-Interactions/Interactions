@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "e57e54f1",
+		type: "item",
+		items: [{
+			item: "wirelessutils:fluxed_pearl"
+		}]
+	}]
+}

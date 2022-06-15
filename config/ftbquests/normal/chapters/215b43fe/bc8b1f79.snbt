@@ -1,0 +1,27 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"所有的机器升级过后才能加入插件"
+	],
+	dependencies: [
+		"e7b53167",
+		"9f941d8e",
+		"ee72a8b6",
+		"fb077472",
+		"e2c909c7"
+	],
+	tasks: [{
+		uid: "f23baa1e",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "f89375d2",
+		type: "item",
+		item: "thermalexpansion:augment 1 128",
+		count: 2
+	}]
+}

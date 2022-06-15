@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"9a2cf290",
+		"41e2fab4"
+	],
+	tasks: [{
+		uid: "f13b94c7",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "b93f2f37",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 4
+	}]
+}

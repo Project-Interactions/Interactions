@@ -1,0 +1,20 @@
+{
+	x: -15.5d,
+	y: 3.0d,
+	dependencies: [
+		"5dc02c74"
+	],
+	tasks: [{
+		uid: "2bcfe7bb",
+		type: "item",
+		items: [{
+			item: "avaritia:resource"
+		}]
+	}],
+	rewards: [{
+		uid: "f1ef3431",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 64
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"注意：所有爆炸合成均为掉落物"
+	],
+	tasks: [{
+		uid: "d1fa1829",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b78f9dec",
+		type: "item",
+		item: "minecraft:gunpowder",
+		count: 128
+	}]
+}

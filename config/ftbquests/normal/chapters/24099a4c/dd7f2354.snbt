@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"中心需倒一桶培养液"
+	],
+	dependencies: [
+		"8e56273a"
+	],
+	tasks: [{
+		uid: "9f614964",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stemcells"
+		}]
+	}]
+}

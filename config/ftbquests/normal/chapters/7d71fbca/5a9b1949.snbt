@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 4.5d,
+	dependencies: [
+		"299de47d"
+	],
+	tasks: [{
+		uid: "b62b9b3b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:plutonium 1 7"
+		}]
+	},
+	{
+		uid: "6185266a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:plutonium 1 17"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"获取矿脉信息",
+		"开采地下的矿床和石油"
+	],
+	tasks: [{
+		uid: "95616482",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	}]
+}

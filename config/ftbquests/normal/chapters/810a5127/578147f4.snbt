@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 8.5d,
+	dependencies: [
+		"fe7f1037"
+	],
+	tasks: [{
+		uid: "7c2755d3",
+		type: "kill",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "7d1bc9f4",
+		type: "item",
+		item: "twilightforest:fiery_blood",
+		count: 4
+	}]
+}

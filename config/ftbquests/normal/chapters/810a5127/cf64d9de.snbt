@@ -1,0 +1,216 @@
+{
+	title: "共鸣水晶石",
+	x: 4.5d,
+	y: 7.5d,
+	text: [
+		"这里将所有星座列了出来"
+	],
+	dependencies: [
+		"1c69191a"
+	],
+	tasks: [{
+		uid: "d0bb56f5",
+		type: "item",
+		title: "共鸣水晶石",
+		items: [{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.armara",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.vicio",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.aevitas",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.evorsio",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.lucerna",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.mineralis",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.horologium",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.octans",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.bootes",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.fornax",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		{
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.pelotrio",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7dfa4fce",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	text: [
+		"电弧炉电极",
+		"使用任意蓝图丢入凝固汽油中获得"
+	],
+	dependencies: [
+		"d8f10dc0"
+	],
+	tasks: [{
+		uid: "3ec6b0a1",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "electrode"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

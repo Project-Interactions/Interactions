@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 1.5d,
+	dependencies: [
+		"cf4d0576"
+	],
+	tasks: [{
+		uid: "c5848ccf",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembler"
+		}]
+	}]
+}

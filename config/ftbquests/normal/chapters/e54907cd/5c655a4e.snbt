@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	dependencies: [
+		"7c92894e"
+	],
+	tasks: [{
+		uid: "4cf152ad",
+		type: "item",
+		items: [{
+			id: "aeadditions:terminal.gas.wireless",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

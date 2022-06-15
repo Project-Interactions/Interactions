@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 6.0d,
+	text: [
+		"利用两边流体或方块的温度差发电"
+	],
+	dependencies: [
+		"c416c6ce"
+	],
+	tasks: [{
+		uid: "e26cf0b2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 3"
+		}]
+	}]
+}

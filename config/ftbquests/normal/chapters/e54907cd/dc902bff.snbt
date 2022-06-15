@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 3.0d,
+	dependencies: [
+		"7c92894e"
+	],
+	tasks: [{
+		uid: "56d990e1",
+		type: "item",
+		items: [{
+			id: "wit:wit",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 17.5d,
+	dependencies: [
+		"adfd7164"
+	],
+	tasks: [{
+		uid: "695609d2",
+		type: "item",
+		items: [{
+			item: "calculator:atomicmodule"
+		}]
+	}]
+}

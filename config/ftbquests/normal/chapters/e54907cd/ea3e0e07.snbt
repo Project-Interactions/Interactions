@@ -1,0 +1,34 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"ef280612"
+	],
+	tasks: [{
+		uid: "08320b17",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "aff2b414",
+		type: "item",
+		item: "appliedenergistics2:material 1 13"
+	},
+	{
+		uid: "70484461",
+		type: "item",
+		item: "appliedenergistics2:material 1 14"
+	},
+	{
+		uid: "bf4bbe2e",
+		type: "item",
+		item: "appliedenergistics2:material 1 15"
+	},
+	{
+		uid: "d6130f34",
+		type: "item",
+		item: "appliedenergistics2:material 1 19"
+	}]
+}

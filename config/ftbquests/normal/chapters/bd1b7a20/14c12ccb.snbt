@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	dependencies: [
+		"17643e90"
+	],
+	tasks: [{
+		uid: "866b7d9f",
+		type: "fluid",
+		fluid: "creosote",
+		amount: 2000
+	}],
+	rewards: [{
+		uid: "6defd5aa",
+		type: "item",
+		item: "immersiveengineering:material 1 6",
+		count: 8
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"一个更好的工作台？"
+	],
+	dependencies: [
+		"b7fd7f76"
+	],
+	tasks: [{
+		uid: "d88572b1",
+		type: "item",
+		items: [{
+			item: "forestry:worktable"
+		}]
+	}]
+}

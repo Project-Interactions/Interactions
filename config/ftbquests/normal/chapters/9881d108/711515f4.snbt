@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: 3.5d,
+	dependencies: [
+		"0419c464"
+	],
+	tasks: [{
+		uid: "3a3e208d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:filter"
+		}]
+	},
+	{
+		uid: "63abcab1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:morphic_resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "7609e7b8",
+		type: "xp",
+		xp: 100
+	}]
+}

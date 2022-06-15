@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	dependencies: [
+		"08f20551"
+	],
+	tasks: [{
+		uid: "86339654",
+		type: "item",
+		items: [{
+			item: "planarartifice:alkimium_ingot"
+		}]
+	},
+	{
+		uid: "a39ea7d7",
+		type: "item",
+		items: [{
+			item: "planarartifice:bismuth_ingot"
+		}]
+	}]
+}

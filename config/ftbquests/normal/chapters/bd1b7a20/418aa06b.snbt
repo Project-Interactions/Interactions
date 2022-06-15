@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"ed126e73"
+	],
+	tasks: [{
+		uid: "a4e7a904",
+		type: "fluid",
+		fluid: "ore_water"
+	}],
+	rewards: [{
+		uid: "09dc13e6",
+		type: "item",
+		item: "ceramics:clay_bucket"
+	}]
+}

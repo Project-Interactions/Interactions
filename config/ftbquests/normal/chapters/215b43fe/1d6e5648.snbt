@@ -1,0 +1,14 @@
+{
+	x: 16.5d,
+	y: -1.5d,
+	dependencies: [
+		"e641eed6"
+	],
+	tasks: [{
+		uid: "26096598",
+		type: "item",
+		items: [{
+			item: "qmd:ingot_alloy 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -1.5d,
+	y: 13.5d,
+	dependencies: [
+		"ece6538c"
+	],
+	tasks: [{
+		uid: "216fe7e6",
+		type: "item",
+		items: [{
+			item: "calculator:calculatorassembly"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9e74af37",
+		type: "item",
+		item: "sonarcore:reinforcedstoneblock",
+		count: 8
+	}]
+}

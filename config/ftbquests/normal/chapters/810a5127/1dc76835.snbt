@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"ed2216ea",
+		"4beb76aa",
+		"c3de073d",
+		"07ae9291"
+	],
+	tasks: [{
+		uid: "4dc3ffd6",
+		type: "checkmark",
+		title: "更多符文"
+	}],
+	rewards: [{
+		uid: "b11fa331",
+		type: "item",
+		item: "botania:pool",
+		count: 4
+	}]
+}

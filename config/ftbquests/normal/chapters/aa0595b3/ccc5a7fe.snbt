@@ -1,0 +1,15 @@
+{
+	x: -11.5d,
+	y: -0.5d,
+	dependencies: [
+		"b85b7287",
+		"0bcf3379"
+	],
+	tasks: [{
+		uid: "a3163d2a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:circuit_ultimate3"
+		}]
+	}]
+}

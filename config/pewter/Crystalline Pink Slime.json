@@ -1,0 +1,133 @@
+{
+  "name": "Tic_crystalline_pink_slime",
+  "tool": {
+    "bow": {
+      "speed": 3,
+      "range": 1,
+      "bonusDamage": 4
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 7,
+      "speed": 8,
+      "durability": 1000,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 1,
+      "durability": 100
+    },
+    "arrowShaft": {
+      "modifier": 1.2,
+      "bonusAmmo": 8
+    },
+    "bowstring": {
+      "modifier": 0
+    },
+    "extra": {
+      "durability": 100
+    }
+  },
+  "color": "#FF99FF",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 873,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Crystalline Pink Slime",
+    "zh_cn": "晶化粉红史莱姆"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "enderio:item_alloy_endergy_ingot:4"
+    ],
+    "block": ["enderio:block_alloy_endergy:4"],
+    "nugget": ["enderio:item_alloy_endergy_nugget:4"],
+    "ore": [],
+    "dust": [],
+    "plate": ["moreplates:crystalline_pink_slime_plate"],
+    "gear": ["moreplates:crystalline_pink_slime_gear"]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 10,
+      "defense": 25
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 10,
+      "toughness": 2
+    },
+    "trim": {
+      "extraDurability": 5
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "slimey_green",
+      "tconevo.crystalline"
+    ],
+    "HEAD": [
+      "slimey_green",
+      "tconevo.crystalline"
+    ],
+    "HANDLE": [
+      "slimey_green",
+      "tconevo.crystalline"
+    ],
+    "BOW": [
+      "slimey_green",
+      "tconevo.crystalline"
+    ],
+    "PROJECTILE": [
+      "slimey_green",
+      "tconevo.crystalline"
+    ],
+    "CORE": [
+      "slimey_green_armor",
+      "vengeful_armor"
+    ],
+    "PLATES": [
+      "slimey_green_armor",
+      "vengeful_armor"
+    ],
+    "TRIM": [
+      "slimey_green_armor",
+      "vengeful_armor"
+    ]
+  }
+}

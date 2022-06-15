@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	dependencies: [
+		"b8566de8"
+	],
+	tasks: [{
+		uid: "671f0cdf",
+		type: "item",
+		items: [{
+			item: "deepmoblearningbm:digital_agonizer"
+		}]
+	},
+	{
+		uid: "a9d42597",
+		type: "item",
+		items: [{
+			item: "deepmoblearningbm:altar_linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 1.5d,
+	dependencies: [
+		"d8079d9f"
+	],
+	tasks: [{
+		uid: "b30359c6",
+		type: "item",
+		items: [{
+			item: "extrabotany:nightmarefuel"
+		}]
+	}]
+}

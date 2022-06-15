@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"49f17d8f"
+	],
+	tasks: [{
+		uid: "f2c9a266",
+		type: "item",
+		items: [{
+			item: "teslacorelib:speed_tier2"
+		}]
+	}],
+	rewards: [{
+		uid: "6fce8da3",
+		type: "item",
+		item: "teslacorelib:speed_tier2"
+	}]
+}

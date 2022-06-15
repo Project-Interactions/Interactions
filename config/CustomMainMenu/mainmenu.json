@@ -1,0 +1,163 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "contenttweaker:textures/gui/minecraft.png",
+            "posX" : -180,
+            "posY" : 20,
+            "width" : 384,
+            "height" : 86,
+            "imageWidth": "1024",
+            "imageHeight": "256",
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "afdian": {
+            "text": " ",
+            "posX": 5,
+            "posY": -40,
+            "width": 100,
+            "height": 35,
+            "alignment": "bottom_left",
+            "texture": "interaction:afdian.png",
+            "imageWidth": "552",
+            "imageHeight": "192",
+            "action": {
+              "type": "openLink",
+              "link": "https://afdian.net/@mczph"
+            }
+          },
+
+        "mcbbs": {
+            "text": " ",
+            "posX": 105,
+            "posY": -40,
+            "width": 100,
+            "height": 34,
+            "alignment": "bottom_left",
+            "texture": "interaction:mcbbs.png",
+            "imageWidth": "800",
+            "imageHeight": "272",
+            "action": {
+            "type": "openLink",
+            "link": "https://www.mcbbs.net/thread-1172950-1-1.html"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "interactions-0.96",
+            "posX" : -100,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "background":{
+            "image" : "",
+            "slideshow":{
+                "images" : ["interaction:001.png"],
+                "displayDuration" : 200,
+                "fadeDuration" : 60
+            }
+        }
+    }
+}

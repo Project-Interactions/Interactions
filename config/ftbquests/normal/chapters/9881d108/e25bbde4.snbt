@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 15.5d,
+	text: [
+		"煤粉可由温室种植精华煤种子获得"
+	],
+	dependencies: [
+		"254ec2ab"
+	],
+	tasks: [{
+		uid: "9b01735c",
+		type: "item",
+		items: [{
+			item: "calculator:enrichedcoal"
+		}]
+	}],
+	rewards: [{
+		uid: "c50afe26",
+		type: "item",
+		item: "calculator:coaldust",
+		count: 4
+	}]
+}

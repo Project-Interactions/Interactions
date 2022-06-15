@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 13.0d,
+	dependencies: [
+		"ece6538c"
+	],
+	tasks: [{
+		uid: "d148bf1b",
+		type: "item",
+		items: [{
+			item: "calculator:powercube"
+		}],
+		count: 6L
+	}]
+}

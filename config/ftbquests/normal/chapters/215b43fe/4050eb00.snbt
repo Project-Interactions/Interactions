@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	dependencies: [
+		"6804c453"
+	],
+	tasks: [{
+		uid: "4b6a41b3",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "1e5c2c19",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 16
+	}]
+}

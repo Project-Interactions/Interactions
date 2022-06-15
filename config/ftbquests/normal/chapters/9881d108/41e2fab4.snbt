@@ -1,0 +1,49 @@
+{
+	title: "注魔祭坛",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"右击符文矩阵启动祭坛"
+	],
+	dependencies: [
+		"9c0f9a65"
+	],
+	tasks: [{
+		uid: "458139c3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	},
+	{
+		uid: "2e2c0218",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}],
+		count: 9L
+	},
+	{
+		uid: "49f94731",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "19aa9f90",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c480311",
+		type: "item",
+		item: "thaumcraft:jar_normal",
+		count: 8
+	}]
+}

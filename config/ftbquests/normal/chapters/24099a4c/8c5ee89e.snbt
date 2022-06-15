@@ -1,0 +1,58 @@
+{
+	title: "PackageAuto",
+	x: 8.5d,
+	y: 7.5d,
+	dependencies: [
+		"1907e4e7"
+	],
+	tasks: [{
+		uid: "3f7caa5e",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:advanced_crafter"
+		}]
+	},
+	{
+		uid: "f395b8d7",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:elite_crafter"
+		}]
+	},
+	{
+		uid: "6a9f5489",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ultimate_crafter"
+		}]
+	},
+	{
+		uid: "8a855378",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "2f937d00",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:combination_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "714bcd26",
+		type: "item",
+		item: "packagedauto:packager"
+	},
+	{
+		uid: "9682bca8",
+		type: "item",
+		item: "packagedauto:encoder"
+	},
+	{
+		uid: "bd527a9d",
+		type: "item",
+		item: "packagedauto:packager_extension"
+	}]
+}

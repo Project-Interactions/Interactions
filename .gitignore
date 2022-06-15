@@ -6,6 +6,7 @@ $ cat .gitignore
 !/patchouli_books
 !/resources
 !/scripts
+!/config
 
 #Files
 !/.gitignore

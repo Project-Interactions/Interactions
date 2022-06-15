@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "e70affb4",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "e5b15b77",
+		type: "item",
+		item: "thermalfoundation:storage_alloy 1 3"
+	}]
+}

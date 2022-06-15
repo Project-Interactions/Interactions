@@ -1,0 +1,201 @@
+[
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_core,0",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 1500000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:nether_star",
+            "moreplates:draconium_plate",
+            "minecraft:nether_star",
+            "moreplates:draconium_plate",
+            "minecraft:nether_star",
+            "moreplates:draconium_plate"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_block,4",
+        "catalyst": "draconicevolution:draconium_block,4,1",
+        "energy": 400000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:dragon_heart"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_block",
+            "draconicevolution:awakened_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "actuallyadditions:item_misc,1,19",
+        "energy": 80000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "moreplates:awakened_draconium_plate",
+            "moreplates:awakened_draconium_plate",
+            "moreplates:awakened_draconium_plate",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "moreplates:awakened_draconium_plate",
+            "moreplates:awakened_draconium_plate",
+            "moreplates:awakened_draconium_plate",
+            "draconicevolution:wyvern_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_energy_core",
+        "catalyst": "draconicevolution:wyvern_energy_core,4",
+        "energy": 200000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "tconevo:metal,1,9",
+            "draconicevolution:wyvern_core",
+            "tconevo:metal,1,9",
+            "draconicevolution:wyvern_core",
+            "tconevo:metal,1,9",
+            "draconicevolution:wyvern_core",
+            "tconevo:metal,1,9"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaotic_energy_core",
+        "catalyst": "draconicevolution:draconic_energy_core,4",
+        "energy": 40000000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaos_shard,1,1",
+            "tconevo:metal,1,14",
+            "draconicevolution:chaos_shard,1,1",
+            "tconevo:metal,1,14",
+            "draconicevolution:chaos_shard,1,1",
+            "tconevo:metal,1,14",
+            "draconicevolution:chaos_shard,1,1",
+            "tconevo:metal,1,14"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard",
+        "energy": 10000000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "tconevo:metal,1,8",
+            "tconevo:metal,1,8",
+            "tconevo:metal,1,8",
+            "tconevo:metal,1,8"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "avaritia:resource,1,1",
+        "catalyst": "avaritia:resource,4",
+        "energy": 100000000,
+        "tier": 2,
+        "ingredients": [
+            "calculator:flawlessdiamond",
+            "calculator:flawlessdiamond",
+            "moreplates:empowered_diamatine_gear",
+            "moreplates:empowered_diamatine_gear",
+            "mysticalagradditions:special",
+            "mysticalagradditions:special",
+            "extendedcrafting:storage,1,2",
+            "extendedcrafting:storage,1,2"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "deepmoblearningbm:digital_agonizer",
+        "catalyst": "deepmoblearning:machine_casing",
+        "energy": 1000000,
+        "tier": 0,
+        "ingredients": [
+            "bloodmagic:blood_rune,1,3",
+            "bloodmagic:blood_rune,1,3",
+            "bloodmagic:slate,1,3",
+            "bloodmagic:inscription_tool,1,5",
+            "bloodmagic:inscription_tool,1,5",
+            "scalinghealth:heartcontainer"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconium_ingot",
+        "catalyst": "contenttweaker:material_part,1,132",
+        "energy": 5000000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:dragon_breath",
+            "botania:manaresource,1,9"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:circuit_master3",
+        "catalyst": "contenttweaker:circuit_elite3",
+        "energy": 10000000,
+        "tier": 2,
+        "ingredients": [
+            "theaurorian:auroriansteel",
+            "tconevo:metal",
+            "moreplates:osmiridium_gear",
+            "avaritia:resource"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_block,4",
+        "catalyst": "draconicevolution:draconium_block,4"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_energy_core",
+        "catalyst": "draconicevolution:draconic_energy_core"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    }
+]

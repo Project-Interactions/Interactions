@@ -1,0 +1,7 @@
+{
+	title: "物品传输与物流",
+	icon: "enderio:item_item_conduit",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

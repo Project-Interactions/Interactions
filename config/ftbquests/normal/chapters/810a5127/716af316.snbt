@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: 10.5d,
+	dependencies: [
+		"8408eabb"
+	],
+	tasks: [{
+		uid: "670e04a8",
+		type: "kill",
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c36ff1ce",
+		type: "item",
+		item: "twilightforest:alpha_fur",
+		count: 4
+	}]
+}

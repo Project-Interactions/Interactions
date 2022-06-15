@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"633a444a"
+	],
+	tasks: [{
+		uid: "ba74a80e",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 5"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e05f652e",
+		type: "item",
+		item: "ceramics:unfired_clay 1 5",
+		count: 32
+	}]
+}

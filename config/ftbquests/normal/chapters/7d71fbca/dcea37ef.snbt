@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 10.0d,
+	dependencies: [
+		"4ebb81b9"
+	],
+	tasks: [{
+		uid: "922b409f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotIridium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotIridium"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 12.0d,
+	y: 7.5d,
+	dependencies: [
+		"e4ccff23"
+	],
+	tasks: [{
+		uid: "0a885be4",
+		type: "item",
+		items: [{
+			item: "qmd:particle_chamber_casing"
+		}],
+		count: 32L
+	},
+	{
+		uid: "0798b72a",
+		type: "item",
+		items: [{
+			item: "qmd:target_chamber_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "6b17e082",
+		type: "item",
+		item: "qmd:particle_chamber_casing",
+		count: 32
+	}]
+}

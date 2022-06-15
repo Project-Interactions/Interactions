@@ -1,0 +1,24 @@
+{
+	x: 5.5d,
+	y: 4.5d,
+	dependencies: [
+		"871484c4"
+	],
+	tasks: [{
+		uid: "887c47b6",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "4b9b5177",
+		type: "item",
+		item: {
+			id: "botania:manatablet",
+			tag: {
+				mana: 100000
+			}
+		}
+	}]
+}

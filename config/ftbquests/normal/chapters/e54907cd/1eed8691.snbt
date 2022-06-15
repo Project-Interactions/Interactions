@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: 3.0d,
+	text: [
+		"可放置10个元件"
+	],
+	dependencies: [
+		"c44cc405",
+		"e0b379a0"
+	],
+	tasks: [{
+		uid: "01484cf8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}]
+}

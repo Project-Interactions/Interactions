@@ -1,0 +1,36 @@
+{
+	title: "水火交融",
+	x: -4.5d,
+	y: 5.0d,
+	text: [
+		"任务显示器放下选择好任务，然后点击“点击提交”"
+	],
+	dependencies: [
+		"633a444a",
+		"ad9c2e04"
+	],
+	tasks: [{
+		uid: "bfe23764",
+		type: "fluid",
+		fluid: "lava"
+	},
+	{
+		uid: "e9cb1c43",
+		type: "fluid",
+		fluid: "water"
+	}],
+	rewards: [{
+		uid: "85eccb9d",
+		type: "item",
+		item: {
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		},
+		count: 2
+	}]
+}

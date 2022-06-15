@@ -1,0 +1,48 @@
+{
+	title: "粉碎机",
+	icon: "immersiveengineering:metal_multiblock 1 1",
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"122dceed"
+	],
+	tasks: [{
+		uid: "601946ff",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "693e9230",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "e7fc10d8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "3bcc1286",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "efda1e31",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}],
+		count: 9L
+	}]
+}

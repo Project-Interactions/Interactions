@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"24822070",
+		"db8cdd73"
+	],
+	tasks: [{
+		uid: "62cfc662",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_uranium 1 9"
+		}]
+	}]
+}

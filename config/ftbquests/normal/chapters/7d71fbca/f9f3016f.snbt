@@ -1,0 +1,93 @@
+{
+	x: 7.5d,
+	y: 7.5d,
+	text: [
+		"线性加速器就是把上面那个框架造长点(长度不限)两边堵上(建议一开始不封顶，方便修改内部构造)，一端放加速器束流端口，一端放加速器离子源.",
+		"加速器束流端口(基本所有端口都可以)可以用核电的多功能工具调整模式然后就是造—条横穿中间的加速器束流方块:",
+		"再放上线性加速器控制器，两个加速器冷却液出入口(调整为一个输出一个输入)，和一个加速器能星端口",
+		"能星髋翰入6能星，冷却液输入口翰入冷却液，可通过查看控制器的fel来看可用的冷郑液，控制器需要用石驱动开关。这就是加速器的最基本培构了，此时便可以打开控制器的，但这样的加速器只是个空壳，为了能加速出我们需要的粒子，我们还需要在内部添加东西。",
+		"冷却液是为如加速器降温的波体，以被氦为例，液氦的温度为4表示你的加速器如果翰入这种冷却液能合却到的温度，加速器运行时温度必须保持在加速器最高温度下，否则会过热，加速器最高温度为所有元件的最高运行温度（可在jei中查看)的最小值。如你有一个射颍腔的最高运行温度为350k，另一个为10k，你的机器就必须在10k温度下运行，否则10k的原件会炸掉",
+		"射频腔可以提高加速器的加速电压(可以理解为提高粒子速度）从而提高粒子能星。两个射频腔至少相隔一个方块，射颇腔材料的不同加速电压也不同，具体请见je,",
+		"qmd的冷却器是用来消耗冷却液的，不能只有冷却器还要有冷却液的输入。不同的冷却器需要满足一定条件才能运行，可在jei中查看。",
+		"离子源是给加速器提供粒子的一种方法。在加速器中导入物品便可产生粒子，可用物品见离子源jel，离子源的摆放必须红色面朝外，可用管道向其中输入物品，空的播子可以通过加速器你品接口导出(物品接口摆放如冷却液出入口)，实现自动化供给原料。一满罐物品可以持续300秒。"
+	],
+	dependencies: [
+		"61f5d249"
+	],
+	tasks: [{
+		uid: "6cdf70bf",
+		type: "item",
+		items: [{
+			item: "qmd:linear_accelerator_controller"
+		}]
+	},
+	{
+		uid: "90cd8226",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_energy_port"
+		}]
+	},
+	{
+		uid: "eb18dad1",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_port"
+		}]
+	},
+	{
+		uid: "31d79356",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_vent"
+		}]
+	},
+	{
+		uid: "1d8b833e",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_beam_port"
+		}]
+	},
+	{
+		uid: "55b48e34",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_casing"
+		}],
+		count: 16L
+	},
+	{
+		uid: "3e581848",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_beam"
+		}],
+		count: 8L
+	},
+	{
+		uid: "cab9cbe1",
+		type: "item",
+		items: [{
+			id: "qmd:canister",
+			Damage: 6s,
+			tag: {
+				storage: {
+					amount: 6000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8d240cac",
+		type: "item",
+		item: "qmd:accelerator_casing",
+		count: 16
+	},
+	{
+		uid: "d6fcd83c",
+		type: "item",
+		item: "qmd:beamline",
+		count: 8
+	}]
+}

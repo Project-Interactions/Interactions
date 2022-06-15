@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: -5.0d,
+	text: [
+		"你可以使用压力板来自动充能"
+	],
+	dependencies: [
+		"62d05659"
+	],
+	tasks: [{
+		uid: "c7d84b8d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "519e5dd0",
+		type: "item",
+		item: "actuallyadditions:block_ranged_collector"
+	}]
+}

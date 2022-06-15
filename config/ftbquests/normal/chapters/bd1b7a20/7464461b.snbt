@@ -1,0 +1,39 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"89928471"
+	],
+	tasks: [{
+		uid: "93c2054d",
+		type: "checkmark"
+	},
+	{
+		uid: "2d7e2eb2",
+		type: "item",
+		items: [{
+			id: "agricraft:water_tank",
+			tag: {
+				agri_material: "minecraft:planks",
+				agri_material_meta: 0
+			}
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c74db21",
+		type: "command",
+		command: "/weather rain"
+	},
+	{
+		uid: "d7bddca5",
+		type: "command",
+		command: "/weather rain"
+	},
+	{
+		uid: "27da819c",
+		type: "item",
+		item: "ceramics:clay_bucket"
+	}]
+}

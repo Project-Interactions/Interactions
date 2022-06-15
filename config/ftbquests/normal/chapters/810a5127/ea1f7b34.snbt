@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: 7.5d,
+	dependencies: [
+		"8408eabb"
+	],
+	tasks: [{
+		uid: "357dbd74",
+		type: "kill",
+		entity: "twilightforest:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b934bbbb",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		count: 4
+	}]
+}

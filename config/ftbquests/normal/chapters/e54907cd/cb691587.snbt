@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: 8.5d,
+	dependencies: [
+		"bd805ec2"
+	],
+	tasks: [{
+		uid: "6ce2caf2",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:flux_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "3e6c3051",
+		type: "item",
+		item: "pneumaticcraft:heat_sink",
+		count: 2
+	}]
+}

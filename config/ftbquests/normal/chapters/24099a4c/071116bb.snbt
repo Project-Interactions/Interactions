@@ -1,0 +1,14 @@
+{
+	x: 22.5d,
+	y: 7.5d,
+	dependencies: [
+		"28380448"
+	],
+	tasks: [{
+		uid: "190bd646",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 11"
+		}]
+	}]
+}

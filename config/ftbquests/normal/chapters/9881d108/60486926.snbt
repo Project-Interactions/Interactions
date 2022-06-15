@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 7.5d,
+	text: [
+		"旁边要有动物才会工作"
+	],
+	tasks: [{
+		uid: "3578ada7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "b7c78f90",
+		type: "item",
+		item: "industrialforegoing:range_addon 1 4"
+	}]
+}

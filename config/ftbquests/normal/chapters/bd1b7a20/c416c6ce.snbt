@@ -1,0 +1,36 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	dependencies: [
+		"14c12ccb"
+	],
+	tasks: [{
+		uid: "43e5ed74",
+		type: "item",
+		title: "Any plankTreatedWood",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankTreatedWood"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ff75b1b7",
+		type: "item",
+		item: {
+			id: "techreborn:dynamiccell",
+			tag: {
+				Fluid: {
+					FluidName: "creosote",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	}]
+}

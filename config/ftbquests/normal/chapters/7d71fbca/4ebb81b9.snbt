@@ -1,0 +1,23 @@
+{
+	x: 10.0d,
+	y: 9.0d,
+	text: [
+		"你可以用它转换各种贵金属，如锇铱钨等"
+	],
+	dependencies: [
+		"f8f68a4d"
+	],
+	tasks: [{
+		uid: "cf938ae3",
+		type: "item",
+		items: [{
+			item: "qmd:nucleosynthesis_chamber_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "79131b4f",
+		type: "item",
+		item: "qmd:containment_casing",
+		count: 8
+	}]
+}

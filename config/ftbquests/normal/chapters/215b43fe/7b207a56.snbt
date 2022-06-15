@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "d9484da9",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:soot_covered_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "62eca2f8",
+		type: "item",
+		item: "enderio:block_reinforced_obsidian",
+		count: 8
+	}]
+}

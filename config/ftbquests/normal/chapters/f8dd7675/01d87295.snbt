@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	dependencies: [
+		"9e14a74f"
+	],
+	tasks: [{
+		uid: "35a375f4",
+		type: "item",
+		items: [{
+			item: "wirelessutils:void_pearl"
+		}]
+	}]
+}

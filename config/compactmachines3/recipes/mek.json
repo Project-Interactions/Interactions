@@ -1,0 +1,94 @@
+{
+  "name": "cm3:mekframe",
+
+  "disabled": false,
+
+  "target-item": "mekanism:basicblock",
+  "target-meta":8,
+  "target-count": 2,
+
+  "duration": 240,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:circuit_extreme3",
+  
+  "input-types": {
+    "a": {
+      "id": "enderio:block_alloy",
+      "meta": 0
+    },
+    "b": {
+      "id": "contenttweaker:sub_block_holder_0",
+      "meta": 8
+    },
+    "c": {
+      "id": "enderio:block_alloy",
+      "meta": 6
+    },
+    "d": {
+      "id": "theaurorian:auroriansteelblock",
+      "meta": 0
+    },
+    "e": {
+      "id": "mekanism:basicblock",
+      "meta": 0
+    },
+    "f": {
+      "id": "techreborn:machine_frame",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "_",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "d",
+        "e",
+        "d"
+      ],
+      [
+        "e",
+        "f",
+        "e"
+      ],
+      [
+        "d",
+        "e",
+        "d"
+      ]
+    ]
+  ]
+}

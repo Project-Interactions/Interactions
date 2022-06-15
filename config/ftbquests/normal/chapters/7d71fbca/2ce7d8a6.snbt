@@ -1,0 +1,21 @@
+{
+	x: 11.0d,
+	y: 10.0d,
+	dependencies: [
+		"4ebb81b9"
+	],
+	tasks: [{
+		uid: "14b85b09",
+		type: "item",
+		title: "Any ingotOsmium",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotOsmium"
+				}
+			}
+		}]
+	}]
+}

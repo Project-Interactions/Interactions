@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 6.0d,
+	text: [
+		"不使用星图也能搭建，请在教程中查找"
+	],
+	dependencies: [
+		"f88a3dea"
+	],
+	tasks: [{
+		uid: "0aee9c5b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "66233c24",
+		type: "command",
+		auto: "disabled",
+		command: "/time set 20000"
+	}]
+}

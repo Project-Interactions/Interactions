@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 9.0d,
+	dependencies: [
+		"80c1265f"
+	],
+	tasks: [{
+		uid: "52038c3f",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:thermopneumatic_processing_plant"
+		}]
+	},
+	{
+		uid: "813f744d",
+		type: "fluid",
+		fluid: "plastic",
+		amount: 10000
+	}]
+}

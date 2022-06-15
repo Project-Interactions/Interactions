@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"食用梦魇燃料或将其放在活石祭坛中阳光照射5分钟获得"
+	],
+	dependencies: [
+		"37ed151e"
+	],
+	tasks: [{
+		uid: "78406689",
+		type: "item",
+		items: [{
+			item: "extrabotany:spiritfuel"
+		}]
+	}]
+}

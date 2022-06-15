@@ -1,0 +1,30 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"加速卡可用于加速分子装配室合成"
+	],
+	dependencies: [
+		"fe807585"
+	],
+	tasks: [{
+		uid: "b697f319",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "4051df9b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "7c93ec69",
+		type: "item",
+		item: "appliedenergistics2:material 1 30",
+		count: 5
+	}]
+}

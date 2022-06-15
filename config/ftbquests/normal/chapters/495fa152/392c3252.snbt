@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d17034b6",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:manager"
+		}]
+	}]
+}

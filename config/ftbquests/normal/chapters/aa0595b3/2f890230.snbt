@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 3.0d,
+	text: [
+		"可以获得氧气和氢气"
+	],
+	tasks: [{
+		uid: "fe8072bd",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

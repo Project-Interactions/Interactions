@@ -1,0 +1,35 @@
+{
+	x: 5.5d,
+	y: 7.5d,
+	dependencies: [
+		"7afbff36"
+	],
+	tasks: [{
+		uid: "6bfbf8ba",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "f5303332",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "6e597c6d",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "073591b5",
+		type: "item",
+		item: "botania:storage 1 1"
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	x: -9.5d,
+	y: 8.0d,
+	text: [
+		"合成时请稳定矩阵"
+	],
+	tasks: [{
+		uid: "bdeb1057",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	}],
+	rewards: [{
+		uid: "c30a577b",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			Damage: 1s,
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "alienis"
+				}]
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "822f9b2c",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			Damage: 1s,
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "vitium"
+				}]
+			}
+		},
+		count: 10
+	}]
+}

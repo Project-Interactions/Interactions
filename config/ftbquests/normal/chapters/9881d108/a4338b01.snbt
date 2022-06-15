@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 6.0d,
+	text: [
+		"需要附魔点数来启动"
+	],
+	dependencies: [
+		"77e13f28"
+	],
+	tasks: [{
+		uid: "8227becb",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:enchanter"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a4b1c105",
+		type: "item",
+		item: "botania:pylon"
+	}]
+}

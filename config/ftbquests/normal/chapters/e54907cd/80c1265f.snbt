@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: 9.0d,
+	dependencies: [
+		"7cd6f6d2"
+	],
+	tasks: [{
+		uid: "5ac2497e",
+		type: "fluid",
+		fluid: "lpg",
+		amount: 2000
+	}],
+	rewards: [{
+		uid: "48cb04df",
+		type: "item",
+		item: {
+			id: "techreborn:dynamiccell",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"丢入雷暴中"
+	],
+	dependencies: [
+		"e692e434"
+	],
+	tasks: [{
+		uid: "11fa59ee",
+		type: "item",
+		items: [{
+			item: "wirelessutils:charged_pearl"
+		}]
+	}]
+}

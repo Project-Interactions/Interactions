@@ -1,0 +1,10 @@
+{
+	title: "阶段五",
+	icon: "extendedcrafting:material",
+	description: [
+		"应用能源与气动工艺"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

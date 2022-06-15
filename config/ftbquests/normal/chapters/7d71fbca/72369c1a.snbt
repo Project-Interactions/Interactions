@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "7e8f6c7e",
+		type: "item",
+		items: [{
+			item: "threng:material"
+		}]
+	},
+	{
+		uid: "3203a421",
+		type: "item",
+		items: [{
+			id: "tconevo:part_arcane_focus",
+			tag: {
+				Material: "dragonstone"
+			}
+		}]
+	},
+	{
+		uid: "f830003a",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "73c93b88",
+		type: "item",
+		item: "botanicadds:gaiasteel_ingot"
+	}]
+}

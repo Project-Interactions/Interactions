@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 9.0d,
+	dependencies: [
+		"2c3b8146"
+	],
+	tasks: [{
+		uid: "c08b3ee9",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "20ff3afd",
+		type: "item",
+		item: "extrautils2:passivegenerator 1 1"
+	}]
+}

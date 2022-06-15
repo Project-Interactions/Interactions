@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"1e0c1623"
+	],
+	tasks: [{
+		uid: "483f2ddf",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_uranium 1 9"
+		}]
+	}]
+}

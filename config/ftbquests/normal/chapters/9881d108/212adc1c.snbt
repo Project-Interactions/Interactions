@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"77e13f28"
+	],
+	tasks: [{
+		uid: "5240ec51",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 11"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7ed95c6b",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 16
+	}]
+}

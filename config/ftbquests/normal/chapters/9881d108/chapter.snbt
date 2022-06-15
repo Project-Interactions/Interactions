@@ -1,0 +1,10 @@
+{
+	title: "阶段四",
+	icon: "extrautils2:ingredients 1 11",
+	description: [
+		"运算工艺与使用设备"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

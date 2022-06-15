@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	dependencies: [
+		"cb96566e",
+		"cbcad093",
+		"46a24e71",
+		"bfddd790",
+		"f2501e95"
+	],
+	tasks: [{
+		uid: "8ca22457",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "d776babe",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

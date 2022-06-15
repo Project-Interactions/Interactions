@@ -1,0 +1,16 @@
+{
+	x: 8.5d,
+	y: 5.0d,
+	dependencies: [
+		"11b91a15",
+		"23f707ad",
+		"c529af56"
+	],
+	tasks: [{
+		uid: "ee10e7d4",
+		type: "item",
+		items: [{
+			item: "naturesaura:calling_spirit"
+		}]
+	}]
+}

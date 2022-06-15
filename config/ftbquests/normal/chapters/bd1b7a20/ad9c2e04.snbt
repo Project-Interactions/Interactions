@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: 3.0d,
+	tasks: [{
+		uid: "522d0174",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fire_essence"
+		}]
+	}]
+}

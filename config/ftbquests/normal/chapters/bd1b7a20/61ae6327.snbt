@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"爆炸后可获得各种金属"
+	],
+	dependencies: [
+		"418aa06b"
+	],
+	tasks: [{
+		uid: "c9586469",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ore_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "ca80705d",
+		type: "item",
+		item: "tconstruct:materials 1 14",
+		count: 8
+	}]
+}
