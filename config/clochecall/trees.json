@@ -1,0 +1,1656 @@
+{
+  "oak": {
+    "sapling": {
+      "item": "minecraft:sapling",
+      "data": 0
+    },
+    "drops": [
+      {
+        "item": "minecraft:log",
+        "data": 0,
+        "chance": 1.25
+      },
+      {
+        "item": "minecraft:apple",
+        "chance": 0.3
+      },
+      {
+        "item": "minecraft:sapling",
+        "data": 0,
+        "chance": 0.15
+      }
+    ]
+  },
+  "spruce": {
+    "sapling": {
+      "item": "minecraft:sapling",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "minecraft:log",
+        "data": 1,
+        "chance": 1.25
+      },
+      {
+        "item": "minecraft:sapling",
+        "data": 1,
+        "chance": 0.15
+      }
+    ]
+  },
+  "birch": {
+    "sapling": {
+      "item": "minecraft:sapling",
+      "data": 2
+    },
+    "drops": [
+      {
+        "item": "minecraft:log",
+        "data": 2,
+        "chance": 1.25
+      },
+      {
+        "item": "minecraft:sapling",
+        "data": 2,
+        "chance": 0.15
+      }
+    ]
+  },
+  "jungle": {
+    "sapling": {
+      "item": "minecraft:sapling",
+      "data": 3
+    },
+    "drops": [
+      {
+        "item": "minecraft:log",
+        "data": 3,
+        "chance": 1.25
+      },
+      {
+        "item": "minecraft:sapling",
+        "data": 3,
+        "chance": 0.15
+      }
+    ]
+  },
+  "acacia": {
+    "sapling": {
+      "item": "minecraft:sapling",
+      "data": 4
+    },
+    "drops": [
+      {
+        "item": "minecraft:log2",
+        "data": 0,
+        "chance": 1.25
+      },
+      {
+        "item": "minecraft:sapling",
+        "data": 4,
+        "chance": 0.15
+      }
+    ]
+  },
+  "dark_oak": {
+    "sapling": {
+      "item": "minecraft:sapling",
+      "data": 5
+    },
+    "drops": [
+      {
+        "item": "minecraft:log2",
+        "data": 1,
+        "chance": 1.25
+      },
+      {
+        "item": "minecraft:apple",
+        "chance": 0.3
+      },
+      {
+        "item": "minecraft:sapling",
+        "data": 5,
+        "chance": 0.15
+      }
+    ]
+  },
+  "rustic_olive": {
+    "dependency": "rustic",
+    "sapling": {
+      "item": "rustic:sapling"
+    },
+    "drops": [
+      {
+        "item": "rustic:sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "rustic:log",
+        "chance": 1.25
+      },
+      {
+        "item": "rustic:olives",
+        "chance": 0.6
+      }
+    ]
+  },
+  "rustic_ironwood": {
+    "dependency": "rustic",
+    "sapling": {
+      "item": "rustic:sapling",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "rustic:sapling",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "rustic:log",
+        "data": 1,
+        "chance": 1.25
+      },
+      {
+        "item": "rustic:ironberries",
+        "chance": 0.6
+      }
+    ]
+  },
+  "rustic_appleoak": {
+    "dependency": "rustic",
+    "sapling": {
+      "item": "rustic:sapling_apple"
+    },
+    "drops": [
+      {
+        "item": "minecraft:apple",
+        "chance": 1.2
+      }
+    ]
+  },
+  "hc_date": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:date_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:dateitem"
+      }
+    ]
+  },
+  "hc_papaya": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:papaya_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:papayaitem"
+      }
+    ]
+  },
+  "hc_cherry": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:cherry_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:cherryitem"
+      }
+    ]
+  },
+  "hc_fig": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:fig_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:figitem"
+      }
+    ]
+  },
+  "hc_dragonfuit": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:dragonfruit_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:dragonfruititem"
+      }
+    ]
+  },
+  "hc_apple": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:apple_sapling"
+    },
+    "drops": [
+      {
+        "item": "minecraft:apple"
+      }
+    ]
+  },
+  "hc_lemon": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:lemon_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:lemonitem"
+      }
+    ]
+  },
+  "hc_pear": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:pear_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:pearitem"
+      }
+    ]
+  },
+  "hc_olive": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:olive_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:oliveitem"
+      }
+    ]
+  },
+  "hc_web": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:spiderweb_sapling"
+    },
+    "drops": [
+      {
+        "item": "minecraft:string"
+      }
+    ]
+  },
+  "hc_grapefruit": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:grapefruit_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:grapefruititem"
+      }
+    ]
+  },
+  "hc_pomegranate": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:pomegrante_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:pomegranateitem"
+      }
+    ]
+  },
+  "hc_cashew": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:cashew_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:cashewitem"
+      }
+    ]
+  },
+  "hc_vanillabean": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:vanillabean_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:vanillabeanitem"
+      }
+    ]
+  },
+  "hc_starfruit": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:starfruit_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:starfruititem"
+      }
+    ]
+  },
+  "hc_banana": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:banana_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:bananaitem"
+      }
+    ]
+  },
+  "hc_plum": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:plum_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:plumitem"
+      }
+    ]
+  },
+  "hc_avocado": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:avocado_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:avocadoitem"
+      }
+    ]
+  },
+  "hc_pecan": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:pecan_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:pecanitem"
+      }
+    ]
+  },
+  "hc_pistachio": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:pistachio_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:pistachioitem"
+      }
+    ]
+  },
+  "hc_lime": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:lime_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:limeitem"
+      }
+    ]
+  },
+  "hc_peppercorn": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:peppercorn_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:peppercornitem"
+      }
+    ]
+  },
+  "hc_almond": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:almond_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:almonditem"
+      }
+    ]
+  },
+  "hc_gooseberry": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:gooseberry_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:gooseberryitem"
+      }
+    ]
+  },
+  "hc_peach": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:peach_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:peachitem"
+      }
+    ]
+  },
+  "hc_chestnut": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:chestnut_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:chestnutitem"
+      }
+    ]
+  },
+  "hc_coconut": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:coconut_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:coconutitem"
+      }
+    ]
+  },
+  "hc_mango": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:mango_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:mangoitem"
+      }
+    ]
+  },
+  "hc_apricot": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:apricot_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:apricotitem"
+      }
+    ]
+  },
+  "hc_orange": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:orange_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:orangeitem"
+      }
+    ]
+  },
+  "hc_walnut": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:walnut_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:walnutitem"
+      }
+    ]
+  },
+  "hc_persimmon": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:persimmon_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:persimmonitem"
+      }
+    ]
+  },
+  "hc_nutmeg": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:nutmeg_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:nutmegitem"
+      }
+    ]
+  },
+  "hc_durain": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:durian_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:durianitem"
+      }
+    ]
+  },
+  "hc_cinnamon": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:cinnamon_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:cinnamonitem"
+      }
+    ]
+  },
+  "hc_maple": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:maple_sapling"
+    },
+    "drops": [
+      {
+        "item": "harvestcraft:maplesyrupitem"
+      }
+    ]
+  },
+  "hc_paperbark": {
+    "dependency": "harvestcraft",
+    "sapling": {
+      "item": "harvestcraft:paperbark_sapling"
+    },
+    "drops": [
+      {
+        "item": "minecraft:paper"
+      }
+    ]
+  },
+  "bop_yellow_autum": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 0
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "data": 2,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_orange_autumn": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log2",
+        "data": 1,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_bamboo": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 2
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 2,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:bamboo",
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_magic": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 3
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 3,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_1",
+        "data": 5,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_umbran": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 4
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 4,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_0",
+        "data": 6,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_dead": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 5
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 5,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_4",
+        "data": 5,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_fir": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 6
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 6,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_0",
+        "data": 7,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_etheral": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_0",
+      "data": 7
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_0",
+        "data": 7,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_1",
+        "data": 4,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_origin": {
+    "depdendency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 0
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_pink_cherry": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_0",
+        "data": 5,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_white_cherry": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 2
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 2,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_0",
+        "data": 5,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_maple": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 3
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 3,
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_hellbark": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 4
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 4,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_2",
+        "data": 7,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_flowering_oak": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 5
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 5,
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_jacaranda": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 6
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 6,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_3",
+        "data": 4,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_sacred_oak": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_1",
+      "data": 7
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_1",
+        "data": 7,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_0",
+        "data": 4,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_mangrove": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 0
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_1",
+        "data": 6,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_palm": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_1",
+        "data": 7,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_redwood": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 2
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 2,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_2",
+        "data": 4,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_willow": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 3
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 3,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_2",
+        "data": 5,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_pine": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 4
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 4,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_2",
+        "data": 6,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_mahogany": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 5
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 5,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_3",
+        "data": 5,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_ebony": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 6
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 6,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_3",
+        "data": 6,
+        "chance": 1.25
+      }
+    ]
+  },
+  "bop_eucalyptus": {
+    "dependency": "biomesoplenty",
+    "sapling": {
+      "item": "biomesoplenty:sapling_2",
+      "data": 7
+    },
+    "drops": [
+      {
+        "item": "biomesoplenty:sapling_2",
+        "data": 7,
+        "chance": 0.15
+      },
+      {
+        "item": "biomesoplenty:log_3",
+        "data": 7,
+        "chance": 1.25
+      }
+    ]
+  },
+  "tc6_greatwood": {
+    "dependency": "thaumcraft",
+    "sapling": {
+      "item": "thaumcraft:sapling_greatwood"
+    },
+    "drops": [
+      {
+        "item": "thaumcraft:sapling_greatwood",
+        "chance": 0.15
+      },
+      {
+        "item": "thaumcraft:log_greatwood",
+        "chance": 1.25
+      }
+    ]
+  },
+  "tc6_silverwood": {
+    "dependency": "thaumcraft",
+    "sapling": {
+      "item": "thaumcraft:sapling_silverwood"
+    },
+    "drops": [
+      {
+        "item": "thaumcraft:sapling_silverwood",
+        "chance": 0.15
+      },
+      {
+        "item": "thaumcraft:log_silverwood",
+        "chance": 1.25
+      }
+    ]
+  },
+  "id_menril": {
+    "dependency": "integrateddynamics",
+    "sapling": {
+      "item": "integrateddynamics:menril_sapling"
+    },
+    "drops": [
+      {
+        "item": "integrateddynamics:mentril_sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "integrateddynamics:menril_log",
+        "chance": 1.25
+      },
+      {
+        "item": "integrateddynamics:menril_berry",
+        "chance": 0.3
+      },
+      {
+        "item": "integrateddynamics:crystallized_menril_chunk",
+        "chance": 0.15
+      }
+    ]
+  },
+  "natura_ghostwood": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:nether_sapling",
+      "data": 0
+    },
+    "soil": {
+      "item": "minecraft:soul_sand"
+    },
+    "drops": [
+      {
+        "item": "natura:nether_sapling",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:nether_logs",
+        "data": 0,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_fusewood": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:nether_sapling",
+      "data": 1
+    },
+    "soil": {
+      "item": "minecraft:soul_sand"
+    },
+    "drops": [
+      {
+        "item": "natura:nether_sapling",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:nether_logs",
+        "data": 2,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_darkwood": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:nether_sapling",
+      "data": 2
+    },
+    "soil": {
+      "item": "minecraft:soul_sand"
+    },
+    "drops": [
+      {
+        "item": "natura:nether_sapling",
+        "data": 2,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:nether_logs",
+        "data": 1,
+        "chance": 1.25
+      },
+      {
+        "item": "natura:edibles",
+        "data": 10,
+        "chance": 0.3
+      }
+    ]
+  },
+  "natural_bloodwood": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:nether_sapling2",
+      "data": 0
+    },
+    "soil": {
+      "item": "minecraft:soul_sand"
+    },
+    "upsidedown": true,
+    "drops": [
+      {
+        "item": "natura:nether_sapling2",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:nether_logs2",
+        "data": 15,
+        "chance": 1.25
+      },
+      {
+        "item": "minecraft:redstone",
+        "chance": 0.3
+      }
+    ]
+  },
+  "natura_maple": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling",
+      "data": 0
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs",
+        "data": 0,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_silverbell": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs",
+        "data": 1,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_amaranth": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling",
+      "data": 2
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling",
+        "data": 2,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs",
+        "data": 2,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_tigerwood": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling",
+      "data": 3
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling",
+        "data": 3,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs",
+        "data": 3,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natural_willow": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling2",
+      "data": 0
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling2",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs2",
+        "data": 0,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_eucalpytus": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling2",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling2",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs2",
+        "data": 1,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_hopseed": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling2",
+      "data": 2
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling2",
+        "data": 2,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs2",
+        "data": 2,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_sakura": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:overworld_sapling2",
+      "data": 3
+    },
+    "drops": [
+      {
+        "item": "natura:overworld_sapling2",
+        "data": 3,
+        "chance": 0.15
+      },
+      {
+        "item": "natura:overworld_logs2",
+        "data": 3,
+        "chance": 1.25
+      }
+    ]
+  },
+  "natura_redwood": {
+    "dependency": "natura",
+    "sapling": {
+      "item": "natura:redwood_sapling"
+    },
+    "drops": [
+      {
+        "item": "natura:redwood_sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "natura:redwood_logs",
+        "data": 0,
+        "chance": 0.42
+      },
+      {
+        "item": "natura:redwood_logs",
+        "data": 1,
+        "chance": 0.42
+      },
+      {
+        "item": "natura:redwood_logs",
+        "data": 2,
+        "chance": 0.42
+      }
+    ]
+  },
+  "tinkers_blue_slime": {
+    "dependency": "tconstruct",
+    "sapling": {
+      "item": "tconstruct:slime_sapling",
+      "data": 0
+    },
+    "soil": {
+      "item": "tconstruct:slime_dirt",
+      "data": -1
+    },
+    "drops": [
+      {
+        "item": "tconstruct:slime_sapling",
+        "data": 0,
+        "chance": 0.15
+      },
+      {
+        "item": "tconstruct:slime_congealed",
+        "data": 0,
+        "chance": 1.25
+      },
+      {
+        "item": "tconstruct:edible",
+        "data": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  "tinkers_purple_slime": {
+    "dependency": "tconstruct",
+    "sapling": {
+      "item": "tconstruct:slime_sapling",
+      "data": 1
+    },
+    "soil": {
+      "item": "tconstruct:slime_dirt",
+      "data": -1
+    },
+    "drops": [
+      {
+        "item": "tconstruct:slime_sapling",
+        "data": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "tconstruct:slime_congealed",
+        "data": 0,
+        "chance": 1.25
+      },
+      {
+        "item": "tconstruct:edible",
+        "data": 2,
+        "chance": 0.2
+      }
+    ]
+  },
+  "tinkers_orange_slime": {
+    "dependency": "tconstruct",
+    "sapling": {
+      "item": "tconstruct:slime_sapling",
+      "data": 2
+    },
+    "soil": {
+      "item": "tconstruct:slime_dirt",
+      "data": -1
+    },
+    "drops": [
+      {
+        "item": "tconstruct:slime_sapling",
+        "data": 3,
+        "chance": 0.15
+      },
+      {
+        "item": "tconstruct:slime_congealed",
+        "data": 4,
+        "chance": 1.25
+      },
+      {
+        "item": "tconstruct:edible",
+        "data": 4,
+        "chance": 0.2
+      }
+    ]
+  },
+  "traverse_red": {
+    "dependency": "traverse",
+    "sapling": {
+      "item": "traverse:red_autumnal_sapling"
+    },
+    "drops": [
+      {
+        "item": "traverse:red_autumnal_sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "traverse_yellow": {
+    "dependency": "traverse",
+    "sapling": {
+      "item": "traverse:yellow_autumnal_sapling"
+    },
+    "drops": [
+      {
+        "item": "traverse:yellow_autumnal_sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "traverse_brown": {
+    "dependency": "traverse",
+    "sapling": {
+      "item": "traverse:brown_autumnal_sapling"
+    },
+    "drops": [
+      {
+        "item": "traverse:brown_autumnal_sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "traverse_orange": {
+    "dependency": "traverse",
+    "sapling": {
+      "item": "traverse:orange_autumnal_sapling"
+    },
+    "drops": [
+      {
+        "item": "traverse:orange_autumnal_sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "minecraft:log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "traverse_fir": {
+    "dependency": "traverse",
+    "sapling": {
+      "item": "traverse:fir_sapling"
+    },
+    "drops": [
+      {
+        "item": "traverse:fir_sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "traverse:fir_log",
+        "chance": 1.25
+      }
+    ]
+  },
+  "ic2_rubber": {
+    "dependency": "ic2",
+    "sapling": {
+      "item": "ic2:sapling"
+    },
+    "drops": [
+      {
+        "item": "ic2:rubber_wood",
+        "chance": 1.25
+      },
+      {
+        "item": "ic2:sapling",
+        "chance": 0.15
+      },
+      {
+        "item": "ic2:misc_resource",
+        "chance": 0.15,
+        "data": 4
+      }
+    ]
+  },
+  "tropicraft_palm": {
+    "dependency": "tropicraft",
+    "sapling": {
+      "item": "tropicraft:sapling",
+      "data": 0
+    },
+    "drops": [
+      {
+        "item": "tropicraft:log",
+        "data": 1,
+        "chance": 1.25
+      },
+      {
+        "item": "tropicraft:coconut",
+        "chance": 0.10
+      },
+      {
+        "item": "tropicraft:sapling",
+        "data": 0,
+        "chance": 0.15
+      }
+    ]
+  },
+  "tropicraft_mahogany": {
+    "dependency": "tropicraft",
+    "sapling": {
+      "item": "tropicraft:sapling",
+      "data": 1
+    },
+    "drops": [
+      {
+        "item": "tropicraft:log",
+        "data": 0,
+        "chance": 1.25
+      },
+      {
+        "item": "tropicraft:sapling",
+        "data": 1,
+        "chance": 0.15
+      }
+    ]
+  },
+  "tropicraft_grapefruit": {
+    "dependency": "tropicraft",
+    "sapling": {
+      "item": "tropicraft:sapling",
+      "data": 2
+    },
+    "drops": [
+      {
+        "item": "tropicraft:grapefruit"
+      }
+    ]
+  },
+  "tropicraft_lemon": {
+    "dependency": "tropicraft",
+    "sapling": {
+      "item": "tropicraft:sapling",
+      "data": 3
+    },
+    "drops": [
+      {
+        "item": "tropicraft:lemon"
+      }
+    ]
+  },
+  "tropicraft_lime": {
+    "dependency": "tropicraft",
+    "sapling": {
+      "item": "tropicraft:sapling",
+      "data": 4
+    },
+    "drops": [
+      {
+        "item": "tropicraft:lime"
+      }
+    ]
+  },
+  "tropicraft_orange": {
+    "dependency": "tropicraft",
+    "sapling": {
+      "item": "tropicraft:sapling",
+      "data": 5
+    },
+    "drops": [
+      {
+        "item": "tropicraft:orange"
+      }
+    ]
+  },
+  "atum_palm": {
+    "dependency": "atum",
+    "sapling": {
+      "item": "atum:palm_sapling"
+    },
+    "drops": [
+      {
+        "item": "atum:palm_log",
+        "chance": 1.25
+      },
+      {
+        "item": "atum:palm_sapling",
+        "chance": 0.15
+      }
+    ]
+  }
+}

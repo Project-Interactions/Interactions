@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_alienis_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:alienis_vis_plant",
+  "parent1": "thaumadditions:vacuos_vis_plant",
+  "parent2": "thaumadditions:tenebrae_vis_plant"
+}

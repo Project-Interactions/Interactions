@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_machina_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:machina_vis_plant",
+  "parent1": "thaumadditions:motus_vis_plant",
+  "parent2": "thaumadditions:instrumentum_vis_plant"
+}

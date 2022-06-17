@@ -1,0 +1,8 @@
+{
+  "path": "mod_fossil/mutations/fossil_anteanus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "fossil:anteanus_vis_plant",
+  "parent1": "thaumadditions:humanus_vis_plant",
+  "parent2": "fossil:chronos_vis_plant"
+}

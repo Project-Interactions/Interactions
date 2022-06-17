@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_herba_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:herba_vis_plant",
+  "parent1": "thaumadditions:victus_vis_plant",
+  "parent2": "thaumadditions:terra_vis_plant"
+}

@@ -1,0 +1,8 @@
+{
+  "path": "mod_fossil/mutations/fossil_chronos_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "fossil:chronos_vis_plant",
+  "parent1": "thaumadditions:permutatio_vis_plant",
+  "parent2": "thaumadditions:motus_vis_plant"
+}

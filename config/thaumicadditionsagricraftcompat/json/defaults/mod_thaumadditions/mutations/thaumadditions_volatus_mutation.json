@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_volatus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:volatus_vis_plant",
+  "parent1": "thaumadditions:aer_vis_plant",
+  "parent2": "thaumadditions:motus_vis_plant"
+}

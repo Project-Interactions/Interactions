@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_visum_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:visum_vis_plant",
+  "parent1": "thaumadditions:sensus_vis_plant",
+  "parent2": "thaumadditions:vitreus_vis_plant"
+}

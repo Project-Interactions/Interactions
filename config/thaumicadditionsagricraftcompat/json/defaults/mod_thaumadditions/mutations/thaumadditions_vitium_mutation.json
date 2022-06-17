@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_vitium_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:vitium_vis_plant",
+  "parent1": "thaumadditions:perditio_vis_plant",
+  "parent2": "thaumadditions:praecantatio_vis_plant"
+}

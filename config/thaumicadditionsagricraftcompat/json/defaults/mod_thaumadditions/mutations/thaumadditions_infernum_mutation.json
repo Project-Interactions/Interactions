@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumadditions/mutations/thaumadditions_infernum_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumadditions:infernum_vis_plant",
+  "parent1": "thaumadditions:ignis_vis_plant",
+  "parent2": "thaumadditions:mortuus_vis_plant"
+}
