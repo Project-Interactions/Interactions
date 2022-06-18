@@ -1,0 +1,22 @@
+{
+  "savedSubBlockNames": {
+    "0": {
+      "0": "gallium_block",
+      "1": "cloudium_block",
+      "2": "mithril_ore",
+      "3": "semiconductor_block",
+      "4": "heavymetalelements_block",
+      "5": "superconduct_block",
+      "6": "cupronickel_block",
+      "7": "neutronium_block",
+      "8": "europium_block",
+      "9": "cerulean_ore",
+      "10": "mithril_block",
+      "11": "moonstone_ore",
+      "12": "duplication_block",
+      "13": "kanthal_block",
+      "14": "cosmic_block",
+      "15": "tough_block"
+    }
+  }
+}
