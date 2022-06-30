@@ -100,7 +100,7 @@ customization {
   action = addbutton
   y = 93
   backgroundnormal = resources\mainmenu\wiki.png
-  value = https://www.mcmod.cn/modpack/224.html
+  value = https://hub.fastgit.xyz/Project-Interactions/Interactions/wiki
   height = 38
 }
 
