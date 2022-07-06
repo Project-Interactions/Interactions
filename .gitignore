@@ -11,3 +11,4 @@ $ cat .gitignore
 #Files
 !/.gitignore
 !/README.md
+!/icon.png

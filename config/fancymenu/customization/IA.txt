@@ -1,0 +1,202 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/mainmenu/bg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\singleplayer_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 31
+  width = 177
+  actionid = 7d1e0e82-8c66-4e50-8448-ee9745a726541628392409543
+  action = addbutton
+  y = 41
+  backgroundnormal = resources\mainmenu\singleplayer.png
+  value = net.minecraft.client.gui.GuiWorldSelection
+  height = 47
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\multiplayer_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 59
+  width = 91
+  actionid = 3a03a447-b6d9-48e8-97f3-388bf1d858e31628392409544
+  action = addbutton
+  y = 92
+  backgroundnormal = resources\mainmenu\multiplayer.png
+  value = net.minecraft.client.gui.GuiMultiplayer
+  height = 38
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\mainmenu\wiki_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 153
+  width = 57
+  actionid = f0308b94-dd7b-4d65-8154-bd8ae9f5906d1628392409544
+  action = addbutton
+  y = 93
+  backgroundnormal = resources\mainmenu\wiki.png
+  value = https://hub.fastgit.xyz/Project-Interactions/Interactions/wiki
+  height = 38
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\settings_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 65
+  width = 58
+  actionid = 7ab0be2e-a2d4-47d1-8621-6fe92329deb91628392409545
+  action = addbutton
+  y = 134
+  backgroundnormal = resources\mainmenu\settings.png
+  value = net.minecraft.client.gui.GuiOptions
+  height = 38
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\mods_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 126
+  width = 53
+  actionid = c4a3de2c-0490-4506-a3df-b95b74eb699f1628392409545
+  action = addbutton
+  y = 134
+  backgroundnormal = resources\mainmenu\mods.png
+  value = net.minecraftforge.fml.client.GuiModList
+  height = 38
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = resources\mainmenu\about_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 179
+  width = 36
+  actionid = 287125d1-4a83-4232-9224-b392332040c21628392409546
+  action = addbutton
+  y = 134
+  backgroundnormal = resources\mainmenu\about.png
+  value = IAinfo
+  height = 38
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\lang_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 57
+  width = 38
+  actionid = 5789c4f4-6467-489e-9ffb-784ae2410e4b1628392409546
+  action = addbutton
+  y = 175
+  backgroundnormal = resources\mainmenu\lang.png
+  value = net.minecraft.client.gui.GuiLanguage
+  height = 38
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  backgroundhovered = resources\mainmenu\quit_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 98
+  width = 98
+  actionid = 8b825d2b-0c3b-44ab-8618-1662531e0fe51628392409547
+  action = addbutton
+  y = 175
+  backgroundnormal = resources\mainmenu\quit.png
+  value = 
+  height = 38
+}
+
+customization {
+  path = resources/mainmenu/title.png
+  orientation = top-centered
+  x = -212
+  width = 260
+  actionid = 513b1cf7-b2e7-4e60-a696-c96c636fb83c1627722341969
+  action = addtexture
+  y = 22
+  height = 70
+}
+
