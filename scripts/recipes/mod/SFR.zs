@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<solarflux:photovoltaic_cell_6>);
 recipes.remove(<solarflux:photovoltaic_cell_5>);
 recipes.remove(<solarflux:photovoltaic_cell_4>);

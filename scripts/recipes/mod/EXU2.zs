@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.removeShaped(<extrautils2:resonator>, [[<ore:dustRedstone>, <ore:blockCoal>, <ore:dustRedstone>], [<ore:ingotIron>, <extrautils2:ingredients>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<extrautils2:passivegenerator:5>, [[<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients:1>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <minecraft:nether_brick_fence:*>, <extrautils2:decorativesolid:3>]]);
 recipes.removeShaped(<extrautils2:passivegenerator:7>, [[null, <extrautils2:ingredients:1>, null], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);

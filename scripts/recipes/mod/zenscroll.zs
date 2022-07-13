@@ -1,6 +1,9 @@
 import mods.zenscroll.ZenScroll;
 import mods.zenscroll.ScrollGroup;
-
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 ZenScroll.add(<contenttweaker:andesite_pebble>,<contenttweaker:granite_pebble>,<contenttweaker:diorite_pebble>,<botania:manaresource:21>);
 
 //石子的转化

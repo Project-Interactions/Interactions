@@ -1,6 +1,7 @@
-//This file was created via CT-GUI! Editing it is not advised!
-//Don't touch me!
-//#Remove
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 furnace.remove(<minecraft:coal:1>);
 recipes.remove(<extendedcrafting:material:2>);
 recipes.remove(<extendedcrafting:table_basic>);
@@ -10,8 +11,7 @@ recipes.remove(<extendedcrafting:table_advanced>);
 //Don't touch me!
 //#Add
 recipes.addShapeless(<contenttweaker:aether_log_fix>, [<aether_legacy:aether_log>]);
-<contenttweaker:aether_log_fix>.addTooltip("为了修复活木无法制作建的物品，只能用于合成活木");
-<thermalfoundation:geode>.addTooltip("使用任意一种源质结晶都能制作");
+
 
 mods.embers.Alchemy.add(<extendedcrafting:table_basic>, [<appliedenergistics2:molecular_assembler>,<extendedcrafting:storage>,<enderio:item_material:1>,<thaumcraft:metal_void>,<ore:circuitDataQ>], {"dawnstone":20 to 30,"iron":20 to 23,"silver":25 to 40,"copper":10 to 15});
 recipes.remove(<integrateddynamics:coal_generator>);

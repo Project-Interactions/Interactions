@@ -99,37 +99,21 @@
             }
         },
 
-        "afdian": {
+        "wiki": {
             "text": " ",
             "posX": 5,
             "posY": -40,
             "width": 100,
             "height": 35,
             "alignment": "bottom_left",
-            "texture": "interaction:afdian.png",
+            "texture": "interaction:wiki.png",
             "imageWidth": "552",
             "imageHeight": "192",
             "action": {
               "type": "openLink",
-              "link": "https://afdian.net/@mczph"
+              "link": "https://hub.fastgit.xyz/Project-Interactions/Interactions/wiki"
             }
-          },
-
-        "mcbbs": {
-            "text": " ",
-            "posX": 105,
-            "posY": -40,
-            "width": 100,
-            "height": 34,
-            "alignment": "bottom_left",
-            "texture": "interaction:mcbbs.png",
-            "imageWidth": "800",
-            "imageHeight": "272",
-            "action": {
-            "type": "openLink",
-            "link": "https://www.mcbbs.net/thread-1172950-1-1.html"
-            }
-        }
+          }
     },
     
     "labels":

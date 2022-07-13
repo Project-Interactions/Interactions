@@ -1,0 +1,175 @@
+{
+  "catalyst": "{id:\"immersiveengineering:tool\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "interaction:magnetizer",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "  AA  ",
+        "  BB  ",
+        "  AA  "
+      ],
+      [
+        " ACCA ",
+        " BDDB ",
+        " ACCA "
+      ],
+      [
+        "ACCCCA",
+        "BDEEDB",
+        "FCCCCA"
+      ],
+      [
+        "ACCCCA",
+        "@DEEDB",
+        "GCCCCA"
+      ],
+      [
+        " ACCA ",
+        " BDDB ",
+        " ACCA "
+      ],
+      [
+        "  AA  ",
+        "  BB  ",
+        "  AA  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "tconstruct:clear_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:magnetizer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability",
+        "disableRenderFormed": true
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "immersiveintelligence:metal_decoration",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "minecraft:redstone_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability",
+        "disableRenderFormed": true
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "item"
+      ],
+      "G": [
+        "energy"
+      ]
+    }
+  },
+  "recipeMap": "c4aa2f22-c67f-4967-a001-083dabe201a0"
+}

@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.removeByRecipeName("projecte:conversions/gold_to_diamond");
 recipes.removeByRecipeName("projecte:conversions/emerald_to_diamond");
 recipes.removeByRecipeName("projecte:conversions/iron_to_ender_pearl");

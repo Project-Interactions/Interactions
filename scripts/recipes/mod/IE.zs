@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 import mods.immersiveengineering.Excavator;
 import mods.immersiveengineering.MineralMix;
 import mods.immersiveengineering.Crusher;
@@ -14,8 +18,9 @@ mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 //
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "components"}), [<ore:ingotCopper>, <ore:ingotCrudeSteel>, <ore:ingotRefinedIron>]);
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "basic_circuits"}), [<immersiveintelligence:material:1>, <immersiveengineering:tool:3>, <immersiveintelligence:material:1>]);
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "ammo_molds"}), [[null, <ore:saplingRubber>, null], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "basic_circuits"}), [<ore:electronTube>, <immersiveengineering:tool:3>, <ore:electronTube>]);
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "ammo_molds"}), [[null, <ore:saplingRubber>, null], [null, null, null], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.removeShaped(<immersiveengineering:blueprint>.withTag({blueprint: "basic_circuits"}), [[<ore:chipBasic>, <immersiveengineering:tool:3>, <ore:chipBasic>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 //
 ArcFurnace.removeRecipe(<libvulpes:productingot:7>);
@@ -79,9 +84,7 @@ ArcFurnace.removeRecipe(<taiga:dilithium_ingot>);
 //
 recipes.remove(<immersiveengineering:material:8>);
 recipes.remove(<immersiveengineering:material:9>);
-recipes.remove(<immersiveengineering:metal_decoration0:3> * 2);
 recipes.remove(<immersiveengineering:metal_decoration1:1> * 6);
-recipes.addShaped(<immersiveengineering:metal_decoration0:3>, [[<moreplates:crude_steel_plate>, <minecraft:redstone>, <moreplates:crude_steel_plate>],[<minecraft:redstone>, <ore:gearCopper>, <minecraft:redstone>], [<moreplates:crude_steel_plate>, <minecraft:redstone>, <moreplates:crude_steel_plate>]]);
 recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 4, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[null, <ore:stickSteel>, null], [<ore:stickSteel>, null, <ore:stickSteel>]]);
 
 MetalPress.removeRecipe(<moreplates:void_gear>);
@@ -200,3 +203,24 @@ mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
 //Crusher
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>*2, <ore:sandstone>, 2048, <nuclearcraft:gem:6>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<buildinggadgets:constructionblockpowder>, <minecraft:sand>, 2048);
+
+//blueprint
+recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Manual Circuit"}),[<immersiveengineering:stone_decoration:8>,<immersiveengineering:stone_decoration:8>,<ore:plateBronze>]);
+//
+recipes.remove(<immersiveengineering:metal_decoration0:3>*2);
+recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [[<moreplates:crude_steel_plate>, <ore:circuitBasic>, <moreplates:crude_steel_plate>],[<minecraft:redstone>, <ore:gearCopper>, <minecraft:redstone>], [<moreplates:crude_steel_plate>, <minecraft:redstone>, <moreplates:crude_steel_plate>]]);
+
+recipes.removeShaped(<immersiveengineering:metal_decoration0:4>*2, [[<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:4>*2, [[<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>], [<ore:ingotCopper>, <ore:circuitBasic>, <ore:ingotCopper>], [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]]);
+
+recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:circuitBasic>, <immersiveengineering:material:9>, <ore:circuitBasic>]]);
+
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
+mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2]);
+
+
+
+
+

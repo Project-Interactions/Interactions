@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembler>, [
 	[null, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>, null], 
 	[<ore:gearQuartzBlack>, <ore:gearQuartzBlack>, <ore:plateEnori>, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>], 

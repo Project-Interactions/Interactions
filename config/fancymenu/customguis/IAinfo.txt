@@ -1,3 +1,0 @@
-identifier = IAinfo
-title = 
-allowesc = true

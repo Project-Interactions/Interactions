@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Factorizer;
 recipes.removeShaped(<thermalexpansion:machine:5>, [[null, <minecraft:piston:*>, null], [<ore:ingotBronze>, <thermalexpansion:frame>, <ore:ingotBronze>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);

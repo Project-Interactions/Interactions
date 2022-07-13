@@ -1,4 +1,7 @@
-//
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>);
 mods.tconstruct.Melting.removeRecipe(<liquid:coal>);
 mods.tconstruct.Melting.removeRecipe(<liquid:redstone>);
@@ -163,5 +166,6 @@ mods.tconstruct.Alloy.addRecipe(<liquid:dark_matter>*2000,[<liquid:dark_matter>*
 mods.tconstruct.Alloy.addRecipe(<liquid:crystal_matrix>*2000,[<liquid:crystal_matrix>*1000,<liquid:duplication>*500]);
 mods.tconstruct.Alloy.addRecipe(<liquid:draconium>*2000,[<liquid:draconium>*1000,<liquid:duplication>*300]);
 
+recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>]]);
 
 

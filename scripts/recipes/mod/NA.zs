@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<naturesaura:gold_fiber> * 4);
 recipes.removeShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), [<minecraft:paper>, <minecraft:paper>, <minecraft:leather>, <ore:treeSapling>]);
 recipes.addShaped(<naturesaura:gold_fiber> * 2, [[null, <ore:dustGold>, null],[<ore:dustGold>, <minecraft:tallgrass:1>, <ore:dustGold>], [null, <ore:dustGold>, null]]);

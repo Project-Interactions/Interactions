@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.removeShaped(<arcanearchives:radiant_resonator>, [[<ore:ingotGold>, <minecraft:iron_bars>, <ore:ingotGold>], [<ore:logWood>, <minecraft:water_bucket>, <ore:logWood>], [<ore:logWood>, null, <ore:logWood>]]);
 recipes.removeShaped(<arcanearchives:gemcutters_table>, [[<ore:blockMarble> | <ore:stoneMarble> | <minecraft:stone:3>, <ore:paneGlass>, <ore:paper>], [<ore:logWood>, <ore:workbench>, <ore:logWood>], [<arcanearchives:raw_quartz>, <ore:logWood>, <arcanearchives:raw_quartz>]]);
 

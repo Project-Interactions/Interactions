@@ -638,6 +638,32 @@
       "enableFletching": false,
       "enableProjectile": false
     },
+    "name": "electricium",
+    "material": true,
+    "fluid": true,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
     "name": "ma.prudentium",
     "material": true,
     "fluid": true,
@@ -1135,6 +1161,32 @@
     "name": "xu_magical_wood",
     "material": true,
     "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
+    "name": "mystic",
+    "material": true,
+    "fluid": true,
     "traits": true,
     "armorOptions": {
       "enableArmor": true,
@@ -2121,6 +2173,32 @@
       "enableProjectile": false
     },
     "name": "perditio_thaumium",
+    "material": true,
+    "fluid": true,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
+    "name": "skyfather",
     "material": true,
     "fluid": true,
     "traits": true,

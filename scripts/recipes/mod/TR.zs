@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:10>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades>, [[<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);

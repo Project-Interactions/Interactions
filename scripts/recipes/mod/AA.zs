@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 //焦黑石英反向合成
 recipes.addShapeless( <actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
 //木质外壳

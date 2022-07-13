@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 mods.pneumaticcraft.pressurechamber.addRecipe([<enderio:item_material>,<moreplates:dark_steel_gear>,<pneumaticcraft:heat_frame>,<enderio:item_material:51>], 3.0, [<enderio:item_material:1>]);
 mods.pneumaticcraft.pressurechamber.removeRecipe([<forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1000})]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})], 1.0, [<forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1000})]);

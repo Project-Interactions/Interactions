@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<advgenerators:iron_wiring>);
 recipes.remove(<advgenerators:iron_tubing> * 16);
 recipes.remove(<advgenerators:iron_frame> * 2);

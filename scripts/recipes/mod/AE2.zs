@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 //普通修复
 recipes.removeShapeless(<appliedenergistics2:part:360>, [<appliedenergistics2:part:380>, <ore:workbench>, <appliedenergistics2:material:23>]);
 recipes.removeShaped(<appliedenergistics2:chest>, [[<ore:blockGlass> | <ore:glass> | <minecraft:glass>, <appliedenergistics2:part:380>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>], [<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], [<ore:ingotIron>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <ore:ingotIron>]]);
@@ -137,3 +141,8 @@ recipes.addShaped(<threng:big_assembler:2>, [[<threng:big_assembler>, <applieden
 //流体适配
 recipes.removeShaped(<ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ore:workbench>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShaped(<ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ae2stuff:encoder>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+
+//超致密线缆
+recipes.removeShapeless(<appliedenergistics2:part:636>, [<appliedenergistics2:part:516>, <ore:dustRedstone>, <ore:dustGlowstone>]);
+recipes.removeShapeless(<appliedenergistics2:part:636>, [<appliedenergistics2:part:60> | <appliedenergistics2:part:61> | <appliedenergistics2:part:62> | <appliedenergistics2:part:63> | <appliedenergistics2:part:64> | <appliedenergistics2:part:65> | <appliedenergistics2:part:66> | <appliedenergistics2:part:67> | <appliedenergistics2:part:68> | <appliedenergistics2:part:69> | <appliedenergistics2:part:70> | <appliedenergistics2:part:71> | <appliedenergistics2:part:72> | <appliedenergistics2:part:73> | <appliedenergistics2:part:74> | <appliedenergistics2:part:75> | <appliedenergistics2:part:76>, <minecraft:water_bucket>]);
+recipes.addShapeless(<appliedenergistics2:part:636>,[<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>]);

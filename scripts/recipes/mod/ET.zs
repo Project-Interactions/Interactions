@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<environmentaltech:laser_lens>);
 recipes.removeShaped(<environmentaltech:structure_panel>, [[<ore:nuggetGold>, <minecraft:iron_bars>, <ore:nuggetGold>], [<minecraft:iron_bars>, <environmentaltech:connector>, <minecraft:iron_bars>], [<ore:nuggetGold>, <minecraft:iron_bars>, <ore:nuggetGold>]]);
 recipes.removeShaped(<environmentaltech:laser_core>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<environmentaltech:connector>, <ore:blockGlass>, <environmentaltech:connector>], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);

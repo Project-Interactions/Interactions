@@ -529,6 +529,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 23.625,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 9.473684,
+      "modifier": 14.294118,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 9.473684,
+      "materialType": "trim"
+    },
+    "identifier": "electricium",
+    "color": -14615814,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 24.0,
       "defense": 22.3425,
       "materialType": "core"
@@ -966,6 +988,28 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 42.0,
+      "defense": 37.125,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 9.473684,
+      "modifier": 14.294118,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 9.473684,
+      "materialType": "trim"
+    },
+    "identifier": "mystic",
+    "color": -4980736,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
   },
   {
     "coreMaterialStats": {
@@ -1799,6 +1843,28 @@
     },
     "identifier": "perditio_thaumium",
     "color": -10987432,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 35.0,
+      "defense": 30.375,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 9.473684,
+      "modifier": 14.294118,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 9.473684,
+      "materialType": "trim"
+    },
+    "identifier": "skyfather",
+    "color": -13355980,
     "type": "METAL",
     "castable": true,
     "craftable": false

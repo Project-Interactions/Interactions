@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.removeShaped(<environmentalmaterials:hardened_stone> * 8, [[<ore:stone>, <ore:cobblestone>, <ore:stone>], [<ore:cobblestone>, <ore:stone>, <ore:cobblestone>], [<ore:stone>, <ore:cobblestone>, <ore:stone>]]);
 recipes.addShaped(<calculator:calculator>, [[<ore:calculatorReinforcedStone>, <calculator:calculatorscreen:*>, <ore:calculatorReinforcedStone>], [<minecraft:stone_button:*>, <calculator:calculatorassembly:*>, <minecraft:stone_button:*>], [<ore:calculatorReinforcedStone>,<immersiveintelligence:metal_decoration:2>, <ore:calculatorReinforcedStone>]]);
 recipes.addShaped(<calculator:calculatorscreen>, [[<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <integrateddynamics:part_display_panel_item>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>]]);

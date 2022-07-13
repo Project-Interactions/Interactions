@@ -1,6 +1,23 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<tcomplement:high_oven_controller>);
+recipes.remove(<immersiveintelligence:material_ingot:5>);
+recipes.remove(<buildinggadgets:constructionblockpowder>);
+recipes.remove(<embers:gear_dawnstone>);
+recipes.remove(<enderio:item_material:12>);
+recipes.remove(<jaopca:item_gearmoonstone>);
+recipes.remove(<jaopca:item_gearcerulean>);
+recipes.remove(<mystgears:gear_antimony>);
+recipes.remove(<mystgears:gear_aether>);
+recipes.remove(<mystgears:gear_crystalmatrix>);
+recipes.remove(<mystgears:gear_void>);
+recipes.remove(<mystgears:gear_thaumium>);
+recipes.remove(<mystgears:gear_elvenelementium>);
+recipes.remove(<mystgears:gear_terrasteel>);
+recipes.remove(<mystgears:gear_manasteel>);
+recipes.remove(<mystgears:gear_infinity>);
+recipes.remove(<mystgears:gear_cosmicneutronium>);
 recipes.remove(<minecraft:end_portal_frame>);
 recipes.remove(<enderio:item_item_conduit> * 8);
 recipes.remove(<enderio:block_inventory_panel>);
@@ -88,6 +105,7 @@ recipes.removeShaped(<computronics:colorful_lamp>, [[<ore:ingotIron>, <ore:block
 recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<multiblocked:multiblock_builder>, [[<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>],[<ore:circuitBasic>, <immersivepetroleum:schematic>, <ore:circuitBasic>], [<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>]]);
 recipes.addShaped(<zensummoning:altar>, [[<moreplates:demon_plate>, null, <moreplates:demon_plate>],[null, <extrautils2:compressednetherrack:3>, null], [<moreplates:demon_plate>, null, <moreplates:demon_plate>]]);
 recipes.addShaped(<enderio:item_item_conduit> * 9, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<tconstruct:materials:14> * 8, [[<moreplates:refined_obsidian_plate>, <ore:plateRefinedObsidian>, <moreplates:refined_obsidian_plate>],[<ore:plateRefinedObsidian>, <tconstruct:metal:5>, <ore:plateRefinedObsidian>], [<moreplates:refined_obsidian_plate>, <ore:plateRefinedObsidian>, <moreplates:refined_obsidian_plate>]]);
