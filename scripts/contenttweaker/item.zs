@@ -50,4 +50,3 @@ VanillaFactory.createItem("manual_circuit").register();
 VanillaFactory.createItem("assembled_manual_circuit").register();
 
 
-
