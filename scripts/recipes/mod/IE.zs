@@ -183,7 +183,7 @@ recipes.remove(<immersiveintelligence:motor_gear:2>);
 recipes.remove(<immersiveintelligence:motor_gear>);
 recipes.remove(<immersiveintelligence:motor_gear:1>);
 recipes.remove(<immersiveengineering:metal_decoration0:7> * 2);
-recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>],[<techreborn:part:36>, <ore:circuitBasic>, <techreborn:part:36>], [<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>],[<techreborn:part:36>, <ore:circuitAdvanced>, <techreborn:part:36>], [<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>]]);
 
 mods.immersiveengineering.Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
 //
@@ -219,7 +219,8 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotStee
 
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
 mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2]);
-
+//engine
+RecipeUtils.recipeTweak(true,<immersiveintelligence:material:13>,[[<ore:brushCarbon>, <ore:circuitAdvanced>, <ore:brushCarbon>], [<ore:plateAluminum>, <ore:ingotMagnet>, <ore:plateAluminum>], [<ore:plateAluminum>, <immersiveengineering:wirecoil:1>, <ore:plateAluminum>]]);
 
 
 

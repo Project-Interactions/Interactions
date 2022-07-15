@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"29cb0bd6"
+	],
+	tasks: [{
+		uid: "ade4e06a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:assembled_manual_circuit"
+		}]
+	}]
+}

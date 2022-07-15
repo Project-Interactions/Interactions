@@ -4,7 +4,7 @@
 	y: 1.0d,
 	shape: "diamond",
 	dependencies: [
-		"a56527a8"
+		"92217391"
 	],
 	size: 2.0d,
 	tasks: [{
