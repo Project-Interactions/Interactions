@@ -6,8 +6,8 @@
 //<item>.displayName = "name";
 
 <immersiveintelligence:material_wire>.displayName = "高级电子合金线";
-<immersiveintelligence:material_wire>.remove(<ore:wireTungsten>);
-<immersiveintelligence:material_wire>.add(<ore:wireAdvancedElectronicAlloy>);
+<ore:wireTungsten>.remove(<immersiveintelligence:material_wire>);
+<ore:wireAdvancedElectronicAlloy>.add(<immersiveintelligence:material_wire>);
 
 
 
