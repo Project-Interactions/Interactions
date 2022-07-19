@@ -18,7 +18,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:molecular_recombiner"
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

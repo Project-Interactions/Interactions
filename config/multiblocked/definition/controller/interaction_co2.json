@@ -1,0 +1,135 @@
+{
+  "catalyst": "{id:\"immersiveengineering:tool\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "interaction:co2",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "@BB",
+        "CCC"
+      ],
+      [
+        "AAA",
+        "DEB",
+        "CFC"
+      ],
+      [
+        "AAA",
+        "GBB",
+        "CCC"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:co2",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_device1",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "item"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "energy"
+      ],
+      "G": [
+        "fluid"
+      ]
+    }
+  },
+  "recipeMap": "CO2"
+}

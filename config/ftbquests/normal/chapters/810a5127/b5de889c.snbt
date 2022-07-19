@@ -11,7 +11,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:starmetal"
-			}
+			},
+			Count: 1b
 		}]
 	}],
 	rewards: [{

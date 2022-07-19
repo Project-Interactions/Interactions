@@ -1,14 +1,19 @@
 {
 	x: -0.5d,
 	y: 0.0d,
-	text: [
-		"用斧头右键第二节树干"
-	],
 	tasks: [{
 		uid: "b20a860d",
 		type: "item",
 		items: [{
 			item: "immersiveintelligence:rubber_sapling"
 		}]
+	},
+	{
+		uid: "6a76dedb",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:rubber_log"
+		}],
+		count: 64L
 	}]
 }

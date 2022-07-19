@@ -1,0 +1,38 @@
+{
+  "name": "CO2",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "9de966ee-e1fa-4296-87cf-dff2b20c4df0",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1b,Damage:0s}",
+                "{id:\"minecraft:coal\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"carbon_dioxide\",Amount:500}"
+          }
+        ]
+      }
+    }
+  ]
+}

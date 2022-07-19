@@ -138,7 +138,7 @@ recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>,
 
 
 
-mods.tconstruct.Casting.addTableRecipe(<alternatingflux:material>, <immersiveengineering:mold:4>, <liquid:constantan>,144,false, 80);
+//mods.tconstruct.Casting.addTableRecipe(<alternatingflux:material>, <immersiveengineering:mold:4>, <liquid:constantan>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:20>, <immersiveengineering:mold:4>, <liquid:copper>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:21>, <immersiveengineering:mold:4>, <liquid:electrum>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:22>, <immersiveengineering:mold:4>, <liquid:aluminum>,144,false, 80);

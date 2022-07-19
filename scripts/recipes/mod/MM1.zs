@@ -1,3 +1,4 @@
+/*
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:vacuumfreezer"}), [[null, <ore:plateAluminum>, null],[<ore:plateAluminium>, <techreborn:vacuum_freezer>, <ore:plateAluminium>], [null, <ore:plateAluminium>, null]]);
 
 recipes.remove(<modularmachinery:blockcontroller>);
@@ -128,3 +129,4 @@ rubber.addItemInput(<thaumcraft:sapling_greatwood>);
 rubber.addItemOutput(<techreborn:rubber_sapling>);
 rubber.addManaInput(40000);
 rubber.build();
+*/

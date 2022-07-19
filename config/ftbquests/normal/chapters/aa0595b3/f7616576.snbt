@@ -25,7 +25,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:colorful_mixer"
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

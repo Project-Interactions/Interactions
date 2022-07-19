@@ -41,3 +41,6 @@ mods.inworldcrafting.FluidToItem.transform(<compactmachines3:machine:5>, <liquid
 
 
 mods.inworldcrafting.FluidToItem.transform(<environmentaltech:void_ore_miner_cont_5>, <liquid:liquid_chaos>, [<environmentaltech:void_ore_miner_cont_4>], true);
+
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<immersiveintelligence:rubber_sapling>,<techreborn:part:44> ,100);
+mods.inworldcrafting.FluidToItem.transform(<immersiveintelligence:material:28>, <liquid:formic_acid>, [<immersiveintelligence:rubber_log>*4], true);

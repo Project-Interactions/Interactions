@@ -11,7 +11,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:manaconverter"
-			}
+			},
+			Count: 1b
 		}]
 	}],
 	rewards: [{

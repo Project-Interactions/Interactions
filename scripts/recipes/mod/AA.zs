@@ -71,7 +71,7 @@ mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>)
 	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <jaopca:item_platelithium>, 250000, 200, [1.0, 1.0, 1.0]);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
 
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<gugu-utils:lenstransform>,<gugu-utils:lensoverclocking>,100);
+//mods.actuallyadditions.AtomicReconstructor.addRecipe(<gugu-utils:lenstransform>,<gugu-utils:lensoverclocking>,100);
 
 
 

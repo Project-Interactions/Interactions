@@ -202,7 +202,7 @@ mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:
 //AlloySmelter
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
 //Crusher
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>*2, <ore:sandstone>, 2048, <nuclearcraft:gem:6>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>*2, <ore:sandstone>, 2048, <libvulpes:productingot:3>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<buildinggadgets:constructionblockpowder>, <minecraft:sand>, 2048);
 
 //blueprint
@@ -222,6 +222,7 @@ mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:
 //engine
 RecipeUtils.recipeTweak(true,<immersiveintelligence:material:13>,[[<ore:brushCarbon>, <ore:circuitAdvanced>, <ore:brushCarbon>], [<ore:plateAluminum>, <ore:ingotMagnet>, <ore:plateAluminum>], [<ore:ingotMagnet>, <immersiveengineering:wirecoil:1>, <ore:ingotMagnet>]]);
 
-
+//沉浸智能橡胶删硫粉
+//mods.immersiveintelligence.Vulcanizer.addRecipe(<minecraft:golden_ingot>,<ore:ingotIron>,<minecraft:diamond>,<immersiveintelligence:material_plate>,2000, 200);
 
 

@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:10>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades>, [[<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
-recipes.addShaped(<techreborn:upgrades>, [[<techreborn:part:8>, <ore:circuitElite>, <techreborn:part:8>],[<techreborn:part:10>, <teslacorelib:speed_tier2>, <techreborn:part:10>], [<techreborn:cable:7>, <gugu-utils:lensoverclocking>, <techreborn:cable:7>]]);
+//recipes.addShaped(<techreborn:upgrades>, [[<techreborn:part:8>, <ore:circuitElite>, <techreborn:part:8>],[<techreborn:part:10>, <teslacorelib:speed_tier2>, <techreborn:part:10>], [<techreborn:cable:7>, <gugu-utils:lensoverclocking>, <techreborn:cable:7>]]);
 
 //
 recipes.remove(<techreborn:part:30>);
@@ -13,7 +13,6 @@ recipes.addShaped(<techreborn:part:24>, [[<ore:ingotSteel>, <minecraft:glass_pan
 recipes.remove(<techreborn:cable:5> * 6);
 recipes.remove(<techreborn:machine_casing:1> * 4);
 recipes.remove(<techreborn:cable> * 6);
-mods.techreborn.alloySmelter.addRecipe(<modularmachinery:itemmodularium>*2, <ore:ingotTitanium>, <ore:ingotDemonicMetal>, 500 , 60);
 recipes.remove(<techreborn:machine_casing:2>);
 mods.techreborn.vacuumFreezer.removeRecipe(<techreborn:dynamiccell>);
 mods.techreborn.vacuumFreezer.removeRecipe(<techreborn:dynamiccell>.withTag({fluid:{FluidName:"fluidhelium",Amount:1000}}));

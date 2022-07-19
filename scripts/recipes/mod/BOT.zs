@@ -136,7 +136,7 @@ null,null,null);
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
 
 //
-mods.botania.ManaInfusion.addInfusion(<modularmachinery:itemmodularium>,<immersiveintelligence:material_ingot>,3000);
+
 
 
 
