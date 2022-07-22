@@ -1,6 +1,24 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<immersiveintelligence:metal_device1>);
+recipes.remove(<tcomplement:high_oven_controller>);
+recipes.remove(<immersiveintelligence:material_ingot:5>);
+recipes.remove(<buildinggadgets:constructionblockpowder>);
+recipes.remove(<embers:gear_dawnstone>);
+recipes.remove(<enderio:item_material:12>);
+recipes.remove(<jaopca:item_gearmoonstone>);
+recipes.remove(<jaopca:item_gearcerulean>);
+recipes.remove(<mystgears:gear_antimony>);
+recipes.remove(<mystgears:gear_aether>);
+recipes.remove(<mystgears:gear_crystalmatrix>);
+recipes.remove(<mystgears:gear_void>);
+recipes.remove(<mystgears:gear_thaumium>);
+recipes.remove(<mystgears:gear_elvenelementium>);
+recipes.remove(<mystgears:gear_terrasteel>);
+recipes.remove(<mystgears:gear_manasteel>);
+recipes.remove(<mystgears:gear_infinity>);
+recipes.remove(<mystgears:gear_cosmicneutronium>);
 recipes.remove(<minecraft:end_portal_frame>);
 recipes.remove(<enderio:item_item_conduit> * 8);
 recipes.remove(<enderio:block_inventory_panel>);
@@ -12,7 +30,6 @@ recipes.remove(<extendedcrafting:compressor>);
 recipes.remove(<environmentaltech:void_ore_miner_cont_6>);
 recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
 recipes.remove(<rftools:machine_base>);
-recipes.remove(<projectex:final_star>);
 recipes.remove(<equivalentenergistics:emc_condenser:3>);
 recipes.remove(<equivalentenergistics:emc_condenser:2>);
 recipes.remove(<equivalentenergistics:emc_condenser:1>);
@@ -88,6 +105,9 @@ recipes.removeShaped(<computronics:colorful_lamp>, [[<ore:ingotIron>, <ore:block
 recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<interaction:co2>, [[<immersiveintelligence:material_ingot:5>, <immersiveengineering:metal_decoration1:1>, <immersiveintelligence:material_ingot:5>],[<immersiveengineering:metal_decoration1:1>, <immersiveengineering:metal_decoration1:1>, <immersiveengineering:metal_decoration1:1>], [<immersiveintelligence:material_ingot:5>, <immersiveengineering:metal_decoration1:1>, <immersiveintelligence:material_ingot:5>]]);
+recipes.addShaped(<interaction:magnetizer>, [[<immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>],[<immersiveengineering:sheetmetal:9>, <minecraft:redstone_block>, <immersiveengineering:sheetmetal:9>], [<immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>]]);
+recipes.addShaped(<multiblocked:multiblock_builder>, [[<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>],[<ore:circuitBasic>, <immersivepetroleum:schematic>, <ore:circuitBasic>], [<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>]]);
 recipes.addShaped(<zensummoning:altar>, [[<moreplates:demon_plate>, null, <moreplates:demon_plate>],[null, <extrautils2:compressednetherrack:3>, null], [<moreplates:demon_plate>, null, <moreplates:demon_plate>]]);
 recipes.addShaped(<enderio:item_item_conduit> * 9, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<tconstruct:materials:14> * 8, [[<moreplates:refined_obsidian_plate>, <ore:plateRefinedObsidian>, <moreplates:refined_obsidian_plate>],[<ore:plateRefinedObsidian>, <tconstruct:metal:5>, <ore:plateRefinedObsidian>], [<moreplates:refined_obsidian_plate>, <ore:plateRefinedObsidian>, <moreplates:refined_obsidian_plate>]]);
@@ -98,14 +118,10 @@ recipes.addShaped(<actuallyadditions:block_placer>, [[<ore:gearStone>, <ore:gear
 recipes.addShaped(<actuallyadditions:block_breaker>, [[<ore:gearStone>, <ore:gearStone>, <ore:gearStone>],[<ore:gearStone>, null, <extrautils2:endershard>], [<ore:gearStone>, <ore:gearStone>, <ore:gearStone>]]);
 recipes.addShaped(<actuallyadditions:block_dropper>, [[<ore:gearStone>, <ore:gearStone>, <ore:gearStone>],[<ore:gearStone>, <minecraft:dropper>, <extrautils2:endershard>], [<ore:gearStone>, <ore:gearStone>, <ore:gearStone>]]);
 recipes.addShaped(<actuallyadditions:block_ranged_collector>, [[null, <tconstruct:wooden_hopper>, null],[<extrautils2:endershard>, <embers:vacuum>, <extrautils2:endershard>], [null, <extrautils2:endershard>, null]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:expensive_ore_maker"}), [[<forestry:crafting_material:1>, <projectex:matter:11>, <projectex:matter:11>],[<projectex:matter:11>, <projectex:matter:11>, <projectex:matter:11>], [<projectex:matter:11>, <projectex:matter:11>, <forestry:crafting_material:1>]]);
 recipes.addShaped(<rftools:machine_base> * 6, [[null, null, null],[<rftools:machine_frame>, <rftools:machine_frame>, <rftools:machine_frame>], [null, null, null]]);
 recipes.addShaped(<enderio:item_item_conduit> * 16, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<botania:manaresource:4>, <botania:manaresource:4>, <botania:manaresource:4>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<enderio:item_item_conduit> * 4, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <minecraft:bucket>, <ore:ingotCopper>], [null, <ore:blockRedstone>, null]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_chaos_liquefier"}), [[<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>],[<draconicevolution:chaos_shard:1>, <draconicadditions:chaos_crystal_stable>, <draconicevolution:chaos_shard:1>], [<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>]]);
-recipes.addShaped(<modularcontroller:fluid_chaos_liquefier_controller>, [[<contenttweaker:circuit_uev>, <contenttweaker:circuit_uev>, <contenttweaker:circuit_uev>],[<contenttweaker:circuit_uev>, <draconicadditions:chaos_crystal_stable>, <contenttweaker:circuit_uev>], [<contenttweaker:circuit_uev>, <contenttweaker:circuit_uev>, <contenttweaker:circuit_uev>]]);
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>, [[<modularmachinery:itemmodularium>, <mekanism:machineblock2:11>.withTag({tier: 3}), <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:7>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <mekanism:machineblock2:11>.withTag({tier: 3}), <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<darkutils:trap_move> * 4, [[null, null, null],[<jaopca:block_fencecoal>, <tconstruct:arrow_head>.withTag({Material: "wood"}).onlyWithTag({Material: "wood"}), <jaopca:block_fencecoal>], [<tconstruct:large_plate>.withTag({Material: "stone"}).onlyWithTag({Material: "stone"}), <jaopca:block_fencecoal>, <tconstruct:large_plate>.withTag({Material: "stone"}).onlyWithTag({Material: "stone"})]]);
 recipes.addShapeless(<deepmoblearning:data_model_tinker_slime>, [<deepmoblearning:data_model_slime>,<ore:dyeBlue>]);
 recipes.addShapeless(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), [<thaumcraft:nugget:9>]);
@@ -121,16 +137,8 @@ recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget
 recipes.addShaped(<tinkertoolcasts:upgrade_reinforced>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_ingot>, <immersiveintelligence:material_nugget>],[<tinkertoolcasts:upgrade_advanced>, <immersiveintelligence:material_ingot>, <tinkertoolcasts:upgrade_advanced>], [null, <immersiveintelligence:material_ingot>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>],[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>], [null, <techreborn:ingot:19>, null]]);
 recipes.addShaped(<libvulpes:holoprojector>, [[null, <extendedcrafting:material:24>, null],[<libvulpes:structuremachine>, <extendedcrafting:material:24>, <libvulpes:structuremachine>], [<libvulpes:structuremachine>, <advancedrocketry:satelliteprimaryfunction>, <libvulpes:structuremachine>]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:circutbuildermk3"}), [[<taiga:ignitz_ingot>, <taiga:ignitz_ingot>, <taiga:ignitz_ingot>],[<taiga:ignitz_ingot>, <contenttweaker:circuit_extreme3>, <taiga:ignitz_ingot>], [<taiga:ignitz_ingot>, <taiga:ignitz_ingot>, <taiga:ignitz_ingot>]]);
-recipes.addShaped(<modularcontroller:circutbuildermk3_controller>, [[null, <contenttweaker:circuit_extreme3>, <taiga:tritonite_ingot>],[<contenttweaker:circuit_extreme3>, <taiga:tritonite_ingot>, <contenttweaker:circuit_extreme3>], [<taiga:tritonite_ingot>, <contenttweaker:circuit_extreme3>, null]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:large_uu_maker"}), [[<techreborn:uumatter>, <contenttweaker:material_part:128>, <techreborn:uumatter>],[<contenttweaker:material_part:128>, <techreborn:uumatter>, <contenttweaker:material_part:128>], [<techreborn:uumatter>, <contenttweaker:material_part:128>, <techreborn:uumatter>]]);
-recipes.addShaped(<modularcontroller:large_uu_maker_controller>, [[<techreborn:uumatter>, <techreborn:matter_fabricator>, <techreborn:uumatter>],[<techreborn:matter_fabricator>, <techreborn:uumatter>, <techreborn:matter_fabricator>], [<techreborn:uumatter>, <techreborn:matter_fabricator>, <techreborn:uumatter>]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:molecular_recombiner"}), [[<simplyjetpacks:metaitemmods:12>, <simplyjetpacks:metaitemmods:12>, <calculator:reassemblychamber>],[<calculator:reassemblychamber>, <soot:alchemy_globe>, <calculator:reassemblychamber>], [<calculator:reassemblychamber>, <simplyjetpacks:metaitemmods:12>, <simplyjetpacks:metaitemmods:12>]]);
-recipes.addShaped(<modularcontroller:molecular_recombiner_controller>, [[<moreplates:osgloglas_gear>, <calculator:atomicassembly>, <moreplates:osgloglas_gear>],[<calculator:atomicassembly>, <calculator:atomicassembly>, <calculator:atomicassembly>], [<moreplates:osgloglas_gear>, <calculator:atomicassembly>, <moreplates:osgloglas_gear>]]);
 recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
 recipes.addShaped(<mekanism:basicblock:14>, [[<contenttweaker:circuit_extreme3>, <thaumicaugmentation:fortified_glass_pane>, <contenttweaker:circuit_extreme3>],[<mekanism:basicblock2>, <contenttweaker:crystal_colorful>, <mekanism:basicblock2>], [<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]]);
-recipes.addShaped(<modularcontroller:colorful_mixer_controller>, [[<astraladditions:block_starmetal>, <qmd:discharge_lamp:6>, <astraladditions:block_starmetal>],[<astraladditions:block_starmetal>, <qmd:discharge_lamp:6>, <astraladditions:block_starmetal>], [<astraladditions:block_starmetal>, <qmd:discharge_lamp:6>, <astraladditions:block_starmetal>]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:colorful_mixer"}), [[<bloodarsenal:base_item:4>, <embers:ingot_dawnstone>, <calculator:enrichedgoldingot>],[<tconevo:edible>, <psi:material:3>, <mysticalagriculture:crafting:34>], [<mekanism:ingot>, <astralsorcery:itemcraftingcomponent:1>, <tconevo:metal:30>]]);
 recipes.addShaped(<computronics:colorful_lamp>, [[<astralsorcery:itemcoloredlens:3>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens:1>],[<thermalfoundation:glass_alloy:7>, <astralsorcery:itemcoloredlens:2>, <thermalfoundation:glass_alloy:7>], [<astralsorcery:itemcoloredlens:4>, <astralsorcery:itemcoloredlens:5>, <astralsorcery:itemcoloredlens:6>]]);
 recipes.addShaped(<contenttweaker:sub_block_holder_0:10>, [[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>],[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>], [<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>]]);
 recipes.removeShaped(<rftools:matter_beamer>, [[<minecraft:redstone_block>, <minecraft:glowstone>, <minecraft:redstone_block>], [<minecraft:glowstone>, <rftools:machine_frame>, <minecraft:glowstone>], [<minecraft:redstone_block>, <minecraft:glowstone>, <minecraft:redstone_block>]]);

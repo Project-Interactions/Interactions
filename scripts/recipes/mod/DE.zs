@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 mods.threng.Energizer.addRecipe(<draconicevolution:draconium_block:1>,<tconevo:metal_block>,100000);
 
 recipes.addShaped(<maia_draconic_edition:dark_matter_core>, [[null, <moreplates:dark_matter_gear>, <tconstruct:tool_rod>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"})],[<moreplates:dark_matter_gear>, <draconicevolution:wyvern_core>, <moreplates:dark_matter_gear>], [<tconstruct:tool_rod>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), <moreplates:dark_matter_gear>, null]]);

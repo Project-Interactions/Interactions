@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<environmentaltech:laser_lens>);
 recipes.removeShaped(<environmentaltech:structure_panel>, [[<ore:nuggetGold>, <minecraft:iron_bars>, <ore:nuggetGold>], [<minecraft:iron_bars>, <environmentaltech:connector>, <minecraft:iron_bars>], [<ore:nuggetGold>, <minecraft:iron_bars>, <ore:nuggetGold>]]);
 recipes.removeShaped(<environmentaltech:laser_core>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<environmentaltech:connector>, <ore:blockGlass>, <environmentaltech:connector>], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
@@ -32,6 +36,8 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <environmentaltech:void_ore_min
 	[<ore:blockKyronite>, <extendedcrafting:material:48>, <ore:etLaserLens>, <extendedcrafting:material:48>, <ore:blockKyronite>], 
 	[<ore:blockKyronite>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:blockKyronite>]
 ]);
+
+/*
 mods.extendedcrafting.TableCrafting.addShaped(3, <environmentaltech:void_ore_miner_cont_4>, [
 	[<ore:blockPladium>, <ore:mica>, <ore:mica>, <ore:plateDenseDimensionalShard>, <ore:mica>, <ore:mica>, <ore:blockPladium>], 
 	[<ore:blockPladium>, <ore:mica>, <ore:plateDenseDimensionalShard>, <ore:circuitUltimateQ>, <ore:plateDenseDimensionalShard>, <ore:mica>, <ore:blockPladium>], 
@@ -41,6 +47,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <environmentaltech:void_ore_min
 	[<ore:blockPladium>, <ore:gearTitaniumIridium>, <ore:etLaserLens>, <gugu-utils:lensoverclocking>, <ore:etLaserLens>, <ore:gearTitaniumIridium>, <ore:blockPladium>], 
 	[<ore:blockPladium>, <ore:blockPladium>, <ore:etLaserLens>, <ore:blockPladium>, <ore:etLaserLens>, <ore:blockPladium>, <ore:blockPladium>]
 ]);
+*/
 
 
 

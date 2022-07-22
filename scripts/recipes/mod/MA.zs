@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.removeShaped(<mysticalagriculture:seed_reprocessor>, [[<ore:ingotIron>, <mysticalagriculture:tier2_inferium_seeds>, <ore:ingotIron>], [<ore:ingotIron>, <mysticalagriculture:mystical_machine_frame>, <ore:ingotIron>], [<ore:ingotIron>, <mysticalagriculture:ingot_storage:6>, <ore:ingotIron>]]);
 recipes.removeShaped(<mysticalagriculture:mystical_machine_frame>*4, [[<ore:stone>, <mysticalagriculture:crafting:32>, <ore:stone>], [<mysticalagriculture:crafting:32>, null, <mysticalagriculture:crafting:32>], [<ore:stone>, <mysticalagriculture:crafting:32>, <ore:stone>]]);
 

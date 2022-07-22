@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 mods.embers.Melter.remove(<liquid:aluminum>*288);
 mods.embers.Melter.remove(<liquid:osmium>*288);
 mods.embers.Melter.remove(<liquid:iridium>*288);

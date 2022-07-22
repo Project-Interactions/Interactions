@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	text: [
+		"手工电路板"
+	],
+	dependencies: [
+		"b76bf2b5"
+	],
+	tasks: [{
+		uid: "03dd5019",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "Manual Circuit"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

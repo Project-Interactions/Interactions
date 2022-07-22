@@ -1,0 +1,42 @@
+{
+  "name": "magnetizer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "0cc0adcf-4eec-47d6-a62d-8d51964c1ddf",
+      "duration": 140,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveintelligence:material_ingot\",Count:1b,Damage:5s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

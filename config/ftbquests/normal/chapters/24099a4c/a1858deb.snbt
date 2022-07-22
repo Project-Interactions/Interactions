@@ -21,7 +21,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:fluid_chaos_liquefier"
-			}
+			},
+			Count: 1b
 		}]
 	}],
 	rewards: [{

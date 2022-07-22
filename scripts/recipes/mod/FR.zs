@@ -1,4 +1,7 @@
-
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<forestry:sturdy_machine>);
 recipes.remove(<forestry:carpenter>);
 recipes.addShaped(<forestry:carpenter>, [[<ore:plankTreatedWood>, <teslacorelib:machine_case>, <ore:plankTreatedWood>],[<ore:plankTreatedWood>, <forestry:sturdy_machine>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>,<ore:plateConductiveIron> , <ore:plankTreatedWood>]]);

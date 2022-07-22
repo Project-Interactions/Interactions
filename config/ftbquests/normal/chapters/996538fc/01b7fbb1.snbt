@@ -18,7 +18,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:expensive_ore_maker"
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

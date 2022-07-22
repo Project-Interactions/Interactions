@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	text: [
+		"你的第一个电路板"
+	],
+	dependencies: [
+		"5981d0d3"
+	],
+	tasks: [{
+		uid: "c3c90db9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:manual_circuit"
+		}]
+	}]
+}

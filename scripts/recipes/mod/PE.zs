@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.removeByRecipeName("projecte:conversions/gold_to_diamond");
 recipes.removeByRecipeName("projecte:conversions/emerald_to_diamond");
 recipes.removeByRecipeName("projecte:conversions/iron_to_ender_pearl");
@@ -28,7 +32,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:condenser_mk1>, [
 	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
 	[<ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>]
 ]);
-
+/*
 mods.extendedcrafting.TableCrafting.addShaped(3, <projectex:stone_table>, [
 	[<maia_draconic_edition:red_matter_core>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <maia_draconic_edition:red_matter_core>], 
 	[<projecte:item.pe_covalence_dust>, <ore:blockGlassStrong>, <ore:blockGlassStrong>, <ore:blockGlassStrong>, <ore:blockGlassStrong>, <ore:blockGlassStrong>, <projecte:item.pe_covalence_dust>], 
@@ -58,7 +62,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <projectex:alchemy_table>, [
 	[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, null, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>], 
 	[<thaumicrestoration:block_infuser>, <thaumicrestoration:block_infuser>, <thaumicrestoration:block_infuser>, <thaumicrestoration:block_infuser>, <thaumicrestoration:block_infuser>, <thaumicrestoration:block_infuser>, <thaumicrestoration:block_infuser>]
 ]);
-
+*/
 recipes.remove(<projecte:item.pe_rm_hammer>);
 recipes.remove(<projecte:item.pe_rm_shears>);
 recipes.remove(<projecte:item.pe_rm_hoe>);
@@ -73,9 +77,7 @@ recipes.remove(<projecte:item.pe_dm_shears>);
 recipes.remove(<projecte:item.pe_dm_hammer>);
 recipes.remove(<projecte:item.pe_dm_axe>);
 recipes.remove(<projecte:item.pe_dm_pick>);
-recipes.remove(<projectex:alchemy_table>);
 recipes.remove(<projecte:condenser_mk2>);
-recipes.remove(<projectex:stone_table>);
 
 mods.extendedcrafting.TableCrafting.addShaped(1, <projecte:item.pe_dm_armor_3>, [
 	[null, <conarm:armor_plate>.withTag({Material: "dark_matter"}), null], 
@@ -160,7 +162,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <equivalentenergistics:emc_craf
 	[<maia_draconic_edition:red_matter_core>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>, <maia_draconic_edition:red_matter_core>], 
 	[<maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>]
 ]);
-
+/*
 mods.extendedcrafting.TableCrafting.addShaped(4, <equivalentenergistics:emc_crafter:2>, [
 	[<projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>], 
 	[<projectex:matter:5>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>, <projectex:matter:5>], 
@@ -184,7 +186,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <equivalentenergistics:emc_craf
 	[<projectex:matter:10>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>, <projectex:matter:10>], 
 	[<projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>]
 ]);
-
+*/
 mods.extendedcrafting.TableCrafting.addShaped(4, <equivalentenergistics:emc_condenser>, [
 	[<maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>, <maia_draconic_edition:dark_matter_core>], 
 	[<maia_draconic_edition:dark_matter_core>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>, <maia_draconic_edition:dark_matter_core>], 
@@ -208,7 +210,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <equivalentenergistics:emc_cond
 	[<maia_draconic_edition:red_matter_core>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>, <maia_draconic_edition:red_matter_core>], 
 	[<maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>, <maia_draconic_edition:red_matter_core>]
 ]);
-
+/*
 mods.extendedcrafting.TableCrafting.addShaped(4, <equivalentenergistics:emc_condenser:2>, [
 	[<projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>], 
 	[<projectex:matter:5>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>, <projectex:matter:5>], 
@@ -232,3 +234,4 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <equivalentenergistics:emc_cond
 	[<projectex:matter:10>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>, <projectex:matter:10>], 
 	[<projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>]
 ]);
+*/

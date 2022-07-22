@@ -1,6 +1,7 @@
-//This file was created via CT-GUI! Editing it is not advised!
-//Don't touch me!
-//#Remove
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<simplyjetpacks:itemjetpack:19>);
 recipes.remove(<simplyjetpacks:itemjetpack:10>);
 recipes.remove(<simplyjetpacks:itemjetpack:29>);

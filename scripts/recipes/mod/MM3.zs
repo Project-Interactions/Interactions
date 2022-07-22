@@ -1,4 +1,4 @@
-//lengdong W
+/*
 val vafr = mods.modularmachinery.RecipeBuilder.newBuilder("vacuumfreezer_tungsten","vacuumfreezer", 240);
 vafr.addEnergyPerTickInput(10000);
 vafr.addItemInput(<contenttweaker:hot_tungsten_ingot>);
@@ -193,7 +193,7 @@ xk.addFluidInput(<liquid:vibranium_fluid>*1296);
 xk.addFluidInput(<liquid:tungsten>*1296);
 xk.addFluidInput(<liquid:void_metal>*1296);
 xk.build();
-
+/*
 mods.extendedcrafting.TableCrafting.addShaped(4, <modularcontroller:assembly_line_controller>, [
 	[<equivalentenergistics:emc_crafter:3>, <equivalentenergistics:emc_crafter:3>, <equivalentenergistics:emc_crafter:3>, <equivalentenergistics:emc_crafter:3>, <pneumaticcraft:assembly_io_unit>, <aeadditions:fluidcrafter>, <aeadditions:fluidcrafter>, <aeadditions:fluidcrafter>, <aeadditions:fluidcrafter>], 
 	[<equivalentenergistics:emc_crafter:3>, <equivalentenergistics:emc_crafter:3>, <equivalentenergistics:emc_crafter:3>, <pneumaticcraft:assembly_io_unit>, <projectex:matter:11>, <pneumaticcraft:assembly_io_unit>, <aeadditions:fluidcrafter>, <aeadditions:fluidcrafter>, <aeadditions:fluidcrafter>], 
@@ -278,7 +278,7 @@ cir12.addFluidInput(<liquid:superconduct>*1000);
 cir12.build();
 
 
-
+*/
 
 
 

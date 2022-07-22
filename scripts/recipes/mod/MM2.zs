@@ -1,4 +1,4 @@
-//铬锭
+/*
 val lzr = mods.modularmachinery.RecipeBuilder.newBuilder("manaconverter_laizeer","manaconverter", 40);
 lzr.addItemInput(<ore:gemFluix>);
 lzr.addItemInput(<ore:gemRuby>);
@@ -156,3 +156,4 @@ mk32.addItemInput(<ore:ingotSteel>);
 mk32.addItemOutput(<techreborn:ingot:16>);
 mk32.addAuraInput(1000);
 mk32.build();
+*/

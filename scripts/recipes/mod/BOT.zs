@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 import mods.botaniatweaks.Agglomeration;
 //大量修改（pylon水晶，spreader发射器
 recipes.remove(<botania:manaresource:14>);
@@ -132,7 +136,7 @@ null,null,null);
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
 
 //
-mods.botania.ManaInfusion.addInfusion(<modularmachinery:itemmodularium>,<immersiveintelligence:material_ingot>,3000);
+
 
 
 

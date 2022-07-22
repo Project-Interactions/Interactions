@@ -14,7 +14,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:circutbuildermk2"
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

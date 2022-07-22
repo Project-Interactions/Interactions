@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.addShaped(<minecraft:hopper> * 2, [[<techreborn:plates:35>, <minecraft:chest>, <techreborn:plates:35>],[<techreborn:plates:35>, <minecraft:chest>, <techreborn:plates:35>], [<techreborn:plates:35>, <techreborn:plates:35>, <techreborn:plates:35>]]);
 recipes.remove(<minecraft:chest>*4);
 recipes.remove(<minecraft:chest>);

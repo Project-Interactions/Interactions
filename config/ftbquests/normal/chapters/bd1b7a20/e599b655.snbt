@@ -12,5 +12,19 @@
 		uid: "b5fa7e68",
 		type: "item",
 		item: "minecraft:beetroot_seeds"
+	},
+	{
+		uid: "3ebc3210",
+		type: "item",
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_seed: "vanilla:potato_plant",
+				agri_growth: 1b,
+				agri_gain: 1b,
+				agri_strength: 1b,
+				agri_analyzed: 0b
+			}
+		}
 	}]
 }

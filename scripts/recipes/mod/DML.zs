@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<deepmoblearning:polymer_clay> * 16);
 recipes.removeShaped(<deepmoblearning:machine_casing>, [[<deepmoblearning:soot_covered_plate>, <ore:ingotIron>, <deepmoblearning:soot_covered_plate>], [<ore:ingotIron>, <deepmoblearning:soot_covered_redstone>, <ore:ingotIron>], [<deepmoblearning:soot_covered_plate>, <ore:ingotIron>, <deepmoblearning:soot_covered_plate>]]);
 recipes.removeShapeless(<deepmoblearning:soot_covered_plate> * 8);

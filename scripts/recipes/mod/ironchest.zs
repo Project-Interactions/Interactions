@@ -1,6 +1,8 @@
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
-#modloaded ironchest
 print("--- loading IronChest.zs ---");
 
 # *======= Recipes =======*

@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b20a860d",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:rubber_sapling"
+		}]
+	},
+	{
+		uid: "6a76dedb",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:rubber_log"
+		}],
+		count: 64L
+	}]
+}

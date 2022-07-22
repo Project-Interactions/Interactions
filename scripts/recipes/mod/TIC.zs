@@ -1,4 +1,7 @@
-//
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>);
 mods.tconstruct.Melting.removeRecipe(<liquid:coal>);
 mods.tconstruct.Melting.removeRecipe(<liquid:redstone>);
@@ -135,7 +138,7 @@ recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>,
 
 
 
-mods.tconstruct.Casting.addTableRecipe(<alternatingflux:material>, <immersiveengineering:mold:4>, <liquid:constantan>,144,false, 80);
+//mods.tconstruct.Casting.addTableRecipe(<alternatingflux:material>, <immersiveengineering:mold:4>, <liquid:constantan>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:20>, <immersiveengineering:mold:4>, <liquid:copper>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:21>, <immersiveengineering:mold:4>, <liquid:electrum>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:22>, <immersiveengineering:mold:4>, <liquid:aluminum>,144,false, 80);
@@ -163,5 +166,6 @@ mods.tconstruct.Alloy.addRecipe(<liquid:dark_matter>*2000,[<liquid:dark_matter>*
 mods.tconstruct.Alloy.addRecipe(<liquid:crystal_matrix>*2000,[<liquid:crystal_matrix>*1000,<liquid:duplication>*500]);
 mods.tconstruct.Alloy.addRecipe(<liquid:draconium>*2000,[<liquid:draconium>*1000,<liquid:duplication>*300]);
 
+recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>]]);
 
 

@@ -4,7 +4,7 @@
 recipes.remove(<chambers:big_compact_chamber>);
 recipes.remove(<chambers:compact_chamber>);
 //Don't touch me!
-//#Add
+/*
 mods.extendedcrafting.TableCrafting.addShaped(2, <gugu-utils:emberinputhatch:6>, [
 	[<embers:winding_gears>, <embers:block_caminite_brick>, <embers:ember_injector>, <embers:block_caminite_brick>, <embers:winding_gears>], 
 	[<embers:block_caminite_brick>, <embers:archaic_brick>, <embers:crystal_cell>, <embers:archaic_brick>, <embers:block_caminite_brick>], 
@@ -86,3 +86,4 @@ recipes.addShaped(<modularcontroller:circutbuildermk1_controller>, [[<techreborn
 
 //File End
 
+*/

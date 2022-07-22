@@ -18,7 +18,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:large_uu_maker"
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "f3ce0b7b",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:material_plate 1 6"
+		}]
+	}]
+}

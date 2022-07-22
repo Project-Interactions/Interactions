@@ -1,6 +1,7 @@
-//This file was created via CT-GUI! Editing it is not advised!
-//Don't touch me!
-//#Remove
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 furnace.remove(<minecraft:coal:1>);
 recipes.remove(<extendedcrafting:material:2>);
 recipes.remove(<extendedcrafting:table_basic>);
@@ -10,8 +11,7 @@ recipes.remove(<extendedcrafting:table_advanced>);
 //Don't touch me!
 //#Add
 recipes.addShapeless(<contenttweaker:aether_log_fix>, [<aether_legacy:aether_log>]);
-<contenttweaker:aether_log_fix>.addTooltip("为了修复活木无法制作建的物品，只能用于合成活木");
-<thermalfoundation:geode>.addTooltip("使用任意一种源质结晶都能制作");
+
 
 mods.embers.Alchemy.add(<extendedcrafting:table_basic>, [<appliedenergistics2:molecular_assembler>,<extendedcrafting:storage>,<enderio:item_material:1>,<thaumcraft:metal_void>,<ore:circuitDataQ>], {"dawnstone":20 to 30,"iron":20 to 23,"silver":25 to 40,"copper":10 to 15});
 recipes.remove(<integrateddynamics:coal_generator>);
@@ -21,19 +21,18 @@ recipes.removeShapeless(<aether_legacy:skyroot_plank>*4);
 recipes.addShapeless(<aether_legacy:skyroot_plank>*2,[<ore:logSkyroot>]);
 recipes.addShaped(<contenttweaker:frost_proof_machine_casing>*2, [[<ore:ingotCold>, <ore:scaffoldingAluminium>, <ore:ingotCold>],[<ore:ingotCold>,<techreborn:machine_casing:1>, <ore:ingotCold>], [<ore:ingotCold>,<ore:scaffoldingAluminium>, <ore:ingotCold>]]);
 
-recipes.addShaped(<oeintegration:excavatemodifier>, [[null, <modularmachinery:itemmodularium>, null],[<modularmachinery:itemmodularium>, <techreborn:plates:31>, <modularmachinery:itemmodularium>], [null, <modularmachinery:itemmodularium>, null]]);
+//recipes.addShaped(<oeintegration:excavatemodifier>, [[null, <modularmachinery:itemmodularium>, null],[<modularmachinery:itemmodularium>, <techreborn:plates:31>, <modularmachinery:itemmodularium>], [null, <modularmachinery:itemmodularium>, null]]);
 recipes.addShaped(<contenttweaker:carbon_block>,[[null,<ore:plateCarbon>,null],[<ore:plateCarbon>,null,<ore:plateCarbon>],[null,<ore:plateCarbon>,null]]);
 recipes.removeShaped(<oeintegration:excavatemodifier>, [[<ore:ingotIron>, <ore:slimeball>, <ore:ingotIron>], [<ore:dustRedstone>, <tconstruct:ingots:2>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:slimeball>, <ore:ingotIron>]]);
 
 mods.aether_legacy.Freezer.registerFreezable(<pneumaticcraft:ingot_iron_compressed>,<contenttweaker:cold_ingot>,80);
 
-recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer"}),[<advgenerators:mixing_chamber>]);
 
 recipes.remove(<extendedcrafting:material:7>*2);
 recipes.addShaped(<extendedcrafting:material:7>,[[<ore:dustLumium>,<ore:dustLumium>,null],[<enderio:block_holier_fog>,<enderio:block_holier_fog>,null],[null,null,null]]);
 <ore:essenceLumium>.add(<extendedcrafting:material:7>);
 
-recipes.addShaped(<gugu-utils:lensoverclocking>, [[<botanicadds:rune_tp>, <thermalfoundation:material:357>, <botanicadds:rune_energy>],[<thermalfoundation:material:357>, <botania:lens>, <thermalfoundation:material:357>], [<botanicadds:rune_energy>, <thermalfoundation:material:357>, <botanicadds:rune_tp>]]);
+//recipes.addShaped(<gugu-utils:lensoverclocking>, [[<botanicadds:rune_tp>, <thermalfoundation:material:357>, <botanicadds:rune_energy>],[<thermalfoundation:material:357>, <botania:lens>, <thermalfoundation:material:357>], [<botanicadds:rune_energy>, <thermalfoundation:material:357>, <botanicadds:rune_tp>]]);
 
 mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<qmd:ingot_alloy:2>*6);
 mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<plustic:osmiridiumingot>*2);
@@ -128,10 +127,7 @@ recipes.addShapeless(<opencomputers:material:8>, [<immersiveintelligence:materia
 recipes.addShapeless(<opencomputers:material:7>, [<immersiveintelligence:material:1>]);
 recipes.addShapeless(<opencomputers:material:6>, [<immersiveintelligence:material:8>]);
 recipes.addShaped(<theaurorian:aurorianstone>, [[<twilightforest:aurora_block>, <thermalfoundation:material:264>, <twilightforest:aurora_block>],[<aetherworks:item_resource:5>, <taiga:aurorium_block>, <aetherworks:item_resource:5>], [<twilightforest:aurora_block>, <thermalfoundation:material:264>, <twilightforest:aurora_block>]]);
-recipes.addShaped(<modularcontroller:vacuumfreezer_controller>, [[<naturesaura:sky_ingot>, <deepmoblearning:glitch_infused_ingot>, <naturesaura:sky_ingot>],[<pneumaticcraft:vacuum_pump>, <thaumicrestoration:item_ingot:2>, <pneumaticcraft:vacuum_pump>], [<thaumicrestoration:item_ingot:2>, <thaumicrestoration:item_ingot:2>, <thaumicrestoration:item_ingot:2>]]);
 recipes.addShaped(<enderio:item_material:22> * 4, [[<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>],[<engineersdecor:rebar_concrete>, <advancedrocketry:vitrifiedsand>, <engineersdecor:rebar_concrete>], [<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>]]);
-recipes.addShaped(<modularcontroller:blastfurnace_mk3_controller>, [[<contenttweaker:material_part:55>, <contenttweaker:material_part:55>, <contenttweaker:material_part:55>],[<contenttweaker:material_part:55>, <modularmachinery:itemmodularium>, <contenttweaker:material_part:55>], [<contenttweaker:material_part:55>, <contenttweaker:material_part:55>, <contenttweaker:material_part:55>]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blastfurnace_mk3"}), [[<nuclearcraft:alloy:11>, <nuclearcraft:alloy:12>, <moreplates:insanium_gear>],[null, <contenttweaker:material_part:55>, <nuclearcraft:alloy:12>], [<contenttweaker:material_part:55>, null, <nuclearcraft:alloy:11>]]);
 recipes.addShaped(<bloodmagic:soul_forge>, [[null, <mysticalagriculture:ingot_storage:4>, null],[<calculator:reinforcedfurnace>, <arcanearchives:brazier_of_hoarding>, <calculator:reinforcedfurnace>], [<nuclearcraft:nuclear_furnace>, <mysticalagriculture:ingot_storage:4>, <nuclearcraft:nuclear_furnace>]]);
 recipes.addShaped(<bloodmagic:altar>, [[<bloodmagic:monster_soul>, <astralsorcery:blockaltar:1>, <bloodmagic:monster_soul>],[<taiga:valyrium_block>, <botanicadds:elven_altar>, <taiga:valyrium_block>], [<aether_legacy:enchanter>, <naturesaura:nature_altar>, <aether_legacy:enchanter>]]);
 recipes.addShaped(<nuclearcraft:compound:1>, [[<ore:dustObsidian>, null, <ore:dustCalciumSulfate>],[null, <bloodarsenal:base_item:2>, null], [<ore:dustMagnesium>, null, <ore:itemBinderComposite>]]);
@@ -179,7 +175,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <contenttweaker:circuit_ultimat
 
 recipes.removeShaped(<rftools:shape_card>, [[<minecraft:paper>, <minecraft:brick>, <minecraft:paper>], [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>], [<minecraft:paper>, <minecraft:brick>, <minecraft:paper>]]);
 recipes.addShaped(<rftools:shape_card>, [[<minecraft:paper>, <tconstruct:hammer_head>.withTag({Material: "xu_enchanted_metal"}), <minecraft:paper>], [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>], [<minecraft:paper>, <tconstruct:hammer_head>.withTag({Material: "platinum"}), <minecraft:paper>]]);
-
+/*
 mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimate>, [
 	[<projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>], 
 	[<mekanism:reinforcedplasticblock:2>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <mekanism:reinforcedplasticblock:2>], 
@@ -189,6 +185,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimat
 	[<mekanism:reinforcedplasticblock:2>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <mekanism:reinforcedplasticblock:2>], 
 	[<projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>]
 ]);
+*/
 mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:compressor>, [
 	[<ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>], 
 	[<ore:compressed2xDustBedrock>, <pneumaticcraft:flux_compressor>, <pneumaticcraft:flux_compressor>, <pneumaticcraft:flux_compressor>, <extrautils2:quarry>, <mekanism:machineblock:1>, <mekanism:machineblock:1>, <mekanism:machineblock:1>, <ore:compressed2xDustBedrock>], 

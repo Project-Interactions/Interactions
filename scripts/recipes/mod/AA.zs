@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 //焦黑石英反向合成
 recipes.addShapeless( <actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
 //木质外壳
@@ -67,7 +71,7 @@ mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>)
 	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <jaopca:item_platelithium>, 250000, 200, [1.0, 1.0, 1.0]);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
 
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<gugu-utils:lenstransform>,<gugu-utils:lensoverclocking>,100);
+//mods.actuallyadditions.AtomicReconstructor.addRecipe(<gugu-utils:lenstransform>,<gugu-utils:lensoverclocking>,100);
 
 
 

@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 mods.extendedcrafting.TableCrafting.addShaped(3, <libvulpes:structuremachine>*8, [
 	[<ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:platerefinedIron>, <ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateIronCompressed>], 
 	[<ore:plateIronCompressed>, null, <ore:plateIronCompressed>, <ore:platerefinedIron>, <ore:plateIronCompressed>, null, <ore:plateIronCompressed>], 

@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.addShaped(<teslacorelib:speed_tier2> * 2, [[null, <ore:gearDiamond>, null],[<teslacorelib:speed_tier1>, <ore:circuitAdvanced>, <teslacorelib:speed_tier1>], [null, <ore:gearDiamond>, null]]);
 recipes.addShaped(<teslacorelib:speed_tier1> * 2, [[null, <ore:circuitBasic>, null],[<teslacorelib:base_addon>, <ore:gearGold>, <teslacorelib:base_addon>], [null, <ore:circuitBasic>, null]]);
 recipes.addShaped(<teslacorelib:energy_tier2> * 2, [[null, <ore:circuitAdvanced>, null],[<teslacorelib:energy_tier1>, <ore:gearDiamond>, <teslacorelib:energy_tier1>], [null, <ore:circuitAdvanced>, null]]);

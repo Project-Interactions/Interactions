@@ -139,5 +139,6 @@
 <ore:plateEnrichedSunnarium>.add(<contenttweaker:enrichedsunnariumalloy>);
 <ore:ingotEnrichedSunnarium>.add(<contenttweaker:enrichedsunnarium>);
 
-
+<ore:itemRubber>.remove(<industrialforegoing:plastic>);
+<ore:platePlastic>.add(<industrialforegoing:plastic>);
 <ore:blockGaia>.add(<avaritiatweaks:gaia_block>);

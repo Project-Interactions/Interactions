@@ -19,7 +19,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:mixer"
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }
