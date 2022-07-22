@@ -8,6 +8,13 @@ item.contenttweaker.ore_essence.name=矿物精华
 item.contenttweaker.gem_essence.name=宝石精华
 
 item.contenttweaker.stemcells.name=干细胞
+item.contenttweaker.andesite_pebble.name=安山岩石子
+item.contenttweaker.granite_pebble.name=花岗岩石子
+item.contenttweaker.diorite_pebble.name=闪长岩石子
+item.contenttweaker.printed_manual_circuit_board_substrate.name=压印的手工电路板基板
+item.contenttweaker.manual_circuit.name=手工电路板
+item.contenttweaker.assembled_manual_circuit.name=组装的手工电路板
+item.contenttweaker.mechanical_circuit.name=机械电路板
 
 tile.contenttweaker.carbon_block.name=碳板方块
 fluid.blend_caminite=液态方镁矾

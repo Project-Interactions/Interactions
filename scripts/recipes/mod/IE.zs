@@ -197,7 +197,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
 
 mods.immersivetechnology.CoolingTower.addRecipe(<liquid:refined_biofuel>*2000,<liquid:biomass>*2000,<liquid:culture_medium>*1000,<liquid:waste_water>*2000,<liquid:hot_spring_water>*2000,60);
 
-mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<immersiveengineering:material:20>*3,<enderio:item_alloy_ingot:3>*2]);
+mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<immersiveengineering:material:20>*3,<ore:ingotRedAlloy>*2]);
 
 //AlloySmelter
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
@@ -222,7 +222,6 @@ mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:
 //engine
 RecipeUtils.recipeTweak(true,<immersiveintelligence:material:13>,[[<ore:brushCarbon>, <ore:circuitAdvanced>, <ore:brushCarbon>], [<ore:plateAluminum>, <ore:ingotMagnet>, <ore:plateAluminum>], [<ore:ingotMagnet>, <immersiveengineering:wirecoil:1>, <ore:ingotMagnet>]]);
 
-//沉浸智能橡胶删硫粉
-//mods.immersiveintelligence.Vulcanizer.addRecipe(<minecraft:golden_ingot>,<ore:ingotIron>,<minecraft:diamond>,<immersiveintelligence:material_plate>,2000, 200);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
 

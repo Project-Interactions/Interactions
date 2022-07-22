@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<projectred-core:resource_item:251>);
 recipes.remove(<immersiveintelligence:metal_device1>);
 recipes.remove(<tcomplement:high_oven_controller>);
 recipes.remove(<immersiveintelligence:material_ingot:5>);
@@ -105,6 +106,7 @@ recipes.removeShaped(<computronics:colorful_lamp>, [[<ore:ingotIron>, <ore:block
 recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<projectred-core:resource_item:103>, [<enderio:item_alloy_ingot:3>]);
 recipes.addShaped(<interaction:co2>, [[<immersiveintelligence:material_ingot:5>, <immersiveengineering:metal_decoration1:1>, <immersiveintelligence:material_ingot:5>],[<immersiveengineering:metal_decoration1:1>, <immersiveengineering:metal_decoration1:1>, <immersiveengineering:metal_decoration1:1>], [<immersiveintelligence:material_ingot:5>, <immersiveengineering:metal_decoration1:1>, <immersiveintelligence:material_ingot:5>]]);
 recipes.addShaped(<interaction:magnetizer>, [[<immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>],[<immersiveengineering:sheetmetal:9>, <minecraft:redstone_block>, <immersiveengineering:sheetmetal:9>], [<immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>]]);
 recipes.addShaped(<multiblocked:multiblock_builder>, [[<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>],[<ore:circuitBasic>, <immersivepetroleum:schematic>, <ore:circuitBasic>], [<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>]]);

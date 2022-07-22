@@ -1,6 +1,9 @@
 {
 	x: 5.0d,
 	y: 5.0d,
+	text: [
+		"拥有自动化的版本"
+	],
 	dependencies: [
 		"c416c6ce"
 	],

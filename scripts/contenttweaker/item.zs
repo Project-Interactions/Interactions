@@ -49,4 +49,4 @@ VanillaFactory.createItem("printed_manual_circuit_board_substrate").register();
 VanillaFactory.createItem("manual_circuit").register();
 VanillaFactory.createItem("assembled_manual_circuit").register();
 
-
+VanillaFactory.createItem("mechanical_circuit").register();

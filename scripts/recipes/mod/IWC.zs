@@ -16,7 +16,7 @@ mods.inworldcrafting.FluidToItem.transform(<contenttweaker:gem_essence>*4, <liqu
 
 mods.inworldcrafting.FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dirt>], true);
 
-mods.inworldcrafting.FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<minecraft:dirt>*64], true);
+mods.inworldcrafting.FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:log>*64], true);
 
 
 mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cobalt>, [<thermalfoundation:geode>*8], true);
