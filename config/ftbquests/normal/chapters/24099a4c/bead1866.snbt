@@ -21,7 +21,8 @@
 					MasterZ: 0,
 					dimId: -1
 				}
-			}
+			},
+			Count: 1b
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

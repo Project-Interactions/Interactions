@@ -93,6 +93,7 @@ recipes.remove(<compactvoidminers:void_pump>);
 recipes.remove(<compactvoidminers:void_miner>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<immersiveintelligence:material_ingot>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>],[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>], [<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>]]);
 recipes.addShapeless(<projectred-core:resource_item:103>, [<enderio:item_alloy_ingot:3>]);
 recipes.addShaped(<interaction:co2>, [[<immersiveintelligence:material_ingot:5>, <immersiveengineering:metal_decoration1:1>, <immersiveintelligence:material_ingot:5>],[<immersiveengineering:metal_decoration1:1>, <immersiveengineering:metal_decoration1:1>, <immersiveengineering:metal_decoration1:1>], [<immersiveintelligence:material_ingot:5>, <immersiveengineering:metal_decoration1:1>, <immersiveintelligence:material_ingot:5>]]);
 recipes.addShaped(<interaction:magnetizer>, [[<immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>],[<immersiveengineering:sheetmetal:9>, <minecraft:redstone_block>, <immersiveengineering:sheetmetal:9>], [<immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>, <immersiveengineering:sheetmetal:9>]]);

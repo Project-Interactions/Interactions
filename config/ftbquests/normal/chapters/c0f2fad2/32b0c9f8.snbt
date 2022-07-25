@@ -3,7 +3,6 @@
 	y: 6.0d,
 	dependencies: [
 		"584e7532",
-		"24603f65",
 		"aad5bdbf"
 	],
 	tasks: [{
