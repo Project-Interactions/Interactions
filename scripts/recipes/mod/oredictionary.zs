@@ -96,10 +96,6 @@
 <ore:blockMithril>.remove(<thermalfoundation:storage:8>);
 
 
-<ore:oc:materialTransistor>.remove(<opencomputers:material:6>);
-<ore:oc:circuitChip1>.remove(<opencomputers:material:7>);
-<ore:oc:circuitChip2>.remove(<opencomputers:material:8>);
-<ore:oc:circuitChip3>.remove(<opencomputers:material:9>);
 
 <ore:blockAstralStarmetal>.add(<astraladditions:block_starmetal>);
 

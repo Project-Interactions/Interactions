@@ -2,19 +2,8 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
-mods.extendedcrafting.TableCrafting.addShaped(3, <libvulpes:structuremachine>*8, [
-	[<ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:platerefinedIron>, <ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateIronCompressed>], 
-	[<ore:plateIronCompressed>, null, <ore:plateIronCompressed>, <ore:platerefinedIron>, <ore:plateIronCompressed>, null, <ore:plateIronCompressed>], 
-	[<ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateDenseIron>, <ore:plateDenseIron>, <ore:plateDenseIron>, <ore:plateIronCompressed>, <ore:plateIronCompressed>], 
-	[<ore:platerefinedIron>, <ore:platerefinedIron>, <ore:plateDenseIron>, <extendedcrafting:material:18>, <ore:plateDenseIron>, <ore:platerefinedIron>, <ore:platerefinedIron>], 
-	[<ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateDenseIron>, <ore:plateDenseIron>, <ore:plateDenseIron>, <ore:plateIronCompressed>, <ore:plateIronCompressed>], 
-	[<ore:plateIronCompressed>, null, <ore:plateIronCompressed>, <ore:platerefinedIron>, <ore:plateIronCompressed>, null, <ore:plateIronCompressed>], 
-	[<ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:platerefinedIron>, <ore:plateIronCompressed>, <ore:plateIronCompressed>, <ore:plateIronCompressed>]
 
-    
-]);
-recipes.removeShaped(<libvulpes:holoprojector>, [[<advancedrocketry:satelliteprimaryfunction>, <ore:dustRedstone>, <advancedrocketry:satelliteprimaryfunction>], [<ore:dustRedstone>, <ore:plateIron>, <ore:dustRedstone>]]);
-
+/*
 mods.extendedcrafting.TableCrafting.addShaped(3, <advancedrocketry:ic:3>, [
 	[<ore:ingotThermoconducting>, <ore:ingotThermoconducting>, <ore:ingotThermoconducting>, <ore:ingotThermoconducting>, <ore:ingotThermoconducting>, <ore:ingotThermoconducting>, <ore:ingotThermoconducting>], 
 	[<ore:ingotThermoconducting>, null, <ore:oc:microcontrollerCase2>, <ore:oc:microcontrollerCase2>, null, <ore:circuitUltimateQ>, <ore:ingotThermoconducting>], 
@@ -44,7 +33,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <advancedrocketry:ic:5>, [
 	[null, null, null, <ore:ingotCobalt>, <enderio:item_liquid_conduit:2>, <enderio:item_liquid_conduit:2>, <ore:ingotCobalt>], 
 	[null, null, null, <ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>]
 ]);
-/* wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
+//wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
 mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:3>);
 mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
 mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
@@ -64,7 +53,7 @@ mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuit
 mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuitplate:1>,200,200,[<qmd:semiconductor:3>,<immersiveintelligence:material_ingot>,<contenttweaker:circuit_ultimate3>]);
 mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuitplate:1>,200,200,[<immersiveintelligence:material_plate:5>,<immersiveintelligence:material_ingot>,<contenttweaker:circuit_ultimate3>]);
 mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:itemcircuitplate:1>,200,200,[<advancedrocketry:wafer>,<immersiveintelligence:material_ingot>,<contenttweaker:circuit_ultimate3>]);
-*/
+
 
 recipes.addShaped(<advancedrocketry:rocketmotor>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [null, <simplyjetpacks:metaitemmods:24>, null], [<ore:plateTitanium>, null, <ore:plateTitanium>]]);
 recipes.addShaped(<advancedrocketry:bipropellantrocketmotor>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>], [null, <simplyjetpacks:metaitemmods:24>, null], [<ore:plateSteel>, null, <ore:plateSteel>]]);
@@ -75,3 +64,4 @@ recipes.removeShaped(<advancedrocketry:rocketmotor>, [[<ore:ingotSteel>, <ore:in
 recipes.removeShaped(<advancedrocketry:bipropellantrocketmotor>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>], [null, <ore:plateSteel>, null], [<ore:plateSteel>, null, <ore:plateSteel>]]);
 recipes.removeShaped(<advancedrocketry:advrocketmotor>, [[<ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>], [null, <ore:plateTitaniumIridium>, null], [<ore:plateTitaniumIridium>, null, <ore:plateTitaniumIridium>]]);
 recipes.removeShaped(<advancedrocketry:advbipropellantrocketmotor>, [[<ore:ingotTitaniumIridium>, <ore:ingotTitaniumIridium>, <ore:ingotTitaniumIridium>], [null, <ore:plateTitaniumAluminide>, null], [<ore:plateTitaniumAluminide>, null, <ore:plateTitaniumAluminide>]]);
+*/

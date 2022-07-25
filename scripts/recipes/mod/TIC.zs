@@ -14,7 +14,6 @@ mods.tconstruct.Melting.removeRecipe(<liquid:crystalline_alloy>);
 mods.tconstruct.Melting.removeRecipe(<liquid:crystalline_pink_slime>);
 mods.tconstruct.Melting.removeRecipe(<liquid:energetic_silver>);
 mods.tconstruct.Melting.removeRecipe(<liquid:astral_starmetal>);
-mods.tconstruct.Melting.removeRecipe(<liquid:dilithium>);
 mods.tconstruct.Melting.removeRecipe(<liquid:tungsten>);
 mods.tconstruct.Melting.removeRecipe(<liquid:mithril>);
 mods.tconstruct.Melting.removeRecipe(<liquid:cerulean>);
@@ -34,8 +33,6 @@ mods.tconstruct.Melting.removeRecipe(<liquid:enderium>,<thermalfoundation:materi
 
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<techreborn:smalldust:1>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<techreborn:dust:1>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<libvulpes:productdust:9>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<libvulpes:ore0:9>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<thermalfoundation:material:68>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<thermalfoundation:ore:4>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<immersiveengineering:ore:1>);
@@ -55,14 +52,10 @@ mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<techreborn:smalldust:66>)
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:ore:7>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<techreborn:ore:1>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<jaopca:item_dusttinyiridium>);
-mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<libvulpes:ore0:10>);
-mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<libvulpes:productdust:10>);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<jaopca:item_dusttinytitanium>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<techreborn:dust:54>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<qmd:dust:3>);
-mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<libvulpes:productdust:7>);
-mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<libvulpes:ore0:8>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<techreborn:smalldust:54>);
 
 
@@ -118,9 +111,9 @@ mods.tconstruct.Casting.addTableRecipe(<wirelessutils:fluxed_pearl>, <minecraft:
 //
 mods.tconstruct.Casting.addTableRecipe(<moreplates:silver_stick>, <immersiveengineering:mold:2>, <liquid:silver>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<moreplates:gold_stick>, <immersiveengineering:mold:2>, <liquid:gold>,144,false, 80);
-mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:1>, <immersiveengineering:mold:2>, <liquid:iron>,144,false, 80);
-mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:4>, <immersiveengineering:mold:2>, <liquid:copper>,144,false, 80);
-mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:6>, <immersiveengineering:mold:2>, <liquid:steel>,144,false, 80);
+//mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:1>, <immersiveengineering:mold:2>, <liquid:iron>,144,false, 80);
+//mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:4>, <immersiveengineering:mold:2>, <liquid:copper>,144,false, 80);
+//mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:6>, <immersiveengineering:mold:2>, <liquid:steel>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:3>, <immersiveengineering:mold:2>, <liquid:aluminum>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<moreplates:nickel_stick>, <immersiveengineering:mold:2>, <liquid:nickel>,144,false, 80);
 mods.tconstruct.Casting.addTableRecipe(<moreplates:lead_stick>, <immersiveengineering:mold:2>, <liquid:lead>,144,false, 80);
