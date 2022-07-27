@@ -1,0 +1,16 @@
+{
+	title: "关于多方块结构",
+	x: 1.0d,
+	y: -4.0d,
+	text: [
+		"本整合包使用新型的MBD，而非模块化机械",
+		"所有有缓存（如箱子）输入和输出口都可使用",
+		"但请注意这个端口必须可以被抽取相应的能量"
+	],
+	size: 1.6d,
+	tasks: [{
+		uid: "92c9cc50",
+		type: "checkmark",
+		icon: "multiblocked:blueprint_table"
+	}]
+}

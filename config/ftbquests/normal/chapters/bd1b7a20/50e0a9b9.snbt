@@ -1,0 +1,14 @@
+{
+	title: "背包整理",
+	x: -3.0d,
+	y: -4.0d,
+	text: [
+		"本整合包使用Bogo Sorter，而非R键整理"
+	],
+	size: 1.6d,
+	tasks: [{
+		uid: "52d2af41",
+		type: "checkmark",
+		icon: "mekanism:machineblock 1 15"
+	}]
+}

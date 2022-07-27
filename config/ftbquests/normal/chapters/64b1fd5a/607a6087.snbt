@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	text: [
+		"二氧化碳收集器"
+	],
+	tasks: [{
+		uid: "b8d6b782",
+		type: "item",
+		items: [{
+			item: "interaction:co2"
+		}]
+	}]
+}

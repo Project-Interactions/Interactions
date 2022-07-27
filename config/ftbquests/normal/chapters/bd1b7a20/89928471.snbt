@@ -19,18 +19,6 @@
 		count: 64
 	},
 	{
-		uid: "6b1586d5",
-		type: "item",
-		item: "scalinghealth:difficultychanger 1 1",
-		count: 6
-	},
-	{
-		uid: "c104a2a3",
-		type: "item",
-		item: "scalinghealth:difficultychanger",
-		count: 6
-	},
-	{
 		uid: "525a3f73",
 		type: "item",
 		item: "extrautils2:cursedearth",

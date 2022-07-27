@@ -6,7 +6,7 @@
 		"宝石粉可爆炸为宝石"
 	],
 	dependencies: [
-		"9cf48d24"
+		"58475d41"
 	],
 	tasks: [{
 		uid: "e1a14a2a",
