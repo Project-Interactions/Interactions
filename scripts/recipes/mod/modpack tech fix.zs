@@ -1,7 +1,6 @@
 
 //科技线修复
 furnace.remove(<nuclearcraft:ingot:12>);
-furnace.remove(<libvulpes:productingot:9>);
 furnace.remove(<immersiveintelligence:material_ingot:2>);
 recipes.remove(<enderio:item_material:10>);
 recipes.remove(<actuallyadditions:item_pickaxe_quartz>);
@@ -9,19 +8,15 @@ furnace.remove(<thermalfoundation:material:132>);
 furnace.remove(<immersiveengineering:metal:1>);
 furnace.remove(<techreborn:ingot:24>);
 furnace.remove(<techreborn:ingot:14>);
-furnace.remove(<libvulpes:productingot:10>);
 furnace.remove(<techreborn:ingot:10>);
 furnace.remove(<thermalfoundation:material:135>);
 furnace.remove(<draconicevolution:draconium_ingot>);
 furnace.remove(<taiga:dilithium_ingot>);
 furnace.remove(<astralsorcery:itemcraftingcomponent:1>);
 furnace.remove(<nuclearcraft:ingot:5>);
-furnace.remove(<libvulpes:productingot:7>);
 furnace.remove(<techreborn:ingot:15>);
 furnace.remove(<tconstruct:ingots>);
 furnace.remove(<tconstruct:ingots:1>);
-furnace.remove(<advancedrocketry:productingot>);
-furnace.remove(<advancedrocketry:productingot:1>);
 furnace.remove(<mekanism:ingot:1>);
 furnace.remove(<nuclearcraft:ingot:3>);
 furnace.remove(<nuclearcraft:ingot:7>);
@@ -49,7 +44,6 @@ recipes.remove(<actuallyadditions:item_pickaxe_emerald>);
 recipes.remove(<actuallyadditions:item_pickaxe_obsidian>);
 recipes.removeShapeless(<jaopca:item_plateastralstarmetal>);
 recipes.removeShapeless(<jaopca:item_plateboron>);
-recipes.removeShapeless(<jaopca:item_platedilithium>);
 recipes.removeShapeless(<jaopca:item_platelithium>);
 recipes.removeShapeless(<jaopca:item_platemagnesium>);
 recipes.remove(<mysticalagradditions:supremium_paxel>);
@@ -112,8 +106,6 @@ recipes.removeShaped(<thaumcraft:plate:2> * 3, [[<ore:ingotThaumium>, <ore:ingot
 recipes.removeShaped(<thaumcraft:plate:1> * 3, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<thaumcraft:plate> * 3, [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>]]);
 
-//wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
-//cedrocketry.PlatePresser.removeRecipe(<moreplates:void_plate>);
 
 
 

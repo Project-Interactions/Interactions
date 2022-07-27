@@ -16,7 +16,6 @@ recipes.addShapeless(<contenttweaker:aether_log_fix>, [<aether_legacy:aether_log
 mods.embers.Alchemy.add(<extendedcrafting:table_basic>, [<appliedenergistics2:molecular_assembler>,<extendedcrafting:storage>,<enderio:item_material:1>,<thaumcraft:metal_void>,<ore:circuitDataQ>], {"dawnstone":20 to 30,"iron":20 to 23,"silver":25 to 40,"copper":10 to 15});
 recipes.remove(<integrateddynamics:coal_generator>);
 //File End
-recipes.removeShapeless(<advancedrocketry:misc:1>);
 recipes.removeShapeless(<aether_legacy:skyroot_plank>*4);
 recipes.addShapeless(<aether_legacy:skyroot_plank>*2,[<ore:logSkyroot>]);
 recipes.addShaped(<contenttweaker:frost_proof_machine_casing>*2, [[<ore:ingotCold>, <ore:scaffoldingAluminium>, <ore:ingotCold>],[<ore:ingotCold>,<techreborn:machine_casing:1>, <ore:ingotCold>], [<ore:ingotCold>,<ore:scaffoldingAluminium>, <ore:ingotCold>]]);
@@ -104,11 +103,7 @@ mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:8>);
 
 
 //#Remove
-recipes.remove(<opencomputers:material:6> * 8);
-recipes.remove(<opencomputers:material:7> * 8);
-recipes.remove(<opencomputers:material:8> * 4);
-recipes.remove(<opencomputers:material:9> * 2);
-furnace.remove(<opencomputers:material:4>, <opencomputers:material:2>);
+
 recipes.removeShapeless(<extendedcrafting:material:36>);
 recipes.remove(<extendedcrafting:ender_alternator> * 2);
 recipes.remove(<extendedcrafting:ender_crafter>);
@@ -122,17 +117,12 @@ recipes.remove(<nuclearcraft:cobblestone_generator>);
 
 //Don't touch me!
 //#Add
-recipes.addShapeless(<opencomputers:material:9>, [<immersiveintelligence:material:9>]);
-recipes.addShapeless(<opencomputers:material:8>, [<immersiveintelligence:material:4>]);
-recipes.addShapeless(<opencomputers:material:7>, [<immersiveintelligence:material:1>]);
-recipes.addShapeless(<opencomputers:material:6>, [<immersiveintelligence:material:8>]);
 recipes.addShaped(<theaurorian:aurorianstone>, [[<twilightforest:aurora_block>, <thermalfoundation:material:264>, <twilightforest:aurora_block>],[<aetherworks:item_resource:5>, <taiga:aurorium_block>, <aetherworks:item_resource:5>], [<twilightforest:aurora_block>, <thermalfoundation:material:264>, <twilightforest:aurora_block>]]);
-recipes.addShaped(<enderio:item_material:22> * 4, [[<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>],[<engineersdecor:rebar_concrete>, <advancedrocketry:vitrifiedsand>, <engineersdecor:rebar_concrete>], [<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>]]);
+recipes.addShaped(<enderio:item_material:22> * 4, [[<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>],[<engineersdecor:rebar_concrete>, <minecraft:sand>, <engineersdecor:rebar_concrete>], [<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>]]);
 recipes.addShaped(<bloodmagic:soul_forge>, [[null, <mysticalagriculture:ingot_storage:4>, null],[<calculator:reinforcedfurnace>, <arcanearchives:brazier_of_hoarding>, <calculator:reinforcedfurnace>], [<nuclearcraft:nuclear_furnace>, <mysticalagriculture:ingot_storage:4>, <nuclearcraft:nuclear_furnace>]]);
 recipes.addShaped(<bloodmagic:altar>, [[<bloodmagic:monster_soul>, <astralsorcery:blockaltar:1>, <bloodmagic:monster_soul>],[<taiga:valyrium_block>, <botanicadds:elven_altar>, <taiga:valyrium_block>], [<aether_legacy:enchanter>, <naturesaura:nature_altar>, <aether_legacy:enchanter>]]);
 recipes.addShaped(<nuclearcraft:compound:1>, [[<ore:dustObsidian>, null, <ore:dustCalciumSulfate>],[null, <bloodarsenal:base_item:2>, null], [<ore:dustMagnesium>, null, <ore:itemBinderComposite>]]);
 recipes.addShaped(<bloodmagic:soul_snare>, [[<embers:ashen_cloth>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>],[null, <thaumadditions:adaminite_fabric>, <nuclearcraft:alloy:2>], [<thaumadditions:adaminite_fabric>, null, <embers:ashen_cloth>]]);
-recipes.addShaped(<advancedrocketry:vitrifiedsand> * 8, [[<minecraft:sand>, <minecraft:glass>, <minecraft:sand>],[<minecraft:glass>, <minecraft:sand>, <minecraft:glass>], [<minecraft:sand>, <minecraft:glass>, <minecraft:sand>]]);
 recipes.addShaped(<minecraft:tnt>, [[<minecraft:gravel>, <minecraft:gunpowder>, <minecraft:gravel>],[<minecraft:gunpowder>, <minecraft:gravel>, <minecraft:gunpowder>], [<minecraft:gravel>, <minecraft:gunpowder>, <minecraft:gravel>]]);
 recipes.addShaped(<integrateddynamics:squeezer>, [[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],[null, <ore:gearWood>, null], [<practicallogistics2:stoneplate>, <practicallogistics2:stoneplate>, <practicallogistics2:stoneplate>]]);
 

@@ -60,5 +60,9 @@ recipes.addShaped(<minecraft:piston> * 2, [[<extrautils2:compressedcobblestone>,
 
 furnace.remove(<minecraft:coal:1>);
 
-
+RecipeUtils.recipeTweak(true, <minecraft:cauldron>, [
+    [<ore:plateIron>, null, <ore:plateIron>], 
+    [<ore:plateIron>, null, <ore:plateIron>], 
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>
+]]);
 

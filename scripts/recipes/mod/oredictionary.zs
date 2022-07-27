@@ -96,10 +96,6 @@
 <ore:blockMithril>.remove(<thermalfoundation:storage:8>);
 
 
-<ore:oc:materialTransistor>.remove(<opencomputers:material:6>);
-<ore:oc:circuitChip1>.remove(<opencomputers:material:7>);
-<ore:oc:circuitChip2>.remove(<opencomputers:material:8>);
-<ore:oc:circuitChip3>.remove(<opencomputers:material:9>);
 
 <ore:blockAstralStarmetal>.add(<astraladditions:block_starmetal>);
 
@@ -112,22 +108,13 @@
 
 
 
-<ore:itemDraconiumMachineChassi>.add(<maia_draconic_edition:draconic_chassis>);
-<ore:itemAwakenedDraconiumMachineChassi>.add(<maia_draconic_edition:awakened_draconium_chassis>);
-<ore:itemChaoticMachineChassi>.add(<maia_draconic_edition:chaotic_chassis>);
-<ore:dyeDraconiumMachine>.add(<maia_draconic_edition:draconic_dye_blend>);
-<ore:dyeAwakenedDraconiumMachine>.add(<maia_draconic_edition:awakened_dye_blend>);
-<ore:dyeChaoticMachine>.add(<maia_draconic_edition:chaotic_dye_blend>);
-<ore:itemDraconiumChassiParts>.add(<maia_draconic_edition:draconic_chassis_part>);
-<ore:itemAwakenedDraconiumChassiParts>.add(<maia_draconic_edition:awakened_draconium_chassis_part>);
-<ore:itemChaoticChassiParts>.add(<maia_draconic_edition:chaotic_chassis_part>);
+
 
 
 
 <ore:heartAwakenedDraconium>.add(<draconicevolution:dragon_heart>);
 <ore:heartChaotic>.add(<draconicadditions:chaos_heart>);
-<ore:heartInfinity>.add(<maia_draconic_edition:primal_heart>);
-<ore:dustInfinity>.add(<maia_draconic_edition:primal_dust>);
+
 
 <ore:saplingRubber>.add(<immersiveintelligence:rubber_sapling>);
 <ore:treeSapling>.add(<immersiveintelligence:rubber_sapling>);

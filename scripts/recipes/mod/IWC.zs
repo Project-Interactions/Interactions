@@ -12,11 +12,11 @@ mods.inworldcrafting.FluidToItem.transform(<contenttweaker:ore_essence>*4, <liqu
 mods.inworldcrafting.FluidToItem.transform(<contenttweaker:ore_essence>*4, <liquid:ore_water>, [<practicallogistics2:stoneplate>], true);
 mods.inworldcrafting.FluidToItem.transform(<minecraft:clay>, <liquid:water>, [<extrautils2:compressedsand>], true);
 
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:gem_essence>*4, <liquid:gem_water>, [<advancedrocketry:vitrifiedsand>*4], true);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:gem_essence>*4, <liquid:gem_water>, [<minecraft:glass>*4], true);
 
 mods.inworldcrafting.FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dirt>], true);
 
-mods.inworldcrafting.FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<minecraft:dirt>*64], true);
+mods.inworldcrafting.FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:log>*64], true);
 
 
 mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cobalt>, [<thermalfoundation:geode>*8], true);
@@ -34,7 +34,6 @@ mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:16>,<t
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:pink_slime_ingot>, <liquid:if.pink_slime>, [<tconevo:material:1>], true);
 
 
-mods.inworldcrafting.FluidToItem.transform(<scalinghealth:crystalshard>, <liquid:refined_life_essence>, [<actuallyadditions:item_crystal_empowered>], true);
 
 
 mods.inworldcrafting.FluidToItem.transform(<compactmachines3:machine:5>, <liquid:aetherworks.aetherium_gas>, [<compactmachines3:machine:4>*2], true);

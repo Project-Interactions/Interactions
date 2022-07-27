@@ -22,16 +22,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "4c74db21",
-		type: "command",
-		command: "/weather rain"
-	},
-	{
-		uid: "d7bddca5",
-		type: "command",
-		command: "/weather rain"
-	},
-	{
 		uid: "27da819c",
 		type: "item",
 		item: "ceramics:clay_bucket"

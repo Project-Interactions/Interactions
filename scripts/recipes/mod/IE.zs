@@ -23,8 +23,7 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "ammo_mol
 recipes.removeShaped(<immersiveengineering:blueprint>.withTag({blueprint: "basic_circuits"}), [[<ore:chipBasic>, <immersiveengineering:tool:3>, <ore:chipBasic>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 //
-ArcFurnace.removeRecipe(<libvulpes:productingot:7>);
-ArcFurnace.removeRecipe(<libvulpes:productingot:7>*2);
+
 ArcFurnace.removeRecipe(<techreborn:ingot:15>);
 ArcFurnace.removeRecipe(<techreborn:ingot:15>*2);
 ArcFurnace.removeRecipe(<techreborn:ingot:3>);
@@ -133,13 +132,7 @@ MetalPress.addRecipe(<moreplates:fluix_gear>,<appliedenergistics2:material:7>*4,
 recipes.remove(<extrautils2:machine> * 4);
 recipes.remove(<techreborn:part:4> * 2);
 recipes.removeShapeless(<tconstruct:throwball:1>);
-recipes.remove(<libvulpes:productrod:10> * 4);
-recipes.remove(<libvulpes:productrod:7> * 4);
-recipes.remove(<libvulpes:productrod:6> * 4);
-recipes.remove(<libvulpes:productrod:4> * 4);
-recipes.remove(<libvulpes:productrod:1> * 4);
-recipes.remove(<advancedrocketry:productrod:1> * 4);
-recipes.remove(<advancedrocketry:productrod> * 4);
+
 recipes.remove(<immersiveengineering:material:3> * 4);
 recipes.remove(<immersiveengineering:material:1> * 4);
 recipes.remove(<immersiveengineering:material:2> * 4);
@@ -193,21 +186,22 @@ mods.immersiveintelligence.ChemicalBath.addRecipe(<immersiveintelligence:materia
 mods.immersivetechnology.CoolingTower.addRecipe(<liquid:gem_water>*2000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:hot_spring_water>*8100,<liquid:ore_water>*2000,60);
 mods.immersivetechnology.CoolingTower.addRecipe(<liquid:ore_water>*2000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:waste_water>*1000,<liquid:ore_water>*1000,60);
 
-mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
+//mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
 
 mods.immersivetechnology.CoolingTower.addRecipe(<liquid:refined_biofuel>*2000,<liquid:biomass>*2000,<liquid:culture_medium>*1000,<liquid:waste_water>*2000,<liquid:hot_spring_water>*2000,60);
 
-mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<immersiveengineering:material:20>*3,<enderio:item_alloy_ingot:3>*2]);
+mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<immersiveengineering:material:20>*3,<ore:ingotRedAlloy>*2]);
+
+
 
 //AlloySmelter
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
-//Crusher
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>*2, <ore:sandstone>, 2048, <libvulpes:productingot:3>, 0.1);
+//Crusher 硅锭
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>*2, <ore:sandstone>, 2048, <nuclearcraft:gem:6>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<buildinggadgets:constructionblockpowder>, <minecraft:sand>, 2048);
-
 //blueprint
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Manual Circuit"}),[<immersiveengineering:stone_decoration:8>,<immersiveengineering:stone_decoration:8>,<ore:plateBronze>]);
-//
+//工程块
 recipes.remove(<immersiveengineering:metal_decoration0:3>*2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [[<moreplates:crude_steel_plate>, <ore:circuitBasic>, <moreplates:crude_steel_plate>],[<minecraft:redstone>, <ore:gearCopper>, <minecraft:redstone>], [<moreplates:crude_steel_plate>, <minecraft:redstone>, <moreplates:crude_steel_plate>]]);
 
@@ -218,11 +212,13 @@ recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotS
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:circuitBasic>, <immersiveengineering:material:9>, <ore:circuitBasic>]]);
 
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
-mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2,<ore:ingotMagnet>*3,<ore:wireGold>*2]);
+mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2,<ore:ingotMagnet>*3]);
+mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2,<ore:ingotMagnet>*3,<ore:gemAmbrosium>*2]);
+
 //engine
 RecipeUtils.recipeTweak(true,<immersiveintelligence:material:13>,[[<ore:brushCarbon>, <ore:circuitAdvanced>, <ore:brushCarbon>], [<ore:plateAluminum>, <ore:ingotMagnet>, <ore:plateAluminum>], [<ore:ingotMagnet>, <immersiveengineering:wirecoil:1>, <ore:ingotMagnet>]]);
-
-//沉浸智能橡胶删硫粉
-//mods.immersiveintelligence.Vulcanizer.addRecipe(<minecraft:golden_ingot>,<ore:ingotIron>,<minecraft:diamond>,<immersiveintelligence:material_plate>,2000, 200);
-
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
+//机械电路板
+mods.immersiveintelligence.PrecisionAssembler.addRecipe(<contenttweaker:mechanical_circuit>,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:4>*2, <immersiveintelligence:material:6>,<ore:itemRubber>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveintelligence:material:7>);
 

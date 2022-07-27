@@ -172,12 +172,6 @@ mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*4,<end
 
 
 mods.techreborn.fusionReactor.addRecipe(<jaopca:item_platedensediamond>*4,<mekanism:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);
-//advanced rocketry
-mods.techreborn.rollingMachine.addShaped(<libvulpes:coil0:4>, [[<ore:plateCopper>,<ore:plateCopper>,<ore:plateCopper>],[<ore:plateCopper>,null,<ore:plateCopper>],[<ore:plateCopper>,<ore:plateCopper>,<ore:plateCopper>]]);
-mods.techreborn.rollingMachine.addShaped(<libvulpes:coil0:2>, [[<ore:plateGold>,<ore:plateGold>,<ore:plateGold>],[<ore:plateGold>,null,<ore:plateGold>],[<ore:plateGold>,<ore:plateGold>,<ore:plateGold>]]);
-mods.techreborn.rollingMachine.addShaped(<libvulpes:coil0:7>, [[<ore:plateTitanium>,<ore:plateTitanium>,<ore:plateTitanium>],[<ore:plateTitanium>,null,<ore:plateTitanium>],[<ore:plateTitanium>,<ore:plateTitanium>,<ore:plateTitanium>]]);
-mods.techreborn.rollingMachine.addShaped(<libvulpes:coil0:9>, [[<ore:plateAluminium>,<ore:plateAluminium>,<ore:plateAluminium>],[<ore:plateAluminium>,null,<ore:plateAluminium>],[<ore:plateAluminium>,<ore:plateAluminium>,<ore:plateAluminium>]]);
-mods.techreborn.rollingMachine.addShaped(<libvulpes:coil0:10>, [[<ore:plateIridium>,<ore:plateIridium>,<ore:plateIridium>],[<ore:plateIridium>,null,<ore:plateIridium>],[<ore:plateIridium>,<ore:plateIridium>,<ore:plateIridium>]]);
 
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:49>*20);
 mods.techreborn.industrialElectrolyzer.addRecipe(<thermalfoundation:material:68>*3,<techreborn:dust:31>*5,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*4,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*5,<techreborn:dynamiccell>*9,<techreborn:dust:49>*15,160,280);

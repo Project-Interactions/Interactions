@@ -50,7 +50,6 @@ Crucible.removeRecipe(<mekanism:dust:2>);
 Crucible.removeRecipe(<mekanism:oreblock>);
 Crucible.removeRecipe(<techreborn:dust:54>);
 Crucible.removeRecipe(<techreborn:dust:55>);
-Crucible.removeRecipe(<libvulpes:ore0:8>);
 Crucible.removeRecipe(<techreborn:ore:8>);
 
 Crucible.removeRecipe(<taiga:lumix_dust>);
