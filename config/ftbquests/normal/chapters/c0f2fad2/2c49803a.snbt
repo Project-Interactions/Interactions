@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 7.5d,
+	dependencies: [
+		"32b0c9f8",
+		"acead4de",
+		"b14225cb"
+	],
+	tasks: [{
+		uid: "acb05329",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mechanical_circuit"
+		}]
+	}]
+}

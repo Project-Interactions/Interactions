@@ -4,6 +4,7 @@ import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.data.IData;
 
+/*
 function init() {
 	events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
 		event.player.sendChat(
@@ -14,5 +15,5 @@ function init() {
 		);
 	});
 }
-
+*/
 

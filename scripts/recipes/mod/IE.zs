@@ -219,6 +219,6 @@ mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:
 RecipeUtils.recipeTweak(true,<immersiveintelligence:material:13>,[[<ore:brushCarbon>, <ore:circuitGood>, <ore:brushCarbon>], [<ore:plateAluminum>, <ore:ingotMagnet>, <ore:plateAluminum>], [<ore:ingotMagnet>, <immersiveengineering:wirecoil:1>, <ore:ingotMagnet>]]);
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 //机械电路板
-mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:mechanical_circuit>,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:4>*2, <immersiveintelligence:material:6>,<immersiveintelligence:material:29>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
+mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:mechanical_circuit>*3,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:4>*2, <immersiveintelligence:material:6>,<ore:itemRubber>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveintelligence:material:7>);
 

@@ -5,7 +5,7 @@
 		"主世界"
 	],
 	dependencies: [
-		"7bcf509c"
+		"7e5fc65b"
 	],
 	tasks: [{
 		uid: "dfcf335a",

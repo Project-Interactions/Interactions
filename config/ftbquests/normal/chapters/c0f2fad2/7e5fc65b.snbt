@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	dependencies: [
+		"24f7f3e3"
+	],
+	tasks: [{
+		uid: "92211e6b",
+		type: "item",
+		items: [{
+			item: "naturesaura:bottle_two_the_rebottling"
+		}]
+	}]
+}

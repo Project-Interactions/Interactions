@@ -125,7 +125,7 @@ recipes.remove(<botanicadds:pool_dreaming>);
 //
 Agglomeration.addRecipe(<teslacorelib:machine_case>,
 
-[<moreplates:mirion_gear>,<naturesaura:sky_ingot>,<immersiveintelligence:material:7>,<immersiveintelligence:material_ingot>],
+[<moreplates:mirion_gear>,<ore:circuitAdvanced>,<immersiveintelligence:material_ingot>],
 
 250000,0xCCFFFF,0x99FFFF,
 

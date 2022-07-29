@@ -6,7 +6,7 @@
 		"完全转化后打掉即可获得金叶"
 	],
 	dependencies: [
-		"7bcf509c"
+		"c529af56"
 	],
 	tasks: [{
 		uid: "756aa2da",

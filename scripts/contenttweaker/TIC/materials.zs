@@ -34,10 +34,10 @@ myMat.addBowStringMaterialStats(float modifier);系数
 myMat.addArrowShaftMaterialStats(float modifier, int bonusAmmo);系数，附加伤害
 myMat.addFletchingMaterialStats(float accuracy, float modifier);精确度，系数
 myMat.addProjectileMaterialStats();
-
+*/
 
 //enderio endergy
-val crude_steel = ExtendedMaterialBuilder.create("crude_steel");
+val crude_steel = ExtendedMaterialBuilder.create("crude_steel_test");
 crude_steel.color = Color.fromHex("999999").getIntColor();
 crude_steel.craftable = false;
 crude_steel.castable = true;
@@ -55,7 +55,7 @@ crude_steel.addPlatesMaterialStats(4, 8, 5);
 crude_steel.addTrimMaterialStats(4);
 crude_steel.register();
 
-*/
+
 
 
 
