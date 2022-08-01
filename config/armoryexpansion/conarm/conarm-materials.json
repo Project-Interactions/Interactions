@@ -287,6 +287,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 21.9375,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.0,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.0,
+      "materialType": "trim"
+    },
+    "identifier": "wolframium",
+    "color": -13683926,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 27.0,
       "defense": 11.1375,
       "materialType": "core"
@@ -925,6 +947,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 6.0,
+      "defense": 20.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.3894737,
+      "modifier": 7.147059,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.3894737,
+      "materialType": "trim"
+    },
+    "identifier": "infuscolium",
+    "color": -9817255,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 35.0,
       "defense": 20.25,
       "materialType": "core"
@@ -1205,6 +1249,28 @@
     },
     "identifier": "ma.intermedium",
     "color": -4765440,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 21.0,
+      "defense": 16.875,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 3.7894738,
+      "modifier": 8.735293,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.7894738,
+      "materialType": "trim"
+    },
+    "identifier": "alduorite",
+    "color": -7170882,
     "type": "METAL",
     "castable": true,
     "craftable": false
@@ -1673,6 +1739,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.0,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.0,
+      "materialType": "trim"
+    },
+    "identifier": "endorium",
+    "color": -14976149,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 88.0,
       "defense": 0.3375,
       "materialType": "core"
@@ -2131,6 +2219,28 @@
     "color": -422165,
     "type": "METAL",
     "castable": false,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 4.4210525,
+      "modifier": 11.911764,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.4210525,
+      "materialType": "trim"
+    },
+    "identifier": "rubracium",
+    "color": -4309422,
+    "type": "METAL",
+    "castable": true,
     "craftable": false
   }
 ]

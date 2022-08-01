@@ -159,6 +159,8 @@ mods.tconstruct.Alloy.addRecipe(<liquid:dark_matter>*2000,[<liquid:dark_matter>*
 mods.tconstruct.Alloy.addRecipe(<liquid:crystal_matrix>*2000,[<liquid:crystal_matrix>*1000,<liquid:duplication>*500]);
 mods.tconstruct.Alloy.addRecipe(<liquid:draconium>*2000,[<liquid:draconium>*1000,<liquid:duplication>*300]);
 
+mods.tconstruct.Alloy.addRecipe(<liquid:mirion>*36,[<liquid:terrasteel>*18,<liquid:manasteel>*18,<liquid:elementium>*18,<liquid:glass>*1000]);
+
 recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>]]);
 
 

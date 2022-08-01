@@ -14,7 +14,7 @@
 		items: [{
 			item: "naturesaura:gold_fiber"
 		}],
-		count: 4L,
+		count: 64L,
 		ignore_nbt: 2b
 	}],
 	rewards: [{

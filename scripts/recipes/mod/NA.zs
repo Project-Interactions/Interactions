@@ -15,14 +15,16 @@ mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_stone>);
 //灌注铁
 mods.naturesaura.Altar.addRecipe("infused_iron", <ore:ingotRefinedIron>, <naturesaura:infused_iron>, null, 20, 50);
 //灌注石
-mods.naturesaura.Altar.addRecipe("infused_stone", <botania:quartztypemana>, <naturesaura:infused_stone>, null, 20, 50);
+mods.naturesaura.Altar.addRecipe("infused_stone", <ore:icestone>, <naturesaura:infused_stone>, null, 20, 50);
 mods.naturesaura.Altar.removeRecipe(<minecraft:blaze_powder>*4);
 mods.naturesaura.Altar.removeRecipe(<minecraft:leather>);
 
 //瓶与塞
-RecipeUtils.recipeTweak(false,<naturesaura:bottle_two_the_rebottling>,[<extrautils2:klein>,<ore:clothManaweave>]);
+recipes.remove(<naturesaura:bottle_two_the_rebottling>);
+recipes.addShapeless(<naturesaura:bottle_two_the_rebottling>,[<extrautils2:klein>,<ore:clothManaweave>]);
 
 
+RecipeUtils.recipeTweak(true,<naturesaura:offering_table>, [[<ore:livingrock>, <naturesaura:infused_iron>, <ore:livingrock>], [<naturesaura:token_fear>, <ore:livingrock>, <naturesaura:token_sorrow>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 
 

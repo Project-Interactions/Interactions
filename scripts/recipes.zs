@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+furnace.remove(<techreborn:part:32>);
 recipes.remove(<lightningcraft:plate:9> * 3);
 recipes.remove(<lightningcraft:plate:8> * 3);
 recipes.remove(<lightningcraft:plate:6> * 3);
@@ -120,7 +121,7 @@ recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "fiery_essence", Amou
 recipes.addShaped(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}}), [[null, <mysticalagriculture:fire_essence>, null],[<mysticalagriculture:fire_essence>, <ceramics:unfired_clay>, <mysticalagriculture:fire_essence>], [null, <mysticalagriculture:fire_essence>, null]]);
 recipes.addShaped(<wirelessutils:positional_card>, [[<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>],[<thermalfoundation:material:167>, <wirelessutils:fluxed_pearl>, <thermalfoundation:material:167>], [<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>]]);
 recipes.addShaped(<wirelessutils:machine_panel>, [[<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>],[<enderio:item_material:2>, <wirelessutils:ender_coil>, <enderio:item_material:2>], [<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>]]);
-//recipes.addShaped(<wirelessutils:ender_coil>, [[<rs_ctr:wire>, <rs_ctr:wire>, <rs_ctr:wire>],[<rs_ctr:wire>, <enderio:item_material:16>, <rs_ctr:wire>], [<rs_ctr:wire>, <rs_ctr:wire>, <rs_ctr:wire>]]);
+recipes.addShaped(<wirelessutils:ender_coil>, [[<immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>],[<immersiveengineering:wirecoil:5>, <enderio:item_material:16>, <immersiveengineering:wirecoil:5>], [<immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>]]);
 recipes.addShaped(<ncsteamadditions:copper_sheet> * 4, [[<thermalfoundation:material:256>, <redstonearsenal:material:96>, <thermalfoundation:material:256>],[<moreplates:ardite_gear>, <nuclearcraft:part:10>, <moreplates:ardite_gear>], [<thermalfoundation:material:256>, <redstonearsenal:material:96>, <thermalfoundation:material:256>]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_ultimate>, [[<extendedcrafting:material:33>, <extendedcrafting:material:32>, <extendedcrafting:material:33>],[<tinkertoolcasts:upgrade_iridium>, <extendedcrafting:material:32>, <tinkertoolcasts:upgrade_iridium>], [null, <extendedcrafting:material:32>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget>, <plustic:osmiridiumingot>, <plustic:osmiridiumnugget>],[<tinkertoolcasts:upgrade_reinforced>, <plustic:osmiridiumingot>, <tinkertoolcasts:upgrade_reinforced>], [null, <plustic:osmiridiumingot>, null]]);

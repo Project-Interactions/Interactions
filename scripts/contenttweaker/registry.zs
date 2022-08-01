@@ -50,6 +50,7 @@ static materials as Material[string] = {
 	"Duplication": MaterialSystem.getMaterialBuilder().setName("Duplication").setColor(Color.fromHex("0052D8")).build(),
 	"Neutronium": MaterialSystem.getMaterialBuilder().setName("Neutronium").setColor(Color.fromHex("4B314D")).build(),
 	"Cosmic": MaterialSystem.getMaterialBuilder().setName("Cosmic").setColor(Color.fromHex("F51F9E")).build(),
+	"Naturium": MaterialSystem.getMaterialBuilder().setName("Naturium").setColor(Color.fromHex("F51F9E")).build(),
 
 };
 materials.Kanthal.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
@@ -71,3 +72,4 @@ materials.UUMatter.registerParts(["ingot","plate","gear","rod","nugget","dust"] 
 materials.Duplication.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Neutronium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Cosmic.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
+materials.Naturium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil"] as string[]);

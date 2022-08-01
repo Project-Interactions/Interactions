@@ -106,15 +106,8 @@ mods.botania.OrechidEndium.removeOre(<ore:oreEndProsperity>);
 mods.botania.ManaInfusion.removeRecipe(<botania:managlass>);
 mods.botania.ManaInfusion.addInfusion(<botania:managlass>,<tconstruct:clear_glass>,2500);
 //泰拉凝聚板
-Agglomeration.addRecipe(<botanicadds:terra_catalyst>,
-
-[<botania:alchemycatalyst>,<botania:manaresource:14>,<moreplates:terrasteel_gear>,<naturesaura:conversion_catalyst>],
-
-1000000,0xFFFF33,0x66FF33,
-
-<techreborn:machine_casing:2>,<compactmachines3:wallbreakable>,<botania:storage:1>,
-
-<techreborn:machine_casing:1>,<minecraft:stone>,null);
+RecipeUtils.recipeTweak(true, <botania:terraplate>, [[<botanicadds:mana_lapis_block>,<botanicadds:mana_lapis_block>, <botanicadds:mana_lapis_block>], [<ore:runeWaterB>, <botania:storage>, <ore:runeFireB>], [<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
+Agglomeration.addRecipe(<botanicadds:terra_catalyst>,[<botania:alchemycatalyst>,<botania:manaresource:14>,<moreplates:terrasteel_gear>,<naturesaura:conversion_catalyst>],1000000,0xFFFF33,0x66FF33,<techreborn:machine_casing:2>,<compactmachines3:wallbreakable>,<botania:storage:1>,<techreborn:machine_casing:1>,<minecraft:stone>,null);
 recipes.remove(<botanicadds:terra_catalyst>);
 recipes.remove(<botanicadds:gaia_plate>);
 //gaia plate
@@ -123,41 +116,11 @@ mods.botanicadds.GaiaPlate.add(<botanicadds:gaiasteel_ingot>,1000000,[<threng:ma
 //2-1
 recipes.remove(<botanicadds:pool_dreaming>);
 //
-Agglomeration.addRecipe(<teslacorelib:machine_case>,
-
-[<moreplates:mirion_gear>,<ore:circuitAdvanced>,<immersiveintelligence:material_ingot>],
-
-250000,0xCCFFFF,0x99FFFF,
-
-<plustic:mirionblock>,<immersiveintelligence:metal_decoration:2>,<immersiveengineering:storage:5>,
-
-null,null,null);
+Agglomeration.addRecipe(<teslacorelib:machine_case>,[<moreplates:mirion_gear>,<ore:circuitAdvanced>,<immersiveintelligence:material_ingot>],250000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveintelligence:metal_decoration:2>,<immersiveengineering:storage:5>,null,null,null);
 //
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
-
 //
-
-
-
-
-//
-Agglomeration.addRecipe(<compactmachines3:machine>,
-
-[<thermalfoundation:material:261>,<immersiveintelligence:material:7>],
-
-100000,0xCCFFFF,0x99FFFF,
-
-<extrautils2:decorativesolidwood:1>,<immersiveintelligence:metal_decoration:2>,<enderio:block_alloy_endergy>,
-
-<compactmachines3:wallbreakable>,<techreborn:storage2:10>,<compactmachines3:wallbreakable>);
-Agglomeration.addRecipe(<compactmachines3:machine:1>,
-
-[<compactmachines3:machine>],
-
-200000,0xCCFFFF,0x99FFFF,
-
-<thermalfoundation:storage_alloy>,<naturesaura:infused_stone>,<thermalfoundation:storage_alloy>,
-
-<compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
+Agglomeration.addRecipe(<compactmachines3:machine>,[<thermalfoundation:material:261>,<immersiveintelligence:material:7>],100000,0xCCFFFF,0x99FFFF,<extrautils2:decorativesolidwood:1>,<immersiveintelligence:metal_decoration:2>,<enderio:block_alloy_endergy>,<compactmachines3:wallbreakable>,<techreborn:storage2:10>,<compactmachines3:wallbreakable>);
+Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>],200000,0xCCFFFF,0x99FFFF,<thermalfoundation:storage_alloy>,<naturesaura:infused_stone>,<thermalfoundation:storage_alloy>,<compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
 
 

@@ -17,6 +17,10 @@
       "13": "kanthal_block",
       "14": "cosmic_block",
       "15": "tough_block"
+    },
+    "1": {
+      "0": "naturium_coil",
+      "1": "naturium_block"
     }
   }
 }

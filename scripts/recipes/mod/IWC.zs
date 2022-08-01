@@ -16,7 +16,7 @@ mods.inworldcrafting.FluidToItem.transform(<contenttweaker:gem_essence>*4, <liqu
 
 mods.inworldcrafting.FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dirt>], true);
 
-mods.inworldcrafting.FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:log>*64], true);
+mods.inworldcrafting.FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:logWood>*64], true);
 
 
 mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cobalt>, [<thermalfoundation:geode>*8], true);
@@ -41,5 +41,5 @@ mods.inworldcrafting.FluidToItem.transform(<compactmachines3:machine:5>, <liquid
 
 mods.inworldcrafting.FluidToItem.transform(<environmentaltech:void_ore_miner_cont_5>, <liquid:liquid_chaos>, [<environmentaltech:void_ore_miner_cont_4>], true);
 
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<immersiveintelligence:rubber_sapling>,<techreborn:part:44> ,100);
-mods.inworldcrafting.FluidToItem.transform(<immersiveintelligence:material:28>, <liquid:formic_acid>, [<immersiveintelligence:rubber_log>*4], true);
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:rubber_sapling>,<techreborn:part:44> ,100);
+mods.inworldcrafting.FluidToItem.transform(<immersiveintelligence:material:28>, <liquid:formic_acid>, [<ore:materialResin>*4], true);
