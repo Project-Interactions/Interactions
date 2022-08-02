@@ -1,0 +1,125 @@
+{
+  "catalyst": "{id:\"immersiveengineering:maintenance_kit\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "interaction:blastfurnace",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:blocks/gregtech_base",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "BBB",
+        "BBB",
+        "CCC"
+      ],
+      [
+        "AA@",
+        "B B",
+        "B B",
+        "CCC"
+      ],
+      [
+        "AAA",
+        "BBB",
+        "BBB",
+        "CCC"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "thermalfoundation:storage",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:blastfurnace",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:sub_block_holder_1",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "mana": {
+        "capability": "bot_mana",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "any": {
+        "type": "any"
+      },
+      "aura": {
+        "capability": "natures_aura",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "A",
+        "item",
+        "mana",
+        "fluid",
+        "aura",
+        "energy"
+      ]
+    }
+  },
+  "recipeMap": "blastfurnace"
+}

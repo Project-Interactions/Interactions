@@ -212,7 +212,7 @@ recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotS
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:circuitBasic>, <immersiveengineering:material:9>, <ore:circuitBasic>]]);
 
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
-mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2,<ore:ingotMagnet>*3]);
+mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2,<ore:ingotMagnet>*3,<ore:ingotRefinedIron>*2]);
 mods.immersiveengineering.Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*2,<immersiveintelligence:material:3>,<ore:electronTube>*2,<ore:ingotMagnet>*3,<ore:gemAmbrosium>*2]);
 
 //engine
