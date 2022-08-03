@@ -221,4 +221,19 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <m
 //机械电路板
 mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:mechanical_circuit>*3,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:4>*2, <immersiveintelligence:material:6>,<ore:itemRubber>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveintelligence:material:7>);
+//mixer
+mods.immersiveengineering.Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>]);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveintelligence:material:10>);
+mods.immersiveengineering.Blueprint.addRecipe("processors", <immersiveintelligence:material:10>, [<immersiveintelligence:material:5>*3,<ore:plateDuraluminium>*2]);
+
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveintelligence:material:12>);
+mods.immersiveengineering.Blueprint.addRecipe("processors", <contenttweaker:processor_mechanical_circuit>, [<immersiveintelligence:material:10>,<immersiveintelligence:material:9>*2,<ore:plateManasteel>*3]);
+
+
+<ore:circuitAdvanced>.add(<contenttweaker:processor_mechanical_circuit>);
+<ore:circuitProcessor>.add(<contenttweaker:processor_mechanical_circuit>);
+
+
+
+
 

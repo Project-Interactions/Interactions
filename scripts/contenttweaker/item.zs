@@ -50,6 +50,7 @@ VanillaFactory.createItem("manual_circuit").register();
 VanillaFactory.createItem("assembled_manual_circuit").register();
 
 VanillaFactory.createItem("mechanical_circuit").register();
+VanillaFactory.createItem("processor_mechanical_circuit").register();
 
 
 

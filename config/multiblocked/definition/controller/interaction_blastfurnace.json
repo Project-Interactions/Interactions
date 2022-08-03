@@ -1,6 +1,6 @@
 {
   "catalyst": "{id:\"immersiveengineering:maintenance_kit\",Count:1b,Damage:0s}",
-  "consumeCatalyst": false,
+  "consumeCatalyst": true,
   "location": "interaction:blastfurnace",
   "traits": {},
   "allowRotate": true,
@@ -8,6 +8,7 @@
   "baseRenderer": {
     "baseTexture": "multiblocked:blocks/gregtech_base",
     "frontTexture": "multiblocked:blocks/gregtech_front",
+    "formedAsController": true,
     "type": "gregtech"
   },
   "isOpaqueCube": true,
@@ -55,8 +56,8 @@
       "A": {
         "states": [
           {
-            "id": "thermalfoundation:storage",
-            "meta": 5
+            "id": "thermalfoundation:storage_alloy",
+            "meta": 2
           }
         ],
         "type": "states"

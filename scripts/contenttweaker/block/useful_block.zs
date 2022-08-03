@@ -3,13 +3,13 @@
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
-var osmiridiumBlock = VanillaFactory.createBlock("useful_block",<blockmaterial:iron>);
-osmiridiumBlock.lightOpacity=255;
-osmiridiumBlock.lightValue=1.0;
-osmiridiumBlock.blockHardness=4.5;
-osmiridiumBlock.blockResistance=4.5;
-osmiridiumBlock.toolClass="pickaxe";
-osmiridiumBlock.toolLevel=4;
-osmiridiumBlock.blockSoundType=<soundtype:stone>;
-osmiridiumBlock.register();
+var usefulblock = VanillaFactory.createBlock("useful_block",<blockmaterial:iron>);
+usefulblock.lightOpacity=255;
+usefulblock.lightValue=1.0;
+usefulblock.blockHardness=4.5;
+usefulblock.blockResistance=4.5;
+usefulblock.toolClass="pickaxe";
+usefulblock.toolLevel=4;
+usefulblock.blockSoundType=<soundtype:stone>;
+usefulblock.register();
 //end

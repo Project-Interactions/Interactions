@@ -5,6 +5,7 @@
 
 <ore:circuitGood>.add(<contenttweaker:mechanical_circuit>);
 
+<ore:circuitElite>.remove(<immersiveintelligence:material:12>);
 
 
 
