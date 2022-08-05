@@ -113,14 +113,12 @@ recipes.remove(<botanicadds:gaia_plate>);
 //gaia plate
 mods.botanicadds.GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
 mods.botanicadds.GaiaPlate.add(<botanicadds:gaiasteel_ingot>,1000000,[<threng:material>,<tconevo:part_arcane_focus>.withTag({Material: "dragonstone"}),<botania:manaresource:14>]);
-//2-1
-recipes.remove(<botanicadds:pool_dreaming>);
 //
-Agglomeration.addRecipe(<teslacorelib:machine_case>,[<moreplates:mirion_gear>,<ore:circuitAdvanced>,<immersiveintelligence:material_ingot>],250000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveintelligence:metal_decoration:2>,<immersiveengineering:storage:5>,null,null,null);
+Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>],250000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveintelligence:metal_decoration:2>,<immersiveengineering:storage:5>,null,null,null);
 //
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
 //
 Agglomeration.addRecipe(<compactmachines3:machine>,[<thermalfoundation:material:261>,<ore:circuitGood>],100000,0xCCFFFF,0x99FFFF,<extrautils2:decorativesolidwood:1>,<immersiveintelligence:metal_decoration:2>,<enderio:block_alloy_endergy>,<compactmachines3:wallbreakable>,<techreborn:storage2:10>,<compactmachines3:wallbreakable>);
 Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>],200000,0xCCFFFF,0x99FFFF,<thermalfoundation:storage_alloy>,<naturesaura:infused_stone>,<thermalfoundation:storage_alloy>,<compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
 
-
+mods.botania.ElvenTrade.removeRecipe(<Botania:dreamwood>);

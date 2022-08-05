@@ -7,6 +7,7 @@
       "3": "semiconductor_block",
       "4": "heavymetalelements_block",
       "5": "superconduct_block",
+      "6": "duraluminium_coil",
       "7": "neutronium_block",
       "8": "europium_block",
       "9": "cerulean_ore",
@@ -18,7 +19,6 @@
       "15": "tough_block"
     },
     "1": {
-      "0": "naturium_coil",
       "1": "naturium_block"
     }
   }

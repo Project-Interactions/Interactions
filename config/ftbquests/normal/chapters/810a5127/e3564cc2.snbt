@@ -27,6 +27,13 @@
 		}],
 		count: 4L,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "a0b1cff1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore"
+		}]
 	}],
 	rewards: [{
 		uid: "ebe5502f",

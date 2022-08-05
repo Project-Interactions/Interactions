@@ -69,8 +69,8 @@
       "B": {
         "states": [
           {
-            "id": "contenttweaker:sub_block_holder_1",
-            "meta": 0
+            "id": "contenttweaker:sub_block_holder_0",
+            "meta": 6
           }
         ],
         "type": "states"

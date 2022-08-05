@@ -94,6 +94,7 @@ recipes.remove(<compactvoidminers:void_pump>);
 recipes.remove(<compactvoidminers:void_miner>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<contenttweaker:sub_block_holder_1:1>, [[<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>],[<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>], [<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>]]);
 recipes.addShaped(<interaction:blastfurnace>, [[<immersiveengineering:material:19>, <ore:circuitAdvanced>, <immersiveengineering:material:19>],[<ore:circuitAdvanced>, <immersiveengineering:stone_decoration:2>, <ore:circuitAdvanced>], [<immersiveengineering:material:19>, <ore:circuitAdvanced>, <immersiveengineering:material:19>]]);
 recipes.addShaped(<immersiveintelligence:material_ingot>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>],[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>], [<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>]]);
 recipes.addShapeless(<projectred-core:resource_item:103>, [<enderio:item_alloy_ingot:3>]);

@@ -278,5 +278,12 @@ Dropt.list("refined_ore_essence")
         )
         .items([<enderio:item_material:32>])
       )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<minecraft:glowstone_dust>])
+      )
 
 );
