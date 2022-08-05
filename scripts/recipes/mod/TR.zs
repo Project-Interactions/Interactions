@@ -96,11 +96,10 @@ mods.techreborn.rollingMachine.removeRecipe(<techreborn:part:15>*3);
 
 mods.techreborn.rollingMachine.addShaped(<techreborn:part:15>*2, [[<contenttweaker:material_part:1>,<contenttweaker:material_part:1>,<contenttweaker:material_part:1>],[<contenttweaker:material_part:1>,null,<contenttweaker:material_part:1>],[<contenttweaker:material_part:1>,<contenttweaker:material_part:1>,<contenttweaker:material_part:1>]]);
 mods.techreborn.rollingMachine.addShaped(<techreborn:part:14>*2, [[<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>],[<qmd:ingot_alloy:5>,null,<qmd:ingot_alloy:5>],[<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>]]);
-mods.techreborn.rollingMachine.addShaped(<techreborn:part:13>*2, [[<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>],[<ore:ingotCupronickel>,null,<ore:ingotCupronickel>],[<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>]]);
+mods.techreborn.rollingMachine.addShaped(<techreborn:part:13>*2, [[<ore:ingotConstantan>,<ore:ingotConstantan>,<ore:ingotConstantan>],[<ore:ingotConstantan>,null,<ore:ingotConstantan>],[<ore:ingotConstantan>,<ore:ingotConstantan>,<ore:ingotConstantan>]]);
 
 
 mods.techreborn.alloySmelter.addRecipe(<qmd:ingot_alloy:5>*2, <ore:ingotChrome>,<ore:ingotNickel> , 100 , 50);
-mods.techreborn.alloySmelter.addRecipe(<contenttweaker:material_part:8>*2, <ore:ingotCopper>,<ore:ingotNickel> , 100 , 50);
 mods.techreborn.alloySmelter.addRecipe(<contenttweaker:material_part:1>, <ore:ingotChrome>,<ore:ingotAluminum> , 100 , 50);
 
 recipes.remove(<techreborn:part:29>);

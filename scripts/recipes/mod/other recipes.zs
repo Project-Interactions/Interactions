@@ -56,7 +56,7 @@ recipes.remove(<mysticalmechanics:gear_gold>);
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<minecraft:sand>,<minecraft:gravel>,80);
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<minecraft:gravel>,<minecraft:cobblestone>,80);
 
-
+/*
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<minecraft:coal>,<thermalfoundation:material:768>,40);
 
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<thermalfoundation:material:64>,<contenttweaker:ore_essence>,50);
@@ -89,6 +89,7 @@ mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:18>,<c
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:43>,<contenttweaker:gem_essence>,50);
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:36>,<contenttweaker:gem_essence>,50);
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:45>,<contenttweaker:gem_essence>,50);
+*/
 
 
 mods.logistics.hammer.addRecipe(<contenttweaker:ore_essence>,<minecraft:redstone>*3);

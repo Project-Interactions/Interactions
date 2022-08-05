@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 6.0d,
+	dependencies: [
+		"d9f5d936"
+	],
+	tasks: [{
+		uid: "678f5cb1",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:material 1 10"
+		}]
+	}]
+}

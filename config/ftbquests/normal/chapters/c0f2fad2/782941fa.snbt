@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 9.0d,
+	dependencies: [
+		"68c08811",
+		"2c49803a"
+	],
+	tasks: [{
+		uid: "9b4cd153",
+		type: "item",
+		items: [{
+			item: "contenttweaker:processor_mechanical_circuit"
+		}]
+	}]
+}

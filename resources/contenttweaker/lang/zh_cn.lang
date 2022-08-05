@@ -15,8 +15,8 @@ item.contenttweaker.printed_manual_circuit_board_substrate.name=压印的手工�
 item.contenttweaker.manual_circuit.name=手工电路板
 item.contenttweaker.assembled_manual_circuit.name=组装的手工电路板
 item.contenttweaker.mechanical_circuit.name=机械电路板
+item.contenttweaker.processor_mechanical_circuit.name=处理器机械电路板
 
-tile.contenttweaker.carbon_block.name=碳板方块
 fluid.blend_caminite=液态方镁矾
 fluid.witch_water=巫水
 fluid.ore_water=矿物浆液
@@ -65,6 +65,7 @@ contenttweaker.part.sheetmetal=%s板方块
 contenttweaker.part.machine_frame=%s机器框架
 contenttweaker.part.coil=%s线圈
 contenttweaker.part.wire=%s线
+contenttweaker.part.dustore=%s矿粉
 item.contenttweaker.circuit_extreme3.name=精致主机
 item.contenttweaker.circuit_elite3.name=处理器主机
 item.contenttweaker.circuit_master3.name=纳米主机

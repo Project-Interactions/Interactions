@@ -8,11 +8,11 @@ mods.inworldcrafting.FluidToItem.transform(<immersiveengineering:blueprint>.with
 mods.inworldcrafting.FluidToFluid.transform(<liquid:ore_water>, <liquid:water>, [<minecraft:gravel>*4], true);
 mods.inworldcrafting.FluidToFluid.transform(<liquid:living_water>, <liquid:water>, [<ore:treeLeaves>*16], true);
 
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:ore_essence>*4, <liquid:ore_water>, [<botania:manaresource:21>*2], true);
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:ore_essence>*4, <liquid:ore_water>, [<practicallogistics2:stoneplate>], true);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:ore_essence>*64, <liquid:ore_water>, [<botania:manaresource:21>*2], true);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:ore_essence>*64, <liquid:ore_water>, [<practicallogistics2:stoneplate>], true);
 mods.inworldcrafting.FluidToItem.transform(<minecraft:clay>, <liquid:water>, [<extrautils2:compressedsand>], true);
 
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:gem_essence>*4, <liquid:gem_water>, [<minecraft:glass>*4], true);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:gem_essence>*64, <liquid:gem_water>, [<minecraft:glass>*4], true);
 
 mods.inworldcrafting.FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dirt>], true);
 
@@ -33,6 +33,7 @@ mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:16>,<t
 
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:pink_slime_ingot>, <liquid:if.pink_slime>, [<tconevo:material:1>], true);
 
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<contenttweaker:refined_ore_essence>,<contenttweaker:ore_essence>,100);
 
 
 

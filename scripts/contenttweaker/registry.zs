@@ -32,7 +32,6 @@ mods.contenttweaker.MaterialSystem.getPartBuilder().setName("coil").setPartType(
 
 static materials as Material[string] = {
 	"Kanthal": MaterialSystem.getMaterialBuilder().setName("Kanthal").setColor(Color.fromHex("BAAF95") as Color).build(),
-	"Cupronickel": MaterialSystem.getMaterialBuilder().setName("Cupronickel").setColor(Color.fromHex("CC9966")).build(),
 	"RefinedIron": MaterialSystem.getMaterialBuilder().setName("RefinedIron").setColor(Color.fromHex("F7F7F7")).build(),
 	"Gold": MaterialSystem.getMaterialBuilder().setName("Gold").setColor(Color.fromHex("FFFF33")).build(),
 	"Europium": MaterialSystem.getMaterialBuilder().setName("Europium").setColor(Color.fromHex("FFFAFA")).build(),
@@ -50,11 +49,13 @@ static materials as Material[string] = {
 	"Duplication": MaterialSystem.getMaterialBuilder().setName("Duplication").setColor(Color.fromHex("0052D8")).build(),
 	"Neutronium": MaterialSystem.getMaterialBuilder().setName("Neutronium").setColor(Color.fromHex("4B314D")).build(),
 	"Cosmic": MaterialSystem.getMaterialBuilder().setName("Cosmic").setColor(Color.fromHex("F51F9E")).build(),
-	"Naturium": MaterialSystem.getMaterialBuilder().setName("Naturium").setColor(Color.fromHex("F51F9E")).build(),
+	"Naturium": MaterialSystem.getMaterialBuilder().setName("Naturium").setColor(Color.fromHex("62E753")).build(),
+    "Duraluminium": MaterialSystem.getMaterialBuilder().setName("Duraluminium").setColor(Color.fromHex("535C70")).build(),
+
+
 
 };
 materials.Kanthal.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
-materials.Cupronickel.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.RefinedIron.registerParts(["gear","wire"] as string[]);
 materials.Gold.registerParts(["wire"] as string[]);
 materials.Europium.registerParts(["block", "ingot","plate","gear","rod","nugget","dust","dust_tiny","dust_small"] as string[]);
@@ -73,3 +74,16 @@ materials.Duplication.registerParts(["block", "ingot","plate","gear","rod","nugg
 materials.Neutronium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Cosmic.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Naturium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil"] as string[]);
+materials.Duraluminium.registerParts(["coil"] as string[]);
+
+
+
+
+
+
+
+
+
+
+
+

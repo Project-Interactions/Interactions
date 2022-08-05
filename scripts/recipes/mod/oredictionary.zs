@@ -34,57 +34,7 @@
 
 <ore:oreArdite>.remove(<tconstruct:ore>);
 
-<ore:circuitBasic>.add(<immersiveengineering:material:27>);
 
-//<ore:circuitAdvanced>.remove(<immersiveintelligence:material:7>);
-//<ore:circuitAdvanced>.remove(<techreborn:part:30>);
-//<ore:circuitAdvanced>.remove(<mekanism:controlcircuit:1>);
-
-//<ore:circuitElite>.remove(<mekanism:controlcircuit:2>);
-//<ore:circuitElite>.remove(<techreborn:part:1>);
-//<ore:circuitElite>.remove(<mekanism:controlcircuit:2>);
-
-//<ore:circuitElite>.remove(<immersiveintelligence:material:12>);
-
-//<ore:circuitUltimate>.remove(<mekanism:controlcircuit:3>);
-<ore:circuitGoodQ>.add(<immersiveintelligence:material:7>);
-<ore:circuitGoodQ>.add(<techreborn:part:30>);
-<ore:circuitGoodQ>.add(<mekanism:controlcircuit:1>);
-
-<ore:circuitAdvancedQ>.add(<mekanism:controlcircuit:2>);
-<ore:circuitAdvancedQ>.add(<techreborn:part:1>);
-<ore:circuitAdvancedQ>.add(<mekanism:controlcircuit:2>);
-<ore:circuitAdvancedQ>.add(<immersiveintelligence:material:12>);
-
-<ore:circuitDataQ>.add(<mekanism:controlcircuit:3>);
-<ore:circuitDataQ>.add(<techreborn:part>);
-<ore:circuitExtremeQ>.add(<contenttweaker:circuit_extreme3>);
-<ore:circuitEliteQ>.add(<contenttweaker:circuit_elite3>);
-<ore:circuitMasterQ>.add(<contenttweaker:circuit_master3>);
-<ore:circuitUltimateQ>.add(<contenttweaker:circuit_ultimate3>);
-<ore:circuitSuperconductorQ>.add(<contenttweaker:circuit_superconductor3>);
-<ore:circuitInfiniteQ>.add(<contenttweaker:circuit_infinite3>);
-
-<ore:circuitUevQ>.add(<contenttweaker:circuit_uev>);
-<ore:circuitUivQ>.add(<contenttweaker:circuit_uiv>);
-<ore:circuitUmvQ>.add(<contenttweaker:circuit_umv>);
-<ore:circuitUxvQ>.add(<contenttweaker:circuit_uxv>);
-<ore:circuitMaxQ>.add(<contenttweaker:circuit_max>);
-<ore:circuitBasic>.addTooltip("1级电路板 层级：basic");
-<ore:circuitGoodQ>.addTooltip("2级电路板 层级：good");
-<ore:circuitAdvancedQ>.addTooltip("3级电路板 层级：advanced");
-<ore:circuitDataQ>.addTooltip("4级电路板 层级：data");
-<ore:circuitExtremeQ>.addTooltip("5级电路板 层级：extreme");
-<ore:circuitEliteQ>.addTooltip("6级电路板 层级：elite");
-<ore:circuitMasterQ>.addTooltip("7级电路板 层级：master");
-<ore:circuitUltimateQ>.addTooltip("8级电路板 层级：ultimate");
-<ore:circuitSuperconductorQ>.addTooltip("9级电路板 层级：superconductor");
-<ore:circuitInfiniteQ>.addTooltip("10级电路板 层级：infinite");
-<ore:circuitUevQ>.addTooltip("11级电路板 层级：uev");
-<ore:circuitUivQ>.addTooltip("12级电路板 层级：uiv");
-<ore:circuitUmvQ>.addTooltip("13级电路板 层级：umv");
-<ore:circuitUxvQ>.addTooltip("14级电路板 层级：uxv");
-<ore:circuitMaxQ>.addTooltip("15级电路板 层级：max");
 
 <ore:ingotCold>.add(<contenttweaker:cold_ingot>);
 <ore:ingotAggregationMatrix>.add(<tconevo:material>);

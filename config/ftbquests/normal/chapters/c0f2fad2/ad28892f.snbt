@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 9.0d,
+	dependencies: [
+		"782941fa"
+	],
+	tasks: [{
+		uid: "8f09e4e2",
+		type: "item",
+		items: [{
+			item: "interaction:blastfurnace"
+		}]
+	}]
+}
