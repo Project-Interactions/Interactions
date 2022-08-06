@@ -1,0 +1,127 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:mana_converter",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "botania:alfheimportal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAAB",
+        "CCCC",
+        "DEED"
+      ],
+      [
+        "ADAF",
+        "@DDC",
+        "EDDE"
+      ],
+      [
+        "AAAA",
+        "CCCC",
+        "DEED"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:dreamwood",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:mana_converter",
+        "type": "component"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "naturesaura:infused_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "integrateddynamics:crystalized_menril_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "mana": {
+        "capability": "bot_mana",
+        "type": "capability"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "contenttweaker:sub_block_holder_1",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "item"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "mana"
+      ]
+    }
+  },
+  "recipeMap": "empty"
+}

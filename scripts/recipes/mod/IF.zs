@@ -35,28 +35,4 @@ RecipeUtils.recipeTweak(true, <wirelessutils:base_module>, [[<ore:gemEmerald>, <
 RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>], [<minecraft:iron_sword>, <teslacorelib:machine_case>, <minecraft:iron_sword>], [<minecraft:iron_axe>, <wirelessutils:slaughter_module>, <minecraft:iron_axe>]]);
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:plastic>, <liquid:sulfuric_acid>, [<industrialforegoing:tinydryrubber>*8], true);
 
-//laser drill remove
-LaserDrill.remove(<actuallyadditions:block_misc:3>);
-LaserDrill.remove(<appliedenergistics2:quartz_ore>);
-LaserDrill.remove(<astralsorcery:blockcustomsandore>);
-LaserDrill.remove(<thermalfoundation:ore:7>);
-LaserDrill.remove(<thermalfoundation:ore:6>);
-LaserDrill.remove(<draconicevolution:draconium_ore>);
-LaserDrill.remove(<ncsteamadditions:ore>);
-LaserDrill.remove(<taiga:prometheum_ore>);
-LaserDrill.remove(<mekanism:oreblock>);
-LaserDrill.remove(<mysticalagriculture:inferium_ore>);
-LaserDrill.remove(<mysticalagriculture:prosperity_ore>);
-LaserDrill.remove(<mysticalagriculture:nether_inferium_ore>);
-LaserDrill.remove(<mysticalagriculture:nether_prosperity_ore>);
-LaserDrill.remove(<mysticalagriculture:end_inferium_ore>);
-LaserDrill.remove(<mysticalagriculture:end_prosperity_ore>);
-LaserDrill.remove(<rftools:dimensional_shard_ore>);
-LaserDrill.remove(<rftools:dimensional_shard_ore:1>);
-LaserDrill.remove(<rftools:dimensional_shard_ore:2>);
-LaserDrill.remove(<thermalfoundation:ore_fluid>);
-LaserDrill.remove(<thermalfoundation:ore_fluid:1>);
-LaserDrill.remove(<thermalfoundation:ore_fluid:2>);
-LaserDrill.remove(<thermalfoundation:ore_fluid:3>);
-LaserDrill.remove(<thermalfoundation:ore_fluid:4>);
 

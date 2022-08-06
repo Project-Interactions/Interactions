@@ -19,7 +19,10 @@
       "15": "tough_block"
     },
     "1": {
-      "1": "naturium_block"
+      "0": "menril_coil",
+      "1": "naturium_block",
+      "2": "naturium_coil",
+      "3": "menril_block"
     }
   }
 }

@@ -83,6 +83,15 @@
         "capability": "bot_mana",
         "type": "capability"
       },
+      "coil1": {
+        "states": [
+          {
+            "id": "contenttweaker:sub_block_holder_1",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
       "fluid": {
         "capability": "fluid",
         "type": "capability"
@@ -110,7 +119,8 @@
         "A"
       ],
       "B": [
-        "B"
+        "B",
+        "coil1"
       ],
       "C": [
         "A",

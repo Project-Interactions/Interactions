@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <lines at="topleft">
+    <line>
+        <operation>
+            <str>GT</str>
+            <var>tps</var>
+                <num>20</num>
+                <num>19</num>
+                <num>17</num>
+                <num>15</num>
+                <num>10</num>
+                <num>0</num>
+                    <str>$bTPS: $a{tps}</str>
+                    <str>$bTPS: $2{tps}</str>
+                    <str>$bTPS: $e{tps}</str>
+                    <str>$bTPS: $6{tps}</str>
+                    <str>$bTPS: $c{tps}</str>
+                    <str>$bTPS: $4{tps}</str>
+        </operation>
+        <str>$7丨</str>
+        <operation>
+            <str>GT</str>
+            <var>mspt</var>
+                <num>75</num>
+                <num>50</num>
+                <num>25</num>
+                <num>15</num>
+                <num>10</num>
+                <num>0</num>
+                    <str>$bMSPT: $4{mspt}</str>
+                    <str>$bMSPT: $c{mspt}</str>
+                    <str>$bMSPT: $6{mspt}</str>
+                    <str>$bMSPT: $e{mspt}</str>
+                    <str>$bMSPT: $2{mspt}</str>
+                    <str>$bMSPT: $a{mspt}</str>
+            </op>
+            <str>$r</str>
+        </line>
+    </lines>
+    <lines at="topleft">
         <line>
             <str>$3FPS$f: </str>
             <op>
