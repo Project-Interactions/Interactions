@@ -8,7 +8,7 @@
 		uid: "03aaf5cc",
 		type: "item",
 		items: [{
-			item: "astralsorcery:itemcraftingcomponent"
+			item: "astralsorcery:blockcustomsandore"
 		}],
 		count: 8L
 	},

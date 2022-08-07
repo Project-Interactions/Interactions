@@ -10,5 +10,13 @@
 		items: [{
 			item: "interaction:blastfurnace"
 		}]
+	},
+	{
+		uid: "b1b9fc73",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 6"
+		}],
+		count: 16L
 	}]
 }

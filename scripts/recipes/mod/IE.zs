@@ -233,6 +233,10 @@ mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:process
 <ore:circuitAdvanced>.add(<contenttweaker:processor_mechanical_circuit>);
 <ore:circuitProcessor>.add(<contenttweaker:processor_mechanical_circuit>);
 
+//coils
+mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_0:6>,null,[<ore:wireDuraluminium>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
+mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_1>,null,[<ore:wireMenril>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
+mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_1:2>,null,[<ore:wireNaturium>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
 
 
 

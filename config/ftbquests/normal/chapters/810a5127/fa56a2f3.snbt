@@ -8,11 +8,7 @@
 		uid: "e1487924",
 		type: "item",
 		items: [{
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:manaconverter"
-			},
-			Count: 1b
+			item: "interaction:mana_converter"
 		}]
 	}],
 	rewards: [{
