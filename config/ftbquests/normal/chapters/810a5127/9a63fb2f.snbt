@@ -5,7 +5,7 @@
 		"需要任意星座"
 	],
 	dependencies: [
-		"b5de889c"
+		"fdb8c9bb"
 	],
 	tasks: [{
 		uid: "ecebfd38",

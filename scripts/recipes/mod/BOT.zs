@@ -124,5 +124,5 @@ Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>
 mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
 recipes.addShaped(<botania:pool:3>, [[null, null, null],[<botania:storage:4>, null, <botania:storage:3>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
 
-mods.botania.RuneAltar.addRecipe(<interaction:mana_converter>,[<botania:alfheimportal>], 100000);
+mods.botania.ElvenTrade.addRecipe([<interaction:mana_converter>], [<botania:alfheimportal>]);
 mods.botania.RuneAltar.addRecipe(<astralsorcery:blockcollectorcrystal>, [<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>], 500000);
