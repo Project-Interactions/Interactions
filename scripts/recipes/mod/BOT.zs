@@ -29,7 +29,7 @@ recipes.addShaped(<botania:altar>, [[<botania:petalblock>, <botania:petalblock:7
 recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, <moreplates:terrasteel_gear>, <botania:livingwood>],[<botania:livingwood>, <moreplates:terrasteel_gear>, <botania:livingwood>], [<botania:livingwood>, <moreplates:terrasteel_gear>, <botania:livingwood>]]);
 recipes.addShaped(<botania:pylon>, [[null, <ore:plateGold>, null],[<moreplates:manasteel_plate>, <botania:manaresource:2>, <moreplates:manasteel_plate>], [null, <ore:plateGold>, null]]);
 //盖亚水晶
-mods.astralsorcery.LightTransmutation.addTransmutation(<plustic:mirionblock>, <botania:pylon:2>, 20);
+mods.astralsorcery.LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_1:1>, <botania:pylon:2>, 20);
 //活石
 mods.botania.PureDaisy.addRecipe(<aether_legacy:icestone>, <botania:livingrock>);
 mods.botania.PureDaisy.addRecipe(<naturesaura:infused_stone>, <botania:livingrock>);
@@ -123,3 +123,6 @@ Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>
 
 mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
 recipes.addShaped(<botania:pool:3>, [[null, null, null],[<botania:storage:4>, null, <botania:storage:3>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
+
+mods.botania.RuneAltar.addRecipe(<interaction:mana_converter>,[<botania:alfheimportal>], 100000);
+mods.botania.RuneAltar.addRecipe(<astralsorcery:blockcollectorcrystal>, [<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>], 500000);

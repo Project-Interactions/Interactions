@@ -6,6 +6,8 @@
 //<item>.displayName = "name";
 
 <immersiveintelligence:material_wire>.displayName = "\u9AD8\u7EA7\u7535\u5B50\u5408\u91D1\u7EBF";
+<immersiveintelligence:material_wire>.displayName = "\u9AD8\u7EA7\u7535\u5B50\u5408\u91D1\u7EBF";
+
 <ore:wireTungsten>.remove(<immersiveintelligence:material_wire>);
 <ore:wireAdvancedElectronicAlloy>.add(<immersiveintelligence:material_wire>);
 

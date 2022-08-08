@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<appliedenergistics2:material:58>);
 furnace.remove(<techreborn:part:32>);
 recipes.remove(<lightningcraft:plate:9> * 3);
 recipes.remove(<lightningcraft:plate:8> * 3);
