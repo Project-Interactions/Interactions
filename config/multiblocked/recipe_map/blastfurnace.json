@@ -3,6 +3,123 @@
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
+      "uid": "7cc3fc93-901b-4ac6-a13f-9d13a65f26a6",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:twilght_symbol\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:knightmetal_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:carminite\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:ironwood_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:fiery_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:naga_scale\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:arctic_fur\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:steeleaf_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:sub_block_holder_0\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:1b,Damage:152s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "block": {
+          "block": {
+            "id": "contenttweaker:sub_block_holder_0",
+            "meta": 6
+          },
+          "count": 16
+        }
+      }
+    },
+    {
       "uid": "3f9d035c-32d0-4b55-ba50-768655b3a6c0",
       "duration": 120,
       "inputs": {

@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 10.0d,
+	dependencies: [
+		"8408eabb"
+	],
+	tasks: [{
+		uid: "009a6508",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}]
+	}]
+}

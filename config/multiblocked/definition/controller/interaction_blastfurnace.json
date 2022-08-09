@@ -83,6 +83,15 @@
         "capability": "bot_mana",
         "type": "capability"
       },
+      "coil2": {
+        "states": [
+          {
+            "id": "contenttweaker:sub_block_holder_1",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
       "coil1": {
         "states": [
           {
@@ -120,6 +129,7 @@
       ],
       "B": [
         "B",
+        "coil2",
         "coil1"
       ],
       "C": [

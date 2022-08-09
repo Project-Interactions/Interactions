@@ -12,7 +12,7 @@
       "8": "europium_block",
       "9": "cerulean_ore",
       "10": "mithril_block",
-      "11": "moonstone_ore",
+      "11": "twilght_steel_block",
       "12": "duplication_block",
       "13": "kanthal_block",
       "14": "cosmic_block",
@@ -22,7 +22,8 @@
       "0": "menril_coil",
       "1": "naturium_block",
       "2": "naturium_coil",
-      "3": "menril_block"
+      "3": "menril_block",
+      "4": "twilght_steel_coil"
     }
   }
 }

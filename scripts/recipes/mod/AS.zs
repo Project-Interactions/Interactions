@@ -12,13 +12,13 @@ recipes.remove(<astralsorcery:itemcraftingcomponent:1> * 4);
 recipes.remove(<astralsorcery:blockblackmarble> * 8);
 
 //暮色宝石
-mods.astralsorcery.Altar.addConstellationAltarRecipe("as:twilight_crystal", <contenttweaker:twilight_crystal>, 1600, 300, [
-null, <naturesaura:sky_ingot>, null,
-<naturesaura:sky_ingot>, <astralsorcery:blockcollectorcrystal>, <naturesaura:sky_ingot>,
-null, <naturesaura:sky_ingot>, null,
+mods.astralsorcery.Altar.addConstellationAltarRecipe("interactions:shaped/twilight_crystal", <contenttweaker:twilight_crystal>, 1600, 300, [
+<astralsorcery:itemcraftingcomponent:3>, <ore:gearMenril>, <astralsorcery:itemcraftingcomponent:3>,
+<ore:gearMenril>, <astralsorcery:blockcollectorcrystal>, <ore:gearMenril>,
+null, <ore:gearMenril>, null,
 null, null, null, null,
 null, null,
-<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:1>,
+<ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>,
 null, null,
 <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>]);
 
@@ -44,3 +44,5 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("as:yasuokongjian", <compac
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>]);
+
+mods.astralsorcery.StarlightInfusion.addInfusion(<integrateddynamics:crystalized_menril_brick>, <contenttweaker:material_part:137>, false, 0.7, 200);

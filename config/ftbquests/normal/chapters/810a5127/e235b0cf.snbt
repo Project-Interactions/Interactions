@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 8.0d,
+	dependencies: [
+		"283e1f28"
+	],
+	tasks: [{
+		uid: "350aa249",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0824cbd8",
+		type: "item",
+		item: "twilightforest:block_storage 1 1"
+	}]
+}

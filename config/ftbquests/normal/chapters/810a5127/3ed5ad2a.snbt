@@ -1,0 +1,29 @@
+{
+	title: "集成动力之高级运用",
+	x: 9.5d,
+	y: -1.0d,
+	dependencies: [
+		"33485b33"
+	],
+	tasks: [{
+		uid: "8fdf9cc4",
+		type: "item",
+		items: [{
+			item: "integratednbt:nbt_extractor"
+		}]
+	},
+	{
+		uid: "c4bdff48",
+		type: "item",
+		items: [{
+			item: "integrated_proxy:access_proxy"
+		}]
+	},
+	{
+		uid: "94cedb46",
+		type: "item",
+		items: [{
+			item: "integratedrest:http"
+		}]
+	}]
+}

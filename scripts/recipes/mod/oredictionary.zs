@@ -56,11 +56,14 @@
 <ore:blockUUMatter>.add(<tconevo:metal_block:8>);
 <ore:blockEnergium>.add(<tconevo:metal_block:7>);
 
-
-
-
-
-
+<ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
+<ore:ingotAlchemicalBrass>.add(<thaumcraft:ingot:2>);
+<ore:plateBrass>.remove(<thaumcraft:plate>);
+<ore:plateAlchemicalBrass>.add(<thaumcraft:plate>);
+<ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
+<ore:nuggetAlchemicalBrass>.add(<thaumcraft:nugget:8>);
+<ore:blockBrass>.remove(<thaumcraft:metal_brass>);
+<ore:blockAlchemicalBrass>.add(<thaumcraft:metal_brass>);
 
 <ore:heartAwakenedDraconium>.add(<draconicevolution:dragon_heart>);
 <ore:heartChaotic>.add(<draconicadditions:chaos_heart>);

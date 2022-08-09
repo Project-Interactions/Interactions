@@ -1,9 +1,6 @@
 {
 	x: 9.0d,
 	y: 6.0d,
-	text: [
-		"需要任意星座"
-	],
 	dependencies: [
 		"fdb8c9bb"
 	],

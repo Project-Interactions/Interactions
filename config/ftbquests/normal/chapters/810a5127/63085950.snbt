@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	text: [
+		"你甚至可以在前期做出自动化"
+	],
+	dependencies: [
+		"f414a4e5"
+	],
+	tasks: [{
+		uid: "4b60af34",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_interface_crafting_item"
+		}]
+	},
+	{
+		uid: "9772af84",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_crafting_writer_item"
+		}]
+	}]
+}

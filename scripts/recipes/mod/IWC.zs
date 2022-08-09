@@ -44,3 +44,11 @@ mods.inworldcrafting.FluidToItem.transform(<environmentaltech:void_ore_miner_con
 
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:rubber_sapling>,<techreborn:part:44> ,100);
 mods.inworldcrafting.FluidToItem.transform(<immersiveintelligence:material:28>, <liquid:formic_acid>, [<ore:materialResin>*4], true);
+
+mods.inworldcrafting.FluidToItem.transform(<integrateddynamics:crystalized_chorus_chunk>, <liquid:if.pink_slime>, [<integrateddynamics:crystalized_menril_block>], true);
+
+
+
+
+
+

@@ -20,7 +20,7 @@
         "bot_mana": [
           {
             "chance": 1.0,
-            "content": 10000
+            "content": 20000
           }
         ]
       },
@@ -32,6 +32,141 @@
               "amount": 16,
               "matches": [
                 "{id:\"astralsorcery:blockcustomsandore\",Count:16b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "46ef8cff-7225-460b-9280-3afd5940aa17",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:trophy\",Count:1b,Damage:8s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:twilght_symbol\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "539f987e-596d-4d90-9713-e4b59195c7a0",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:iron_ore\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1b,Damage:1s}"
               ]
             }
           }
@@ -56,7 +191,7 @@
         "bot_mana": [
           {
             "chance": 1.0,
-            "content": 10000
+            "content": 20000
           }
         ]
       },
