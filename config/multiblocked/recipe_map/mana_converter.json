@@ -138,6 +138,56 @@
       }
     },
     {
+      "uid": "31d57b08-b79c-439a-95a2-e3be055e4ea0",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:cauldron\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crucible\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "dimension": {
+          "dim": "twilght_forest"
+        }
+      }
+    },
+    {
       "uid": "539f987e-596d-4d90-9713-e4b59195c7a0",
       "duration": 400,
       "inputs": {
@@ -207,6 +257,137 @@
             }
           }
         ]
+      }
+    },
+    {
+      "uid": "97b792eb-a951-42dd-9302-619b20acc9af",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:nugget\",Count:1b,Damage:9s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"ordo\",amount:1}]}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"terra\",amount:1}]}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"aqua\",amount:1}]}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"perditio\",amount:1}]}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"ignis\",amount:1}]}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"aer\",amount:1}]}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "073425b7-d889-4b4e-af5b-144ab4fcd76c",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:crafting_table\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:arcane_workbench\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "dimension": {
+          "dim": "twilght_forest"
+        }
       }
     }
   ]

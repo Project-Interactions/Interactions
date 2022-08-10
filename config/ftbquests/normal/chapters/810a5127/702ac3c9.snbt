@@ -13,5 +13,10 @@
 		items: [{
 			item: "contenttweaker:twilight_crystal"
 		}]
+	},
+	{
+		uid: "d493f0a0",
+		type: "dimension",
+		dim: 7
 	}]
 }

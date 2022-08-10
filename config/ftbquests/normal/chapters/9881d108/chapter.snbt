@@ -1,8 +1,8 @@
 {
-	title: "阶段四",
+	title: "《你现在是一个合格的神秘使了，快点试试科技吧》",
 	icon: "extrautils2:ingredients 1 11",
 	description: [
-		"运算工艺与使用设备"
+		"阶段四"
 	],
 	always_invisible: false,
 	group: 0,

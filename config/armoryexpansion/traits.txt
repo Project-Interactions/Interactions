@@ -184,7 +184,6 @@
   "tconevo.bloodbound_armor",
   "heavy",
   "tconevo.phoenix_aspect_armor",
-  "light",
   "heavy_metal",
   "brittle",
   "magnetic1",

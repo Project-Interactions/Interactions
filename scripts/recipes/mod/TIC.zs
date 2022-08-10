@@ -53,10 +53,7 @@ mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:ore:7>)
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<techreborn:ore:1>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<jaopca:item_dusttinyiridium>);
 
-mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<jaopca:item_dusttinytitanium>);
-mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<techreborn:dust:54>);
-mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<qmd:dust:3>);
-mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<techreborn:smalldust:54>);
+
 
 
 

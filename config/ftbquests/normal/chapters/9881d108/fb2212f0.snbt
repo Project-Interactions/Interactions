@@ -1,6 +1,9 @@
 {
 	x: 4.5d,
 	y: -0.5d,
+	text: [
+		"套娃，但不是终点"
+	],
 	dependencies: [
 		"d55a4fdf"
 	],

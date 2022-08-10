@@ -1,6 +1,9 @@
 {
-	x: -1.5d,
+	x: -2.5d,
 	y: 1.5d,
+	text: [
+		"神秘时代黄铜的矿词已经改变了"
+	],
 	dependencies: [
 		"711515f4",
 		"67bde826"
@@ -8,15 +11,9 @@
 	tasks: [{
 		uid: "f056b8cd",
 		type: "item",
-		title: "Any ingotBrass",
+		title: "炼金黄铜",
 		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotBrass"
-				}
-			}
+			item: "thaumcraft:ingot 1 2"
 		}],
 		count: 4L
 	},

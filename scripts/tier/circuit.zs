@@ -7,6 +7,8 @@
 
 <ore:circuitElite>.remove(<immersiveintelligence:material:12>);
 
+<ore:circuitAdvanced>.add(<contenttweaker:mana_circuit>);
+<ore:circuitMana>.add(<contenttweaker:infused_mana_circuit>);
 
 
 

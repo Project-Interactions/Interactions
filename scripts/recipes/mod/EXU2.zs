@@ -20,7 +20,7 @@ mods.extrautils2.Resonator.add(<appliedenergistics2:material>, <minecraft:quartz
 mods.extrautils2.Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
 mods.extrautils2.Resonator.add(<techreborn:machine_frame>, <enderio:block_alloy_endergy>, 1600);
 
-recipes.addShaped(<extrautils2:machine> * 2, [[<ore:plateBrass>, <contenttweaker:sub_block_holder_0:1>, <thaumcraft:plate:2>],[<immersiveintelligence:metal_decoration:2>, <ore:dustPlatinum>, <immersiveintelligence:metal_decoration:2>], [<thaumcraft:plate:2>, <contenttweaker:sub_block_holder_0:1>, <ore:plateBrass>]]);
+recipes.addShaped(<extrautils2:machine> * 2, [[<ore:blockAlchemicalBrass>, <ore:blockTwilghtSteel>, <ore:blockThaumium>],[<immersiveintelligence:metal_decoration:2>, <ore:dustPlatinum>, <immersiveintelligence:metal_decoration:2>], [<ore:blockThaumium>, <ore:blockTwilghtSteel>, <ore:blockAlchemicalBrass>]]);
 
 
 mods.extrautils2.Resonator.add(<compactmachines3:machine:3>, <compactmachines3:machine:2>, 10000);

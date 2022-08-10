@@ -9,6 +9,7 @@ import mods.immersivepetroleum.Reservoir;
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.MetalPress;
+import mods.immersivetweaker.Recycling;
 //
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
@@ -238,6 +239,12 @@ mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:sub_blo
 mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_1>,null,[<ore:wireMenril>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
 mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_1:2>,null,[<ore:wireNaturium>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
 
-
-
+//prevent brass
+ArcFurnace.removeRecipe(<thaumcraft:ingot:2>);
+ArcFurnace.removeRecipe(<thaumcraft:ingot:2>*4);
+mods.immersiveengineering.AlloySmelter.removeRecipe(<thaumcraft:ingot:2>*4);
+Recycling.makeStackInvalidRecyclingOutput(<thaumcraft:ingot:2>);
+Recycling.makeStackInvalidRecyclingOutput(<thaumcraft:nugget:8>);
+recipes.remove(<thaumcraft:ingot:2>*4);
+recipes.addShaped(<techreborn:ingot:1> * 4, [[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>],[<mysticalagriculture:brass_essence>, null, <mysticalagriculture:brass_essence>], [<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>]]);
 
