@@ -11,10 +11,5 @@
 			item: "extrautils2:machine"
 		}],
 		count: 2L
-	}],
-	rewards: [{
-		uid: "f101a878",
-		type: "item",
-		item: "extrautils2:book"
 	}]
 }

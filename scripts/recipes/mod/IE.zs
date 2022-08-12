@@ -247,4 +247,14 @@ Recycling.makeStackInvalidRecyclingOutput(<thaumcraft:ingot:2>);
 Recycling.makeStackInvalidRecyclingOutput(<thaumcraft:nugget:8>);
 recipes.remove(<thaumcraft:ingot:2>*4);
 recipes.addShaped(<techreborn:ingot:1> * 4, [[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>],[<mysticalagriculture:brass_essence>, null, <mysticalagriculture:brass_essence>], [<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>]]);
+mods.forestry.Carpenter.removeRecipe(<thaumcraft:ingot:2>*9);
+recipes.remove(<thaumcraft:ingot:2>);
+recipes.addShaped(<thaumcraft:ingot:2>,[[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>]]);
+MetalPress.removeRecipe(<thaumcraft:plate>);
+MetalPress.addRecipe(<thaumcraft:plate>,<thaumcraft:ingot:2>,<immersiveengineering:mold>,1024);
+
+
+
+
+
 

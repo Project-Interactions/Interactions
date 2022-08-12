@@ -2,9 +2,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
-recipes.addShaped(<minecraft:hopper> * 2, [[<techreborn:plates:35>, <minecraft:chest>, <techreborn:plates:35>],[<techreborn:plates:35>, <minecraft:chest>, <techreborn:plates:35>], [<techreborn:plates:35>, <techreborn:plates:35>, <techreborn:plates:35>]]);
-recipes.remove(<minecraft:chest>*4);
-recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:hopper> * 2, [[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>],[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.removeShaped(<minecraft:stick> * 4, [[<ore:plankWood>], [<ore:plankWood>]]);
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>], [<ore:plankWood>]]);
@@ -21,7 +19,6 @@ recipes.addShapeless(<minecraft:planks:3> * 2,[<minecraft:log:3>]);
 recipes.addShapeless(<minecraft:planks:4> * 2,[<minecraft:log2>]);
 recipes.addShapeless(<minecraft:planks:5> * 2,[<minecraft:log2:1>]);
 
-recipes.addShaped(<minecraft:chest> * 2, [[<ore:logWood>, <ore:gearWood>, <ore:logWood>],[<ore:gearWood>, null, <ore:gearWood>], [<ore:logWood>, <ore:gearWood>, <ore:logWood>]]);
 
 recipes.remove(<minecraft:golden_chestplate>);
 recipes.remove(<minecraft:golden_boots>);
@@ -66,3 +63,9 @@ RecipeUtils.recipeTweak(true, <minecraft:cauldron>, [
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>
 ]]);
 
+vanilla.seeds.addSeed(<minecraft:wheat_seeds>.weight(0.12));
+vanilla.seeds.addSeed(<minecraft:melon_seeds>.weight(0.06));
+vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>.weight(0.06));
+vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(0.06));
+
+//<entity:minecraft:enderman>.addDrop(<contenttweaker:exe>.weight(0.25));

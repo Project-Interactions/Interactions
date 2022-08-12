@@ -4,7 +4,6 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import thaumcraft.aspect.CTAspect;
 import thaumcraft.aspect.CTAspectStack;
-import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 mods.thaumcraft.SalisMundus.removeSingleConversion(<*>);
 
@@ -30,6 +29,19 @@ mods.thaumcraft.Infusion.registerRecipe("seed_tier4", "", <mysticalagriculture:c
 mods.thaumcraft.Infusion.registerRecipe("circuit_13", "", <contenttweaker:circuit_umv>, 5, [<aspect:ordo>*20,<aspect:sol>*20,<aspect:alienis>*20,<aspect:vitium>*20], <contenttweaker:circuit_uiv>, [<qmd:cell:1>.withTag({storage: {amount: 600}}),<qmd:cell:1>.withTag({storage: {amount: 600}}),<thaumicwonders:alienist_stone>]);
 mods.thaumcraft.Infusion.registerRecipe("gaia_plate", "", <botanicadds:gaia_plate>, 8, [<aspect:aer>*20,<aspect:herba>*20,<aspect:alkimia>*30,<aspect:auram>*30], <botania:terraplate>, [<botanicadds:rune_energy>, <botanicadds:rune_tp>,<botanicadds:gaia_shard>,<botanicadds:gaia_shard>,<botanicadds:gaia_shard>,<botanicadds:elven_lapis_block>,<botanicadds:elven_lapis_block>,<botanicadds:elven_lapis_block> ]);
 
+recipes.removeShaped(<thaumcraft:stone_arcane> * 9, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <thaumcraft:crystal_essence>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
+recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "twilght"}]}), <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
+
+
+
+
+
+
+
+
+
+
+
 
 
 var aspectMap as CTAspectStack[][IIngredient] = {
@@ -37,8 +49,8 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <twilightforest:maze_stone> : [<aspect:vinculum> * 1, <aspect:twilght> * 2,<aspect:terra> * 5],
     <twilightforest:torchberries> : [<aspect:herba> * 3, <aspect:twilght> * 4,<aspect:lux> * 3],
     <twilightforest:twilight_log> : [<aspect:herba> * 20, <aspect:twilght> * 5],
-    <twilightforest:borer_essence> : [<aspect:venenum> * 10, <aspect:twilght> * 4],
-    <twilightforest:naga_scale> : [<aspect:tutamen> * 5, <aspect:motus> * 2, <aspect:twilght> * 4],
+    <twilightforest:borer_essence> : [<aspect:alkimia> * 10, <aspect:twilght> * 4],
+    <twilightforest:naga_scale> : [<aspect:praemunio> * 5, <aspect:motus> * 2, <aspect:twilght> * 4],
     <twilightforest:maze_map_focus> : [<aspect:vinculum> * 10, <aspect:machina> * 10, <aspect:twilght> * 20],
     <twilightforest:steeleaf_ingot> : [<aspect:herba> * 12, <aspect:twilght> * 6, <aspect:metallum> * 4],
     <twilightforest:knightmetal_ingot> : [<aspect:metallum> * 18, <aspect:fabrico> * 6, <aspect:twilght> * 6],

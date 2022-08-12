@@ -3,7 +3,8 @@
 	x: -3.0d,
 	y: -4.0d,
 	text: [
-		"本整合包使用Bogo Sorter，而非R键整理"
+		"本整合包使用Bogo Sorter，而非R键整理",
+		"按键可能会冲突，请在控制里修改"
 	],
 	size: 1.6d,
 	tasks: [{

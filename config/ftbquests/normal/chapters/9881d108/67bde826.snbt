@@ -2,7 +2,7 @@
 	x: -2.5d,
 	y: -0.5d,
 	text: [
-		"合成方式已被修改"
+		"合成方式已被修改，配方只在暮色进行"
 	],
 	tasks: [{
 		uid: "2d51935d",
@@ -18,6 +18,13 @@
 			item: "thaumcraft:nugget 1 9"
 		}],
 		count: 8L
+	},
+	{
+		uid: "46096d2f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
 	}],
 	rewards: [{
 		uid: "d3205445",

@@ -46,3 +46,9 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("as:yasuokongjian", <compac
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>]);
 
 mods.astralsorcery.StarlightInfusion.addInfusion(<integrateddynamics:crystalized_menril_brick>, <contenttweaker:material_part:137>, false, 0.7, 200);
+mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:mana_circuit>, <contenttweaker:infused_mana_circuit>, false, 0.7, 200);
+
+
+
+
+
