@@ -13,15 +13,6 @@ furnace.remove(<embers:ingot_aluminum>);
 mods.embers.Melter.remove(<liquid:tungsten>*288);
 mods.embers.Melter.remove(<liquid:tungsten>*144);
 mods.embers.Melter.remove(<liquid:tungsten>*16);
-mods.embers.Melter.remove(<liquid:mithril>*288);
-mods.embers.Melter.remove(<liquid:mithril>*144);
-mods.embers.Melter.remove(<liquid:mithril>*16);
-mods.embers.Melter.remove(<liquid:cerulean>*288);
-mods.embers.Melter.remove(<liquid:cerulean>*144);
-mods.embers.Melter.remove(<liquid:cerulean>*16);
-mods.embers.Melter.remove(<liquid:moonstone>*288);
-mods.embers.Melter.remove(<liquid:moonstone>*144);
-mods.embers.Melter.remove(<liquid:moonstone>*16);
 recipes.remove(<embers:geo_separator>);
 
 mods.embers.Melter.remove(<liquid:draconium>*288);

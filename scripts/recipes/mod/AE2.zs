@@ -27,6 +27,7 @@ recipes.addShaped(<appliedenergistics2:charger>, [[<contenttweaker:useful_ingot>
 recipes.removeShaped(<ae2stuff:inscriber>, [[<ore:ingotIron>, <minecraft:hopper:*>, <ore:ingotIron>], [<appliedenergistics2:material:24>, <appliedenergistics2:inscriber:*>, <appliedenergistics2:material:24>], [<ore:ingotIron>, <minecraft:hopper:*>, <ore:ingotIron>]]);
 recipes.addShaped(<ae2stuff:inscriber>, [[<appliedenergistics2:material:24>, <minecraft:hopper:*>, <appliedenergistics2:material:24>], [<appliedenergistics2:inscriber>, null, <appliedenergistics2:inscriber>], [<appliedenergistics2:material:24>, <minecraft:hopper:*>, <appliedenergistics2:material:24>]]);
 //禁止mek晶体磨粉
+/*
 mods.appliedenergistics2.Grinder.removeRecipe(<mekanism:crystal:5>);
 mods.appliedenergistics2.Grinder.removeRecipe(<jaopca:item_crystalaluminium>);
 mods.appliedenergistics2.Grinder.removeRecipe(<mekanism:crystal:4>);
@@ -37,7 +38,7 @@ mods.appliedenergistics2.Grinder.removeRecipe(<mekanism:crystal>);
 mods.appliedenergistics2.Grinder.removeRecipe(<jaopca:item_crystalplatinum>);
 mods.appliedenergistics2.Grinder.removeRecipe(<mekanism:crystal:6>);
 mods.appliedenergistics2.Grinder.removeRecipe(<jaopca:item_crystalnickel>);
-
+*/
 recipes.removeShaped(<appliedenergistics2:inscriber>, [[<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>], [<ore:crystalFluix> | <appliedenergistics2:material:12>, null, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]]);
 recipes.addShaped(<appliedenergistics2:inscriber>,[[<moreplates:fluix_gear>,<minecraft:piston>,<ore:ingotRefinedIron>],[<moreplates:fluix_gear>,<ore:circuitAdvanced>,<ore:ingotRefinedIron>],[<ore:ingotRefinedIron>,<minecraft:piston>,<ore:ingotRefinedIron>]]);
 recipes.removeShaped(<appliedenergistics2:charger>, [[<ore:ingotIron>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <ore:ingotIron>], [<ore:ingotIron>, null, null], [<ore:ingotIron>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <ore:ingotIron>]]);

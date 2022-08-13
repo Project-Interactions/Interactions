@@ -170,7 +170,7 @@ mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<tec
 mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*4,<enderio:item_alloy_ingot:3>*8,<draconicevolution:wyvern_energy_core>,4000000,-40000,512);
 
 
-mods.techreborn.fusionReactor.addRecipe(<jaopca:item_platedensediamond>*4,<mekanism:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);
+mods.techreborn.fusionReactor.addRecipe(<ore:plateDenseDiamond>*4,<mekanism:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);
 
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:49>*20);
 mods.techreborn.industrialElectrolyzer.addRecipe(<thermalfoundation:material:68>*3,<techreborn:dust:31>*5,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*4,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*5,<techreborn:dynamiccell>*9,<techreborn:dust:49>*15,160,280);

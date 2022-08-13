@@ -1,0 +1,19 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have grinder material to dust recipes added.
+	materialToDustMaterialBlacklist = []
+	#The materials that should not have grinder plate to dust recipes added.
+	plateToDustMaterialBlacklist = []
+	#The materials that should not have grinder block to dust recipes added.
+	blockToDustMaterialBlacklist = []
+	#The materials that should not have compressor material to plate recipes added.
+	crystalToPlateMaterialBlacklist = []
+	#The materials that should not have compressor dust to plate recipes added.
+	dustToPlateMaterialBlacklist = []
+	#The materials that should not have implosion compressor to material recipes added.
+	toCrystalMaterialBlacklist = []
+

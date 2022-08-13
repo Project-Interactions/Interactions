@@ -1,0 +1,11 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have water industrial grinder recipes added.
+	waterMaterialBlacklist = []
+	#The materials that should not have mercury industrial grinder recipes added.
+	mercuryMaterialBlacklist = []
+

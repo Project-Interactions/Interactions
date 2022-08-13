@@ -1,0 +1,11 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have water industrial grinder recipes added.
+	waterMaterialBlacklist = []
+	#The materials that should not have sodium persulfate	 industrial grinder recipes added.
+	sodiumPersulfateMaterialBlacklist = []
+

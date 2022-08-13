@@ -1,4 +1,4 @@
-#priority 150
+#priority 10000
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
@@ -51,3 +51,12 @@ zsFluid15.register();
 
 var zsFluid16 = VanillaFactory.createFluid("liquid_chaos", Color.fromHex("231923"));
 zsFluid16.register();
+
+var zsFluid17 = VanillaFactory.createFluid("advancedalloy", Color.fromHex("FF9966"));
+zsFluid17.register();
+
+var zsFluid18 = VanillaFactory.createFluid("duplication", Color.fromHex("0052D8"));
+zsFluid18.register();
+
+var zsFluid19 = VanillaFactory.createFluid("tic_useful_metal", Color.fromHex("759E7F"));
+zsFluid19.register();

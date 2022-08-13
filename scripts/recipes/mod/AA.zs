@@ -52,8 +52,8 @@ mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_emeradic_gea
 mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
 //水晶
 # Restonia
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <jaopca:item_stickardite>, <moreplates:demon_plate>, 25000, 100, [1.0, 0.0, 0.0]);
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <jaopca:item_stickardite>, <moreplates:demon_plate>, 250000, 200, [1.0, 0.0, 0.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <ore:rodArdite>, <moreplates:demon_plate>, 25000, 100, [1.0, 0.0, 0.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <ore:rodArdite>, <moreplates:demon_plate>, 250000, 200, [1.0, 0.0, 0.0]);
 # Palis
 	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <techreborn:lapotroncrystal>, <naturesaura:sky_ingot>, 25000, 100, [0.0, 0.0, 1.0]);
 	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <techreborn:lapotroncrystal>, <naturesaura:sky_ingot>, 250000, 200, [0.0, 0.0, 1.0]);
@@ -67,8 +67,8 @@ mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>)
 	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <tconstruct:materials:9>, <techreborn:gem:2>, <moreplates:terrasteel_gear>,<thaumcraft:crystal_terra>, 50000, 200, [0.0, 1.0, 0.498039]);
 	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <tconstruct:materials:9>, <techreborn:gem:2>, <moreplates:terrasteel_gear>,<thaumcraft:crystal_terra>, 500000, 400, [0.0, 1.0, 0.498039]);
 # Enori
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <jaopca:item_platelithium>, 25000, 100, [1.0, 1.0, 1.0]);
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <jaopca:item_platelithium>, 250000, 200, [1.0, 1.0, 1.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 25000, 100, [1.0, 1.0, 1.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 250000, 200, [1.0, 1.0, 1.0]);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
 
 //mods.actuallyadditions.AtomicReconstructor.addRecipe(<gugu-utils:lenstransform>,<gugu-utils:lensoverclocking>,100);

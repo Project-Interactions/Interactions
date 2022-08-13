@@ -6,23 +6,10 @@ mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>);
 mods.tconstruct.Melting.removeRecipe(<liquid:coal>);
 mods.tconstruct.Melting.removeRecipe(<liquid:redstone>);
 mods.tconstruct.Melting.removeRecipe(<liquid:ender>);
-mods.tconstruct.Melting.removeRecipe(<liquid:crude_steel>);
-mods.tconstruct.Melting.removeRecipe(<liquid:vivid_alloy>);
-mods.tconstruct.Melting.removeRecipe(<liquid:melodic_alloy>);
-mods.tconstruct.Melting.removeRecipe(<liquid:stellar_alloy>);
-mods.tconstruct.Melting.removeRecipe(<liquid:crystalline_alloy>);
-mods.tconstruct.Melting.removeRecipe(<liquid:crystalline_pink_slime>);
-mods.tconstruct.Melting.removeRecipe(<liquid:energetic_silver>);
-mods.tconstruct.Melting.removeRecipe(<liquid:astral_starmetal>);
 mods.tconstruct.Melting.removeRecipe(<liquid:tungsten>);
-mods.tconstruct.Melting.removeRecipe(<liquid:mithril>);
-mods.tconstruct.Melting.removeRecipe(<liquid:cerulean>);
-mods.tconstruct.Melting.removeRecipe(<liquid:moonstone>);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<mekanism:dust:2>);
 mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<mekanism:oreblock>);
-mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<jaopca:item_dusttinyosmium>);
-mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<jaopca:item_dustsmallosmium>);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:fluxed_electrum>,<redstonearsenal:material>);
 mods.tconstruct.Melting.removeRecipe(<liquid:gelid_enderium>,<redstonerepository:material>);
@@ -37,21 +24,18 @@ mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<thermalfoundation:materi
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<thermalfoundation:ore:4>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<immersiveengineering:ore:1>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<nuclearcraft:dust:12>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<jaopca:item_dusttinyaluminium>);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:material:70>);
 mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<techreborn:dust:38>);
 mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<techreborn:smalldust:38>);
 mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:ore:6>);
 mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<techreborn:ore:9>);
-mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<jaopca:item_dusttinyplatinum>);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:material:71>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<techreborn:dust:64>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<techreborn:smalldust:66>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:ore:7>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<techreborn:ore:1>);
-mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<jaopca:item_dusttinyiridium>);
 
 
 
@@ -74,7 +58,7 @@ recipes.addShaped(<tconstruct:seared:3> * 2, [[<tconstruct:materials>, <tconstru
 recipes.remove(<plustic:centrifuge>);
 recipes.remove(<plustic:centrifuge:1>);
 //
-mods.tconstruct.Alloy.addRecipe(<liquid:tic_crude_steel> * 2, [<liquid:refinediron> * 2, <liquid:stone>,  <liquid:clay>]);
+mods.tconstruct.Alloy.addRecipe(<liquid:crude_steel> * 2, [<liquid:refinediron> * 2, <liquid:stone>,  <liquid:clay>]);
 recipes.remove(<minecraft:piston>);
 mods.tconstruct.Alloy.addRecipe(<liquid:tic_useful_metal>,[<liquid:xu_demonic_metal>,<liquid:xu_enchanted_metal>,<liquid:xu_evil_metal>]);
 mods.tconstruct.Alloy.removeRecipe(<liquid:enderium>);
@@ -96,8 +80,6 @@ mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draco
 mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore>);
 mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore:1>);
 mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore:2>);
-mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<jaopca:item_dustsmalldraconium>);
-mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<jaopca:item_dusttinydraconium>);
 
 
 

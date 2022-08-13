@@ -82,3 +82,10 @@
 <ore:itemRubber>.remove(<industrialforegoing:plastic>);
 <ore:platePlastic>.add(<industrialforegoing:plastic>);
 <ore:blockGaia>.add(<avaritiatweaks:gaia_block>);
+
+<ore:ingotUseful>.add(<contenttweaker:useful_ingot>);
+<ore:blockUseful>.add(<contenttweaker:useful_block>);
+
+
+
+
