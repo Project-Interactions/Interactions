@@ -1,0 +1,6 @@
+
+{
+  "Name": "programmableController",
+  "Registry ID": "pneumaticcraft:programmable_controller",
+  "Class": "me.desht.pneumaticcraft.common.entity.EntityProgrammableController"
+}

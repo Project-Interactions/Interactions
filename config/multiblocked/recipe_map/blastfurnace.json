@@ -3,6 +3,43 @@
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
+      "uid": "3868fd61-38f1-4f14-810e-93ea099560f1",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dustPlatinum"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:134s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "block": {
+          "block": {
+            "id": "contenttweaker:sub_block_holder_0",
+            "meta": 6
+          },
+          "count": 16
+        }
+      }
+    },
+    {
       "uid": "7cc3fc93-901b-4ac6-a13f-9d13a65f26a6",
       "duration": 800,
       "inputs": {
@@ -104,6 +141,122 @@
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:material_part\",Count:1b,Damage:152s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "block": {
+          "block": {
+            "id": "contenttweaker:sub_block_holder_0",
+            "meta": 6
+          },
+          "count": 16
+        }
+      }
+    },
+    {
+      "uid": "0fb41f18-8dec-4d74-8a1b-6b8b64c4912b",
+      "duration": 3000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:dust\",Count:1b,Damage:2s}",
+                "{id:\"techreborn:dust\",Count:1b,Damage:10s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:ingot\",Count:1b,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "block": {
+          "block": {
+            "id": "contenttweaker:sub_block_holder_0",
+            "meta": 6
+          },
+          "count": 16
+        }
+      }
+    },
+    {
+      "uid": "589a628d-0738-4af8-9a63-be60d7ab25ca",
+      "duration": 15,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:material\",Count:1b,Damage:6s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:160s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0b0adde6-2be3-4029-8783-fce3c383205e",
+      "duration": 2000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dustTitanium"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:ingot\",Count:1b,Damage:14s}"
               ]
             }
           }

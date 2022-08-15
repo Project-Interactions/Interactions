@@ -66,7 +66,7 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:lumium>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:obsidian>);
 mods.tconstruct.Alloy.addRecipe(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);
-mods.tconstruct.Alloy.addRecipe(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:reinforced_iron>]);
+mods.tconstruct.Alloy.addRecipe(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refinediron>]);
 mods.tconstruct.Alloy.addRecipe(<liquid:dilithium_fluid>,[<liquid:lithium>*2,<liquid:hard_carbon>]);
 
 mods.tconstruct.Alloy.removeRecipe(<liquid:osmiridium>);
@@ -142,4 +142,5 @@ mods.tconstruct.Alloy.addRecipe(<liquid:mirion>*36,[<liquid:terrasteel>*18,<liqu
 
 recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>]]);
 
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:useful_ingot>, <tconstruct:cast_custom>, <liquid:tic_useful_metal>,144,false, 80);
 

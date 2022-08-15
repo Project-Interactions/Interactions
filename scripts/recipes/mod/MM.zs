@@ -1,8 +1,6 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-recipes.remove(<chambers:big_compact_chamber>);
-recipes.remove(<chambers:compact_chamber>);
 //Don't touch me!
 /*
 mods.extendedcrafting.TableCrafting.addShaped(2, <gugu-utils:emberinputhatch:6>, [

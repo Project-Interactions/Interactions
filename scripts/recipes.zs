@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<techreborn:industrial_blast_furnace>);
+recipes.remove(<techreborn:water_mill>);
 recipes.remove(<appliedenergistics2:material:58>);
 furnace.remove(<techreborn:part:32>);
 recipes.remove(<lightningcraft:plate:9> * 3);
@@ -19,8 +21,6 @@ recipes.remove(<immersiveintelligence:material_ingot:5>);
 recipes.remove(<buildinggadgets:constructionblockpowder>);
 recipes.remove(<embers:gear_dawnstone>);
 recipes.remove(<enderio:item_material:12>);
-recipes.remove(<jaopca:item_gearmoonstone>);
-recipes.remove(<jaopca:item_gearcerulean>);
 recipes.remove(<minecraft:end_portal_frame>);
 recipes.remove(<enderio:item_item_conduit> * 8);
 recipes.remove(<enderio:block_inventory_panel>);
@@ -79,7 +79,6 @@ recipes.remove(<avaritia:resource:1>);
 recipes.remove(<avaritia:resource>);
 recipes.remove(<extendedcrafting:table_elite>);
 recipes.remove(<draconicevolution:draconic_energy_core>);
-recipes.remove(<chambers:fusion_chamber>);
 recipes.remove(<draconicevolution:crafting_injector>);
 recipes.remove(<draconicevolution:fusion_crafting_core>);
 recipes.remove(<draconicevolution:wyvern_energy_core>);

@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_summoned_clone",
+  "Registry ID": "rpsideas:entity_summoned_clone",
+  "Class": "com.kamefrede.rpsideas.entity.EntityClone"
+}

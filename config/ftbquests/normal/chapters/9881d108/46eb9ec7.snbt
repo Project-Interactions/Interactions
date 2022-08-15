@@ -1,21 +1,12 @@
 {
 	x: -7.5d,
 	y: 10.5d,
-	dependencies: [
-		"9ab21fca"
-	],
 	tasks: [{
 		uid: "9cb2e04f",
 		type: "item",
 		title: "Any ingotChromium",
 		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotChromium"
-				}
-			}
+			item: "techreborn:ingot 1 3"
 		}],
 		count: 4L
 	}],

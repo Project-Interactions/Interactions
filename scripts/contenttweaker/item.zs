@@ -57,7 +57,8 @@ VanillaFactory.createItem("twilght_symbol").register();
 VanillaFactory.createItem("mana_circuit").register();
 VanillaFactory.createItem("infused_mana_circuit").register();
 
-
+VanillaFactory.createItem("thaumic_circuit").register();
+VanillaFactory.createItem("arcane_thaumic_circuit").register();
 
 
 

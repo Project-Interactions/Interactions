@@ -1,0 +1,6 @@
+
+{
+  "Name": "falling_rock",
+  "Registry ID": "lost_aether:falling_rock",
+  "Class": "com.legacy.lostaether.entities.EntityFallingRock"
+}

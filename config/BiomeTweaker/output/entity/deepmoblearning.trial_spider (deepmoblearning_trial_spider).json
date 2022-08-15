@@ -1,0 +1,6 @@
+
+{
+  "Name": "deepmoblearning.trial_spider",
+  "Registry ID": "deepmoblearning:trial_spider",
+  "Class": "xt9.deepmoblearning.common.entity.EntityTrialSpider"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "logisticDrone",
+  "Registry ID": "pneumaticcraft:logistic_drone",
+  "Class": "me.desht.pneumaticcraft.common.entity.living.EntityLogisticsDrone"
+}

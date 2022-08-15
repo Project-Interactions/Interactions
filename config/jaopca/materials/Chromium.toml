@@ -1,7 +1,7 @@
 
 [general]
 	#The alternative names of this material.
-	alternativeNames = []
+	alternativeNames = ["Chrome"]
 	#The byproducts of this material.
 	extras = []
 	#The module blacklist of this material.

@@ -126,7 +126,7 @@ recipes.addShaped(<botania:pool:3>, [[null, null, null],[<botania:storage:4>, nu
 
 mods.botania.ElvenTrade.addRecipe([<interaction:mana_converter>], [<botania:alfheimportal>]);
 mods.botania.RuneAltar.addRecipe(<astralsorcery:blockcollectorcrystal>, [<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>], 500000);
-//bug需修复mods.botania.ElvenTrade.addRecipe([<contenttweaker:mana_circuit>*3], [<ore:ingotPinkMetal>*2,<ore:quartzLavender>*3,<ore:manaString>*4,<ore:plateMirion>*3]);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:mana_circuit>*3, [<ore:ingotPinkMetal>,<ore:ingotPinkMetal>,<ore:quartzLavender>,<ore:quartzLavender>,<ore:quartzLavender>,<ore:dreamwood>,<ore:plateMirion>,<ore:plateMirion>], 500000);
 
 RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:manatablet>, <ore:livingrock>], [<ore:livingrock>, <ore:manaPearl> | <ore:manaDiamond>, <ore:livingrock>]]);
 

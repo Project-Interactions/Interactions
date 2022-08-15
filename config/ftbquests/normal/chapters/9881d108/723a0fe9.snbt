@@ -4,9 +4,6 @@
 	text: [
 		"电解铝土矿石获得小堆钛粉"
 	],
-	dependencies: [
-		"9ab21fca"
-	],
 	tasks: [{
 		uid: "8a13d878",
 		type: "item",

@@ -10,6 +10,7 @@
       "6": "duraluminium_coil",
       "7": "neutronium_block",
       "8": "europium_block",
+      "9": "cerulean_ore",
       "10": "mithril_block",
       "11": "twilght_steel_block",
       "12": "duplication_block",
@@ -22,7 +23,8 @@
       "1": "naturium_block",
       "2": "naturium_coil",
       "3": "menril_block",
-      "4": "twilght_steel_coil"
+      "4": "twilght_steel_coil",
+      "5": "moonstone_ore"
     }
   }
 }

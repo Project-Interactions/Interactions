@@ -60,3 +60,6 @@ zsFluid18.register();
 
 var zsFluid19 = VanillaFactory.createFluid("tic_useful_metal", Color.fromHex("759E7F"));
 zsFluid19.register();
+
+var zsFluid20 = VanillaFactory.createFluid("refinediron", Color.fromHex("E1E8EB"));
+zsFluid20.register();

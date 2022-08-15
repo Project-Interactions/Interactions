@@ -79,9 +79,14 @@
         "capability": "item",
         "type": "capability"
       },
-      "mana": {
-        "capability": "bot_mana",
-        "type": "capability"
+      "coil3": {
+        "states": [
+          {
+            "id": "contenttweaker:sub_block_holder_1",
+            "meta": 4
+          }
+        ],
+        "type": "states"
       },
       "coil2": {
         "states": [
@@ -101,15 +106,19 @@
         ],
         "type": "states"
       },
-      "fluid": {
-        "capability": "fluid",
-        "type": "capability"
-      },
       "any": {
         "type": "any"
       },
       "aura": {
         "capability": "natures_aura",
+        "type": "capability"
+      },
+      "mana": {
+        "capability": "bot_mana",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
         "type": "capability"
       },
       "energy": {
@@ -129,6 +138,7 @@
       ],
       "B": [
         "B",
+        "coil3",
         "coil2",
         "coil1"
       ],

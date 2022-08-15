@@ -119,8 +119,8 @@ item.contenttweaker.enrichedsunnariumalloy4.name=富集阳光化合物合金4阶
 item.contenttweaker.sunnariumalloy.name=阳光化合物合金
 item.contenttweaker.sunnarium.name=阳光化合物
 
-item.contenttweaker.twilght_symbol=暮色标志
-item.contenttweaker.mana_circuit=魔能电路板
+item.contenttweaker.twilght_symbol.name=暮色标志
+item.contenttweaker.mana_circuit.name=魔能电路板
 item.contenttweaker.infused_mana_circuit.name=星能注入的魔能电路板
 
 

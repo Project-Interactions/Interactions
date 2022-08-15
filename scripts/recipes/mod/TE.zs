@@ -45,12 +45,6 @@ Crucible.removeRecipe(<taiga:uru_ore>);
 Crucible.removeRecipe(<taiga:osram_ore>);
 Crucible.removeRecipe(<taiga:abyssum_ore>);
 Crucible.removeRecipe(<taiga:eezo_ore>);
-
-Crucible.removeRecipe(<mekanism:dust:2>);
-Crucible.removeRecipe(<mekanism:oreblock>);
-Crucible.removeRecipe(<techreborn:dust:55>);
-Crucible.removeRecipe(<techreborn:ore:8>);
-
 Crucible.removeRecipe(<taiga:lumix_dust>);
 Crucible.removeRecipe(<taiga:seismum_dust>);
 Crucible.removeRecipe(<taiga:astrium_dust>);
@@ -111,8 +105,6 @@ Factorizer.removeRecipeSplit(<thermalfoundation:storage:8>);
 Factorizer.removeRecipeCombine(<thermalfoundation:material:136>*9);
 Factorizer.removeRecipeSplit(<thermalfoundation:material:136>*9);
 
-Crucible.removeRecipe(<draconicevolution:draconium_dust>);
-Crucible.removeRecipe(<draconicevolution:draconium_ore>);
 
 
 mods.thermalexpansion.Infuser.removeRecipe(<wirelessutils:fluxed_pearl>);
