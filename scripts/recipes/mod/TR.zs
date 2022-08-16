@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:10>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades>, [[<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
-//recipes.addShaped(<techreborn:upgrades>, [[<techreborn:part:8>, <ore:circuitElite>, <techreborn:part:8>],[<techreborn:part:10>, <teslacorelib:speed_tier2>, <techreborn:part:10>], [<techreborn:cable:7>, <gugu-utils:lensoverclocking>, <techreborn:cable:7>]]);
+recipes.addShaped(<techreborn:upgrades>, [[<calculator:flawlessassembly>, <ore:circuitThaumic>, <calculator:flawlessassembly>],[<calculator:flawlessassembly>, <teslacorelib:speed_tier2>, <calculator:flawlessassembly>], [<calculator:flawlessassembly>, <ore:circuitThaumic>,<calculator:flawlessassembly>]]);
 
 //
 recipes.remove(<techreborn:part:30>);
@@ -180,4 +180,14 @@ recipes.addShaped(<techreborn:fluid_replicator>, [[<ore:plateTungstensteel>, <co
 mods.techreborn.fluidReplicator.addRecipe(64,<liquid:duplication>*1000,50,100);
 
 mods.techreborn.blastFurnace.removeAll();
+
+RecipeUtils.recipeTweak(true, <techreborn:machine_frame:1>, [[<ore:circuitMana>, <ore:plateCarbon>, <ore:circuitMana>], [<ore:plateAdvancedAlloy>, <ore:machineBlockBasic>, <ore:plateAdvancedAlloy>], [<ore:circuitMana>, <ore:plateCarbon>, <ore:circuitMana>]]);
+RecipeUtils.recipeTweak(true, <techreborn:machine_frame:2>, [[<ore:circuitThaumic>, <ore:circuitThaumic>,<ore:circuitThaumic>], [<ore:plateTitanium>, <ore:machineBlockAdvanced>, <ore:plateTitanium>], [<ore:plateChrome>, <ore:plateTitanium>, <ore:plateChrome>]]);
+
+recipes.remove(<techreborn:cable:4> * 8);
+recipes.remove(<techreborn:cable:4> * 3);
+recipes.remove(<techreborn:cable:4> * 4);
+recipes.remove(<techreborn:cable:4> * 6);
+
+recipes.addShaped(<techreborn:cable:4>,[[<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>],[<ore:rodUnstable>,<ore:rodUnstable>,<ore:rodUnstable>],[<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>]]);
 

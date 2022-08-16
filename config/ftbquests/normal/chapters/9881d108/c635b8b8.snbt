@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 23.5d,
+	shape: "gear",
+	text: [
+		"在上面放上你想要的计算器就可以实现自动化",
+		"注意输入"
+	],
+	size: 1.6d,
+	tasks: [{
+		uid: "b9084d79",
+		type: "item",
+		items: [{
+			item: "calculator:dockingstation"
+		}]
+	}]
+}

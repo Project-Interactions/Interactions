@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: 11.5d,
+	shape: "gear",
+	dependencies: [
+		"9ef9ee6a",
+		"ea0ab1e1"
+	],
+	tasks: [{
+		uid: "3ef5cc72",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_frame 1 2"
+		}]
+	}]
+}

@@ -60,7 +60,8 @@ VanillaFactory.createItem("infused_mana_circuit").register();
 VanillaFactory.createItem("thaumic_circuit").register();
 VanillaFactory.createItem("arcane_thaumic_circuit").register();
 
-
+VanillaFactory.createItem("operation_circuit").register();
+VanillaFactory.createItem("applicated_operation_circuit").register();
 
 
 

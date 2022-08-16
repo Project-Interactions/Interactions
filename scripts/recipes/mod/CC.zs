@@ -2,10 +2,15 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.calculator.basic;
+import mods.calculator.flawless;
+import mods.calculator.atomic;
+import mods.calculator.scientific;
+
 recipes.removeShaped(<environmentalmaterials:hardened_stone> * 8, [[<ore:stone>, <ore:cobblestone>, <ore:stone>], [<ore:cobblestone>, <ore:stone>, <ore:cobblestone>], [<ore:stone>, <ore:cobblestone>, <ore:stone>]]);
 recipes.addShaped(<calculator:calculator>, [[<ore:calculatorReinforcedStone>, <calculator:calculatorscreen:*>, <ore:calculatorReinforcedStone>], [<minecraft:stone_button:*>, <calculator:calculatorassembly:*>, <minecraft:stone_button:*>], [<ore:calculatorReinforcedStone>,<immersiveintelligence:metal_decoration:2>, <ore:calculatorReinforcedStone>]]);
 recipes.addShaped(<calculator:calculatorscreen>, [[<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <integrateddynamics:part_display_panel_item>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>]]);
-recipes.addShaped(<calculator:calculatorassembly> * 4, [[<ore:calculatorReinforcedStone>, <minecraft:stone_button:*>, <ore:calculatorReinforcedStone>], [<minecraft:stone_button:*>, <ore:calculatorReinforcedStone>, <minecraft:stone_button:*>], [<ore:calculatorReinforcedStone>, <minecraft:stone_button:*>, <ore:calculatorReinforcedStone>]]);
+recipes.addShaped(<calculator:calculatorassembly> * 4, [[<ore:calculatorReinforcedStone>, <minecraft:stone_button:*>, <ore:calculatorReinforcedStone>], [<minecraft:stone_button:*>, <ore:calculatorReinforcedStone>, <minecraft:stone_button:*>], [<ore:circuitMana>, <minecraft:stone_button:*>, <ore:circuitMana>]]);
 //
 <ore:calculatorReinforcedStone>.add(<environmentalmaterials:hardened_stone>);
 //计算器
@@ -13,35 +18,47 @@ recipes.removeShaped(<calculator:calculator>, [[<ore:cobblestone>, <calculator:c
 recipes.removeShaped(<calculator:calculatorscreen>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 recipes.removeShaped(<calculator:calculatorassembly> * 8, [[<ore:cobblestone>, <minecraft:stone_button:*>, <ore:cobblestone>], [<minecraft:stone_button:*>, <ore:cobblestone>, <minecraft:stone_button:*>], [<ore:cobblestone>, <minecraft:stone_button:*>, <ore:cobblestone>]]);
 recipes.removeShaped(<calculator:powercube>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <minecraft:furnace:*>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-recipes.addShaped(<calculator:powercube>, [[<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <techreborn:energycrystal>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>]]);
+recipes.addShaped(<calculator:powercube>, [[<ore:calculatorReinforcedStone>, <ore:circuitMana>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <techreborn:energycrystal>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <ore:circuitMana>, <ore:calculatorReinforcedStone>]]);
 recipes.removeShaped(<calculator:atomicassembly>, [[<calculator:advancedassembly:*>, <calculator:atomicmodule:*>, <calculator:advancedassembly:*>], [<calculator:atomicmodule:*>, <ore:gemEmerald>, <calculator:atomicmodule:*>], [<calculator:advancedassembly:*>, <calculator:atomicmodule:*>, <calculator:advancedassembly:*>]]);
-recipes.removeShaped(<calculator:flawlessassembly>, [[<calculator:advancedassembly:*>, <calculator:calculatorassembly:*>, <calculator:advancedassembly:*>], [<calculator:calculatorassembly:*>, <calculator:atomicassembly:*>, <calculator:calculatorassembly:*>], [<calculator:advancedassembly:*>, <calculator:calculatorassembly:*>, <calculator:advancedassembly:*>]]);
+recipes.removeShaped(<calculator:flawlessassembly>, [[<calculator:advancedassembly:*>, <calculator:calculatorassembly:*>, <calculator:advancedassembly:*>], [<calculator:calculatorassembly:*>, <calculator:atomicassembly:*>, <calculator:calculatorassembly:*>], [<calculator:advancedassembly:*>, <contenttweaker:operation_circuit>|<ore:circuitOperation>, <calculator:advancedassembly:*>]]);
 recipes.removeShaped(<calculator:advancedassembly> * 4, [[<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>], [<calculator:calculatorassembly:*>, <calculator:reinforcedironingot:*>, <calculator:calculatorassembly:*>], [<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>]]);
 recipes.removeShaped(<calculator:atomicmodule> * 4, [[<ore:gemTanzanite>, <calculator:calculatorassembly:*>, <ore:gemTanzanite>], [<calculator:calculatorassembly:*>, <ore:gemDiamond>, <calculator:calculatorassembly:*>], [<ore:gemTanzanite>, <calculator:calculatorassembly:*>, <ore:gemTanzanite>]]);
 //组件
 recipes.addShaped(<calculator:atomicassembly>, [[<calculator:advancedassembly:*>, <calculator:atomicmodule:*>, <calculator:advancedassembly:*>], [<calculator:atomicmodule:*>, <contenttweaker:useful_ingot>, <calculator:atomicmodule:*>], [<calculator:advancedassembly:*>, <calculator:atomicmodule:*>, <calculator:advancedassembly:*>]]);
 recipes.addShaped(<calculator:flawlessassembly>, [[<calculator:advancedassembly:*>, <calculator:calculatorassembly:*>, <calculator:advancedassembly:*>], [<calculator:calculatorassembly:*>, <calculator:atomicassembly:*>, <calculator:calculatorassembly:*>], [<calculator:advancedassembly:*>, <calculator:calculatorassembly:*>, <calculator:advancedassembly:*>]]);
-recipes.addShaped(<calculator:advancedassembly> * 2, [[<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>], [<calculator:calculatorassembly:*>, <calculator:reinforcedironingot:*>, <calculator:calculatorassembly:*>], [<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>]]);
-recipes.addShaped(<calculator:atomicmodule> * 2, [[<calculator:largetanzanite>, <calculator:calculatorassembly:*>, <calculator:largetanzanite>], [<calculator:calculatorassembly:*>, <extrautils2:ingredients:12>, <calculator:calculatorassembly:*>], [<calculator:largetanzanite>, <calculator:calculatorassembly:*>, <calculator:largetanzanite>]]);
-//无暇计算器
-mods.calculator.flawless.removeRecipe(<minecraft:obsidian>);
-mods.calculator.flawless.removeRecipe(<minecraft:ender_pearl>);
-mods.calculator.flawless.removeRecipe(<minecraft:emerald>);
-mods.calculator.flawless.removeRecipe(<minecraft:diamond>);
-mods.calculator.flawless.removeRecipe(<minecraft:ghast_tear>);
-mods.calculator.flawless.removeRecipe(<minecraft:blaze_rod>);
-
+recipes.addShaped(<calculator:advancedassembly> * 2, [[<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>], [<calculator:calculatorassembly:*>, <calculator:reinforcedironingot:*>, <calculator:calculatorassembly:*>], [<ore:circuitThaumic>, <calculator:calculatorassembly:*>, <ore:circuitThaumic>]]);
+recipes.addShaped(<calculator:atomicmodule> * 2, [[<calculator:largetanzanite>, <calculator:calculatorassembly:*>, <ore:circuitThaumic>], [<calculator:calculatorassembly:*>, <extrautils2:ingredients:12>, <calculator:calculatorassembly:*>], [<ore:circuitThaumic>, <calculator:calculatorassembly:*>, <calculator:largetanzanite>]]);
 recipes.removeShaped(<calculator:scientificcalculator>, [[<calculator:enrichedgoldingot:*>, <calculator:calculatorscreen:*>, <calculator:enrichedgoldingot:*>], [<ore:calculatorReinforcedStone>, <calculator:calculatorassembly:*>, <ore:calculatorReinforcedStone>], [<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>]]);
 recipes.addShaped(<calculator:scientificcalculator>, [[<moreplates:enriched_gold_gear>, <calculator:calculatorscreen:*>, <moreplates:enriched_gold_gear>], [<ore:calculatorReinforcedStone>, <calculator:calculator>, <ore:calculatorReinforcedStone>], [<moreplates:enriched_gold_gear>, <calculator:calculatorassembly:*>, <moreplates:enriched_gold_gear>]]);
-//
+//无暇计算器
+flawless.removeRecipe(<minecraft:obsidian>);
+flawless.removeRecipe(<minecraft:ender_pearl>);
+flawless.removeRecipe(<minecraft:emerald>);
+flawless.removeRecipe(<minecraft:diamond>);
+flawless.removeRecipe(<minecraft:ghast_tear>);
+flawless.removeRecipe(<minecraft:blaze_rod>);
+flawless.removeRecipe(<calculator:flawlessglass>*4);
+flawless.addRecipe(<botania:elfglass>, <thaumicaugmentation:fortified_glass>, <techreborn:reinforced_glass>, <extrautils2:ineffableglass:2>,<calculator:flawlessglass>);
+flawless.addRecipe(<ore:calculatorCircuit>, <contenttweaker:operation_circuit>, <contenttweaker:operation_circuit>, <ore:calculatorCircuit>,<contentteaker:applicated_operation_circuit>);
+flawless.addRecipe(<integrateddynamics:crystalized_menril_chunk>, <ore:crystalFluix>, <calculator:firediamond>, <calculator:flawlessdiamond>,<environmentaltech:litherite_crystal>);
+//基础计算器
+basic.removeRecipe(<calculator:sickle>);
+//分离器
 mods.calculator.stoneSeparator.removeRecipe(<calculator:enrichedgoldingot>*4,<calculator:smallstone>*2);
 mods.calculator.stoneSeparator.removeRecipe(<calculator:reinforcedironingot>*4,<calculator:smallstone>*2);
-//
-mods.calculator.atomic.addRecipe(<botania:manaresource:2>,<calculator:atomicbinder>,<botania:manaresource:2>,<calculator:flawlessdiamond>);
-mods.calculator.atomic.removeRecipe(<calculator:flawlessdiamond>);
+//原子计算器
+atomic.addRecipe(<botania:manaresource:2>,<calculator:atomicbinder>,<botania:manaresource:2>,<calculator:flawlessdiamond>);
+atomic.removeRecipe(<calculator:flawlessdiamond>);
+atomic.addRecipe(<mysticalagriculture:crafting:17>,<mysticalagriculture:storage:1>,<calculator:enddiamond>,<mysticalagriculture:crafting:18>);
+atomic.addRecipe(<calculator:material:5>,<calculator:material:5>,<compactmachines3:machine:3>,<compactmachines3:machine:4>);
+//科学计算器
+scientific.addRecipe(<calculator:largetanzanite>, <calculator:largeamethyst>, <contenttweaker:operation_circuit>);
 
-mods.calculator.atomic.addRecipe(<mysticalagriculture:crafting:17>,<mysticalagriculture:storage:1>,<calculator:enddiamond>,<mysticalagriculture:crafting:18>);
 
-
-mods.calculator.atomic.addRecipe(<calculator:material:5>,<calculator:material:5>,<compactmachines3:machine:3>,<compactmachines3:machine:4>);
 recipes.remove(<calculator:atomicmultiplier>);
+recipes.addShaped(<calculator:sickle>, [[null, <ore:blockUnstable>, <ore:blockUnstable>],[null, <calculator:reinforcedshovel>, <ore:circuitOperation>], [null, <calculator:reinforcedaxe>, null]]);
+
+RecipeUtils.recipeTweak(true, <calculator:algorithmassimilator>, [[null, <calculator:stoneassimilator>, null], [<calculator:material:3>, <calculator:algorithmseparator:*>, <calculator:material:3>], [null, <calculator:material:3>, null]]);
+RecipeUtils.recipeTweak(true, <calculator:dockingstation>, [[null, <ore:circuitOperation>, null], [<calculator:flawlessassembly>, <calculator:powercube:*>, <calculator:flawlessassembly>], [<calculator:flawlessassembly>, <ore:circuitOperation>, <calculator:flawlessassembly>]]);
+
+

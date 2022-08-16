@@ -29,5 +29,10 @@
 		type: "item",
 		item: "darkutils:trap_move",
 		count: 64
+	},
+	{
+		uid: "fa4e6be8",
+		type: "item",
+		item: "jecalculation:item_calculator"
 	}]
 }

@@ -1,0 +1,66 @@
+{
+	title: "三种金属",
+	x: -6.0d,
+	y: 10.0d,
+	text: [
+		"现在不能通过TR的高炉烧制",
+		"使用暮色合金线圈"
+	],
+	dependencies: [
+		"814c087b"
+	],
+	tasks: [{
+		uid: "5b47cb00",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotPlatinum"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotPlatinum"
+				}
+			}
+		}]
+	},
+	{
+		uid: "698c32cd",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTitanium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotTitanium"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ffb6f43b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotChrome"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotChrome"
+				}
+			}
+		}]
+	}]
+}

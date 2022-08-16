@@ -15,6 +15,7 @@
 	rewards: [{
 		uid: "9f81722a",
 		type: "item",
-		item: "jaopca:block_blockcertusquartz"
+		item: "appliedenergistics2:quartz_block",
+		count: 32
 	}]
 }

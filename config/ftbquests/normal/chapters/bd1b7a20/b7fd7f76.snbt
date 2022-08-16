@@ -38,22 +38,5 @@
 		type: "item",
 		item: "minecraft:torch",
 		count: 4
-	},
-	{
-		uid: "22cf5d58",
-		type: "item",
-		item: {
-			id: "cuisine:chopping_board",
-			tag: {
-				BlockEntityTag: {
-					cover: {
-						id: "minecraft:log",
-						Count: 1b,
-						Damage: 0s
-					}
-				}
-			},
-			Count: 1b
-		}
 	}]
 }

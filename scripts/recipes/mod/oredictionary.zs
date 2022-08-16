@@ -83,9 +83,10 @@
 <ore:platePlastic>.add(<industrialforegoing:plastic>);
 <ore:blockGaia>.add(<avaritiatweaks:gaia_block>);
 
-<ore:ingotUseful>.add(<contenttweaker:useful_ingot>);
-<ore:blockUseful>.add(<contenttweaker:useful_block>);
+<ore:circuitMana>.add(<contenttweaker:thaumic_circuit>);
+<ore:circuitThaumic>.add(<contenttweaker:arcane_thaumic_circuit>);
 
+<ore:ingotChrome>.add(<qmd:ingot:2>);
 
-
-
+<ore:circuitThaumic>.add(<contenttweaker:operation_circuit>);
+<ore:circuitOperation>.add(<contenttweaker:applicated_operation_circuit>);

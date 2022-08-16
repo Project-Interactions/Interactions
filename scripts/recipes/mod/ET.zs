@@ -6,7 +6,7 @@ recipes.remove(<environmentaltech:laser_lens>);
 recipes.removeShaped(<environmentaltech:structure_panel>, [[<ore:nuggetGold>, <minecraft:iron_bars>, <ore:nuggetGold>], [<minecraft:iron_bars>, <environmentaltech:connector>, <minecraft:iron_bars>], [<ore:nuggetGold>, <minecraft:iron_bars>, <ore:nuggetGold>]]);
 recipes.removeShaped(<environmentaltech:laser_core>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<environmentaltech:connector>, <ore:blockGlass>, <environmentaltech:connector>], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
 recipes.remove(<environmentaltech:structure_panel_clear>);
-recipes.removeShaped(<environmentaltech:void_ore_miner_cont_1>, [[<ore:blockLitherite>, <ore:blockDiamond>, <ore:blockLitherite>], [<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>], [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]]);
+recipes.removeShaped(<environmentaltech:void_ore_miner_cont_1>, [[<ore:blockLitherite>, <ore:blockUnstable>, <ore:blockLitherite>], [<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>], [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]]);
 recipes.remove(<environmentaltech:connector> * 4);
 recipes.remove(<environmentaltech:diode>);
 recipes.remove(<environmentaltech:litherite_crystal> * 4);
@@ -15,7 +15,7 @@ recipes.addShaped(<environmentaltech:laser_core>, [[<integratedterminals:menril_
 recipes.addShapeless(<environmentaltech:structure_panel_clear>, [<environmentaltech:structure_panel>,<appliedenergistics2:quartz_glass>]);
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_1>, [[<ore:blockLitherite>, <techreborn:machine_frame:2>, <ore:blockLitherite>],[<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>], [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]]);
 recipes.addShaped(<environmentaltech:connector> * 2, [[<ore:ingotElvenElementium>, <thermalfoundation:material:290>, <ore:ingotElvenElementium>],[<ore:gearInvar>, <tconstruct:metal:5>, <ore:gearInvar>], [<ore:ingotElvenElementium>, <thermalfoundation:material:290>, <ore:ingotElvenElementium>]]);
-recipes.addShaped(<environmentaltech:diode> * 2, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:circuitAdvanced>, <botania:quartz:4>, <ore:circuitAdvanced>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+recipes.addShaped(<environmentaltech:diode> * 2, [[<ore:plateTerrasteel>, null, <ore:plateTerrasteel>],[<ore:circuitThaumic>, <botania:quartz:4>, <ore:circuitThaumic>], [<ore:plateTerrasteel>, null, <ore:plateTerrasteel>]]);
 recipes.addShaped(<environmentaltech:laser_lens> * 2, [[<astralsorcery:itemcraftingcomponent:3>, null, <astralsorcery:itemcraftingcomponent:3>],[<astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>], [<astralsorcery:itemcraftingcomponent:3>, null, <astralsorcery:itemcraftingcomponent:3>]]);
 mods.extendedcrafting.TableCrafting.addShaped(1, <environmentaltech:void_ore_miner_cont_2>, [
 	[<ore:blockErodium>, <ore:itemMachineChassi>, <ore:blockErodium>], 

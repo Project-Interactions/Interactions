@@ -1,0 +1,28 @@
+{
+	x: -8.5d,
+	y: 8.5d,
+	text: [
+		"一开始你只能冒着死亡的危险合成",
+		"也可以使用较难获得的金属制成",
+		"本整合包可以制作不稳定工具（包括治愈之斧）"
+	],
+	tasks: [{
+		uid: "ea8f23dd",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotUnstable"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotUnstable"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}
