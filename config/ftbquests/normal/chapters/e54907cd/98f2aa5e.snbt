@@ -4,6 +4,9 @@
 	text: [
 		"合成时请稳定矩阵"
 	],
+	dependencies: [
+		"ef6cb1b8"
+	],
 	tasks: [{
 		uid: "bdeb1057",
 		type: "item",

@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"你可以用它将要素注入神秘锭形成新的金属"
+	],
+	dependencies: [
+		"41e2fab4",
+		"08f20551"
+	],
+	tasks: [{
+		uid: "c6205e96",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:block_infuser"
+		}]
+	}]
+}

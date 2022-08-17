@@ -1,0 +1,180 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:ae_crafter",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "appliedenergistics2:controller",
+      "meta": 1
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        "ABBBA",
+        "ABBBA",
+        "ABBBA",
+        "AAAAA"
+      ],
+      [
+        "ACCCA",
+        "BD DB",
+        "B   B",
+        "BD DB",
+        "ACCCA"
+      ],
+      [
+        "ACCCA",
+        "B   B",
+        "B   B",
+        "B   B",
+        "ACCCA"
+      ],
+      [
+        "ACCCA",
+        "BD DB",
+        "B   B",
+        "BD DB",
+        "ACCCA"
+      ],
+      [
+        "AAAAA",
+        "AAEAA",
+        "AF@GA",
+        "AAHAA",
+        "AAAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "calculator:flawlessglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:ae_crafter",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "appliedenergistics2:sky_stone_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "appliedenergistics2:smooth_sky_stone_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "arcanearchives:storage_shaped_quartz",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "minecraft:chest",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "aspect": {
+        "capability": "tc6_aspect",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "aspect"
+      ],
+      "F": [
+        "energy"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "fluid"
+      ]
+    }
+  },
+  "recipeMap": "ae_crafter"
+}
