@@ -30,7 +30,7 @@
         "EDDE"
       ],
       [
-        "AAAA",
+        "AAAG",
         "CCCC",
         "DEED"
       ]
@@ -97,6 +97,10 @@
           }
         ],
         "type": "states"
+      },
+      "starlight": {
+        "capability": "starlight_as",
+        "type": "capability"
       }
     },
     "symbolMap": {
@@ -120,6 +124,10 @@
       ],
       "F": [
         "mana"
+      ],
+      "G": [
+        "D",
+        "starlight"
       ]
     }
   },

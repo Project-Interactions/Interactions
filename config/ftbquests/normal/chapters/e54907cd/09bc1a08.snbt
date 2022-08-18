@@ -39,11 +39,5 @@
 		uid: "62af58bd",
 		type: "xp_levels",
 		xp_levels: 1
-	},
-	{
-		uid: "ede0b7f6",
-		type: "item",
-		item: "enderio:item_liquid_conduit 1 1",
-		count: 8
 	}]
 }

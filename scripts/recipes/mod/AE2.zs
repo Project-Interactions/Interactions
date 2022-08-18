@@ -132,3 +132,15 @@ recipes.addShaped(<ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedene
 recipes.removeShapeless(<appliedenergistics2:part:636>, [<appliedenergistics2:part:516>, <ore:dustRedstone>, <ore:dustGlowstone>]);
 recipes.removeShapeless(<appliedenergistics2:part:636>, [<appliedenergistics2:part:60> | <appliedenergistics2:part:61> | <appliedenergistics2:part:62> | <appliedenergistics2:part:63> | <appliedenergistics2:part:64> | <appliedenergistics2:part:65> | <appliedenergistics2:part:66> | <appliedenergistics2:part:67> | <appliedenergistics2:part:68> | <appliedenergistics2:part:69> | <appliedenergistics2:part:70> | <appliedenergistics2:part:71> | <appliedenergistics2:part:72> | <appliedenergistics2:part:73> | <appliedenergistics2:part:74> | <appliedenergistics2:part:75> | <appliedenergistics2:part:76>, <minecraft:water_bucket>]);
 recipes.addShapeless(<appliedenergistics2:part:636>,[<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>]);
+
+
+//lazyae2
+mods.threng.Etcher.removeRecipe(<appliedenergistics2:material:22>);
+mods.threng.Etcher.removeRecipe(<appliedenergistics2:material:24>);
+
+mods.threng.Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <ore:dustRedstone>, <ore:itemSilicon>);
+mods.threng.Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
+
+mods.threng.Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
+
+

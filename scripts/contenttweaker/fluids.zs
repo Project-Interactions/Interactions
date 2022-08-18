@@ -63,3 +63,6 @@ zsFluid19.register();
 
 var zsFluid20 = VanillaFactory.createFluid("refinediron", Color.fromHex("E1E8EB"));
 zsFluid20.register();
+
+var zsFluid21 = VanillaFactory.createFluid("hot_blend_caminite", Color.fromHex("FFFFFF"));
+zsFluid21.register();

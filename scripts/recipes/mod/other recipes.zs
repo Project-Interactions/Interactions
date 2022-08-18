@@ -18,7 +18,7 @@ recipes.remove(<integrateddynamics:coal_generator>);
 //File End
 recipes.removeShapeless(<aether_legacy:skyroot_plank>*4);
 recipes.addShapeless(<aether_legacy:skyroot_plank>*2,[<ore:logSkyroot>]);
-recipes.addShaped(<contenttweaker:frost_proof_machine_casing>*2, [[<ore:ingotCold>, <ore:scaffoldingAluminium>, <ore:ingotCold>],[<ore:ingotCold>,<techreborn:machine_casing:1>, <ore:ingotCold>], [<ore:ingotCold>,<ore:scaffoldingAluminium>, <ore:ingotCold>]]);
+recipes.addShaped(<contenttweaker:frost_proof_machine_casing>*2, [[<ore:ingotCold>, <ore:scaffoldingAluminum>, <ore:ingotCold>],[<ore:ingotCold>,<techreborn:machine_casing:1>, <ore:ingotCold>], [<ore:ingotCold>,<ore:scaffoldingAluminum>, <ore:ingotCold>]]);
 
 //recipes.addShaped(<oeintegration:excavatemodifier>, [[null, <modularmachinery:itemmodularium>, null],[<modularmachinery:itemmodularium>, <techreborn:plates:31>, <modularmachinery:itemmodularium>], [null, <modularmachinery:itemmodularium>, null]]);
 recipes.removeShaped(<oeintegration:excavatemodifier>, [[<ore:ingotIron>, <ore:slimeball>, <ore:ingotIron>], [<ore:dustRedstone>, <tconstruct:ingots:2>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:slimeball>, <ore:ingotIron>]]);

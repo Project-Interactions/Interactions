@@ -1,0 +1,12 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	dependencies: [
+		"2a299240"
+	],
+	tasks: [{
+		uid: "4758c750",
+		type: "fluid",
+		fluid: "hot_blend_caminite"
+	}]
+}

@@ -63,7 +63,8 @@ VanillaFactory.createItem("arcane_thaumic_circuit").register();
 VanillaFactory.createItem("operation_circuit").register();
 VanillaFactory.createItem("applicated_operation_circuit").register();
 
-
+VanillaFactory.createItem("pneumatic_circuit").register();
+VanillaFactory.createItem("thermal_pneumatic_circuit").register();
 
 
 

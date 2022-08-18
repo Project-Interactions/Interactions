@@ -94,6 +94,7 @@ recipes.remove(<compactvoidminers:void_pump>);
 recipes.remove(<compactvoidminers:void_miner>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<interaction:ae_crafter>, [[null, <ore:plateThaumiumPerditio>, null],[<ore:plateThaumiumPerditio>, <appliedenergistics2:energy_acceptor>, <ore:plateThaumiumPerditio>], [null, <ore:plateThaumiumPerditio>, null]]);
 recipes.addShaped(<immersiveintelligence:metal_decoration:2>, [[<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>],[<ore:circuitAdvanced>, <immersiveintelligence:metal_decoration:1>, <ore:circuitAdvanced>], [<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>]]);
 recipes.addShaped(<contenttweaker:sub_block_holder_1:1>, [[<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>],[<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>], [<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>]]);
 recipes.addShaped(<interaction:blastfurnace>, [[<immersiveengineering:material:19>, <ore:circuitAdvanced>, <immersiveengineering:material:19>],[<ore:circuitAdvanced>, <immersiveengineering:stone_decoration:2>, <ore:circuitAdvanced>], [<immersiveengineering:material:19>, <ore:circuitAdvanced>, <immersiveengineering:material:19>]]);

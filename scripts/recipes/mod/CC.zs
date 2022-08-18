@@ -52,7 +52,7 @@ atomic.removeRecipe(<calculator:flawlessdiamond>);
 atomic.addRecipe(<mysticalagriculture:crafting:17>,<mysticalagriculture:storage:1>,<calculator:enddiamond>,<mysticalagriculture:crafting:18>);
 atomic.addRecipe(<calculator:material:5>,<calculator:material:5>,<compactmachines3:machine:3>,<compactmachines3:machine:4>);
 //科学计算器
-scientific.addRecipe(<calculator:largetanzanite>, <calculator:largeamethyst>, <contenttweaker:operation_circuit>);
+scientific.addRecipe(<calculator:largetanzanite>, <calculator:largeamethyst>, <contenttweaker:operation_circuit>*3);
 
 
 recipes.remove(<calculator:atomicmultiplier>);
