@@ -52,27 +52,6 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<thermalfoundation:material:67>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<thermalfoundation:material:68>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<thermalfoundation:material:69>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<enderio:item_material:31>])
       )
       .addDrop(
@@ -81,20 +60,6 @@ Dropt.list("refined_ore_essence")
         Dropt.weight(60)
         )
         .items([<immersiveengineering:metal:14>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<mekanism:otherdust>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<minecraft:redstone>])
       )
       .addDrop(
         Dropt.drop()
@@ -227,34 +192,6 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<thermalfoundation:material:64>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<thermalfoundation:material:66>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<thermalfoundation:material:65>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<thermalfoundation:material>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<techreborn:dust:56>])
       )
       .addDrop(
@@ -285,5 +222,74 @@ Dropt.list("refined_ore_essence")
         )
         .items([<minecraft:glowstone_dust>])
       )
+);
 
+//basic ores
+Dropt.list("basic_refined_ore_essence")
+    .add(
+      Dropt.rule()
+      .matchBlocks(["contenttweaker:basic_refined_ore_essence:*"])
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material:64>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material:66>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material:65>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<mekanism:otherdust>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<minecraft:redstone>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material:67>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material:68>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material:69>])
+      )
 );

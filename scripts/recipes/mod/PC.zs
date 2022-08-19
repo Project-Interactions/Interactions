@@ -39,6 +39,7 @@ mods.pneumaticcraft.refinery.addRecipe(<liquid:starmetal>*10, [<liquid:starmetal
 RecipeUtils.recipeTweak(true, <pneumaticcraft:thermopneumatic_processing_plant>, [[<ore:ingotIronCompressed>, <ore:blockGlass>, <ore:ingotIronCompressed>], [<pneumaticcraft:pressure_tube>, <ore:circuitOperation>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:blockGlass>, <ore:ingotIronCompressed>]]);
 RecipeUtils.recipeTweak(true, <pneumaticcraft:plastic_mixer>, [[<ore:ingotIronCompressed>, <ore:blockGlass>, <ore:ingotIronCompressed>], [<ore:blockGlass>, <ore:circuitOperation>, <ore:blockGlass>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
 RecipeUtils.recipeTweak(true, <pneumaticcraft:gps_tool>, [[null, <ore:circuitOperation>, null], [<ore:plasticRed>, <ore:circuitOperation>, <ore:plasticRed>], [<ore:plasticRed>, <ore:gemDiamond>, <ore:plasticRed>]]);
+RecipeUtils.recipeTweak(true, <pneumaticcraft:refinery>, [[<ore:ingotIronCompressed>, <ore:circuitOperation>, <ore:ingotIronCompressed>], [<ore:blockGlass>, <ore:gemDiamond>, <ore:blockGlass>], [<ore:ingotIronCompressed>, <ore:circuitOperation>, <ore:ingotIronCompressed>]]);
 
 mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:transistor>]);
 mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:capacitor>]);

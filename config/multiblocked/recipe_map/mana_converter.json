@@ -161,6 +161,14 @@
             }
           }
         ],
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
+            }
+          }
+        ],
         "bot_mana": [
           {
             "chance": 1.0,
@@ -361,6 +369,14 @@
               "matches": [
                 "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
               ]
+            }
+          }
+        ],
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
             }
           }
         ],

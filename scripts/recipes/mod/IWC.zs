@@ -33,7 +33,8 @@ mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<techreborn:dust:16>,<t
 
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:pink_slime_ingot>, <liquid:if.pink_slime>, [<tconevo:material:1>], true);
 
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<contenttweaker:refined_ore_essence>,<contenttweaker:ore_essence>,100);
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:ore_essence>,100);
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<contenttweaker:refined_ore_essence>,<contenttweaker:basic_refined_ore_essence>,80);
 
 
 
