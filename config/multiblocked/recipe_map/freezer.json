@@ -1,0 +1,32 @@
+{
+  "name": "freezer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "0f2a1038-c195-45d2-a84d-b38c216a8b4e",
+      "duration": 100,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"hot_blend_caminite\",Amount:1000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 10000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"blend_caminite\",Amount:1000}"
+          }
+        ]
+      }
+    }
+  ]
+}

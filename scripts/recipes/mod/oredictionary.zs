@@ -90,3 +90,6 @@
 
 <ore:circuitThaumic>.add(<contenttweaker:operation_circuit>);
 <ore:circuitOperation>.add(<contenttweaker:applicated_operation_circuit>);
+
+<ore:circuitOperation>.add(<contenttweaker:pneumatic_circuit>);
+<ore:circuitElite>.add(<contenttweaker:thermal_pneumatic_circuit>);

@@ -8,7 +8,7 @@ RecipeUtils.recipeTweak(true, <arcanearchives:radiant_resonator>, [[<ore:plateEl
 
 
 mods.arcanearchives.GCT.addRecipe("ae2_yangban_1",<appliedenergistics2:material:52>*16,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitOperation>]);
-//mods.arcanearchives.GCT.addRecipe("ae2_yangban_2",<appliedenergistics2:material:52>*32,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitApplicated>]);
+mods.arcanearchives.GCT.addRecipe("ae2_yangban_2",<appliedenergistics2:material:52>*32,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitElite>]);
 
 
 mods.arcanearchives.GCT.addRecipe("ae2_casing_1",<equivalentenergistics:item_misc>,[<ore:itemRedMatter>*2,<aeadditions:storage.casing>]);

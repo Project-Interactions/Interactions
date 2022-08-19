@@ -1,8 +1,8 @@
 {
-	title: "阶段六",
+	title: "《生物、农业在科技领域的应用》",
 	icon: "psi:material 1 4",
 	description: [
-		"实用拓展和热力膨胀"
+		"阶段六"
 	],
 	always_invisible: false,
 	group: 0,

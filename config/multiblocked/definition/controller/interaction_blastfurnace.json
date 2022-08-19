@@ -53,6 +53,10 @@
       ]
     ],
     "predicates": {
+      "heat": {
+        "capability": "mek_heat",
+        "type": "capability"
+      },
       "A": {
         "states": [
           {
@@ -62,10 +66,6 @@
         ],
         "type": "states"
       },
-      "controller": {
-        "location": "interaction:blastfurnace",
-        "type": "component"
-      },
       "B": {
         "states": [
           {
@@ -74,6 +74,38 @@
           }
         ],
         "type": "states"
+      },
+      "lp": {
+        "capability": "bg_lp",
+        "type": "capability"
+      },
+      "qmd": {
+        "capability": "qmd_particle",
+        "type": "capability"
+      },
+      "aura": {
+        "capability": "natures_aura",
+        "type": "capability"
+      },
+      "aspect": {
+        "capability": "tc6_aspect",
+        "type": "capability"
+      },
+      "gas": {
+        "capability": "mek_gas",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      },
+      "controller": {
+        "location": "interaction:blastfurnace",
+        "type": "component"
       },
       "item": {
         "capability": "item",
@@ -97,6 +129,10 @@
         ],
         "type": "states"
       },
+      "pnc": {
+        "capability": "pneumatic_pressure",
+        "type": "capability"
+      },
       "coil1": {
         "states": [
           {
@@ -106,23 +142,35 @@
         ],
         "type": "states"
       },
+      "ember": {
+        "capability": "ember",
+        "type": "capability"
+      },
+      "gp": {
+        "capability": "exu2_gp",
+        "type": "capability"
+      },
+      "starlight": {
+        "capability": "starlight_as",
+        "type": "capability"
+      },
       "any": {
         "type": "any"
       },
-      "aura": {
-        "capability": "natures_aura",
+      "ta": {
+        "capability": "ta_impetus",
         "type": "capability"
       },
       "mana": {
         "capability": "bot_mana",
         "type": "capability"
       },
-      "fluid": {
-        "capability": "fluid",
+      "le": {
+        "capability": "lightningcraft_le",
         "type": "capability"
       },
-      "energy": {
-        "capability": "forge_energy",
+      "emc": {
+        "capability": "projecte_emc",
         "type": "capability"
       }
     },
@@ -143,11 +191,23 @@
         "coil1"
       ],
       "C": [
+        "heat",
         "A",
         "item",
-        "mana",
-        "fluid",
+        "pnc",
+        "lp",
+        "ember",
+        "qmd",
+        "gp",
+        "starlight",
+        "ta",
         "aura",
+        "mana",
+        "aspect",
+        "gas",
+        "le",
+        "fluid",
+        "emc",
         "energy"
       ]
     }

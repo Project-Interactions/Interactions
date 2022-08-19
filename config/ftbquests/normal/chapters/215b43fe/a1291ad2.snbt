@@ -2,9 +2,6 @@
 	title: "充能水晶",
 	x: 9.0d,
 	y: -4.5d,
-	text: [
-		"请利用好油菜"
-	],
 	dependencies: [
 		"79da7f46"
 	],
@@ -22,11 +19,5 @@
 		items: [{
 			item: "actuallyadditions:block_empowerer"
 		}]
-	}],
-	rewards: [{
-		uid: "6804a14b",
-		type: "item",
-		item: "actuallyadditions:item_canola_seed",
-		count: 4
 	}]
 }

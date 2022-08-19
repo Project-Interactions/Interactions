@@ -3,8 +3,7 @@
 	y: 10.5d,
 	dependencies: [
 		"669e24de",
-		"a1858deb",
-		"01b7fbb1"
+		"a1858deb"
 	],
 	tasks: [{
 		uid: "dfdee994",
