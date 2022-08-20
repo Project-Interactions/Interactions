@@ -67,5 +67,7 @@ vanilla.seeds.addSeed(<minecraft:wheat_seeds>.weight(0.12));
 vanilla.seeds.addSeed(<minecraft:melon_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(0.06));
+vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:cactus_plant", agri_growth: 1 as byte}).weight(0.06));
+vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:potato_plant", agri_growth: 1 as byte}).weight(0.06));
 
 //<entity:minecraft:enderman>.addDrop(<contenttweaker:exe>.weight(0.25));

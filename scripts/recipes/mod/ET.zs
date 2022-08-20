@@ -18,7 +18,7 @@ recipes.addShaped(<environmentaltech:connector> * 2, [[<ore:ingotElvenElementium
 recipes.addShaped(<environmentaltech:diode> * 2, [[<ore:plateTerrasteel>, null, <ore:plateTerrasteel>],[<ore:circuitThaumic>, <botania:quartz:4>, <ore:circuitThaumic>], [<ore:plateTerrasteel>, null, <ore:plateTerrasteel>]]);
 recipes.addShaped(<environmentaltech:laser_lens> * 2, [[<astralsorcery:itemcraftingcomponent:3>, null, <astralsorcery:itemcraftingcomponent:3>],[<astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>], [<astralsorcery:itemcraftingcomponent:3>, null, <astralsorcery:itemcraftingcomponent:3>]]);
 mods.extendedcrafting.TableCrafting.addShaped(1, <environmentaltech:void_ore_miner_cont_2>, [
-	[<ore:blockErodium>, <ore:itemMachineChassi>, <ore:blockErodium>], 
+	[<ore:blockErodium>, <ore:circuitElite>, <ore:blockErodium>], 
 	[<ore:blockErodium>, <environmentaltech:void_ore_miner_cont_1>, <ore:blockErodium>], 
 	[<ore:blockErodium>, <ore:etLaserLens>, <ore:blockErodium>]
 ]);

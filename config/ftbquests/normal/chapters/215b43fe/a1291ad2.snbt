@@ -2,6 +2,9 @@
 	title: "充能水晶",
 	x: 9.0d,
 	y: -4.5d,
+	text: [
+		"充能你的水晶"
+	],
 	dependencies: [
 		"79da7f46"
 	],

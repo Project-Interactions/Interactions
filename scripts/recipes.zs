@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<techreborn:vacuum_freezer>);
 recipes.remove(<techreborn:industrial_blast_furnace>);
 recipes.remove(<techreborn:water_mill>);
 recipes.remove(<appliedenergistics2:material:58>);
@@ -94,6 +95,7 @@ recipes.remove(<compactvoidminers:void_pump>);
 recipes.remove(<compactvoidminers:void_miner>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<interaction:vaccum_freezer>, [[<contenttweaker:frost_proof_machine_casing>, <contenttweaker:cold_ingot>, <contenttweaker:frost_proof_machine_casing>],[<contenttweaker:cold_ingot>, <contenttweaker:cold_ingot>, <contenttweaker:cold_ingot>], [<contenttweaker:frost_proof_machine_casing>, <contenttweaker:cold_ingot>, <contenttweaker:frost_proof_machine_casing>]]);
 recipes.addShaped(<interaction:ae_crafter>, [[null, <ore:plateThaumiumPerditio>, null],[<ore:plateThaumiumPerditio>, <appliedenergistics2:energy_acceptor>, <ore:plateThaumiumPerditio>], [null, <ore:plateThaumiumPerditio>, null]]);
 recipes.addShaped(<immersiveintelligence:metal_decoration:2>, [[<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>],[<ore:circuitAdvanced>, <immersiveintelligence:metal_decoration:1>, <ore:circuitAdvanced>], [<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>]]);
 recipes.addShaped(<contenttweaker:sub_block_holder_1:1>, [[<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>],[<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>], [<contenttweaker:material_part:127>, <contenttweaker:material_part:127>, <contenttweaker:material_part:127>]]);

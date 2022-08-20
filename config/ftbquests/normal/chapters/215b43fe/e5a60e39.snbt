@@ -10,11 +10,5 @@
 		items: [{
 			item: "forestry:hardened_machine"
 		}]
-	}],
-	rewards: [{
-		uid: "fbaf1d1f",
-		type: "item",
-		item: "botania:manaresource 1 2",
-		count: 4
 	}]
 }

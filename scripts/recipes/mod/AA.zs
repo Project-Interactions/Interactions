@@ -10,7 +10,7 @@ recipes.addShapedMirrored( <actuallyadditions:block_misc:4> * 2, [[<ore:plankTre
 recipes.remove(<actuallyadditions:block_misc:9>);
 //原子再构机
 recipes.removeShaped(<actuallyadditions:block_atomic_reconstructor>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:dustRedstone>, <actuallyadditions:block_misc:9>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
-recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<moreplates:evil_infused_iron_plate>, <moreplates:iron_alloy_gear>, <moreplates:dark_steel_plate>],[<environmentaltech:laser_lens>, <actuallyadditions:block_misc:9>, <forestry:thermionic_tubes:5>], [<moreplates:evil_infused_iron_plate>, <moreplates:iron_alloy_gear>, <moreplates:dark_steel_plate>]]);
+recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<moreplates:evil_infused_iron_plate>, <moreplates:iron_alloy_gear>, <moreplates:dark_steel_plate>],[<environmentaltech:laser_lens>, <actuallyadditions:block_misc:9>, <ore:circuitElite>], [<moreplates:evil_infused_iron_plate>, <moreplates:iron_alloy_gear>, <moreplates:dark_steel_plate>]]);
 # Basic Coil
 	recipes.remove(<actuallyadditions:item_misc:7>);
 	recipes.addShapedMirrored("Basic Coil", 
@@ -83,3 +83,15 @@ mods.actuallyadditions.Empowerer.addRecipe(<botania:manaresource:14>, <botania:s
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>, 250000, 200, [1.0, 0.0, 0.0]);
 //mods.actuallyadditions.Empowerer.addRecipe(<libvulpes:advstructuremachine>, <libvulpes:structuremachine>, <tconstruct:ingots:3>,<enderio:item_alloy_endergy_ingot:2>,<tconstruct:ingots:3>,<enderio:item_alloy_endergy_ingot:2>, 250000, 200, [1.0, 0.0, 0.0]);
+
+RecipeUtils.recipeTweak(true, <actuallyadditions:block_display_stand>, [[<ore:circuitElite>, <actuallyadditions:item_misc:8>, <ore:circuitElite>], [<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_green_wall>], [<actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>]]);
+RecipeUtils.recipeTweak(true, <actuallyadditions:block_empowerer>, [[<ore:circuitElite>, <actuallyadditions:item_crystal>, <ore:circuitElite>], [null, <actuallyadditions:item_battery_double:*>, null], [<actuallyadditions:block_misc:9>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:9>]]);
+
+mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:powered_circuit>, <deepmoblearning:machine_casing>, <actuallyadditions:block_crystal_empowered>, <moreplates:gaia_spirit_plate>, <calculator:material:7>, <jaopca:gear.stainless_steel>, 25000, 100, [1.0, 1.0, 1.0]);
+
+
+
+
+
+
+

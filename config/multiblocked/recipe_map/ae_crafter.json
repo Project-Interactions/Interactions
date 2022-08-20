@@ -3,6 +3,73 @@
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
+      "uid": "b76517c5-62f5-4ab1-b01b-3aa31d65cbe9",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalexpansion:frame\",Count:1b,Damage:64s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "ore": "LivingMatter"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"environmentaltech:kyronite_crystal\",Count:16b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"empoweredoil\",Amount:4000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000000
+          }
+        ],
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "infernum",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalexpansion:frame\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "38a08b23-2703-4d10-aea4-2d4a2e0f9633",
       "duration": 100,
       "inputs": {
@@ -32,6 +99,12 @@
             "content": "{FluidName:\"thaumium\",Amount:10000}"
           }
         ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ],
         "tc6_aspect": [
           {
             "chance": 1.0,
@@ -39,12 +112,6 @@
               "aspect": "machina",
               "amount": 100
             }
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1000000
           }
         ]
       },

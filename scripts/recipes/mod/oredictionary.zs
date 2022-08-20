@@ -39,7 +39,6 @@
 <ore:ingotCold>.add(<contenttweaker:cold_ingot>);
 <ore:ingotAggregationMatrix>.add(<tconevo:material>);
 
-<ore:dustStainlessSteel>.add(<contenttweaker:stainless_steel_dust>);
 
 
 <ore:oreMithril>.remove(<thermalfoundation:ore:8>);

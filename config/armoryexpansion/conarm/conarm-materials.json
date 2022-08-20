@@ -243,6 +243,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 11.8125,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20842.105,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 20842.105,
+      "materialType": "trim"
+    },
+    "identifier": "ichorium",
+    "color": -5085945,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 52.0,
       "defense": 1.6875,
       "materialType": "core"

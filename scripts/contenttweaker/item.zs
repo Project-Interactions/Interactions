@@ -66,6 +66,8 @@ VanillaFactory.createItem("applicated_operation_circuit").register();
 VanillaFactory.createItem("pneumatic_circuit").register();
 VanillaFactory.createItem("thermal_pneumatic_circuit").register();
 
+VanillaFactory.createItem("powered_circuit").register();
+VanillaFactory.createItem("psio_powered_circuit").register();
 
 
 
