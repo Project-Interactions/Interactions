@@ -4,7 +4,7 @@
   "recipes": [
     {
       "uid": "b76517c5-62f5-4ab1-b01b-3aa31d65cbe9",
-      "duration": 1000,
+      "duration": 100,
       "inputs": {
         "item": [
           {
@@ -29,6 +29,15 @@
               "amount": 16,
               "matches": [
                 "{id:\"environmentaltech:kyronite_crystal\",Count:16b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"forestry:flexible_casing\",Count:4b,Damage:0s}"
               ]
             }
           }
@@ -90,6 +99,13 @@
               "matches": [
                 "{id:\"thaumcraft:mechanism_complex\",Count:16b,Damage:0s}"
               ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "circuitOperation"
             }
           }
         ],
@@ -159,6 +175,91 @@
               "amount": 1,
               "matches": [
                 "{id:\"appliedenergistics2:material\",Count:1b,Damage:21s,tag:{}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ad13d386-0c75-440d-962d-428f6931179f",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:2048s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:2050s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:2052s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "circuitOperation"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:mystical_machine_frame\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"uranium\",Amount:10000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ],
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "vitium",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"compactmachines3:fieldprojector\",Count:1b,Damage:0s}"
               ]
             }
           }

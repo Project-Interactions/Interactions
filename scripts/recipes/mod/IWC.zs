@@ -48,7 +48,7 @@ mods.inworldcrafting.FluidToItem.transform(<immersiveintelligence:material:28>, 
 
 mods.inworldcrafting.FluidToItem.transform(<integrateddynamics:crystalized_chorus_chunk>, <liquid:if.pink_slime>, [<integrateddynamics:crystalized_menril_block>], true);
 
-mods.inworldcrafting.FluidToItem.transform(<thermalfoundation:material:1>, <liquid:sulfuric_acid>, [<contenttweaker:material_part:108>*3], true);
+mods.inworldcrafting.FluidToItem.transform(<thermalfoundation:material:1>*3, <liquid:sulfuric_acid>, [<contenttweaker:material_part:108>], true);
 
 
 

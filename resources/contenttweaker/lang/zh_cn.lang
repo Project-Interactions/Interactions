@@ -1,5 +1,3 @@
-
-item.contenttweaker.scorched_brick.name=高炉砖
 item.contenttweaker.crystal_useless.name=水晶半成品板
 item.contenttweaker.useful_ingot.name=实用合金锭
 tile.contenttweaker.useful_block.name=实用合金块
@@ -16,6 +14,16 @@ item.contenttweaker.manual_circuit.name=手工电路板
 item.contenttweaker.assembled_manual_circuit.name=组装的手工电路板
 item.contenttweaker.mechanical_circuit.name=机械电路板
 item.contenttweaker.processor_mechanical_circuit.name=处理器机械电路板
+item.contenttweaker.mana_circuit.name=魔能电路板
+item.contenttweaker.infused_mana_circuit.name=星辉注入的魔能电路板
+item.contenttweaker.thaumic_circuit.name=神秘电路板
+item.contenttweaker.arcane_thaumic_circuit.name=奥术电路板
+item.contenttweaker.operation_circuit.name=运算电路板
+item.contenttweaker.applicated_operation_circuit.name=软件电路板
+item.contenttweaker.pneumatic_circuit.name=气动电路板
+item.contenttweaker.thermal_pneumatic_circuit.name=热力电路板
+item.contenttweaker.powered_circuit.name=充能电路板
+item.contenttweaker.psio_powered_circuit.name=Psi充能电路板
 
 fluid.blend_caminite=液态方镁矾
 fluid.witch_water=巫水
@@ -34,7 +42,16 @@ fluid.liquid_chaos=液态混沌
 fluid.superconduct=熔融超导体
 fluid.culture_medium=培养液
 item.contenttweaker.twilight_crystal.name=暮色水晶
+
 tile.contenttweaker.frost_proof_machine_casing.name=冷冻机器方块
+tile.contenttweaker.refined_ore_essence.name=精炼矿石精华块
+tile.contenttweaker.basic_refined_ore_essence.name=矿石精华块
+
+
+
+
+
+
 tile.contenttweaker.aether_log_fix.name=天根木修复
 base.material.kanthal=坝塔尔合金
 base.material.cupronickel=白铜

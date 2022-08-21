@@ -27,6 +27,42 @@
           }
         ]
       }
+    },
+    {
+      "uid": "fed4e544-0323-43cd-a20d-4a7294882a1c",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:103s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 40000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:167s}"
+              ]
+            }
+          }
+        ]
+      }
     }
   ]
 }

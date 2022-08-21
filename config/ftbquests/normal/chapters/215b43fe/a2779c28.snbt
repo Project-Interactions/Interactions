@@ -1,6 +1,9 @@
 {
 	x: 21.5d,
 	y: 1.5d,
+	text: [
+		"只能在末地制作"
+	],
 	dependencies: [
 		"b162deb7"
 	],

@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<lightningcraft:plate:7> * 3);
 recipes.remove(<techreborn:vacuum_freezer>);
 recipes.remove(<techreborn:industrial_blast_furnace>);
 recipes.remove(<techreborn:water_mill>);
