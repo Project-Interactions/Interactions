@@ -92,3 +92,6 @@
 
 <ore:circuitOperation>.add(<contenttweaker:pneumatic_circuit>);
 <ore:circuitElite>.add(<contenttweaker:thermal_pneumatic_circuit>);
+
+<ore:circuitElite>.add(<contenttweaker:powered_circuit>);
+<ore:circuitMaster>.add(<contenttweaker:psio_powered_circuit>);

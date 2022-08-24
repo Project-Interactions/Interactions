@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"将铁锭，金锭，钻石雷击获得"
+	],
+	dependencies: [
+		"b9f56865",
+		"38612ee1"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "5088675a",
+		type: "item",
+		items: [{
+			item: "lightningcraft:ingot"
+		}]
+	}]
+}

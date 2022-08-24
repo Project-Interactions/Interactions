@@ -71,3 +71,4 @@ vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, a
 vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:potato_plant", agri_growth: 1 as byte}).weight(0.06));
 
 //<entity:minecraft:enderman>.addDrop(<contenttweaker:exe>.weight(0.25));
+recipes.remove(<minecraft:piston>);

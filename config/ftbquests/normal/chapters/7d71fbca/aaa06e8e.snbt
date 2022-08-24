@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"升级以提高产生le的效率"
+	],
+	dependencies: [
+		"fe24bc23"
+	],
+	tasks: [{
+		uid: "02705f4a",
+		type: "item",
+		items: [{
+			item: "lightningcraft:air_terminal"
+		}]
+	}]
+}

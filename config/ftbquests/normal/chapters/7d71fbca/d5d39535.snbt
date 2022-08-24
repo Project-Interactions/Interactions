@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	dependencies: [
+		"fe24bc23",
+		"6784c667"
+	],
+	tasks: [{
+		uid: "b9e800ce",
+		type: "item",
+		items: [{
+			item: "lightningcraft:lightning_infuser"
+		}]
+	}]
+}

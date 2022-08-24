@@ -1,10 +1,13 @@
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Radiation;
+import mods.nuclearcraft.Assembler;
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+
+
 
 
 
@@ -16,7 +19,6 @@ recipes.remove(<nuclearcraft:part:7>);
 recipes.remove(<nuclearcraft:part:9>);
 recipes.remove(<nuclearcraft:part:12>);
 recipes.addShaped(<nuclearcraft:part>, [[<nuclearcraft:dust:8>, <taiga:meteorite_ingot>, null],[<taiga:meteorite_ingot>, <immersiveengineering:material:18>, null], [null, null, null]]);
-recipes.addShapeless(<contenttweaker:material_part:69>, [<contenttweaker:material_part:71>,<contenttweaker:material_part:71>,<contenttweaker:material_part:71>,<contenttweaker:material_part:71>]);
 recipes.addShaped(<nuclearcraft:part:4>, [[null, <taiga:palladium_ingot>, null],[<enderio:item_alloy_ingot>, <taiga:palladium_ingot>, <enderio:item_alloy_ingot>], [null, <taiga:palladium_ingot>, null]]);
 recipes.remove(<nuclearcraft:part:4> * 2);
 recipes.removeShaped(<nuclearcraft:alloy_furnace>, [[<ore:plateBasic>, <ore:dustRedstone>, <ore:plateBasic>], [<minecraft:brick:*>, <minecraft:furnace:*>, <minecraft:brick:*>], [<ore:plateBasic>, <ore:solenoidCopper>, <ore:plateBasic>]]);
@@ -77,8 +79,6 @@ IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:3>);
 IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:4>);
 IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:5>);
 IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:6>);
-Melter.removeRecipeWithOutput(<liquid:mithril>*288);
-Melter.removeRecipeWithOutput(<liquid:mithril>*1296);
 mods.nuclearcraft.Manufactory.removeRecipeWithOutput(<thermalfoundation:material:72>*2);
 mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
 
@@ -90,3 +90,11 @@ Melter.removeRecipeWithInput(<ore:dustDraconium>);
 mods.ncsteamadditions.steam_compactor.removeRecipeWithOutput(<moreplates:void_plate>);
 mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
 
+Assembler.removeRecipeWithOutput(<qmd:semiconductor:4>);
+Assembler.addRecipe(<ore:siliconNDoped>,<ore:plateRedstoneAlloy>*4,<ore:ingotDyonite>,<ore:plateSilicon>*2,<qmd:semiconductor:4>*3);
+
+Assembler.removeRecipeWithOutput(<qmd:semiconductor:5>);
+Assembler.addRecipe(<qmd:semiconductor:4>*3,<ore:plateRedstoneAlloy>*4,<ore:siliconPDoped>,<ore:dustHafniumOxide>,<qmd:semiconductor:5>);
+
+Assembler.removeRecipeWithOutput(<qmd:semiconductor:6>);
+Assembler.addRecipe(<qmd:semiconductor:5>*3,<ore:plateRedstoneAlloy>*4,<ore:gearPlatinum>*2,<ore:wireBSCCO>*4,<qmd:semiconductor:6>);

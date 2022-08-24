@@ -57,14 +57,23 @@ recipes.addShaped(<tconstruct:soil> * 16, [[<minecraft:gravel>, <minecraft:sand>
 recipes.addShaped(<tconstruct:seared:3> * 2, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:clay_hard>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
 recipes.remove(<plustic:centrifuge>);
 recipes.remove(<plustic:centrifuge:1>);
-//
+
+
+//alloy remove
 mods.tconstruct.Alloy.addRecipe(<liquid:crude_steel> * 2, [<liquid:refinediron> * 2, <liquid:stone>,  <liquid:clay>]);
-recipes.remove(<minecraft:piston>);
 mods.tconstruct.Alloy.addRecipe(<liquid:tic_useful_metal>,[<liquid:xu_demonic_metal>,<liquid:xu_enchanted_metal>,<liquid:xu_evil_metal>]);
 mods.tconstruct.Alloy.removeRecipe(<liquid:enderium>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:lumium>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:obsidian>);
+
+mods.tconstruct.Alloy.removeRecipe(<liquid:ferroboron>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:tough>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:hard_carbon>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:hydrated_gelatin>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:marshmallow>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:dark_steel>);
+
+//alloy add
 mods.tconstruct.Alloy.addRecipe(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);
 mods.tconstruct.Alloy.addRecipe(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refinediron>]);
 mods.tconstruct.Alloy.addRecipe(<liquid:dilithium_fluid>,[<liquid:lithium>*2,<liquid:hard_carbon>]);

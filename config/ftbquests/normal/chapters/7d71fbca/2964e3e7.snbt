@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"将恶魔石摆成地狱门的形状并用幽冥弹点燃"
+	],
+	dependencies: [
+		"d5579ab2",
+		"6784c667"
+	],
+	tasks: [{
+		uid: "87942de9",
+		type: "item",
+		items: [{
+			item: "lightningcraft:stone_block 1 3"
+		}],
+		count: 10L
+	},
+	{
+		uid: "48a4dc04",
+		type: "item",
+		items: [{
+			item: "lightningcraft:material 1 6"
+		}]
+	}]
+}

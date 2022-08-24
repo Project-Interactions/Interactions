@@ -98,13 +98,12 @@ recipes.remove(<appliedenergistics2:quartz_glass> * 4);
 recipes.removeShapeless(<aeadditions:storage.casing:1>, [<appliedenergistics2:material:39>]);
 recipes.removeShapeless(<appliedenergistics2:material:39>, [<aeadditions:storage.casing:1>]);
 //add
-recipes.removeShaped(<threng:machine:2>, [[<appliedenergistics2:material:19>, <appliedenergistics2:inscriber>, <appliedenergistics2:material:13>], [<appliedenergistics2:quartz_glass>, <threng:material:4>, <appliedenergistics2:quartz_glass>], [<appliedenergistics2:material:15>, <appliedenergistics2:material:43>, <appliedenergistics2:material:14>]]);
-recipes.addShaped(<threng:machine:2>, [[<appliedenergistics2:material:19>, <ae2stuff:inscriber>, <appliedenergistics2:material:13>], [<appliedenergistics2:quartz_glass>, <threng:material:4>, <appliedenergistics2:quartz_glass>], [<appliedenergistics2:material:15>, <ae2stuff:inscriber>, <appliedenergistics2:material:14>]]);
 
+
+//ae2 utils
 recipes.removeShaped(<ae2utilities:enhanced_interface_tier1>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:35>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
 recipes.removeShaped(<ae2utilities:enhanced_interface_tier2>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:36>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
 recipes.removeShaped(<ae2utilities:enhanced_interface_tier3>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:37>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
-
 
 recipes.addShaped(<ae2utilities:enhanced_interface_tier1>, [[<moreplates:energetic_alloy_plate>, <appliedenergistics2:interface>, <moreplates:energetic_alloy_plate>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:35>, <appliedenergistics2:material:43>], [<moreplates:energetic_alloy_plate>, <appliedenergistics2:interface>, <moreplates:energetic_alloy_plate>]]);
 recipes.addShaped(<ae2utilities:enhanced_interface_tier2>, [[<moreplates:vibrant_alloy_plate>, <appliedenergistics2:material:27>, <moreplates:vibrant_alloy_plate>], [<appliedenergistics2:material:44>, <ae2utilities:enhanced_interface_tier1>, <appliedenergistics2:material:43>], [<moreplates:vibrant_alloy_plate>, <appliedenergistics2:material:27>, <moreplates:vibrant_alloy_plate>]]);
@@ -112,27 +111,28 @@ recipes.addShaped(<ae2utilities:enhanced_interface_tier3>, [[<moreplates:vivid_a
 
 mods.appliedenergistics2.Inscriber.addRecipe(<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:18>,false,<mysticalagriculture:storage:2>);
 
-//精准地量
-recipes.removeShaped(<ae2fc:burette>, [[<ore:ingotIron>, <minecraft:hopper>, <ore:ingotIron>], [<appliedenergistics2:quartz_glass>, <minecraft:bucket>, <appliedenergistics2:quartz_glass>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
-recipes.addShaped(<ae2fc:burette>, [[<ore:ingotIron>, <rftools:shape_card>, <ore:ingotIron>], [<appliedenergistics2:quartz_glass>, <minecraft:bucket>, <appliedenergistics2:quartz_glass>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
-//缓存
-recipes.removeShaped(<ae2fc:ingredient_buffer>, [[<ore:ingotIron>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:material:54>, <ore:ingotIron>]]);
-recipes.addShaped(<ae2fc:ingredient_buffer>, [[<enderio:block_buffer>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:material:54>, <enderio:block_buffer>]]);
-//指令缓存
-recipes.removeShaped(<threng:machine:4>, [[<ore:ingotFluixSteel>, <appliedenergistics2:part:280>, <ore:ingotFluixSteel>], [<appliedenergistics2:material:22>, <threng:material:4>, <appliedenergistics2:material:22>], [<ore:ingotFluixSteel>, <appliedenergistics2:material:53>, <ore:ingotFluixSteel>]]);
-recipes.addShaped(<threng:machine:4>, [[<ore:ingotFluixSteel>, <ae2fc:ingredient_buffer>, <ore:ingotFluixSteel>], [<appliedenergistics2:material:22>, <threng:material:4>, <appliedenergistics2:material:22>], [<ore:ingotFluixSteel>, <appliedenergistics2:material:53>, <ore:ingotFluixSteel>]]);
-//大型分子
-recipes.removeShaped(<threng:big_assembler:2>, [[<threng:big_assembler>, <appliedenergistics2:molecular_assembler>, <threng:big_assembler>], [<appliedenergistics2:part:16>, <threng:material:4>, <appliedenergistics2:part:16>], [<threng:big_assembler>, <appliedenergistics2:interface>, <threng:big_assembler>]]);
-recipes.addShaped(<threng:big_assembler:2>, [[<threng:big_assembler>, <appliedenergistics2:molecular_assembler>, <threng:big_assembler>], [<appliedenergistics2:part:16>, <threng:material:4>, <appliedenergistics2:part:16>], [<threng:big_assembler>, <threng:material:14>, <threng:big_assembler>]]);
-//流体适配
-recipes.removeShaped(<ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ore:workbench>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-recipes.addShaped(<ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ae2stuff:encoder>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+//ae2fc
+RecipeUtils.recipeTweak(true, <ae2fc:burette>, [[<ore:circuitElite>, <rftools:shape_card>, <ore:circuitElite>], [<appliedenergistics2:quartz_glass>, <minecraft:bucket>, <appliedenergistics2:quartz_glass>], [<calculator:precisionchamber>, <appliedenergistics2:material:23>, <calculator:precisionchamber>]]);
+RecipeUtils.recipeTweak(true, <ae2fc:ingredient_buffer>, [[<enderio:block_buffer>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:material:54>, <enderio:block_buffer>]]);
+RecipeUtils.recipeTweak(true, <ae2fc:fluid_packet_decoder>, [[<ore:circuitElite>, <minecraft:hopper>, <ore:circuitElite>], [<appliedenergistics2:part:16>, <appliedenergistics2:fluid_interface>, <appliedenergistics2:part:16>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ae2stuff:encoder>, <ore:ingotIron>], [<ore:ingotIron>, <ore:circuitElite>, <ore:ingotIron>]]);
 
-//超致密线缆
-recipes.removeShapeless(<appliedenergistics2:part:636>, [<appliedenergistics2:part:516>, <ore:dustRedstone>, <ore:dustGlowstone>]);
-recipes.removeShapeless(<appliedenergistics2:part:636>, [<appliedenergistics2:part:60> | <appliedenergistics2:part:61> | <appliedenergistics2:part:62> | <appliedenergistics2:part:63> | <appliedenergistics2:part:64> | <appliedenergistics2:part:65> | <appliedenergistics2:part:66> | <appliedenergistics2:part:67> | <appliedenergistics2:part:68> | <appliedenergistics2:part:69> | <appliedenergistics2:part:70> | <appliedenergistics2:part:71> | <appliedenergistics2:part:72> | <appliedenergistics2:part:73> | <appliedenergistics2:part:74> | <appliedenergistics2:part:75> | <appliedenergistics2:part:76>, <minecraft:water_bucket>]);
-recipes.addShapeless(<appliedenergistics2:part:636>,[<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>,<appliedenergistics2:part:516>]);
+//lazyae2 machines
+RecipeUtils.recipeTweak(true, <threng:machine:4>, [[<ore:ingotFluixSteel>, <ae2fc:ingredient_buffer>, <ore:ingotFluixSteel>], [<appliedenergistics2:material:22>, <threng:material:4>, <appliedenergistics2:material:22>], [<ore:ingotFluixSteel>, <appliedenergistics2:material:53>, <ore:ingotFluixSteel>]]);
+RecipeUtils.recipeTweak(true, <threng:big_assembler:2>, [[<threng:big_assembler>, <appliedenergistics2:molecular_assembler>, <threng:big_assembler>], [<appliedenergistics2:part:16>, <threng:material:4>, <appliedenergistics2:part:16>], [<threng:big_assembler>, <threng:material:14>, <threng:big_assembler>]]);
+RecipeUtils.recipeTweak(true, <threng:material:4>, [[<ore:ingotFluixSteel>, <appliedenergistics2:quartz_glass>, <ore:ingotFluixSteel>], [<threng:material:1>, <appliedenergistics2:material:24>, <threng:material:1>], [<ore:ingotFluixSteel>, <ore:circuitMaster>, <ore:ingotFluixSteel>]]);
+RecipeUtils.recipeTweak(true, <ae2fc:fluid_packet_decoder>, [[<ore:circuitElite>, <minecraft:hopper>, <ore:circuitElite>], [<appliedenergistics2:part:16>, <appliedenergistics2:fluid_interface>, <appliedenergistics2:part:16>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <threng:machine:2>, [[<appliedenergistics2:material:19>, <ae2stuff:inscriber>, <appliedenergistics2:material:13>], [<appliedenergistics2:quartz_glass>, <threng:material:4>, <appliedenergistics2:quartz_glass>], [<appliedenergistics2:material:15>, <ae2stuff:inscriber>, <appliedenergistics2:material:14>]]);
 
+//package auto
+RecipeUtils.recipeTweak(true, <packagedauto:packager>, [[<ore:plateVibrantAlloy>, <packagedauto:me_package_component>, <ore:plateVibrantAlloy>], [<ore:dustRedstone>, <ore:circuitElite>, <ore:dustRedstone>], [<ore:plateVibrantAlloy>, <minecraft:piston>, <ore:plateVibrantAlloy>]]);
+RecipeUtils.recipeTweak(true, <packagedauto:encoder>, [[<ore:plateVibrantAlloy>, <packagedauto:package_component>,<ore:plateVibrantAlloy>], [<ore:circuitElite>, <ore:glowstone>, <ore:circuitElite>], [<ore:plateVibrantAlloy>, <minecraft:comparator>, <ore:plateVibrantAlloy>]]);
+RecipeUtils.recipeTweak(true, <packagedauto:packager_extension>, [[<ore:plateVibrantAlloy>, <packagedauto:me_package_component>, <ore:plateVibrantAlloy>], [<ore:dustGlowstone>, <ore:circuitElite>, <ore:dustGlowstone>], [<ore:plateVibrantAlloy>, <minecraft:piston>, <ore:plateVibrantAlloy>]]);
+RecipeUtils.recipeTweak(true, <packagedauto:package_component>, [[<ore:gearEnergeticAlloy>, <ore:plankWood>, <ore:gearEnergeticAlloy>], [<ore:plankWood>, <minecraft:ender_eye>, <ore:plankWood>], [<ore:gearEnergeticAlloy>, <ore:plankWood>, <ore:gearEnergeticAlloy>]]);
+RecipeUtils.recipeTweak(true, <packagedauto:unpackager>, [[<ore:plateVibrantAlloy>, <packagedauto:me_package_component>, <ore:plateVibrantAlloy>], [<ore:dustRedstone>, <ore:chestWood>, <ore:dustRedstone>], [<ore:plateVibrantAlloy>, <ore:circuitElite>,<ore:plateVibrantAlloy>]]);
+
+//capability adapter
+RecipeUtils.recipeTweak(true, <rf-capability-adapter:aecapabilityadapter>, [[<ore:plateVibrantAlloy>, <ore:circuitElite>, <ore:plateVibrantAlloy>], [<ore:crystalFluix> | <appliedenergistics2:material:12>, <appliedenergistics2:interface>, <ore:crystalFluix> | <appliedenergistics2:material:12>], [<ore:plateVibrantAlloy>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <ore:plateVibrantAlloy>]]);
 
 //lazyae2
 mods.threng.Etcher.removeRecipe(<appliedenergistics2:material:22>);

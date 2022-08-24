@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"适用于多方块机器的流体合成"
+	],
+	dependencies: [
+		"7b70345e"
+	],
+	tasks: [{
+		uid: "ae9d0b92",
+		type: "item",
+		items: [{
+			item: "ae2fc:ingredient_buffer"
+		}]
+	}]
+}

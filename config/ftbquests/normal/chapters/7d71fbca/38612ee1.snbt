@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"76e9f5ab"
+	],
+	tasks: [{
+		uid: "b75007e0",
+		type: "item",
+		items: [{
+			item: "lightningcraft:golf_club"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

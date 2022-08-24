@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		"一开始只能用天域锭，恶魔之血，绿宝石雷击获得",
+		"也可以在幽冥世界的地牢里找到"
+	],
+	dependencies: [
+		"d5579ab2"
+	],
+	tasks: [{
+		uid: "33cfff37",
+		type: "item",
+		items: [{
+			item: "lightningcraft:material 1 11"
+		}]
+	}]
+}

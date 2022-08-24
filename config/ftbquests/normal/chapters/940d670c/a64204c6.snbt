@@ -1,0 +1,54 @@
+{
+	title: "打包合成",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"适用于超过16个物品/流体的合成",
+		">9,≤16可使用增广样板终端"
+	],
+	dependencies: [
+		"24fd5d31"
+	],
+	tasks: [{
+		uid: "ba5fe34b",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "1341a056",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "4cc594a1",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	},
+	{
+		uid: "633bb855",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager_extension"
+		}]
+	},
+	{
+		uid: "40c99551",
+		type: "item",
+		items: [{
+			item: "packagedauto:recipe_holder"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "b7b8d00a",
+		type: "item",
+		item: "packagedauto:recipe_holder",
+		count: 64
+	}]
+}

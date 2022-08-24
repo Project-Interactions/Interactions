@@ -41,3 +41,15 @@ SummoningDirector.addSummonInfo(
 		.setCount(1)
 	)
 );
+
+//demon_soldier
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+	.setCatalyst(<moreplates:demon_gear>)
+	.setConsumeCatalyst(true)
+	.setReagents([<jaopca:stick.gaiasteel>,<jaopca:stick.mithminite>])
+	.addMob(MobInfo.create()
+	.setMob("lightningcraft:demon_soldier")
+		.setCount(8)
+	)
+);

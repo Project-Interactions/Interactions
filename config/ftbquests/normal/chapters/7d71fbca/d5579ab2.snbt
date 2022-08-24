@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"会在地狱和幽冥世界生成，如果找不到也可以手动在祭坛召唤"
+	],
+	tasks: [{
+		uid: "7ebdf36b",
+		type: "kill",
+		entity: "lightningcraft:demon_soldier",
+		value: 1L
+	},
+	{
+		uid: "9c9106ff",
+		type: "item",
+		items: [{
+			item: "lightningcraft:material 1 5"
+		}]
+	}]
+}

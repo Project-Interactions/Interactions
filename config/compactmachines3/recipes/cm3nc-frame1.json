@@ -10,7 +10,7 @@
   "duration": 240,
   "symmetrical": true,
 
-  "catalyst": "taiga:ovium_block",
+  "catalyst": "contenttweaker:psio_powered_circuit",
   "input-types": {
     "a": {
       "id": "thermalfoundation:storage",
@@ -21,12 +21,12 @@
       "meta": 8
     },
     "c": {
-      "id": "contenttweaker:sub_block_holder_0",
-      "meta": 6
+      "id": "taiga:ovium_block",
+      "meta": 0
     },
     "d": {
-      "id": "nuclearcraft:ingot_block",
-      "meta": 5
+      "id": "contenttweaker:sub_block_holder_0",
+      "meta": 15
     }
   },
   "shape": [

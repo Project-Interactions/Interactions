@@ -1,0 +1,42 @@
+{
+	title: "流体合成",
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"24fd5d31"
+	],
+	tasks: [{
+		uid: "6d2e8131",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_pattern_encoder"
+		}]
+	},
+	{
+		uid: "88dd8e76",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_packet_decoder"
+		}]
+	},
+	{
+		uid: "a2cbc078",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_discretizer"
+		}]
+	},
+	{
+		uid: "0325f8e5",
+		type: "item",
+		items: [{
+			item: "ae2fc:burette"
+		}]
+	}],
+	rewards: [{
+		uid: "3e755947",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 64
+	}]
+}

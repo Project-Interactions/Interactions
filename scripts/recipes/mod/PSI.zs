@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.psi.Trick;
+
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembler>, [
 	[null, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>, null], 
 	[<ore:gearQuartzBlack>, <ore:gearQuartzBlack>, <ore:plateEnori>, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>], 
@@ -111,5 +113,20 @@ recipes.remove(<psi:cad_assembly>);
 recipes.remove(<psi:programmer>);
 recipes.remove(<psi:cad_assembler>);
 
+//tricks
+//remove
+Trick.remove(<psi:material>);
+Trick.remove(<psi:material:1>);
+Trick.remove(<psi:material:2>);
+Trick.remove(<psi:material:5>);
+Trick.remove(<psi:material:6>);
+
+//add
+Trick.addRecipe("trickEbonyIvory", <contenttweaker:powered_circuit>, <contenttweaker:psio_powered_circuit>, <psi:cad_assembly:3>);
+Trick.addRecipe("", <jaopca:dust.redstone_alloy>, <psi:material>, <psi:cad_assembly>);
+Trick.addRecipe("trickInfusion", <enderio:item_alloy_ingot:1>,  <psi:material:1>, <psi:cad_assembly>);
+Trick.addRecipe("trickGreaterInfusion", <calculator:flawlessdiamond>, <psi:material:2>, <psi:cad_assembly:2>);
+Trick.addRecipe("trickEbonyIvory", <arcanearchives:shaped_quartz>, <psi:material:6>, <psi:cad_assembly:2>);
+Trick.addRecipe("trickEbonyIvory", <extendedcrafting:material>, <psi:material:5>, <psi:cad_assembly:2>);
 
 

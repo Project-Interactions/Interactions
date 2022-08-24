@@ -1,0 +1,240 @@
+{
+  "name": "cm3:bm-furnace",
+
+  "disabled": false,
+
+  "target-item": "bloodmagic:soul_forge",
+
+  "duration": 800,
+  "symmetrical": true,
+
+  "catalyst": "mysticalagriculture:ingot_storage",
+  "catalyst-meta":4,
+
+  
+  "input-types": {
+    "a": {
+      "id": "lightningcraft:metal_block",
+      "meta": 0
+    },
+    "b": {
+      "id": "jaopca:block.hard_carbon",
+      "meta": 0
+    },
+    "c": {
+      "id": "nuclearcraft:nuclear_furnace",
+      "meta": 3
+    },
+    "d": {
+      "id": "nuclearcraft:nuclear_furnace",
+      "meta": 5
+    },
+    "e": {
+      "id": "nuclearcraft:nuclear_furnace",
+      "meta": 2
+    },
+    "f": {
+      "id": "contenttweaker:sub_block_holder_0",
+      "meta": 15
+    },
+    "g": {
+      "id": "calculator:reinforcedfurnace",
+      "meta": 5
+    },
+    "h": {
+      "id": "calculator:reinforcedfurnace",
+      "meta": 2
+    },
+    "i": {
+      "id": "nuclearcraft:nuclear_furnace",
+      "meta": 4
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "_",
+        "a",
+        "_",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "_",
+        "a",
+        "_",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "f",
+        "f",
+        "f",
+        "_"
+      ],
+      [
+        "_",
+        "f",
+        "f",
+        "f",
+        "_"
+      ],
+      [
+        "_",
+        "f",
+        "f",
+        "f",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "c:A",
+        "c:A",
+        "c:A",
+        "c:A",
+        "c:A"
+      ],
+      [
+        "d:A",
+        "g:A",
+        "g:A",
+        "g:A",
+        "i:A"
+      ],
+      [
+        "d:A",
+        "g:A",
+        "g:A",
+        "g:A",
+        "i:A"
+      ],
+      [
+        "d:A",
+        "g:A",
+        "h:A",
+        "h:A",
+        "i:A"
+      ],
+      [
+        "e:A",
+        "e:A",
+        "e:A",
+        "e:A",
+        "c:A"
+      ]
+    ]
+  ]
+}

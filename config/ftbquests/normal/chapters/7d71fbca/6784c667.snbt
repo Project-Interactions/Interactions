@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	dependencies: [
+		"76e9f5ab"
+	],
+	tasks: [{
+		uid: "aea717bc",
+		type: "item",
+		items: [{
+			item: "lightningcraft:stone_block"
+		}]
+	}]
+}

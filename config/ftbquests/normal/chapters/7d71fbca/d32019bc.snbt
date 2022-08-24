@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	dependencies: [
+		"d5d39535",
+		"aaa06e8e",
+		"fe24bc23"
+	],
+	tasks: [{
+		uid: "488f9f1d",
+		type: "item",
+		items: [{
+			item: "lightningcraft:ingot 1 1"
+		}]
+	}]
+}

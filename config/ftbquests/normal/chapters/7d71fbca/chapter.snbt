@@ -1,8 +1,8 @@
 {
-	title: "阶段七",
+	title: "《可能是一个模组大杂烩》",
 	icon: "nuclearcraft:alloy 1 2",
 	description: [
-		"核电工艺与血魔法"
+		"阶段七"
 	],
 	always_invisible: false,
 	group: 0,

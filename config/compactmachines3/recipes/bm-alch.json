@@ -1,0 +1,123 @@
+{
+    "name": "cm3:bm-alch",
+  
+    "disabled": false,
+  
+    "target-item": "bloodmagic:alchemy_table",
+  
+    "duration": 800,
+    "symmetrical": true,
+  
+    "catalyst": "bloodmagic:blood_orb",
+    
+    
+  "input-types": {
+    "a": {
+      "id": "embers:alchemy_pedestal",
+      "meta": 1
+    },
+    "b": {
+      "id": "embers:alchemy_tablet",
+      "meta": 0
+    },
+    "c": {
+      "id": "embers:alchemy_pedestal",
+      "meta": 0
+    },
+    "d": {
+      "id": "calculator:material",
+      "meta": 6
+    },
+    "e": {
+      "id": "lightningcraft:metal_block",
+      "meta": 1
+    },
+    "f": {
+      "id": "thaumcraft:metal_alchemical_advanced",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "a:A",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "a:A",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "c",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "f",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "f",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "f",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "c",
+        "b:A"
+      ]
+    ],
+    [
+      [
+        "d",
+        "e",
+        "d"
+      ],
+      [
+        "e",
+        "d",
+        "e"
+      ],
+      [
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "e",
+        "d",
+        "e"
+      ],
+      [
+        "d",
+        "e",
+        "d"
+      ]
+    ]
+  ]
+}

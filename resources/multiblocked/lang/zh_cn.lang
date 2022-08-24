@@ -4,6 +4,13 @@ magnetizer.name=磁化机
 blastfurnace.name=电力高炉
 co2.name=二氧化碳收集器
 mana_converter.name=魔能转换器
+ae_crafter.name=应用合成器
+
+block.magnetizer=磁化机
+block.blastfurnace=电力高炉
+block.co2=二氧化碳收集器
+block.mana_converter=魔能转换器
+block.ae_crafter=应用合成器
 
 #recipe map
 
