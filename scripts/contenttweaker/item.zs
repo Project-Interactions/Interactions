@@ -69,5 +69,37 @@ VanillaFactory.createItem("thermal_pneumatic_circuit").register();
 VanillaFactory.createItem("powered_circuit").register();
 VanillaFactory.createItem("psio_powered_circuit").register();
 
+VanillaFactory.createItem("precipitate_platinum_dust").register();
+VanillaFactory.createItem("calcium_chloride").register();
+VanillaFactory.createItem("platinum_salt_dust").register();
+VanillaFactory.createItem("dusty_platinum").register();
+VanillaFactory.createItem("platinum_slag").register();
+VanillaFactory.createItem("iridium_chloride").register();
+VanillaFactory.createItem("iridium_dioxide").register();
+VanillaFactory.createItem("precipitate_palladium").register();
+VanillaFactory.createItem("sodium_formate").register();
+VanillaFactory.createItem("rhodium_nitrate").register();
+VanillaFactory.createItem("rhodium_salt").register();
+VanillaFactory.createItem("tungsten_trioxide").register();
+VanillaFactory.createItem("crude_rhodium_metal").register();
+VanillaFactory.createItem("rhodium_sulfate").register();
+VanillaFactory.createItem("zinc_sulfate").register();
+VanillaFactory.createItem("leaching_slag").register();
+VanillaFactory.createItem("rhodium_filter_cake").register();
+VanillaFactory.createItem("rhodium_filter_cake_solution").register();
+VanillaFactory.createItem("tungsten_acid").register();
+VanillaFactory.createItem("rare_metal_slag").register();
+VanillaFactory.createItem("potassium_pyrosulfate").register();
+
+
+
+
+
+
+
+
+
+
+
 
 

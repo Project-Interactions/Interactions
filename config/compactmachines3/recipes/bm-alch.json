@@ -13,15 +13,15 @@
     
   "input-types": {
     "a": {
-      "id": "embers:alchemy_pedestal",
-      "meta": 1
+      "id": "embers:alchemy_tablet",
+      "meta": 0
     },
     "b": {
       "id": "embers:alchemy_tablet",
       "meta": 0
     },
     "c": {
-      "id": "embers:alchemy_pedestal",
+      "id": "embers:alchemy_tablet",
       "meta": 0
     },
     "d": {

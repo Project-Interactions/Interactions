@@ -292,4 +292,11 @@ Dropt.list("basic_refined_ore_essence")
         )
         .items([<thermalfoundation:material:69>])
       )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<thermalfoundation:material:1>])
+      )
 );

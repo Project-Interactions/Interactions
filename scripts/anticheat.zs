@@ -26,7 +26,8 @@ var mod as string[]=[
     "manaita",
     "xray",
     "slashblade",
-    "slashbladetic"
+    "slashbladetic",
+    "betterbuilderswands"
     
 ];
 

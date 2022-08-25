@@ -1,0 +1,158 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:mixer",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "immersiveintelligence:metal_decoration",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "ABC",
+        "DEF",
+        "DFG"
+      ],
+      [
+        "ABB",
+        "DH@",
+        "IFG"
+      ],
+      [
+        "ABC",
+        "DEF",
+        "DFG"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "interaction:mixer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveintelligence:metal_decoration",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "jaopca:block.magnet",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "immersiveintelligence:metal_decoration",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "immersiveintelligence:etching_acid",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "item"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "fluid"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "energy"
+      ]
+    }
+  },
+  "recipeMap": "mixer"
+}

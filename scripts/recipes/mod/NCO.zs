@@ -7,11 +7,6 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 
-
-
-
-
-
 recipes.remove(<nuclearcraft:part> * 2);
 recipes.remove(<nuclearcraft:part:10>);
 recipes.remove(<nuclearcraft:part:8>);
@@ -72,13 +67,6 @@ Melter.removeRecipeWithInput(<ore:dustChromium>);
 Melter.removeRecipeWithInput(<ore:dustTitanium>);
 IngotFormer.removeRecipeWithOutput(<avaritia:resource:6>);
 IngotFormer.removeRecipeWithOutput(<taiga:dilithium_ingot>);
-IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot>);
-IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:1>);
-IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:2>);
-IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:3>);
-IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:4>);
-IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:5>);
-IngotFormer.removeRecipeWithOutput(<enderio:item_alloy_endergy_ingot:6>);
 mods.nuclearcraft.Manufactory.removeRecipeWithOutput(<thermalfoundation:material:72>*2);
 mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
 

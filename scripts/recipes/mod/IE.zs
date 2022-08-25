@@ -224,6 +224,9 @@ mods.immersiveintelligence.PrecissionAssembler.addRecipe(<contenttweaker:mechani
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveintelligence:material:7>);
 //mixer
 mods.immersiveengineering.Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4000);
+
+
+
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveintelligence:material:10>);
 mods.immersiveengineering.Blueprint.addRecipe("processors", <immersiveintelligence:material:10>, [<immersiveintelligence:material:5>*3,<ore:plateDuraluminium>*2]);
 

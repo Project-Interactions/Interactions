@@ -23,15 +23,15 @@
     },
     "c": {
       "id": "nuclearcraft:nuclear_furnace",
-      "meta": 3
+      "meta": 0
     },
     "d": {
       "id": "nuclearcraft:nuclear_furnace",
-      "meta": 5
+      "meta": 0
     },
     "e": {
       "id": "nuclearcraft:nuclear_furnace",
-      "meta": 2
+      "meta": 0
     },
     "f": {
       "id": "contenttweaker:sub_block_holder_0",
@@ -39,15 +39,15 @@
     },
     "g": {
       "id": "calculator:reinforcedfurnace",
-      "meta": 5
+      "meta": 0
     },
     "h": {
       "id": "calculator:reinforcedfurnace",
-      "meta": 2
+      "meta": 0
     },
     "i": {
       "id": "nuclearcraft:nuclear_furnace",
-      "meta": 4
+      "meta": 0
     }
   },
   "shape": [

@@ -1,0 +1,89 @@
+{
+  "name": "mixer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "080461c1-ebb7-4c30-aa04-db73e986e88a",
+      "duration": 40,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"hydrochloric_acid\",Amount:3000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nitric_acid\",Amount:1000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 20000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"aqua_regia\",Amount:4000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5f8beb2a-e95a-4e18-a79b-b0a8a0c43580",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"bloodarsenal:blood_diamond\",Count:1b,Damage:3s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"raw_will\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"corrosive_will\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"destructive_will\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"vengeful_will\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"steadfast_will\",Amount:1000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"will_alloy\",Amount:1000}"
+          }
+        ]
+      }
+    }
+  ]
+}
