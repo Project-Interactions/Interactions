@@ -38,6 +38,10 @@
     {
       "weight": 20,
       "oreName": "oreCoal"
+    },
+    {
+      "weight": 200,
+      "oreName": "oreNyx"
     }
   ],
   "explosionStrength": 18.0,

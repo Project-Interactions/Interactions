@@ -34,6 +34,10 @@
     {
       "weight": 400,
       "oreName": "oreDiamond"
+    },
+    {
+      "weight": 400,
+      "oreName": "oreNyx"
     }
   ],
   "explosionStrength": 10.0,

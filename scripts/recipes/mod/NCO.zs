@@ -86,3 +86,11 @@ Assembler.addRecipe(<qmd:semiconductor:4>*3,<ore:plateRedstoneAlloy>*4,<ore:sili
 
 Assembler.removeRecipeWithOutput(<qmd:semiconductor:6>);
 Assembler.addRecipe(<qmd:semiconductor:5>*3,<ore:plateRedstoneAlloy>*4,<ore:gearPlatinum>*2,<ore:wireBSCCO>*4,<qmd:semiconductor:6>);
+
+mods.nuclearcraft.Crystallizer.addRecipe(<liquid:molten_mana>*1000, <thermalfoundation:geode>);
+mods.nuclearcraft.Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);
+
+
+
+
+

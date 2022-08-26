@@ -54,7 +54,7 @@ static materials as Material[string] = {
     "Menril": MaterialSystem.getMaterialBuilder().setName("Menril").setColor(Color.fromHex("0099FF")).build(),
     "TwilghtSteel": MaterialSystem.getMaterialBuilder().setName("TwilghtSteel").setColor(Color.fromHex("446E43")).build(),
     "Gaia": MaterialSystem.getMaterialBuilder().setName("Gaia").setColor(Color.fromHex("977769")).build(),
-
+    "Nyx": MaterialSystem.getMaterialBuilder().setName("Nyx").setColor(Color.fromHex("977769")).build(),
 
 
 };
@@ -81,6 +81,7 @@ materials.Duraluminium.registerParts(["coil","wire"] as string[]);
 materials.Menril.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);
 materials.TwilghtSteel.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);
 materials.Gaia.registerParts(["coil","wire"] as string[]);
+materials.Nyx.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","ore"] as string[]);
 
 
 

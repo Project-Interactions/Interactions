@@ -94,10 +94,10 @@ recipes.removeShapeless(<tconevo:metal:40> * 9);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.removeShaped(<mekanism:basicblock:14>, [[<ore:circuitAdvanced>, <ore:paneGlass>, <ore:circuitAdvanced>], [<mekanism:basicblock2>, <minecraft:bucket>, <mekanism:basicblock2>], [<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]]);
 recipes.remove(<mekanism:basicblock2> * 4);
-recipes.remove(<compactvoidminers:void_pump>);
-recipes.remove(<compactvoidminers:void_miner>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<interaction:mixer>, [[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>],[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>], [<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>]]);
+recipes.addShaped(<interaction:chemical_reactor>, [[<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>],[<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>], [<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>]]);
 recipes.addShaped(<contenttweaker:material_part:32>, [[<contenttweaker:material_part:34>, <contenttweaker:material_part:34>, null],[<contenttweaker:material_part:34>, <contenttweaker:material_part:34>, null], [null, null, null]]);
 recipes.addShaped(<interaction:vaccum_freezer>, [[<contenttweaker:frost_proof_machine_casing>, <contenttweaker:cold_ingot>, <contenttweaker:frost_proof_machine_casing>],[<contenttweaker:cold_ingot>, <contenttweaker:cold_ingot>, <contenttweaker:cold_ingot>], [<contenttweaker:frost_proof_machine_casing>, <contenttweaker:cold_ingot>, <contenttweaker:frost_proof_machine_casing>]]);
 recipes.addShaped(<interaction:ae_crafter>, [[null, <ore:plateThaumiumPerditio>, null],[<ore:plateThaumiumPerditio>, <appliedenergistics2:energy_acceptor>, <ore:plateThaumiumPerditio>], [null, <ore:plateThaumiumPerditio>, null]]);

@@ -106,7 +106,8 @@ zsFluid33.register();
 var zsFluid34 = VanillaFactory.createFluid("rhodium_salt_solution", Color.fromHex("617074"));
 zsFluid34.register();
 
-
+var zsFluid35 = VanillaFactory.createFluid("molten_mana", Color.fromHex("617074"));
+zsFluid35.register();
 
 
 

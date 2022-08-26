@@ -38,6 +38,10 @@
     {
       "weight": 100,
       "oreName": "oreRedstone"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreNyx"
     }
   ],
   "explosionStrength": 15.0,

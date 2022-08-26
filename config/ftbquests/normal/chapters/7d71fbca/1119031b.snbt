@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			item: "thermalfoundation:geode"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }
