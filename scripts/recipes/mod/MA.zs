@@ -10,6 +10,8 @@ recipes.addShaped(<mysticalagriculture:mystical_machine_frame>, [[<redstonerepos
 
 recipes.removeShaped(<mysticalagriculture:ultimate_reprocessor>, [[<minecraft:skull:1>, <minecraft:nether_star>, <minecraft:skull:1>], [<mysticalagriculture:storage:4>, <mysticalagriculture:supremium_reprocessor>, <mysticalagriculture:storage:4>], [<minecraft:skull:1>, <mysticalagriculture:storage:4>, <minecraft:skull:1>]]);
 recipes.removeShaped(<mysticalagriculture:ultimate_furnace>, [[<minecraft:skull:1>, <minecraft:nether_star>, <minecraft:skull:1>], [<mysticalagriculture:storage:4>, <mysticalagriculture:supremium_furnace>, <mysticalagriculture:storage:4>], [<minecraft:skull:1>, <mysticalagriculture:storage:4>, <minecraft:skull:1>]]);
+recipes.addShaped(<mysticalagriculture:ultimate_furnace>, [[null, <mysticalagradditions:insanium>, null],[<mysticalagradditions:insanium>, <mysticalagriculture:supremium_furnace>, <mysticalagradditions:insanium>], [null, <mysticalagradditions:storage>, null]]);
+recipes.addShaped(<mysticalagriculture:ultimate_reprocessor>, [[null, <mysticalagradditions:insanium>, null],[<mysticalagradditions:insanium>, <mysticalagriculture:supremium_reprocessor>, <mysticalagradditions:insanium>], [null, <mysticalagradditions:storage>, null]]);
 
 
 recipes.removeShaped(<matc:inferiumcrystal>, [[<mysticalagriculture:crafting:5>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:5>], [<mysticalagriculture:crafting>, <minecraft:diamond>, <mysticalagriculture:crafting>], [<mysticalagriculture:crafting:5>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:5>]]);

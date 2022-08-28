@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<theaurorian:auroriansteel> * 6);
 recipes.remove(<bloodmagic:alchemy_table>);
 furnace.remove(<minecraft:coal:1>);
 recipes.remove(<lightningcraft:plate:7> * 3);
@@ -96,6 +97,7 @@ recipes.removeShaped(<mekanism:basicblock:14>, [[<ore:circuitAdvanced>, <ore:pan
 recipes.remove(<mekanism:basicblock2> * 4);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<theaurorian:auroriansteel>*9, [<theaurorian:auroriansteelblock>]);
 recipes.addShaped(<interaction:mixer>, [[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>],[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>], [<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>]]);
 recipes.addShaped(<interaction:chemical_reactor>, [[<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>],[<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>], [<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>]]);
 recipes.addShaped(<contenttweaker:material_part:32>, [[<contenttweaker:material_part:34>, <contenttweaker:material_part:34>, null],[<contenttweaker:material_part:34>, <contenttweaker:material_part:34>, null], [null, null, null]]);

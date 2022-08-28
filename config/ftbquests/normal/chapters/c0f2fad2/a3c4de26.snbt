@@ -13,7 +13,7 @@
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
-					data: "orePlatinum"
+					data: "orePrecious"
 				}
 			}
 		}]

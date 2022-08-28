@@ -16,7 +16,7 @@ mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dustore").setPartTy
 
 
 static materials as Material[string] = {
-	"CrudeGold": MaterialSystem.getMaterialBuilder().setName("CrudeGold").setColor(Color.fromHex("B9B602") as Color).build(),
+	"Precious": MaterialSystem.getMaterialBuilder().setName("CrudeGold").setColor(Color.fromHex("B9B602") as Color).build(),
 	"Zircon": MaterialSystem.getMaterialBuilder().setName("Zircon").setColor(Color.fromHex("C0C496") as Color).build(),
 	"Lithiumtungstate": MaterialSystem.getMaterialBuilder().setName("Lithiumtungstate").setColor(Color.fromHex("2D5783") as Color).build(),
 	"Scheelite": MaterialSystem.getMaterialBuilder().setName("Scheelite").setColor(Color.fromHex("7999BB") as Color).build(),
@@ -35,7 +35,7 @@ static materials as Material[string] = {
 	"Crystallineuranium": MaterialSystem.getMaterialBuilder().setName("Crystallineuranium").setColor(Color.fromHex("62E753") as Color).build(),
 
 };
-materials.CrudeGold.registerParts(["dustore"] as string[]);
+materials.Precious.registerParts(["dustore","ore"] as string[]);
 materials.Zircon.registerParts(["dustore"] as string[]);
 materials.Lithiumtungstate.registerParts(["dustore"] as string[]);
 materials.Scheelite.registerParts(["dustore"] as string[]);

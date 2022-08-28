@@ -199,6 +199,7 @@ stellar_alloy.addProjectileMaterialStats();
 stellar_alloy.addCoreMaterialStats(25,25);
 stellar_alloy.addPlatesMaterialStats(1.1,30,2);
 stellar_alloy.addTrimMaterialStats(15);
+stellar_alloy.addLaserMediumMaterialStats(10000);
 stellar_alloy.register();
 
 val useful_metal = ExtendedMaterialBuilder.create("tic_useful_metal");

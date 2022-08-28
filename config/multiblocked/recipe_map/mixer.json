@@ -33,6 +33,56 @@
       }
     },
     {
+      "uid": "4aee9705-ffeb-4f21-92ad-c7ef43ac72d4",
+      "duration": 1000,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"uranium_238\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"neptunium_237\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"plutonium_242\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"americium_243\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"curium_247\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"berkelium_248\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"californium_252\",Amount:1000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"heavymetalelements\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
       "uid": "5f8beb2a-e95a-4e18-a79b-b0a8a0c43580",
       "duration": 100,
       "inputs": {

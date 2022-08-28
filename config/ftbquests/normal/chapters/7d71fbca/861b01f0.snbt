@@ -1,6 +1,9 @@
 {
 	x: 18.0d,
 	y: 0.0d,
+	text: [
+		"极光幽境的金属"
+	],
 	dependencies: [
 		"47be9fd3"
 	],

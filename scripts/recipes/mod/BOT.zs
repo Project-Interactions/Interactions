@@ -48,8 +48,11 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotRefinedI
 //凝矿兰删除
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
-mods.botania.RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:rune:11>,<botania:rune:15>,<botania:manaresource:6>,<mysticalagriculture:mystical_flower_essence>], 500000);
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidEndium"}));
+
+mods.botania.RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:rune:11>,<botania:rune:15>,<botania:manaresource:6>,<mysticalagriculture:dirt_essence>], 500000);
 mods.botania.RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:rune:11>,<botania:rune:15>,<botania:manaresource:6>,<mysticalagriculture:nether_essence>], 500000);
+mods.botania.RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechidEndium"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:rune:11>,<botania:rune:15>,<botania:manaresource:6>,<mysticalagriculture:end_essence>], 500000);
 
 mods.botania.Orechid.removeOre(<ore:oreOsmium>);
 mods.botania.Orechid.removeOre(<ore:oreTungsten>);
@@ -98,10 +101,15 @@ mods.botania.OrechidIgnem.addOre(<ore:orePrometheum>,8);
 mods.botania.OrechidIgnem.addOre(<ore:oreValyrium>,5);
 mods.botania.OrechidIgnem.addOre(<ore:oreTiberium>,12);
 
-
 mods.botania.OrechidEndium.removeOre(<ore:oreEndDraconium>);
 mods.botania.OrechidEndium.removeOre(<ore:oreEndInferium>);
 mods.botania.OrechidEndium.removeOre(<ore:oreEndProsperity>);
+mods.botania.OrechidEndium.addOre(<ore:orePalladium>, 10);
+mods.botania.OrechidEndium.addOre(<ore:oreAurorium>, 6);
+mods.botania.OrechidEndium.addOre(<ore:oreAbyssum>, 10);
+
+
+mods.botania.OrechidEndium.addOre(<ore:oreEndBiotite>, 500);
 //魔力玻璃
 mods.botania.ManaInfusion.removeRecipe(<botania:managlass>);
 mods.botania.ManaInfusion.addInfusion(<botania:managlass>,<tconstruct:clear_glass>,2500);

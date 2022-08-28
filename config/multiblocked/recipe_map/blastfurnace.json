@@ -46,6 +46,92 @@
       }
     },
     {
+      "uid": "8dcba00f-2ac8-43b6-9b3b-0e5860c50c9b",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"theaurorian:ceruleaningot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"theaurorian:aurorianiteingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"theaurorian:crystallineingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"theaurorian:umbraingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"theaurorian:moonstoneingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"theaurorian:crystal\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "lightningcraft_le": [
+          {
+            "chance": 1.0,
+            "content": 100.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"theaurorian:auroriansteel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "dimension": {
+          "dim": "theaurorian"
+        }
+      }
+    },
+    {
       "uid": "f573d93f-a4a9-4aa3-bfdd-2d999b1dfd93",
       "duration": 100,
       "inputs": {

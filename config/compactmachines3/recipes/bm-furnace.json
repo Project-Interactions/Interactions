@@ -10,7 +10,6 @@
 
   "catalyst": "mysticalagriculture:ingot_storage",
   "catalyst-meta":4,
-
   
   "input-types": {
     "a": {
@@ -18,73 +17,53 @@
       "meta": 0
     },
     "b": {
-      "id": "jaopca:block.hard_carbon",
-      "meta": 0
-    },
-    "c": {
-      "id": "nuclearcraft:nuclear_furnace",
-      "meta": 0
-    },
-    "d": {
-      "id": "nuclearcraft:nuclear_furnace",
-      "meta": 0
-    },
-    "e": {
-      "id": "nuclearcraft:nuclear_furnace",
-      "meta": 0
-    },
-    "f": {
       "id": "contenttweaker:sub_block_holder_0",
       "meta": 15
     },
-    "g": {
-      "id": "calculator:reinforcedfurnace",
+    "c": {
+      "id": "jaopca:block.hard_carbon",
       "meta": 0
     },
-    "h": {
-      "id": "calculator:reinforcedfurnace",
-      "meta": 0
-    },
-    "i": {
-      "id": "nuclearcraft:nuclear_furnace",
-      "meta": 0
+    "d": {
+      "id": "morefurnaces:furnaceblock",
+      "meta": 3
     }
   },
   "shape": [
     [
       [
         "a",
-        "b",
-        "b",
-        "b",
+        "a",
+        "_",
+        "a",
         "a"
       ],
       [
-        "b",
-        "_",
         "a",
         "_",
-        "b"
+        "_",
+        "_",
+        "a"
       ],
       [
-        "b",
-        "a",
-        "b",
-        "a",
-        "b"
-      ],
-      [
-        "b",
         "_",
-        "a",
         "_",
-        "b"
+        "_",
+        "_",
+        "_"
       ],
       [
         "a",
-        "b",
-        "b",
-        "b",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "_",
+        "a",
         "a"
       ]
     ],
@@ -98,9 +77,46 @@
       ],
       [
         "_",
+        "c",
+        "c",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "c",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "c",
+        "c",
+        "_"
+      ],
+      [
         "_",
         "_",
         "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "d:B",
+        "_",
+        "d:A",
         "_"
       ],
       [
@@ -112,9 +128,9 @@
       ],
       [
         "_",
+        "d:A",
         "_",
-        "_",
-        "_",
+        "d:A",
         "_"
       ],
       [
@@ -135,9 +151,9 @@
       ],
       [
         "_",
+        "d:B",
         "_",
-        "_",
-        "_",
+        "d:B",
         "_"
       ],
       [
@@ -149,9 +165,9 @@
       ],
       [
         "_",
+        "d:A",
         "_",
-        "_",
-        "_",
+        "d:A",
         "_"
       ],
       [
@@ -164,76 +180,39 @@
     ],
     [
       [
+        "b",
+        "b",
+        "_",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "_",
+        "b",
+        "b"
+      ],
+      [
         "_",
         "_",
-        "_",
+        "b",
         "_",
         "_"
       ],
       [
+        "b",
+        "b",
         "_",
-        "f",
-        "f",
-        "f",
-        "_"
+        "b",
+        "b"
       ],
       [
+        "b",
+        "b",
         "_",
-        "f",
-        "f",
-        "f",
-        "_"
-      ],
-      [
-        "_",
-        "f",
-        "f",
-        "f",
-        "_"
-      ],
-      [
-        "_",
-        "_",
-        "_",
-        "_",
-        "_"
-      ]
-    ],
-    [
-      [
-        "c:A",
-        "c:A",
-        "c:A",
-        "c:A",
-        "c:A"
-      ],
-      [
-        "d:A",
-        "g:A",
-        "g:A",
-        "g:A",
-        "i:A"
-      ],
-      [
-        "d:A",
-        "g:A",
-        "g:A",
-        "g:A",
-        "i:A"
-      ],
-      [
-        "d:A",
-        "g:A",
-        "h:A",
-        "h:A",
-        "i:A"
-      ],
-      [
-        "e:A",
-        "e:A",
-        "e:A",
-        "e:A",
-        "c:A"
+        "b",
+        "b"
       ]
     ]
   ]

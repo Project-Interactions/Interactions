@@ -5,11 +5,13 @@ import crafttweaker.item.IIngredient;
 import mods.immersiveengineering.Excavator;
 import mods.immersiveengineering.MineralMix;
 import mods.immersiveengineering.Crusher;
-import mods.immersivepetroleum.Reservoir;
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.MetalPress;
 import mods.immersivetweaker.Recycling;
+//import mods.TweakedPetroleum.TweakedReservoir;
+
+
 //
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
@@ -139,18 +141,6 @@ recipes.remove(<immersiveengineering:material:1> * 4);
 recipes.remove(<immersiveengineering:material:2> * 4);
 recipes.addShapeless(<tconstruct:throwball:1> * 2, [<minecraft:redstone>,<ore:gunpowder>,<minecraft:redstone>,<ore:gunpowder>,<ore:compressed1xGravel>,<ore:gunpowder>,<minecraft:redstone>,<ore:gunpowder>,<minecraft:redstone>]);
 
-Reservoir.registerReservoir("MoltenGold", <liquid:gold>, 216000, 288000, 144, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("MoltenIron", <liquid:iron>, 216000, 288000, 144, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("MoltenNickel", <liquid:nickel>, 216000, 288000, 144, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("MoltenTin", <liquid:tin>, 216000, 288000, 144, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("Moltencopper", <liquid:copper>, 216000, 288000, 144, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("Moltensilver", <liquid:silver>, 216000, 288000, 144, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("Moltenlead", <liquid:lead>, 216000, 288000, 144, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("Moltenpyrotheum", <liquid:pyrotheum>, 187500, 250000, 250, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("Moltencryotheum", <liquid:cryotheum>, 187500, 250000, 250, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("Moltenaerotheum", <liquid:aerotheum>, 187500, 250000, 250, 60, [], [10], ["none"], ["all"]);
-Reservoir.registerReservoir("Moltenpetrotheum", <liquid:petrotheum>, 187500, 250000, 250, 60, [], [10], ["none"], ["all"]);
-
 mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <enderio:item_alloy_endergy_ingot>, 160,<immersiveengineering:material:7>);
 
 ArcFurnace.removeRecipe(<qmd:ingot:8>);
@@ -167,6 +157,8 @@ Excavator.removeMineral("Platinum");
 Excavator.removeMineral("Wolframite");
 Excavator.removeMineral("Ferberite");
 Excavator.removeMineral("Bauxite");
+Excavator.addMineral("Precious", 50, 0.005, ["orePrecious", "oreNickel"], [0.005, 0.01], [1]);
+
 
 recipes.removeShapeless(<immersiveengineering:material:20>);
 recipes.removeShapeless(<immersiveengineering:material:21>);
@@ -255,8 +247,6 @@ recipes.remove(<thaumcraft:ingot:2>);
 recipes.addShaped(<thaumcraft:ingot:2>,[[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>]]);
 MetalPress.removeRecipe(<thaumcraft:plate>);
 MetalPress.addRecipe(<thaumcraft:plate>,<thaumcraft:ingot:2>,<immersiveengineering:mold>,1024);
-
-
 
 
 

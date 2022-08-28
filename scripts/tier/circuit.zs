@@ -10,6 +10,7 @@
 <ore:circuitAdvanced>.add(<contenttweaker:mana_circuit>);
 <ore:circuitMana>.add(<contenttweaker:infused_mana_circuit>);
 
+<ore:circuitMana>.add(<contenttweaker:infused_mana_circuit>);
 
 
 

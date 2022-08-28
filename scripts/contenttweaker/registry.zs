@@ -41,8 +41,6 @@ static materials as Material[string] = {
     "Tough": MaterialSystem.getMaterialBuilder().setName("Tough").setColor(Color.fromHex("333333")).build(),
 	"Heavymetalelements": MaterialSystem.getMaterialBuilder().setName("Heavymetalelements").setColor(Color.fromHex("993333")).build(),
 	"Mithril": MaterialSystem.getMaterialBuilder().setName("Mithril").setColor(Color.fromHex("0099FF")).build(),
-	"Moonstone": MaterialSystem.getMaterialBuilder().setName("Moonstone").setColor(Color.fromHex("CCFFFF")).build(),
-	"Cerulean": MaterialSystem.getMaterialBuilder().setName("Cerulean").setColor(Color.fromHex("0099FF")).build(),
 	"Semiconductor": MaterialSystem.getMaterialBuilder().setName("Semiconductor").setColor(Color.fromHex("FFFAFA")).build(),
 	"Energium": MaterialSystem.getMaterialBuilder().setName("Energium").setColor(Color.fromHex("FF2727")).build(),
 	"UUMatter": MaterialSystem.getMaterialBuilder().setName("UUMatter").setColor(Color.fromHex("DF00E3")).build(),
@@ -68,8 +66,6 @@ materials.Cloudium.registerParts(["block"] as string[]);
 materials.Tough.registerParts(["block"] as string[]);
 materials.Heavymetalelements.registerParts(["block", "ingot","plate","gear","rod","nugget","dust"] as string[]);
 materials.Mithril.registerParts(["block","ore"] as string[]);
-materials.Moonstone.registerParts(["ore","dust", "ingot"] as string[]);
-materials.Cerulean.registerParts(["ore","dust", "ingot"] as string[]);
 materials.Semiconductor.registerParts(["block", "ingot","plate","gear","rod","nugget","dust","dust_tiny","dust_small"] as string[]);
 materials.Energium.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);
 materials.UUMatter.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);

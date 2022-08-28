@@ -79,13 +79,13 @@ mods.ncsteamadditions.steam_compactor.removeRecipeWithOutput(<moreplates:void_pl
 mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
 
 Assembler.removeRecipeWithOutput(<qmd:semiconductor:4>);
-Assembler.addRecipe(<ore:siliconNDoped>,<ore:plateRedstoneAlloy>*4,<ore:ingotDyonite>,<ore:plateSilicon>*2,<qmd:semiconductor:4>*3);
+Assembler.addRecipe(<ore:siliconNDoped>,<ore:plateElectricium>*4,<ore:ingotDyonite>,<ore:plateSilicon>*2,<qmd:semiconductor:4>*3);
 
 Assembler.removeRecipeWithOutput(<qmd:semiconductor:5>);
-Assembler.addRecipe(<qmd:semiconductor:4>*3,<ore:plateRedstoneAlloy>*4,<ore:siliconPDoped>,<ore:dustHafniumOxide>,<qmd:semiconductor:5>);
+Assembler.addRecipe(<qmd:semiconductor:4>*3,<ore:ingotBloodInfusedIron>*4,<ore:siliconPDoped>,<ore:dustHafniumOxide>,<qmd:semiconductor:5>);
 
 Assembler.removeRecipeWithOutput(<qmd:semiconductor:6>);
-Assembler.addRecipe(<qmd:semiconductor:5>*3,<ore:plateRedstoneAlloy>*4,<ore:gearPlatinum>*2,<ore:wireBSCCO>*4,<qmd:semiconductor:6>);
+Assembler.addRecipe(<qmd:semiconductor:5>*3,<theaurorian:auroriansteel>*4,<ore:gearPlatinum>*2,<ore:wireBSCCO>*4,<qmd:semiconductor:6>);
 
 mods.nuclearcraft.Crystallizer.addRecipe(<liquid:molten_mana>*1000, <thermalfoundation:geode>);
 mods.nuclearcraft.Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);

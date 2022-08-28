@@ -126,7 +126,8 @@
         "controller"
       ],
       "A": [
-        "item"
+        "item",
+        "fluid"
       ],
       "B": [
         "B"

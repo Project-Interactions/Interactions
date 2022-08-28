@@ -15,6 +15,18 @@
 
 <recipe name="Alloy: Enderium (Thermal Expansion)"><disabled/></recipe>
 
+<recipe name="Alloy: Energetic Alloy"><disabled/></recipe>
+<recipe name="Alloy: Vibrant Alloy"><disabled/></recipe>
+<recipe name="Alloy: Pulsating Iron"><disabled/></recipe>
+<recipe name="Alloy: Dark Steel"><disabled/></recipe>
+<recipe name="Alloy: Dark Steel, Variant"><disabled/></recipe>
+<recipe name="Alloy: End Steel"><disabled/></recipe>
+
+<recipe name="Alloy: Endergy Combustive Metal"><disabled/></recipe>
+<recipe name="Alloy: Endergy Crystalline Alloy"><disabled/></recipe>
+<recipe name="Alloy: Endergy Melodic Alloy"><disabled/></recipe>
+<recipe name="Alloy: Endergy Stellar Alloy"><disabled/></recipe>
+
 <!-- enderio:item_alloy_endergy_ingot -->
 <recipe name="IA:enderio:item_alloy_endergy_ingot" required="true">
   <alloying energy="4000" exp="0.1">
@@ -45,4 +57,77 @@
   </alloying>
 </recipe>
 
+<recipe name="IA:alloy_ingot:6" required="true">
+  <alloying energy="10000" exp="0.4">
+    <input name="enderio:item_alloy_endergy_ingot"/>
+    <input name="calculator:purifiedobsidian"/>
+    <output name="enderio:item_alloy_ingot:6"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_ingot:8" required="true">
+  <alloying energy="10000" exp="0.4">
+    <input name="enderio:item_alloy_ingot:6"/>
+    <input name="nuclearcraft:compound:9"/>
+    <output name="enderio:item_alloy_ingot:8"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_ingot:7" required="true">
+  <alloying energy="10000" exp="0.4">
+    <input name="enderio:item_alloy_ingot:1"/>
+    <input name="mysticalagriculture:soulstone"/>
+    <output name="enderio:item_alloy_ingot:7"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_ingot:1" required="true">
+  <alloying energy="10000" exp="0.4">
+    <input name="ingotElectrum"/>
+    <input name="nuclearcraft:compound:2"/>
+    <output name="enderio:item_alloy_ingot:1"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_ingot:5" required="true">
+  <alloying energy="10000" exp="0.4">
+    <input name="naturesaura:infused_iron"/>
+    <input name="minecraft:ender_eye"/>
+    <output name="enderio:item_alloy_ingot:5"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_endergy_ingot:5" required="true">
+  <alloying energy="100000" exp="0.4">
+    <input name="thaumadditions:mithrillium_ingot"/>
+    <input name="nuclearcraft:compound:2"/>
+    <output name="enderio:item_alloy_endergy_ingot:5"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_endergy_ingot:6" required="true">
+  <alloying energy="100000" exp="0.4">
+    <input name="enderio:item_alloy_endergy_ingot:5"/>
+    <input name="thermalfoundation:fertilizer:2"/>
+    <output name="enderio:item_alloy_endergy_ingot:6"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_endergy_ingot:1" required="true">
+  <alloying energy="100000" exp="0.4">
+    <input name="enderio:item_alloy_endergy_ingot:6"/>
+    <input name="enderio:item_material:36"/>
+    <input name="appliedenergistics2:material:7"/>
+    <output name="enderio:item_alloy_endergy_ingot:1"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_endergy_ingot:2" required="true">
+  <alloying energy="100000" exp="0.4">
+    <input name="plustic:mirioningot"/>
+    <input name="enderio:item_alloy_ingot:8"/>
+    <input name="minecraft:chorus_fruit_popped"/>
+    <output name="enderio:item_alloy_endergy_ingot:2"/>
+  </alloying>
+</recipe>
 </enderio:recipes>
