@@ -11,13 +11,14 @@
 
   "catalyst": "thaumadditions:adaminite_block",
   
+  
   "input-types": {
     "a": {
-      "id": "techreborn:machine_casing",
-      "meta": 1
+      "id": "psicosts:material_glassy",
+      "meta": 0
     },
     "b": {
-      "id": "psicosts:material_glassy",
+      "id": "taiga:terrax_block",
       "meta": 0
     },
     "c": {
@@ -25,12 +26,8 @@
       "meta": 0
     },
     "d": {
-      "id": "taiga:terrax_block",
-      "meta": 0
-    },
-    "e": {
-      "id": "contenttweaker:sub_block_holder_0",
-      "meta": 3
+      "id": "enderio:block_alloy",
+      "meta": 6
     }
   },
   "shape": [
@@ -42,7 +39,7 @@
       ],
       [
         "b",
-        "d",
+        "a",
         "b"
       ],
       [
@@ -53,19 +50,19 @@
     ],
     [
       [
-        "b",
-        "c",
-        "b"
+        "c:A",
+        "d",
+        "c:D"
       ],
       [
-        "c",
-        "e",
-        "c"
+        "d",
+        "c:C",
+        "d"
       ],
       [
-        "b",
-        "c",
-        "b"
+        "c:B",
+        "d",
+        "c:E"
       ]
     ],
     [
@@ -76,7 +73,7 @@
       ],
       [
         "b",
-        "d",
+        "a",
         "b"
       ],
       [

@@ -10,84 +10,81 @@
   "duration": 240,
   "symmetrical": true,
 
-  "catalyst": "contenttweaker:circuit_extreme3",
+  "catalyst": "qmd:semiconductor",
+  "catalyst-meta":6,
   
   "input-types": {
     "a": {
-      "id": "enderio:block_alloy",
+      "id": "mekanism:basicblock",
       "meta": 0
     },
     "b": {
       "id": "contenttweaker:sub_block_holder_0",
-      "meta": 8
+      "meta": 10
     },
     "c": {
       "id": "enderio:block_alloy",
-      "meta": 6
+      "meta": 8
     },
     "d": {
-      "id": "theaurorian:auroriansteelblock",
+      "id": "taiga:proxii_block",
       "meta": 0
     },
     "e": {
-      "id": "mekanism:basicblock",
+      "id": "theaurorian:auroriansteelblock",
       "meta": 0
-    },
-    "f": {
-      "id": "techreborn:machine_frame",
-      "meta": 2
     }
   },
   "shape": [
     [
       [
         "a",
-        "_",
+        "b",
         "a"
       ],
       [
-        "_",
-        "_",
-        "_"
+        "b",
+        "b",
+        "b"
       ],
       [
         "a",
-        "_",
+        "b",
         "a"
       ]
     ],
     [
       [
-        "b",
         "c",
-        "b"
-      ],
-      [
-        "c",
-        "_",
+        "d",
         "c"
       ],
       [
-        "b",
+        "d",
+        "e",
+        "d"
+      ],
+      [
         "c",
-        "b"
+        "d",
+        "c"
       ]
     ],
     [
       [
-        "d",
-        "e",
-        "d"
+        "a",
+        "b",
+        "a"
       ],
       [
-        "e",
-        "f",
-        "e"
+        "b",
+        "b",
+        "b"
       ],
       [
-        "d",
-        "e",
-        "d"
+        "a",
+        "b",
+        "a"
       ]
     ]
   ]

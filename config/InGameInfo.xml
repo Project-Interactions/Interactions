@@ -263,82 +263,47 @@
     </lines>
 
     <lines at="bottomleft">
-    <line>
-        <icon>
-            <str>thaumcraft:curio</str>
-            <num>5</num>
-        </icon>
-        <str> $6{thaumwarptemp}$7 / $c{thaumwarpnormal}$7 / $4{thaumwarpperm}</str>
-    </line>
-
-    <line>
-        <concat>
-            <icon>
-                <str>bloodmagic:textures/items/archmagebloodorb.png</str>
-                <num>0</num>
-                <num>0</num>
-                <num>16</num>
-                <num>16</num>
-                <num>16</num>
-                <num>16</num>
-                </icon>
-            <str> $c{bmcurrentlp}$r</str>
-        </concat>
-    </line>
-
-    <line>
-        <str> </str>
-    </line>
-    </lines>
-
-    <lines at="middleleft">
         <line>
-            <max>
-                <var>potiondurationticks0</var>
-                <num>0.5</num>
-                <str>{potionicon0} $a{potioneffect0}$r {potionduration0}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks1</var>
-                <num>0.5</num>
-                <str>{potionicon1} $a{potioneffect1}$r {potionduration1}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks2</var>
-                <num>0.5</num>
-                <str>{potionicon2} $a{potioneffect2}$r {potionduration2}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks3</var>
-                <num>0.5</num>
-                <str>{potionicon3} $a{potioneffect3}$r {potionduration3}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks4</var>
-                <num>0.5</num>
-                <str>{potionicon4} $a{potioneffect4}$r {potionduration4}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks5</var>
-                <num>0.5</num>
-                <str>{potionicon5} $a{potioneffect5}$r {potionduration5}</str>
-                <str/>
-            </max>
+            <if>
+                <greater>
+                    <add>
+                        <var>thaumwarptemp</var>
+                        <add>
+                            <var>thaumwarpnormal</var>
+                            <var>thaumwarpperm</var>
+                        </add>
+                    </add>
+                    <num>0</num>
+                </greater>
+                <concat>
+                    <icon>
+                        <str>thaumcraft:curio</str>
+                        <num>5</num>
+                    </icon>
+                    <str> $6{thaumwarptemp}$7/$c{thaumwarpnormal}$7/$4{thaumwarpperm}</str>
+                </concat>
+                <str />
+            </if>
+            <if>
+                <greater>
+                    <var>bmcurrentlp</var>
+                    <num>0</num>
+                </greater>
+                <concat>
+                    <str> $7| </str>
+                    <icon>
+                        <str>bloodmagic:textures/items/weakbloodorb.png</str>
+                        <num>0</num>
+                        <num>0</num>
+                        <num>16</num>
+                        <num>16</num>
+                        <num>16</num>
+                        <num>16</num>
+                    </icon>
+                    <str>$b{bmcurrentlp}</str>
+                </concat>
+                <str />
+            </if>
         </line>
     </lines>
 
