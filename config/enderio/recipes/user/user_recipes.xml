@@ -26,6 +26,8 @@
 <recipe name="Alloy: Endergy Crystalline Alloy"><disabled/></recipe>
 <recipe name="Alloy: Endergy Melodic Alloy"><disabled/></recipe>
 <recipe name="Alloy: Endergy Stellar Alloy"><disabled/></recipe>
+<recipe name="Alloy: Vivid Alloy"><disabled/></recipe>
+<recipe name="Alloy: Energetic Silver Alloy"><disabled/></recipe>
 
 <!-- enderio:item_alloy_endergy_ingot -->
 <recipe name="IA:enderio:item_alloy_endergy_ingot" required="true">
@@ -94,6 +96,14 @@
     <input name="naturesaura:infused_iron"/>
     <input name="minecraft:ender_eye"/>
     <output name="enderio:item_alloy_ingot:5"/>
+  </alloying>
+</recipe>
+
+<recipe name="IA:alloy_ingot:2" required="true">
+  <alloying energy="10000" exp="0.4">
+    <input name="enderio:item_alloy_ingot:1"/>
+    <input name="minecraft:ender_eye"/>
+    <output name="enderio:item_alloy_ingot:2"/>
   </alloying>
 </recipe>
 

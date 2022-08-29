@@ -157,7 +157,8 @@ Excavator.removeMineral("Platinum");
 Excavator.removeMineral("Wolframite");
 Excavator.removeMineral("Ferberite");
 Excavator.removeMineral("Bauxite");
-Excavator.addMineral("Precious", 50, 0.005, ["orePrecious", "oreNickel"], [0.005, 0.01], [1]);
+Excavator.removeMineral("Nickel");
+Excavator.addMineral("Precious", 50, 0.005, ["oreCrudeGold", "oreNickel", "oreIron"], [0.005, 0.01, 0.01], [1]);
 
 
 recipes.removeShapeless(<immersiveengineering:material:20>);

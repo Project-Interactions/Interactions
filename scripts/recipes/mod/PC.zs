@@ -47,7 +47,7 @@ mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:capacitor>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:transistor>], 1, [<pneumaticcraft:plastic>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:8>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:capacitor>], 1, [<pneumaticcraft:plastic:4>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:4>]);
 
-mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:plastic:*>*8,<moreplates:crystalline_alloy_gear>*2,<appliedenergistics2:material:24>*6], 8, [<contenttweaker:pneumatic_circuit>*3]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:plastic:*>*8,<moreplates:pulsating_iron_gear>*2,<appliedenergistics2:material:24>*6], 8, [<contenttweaker:pneumatic_circuit>*3]);
 
 mods.pneumaticcraft.refinery.addRecipe(<liquid:electrical_steel>*10, [<liquid:hot_blend_caminite>*5,<liquid:steel>*5]);
 

@@ -1,8 +1,8 @@
 {
-	title: "八阶段",
-	icon: "plustic:osgloglasingot",
+	title: "《将万物压缩获得宇宙的力量》",
+	icon: "avaritia:resource 1 4",
 	description: [
-		"通用机械与龙之研究"
+		"阶段八"
 	],
 	always_invisible: false,
 	group: 0,

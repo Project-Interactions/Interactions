@@ -97,6 +97,7 @@ recipes.removeShaped(<mekanism:basicblock:14>, [[<ore:circuitAdvanced>, <ore:pan
 recipes.remove(<mekanism:basicblock2> * 4);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_interface_tier3>,<appliedenergistics2:part:441>]);
 recipes.addShapeless(<theaurorian:auroriansteel>*9, [<theaurorian:auroriansteelblock>]);
 recipes.addShaped(<interaction:mixer>, [[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>],[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>], [<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>]]);
 recipes.addShaped(<interaction:chemical_reactor>, [[<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>],[<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>], [<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:3>]]);

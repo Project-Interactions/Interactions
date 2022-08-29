@@ -1,8 +1,8 @@
 {
-	title: "终章",
+	title: "《获的创造之力》",
 	icon: "avaritia:resource 1 6",
 	description: [
-		"创造物品"
+		"终章"
 	],
 	always_invisible: false,
 	group: 0,

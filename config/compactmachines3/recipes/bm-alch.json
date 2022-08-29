@@ -16,14 +16,6 @@
       "id": "embers:alchemy_tablet",
       "meta": 0
     },
-    "b": {
-      "id": "embers:alchemy_tablet",
-      "meta": 0
-    },
-    "c": {
-      "id": "embers:alchemy_tablet",
-      "meta": 0
-    },
     "d": {
       "id": "calculator:material",
       "meta": 6
@@ -67,29 +59,29 @@
     ],
     [
       [
-        "b:A",
-        "c",
-        "b:A"
+        "a:A",
+        "a",
+        "a:A"
       ],
       [
-        "b:A",
+        "a:A",
         "f",
-        "b:A"
+        "a:A"
       ],
       [
-        "b:A",
+        "a:A",
         "f",
-        "b:A"
+        "a:A"
       ],
       [
-        "b:A",
+        "a:A",
         "f",
-        "b:A"
+        "a:A"
       ],
       [
-        "b:A",
-        "c",
-        "b:A"
+        "a:A",
+        "a",
+        "a:A"
       ]
     ],
     [
