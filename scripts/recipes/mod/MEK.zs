@@ -16,6 +16,25 @@ RecipeUtils.recipeTweak(true, <mekanism:tierinstaller:1>, [[<ore:alloyAdvanced>,
 RecipeUtils.recipeTweak(true, <mekanism:tierinstaller:2>, [[<ore:alloyElite>, <ore:circuitNuclear>, <ore:alloyElite>], [<ore:ingotGold>, <ore:plankWood>, <ore:ingotGold>], [<ore:alloyElite>,<ore:circuitNuclear>, <ore:alloyElite>]]);
 RecipeUtils.recipeTweak(true, <mekanism:tierinstaller:3>, [[<ore:alloyUltimate>, <ore:circuitUniversal>, <ore:alloyUltimate>], [<ore:gemDiamond>, <ore:plankWood>, <ore:gemDiamond>], [<ore:alloyUltimate>, <ore:circuitUniversal>, <ore:alloyUltimate>]]);
 
+RecipeUtils.recipeTweak(true,<mekanism:machineblock>, [[<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>], [<ore:plateCrystallineAlloy>, <mekanism:basicblock:8>, <ore:plateCrystallineAlloy>], [<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock:1>, [[<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>], [<minecraft:bucket>, <mekanism:basicblock:8>, <minecraft:bucket>], [<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock:2>, [[<ore:alloyElite>, <ore:circuitNuclear>, <ore:alloyElite>], [<ore:cobblestone>, <mekanism:basicblock:8>, <ore:cobblestone>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock:3>, [[<ore:dustRedstone>, <ore:circuitElite>, <ore:dustRedstone>], [<minecraft:lava_bucket>, <mekanism:basicblock:8>, <minecraft:lava_bucket>], [<ore:dustRedstone>, <ore:circuitElite>, <ore:dustRedstone>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock:9>, [[<ore:alloyAdvanced>, <ore:circuitMaster>, <ore:alloyAdvanced>], [<ore:ingotOsmium>, <mekanism:machineblock>, <ore:ingotOsmium>], [<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock:10>, [[<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>], [<ore:blockGlass>, <mekanism:basicblock:8>, <ore:blockGlass>], [<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2>, [[<ore:blockGlass>, <ore:circuitElite>, <ore:blockGlass>], [<mekanism:gastank>.withTag({tier: 0}), <mekanism:energytablet>, <mekanism:machineblock2:11>.withTag({tier: 0})], [<ore:blockGlass>, <ore:circuitElite>, <ore:blockGlass>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:1>, [[<mekanism:enrichedalloy>, <ore:circuitElite>, <mekanism:enrichedalloy>], [<mekanism:machineblock:13>, <mekanism:basicblock:9>, <mekanism:gastank>.withTag({tier: 0})], [<mekanism:enrichedalloy>, <ore:circuitElite>, <mekanism:enrichedalloy>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:2>, [[<mekanism:enrichedalloy>, <ore:circuitElite>, <mekanism:enrichedalloy>], [<mekanism:gastank>.withTag({tier: 0}), <mekanism:basicblock:9>, <mekanism:gastank>.withTag({tier: 0})], [<mekanism:enrichedalloy>, <ore:circuitElite>, <mekanism:enrichedalloy>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:3>, [[<ore:alloyElite>, <ore:circuitNuclear>, <ore:alloyElite>], [<ore:ingotGold>, <mekanism:machineblock:9>, <ore:ingotGold>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:4>, [[<ore:plateCrystallineAlloy>, <ore:dustRedstone>, <ore:plateCrystallineAlloy>], [<mekanism:enrichedalloy>, <mekanism:electrolyticcore>, <mekanism:enrichedalloy>], [<ore:plateCrystallineAlloy>, <ore:dustRedstone>, <ore:plateCrystallineAlloy>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:5>, [[<ore:plateCrystallineAlloy>, <ore:circuitElite>, <ore:plateCrystallineAlloy>], [<mekanism:enrichedalloy>, <mekanism:basicblock:8>, <mekanism:enrichedalloy>], [<ore:plateCrystallineAlloy>, <ore:circuitElite>, <ore:plateCrystallineAlloy>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:6>, [[<ore:circuitElite>, <mekanism:gastank>.withTag({tier: 0}), <ore:circuitElite>], [<mekanism:enrichedalloy>, <mekanism:atomicalloy>, <mekanism:enrichedalloy>], [<ore:circuitElite>, <mekanism:gastank>.withTag({tier: 0}), <ore:circuitElite>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:7>, [[<ore:circuitElite>, <minecraft:bucket>, <ore:circuitElite>], [<mekanism:enrichedalloy>, <mekanism:basicblock:8>, <mekanism:enrichedalloy>], [<ore:circuitElite>, <mekanism:gastank>.withTag({tier: 0}), <ore:circuitElite>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:8>, [[<ore:circuitElite>, <mekanism:gastank>.withTag({tier: 0}), <ore:circuitElite>], [<mekanism:atomicalloy>, <mekanism:basicblock:8>, <mekanism:atomicalloy>], [<ore:circuitElite>, <mekanism:gastank>.withTag({tier: 0}), <ore:circuitElite>]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock2:10>, [[<theaurorian:auroriansteel>, <mekanism:enrichedalloy>, <theaurorian:auroriansteel>], [<ore:circuitElite>, <mekanism:machineblock>, <ore:circuitElite>], [<mekanism:gastank>.withTag({tier: 0}), <mekanism:basicblock:9>, <mekanism:gastank>.withTag({tier: 0})]]);
+RecipeUtils.recipeTweak(true,<mekanism:machineblock:12>, [[null, <thaumcraft:smelter_aux>, null], [<mekanism:enrichedalloy>, <mekanism:basicblock:8>, <mekanism:enrichedalloy>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
+RecipeUtils.recipeTweak(true,<mekanism:electrolyticcore>, [[<mekanism:enrichedalloy>, <ore:dustOsmium>, <mekanism:enrichedalloy>], [<ore:circuitElite>, <mekanism:enrichedalloy>, <ore:circuitElite>], [<mekanism:enrichedalloy>, <ore:dustOsmium>, <mekanism:enrichedalloy>]]);
+RecipeUtils.recipeTweak(true,<mekanism:energytablet>, [[<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>], [<mekanism:enrichedalloy>, <ore:circuitElite>, <mekanism:enrichedalloy>], [<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>]]);
 
 
 mods.mekanism.thermalevaporation.addRecipe(<liquid:fluxed_electrum>, <liquid:semiconductor>);
@@ -57,3 +76,13 @@ val remove as IItemStack[] =
 for Remove in remove {
     recipes.remove(Remove);
 }
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:basicblock:14>, [
+	[<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]
+]);

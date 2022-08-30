@@ -93,7 +93,7 @@ recipes.removeShapeless(<tconevo:metal:37> * 9);
 recipes.remove(<tconevo:metal:40>);
 recipes.removeShapeless(<tconevo:metal:40> * 9);
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.removeShaped(<mekanism:basicblock:14>, [[<ore:circuitAdvanced>, <ore:paneGlass>, <ore:circuitAdvanced>], [<mekanism:basicblock2>, <minecraft:bucket>, <mekanism:basicblock2>], [<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]]);
+recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
 //Don't touch me!
 //#Add
@@ -141,7 +141,6 @@ recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget
 recipes.addShaped(<tinkertoolcasts:upgrade_reinforced>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_ingot>, <immersiveintelligence:material_nugget>],[<tinkertoolcasts:upgrade_advanced>, <immersiveintelligence:material_ingot>, <tinkertoolcasts:upgrade_advanced>], [null, <immersiveintelligence:material_ingot>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>],[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>], [null, <techreborn:ingot:19>, null]]);
 recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
-recipes.addShaped(<mekanism:basicblock:14>, [[<contenttweaker:circuit_extreme3>, <thaumicaugmentation:fortified_glass_pane>, <contenttweaker:circuit_extreme3>],[<mekanism:basicblock2>, <contenttweaker:crystal_colorful>, <mekanism:basicblock2>], [<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]]);
 recipes.addShaped(<contenttweaker:sub_block_holder_0:10>, [[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>],[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>], [<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>]]);
 recipes.removeShaped(<rftools:matter_beamer>, [[<minecraft:redstone_block>, <minecraft:glowstone>, <minecraft:redstone_block>], [<minecraft:glowstone>, <rftools:machine_frame>, <minecraft:glowstone>], [<minecraft:redstone_block>, <minecraft:glowstone>, <minecraft:redstone_block>]]);
 recipes.addShaped(<rftools:matter_beamer>, [[<minecraft:redstone_block>, <techreborn:uumatter>, <minecraft:redstone_block>], [<techreborn:uumatter>, <rftools:machine_frame>, <techreborn:uumatter>], [<minecraft:redstone_block>, <techreborn:uumatter>, <minecraft:redstone_block>]]);

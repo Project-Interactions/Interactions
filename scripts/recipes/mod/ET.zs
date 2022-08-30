@@ -10,6 +10,7 @@ recipes.removeShaped(<environmentaltech:void_ore_miner_cont_1>, [[<ore:blockLith
 recipes.remove(<environmentaltech:connector> * 4);
 recipes.remove(<environmentaltech:diode>);
 recipes.remove(<environmentaltech:litherite_crystal> * 4);
+recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
 recipes.addShaped(<environmentaltech:structure_panel>, [[<ore:plateElectrum>, <extrautils2:decorativesolid:7>, <ore:plateElectrum>],[<extrautils2:decorativesolid:7>, <environmentaltech:connector>, <extrautils2:decorativesolid:7>], [<ore:plateElectrum>, <extrautils2:decorativesolid:7>, <ore:plateElectrum>]]);
 recipes.addShaped(<environmentaltech:laser_core>, [[<calculator:flawlessglass>, <environmentaltech:connector>, <calculator:flawlessglass>],[<calculator:flawlessglass>, <environmentaltech:laser_lens>, <calculator:flawlessglass>], [<calculator:flawlessglass>, <environmentaltech:connector>, <calculator:flawlessglass>]]);
 recipes.addShapeless(<environmentaltech:structure_panel_clear>, [<environmentaltech:structure_panel>,<appliedenergistics2:quartz_glass>]);
@@ -30,11 +31,11 @@ recipes.addShaped(<environmentaltech:modifier_null>, [[<pneumaticcraft:ingot_iro
 recipes.remove(<environmentaltech:void_ore_miner_cont_2>);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <environmentaltech:void_ore_miner_cont_3>, [
-	[<ore:blockKyronite>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:blockKyronite>], 
+	[<ore:blockKyronite>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:blockKyronite>], 
 	[<ore:blockKyronite>, <extendedcrafting:material:48>, <ore:etLaserLens>, <extendedcrafting:material:48>, <ore:blockKyronite>], 
 	[<ore:blockKyronite>, <extendedcrafting:material:48>, <environmentaltech:void_ore_miner_cont_2>, <extendedcrafting:material:48>, <ore:blockKyronite>], 
 	[<ore:blockKyronite>, <extendedcrafting:material:48>, <ore:etLaserLens>, <extendedcrafting:material:48>, <ore:blockKyronite>], 
-	[<ore:blockKyronite>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:blockKyronite>]
+	[<ore:blockKyronite>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:blockKyronite>]
 ]);
 
 /*
