@@ -1,0 +1,586 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/fancymenu/images/menu.png
+  action = texturizebackground
+}
+
+customization {
+  path = resources/fancymenu/sounds/music.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 108
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\multiplayer.png
+  backgroundnormal = resources\fancymenu\images\singleplayera.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = resources\fancymenu\sounds\join.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = resources/fancymenu/sounds/choose.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttondescription
+  description = Multiplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 51
+  action = resizebutton
+  height = 19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Settings
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\settings.png
+  backgroundnormal = resources\fancymenu\images\settingsandmods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = resources\fancymenu\sounds\keyboarda.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label = §eSettings
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = resources/fancymenu/sounds/keyboardc.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttondescription
+  description = Game Settings
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-right
+  x = -93
+  action = movebutton
+  y = 54
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = §cQuit Game
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\quitb.png
+  backgroundnormal = resources\fancymenu\images\quita.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  path = resources\fancymenu\sounds\keyboardb.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = §4Really ?
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  path = resources/fancymenu/sounds/keyboardc.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttondescription
+  description = Quit Game
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = 54
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 19
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\languageb.png
+  backgroundnormal = resources\fancymenu\images\languagea.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  path = resources\fancymenu\sounds\papera.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  path = resources/fancymenu/sounds/paperb.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Game Language
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-right
+  x = -121
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 108
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\singleplayerb.png
+  backgroundnormal = resources\fancymenu\images\singleplayera.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = resources\fancymenu\sounds\join.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = resources/fancymenu/sounds/choose.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttondescription
+  description = Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-right
+  x = -64
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 51
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\images\mods.png
+  backgroundnormal = resources\fancymenu\images\settingsandmods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  path = resources\fancymenu\sounds\keyboarda.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  path = resources/fancymenu/sounds/keyboardc.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttondescription
+  description = Game Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 113
+  width = 200
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 182e2f19-5b65-46fa-8d33-60ccbd04b84b1657099597778
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 121
+  action = deep_customization_element:title_screen_branding
+  actionid = 248fc87c-be27-4d60-8c1e-661398c7ea1d1657099597779
+  y = 188
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 311
+  width = 168
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 14d19325-e9a1-4309-aaf0-7d3da1d0b02e1657099597779
+  y = 235
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f46947b6-ac57-48a6-8622-fc271f9388961657099597779
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 4534c748-ad93-42bd-b6f2-997f793e740f1657099597779
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 4eabbe05-57f5-4a11-8001-baa227a6bb411657099597779
+  y = 0
+  height = 30
+}
+
+customization {
+  path = resources/fancymenu/images/logo.png
+  orientation = top-left
+  x = 7
+  width = 259
+  actionid = 61cf2768-bff1-4ffd-a38c-68f126fbd3501628554642869
+  action = addtexture
+  y = 16
+  height = 55
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 16
+  actionid = 2cdd0f62-2a69-4be5-b13e-2837741454f11628555399411
+  action = addtext
+  y = -17
+  scale = 1.0
+  alignment = left
+  value = Hello , §e%playername%！
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 6fa971e2-71c9-4a85-98d9-dcb61c1534801628555465572
+  action = addtext
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = §9Interaction §5Made By §6mczph
+}
+
+customization {
+  orientation = top-left
+  basecolor = #d3a300
+  shadow = true
+  splashfilepath = resources\fancymenu\splash.txt
+  rotation = -15.0
+  x = 231
+  actionid = ade5f768-ced1-487a-9d8d-c2d9d58831991628555509847
+  action = addsplash
+  y = 61
+  scale = 0.8
+  refresh = false
+  bouncing = true
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 2db62829-c0f6-452f-8d78-7694ab2d1f211628555664940
+  action = addtext
+  y = -45
+  scale = 1.0
+  alignment = left
+  value = Minecraft Version : §7%mcversion%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 8918afbe-70ad-419c-af1a-e8a42a326c2c1628555718974
+  action = addtext
+  y = -18
+  scale = 1.0
+  alignment = left
+  value = Active Mods : §a%loadedmods%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = cd0fd4b7-ea4d-4191-9b86-446c8fbdd44a1628555781674
+  action = addtext
+  y = -27
+  scale = 1.0
+  alignment = left
+  value = Total Mods : §d%totalmods%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  actionid = 973515e2-0f8b-4e45-ba54-137e3751737d1628555873415
+  action = addtext
+  y = -36
+  scale = 1.0
+  alignment = left
+  value = Forge Version : §b%version:forge%
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\images\links\afdian.png
+  description = 支持我们?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
+  loopbackgroundanimations = true
+  x = 147
+  width = 36
+  actionid = 307abdf2-8d41-4967-aa91-252a87ff87d91631435630544
+  action = addbutton
+  y = 28
+  backgroundnormal = resources\fancymenu\images\links\afdian.png
+  value = https://afdian.net/@mczph
+  height = 36
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\images\links\mcbbs.png
+  description = 查看服务器宣传帖?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
+  loopbackgroundanimations = true
+  x = 17
+  width = 87
+  actionid = da9d6b9a-7726-4b6e-beaa-2c5c490ab84d1631435630544
+  action = addbutton
+  y = 28
+  backgroundnormal = resources\fancymenu\images\links\mcbbs.png
+  value = https://www.mcbbs.net/thread-1172950-1-1.html
+  height = 35
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\images\links\github.png
+  description = 翻阅源码?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
+  loopbackgroundanimations = true
+  x = 243
+  width = 30
+  actionid = b42d218d-fa96-46b3-b2aa-cf20fc345be41631435630545
+  action = addbutton
+  y = 30
+  backgroundnormal = resources\fancymenu\images\links\github.png
+  value = https://github.com/Project-Interactions/Interactions
+  height = 30
+}
+
+customization {
+  path = resources/fancymenu/images/info.png
+  orientation = mid-left
+  x = 7
+  width = 281
+  actionid = b000b46a-729f-45ed-bb63-933885a0ea0a1628563564086
+  action = addtexture
+  y = -24
+  height = 99
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 15
+  actionid = 68496809-7074-4962-a4f7-55e416ad1f3e1628564331891
+  action = addtext
+  y = -6
+  scale = 1.0
+  alignment = left
+  value = 欢迎游玩 §9Interaction 交汇§f整合包。
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 15
+  actionid = 8e6a1841-5849-4f50-a1e5-af4513af889a1628564825030
+  action = addtext
+  y = 5
+  scale = 1.0
+  alignment = left
+  value = §a本整合包有超过450模组！
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 15
+  actionid = 2943a919-7246-4056-8853-40d7ce522b5d1628564987239
+  action = addtext
+  y = 16
+  scale = 1.0
+  alignment = left
+  value = §e祝您游戏愉快！
+}
+
