@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.tinkersoddities;
+
 mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>);
 mods.tconstruct.Melting.removeRecipe(<liquid:coal>);
 mods.tconstruct.Melting.removeRecipe(<liquid:redstone>);

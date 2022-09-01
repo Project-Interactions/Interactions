@@ -1,0 +1,26 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"自动化奥术工作台"
+	],
+	dependencies: [
+		"eae802b2"
+	],
+	tasks: [{
+		uid: "222434b9",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_inscriber"
+		}]
+	},
+	{
+		uid: "67bceeae",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:blank_knowledge_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

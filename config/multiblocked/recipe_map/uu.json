@@ -1,0 +1,91 @@
+{
+  "name": "uu",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "0d6b429b-bc0e-4f8a-aea6-b4c1fd6e39af",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"qmd:waste_fission\",Count:16b,Damage:0s}",
+                "{id:\"qmd:waste_fission\",Count:16b,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "qmd_particle": [
+          {
+            "chance": 1.0,
+            "content": {
+              "particle": "neutron",
+              "amount": 1,
+              "focus": 0.0,
+              "energy": 0
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"uu\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ae1c82a5-1528-428c-9dd2-b08e03cc26a9",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"techreborn:scrapbox\",Count:64b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "qmd_particle": [
+          {
+            "chance": 1.0,
+            "content": {
+              "particle": "neutron",
+              "amount": 1,
+              "focus": 0.0,
+              "energy": 0
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"uu\",Amount:10}"
+          }
+        ]
+      }
+    }
+  ]
+}

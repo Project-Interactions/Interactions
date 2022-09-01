@@ -1,0 +1,176 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:uu_crafter",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "qmd:nucleosynthesis_chamber_controller",
+      "meta": 3
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "  AAA  ",
+        " ABBBA ",
+        "  AAA  "
+      ],
+      [
+        " ABBBA ",
+        "ACCCCCA",
+        " ABBBA "
+      ],
+      [
+        "ABBBBBD",
+        "BCEEECF",
+        "ABBBBBD"
+      ],
+      [
+        "ABBBBBD",
+        "BCEEEC@",
+        "ABBBBBD"
+      ],
+      [
+        "ABBBBBD",
+        "BCEEECG",
+        "ABBBBBD"
+      ],
+      [
+        " ABBBA ",
+        "ACCCCCA",
+        " ABBBA "
+      ],
+      [
+        "  AAA  ",
+        " ABBBA ",
+        "  AAA  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "qmd:vacuum_chamber_plasma_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:uu_crafter",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "bfr:reactorglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "qmd:containment_coil",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "contenttweaker:sub_block_holder_0",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "qmd": {
+        "capability": "qmd_particle",
+        "type": "capability"
+      },
+      "any": {
+        "type": "any"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "energy"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "item"
+      ],
+      "G": [
+        "qmd"
+      ]
+    }
+  },
+  "recipeMap": "uu"
+}

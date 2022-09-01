@@ -1,0 +1,19 @@
+{
+	x: -11.5d,
+	y: -3.5d,
+	text: [
+		"需要exu2的所有发电机一起工作（10t内工作1t）",
+		"发电速度25000000rf/t"
+	],
+	dependencies: [
+		"a6ed8598",
+		"c34f01d0"
+	],
+	tasks: [{
+		uid: "388e66b4",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}]
+}

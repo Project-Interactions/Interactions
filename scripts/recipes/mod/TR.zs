@@ -146,14 +146,6 @@ mods.techreborn.industrialGrinder.addRecipe(<enderio:item_material:20>*64,<taiga
 mods.techreborn.industrialGrinder.addRecipe(<taiga:meteorite_dust>*2,<taiga:duranite_dust>,null,null,<taiga:meteoritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
 mods.techreborn.industrialGrinder.addRecipe(<taiga:obsidiorite_dust>*2,<taiga:uru_dust>,null,null,<taiga:obsidioritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
 
-
-recipes.removeShaped(<techreborn:fusion_control_computer>, [[<ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>], [<ore:energyCrystal>, <techreborn:fusion_coil>, <ore:energyCrystal>], [<ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>]]);
-recipes.removeShaped(<techreborn:fusion_coil>, [[<ore:circuitMaster>, <ore:craftingSuperconductor>, <ore:circuitMaster>], [<techreborn:part:14>, <techreborn:machine_casing:2>, <techreborn:part:14>], [<ore:circuitMaster>, <techreborn:iridiumneutronreflector>, <ore:circuitMaster>]]);
-
-recipes.addShaped(<techreborn:fusion_control_computer>, [[<contenttweaker:circuit_elite3>, <contenttweaker:circuit_elite3>, <contenttweaker:circuit_elite3>], [<contenttweaker:sub_block_holder_0:5>, <techreborn:fusion_coil>, <contenttweaker:sub_block_holder_0:5>], [<contenttweaker:circuit_elite3>, <techreborn:adjustable_su>, <contenttweaker:circuit_elite3>]]);
-recipes.addShaped(<techreborn:fusion_coil>, [[<contenttweaker:circuit_elite3>, <contenttweaker:material_part:38>, <contenttweaker:circuit_elite3>], [<techreborn:part:14>, <techreborn:machine_casing:2>, <techreborn:part:14>], [<techreborn:iridiumneutronreflector>, <contenttweaker:circuit_elite3>, <techreborn:iridiumneutronreflector>]]);
-
-
 mods.techreborn.fusionReactor.removeRecipe(<techreborn:part:39>*4);
 
 mods.techreborn.fusionReactor.addRecipe(<techreborn:part:17>*4,<contenttweaker:sub_block_holder_0:5>,<techreborn:part:39>,400000000,-320000,1024,20);
@@ -164,7 +156,7 @@ mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<tec
 mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*4,<enderio:item_alloy_ingot:3>*8,<draconicevolution:wyvern_energy_core>,4000000,-40000,512);
 
 
-mods.techreborn.fusionReactor.addRecipe(<jaopca:dense_plate.diamond>*4,<mekanism:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);
+mods.techreborn.fusionReactor.addRecipe(<jaopca:dense_plate.diamond>*4,<contenttweaker:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);
 
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:49>*20);
 mods.techreborn.industrialElectrolyzer.addRecipe(<thermalfoundation:material:68>*3,<techreborn:dust:31>*5,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*4,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*5,<techreborn:dynamiccell>*9,<techreborn:dust:49>*15,160,280);
@@ -193,3 +185,9 @@ recipes.remove(<techreborn:cable:4> * 6);
 recipes.addShaped(<techreborn:cable:4>,[[<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>],[<ore:rodUnstable>,<ore:rodUnstable>,<ore:rodUnstable>],[<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>]]);
 
 RecipeUtils.recipeTweak(true, <techreborn:reinforced_glass> * 7, [[<thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>], [<ore:plateAdvancedAlloy>, <thaumicaugmentation:starfield_glass:2>, <ore:plateAdvancedAlloy>], [<thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>]]);
+RecipeUtils.recipeTweak(true, <techreborn:fusion_control_computer>, [[<ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>], [<ore:blockSuperconduct>, <techreborn:fusion_coil>, <ore:blockSuperconduct>], [<ore:circuitUniversal>, <techreborn:interdimensional_su>, <ore:circuitUniversal>]]);
+RecipeUtils.recipeTweak(true, <techreborn:fusion_coil>, [[<ore:gearSuperconduct>, <techreborn:iridiumneutronreflector>, <ore:gearSuperconduct>], [<techreborn:part:17>, <ore:circuitUniversal>, <techreborn:part:17>], [<ore:gearSuperconduct>, <techreborn:iridiumneutronreflector>, <ore:gearSuperconduct>]]);
+
+RecipeUtils.recipeTweak(true, <techreborn:matter_fabricator>, [[<techreborn:part:17>, <techreborn:extractor>, <ore:circuitUniversal>], [<appliedenergistics2:condenser>, <qmd:neutral_containment_controller>, <appliedenergistics2:condenser>], [<ore:circuitUniversal>, <techreborn:extractor>, <techreborn:part:17>]]);
+recipes.remove(<techreborn:part:17> * 4);
+recipes.addShaped(<techreborn:part:17> * 2, [[<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>], [<ore:plateSemiconductor>, <ore:plateIridiumAlloy>, <ore:plateSemiconductor>], [<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>]]);

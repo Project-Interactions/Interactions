@@ -111,12 +111,6 @@ mods.botania.OrechidEndium.removeOre(<ore:oreEndProsperity>);
 mods.botania.OrechidEndium.addOre(<ore:orePalladium>, 10);
 mods.botania.OrechidEndium.addOre(<ore:oreAurorium>, 6);
 mods.botania.OrechidEndium.addOre(<ore:oreAbyssum>, 10);
-
-
-mods.botania.OrechidEndium.addOre(<ore:oreEndBiotite>, 500);
-//魔力玻璃
-mods.botania.ManaInfusion.removeRecipe(<botania:managlass>);
-mods.botania.ManaInfusion.addInfusion(<botania:managlass>,<tconstruct:clear_glass>,2500);
 //泰拉凝聚板
 RecipeUtils.recipeTweak(true, <botania:terraplate>, [[<botanicadds:mana_lapis_block>,<botanicadds:mana_lapis_block>, <botanicadds:mana_lapis_block>], [<ore:runeWaterB>, <botania:storage>, <ore:runeFireB>], [<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
 Agglomeration.addRecipe(<botanicadds:terra_catalyst>,[<botania:alchemycatalyst>,<botania:manaresource:14>,<moreplates:terrasteel_gear>,<naturesaura:conversion_catalyst>],1000000,0xFFFF33,0x66FF33,<techreborn:machine_casing:2>,<compactmachines3:wallbreakable>,<botania:storage:1>,<techreborn:machine_casing:1>,<minecraft:stone>,null);

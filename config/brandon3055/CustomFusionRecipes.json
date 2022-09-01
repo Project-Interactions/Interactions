@@ -145,8 +145,7 @@
             "bloodmagic:blood_rune,1,3",
             "bloodmagic:slate,1,3",
             "bloodmagic:inscription_tool,1,5",
-            "bloodmagic:inscription_tool,1,5",
-            "scalinghealth:heartcontainer"
+            "bloodmagic:inscription_tool,1,5"
         ]
     },
     {
@@ -158,19 +157,6 @@
         "ingredients": [
             "minecraft:dragon_breath",
             "botania:manaresource,1,9"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:circuit_master3",
-        "catalyst": "contenttweaker:circuit_elite3",
-        "energy": 10000000,
-        "tier": 2,
-        "ingredients": [
-            "theaurorian:auroriansteel",
-            "tconevo:metal",
-            "moreplates:osmiridium_gear",
-            "avaritia:resource"
         ]
     },
     {

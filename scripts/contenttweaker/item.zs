@@ -91,6 +91,9 @@ VanillaFactory.createItem("tungsten_acid").register();
 VanillaFactory.createItem("rare_metal_slag").register();
 VanillaFactory.createItem("potassium_pyrosulfate").register();
 
+VanillaFactory.createItem("compressedredstone").register();
+VanillaFactory.createItem("compresseddiamond").register();
+VanillaFactory.createItem("compressedobsidian").register();
 
 
 

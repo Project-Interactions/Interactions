@@ -98,6 +98,7 @@ recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
 //Don't touch me!
 //#Add
+recipes.addShaped(<interaction:molecular_recombination>, [[<threng:big_assembler:4>, <bfr:reactorglass>, <threng:big_assembler:5>],[<bfr:reactorglass>, <threng:big_assembler:2>, <bfr:reactorglass>], [<threng:big_assembler:5>, <bfr:reactorglass>, <threng:big_assembler:4>]]);
 recipes.addShapeless(<theaurorian:moonglass> * 4, [<twilightforest:auroralized_glass>,<twilightforest:auroralized_glass>,<twilightforest:auroralized_glass>,<theaurorian:moonsand>]);
 recipes.addShaped(<pneumaticcraft:pressure_chamber_glass> * 8, [[<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>],[<moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>], [<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>]]);
 recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_interface_tier3>,<appliedenergistics2:part:441>]);

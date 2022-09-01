@@ -37,15 +37,14 @@ recipes.addShaped(<extrautils2:unstableingots:1>, [[<ore:ingotChrome>], [<ore:in
 
 
 
-
 mods.extendedcrafting.TableCrafting.addShaped(4, <extrautils2:rainbowgenerator>, [
 	[<extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>, <extrautils2:rainbowgenerator:2>], 
 	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
-	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
-	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <ore:circuitInfiniteQ>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <ore:circuitInfiniteQ>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
-	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <ore:circuitInfiniteQ>, <contenttweaker:crystal_colorful>, <extrautils2:machine>, <contenttweaker:crystal_colorful>, <ore:circuitInfiniteQ>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
-	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <ore:circuitInfiniteQ>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <ore:circuitInfiniteQ>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
-	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
+	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
+	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
+	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <environmentaltech:solar_cont_6>, <extrautils2:machine>, <environmentaltech:solar_cont_6>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
+	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
+	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
 	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
 	[<extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>]
 ]);

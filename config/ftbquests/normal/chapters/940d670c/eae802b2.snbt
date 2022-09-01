@@ -1,0 +1,31 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	dependencies: [
+		"fbebc148"
+	],
+	tasks: [{
+		uid: "048eb8c7",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_terminal"
+		}]
+	},
+	{
+		uid: "1d846fef",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_terminal"
+		}]
+	}],
+	rewards: [{
+		uid: "debdfdec",
+		type: "item",
+		item: {
+			id: "thaumicenergistics:essentia_cell_4k",
+			tag: {
+				filter: {}
+			}
+		}
+	}]
+}

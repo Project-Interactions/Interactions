@@ -34,6 +34,7 @@
 
 <ore:oreArdite>.remove(<tconstruct:ore>);
 
+<ore:ingotSky>.add(<naturesaura:sky_ingot>);
 
 
 <ore:ingotCold>.add(<contenttweaker:cold_ingot>);

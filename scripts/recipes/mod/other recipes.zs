@@ -38,11 +38,7 @@ mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<plustic:osmiridiumingot>*
 
 recipes.addShaped(<jaopca:dust.stainless_steel>*9,[[<ore:dustIron>,<ore:dustIron>,<ore:dustNickel>],[<ore:dustIron>,<ore:dustIron>,<ore:dustManganese>],[<ore:dustIron>,<ore:dustIron>,<ore:dustChrome>]]);
 
-/* wait advancedtweakery released https://github.com/ProjectHDS/AdvancedTweakery
-mods.advancedrocketry.RollingMachine.removeRecipe(<moreplates:void_plate>);
-mods.advancedrocketry.RollingMachine.removeRecipe(<techreborn:plates:38>);
-mods.advancedrocketry.PlatePresser.clear();
-*/
+
 
 recipes.addShaped(<contenttweaker:material_part:81>*2,[[<ore:dustRuby>,<ore:dustDiamond>,<ore:dustRuby>],[<ore:dustDiamond>,<ore:dustRuby>,<ore:dustDiamond>],[<ore:dustRuby>,<ore:dustDiamond>,<ore:dustRuby>]]);
 
@@ -50,7 +46,7 @@ recipes.remove(<enderio:item_material:22> * 8);
 recipes.remove(<mysticalmechanics:gear_iron>);
 recipes.remove(<mysticalmechanics:gear_gold>);
 
-RecipeUtils.recipeTweak(true, <avaritiaddons:infinity_glass>, [[<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>], [<bloodarsenal:blood_stained_glass>, <ore:blockInfinity>, <bloodarsenal:blood_stained_glass>], [<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>]]);
+recipes.addShaped(<avaritiaddons:infinity_glass>, [[<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>], [<bloodarsenal:blood_stained_glass>, <ore:blockInfinity>, <bloodarsenal:blood_stained_glass>], [<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>]]);
 
 
 
@@ -134,12 +130,6 @@ mods.extendedcrafting.EnderCrafting.addShaped( <extendedcrafting:material:40>, [
 ]);
 
 
-recipes.removeShaped(<techreborn:matter_fabricator>, [[<ore:circuitMaster>, <techreborn:extractor>, <ore:circuitMaster>], [<ore:machineBlockElite>, <techreborn:lapotronicorb>, <ore:machineBlockElite>], [<ore:circuitMaster>, <techreborn:extractor>, <ore:circuitMaster>]]);
-recipes.removeShaped(<techreborn:part:17> * 4, [[<techreborn:part:7>, <techreborn:part:7>, <techreborn:part:7>], [<ore:ingotTungsten>, <ore:plateIridiumAlloy>, <ore:ingotTungsten>], [<ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>]]);
-
-recipes.addShaped(<techreborn:matter_fabricator>, [[<techreborn:part:17>, <techreborn:extractor>, <ore:circuitMaster>], [<ore:machineBlockElite>, <techreborn:lapotronicorb>.withTag({energy: 0}), <ore:machineBlockElite>], [<ore:circuitMaster>, <techreborn:extractor>, <techreborn:part:17>]]);
-recipes.addShaped(<techreborn:part:17> * 2, [[<techreborn:part:7>, <contenttweaker:crystal_colorful>, <techreborn:part:7>], [<ore:plateSemiconductor>, <ore:plateIridiumAlloy>, <ore:plateSemiconductor>], [<ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>]]);
-
 
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
 mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:material:24>, [
@@ -150,16 +140,6 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:material:24>,
 	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
 	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
 	[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(3, <contenttweaker:circuit_ultimate3>, [
-	[<ore:platePrudentium>, null, null, null, null, null, <ore:platePrudentium>], 
-	[null, <appliedenergistics2:material:48>, null, null, <ore:ingotCrystaltine>, <appliedenergistics2:material:48>, null], 
-	[null, null, <nuclearcraft:quantum_computer_qubit>, <nuclearcraft:quantum_computer_qubit>, <ore:gearCrystalMatrix>, null, null], 
-	[null, null, <ore:ingotCrystaltine>, <calculator:dynamiccalculator>, <ore:ingotCrystaltine>, null, null], 
-	[null, null, <ore:gearCrystalMatrix>, <nuclearcraft:quantum_computer_qubit>, <nuclearcraft:quantum_computer_qubit>, null, null], 
-	[null, <appliedenergistics2:material:48>, <ore:ingotCrystaltine>, null, <draconicevolution:wyvern_core>, <appliedenergistics2:material:48>, null], 
-	[<ore:platePrudentium>, null, null, null, null, null, <ore:platePrudentium>]
 ]);
 
 recipes.removeShaped(<rftools:shape_card>, [[<minecraft:paper>, <minecraft:brick>, <minecraft:paper>], [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>], [<minecraft:paper>, <minecraft:brick>, <minecraft:paper>]]);

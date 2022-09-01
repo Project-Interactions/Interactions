@@ -7,7 +7,7 @@
   "baseRenderer": {
     "state": {
       "id": "techreborn:fusion_control_computer",
-      "meta": 3
+      "meta": 7
     },
     "type": "blockstate"
   },

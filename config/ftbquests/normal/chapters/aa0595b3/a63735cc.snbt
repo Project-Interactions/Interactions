@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"943833bd",
+		"16279130"
+	],
+	tasks: [{
+		uid: "06cae605",
+		type: "item",
+		items: [{
+			item: "interaction:molecular_recombination"
+		}]
+	}]
+}

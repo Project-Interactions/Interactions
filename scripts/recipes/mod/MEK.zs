@@ -9,17 +9,27 @@ import mod.mekanism.gas.IGasStack;
 //infuser
 infuser.removeRecipe(<mekanism:enrichedalloy>);
 infuser.addRecipe("REDSTONEHARD", 20, <ore:ingotZirconiumMolybdenum>, <mekanism:enrichedalloy>);
+
+infuser.removeRecipe(<mekanism:reinforcedalloy>);
+infuser.addRecipe("DIAMONDHARD", 20, <mekanism:enrichedalloy>, <mekanism:reinforcedalloy>);
+
+infuser.removeRecipe(<mekanism:atomicalloy>);
+infuser.addRecipe("OBSIDIANHARD", 20, <mekanism:reinforcedalloy>, <mekanism:atomicalloy>);
+
 infuser.removeRecipe(<mekanism:controlcircuit>);
 infuser.addRecipe("REDSTONEHARD", 10, <ore:ingotOsmiridium>, <mekanism:controlcircuit>);
 
-//enricher
-enrichment.removeRecipe(<mekanism:compressedredstone>);
-enrichment.removeRecipe(<mekanism:compresseddiamond>);
-enrichment.removeRecipe(<mekanism:compressedobsidian>);
+infuser.removeRecipe(<mekanism:otherdust:5>);
+infuser.addRecipe("DIAMONDHARD", 10, <ore:dustDiamond>, <mekanism:otherdust:5>);
 
-enrichment.addRecipe(<actuallyadditions:item_crystal_empowered>, <mekanism:compressedredstone>);
-enrichment.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <mekanism:compresseddiamond>);
-enrichment.addRecipe(<calculator:purifiedobsidian>, <mekanism:compressedobsidian>);
+//enricher
+enrichment.removeRecipe(<minecraft:redstone>);
+enrichment.removeRecipe(<minecraft:diamond>);
+enrichment.removeRecipe(<mekanism:otherdust:5>);
+
+enrichment.addRecipe(<actuallyadditions:item_crystal_empowered>, <contenttweaker:compressedredstone>);
+enrichment.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <contenttweaker:compresseddiamond>);
+enrichment.addRecipe(<calculator:purifiedobsidian>, <contenttweaker:compressedobsidian>);
 
 
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:8>, [[<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>], [<ore:circuitNuclear>, <mekanism:basicblock:8>, <ore:circuitNuclear>], [<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>]]);
@@ -101,10 +111,10 @@ for Remove in remove {
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:basicblock:14>, [
 	[<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>], 
-	[<mekanism:basicblock2>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:fortified_glass_pane>, <mekanism:basicblock2>], 
-	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
-	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
-	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
 	[<mekanism:basicblock2>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:basicblock2>], 
 	[<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]
 ]);

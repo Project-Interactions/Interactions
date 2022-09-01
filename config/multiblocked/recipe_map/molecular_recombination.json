@@ -75,6 +75,48 @@
           "level": 0.0
         }
       }
+    },
+    {
+      "uid": "d057d8ff-9cd1-453f-bbb4-8b45ad8fc390",
+      "duration": 60,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:draconium_block\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"energetic_alloy\",Amount:1000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 200000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:draconium_block\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
     }
   ]
 }
