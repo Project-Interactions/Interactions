@@ -15,7 +15,7 @@ recipes.addShapeless(<twilightforest:twilight_oak_planks> * 2,[<twilightforest:t
 
 recipes.addShapeless(<twilightforest:aurora_block>, [<twilightforest:aurora_slab>,<twilightforest:aurora_slab>]);
 recipes.addShapeless(<twilightforest:aurora_block>, [<twilightforest:aurora_pillar>,<twilightforest:aurora_pillar>]);
-recipes.addShapeless(<twilightforest:auroralized_glass>, [<twilightforest:aurora_block>,<botania:managlass>]);
+recipes.addShapeless(<twilightforest:auroralized_glass>, [<twilightforest:aurora_block>,<aether_legacy:quicksoil_glass>]);
 
 mods.techreborn.grinder.addRecipe(<appliedenergistics2:material:3>*2, <minecraft:quartz>, 40, 10);
 recipes.removeShapeless(<appliedenergistics2:crystal_seed:600>* 2, [<ore:sand>, <ore:dustNetherQuartz>]);

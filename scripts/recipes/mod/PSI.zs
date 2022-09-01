@@ -130,3 +130,4 @@ Trick.addRecipe("trickEbonyIvory", <arcanearchives:shaped_quartz>, <psi:material
 Trick.addRecipe("trickEbonyIvory", <extendedcrafting:material>, <psi:material:5>, <psi:cad_assembly:2>);
 
 
+RecipeUtils.recipeTweak(true, <psicosts:material_glassy> * 4, [[<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>], [<pneumaticcraft:pressure_chamber_glass>, <ore:dustPsi>, <pneumaticcraft:pressure_chamber_glass>], [<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>]]);

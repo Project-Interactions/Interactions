@@ -3,10 +3,24 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.mekanism.infuser;
+import mods.mekanism.enrichment;
 import mod.mekanism.gas.IGasStack;
 
+//infuser
 infuser.removeRecipe(<mekanism:enrichedalloy>);
-infuser.addRecipe("REDSTONE", 20, <thermalfoundation:material:132>, <mekanism:enrichedalloy>);
+infuser.addRecipe("REDSTONEHARD", 20, <ore:ingotZirconiumMolybdenum>, <mekanism:enrichedalloy>);
+infuser.removeRecipe(<mekanism:controlcircuit>);
+infuser.addRecipe("REDSTONEHARD", 10, <ore:ingotOsmiridium>, <mekanism:controlcircuit>);
+
+//enricher
+enrichment.removeRecipe(<mekanism:compressedredstone>);
+enrichment.removeRecipe(<mekanism:compresseddiamond>);
+enrichment.removeRecipe(<mekanism:compressedobsidian>);
+
+enrichment.addRecipe(<actuallyadditions:item_crystal_empowered>, <mekanism:compressedredstone>);
+enrichment.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <mekanism:compresseddiamond>);
+enrichment.addRecipe(<calculator:purifiedobsidian>, <mekanism:compressedobsidian>);
+
 
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:8>, [[<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>], [<ore:circuitNuclear>, <mekanism:basicblock:8>, <ore:circuitNuclear>], [<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>]]);
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:1>, [[<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>], [<minecraft:bucket>, <mekanism:basicblock:8>, <minecraft:bucket>], [<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>]]);
@@ -35,6 +49,14 @@ RecipeUtils.recipeTweak(true,<mekanism:machineblock2:10>, [[<theaurorian:auroria
 RecipeUtils.recipeTweak(true,<mekanism:machineblock:12>, [[null, <thaumcraft:smelter_aux>, null], [<mekanism:enrichedalloy>, <mekanism:basicblock:8>, <mekanism:enrichedalloy>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
 RecipeUtils.recipeTweak(true,<mekanism:electrolyticcore>, [[<mekanism:enrichedalloy>, <ore:dustOsmium>, <mekanism:enrichedalloy>], [<ore:circuitElite>, <mekanism:enrichedalloy>, <ore:circuitElite>], [<mekanism:enrichedalloy>, <ore:dustOsmium>, <mekanism:enrichedalloy>]]);
 RecipeUtils.recipeTweak(true,<mekanism:energytablet>, [[<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>], [<mekanism:enrichedalloy>, <ore:circuitElite>, <mekanism:enrichedalloy>], [<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>]]);
+
+//circuits
+recipes.remove(<mekanism:controlcircuit:1>);
+recipes.remove(<mekanism:controlcircuit:2>);
+recipes.remove(<mekanism:controlcircuit:3>);
+recipes.addShaped(<mekanism:controlcircuit:3>, [[<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>],[<mekanism:controlcircuit:2>, <ore:alloyUltimate>, <mekanism:controlcircuit:2>], [<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanism:controlcircuit:2>, [[<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>],[<mekanism:controlcircuit:1>, <ore:alloyElite>, <mekanism:controlcircuit:1>], [<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>]]);
+recipes.addShaped(<mekanism:controlcircuit:1>, [[<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>],[<mekanism:controlcircuit>, <ore:alloyAdvanced>, <mekanism:controlcircuit>], [<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>]]);
 
 
 mods.mekanism.thermalevaporation.addRecipe(<liquid:fluxed_electrum>, <liquid:semiconductor>);
@@ -86,3 +108,6 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:basicblock:14>, [
 	[<mekanism:basicblock2>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:basicblock2>], 
 	[<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]
 ]);
+
+RecipeUtils.recipeTweak(true, <mekanism:basicblock:10>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <qmd:vacuum_chamber_plasma_glass>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
+RecipeUtils.recipeTweak(true, <bfr:reactorglass>, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <mekanism:basicblock:10>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);

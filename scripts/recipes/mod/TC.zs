@@ -40,7 +40,8 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tc:mechanism_simple","BASE
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>,[[null,<thaumcraft:mechanism_simple>,null],[<thaumcraft:mechanism_simple>,<ore:circuitOperation>,<thaumcraft:mechanism_simple>],[null,<thaumcraft:mechanism_simple>,null]]);
 
-mods.thaumcraft.Infusion.registerRecipe("tc:arcane_circuit", "", <contenttweaker:arcane_thaumic_circuit>, 3, [<aspect:sol>*5,<aspect:machina>*20,<aspect:imperium>*10], <contenttweaker:thaumic_circuit>, [<contenttweaker:thaumic_circuit>, <contenttweaker:thaumic_circuit>,<contenttweaker:thaumic_circuit>,<ore:netherStar>,<ore:netherStar>,<ore:blockUnstable>]);
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "fortified_glass", <thaumicaugmentation:fortified_glass>*8, 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>], [[<integratedterminals:menril_glass>,<integratedterminals:menril_glass>,<integratedterminals:menril_glass>],[<integratedterminals:menril_glass>,<thaumicaugmentation:material:1>,<integratedterminals:menril_glass>],[<integratedterminals:menril_glass>,<integratedterminals:menril_glass>,<integratedterminals:menril_glass>]]);
 
 
 

@@ -45,6 +45,10 @@ mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
 mods.botania.ManaInfusion.addInfusion(<botania:storage>, <techreborn:storage2:10>, 25000);
 mods.botania.ManaInfusion.removeRecipe(<ore:ingotManasteel>);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotRefinedIron>, 2500);
+
+mods.botania.ManaInfusion.removeRecipe(<botania:managlass>);
+mods.botania.ManaInfusion.addInfusion(<botania:managlass>, <engineersdecor:panzerglass_block>, 2500);
+
 //凝矿兰删除
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));

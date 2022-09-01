@@ -90,6 +90,7 @@ Assembler.addRecipe(<qmd:semiconductor:5>*3,<theaurorian:auroriansteel>*4,<ore:g
 mods.nuclearcraft.Crystallizer.addRecipe(<liquid:molten_mana>*1000, <thermalfoundation:geode>);
 mods.nuclearcraft.Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);
 
+RecipeUtils.recipeTweak(true, <qmd:vacuum_chamber_plasma_glass> * 2, [[<psicosts:material_glassy>, <ore:wireBSCCO>, <ore:ingotSuperAlloy>], [<ore:wireBSCCO>, <ore:gemBoronNitride>, <ore:wireBSCCO>], [<ore:ingotSuperAlloy>, <ore:wireBSCCO>, <psicosts:material_glassy>]]);
 
 
 

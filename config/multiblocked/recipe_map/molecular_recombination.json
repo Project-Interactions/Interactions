@@ -1,0 +1,80 @@
+{
+  "name": "molecular_recombination",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "6dc0f8fb-5f70-475e-ad1e-badf1c166e09",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"taiga:solarium_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:suncrystal\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumictinkerer:energetic_nitor\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"psi:exosuit_sensor\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquid_sunshine\",Amount:1000}"
+          }
+        ],
+        "mek_heat": [
+          {
+            "chance": 1.0,
+            "content": 1000.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:sunnarium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "rain": {
+          "level": 0.0
+        }
+      }
+    }
+  ]
+}

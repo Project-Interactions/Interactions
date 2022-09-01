@@ -50,6 +50,7 @@ recipes.remove(<enderio:item_material:22> * 8);
 recipes.remove(<mysticalmechanics:gear_iron>);
 recipes.remove(<mysticalmechanics:gear_gold>);
 
+RecipeUtils.recipeTweak(true, <avaritiaddons:infinity_glass>, [[<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>], [<bloodarsenal:blood_stained_glass>, <ore:blockInfinity>, <bloodarsenal:blood_stained_glass>], [<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>]]);
 
 
 

@@ -333,6 +333,48 @@
       }
     },
     {
+      "uid": "06dd417c-02b4-4f01-a45b-603ab1fa94dd",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"redstonearsenal:material\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "exu2_gp": [
+          {
+            "chance": 1.0,
+            "content": 15.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 40000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"redstonearsenal:material\",Count:1b,Damage:32s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "0fb41f18-8dec-4d74-8a1b-6b8b64c4912b",
       "duration": 800,
       "inputs": {

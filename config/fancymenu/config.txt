@@ -40,9 +40,9 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Interactions Modpack(made by mczph)';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[layouteditor]
@@ -56,7 +56,7 @@ B:showvanillamovewarning = 'true';
 
 ##[ui]
 
-F:uiscale = '0.0';
+F:uiscale = '0';
 
 
 ##[multiplayer_screen]

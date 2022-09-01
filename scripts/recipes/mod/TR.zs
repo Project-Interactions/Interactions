@@ -192,3 +192,4 @@ recipes.remove(<techreborn:cable:4> * 6);
 
 recipes.addShaped(<techreborn:cable:4>,[[<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>],[<ore:rodUnstable>,<ore:rodUnstable>,<ore:rodUnstable>],[<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>,<thaumicaugmentation:fortified_glass>|<sonarcore:stableglass>]]);
 
+RecipeUtils.recipeTweak(true, <techreborn:reinforced_glass> * 7, [[<thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>], [<ore:plateAdvancedAlloy>, <thaumicaugmentation:starfield_glass:2>, <ore:plateAdvancedAlloy>], [<thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>]]);

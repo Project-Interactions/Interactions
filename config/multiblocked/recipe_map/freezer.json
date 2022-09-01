@@ -3,6 +3,42 @@
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
+      "uid": "6f94a04f-7e3b-4cc5-808e-a69a41bedf3b",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"redstonerepository:material\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 40000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"redstonerepository:material\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "0f2a1038-c195-45d2-a84d-b38c216a8b4e",
       "duration": 100,
       "inputs": {

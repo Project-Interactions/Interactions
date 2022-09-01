@@ -3,7 +3,8 @@
 	x: 7.0d,
 	y: 1.5d,
 	text: [
-		"他们都可以被制成匠魂工具"
+		"他们都可以被制成匠魂工具",
+		"水晶粉需要通过聚爆制成水晶"
 	],
 	dependencies: [
 		"5c3f3c0f",
@@ -27,14 +28,14 @@
 		uid: "ac478de3",
 		type: "item",
 		items: [{
-			item: "redstonearsenal:material 1 160"
+			item: "jaopca:dust.crystal_flux"
 		}]
 	},
 	{
 		uid: "eb0c260c",
 		type: "item",
 		items: [{
-			item: "redstonerepository:material 1 5"
+			item: "jaopca:dust.gelid"
 		}]
 	}]
 }

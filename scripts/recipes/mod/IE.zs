@@ -83,6 +83,8 @@ ArcFurnace.removeRecipe(<taiga:adamant_ingot>);
 ArcFurnace.removeRecipe(<taiga:dyonite_ingot>);
 ArcFurnace.removeRecipe(<taiga:nucleum_ingot>);
 ArcFurnace.removeRecipe(<taiga:dilithium_ingot>);
+ArcFurnace.removeRecipe(<mekanism:ingot>);
+
 //
 recipes.remove(<immersiveengineering:material:8>);
 recipes.remove(<immersiveengineering:material:9>);
@@ -251,4 +253,6 @@ MetalPress.addRecipe(<thaumcraft:plate>,<thaumcraft:ingot:2>,<immersiveengineeri
 
 
 
+RecipeUtils.recipeTweak(true,<immersiveengineering:stone_decoration:8> * 2, [[null, <tconstruct:clear_glass>, null], [<ore:dustIron>, <ore:dyeGreen>, <ore:dustIron>], [null, <tconstruct:clear_glass>, null]]);
+RecipeUtils.recipeTweak(true,<engineersdecor:panzerglass_block> * 4, [[<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>], [<immersiveengineering:stone_decoration:8>, <minecraft:diamond>, <immersiveengineering:stone_decoration:8>], [<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>]]);
 

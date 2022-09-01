@@ -38,7 +38,7 @@ flawless.removeRecipe(<minecraft:diamond>);
 flawless.removeRecipe(<minecraft:ghast_tear>);
 flawless.removeRecipe(<minecraft:blaze_rod>);
 flawless.removeRecipe(<calculator:flawlessglass>*4);
-flawless.addRecipe(<botania:elfglass>, <thaumicaugmentation:fortified_glass>, <techreborn:reinforced_glass>, <extrautils2:ineffableglass:2>,<calculator:flawlessglass>);
+flawless.addRecipe(<techreborn:reinforced_glass>, <techreborn:reinforced_glass>, <techreborn:reinforced_glass>, <techreborn:reinforced_glass>,<calculator:flawlessglass>*3);
 flawless.addRecipe(<ore:calculatorCircuit>, <contenttweaker:operation_circuit>, <contenttweaker:operation_circuit>, <ore:calculatorCircuit>,<contenttweaker:applicated_operation_circuit>);
 flawless.addRecipe(<integrateddynamics:crystalized_menril_chunk>, <ore:crystalFluix>, <calculator:firediamond>, <calculator:flawlessdiamond>,<environmentaltech:litherite_crystal>);
 //基础计算器

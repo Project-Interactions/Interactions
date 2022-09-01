@@ -1,0 +1,191 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:molecular_recombination",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "techreborn:fusion_control_computer",
+      "meta": 3
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        "BCCCA",
+        "DC@CA",
+        "ECCCA",
+        "AAAAA"
+      ],
+      [
+        "     ",
+        " FFF ",
+        " FCF ",
+        " FFF ",
+        "     "
+      ],
+      [
+        "     ",
+        " FFF ",
+        " FGF ",
+        " FFF ",
+        "     "
+      ],
+      [
+        "     ",
+        " FFF ",
+        " FGF ",
+        " FFF ",
+        "     "
+      ],
+      [
+        "     ",
+        " FFF ",
+        " FCF ",
+        " FFF ",
+        "     "
+      ],
+      [
+        "AAAAA",
+        "HCCCA",
+        "DCCCA",
+        "ECCCA",
+        "AAAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "heat": {
+        "capability": "mek_heat",
+        "type": "capability"
+      },
+      "A": {
+        "states": [
+          {
+            "id": "threng:big_assembler",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:molecular_recombination",
+        "type": "component"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "plustic:osgloglasblock",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "bfr:reactorglass",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "contenttweaker:uu",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "qmd": {
+        "capability": "qmd_particle",
+        "type": "capability"
+      },
+      "any": {
+        "type": "any"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "energy"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "item"
+      ],
+      "E": [
+        "fluid"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "heat",
+        "qmd"
+      ]
+    }
+  },
+  "recipeMap": "molecular_recombination"
+}

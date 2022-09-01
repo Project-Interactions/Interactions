@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+furnace.remove(<theaurorian:moonglass>);
 recipes.remove(<theaurorian:auroriansteel> * 6);
 recipes.remove(<bloodmagic:alchemy_table>);
 furnace.remove(<minecraft:coal:1>);
@@ -97,6 +98,8 @@ recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<theaurorian:moonglass> * 4, [<twilightforest:auroralized_glass>,<twilightforest:auroralized_glass>,<twilightforest:auroralized_glass>,<theaurorian:moonsand>]);
+recipes.addShaped(<pneumaticcraft:pressure_chamber_glass> * 8, [[<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>],[<moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>], [<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>]]);
 recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_interface_tier3>,<appliedenergistics2:part:441>]);
 recipes.addShapeless(<theaurorian:auroriansteel>*9, [<theaurorian:auroriansteelblock>]);
 recipes.addShaped(<interaction:mixer>, [[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>],[<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>], [<immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>, <immersiveintelligence:metal_decoration:4>]]);

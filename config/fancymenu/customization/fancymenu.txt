@@ -503,7 +503,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources\fancymenu\images\links\mcbbs.png
-  description = 查看服务器宣传帖?
+  description = 查看整合包MCBBS帖子?
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
@@ -557,7 +557,7 @@ customization {
   y = -6
   scale = 1.0
   alignment = left
-  value = 欢迎游玩 §9Interaction 交汇§f整合包。
+  value = 欢迎游玩 §9Interaction 交汇§f整合包.
 }
 
 customization {
@@ -569,7 +569,7 @@ customization {
   y = 5
   scale = 1.0
   alignment = left
-  value = §a本整合包有超过450模组！
+  value = §a本整合包有超过450模组!
 }
 
 customization {
@@ -581,6 +581,6 @@ customization {
   y = 16
   scale = 1.0
   alignment = left
-  value = §e祝您游戏愉快！
+  value = §e祝您游戏愉快!
 }
 
