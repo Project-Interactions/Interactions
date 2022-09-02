@@ -4,9 +4,9 @@
     "refillDmgThreshold": 1
   },
   "ItemSortRules": [
-    "mod",
-    "material",
     "ore_prefix",
+    "material",
+    "mod",
     "id",
     "meta",
     "nbt_has",

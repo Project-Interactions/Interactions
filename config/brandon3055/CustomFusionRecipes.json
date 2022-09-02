@@ -69,7 +69,7 @@
     {
         "mode": "ADD",
         "result": "draconicevolution:draconic_energy_core",
-        "catalyst": "draconicevolution:wyvern_energy_core,4",
+        "catalyst": "draconicevolution:wyvern_energy_core,2",
         "energy": 200000000,
         "tier": 2,
         "ingredients": [
@@ -86,7 +86,7 @@
     {
         "mode": "ADD",
         "result": "draconicadditions:chaotic_energy_core",
-        "catalyst": "draconicevolution:draconic_energy_core,4",
+        "catalyst": "draconicevolution:draconic_energy_core,2",
         "energy": 40000000000,
         "tier": 3,
         "ingredients": [

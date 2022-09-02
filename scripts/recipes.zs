@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<projecte:item.pe_matter:1>);
+recipes.remove(<projecte:item.pe_matter>);
 furnace.remove(<theaurorian:moonglass>);
 recipes.remove(<theaurorian:auroriansteel> * 6);
 recipes.remove(<bloodmagic:alchemy_table>);
@@ -98,6 +100,8 @@ recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
 //Don't touch me!
 //#Add
+recipes.addShaped(<contenttweaker:crystal_colorful>, [[<jaopca:mekanism_crystal.aluminum>, <mekanism:crystal:3>, <jaopca:mekanism_crystal.thorium>],[<jaopca:mekanism_crystal.cobalt>, <jaopca:mekanism_crystal.jauxum>, <jaopca:mekanism_crystal.draconium>], [<jaopca:mekanism_crystal.palladium>, <jaopca:mekanism_crystal.magnesium>, <jaopca:mekanism_crystal.platinum>]]);
+recipes.addShapeless(<pneumaticcraft:pressure_chamber_wall>, [<pneumaticcraft:pressure_chamber_glass>]);
 recipes.addShaped(<interaction:molecular_recombination>, [[<threng:big_assembler:4>, <bfr:reactorglass>, <threng:big_assembler:5>],[<bfr:reactorglass>, <threng:big_assembler:2>, <bfr:reactorglass>], [<threng:big_assembler:5>, <bfr:reactorglass>, <threng:big_assembler:4>]]);
 recipes.addShapeless(<theaurorian:moonglass> * 4, [<twilightforest:auroralized_glass>,<twilightforest:auroralized_glass>,<twilightforest:auroralized_glass>,<theaurorian:moonsand>]);
 recipes.addShaped(<pneumaticcraft:pressure_chamber_glass> * 8, [[<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>],[<moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>], [<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>]]);

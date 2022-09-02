@@ -1,0 +1,18 @@
+{
+	x: -13.5d,
+	y: -6.5d,
+	dependencies: [
+		"9a0b276f",
+		"70e88622"
+	],
+	tasks: [{
+		uid: "c470f317",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

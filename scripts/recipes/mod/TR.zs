@@ -153,7 +153,7 @@ mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconium_dust>,<ther
 
 mods.techreborn.fusionReactor.addRecipe(<moreplates:draconium_gear>*2,<threng:material:14>,<draconicevolution:draconic_core>*2,2000000,-20000,256);
 mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<techreborn:storage2:10>*8,<draconicevolution:crafting_injector>,500000,-10000,128);
-mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*4,<enderio:item_alloy_ingot:3>*8,<draconicevolution:wyvern_energy_core>,4000000,-40000,512);
+mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<enderio:item_alloy_ingot:3>*8,<draconicevolution:wyvern_energy_core>,4000000,-40000,512);
 
 
 mods.techreborn.fusionReactor.addRecipe(<jaopca:dense_plate.diamond>*4,<contenttweaker:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);

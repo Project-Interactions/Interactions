@@ -23,7 +23,7 @@
             "chance": 1.0,
             "content": {
               "particle": "neutron",
-              "amount": 1,
+              "amount": 1000,
               "focus": 0.0,
               "energy": 0
             }
@@ -65,7 +65,7 @@
             "chance": 1.0,
             "content": {
               "particle": "neutron",
-              "amount": 1,
+              "amount": 1000,
               "focus": 0.0,
               "energy": 0
             }

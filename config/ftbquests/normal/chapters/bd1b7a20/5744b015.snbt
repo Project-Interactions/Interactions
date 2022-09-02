@@ -748,6 +748,25 @@
 							"patchouli:book": "theaurorian:the_aurorian_guide",
 							"akashictome:definedMod": "theaurorian"
 						}
+					},
+					theoneprobe: {
+						id: "theoneprobe:probenote",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "theoneprobe"
+						}
+					},
+					extendedcrafting: {
+						id: "extendedcrafting:guide",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							TopicsPage: 0,
+							EntryPage: 0,
+							EntryId: 0,
+							"akashictome:definedMod": "extendedcrafting"
+						}
 					}
 				}
 			}

@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -6.5d,
+	dependencies: [
+		"615546cb"
+	],
+	tasks: [{
+		uid: "bef426f1",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "eb63812c",
+		type: "item",
+		item: "projecte:fuel_block 1 2"
+	}]
+}

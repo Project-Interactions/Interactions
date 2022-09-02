@@ -6,7 +6,7 @@
   "showInJei": true,
   "baseRenderer": {
     "state": {
-      "id": "arcanearchives:storage_shaped_quartz",
+      "id": "arcanearchives:storage_raw_quartz",
       "meta": 0
     },
     "type": "blockstate"
@@ -20,12 +20,12 @@
     ],
     "pattern": [
       [
-        "@AA",
-        "BCD"
+        "ABB",
+        "C@D"
       ],
       [
-        "AAA",
-        "ECD"
+        "BBB",
+        "EDD"
       ]
     ],
     "aisleRepetitions": [
@@ -39,7 +39,11 @@
       ]
     ],
     "predicates": {
-      "A": {
+      "controller": {
+        "location": "interaction:arcane_crafter",
+        "type": "component"
+      },
+      "B": {
         "states": [
           {
             "id": "arcanearchives:storage_shaped_quartz",
@@ -48,11 +52,7 @@
         ],
         "type": "states"
       },
-      "controller": {
-        "location": "interaction:arcane_crafter",
-        "type": "component"
-      },
-      "B": {
+      "C": {
         "states": [
           {
             "id": "arcanearchives:radiant_chest",
@@ -61,20 +61,11 @@
         ],
         "type": "states"
       },
-      "C": {
-        "states": [
-          {
-            "id": "arcanearchives:gemcutters_table",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
       "D": {
         "states": [
           {
-            "id": "arcanearchives:gemcutters_table",
-            "meta": 5
+            "id": "arcanearchives:storage_raw_quartz",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -87,23 +78,14 @@
           }
         ],
         "type": "states"
-      },
-      "air": {
-        "type": "air"
-      },
-      "any": {
-        "type": "any"
       }
     },
     "symbolMap": {
       "@": [
         "controller"
       ],
-      " ": [
-        "any"
-      ],
       "A": [
-        "A"
+        "B"
       ],
       "B": [
         "B"
@@ -116,9 +98,6 @@
       ],
       "E": [
         "E"
-      ],
-      "-": [
-        "air"
       ]
     }
   },

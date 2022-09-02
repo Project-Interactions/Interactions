@@ -95,6 +95,11 @@ VanillaFactory.createItem("compressedredstone").register();
 VanillaFactory.createItem("compresseddiamond").register();
 VanillaFactory.createItem("compressedobsidian").register();
 
+VanillaFactory.createItem("ultimate_ingot_left_up").register();
+VanillaFactory.createItem("ultimate_ingot_left_down").register();
+VanillaFactory.createItem("ultimate_ingot_right_up").register();
+VanillaFactory.createItem("ultimate_ingot_right_down").register();
+
 
 
 

@@ -144,25 +144,16 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:material:24>,
 
 recipes.removeShaped(<rftools:shape_card>, [[<minecraft:paper>, <minecraft:brick>, <minecraft:paper>], [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>], [<minecraft:paper>, <minecraft:brick>, <minecraft:paper>]]);
 recipes.addShaped(<rftools:shape_card>, [[<minecraft:paper>, <tconstruct:hammer_head>.withTag({Material: "xu_enchanted_metal"}), <minecraft:paper>], [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>], [<minecraft:paper>, <tconstruct:hammer_head>.withTag({Material: "platinum"}), <minecraft:paper>]]);
-/*
-mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimate>, [
-	[<projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>], 
-	[<mekanism:reinforcedplasticblock:2>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <mekanism:reinforcedplasticblock:2>], 
-	[<mekanism:reinforcedplasticblock:2>, <ore:circuitInfiniteQ>, <extendedcrafting:table_elite>, <extendedcrafting:table_elite>, <extendedcrafting:table_elite>, <ore:circuitInfiniteQ>, <mekanism:reinforcedplasticblock:2>], 
-	[<projectex:matter:6>, <ore:circuitInfiniteQ>, <extendedcrafting:table_elite>, <projectex:matter:6>, <extendedcrafting:table_elite>, <ore:circuitInfiniteQ>, <projectex:matter:6>], 
-	[<mekanism:reinforcedplasticblock:2>, <ore:circuitInfiniteQ>, <extendedcrafting:table_elite>, <extendedcrafting:table_elite>, <extendedcrafting:table_elite>, <ore:circuitInfiniteQ>, <mekanism:reinforcedplasticblock:2>], 
-	[<mekanism:reinforcedplasticblock:2>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <mekanism:reinforcedplasticblock:2>], 
-	[<projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>, <mekanism:reinforcedplasticblock:2>, <mekanism:reinforcedplasticblock:2>, <projectex:matter:6>]
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:crafting_core>, [
+	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
+	[null, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, null], 
+	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
+	[null, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, null], 
+	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:circuitUniversal>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
+	[null, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:circuitUniversal>, <ore:blockBlackIron>, <ore:blockBlackIron>, null], 
+	[<ore:blockBlackIron>, <ore:blockBlackIron>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:blockBlackIron>, <ore:blockBlackIron>]
 ]);
-*/
-mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:compressor>, [
-	[<ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <pneumaticcraft:flux_compressor>, <pneumaticcraft:flux_compressor>, <pneumaticcraft:flux_compressor>, <extrautils2:quarry>, <mekanism:machineblock:1>, <mekanism:machineblock:1>, <mekanism:machineblock:1>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <pneumaticcraft:flux_compressor>, <pneumaticcraft:flux_compressor>, <extrautils2:quarry>, <techreborn:quantum_tank>, <extrautils2:quarry>, <mekanism:machineblock:1>, <mekanism:machineblock:1>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <pneumaticcraft:flux_compressor>, <extrautils2:quarry>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extrautils2:quarry>, <mekanism:machineblock:1>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <extrautils2:quarry>, <mekanism:machineblock3>, <extendedcrafting:material:12>, <ore:circuitUmvQ>, <extendedcrafting:material:12>, <mekanism:machineblock3>, <extrautils2:quarry>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <techreborn:implosion_compressor>, <extrautils2:quarry>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extrautils2:quarry>, <nuclearcraft:pressurizer>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <techreborn:implosion_compressor>, <techreborn:implosion_compressor>, <extrautils2:quarry>, <techreborn:quantum_chest>, <extrautils2:quarry>, <nuclearcraft:pressurizer>, <nuclearcraft:pressurizer>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <techreborn:implosion_compressor>, <techreborn:implosion_compressor>, <techreborn:implosion_compressor>, <extrautils2:quarry>, <nuclearcraft:pressurizer>, <nuclearcraft:pressurizer>, <nuclearcraft:pressurizer>, <ore:compressed2xDustBedrock>], 
-	[<ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>, <ore:compressed2xDustBedrock>]
-]);
+
+recipes.remove(<extendedcrafting:pedestal>*2);
+recipes.addShaped(<extendedcrafting:pedestal>,[[null,<thaumicrestoration:block_adv_recharge_pedestal>,null],[null,<pneumaticcraft:elevator_base>,null],[<extendedcrafting:trimmed:4>,<extendedcrafting:trimmed:4>,<extendedcrafting:trimmed:4>]]);

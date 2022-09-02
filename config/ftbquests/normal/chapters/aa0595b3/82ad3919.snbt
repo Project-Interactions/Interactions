@@ -1,0 +1,10 @@
+{
+	x: -15.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "2ebca9bf",
+		type: "fluid",
+		fluid: "neutronium",
+		amount: 144
+	}]
+}
