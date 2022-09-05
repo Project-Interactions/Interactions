@@ -1,3 +1,7 @@
+import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 recipes.remove(<avaritia:extreme_crafting_table>);
 recipes.remove(<avaritia:resource:1>);
 recipes.remove(<avaritia:resource>);

@@ -151,7 +151,7 @@
     {
         "mode": "ADD",
         "result": "draconicevolution:draconium_ingot",
-        "catalyst": "contenttweaker:material_part,1,132",
+        "catalyst": "contenttweaker:material_part,1,82",
         "energy": 5000000,
         "tier": 1,
         "ingredients": [
@@ -161,7 +161,7 @@
     },
     {
         "mode": "ADD",
-        "result": "projecte:matter_block,1,1",
+        "result": "projecte:item.pe_matter,1,1",
         "catalyst": "projecte:matter_block",
         "energy": 5000000,
         "tier": 3,

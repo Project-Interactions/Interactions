@@ -502,6 +502,57 @@
       }
     },
     {
+      "uid": "1c045e4a-ec4b-4bb2-a9a4-4877b034ad65",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderio:item_alloy_endergy_ingot\",Count:1b,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"projecte:matter_block\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "projecte_emc": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ],
+        "ta_impetus": [
+          {
+            "chance": 1.0,
+            "content": 20
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderio:item_alloy_endergy_ingot\",Count:1b,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "0b0adde6-2be3-4029-8783-fce3c383205e",
       "duration": 500,
       "inputs": {

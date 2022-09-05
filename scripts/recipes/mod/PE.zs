@@ -4,14 +4,6 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 recipes.remove(<projecte:item.pe_matter:1>);
 recipes.remove(<projecte:item.pe_matter>);
-recipes.remove(<equivalentenergistics:emc_condenser:3>);
-recipes.remove(<equivalentenergistics:emc_condenser:2>);
-recipes.remove(<equivalentenergistics:emc_condenser:1>);
-recipes.remove(<equivalentenergistics:emc_condenser>);
-recipes.remove(<equivalentenergistics:emc_crafter:1>);
-recipes.remove(<equivalentenergistics:emc_crafter:3>);
-recipes.remove(<equivalentenergistics:emc_crafter:2>);
-recipes.remove(<equivalentenergistics:emc_crafter>);
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 recipes.remove(<projecte:transmutation_table>);
 recipes.remove(<projecte:condenser_mk1>);
@@ -50,11 +42,21 @@ recipes.addShapeless(<projecte:item.pe_covalence_dust:2>*32,[<taiga:abyssum_dust
 mods.extendedcrafting.CombinationCrafting.addRecipe(<mysticalagradditions:insanium:1>, 5000000 , 50000, <mysticalagriculture:crafting:21>, [<mysticalagradditions:insanium>,<mysticalagradditions:insanium>,<mysticalagradditions:insanium>,<mysticalagradditions:insanium>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:condenser_mk1>, [
+	[<ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>], 
+	[<ore:plateDarkMatter>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <ore:plateDarkMatter>], 
+	[<ore:plateDarkMatter>, <draconicevolution:draconium_chest>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>, <draconicevolution:draconium_chest>, <ore:plateDarkMatter>], 
+	[<ore:plateDarkMatter>, <draconicevolution:draconium_chest>, <projecte:alchemical_chest>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>, <draconicevolution:draconium_chest>, <ore:plateDarkMatter>], 
+	[<ore:plateDarkMatter>, <draconicevolution:draconium_chest>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>, <draconicevolution:draconium_chest>, <ore:plateDarkMatter>], 
+	[<ore:plateDarkMatter>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <ore:plateDarkMatter>], 
+	[<ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>, <ore:plateDarkMatter>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:condenser_mk2>, [
 	[<ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>], 
 	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
-	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
-	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
-	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
+	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:3>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
+	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <draconicevolution:reactor_part:3>, <projecte:condenser_mk1>, <draconicevolution:reactor_part:3>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
+	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:3>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
 	[<ore:plateRedMatter>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <draconicevolution:draconium_chest>, <ore:plateRedMatter>], 
 	[<ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>, <ore:plateRedMatter>]
 ]);
@@ -136,3 +138,13 @@ mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_dm_shovel>, [[
 
 recipes.addShaped(<contenttweaker:singularity_block>,[[<appliedenergistics2:material:47>,<appliedenergistics2:material:47>,<appliedenergistics2:material:47>],[<appliedenergistics2:material:47>,<projecte:fuel_block:2>,<appliedenergistics2:material:47>],[<appliedenergistics2:material:47>,<appliedenergistics2:material:47>,<appliedenergistics2:material:47>]]);
 mods.projecte.WorldTransmutation.add(<projecte:matter_block>, <contenttweaker:singularity_block>);
+
+
+mods.extendedcrafting.EnderCrafting.addShaped( <extendedcrafting:material:40>, [
+	[null, <ore:pearlEnderEye>, null], 
+	[<ore:pearlEnderEye>, <actuallyadditions:item_misc:19>, <ore:pearlEnderEye>], 
+	[null, <ore:pearlEnderEye>, null]
+]);
+//RecipeUtils.recipeTweak(true, 
+RecipeUtils.recipeTweak(true, <projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<ore:blockCrystalMatrix>, <ore:gemDiamond>, <ore:blockCrystalMatrix>], [<ore:ingotIron>, <ore:chestWood>, <ore:ingotIron>]]);
+

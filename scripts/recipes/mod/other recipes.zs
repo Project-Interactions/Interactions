@@ -122,12 +122,7 @@ recipes.addShaped(<minecraft:tnt>, [[<minecraft:gravel>, <minecraft:gunpowder>, 
 recipes.addShaped(<integrateddynamics:squeezer>, [[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],[null, <ore:gearWood>, null], [<practicallogistics2:stoneplate>, <practicallogistics2:stoneplate>, <practicallogistics2:stoneplate>]]);
 
 
-mods.extendedcrafting.EnderCrafting.remove(<extendedcrafting:material:40>);
-mods.extendedcrafting.EnderCrafting.addShaped( <extendedcrafting:material:40>, [
-	[null, <ore:pearlEnderEye>, null], 
-	[<ore:pearlEnderEye>, <actuallyadditions:item_misc:19>, <ore:pearlEnderEye>], 
-	[null, <ore:pearlEnderEye>, null]
-]);
+
 
 
 
