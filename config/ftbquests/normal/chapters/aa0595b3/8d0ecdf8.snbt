@@ -1,0 +1,15 @@
+{
+	x: -13.5d,
+	y: -8.0d,
+	dependencies: [
+		"ff15c0e5",
+		"615546cb"
+	],
+	tasks: [{
+		uid: "4fa83990",
+		type: "item",
+		items: [{
+			item: "projecte:matter_block"
+		}]
+	}]
+}

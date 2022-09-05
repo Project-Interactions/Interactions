@@ -466,6 +466,42 @@
       }
     },
     {
+      "uid": "2225c6a2-186a-4ceb-afeb-b6e0ffe2823d",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"jaopca:dust.tungstensteel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "mek_heat": [
+          {
+            "chance": 1.0,
+            "content": 200.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:ingot\",Count:1b,Damage:16s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "0b0adde6-2be3-4029-8783-fce3c383205e",
       "duration": 500,
       "inputs": {

@@ -2,7 +2,8 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
-//普通修复
+//普通修改
+recipes.remove(<appliedenergistics2:material:58>);
 recipes.removeShapeless(<appliedenergistics2:part:360>, [<appliedenergistics2:part:380>, <ore:workbench>, <appliedenergistics2:material:23>]);
 recipes.remove(<enderio:item_material>);
 recipes.remove(<appliedenergistics2:grindstone>);
@@ -147,4 +148,5 @@ mods.threng.Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flaw
 
 mods.threng.Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
 
+recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_interface_tier3>,<appliedenergistics2:part:441>]);
 

@@ -109,7 +109,8 @@ zsFluid34.register();
 var zsFluid35 = VanillaFactory.createFluid("molten_mana", Color.fromHex("617074"));
 zsFluid35.register();
 
-
+var zsFluid36 = VanillaFactory.createFluid("mek_supercritical", Color.fromHex("617074"));
+zsFluid36.register();
 
 
 

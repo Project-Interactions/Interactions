@@ -65,6 +65,42 @@
       }
     },
     {
+      "uid": "415154d8-f21e-4005-b8ee-b0cfd01945f2",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:ingot\",Count:1b,Damage:16s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"cryotheum\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:ingot\",Count:1b,Damage:17s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "fed4e544-0323-43cd-a20d-4a7294882a1c",
       "duration": 100,
       "inputs": {

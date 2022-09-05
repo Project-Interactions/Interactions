@@ -28,18 +28,15 @@ VanillaFactory.createItem("twilight_crystal").register();
 VanillaFactory.createItem("useful_ingot").register();
 VanillaFactory.createItem("hot_tungsten_ingot").register();
 
-VanillaFactory.createItem("circuit_uxv").register();
-VanillaFactory.createItem("circuit_uiv").register();
-VanillaFactory.createItem("circuit_master3").register();
-VanillaFactory.createItem("circuit_max").register();
+VanillaFactory.createItem("circuit_master").register();
+VanillaFactory.createItem("circuit_superconductor").register();
+VanillaFactory.createItem("circuit_infinite").register();
+VanillaFactory.createItem("circuit_ultimate").register();
 VanillaFactory.createItem("circuit_uev").register();
-VanillaFactory.createItem("circuit_ultimate3").register();
-VanillaFactory.createItem("circuit_elite3").register();
-VanillaFactory.createItem("circuit_extreme3").register();
-VanillaFactory.createItem("circuit_superconductor3").register();
-VanillaFactory.createItem("circuit_infinite3").register();
+VanillaFactory.createItem("circuit_uiv").register();
 VanillaFactory.createItem("circuit_umv").register();
-
+VanillaFactory.createItem("circuit_uxv").register();
+VanillaFactory.createItem("circuit_max").register();
 
 VanillaFactory.createItem("andesite_pebble").register();
 VanillaFactory.createItem("granite_pebble").register();
@@ -108,6 +105,8 @@ VanillaFactory.createItem("ultimate_ingot_right_down").register();
 
 
 
+//sponser+friend
+VanillaFactory.createItem("oganesson897").register();
 
 
 

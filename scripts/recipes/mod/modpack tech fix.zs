@@ -113,6 +113,16 @@ furnace.remove(<techreborn:ingot:3>);
 furnace.remove(<mekanism:ingot:1>);
 furnace.remove(<qmd:ingot:1>);
 
+recipes.remove(<lightningcraft:plate:9> * 3);
+recipes.remove(<lightningcraft:plate:8> * 3);
+recipes.remove(<lightningcraft:plate:6> * 3);
+recipes.remove(<lightningcraft:plate:5> * 3);
+recipes.remove(<lightningcraft:plate:4> * 3);
+recipes.remove(<lightningcraft:plate:3> * 3);
+recipes.remove(<lightningcraft:plate:2> * 3);
+recipes.remove(<lightningcraft:plate:1> * 3);
+recipes.remove(<lightningcraft:plate> * 3);
 
 
-
+recipes.addShaped(<contenttweaker:sub_block_holder_0:10>, [[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>],[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>], [<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>]]);
+recipes.remove(<lightningcraft:plate:7> * 3);

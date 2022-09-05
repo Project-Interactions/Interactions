@@ -25,7 +25,7 @@ static materials as Material[string] = {
 	"Cesiumgarnet": MaterialSystem.getMaterialBuilder().setName("Cesiumgarnet").setColor(Color.fromHex("AF7575") as Color).build(),
 	"Fluorocarbonlanthanumcerium": MaterialSystem.getMaterialBuilder().setName("Fluorocarbonlanthanumcerium").setColor(Color.fromHex("C2941A") as Color).build(),
 	"Ree": MaterialSystem.getMaterialBuilder().setName("Ree").setColor(Color.fromHex("BAAF95") as Color).build(),
-	"Molybdenum": MaterialSystem.getMaterialBuilder().setName("Molybdenum").setColor(Color.fromHex("4B618B") as Color).build(),
+	"Molybdenumore": MaterialSystem.getMaterialBuilder().setName("Molybdenum").setColor(Color.fromHex("4B618B") as Color).build(),
 	"Ferrochrome": MaterialSystem.getMaterialBuilder().setName("Ferrochrome").setColor(Color.fromHex("FFCDD2") as Color).build(),
 	"Magnesite": MaterialSystem.getMaterialBuilder().setName("Magnesite").setColor(Color.fromHex("FFCDD2") as Color).build(),
 	"Barite": MaterialSystem.getMaterialBuilder().setName("Barite").setColor(Color.fromHex("BBDEFB") as Color).build(),
@@ -44,7 +44,7 @@ materials.Lepidolite.registerParts(["dustore"] as string[]);
 materials.Cesiumgarnet.registerParts(["dustore"] as string[]);
 materials.Fluorocarbonlanthanumcerium.registerParts(["dustore"] as string[]);
 materials.Ree.registerParts(["dustore"] as string[]);
-materials.Molybdenum.registerParts(["dustore"] as string[]);
+materials.Molybdenumore.registerParts(["dustore"] as string[]);
 materials.Ferrochrome.registerParts(["dustore"] as string[]);
 materials.Magnesite.registerParts(["dustore"] as string[]);
 materials.Barite.registerParts(["dustore"] as string[]);

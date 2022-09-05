@@ -18,6 +18,7 @@ recipes.addShapeless(<minecraft:planks:2> * 2,[<minecraft:log:2>]);
 recipes.addShapeless(<minecraft:planks:3> * 2,[<minecraft:log:3>]);
 recipes.addShapeless(<minecraft:planks:4> * 2,[<minecraft:log2>]);
 recipes.addShapeless(<minecraft:planks:5> * 2,[<minecraft:log2:1>]);
+recipes.remove(<minecraft:end_portal_frame>);
 
 
 recipes.remove(<minecraft:golden_chestplate>);
@@ -56,6 +57,7 @@ recipes.addShaped(<minecraft:piston> * 2, [[<extrautils2:compressedcobblestone>,
 
 
 furnace.remove(<minecraft:coal:1>);
+
 
 RecipeUtils.recipeTweak(true, <minecraft:cauldron>, [
     [<ore:plateIron>, null, <ore:plateIron>], 

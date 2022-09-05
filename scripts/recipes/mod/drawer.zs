@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+recipes.remove(<storagedrawers:upgrade_conversion>);
 
 RecipeUtils.recipeTweak(true, <storagedrawers:controller>, [
     [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], 

@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"01d1e670"
+	],
+	tasks: [{
+		uid: "f0ae31b0",
+		type: "item",
+		items: [{
+			item: "ae2fc:large_ingredient_buffer"
+		}]
+	}]
+}

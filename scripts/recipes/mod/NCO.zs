@@ -92,9 +92,17 @@ mods.nuclearcraft.Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);
 
 RecipeUtils.recipeTweak(true, <qmd:vacuum_chamber_plasma_glass> * 2, [[<psicosts:material_glassy>, <ore:wireBSCCO>, <ore:ingotSuperAlloy>], [<ore:wireBSCCO>, <ore:gemBoronNitride>, <ore:wireBSCCO>], [<ore:ingotSuperAlloy>, <ore:wireBSCCO>, <psicosts:material_glassy>]]);
 
+mods.extendedcrafting.TableCrafting.addShaped(3,<interaction:uu_crafter>, [
+	[<qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>], 
+	[<qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>], 
+	[<techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>], 
+	[<techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>], 
+	[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>], 
+	[<qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>], 
+	[<qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>]
+]);
 
-//nt
-mods.qmd.beam_dump.addRecipe(<particle:neutron>^50000, <liquid:neutronium>*144, 100000);
 
-
+recipes.addShaped(<ncsteamadditions:copper_sheet> * 4, [[<thermalfoundation:material:256>, <redstonearsenal:material:96>, <thermalfoundation:material:256>],[<moreplates:ardite_gear>, <nuclearcraft:part:10>, <moreplates:ardite_gear>], [<thermalfoundation:material:256>, <redstonearsenal:material:96>, <thermalfoundation:material:256>]]);
+recipes.remove(<ncsteamadditions:copper_sheet> * 2);
 

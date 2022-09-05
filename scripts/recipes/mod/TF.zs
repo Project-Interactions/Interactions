@@ -22,5 +22,7 @@ recipes.removeShapeless(<appliedenergistics2:crystal_seed:600>* 2, [<ore:sand>, 
 
 recipes.addShapeless(<appliedenergistics2:crystal_seed:600>.withTag({progress: 600})*2,[<ore:sand>,<immersiveintelligence:material_dust:7>]);
 
+recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "fiery_essence", Amount: 1000}), [[<twilightforest:fiery_tears>, <twilightforest:fiery_tears>, <twilightforest:fiery_tears>],[<twilightforest:fiery_tears>, null, null], [null, null, null]]);
+recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "fiery_essence", Amount: 1000}), [[<twilightforest:fiery_blood>, <twilightforest:fiery_blood>, <twilightforest:fiery_blood>],[<twilightforest:fiery_blood>, null, null], [null, null, null]]);
 
 

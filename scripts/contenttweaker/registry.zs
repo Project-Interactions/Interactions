@@ -45,8 +45,6 @@ static materials as Material[string] = {
 	"Energium": MaterialSystem.getMaterialBuilder().setName("Energium").setColor(Color.fromHex("FF2727")).build(),
 	"UUMatter": MaterialSystem.getMaterialBuilder().setName("UUMatter").setColor(Color.fromHex("DF00E3")).build(),
 	"Duplication": MaterialSystem.getMaterialBuilder().setName("Duplication").setColor(Color.fromHex("0052D8")).build(),
-	"Neutronium": MaterialSystem.getMaterialBuilder().setName("Neutronium").setColor(Color.fromHex("4B314D")).build(),
-	"Cosmic": MaterialSystem.getMaterialBuilder().setName("Cosmic").setColor(Color.fromHex("F51F9E")).build(),
 	"Naturium": MaterialSystem.getMaterialBuilder().setName("Naturium").setColor(Color.fromHex("62E753")).build(),
     "Duraluminium": MaterialSystem.getMaterialBuilder().setName("Duraluminium").setColor(Color.fromHex("535C70")).build(),
     "Menril": MaterialSystem.getMaterialBuilder().setName("Menril").setColor(Color.fromHex("0099FF")).build(),
@@ -70,8 +68,6 @@ materials.Semiconductor.registerParts(["block", "ingot","plate","gear","rod","nu
 materials.Energium.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);
 materials.UUMatter.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);
 materials.Duplication.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
-materials.Neutronium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
-materials.Cosmic.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Naturium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);
 materials.Duraluminium.registerParts(["coil","wire"] as string[]);
 materials.Menril.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);

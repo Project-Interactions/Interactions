@@ -165,8 +165,7 @@ mods.techreborn.industrialElectrolyzer.addRecipe(<thermalfoundation:material:68>
 mods.techreborn.fluidReplicator.addRecipe(40,<liquid:uu>*1000,100,100);
 mods.techreborn.fluidReplicator.addRecipe(26,<liquid:culture_medium>*1000,100,100);
 
-recipes.removeShaped(<techreborn:fluid_replicator>, [[<ore:plateTungstensteel>, <ore:circuitMaster>, <ore:plateTungstensteel>], [<ore:circuitMaster>, <ore:machineBlockElite>, <ore:circuitMaster>], [<techreborn:industrial_electrolyzer>, <ore:craftingSuperconductor>, <techreborn:chemical_reactor>]]);
-recipes.addShaped(<techreborn:fluid_replicator>, [[<ore:plateTungstensteel>, <contenttweaker:circuit_infinite3>, <ore:plateTungstensteel>], [<contenttweaker:circuit_infinite3>, <ore:machineBlockElite>, <contenttweaker:circuit_infinite3>], [<techreborn:industrial_electrolyzer>, <ore:craftingSuperconductor>, <techreborn:chemical_reactor>]]);
+recipes.remove(<techreborn:fluid_replicator>);
 
 mods.techreborn.fluidReplicator.addRecipe(64,<liquid:duplication>*1000,50,100);
 
@@ -188,6 +187,11 @@ RecipeUtils.recipeTweak(true, <techreborn:reinforced_glass> * 7, [[<thaumicaugme
 RecipeUtils.recipeTweak(true, <techreborn:fusion_control_computer>, [[<ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>], [<ore:blockSuperconduct>, <techreborn:fusion_coil>, <ore:blockSuperconduct>], [<ore:circuitUniversal>, <techreborn:interdimensional_su>, <ore:circuitUniversal>]]);
 RecipeUtils.recipeTweak(true, <techreborn:fusion_coil>, [[<ore:gearSuperconduct>, <techreborn:iridiumneutronreflector>, <ore:gearSuperconduct>], [<techreborn:part:17>, <ore:circuitUniversal>, <techreborn:part:17>], [<ore:gearSuperconduct>, <techreborn:iridiumneutronreflector>, <ore:gearSuperconduct>]]);
 
-RecipeUtils.recipeTweak(true, <techreborn:matter_fabricator>, [[<techreborn:part:17>, <techreborn:extractor>, <ore:circuitUniversal>], [<appliedenergistics2:condenser>, <qmd:neutral_containment_controller>, <appliedenergistics2:condenser>], [<ore:circuitUniversal>, <techreborn:extractor>, <techreborn:part:17>]]);
+RecipeUtils.recipeTweak(true, <techreborn:matter_fabricator>, [[<techreborn:part:17>, <techreborn:extractor>, <ore:circuitUniversal>], [<appliedenergistics2:condenser>, <bfr:reactorglass>, <appliedenergistics2:condenser>], [<ore:circuitUniversal>, <techreborn:extractor>, <techreborn:part:17>]]);
 recipes.remove(<techreborn:part:17> * 4);
 recipes.addShaped(<techreborn:part:17> * 2, [[<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>], [<ore:plateSemiconductor>, <ore:plateIridiumAlloy>, <ore:plateSemiconductor>], [<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>]]);
+
+recipes.remove(<techreborn:vacuum_freezer>);
+recipes.remove(<techreborn:industrial_blast_furnace>);
+recipes.remove(<techreborn:water_mill>);
+furnace.remove(<techreborn:part:32>);

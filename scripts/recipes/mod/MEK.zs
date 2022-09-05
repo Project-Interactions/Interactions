@@ -5,7 +5,9 @@ import crafttweaker.item.IIngredient;
 import mods.mekanism.infuser;
 import mods.mekanism.enrichment;
 import mod.mekanism.gas.IGasStack;
-
+recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
+recipes.removeShaped(<mekanism:basicblock:14>);
+recipes.remove(<mekanism:basicblock2> * 4);
 //infuser
 infuser.removeRecipe(<mekanism:enrichedalloy>);
 infuser.addRecipe("REDSTONEHARD", 20, <ore:ingotZirconiumMolybdenum>, <mekanism:enrichedalloy>);

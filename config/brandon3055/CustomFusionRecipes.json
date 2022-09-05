@@ -160,6 +160,21 @@
         ]
     },
     {
+        "mode": "ADD",
+        "result": "projecte:matter_block,1,1",
+        "catalyst": "projecte:matter_block",
+        "energy": 5000000,
+        "tier": 3,
+        "ingredients": [
+            "appliedenergistics2:material,1,6",
+            "appliedenergistics2:material,1,6",
+            "appliedenergistics2:material,1,6",
+            "appliedenergistics2:material,1,6",
+            "appliedenergistics2:material,1,6",
+            "appliedenergistics2:material,1,6"
+        ]
+    },
+    {
         "mode": "REMOVE",
         "result": "draconicevolution:draconic_block,4",
         "catalyst": "draconicevolution:draconium_block,4"

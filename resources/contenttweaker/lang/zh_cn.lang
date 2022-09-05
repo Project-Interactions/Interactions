@@ -48,10 +48,6 @@ tile.contenttweaker.refined_ore_essence.name=精炼矿石精华块
 tile.contenttweaker.basic_refined_ore_essence.name=矿石精华块
 
 
-
-
-
-
 tile.contenttweaker.aether_log_fix.name=天根木修复
 base.material.kanthal=坝塔尔合金
 base.material.cupronickel=白铜
@@ -61,16 +57,12 @@ base.material.gallium=镓
 base.material.tough=高强合金
 base.material.heavymetalelements=重金属元素
 base.material.mithril=蕴魔秘银
-base.material.moonstone=皎月石
-base.material.cerulean=晶蓝
 base.material.semiconductor=半导体
 base.material.energium=能量金属
 base.material.uumatter=UU金属块
 base.material.duplication=复制金属
 base.material.superconduct=超导
 base.material.cloudium=薄云轻合金
-base.material.neutronium=中子
-base.material.cosmic=寰宇
 base.material.naturium=自然合金
 base.material.twilght_steel=暮色合金
 
@@ -83,7 +75,7 @@ base.material.lepidolite=锂云母
 base.material.cesiumgarnet=铯榴石
 base.material.fluorocarbonlanthanumcerium=氟碳镧铈
 base.material.ree=稀土
-base.material.molybdenum=辉钼
+base.material.molybdenumore=辉钼
 base.material.ferrochrome=铬铁
 base.material.magnesite=菱镁
 base.material.barite=重晶石
@@ -106,12 +98,10 @@ contenttweaker.part.machine_frame=%s机器框架
 contenttweaker.part.coil=%s线圈
 contenttweaker.part.wire=%s线
 contenttweaker.part.dustore=%s矿粉
-item.contenttweaker.circuit_extreme3.name=精致主机
-item.contenttweaker.circuit_elite3.name=处理器主机
-item.contenttweaker.circuit_master3.name=纳米主机
-item.contenttweaker.circuit_ultimate3.name=量子主机
-item.contenttweaker.circuit_superconductor3.name=晶体主机
-item.contenttweaker.circuit_infinite3.name=湿件主机
+item.contenttweaker.circuit_master.name=纳米主机
+item.contenttweaker.circuit_ultimate.name=量子主机
+item.contenttweaker.circuit_superconductor.name=晶体主机
+item.contenttweaker.circuit_infinite.name=湿件主机
 
 item.contenttweaker.circuit_uev.name=生物活性处理器主机
 item.contenttweaker.circuit_uiv.name=光学处理器主机
@@ -136,9 +126,6 @@ item.contenttweaker.enrichedsunnariumalloy4.name=富集阳光化合物合金4阶
 item.contenttweaker.sunnariumalloy.name=阳光化合物合金
 item.contenttweaker.sunnarium.name=阳光化合物
 
-item.contenttweaker.twilght_symbol.name=暮色标志
-item.contenttweaker.mana_circuit.name=魔能电路板
-item.contenttweaker.infused_mana_circuit.name=星能注入的魔能电路板
 
 
 

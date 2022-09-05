@@ -2,6 +2,16 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+//杂项
+recipes.addShaped(<enderio:item_item_conduit> * 16, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<botania:manaresource:4>, <botania:manaresource:4>, <botania:manaresource:4>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped(<enderio:item_item_conduit> * 4, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.remove(<enderio:item_item_conduit> * 8);
+recipes.remove(<enderio:block_inventory_panel>);
+recipes.remove(<enderio:item_material:12>);
+recipes.addShaped(<enderio:item_item_conduit> * 9, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+
+
+
 //强化黑曜石
 recipes.removeShaped(<enderio:block_reinforced_obsidian>, [[<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>], [<enderio:block_dark_iron_bars>, <ore:obsidian>, <enderio:block_dark_iron_bars>], [<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>]]);
 recipes.addShaped(<enderio:block_reinforced_obsidian>, [[<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>], [<enderio:block_dark_iron_bars>, <calculator:purifiedobsidian>, <enderio:block_dark_iron_bars>], [<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>]]);
@@ -39,4 +49,6 @@ recipes.addShaped(<enderio:item_capacitor_stellar>, [[null, <ore:ingotStellarAll
 //machine frame
 RecipeUtils.recipeTweak(true, <enderio:item_material:66>, [[<enderio:block_end_iron_bars>, <ore:plateEndSteel>, <enderio:block_end_iron_bars>], [<ore:plateEndSteel>,<enderio:item_material:1>, <ore:plateEndSteel>], [<enderio:block_end_iron_bars>, <ore:plateEndSteel>, <enderio:block_end_iron_bars>]]);
 RecipeUtils.recipeTweak(true, <enderio:item_material:55>, [[<enderio:block_industrial_insulation>, <ore:skullGuardianDiode>, <enderio:block_industrial_insulation>], [<ore:gearSoularium>, <ore:itemSoulMachineChassi>, <ore:gearSoularium>], [<enderio:block_industrial_insulation>, <ore:skullGuardianDiode>, <enderio:block_industrial_insulation>]]);
+
+
 

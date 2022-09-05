@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	dependencies: [
+		"b0cf6633"
+	],
+	tasks: [{
+		uid: "63a1e2ad",
+		type: "item",
+		items: [{
+			item: "ae2fc:part_fluid_pattern_ex_terminal"
+		}]
+	}]
+}

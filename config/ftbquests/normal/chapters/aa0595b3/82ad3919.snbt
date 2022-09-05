@@ -6,5 +6,12 @@
 		type: "fluid",
 		fluid: "neutronium",
 		amount: 144
+	},
+	{
+		uid: "b92eb1f4",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}]
 	}]
 }
