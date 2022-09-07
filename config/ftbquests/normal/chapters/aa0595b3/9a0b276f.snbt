@@ -5,7 +5,6 @@
 		"看似轻于鸿毛……"
 	],
 	dependencies: [
-		"82ad3919",
 		"a6ed8598"
 	],
 	tasks: [{

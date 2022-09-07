@@ -5,6 +5,8 @@ import crafttweaker.item.IIngredient;
 import thaumcraft.aspect.CTAspect;
 import thaumcraft.aspect.CTAspectStack;
 import crafttweaker.data.IData;
+import mods.thaumicrestoration.CrystalInfusion;
+
 mods.thaumcraft.SalisMundus.removeSingleConversion(<*>);
 
 //石英粒修改
@@ -72,3 +74,7 @@ for ingredient in aspectMap {
         item.setAspects(aspects);
     }
 }
+
+//thaumicrestoration
+// String Research, IItemStack output, String Aspect, IItemStack input 
+//CrystalInfusion.addRecipe("BASEELDRITCH",<thaumcraft:ingot:1>,"alienis",<thaumcraft:ingot:0>);

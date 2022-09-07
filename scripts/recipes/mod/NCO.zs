@@ -1,3 +1,5 @@
+#ikwid
+
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Radiation;
@@ -55,6 +57,8 @@ Radiation.setRadiationLevel(<contenttweaker:material_part:57>,2.1);
 Radiation.setRadiationLevel(<contenttweaker:material_part:58>,2.1);
 Radiation.setRadiationLevel(<contenttweaker:sub_block_holder_0:4>,3.2);
 Radiation.setRadiationLevel(<liquid:heavymetalelements>,2.1);
+
+/*
 Melter.removeRecipeWithInput(<ore:dustTungsten>);
 Melter.removeRecipeWithInput(<ore:oreTungsten>);
 Melter.removeRecipeWithInput(<ore:dustOsmium>);
@@ -67,15 +71,16 @@ Melter.removeRecipeWithInput(<ore:dustChromium>);
 Melter.removeRecipeWithInput(<ore:dustTitanium>);
 IngotFormer.removeRecipeWithOutput(<avaritia:resource:6>);
 IngotFormer.removeRecipeWithOutput(<taiga:dilithium_ingot>);
-mods.nuclearcraft.Manufactory.removeRecipeWithOutput(<thermalfoundation:material:72>*2);
-mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
-
-mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<techreborn:plates:38>);
-
 Melter.removeRecipeWithInput(<ore:oreDraconium>);
 Melter.removeRecipeWithInput(<ore:dustDraconium>);
+mods.nuclearcraft.Manufactory.removeRecipeWithOutput(<thermalfoundation:material:72>*2);
+mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<techreborn:plates:38>);
+*/
 
-mods.ncsteamadditions.steam_compactor.removeRecipeWithOutput(<moreplates:void_plate>);
+mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
+
+
+
 mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
 
 Assembler.removeRecipeWithOutput(<qmd:semiconductor:4>);
@@ -103,6 +108,5 @@ mods.extendedcrafting.TableCrafting.addShaped(3,<interaction:uu_crafter>, [
 ]);
 
 
-recipes.addShaped(<ncsteamadditions:copper_sheet> * 4, [[<thermalfoundation:material:256>, <redstonearsenal:material:96>, <thermalfoundation:material:256>],[<moreplates:ardite_gear>, <nuclearcraft:part:10>, <moreplates:ardite_gear>], [<thermalfoundation:material:256>, <redstonearsenal:material:96>, <thermalfoundation:material:256>]]);
-recipes.remove(<ncsteamadditions:copper_sheet> * 2);
+
 

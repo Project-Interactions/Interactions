@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import mods.mekanism.infuser;
 import mods.mekanism.enrichment;
 import mod.mekanism.gas.IGasStack;
+import mods.mekanism.thermalevaporation;
 recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
 recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
@@ -24,6 +25,7 @@ infuser.addRecipe("REDSTONEHARD", 10, <ore:ingotOsmiridium>, <mekanism:controlci
 infuser.removeRecipe(<mekanism:otherdust:5>);
 infuser.addRecipe("DIAMONDHARD", 10, <ore:dustDiamond>, <mekanism:otherdust:5>);
 
+infuser.addRecipe("ENDERIUM", 20, <naturesaura:infused_iron>, <extendedcrafting:material:36>);
 //enricher
 enrichment.removeRecipe(<minecraft:redstone>);
 enrichment.removeRecipe(<minecraft:diamond>);
@@ -69,10 +71,6 @@ recipes.remove(<mekanism:controlcircuit:3>);
 recipes.addShaped(<mekanism:controlcircuit:3>, [[<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>],[<mekanism:controlcircuit:2>, <ore:alloyUltimate>, <mekanism:controlcircuit:2>], [<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>]]);
 recipes.addShaped(<mekanism:controlcircuit:2>, [[<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>],[<mekanism:controlcircuit:1>, <ore:alloyElite>, <mekanism:controlcircuit:1>], [<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>]]);
 recipes.addShaped(<mekanism:controlcircuit:1>, [[<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>],[<mekanism:controlcircuit>, <ore:alloyAdvanced>, <mekanism:controlcircuit>], [<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>]]);
-
-
-mods.mekanism.thermalevaporation.addRecipe(<liquid:fluxed_electrum>, <liquid:semiconductor>);
-
 
 //use factory instead
 val remove as IItemStack[] = 
@@ -129,3 +127,13 @@ RecipeUtils.recipeTweak(true, <bfr:reactorglass>, [[null, <bfr:reactor:1>, null]
 recipes.addShaped(<bfr:reactor>, [[<ore:circuitUltimate>, <ore:paneGlass>, <ore:circuitUltimate>], [<bfr:reactor:1>, <mekanism:gastank>.withTag({tier: 0}), <bfr:reactor:1>], [<bfr:reactor:1>, <bfr:reactor:1>, <bfr:reactor:1>]]);
 RecipeUtils.recipeTweak(true, <bfr:reactor:2> * 2, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
 RecipeUtils.recipeTweak(true, <bfr:reactor:3>, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_redstone_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
+
+//thermalevaporation
+//tweak lithium
+thermalevaporation.removeRecipe(<liquid:brine>, <liquid:liquidlithium>);
+thermalevaporation.addRecipe(<liquid:rich_lithium_water>, <liquid:liquidlithium>);
+thermalevaporation.addRecipe(<liquid:brine>, <liquid:rich_lithium_water>);
+thermalevaporation.addRecipe(<liquid:liquidlithium>, <liquid:lithium>);
+
+//semiconductor
+thermalevaporation.addRecipe(<liquid:fluxed_electrum>, <liquid:semiconductor>);

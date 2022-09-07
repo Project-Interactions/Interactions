@@ -17,7 +17,6 @@ recipes.addShapeless(<contenttweaker:diorite_pebble>,[<botania:manaresource:21>]
 recipes.addShapeless(<botania:manaresource:21>,[<contenttweaker:andesite_pebble>]);
 
 ZenScroll.add(<rftools:powercell_creative>
-,<quantumflux:quibitcluster>
 ,<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
 ,<immersiveengineering:metal_device0:3>
 ,<extrautils2:creativeenergy>

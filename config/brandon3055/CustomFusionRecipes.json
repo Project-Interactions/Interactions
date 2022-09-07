@@ -74,13 +74,13 @@
         "tier": 2,
         "ingredients": [
             "draconicevolution:wyvern_core",
-            "tconevo:metal,1,9",
+            "tconevo:metal,1,8",
             "draconicevolution:wyvern_core",
-            "tconevo:metal,1,9",
+            "tconevo:metal,1,8",
             "draconicevolution:wyvern_core",
-            "tconevo:metal,1,9",
+            "tconevo:metal,1,8",
             "draconicevolution:wyvern_core",
-            "tconevo:metal,1,9"
+            "tconevo:metal,1,8"
         ]
     },
     {
@@ -91,13 +91,13 @@
         "tier": 3,
         "ingredients": [
             "draconicevolution:chaos_shard,1,1",
-            "tconevo:metal,1,14",
+            "tconevo:metal,1,13",
             "draconicevolution:chaos_shard,1,1",
-            "tconevo:metal,1,14",
+            "tconevo:metal,1,13",
             "draconicevolution:chaos_shard,1,1",
-            "tconevo:metal,1,14",
+            "tconevo:metal,1,13",
             "draconicevolution:chaos_shard,1,1",
-            "tconevo:metal,1,14"
+            "tconevo:metal,1,13"
         ]
     },
     {

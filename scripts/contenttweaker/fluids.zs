@@ -112,9 +112,11 @@ zsFluid35.register();
 var zsFluid36 = VanillaFactory.createFluid("mek_supercritical", Color.fromHex("617074"));
 zsFluid36.register();
 
+var zsFluid37 = VanillaFactory.createFluid("rich_iodine_oil", Color.fromHex("617074"));
+zsFluid37.register();
 
-
-
+var zsFluid38 = VanillaFactory.createFluid("rich_lithium_water", Color.fromHex("617074"));
+zsFluid38.register();
 
 
 

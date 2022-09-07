@@ -1,0 +1,142 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:chaos",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "draconicevolution:fusion_crafting_core",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "A  B  A",
+        "C  D  C",
+        "A  B  A"
+      ],
+      [
+        "E  F  E",
+        "E  @  E",
+        "E  G  E"
+      ],
+      [
+        "A     A",
+        "C     C",
+        "A     A"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "tconevo:metal_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:chaos",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "tconevo:metal_block",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "draconicevolution:fusion_crafting_core",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "projecte:alchemical_chest",
+            "meta": 3
+          }
+        ],
+        "type": "states",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      },
+      "gas": {
+        "capability": "mek_gas",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "fluid"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "energy"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "gas"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  },
+  "recipeMap": "chaos"
+}
