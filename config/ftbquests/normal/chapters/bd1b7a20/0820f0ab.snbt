@@ -1,8 +1,11 @@
 {
-	x: -6.0d,
+	x: -3.0d,
 	y: 1.0d,
+	text: [
+		"用tnt炸掉落物的形式的物品"
+	],
 	dependencies: [
-		"afd841d2"
+		"7072836d"
 	],
 	tasks: [{
 		uid: "13e0c503",
