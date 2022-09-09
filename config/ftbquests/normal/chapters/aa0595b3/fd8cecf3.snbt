@@ -8,7 +8,7 @@
 		uid: "084f8d91",
 		type: "item",
 		items: [{
-			item: "extendedcrafting:table_elite"
+			item: "botania_tweaks:elite_extended_crafty_crate"
 		}]
 	}]
 }

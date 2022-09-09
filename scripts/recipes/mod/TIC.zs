@@ -168,3 +168,8 @@ recipes.remove(<tconstruct:materials:14>);
 recipes.removeShapeless(<tconevo:metal:37> * 9);
 recipes.remove(<tconevo:metal:40>);
 recipes.removeShapeless(<tconevo:metal:40> * 9);
+
+//Melting recipe for cot liquid
+Melting.addRecipe(<liquid:refinediron>*144,<techreborn:ingot:19>,360);
+Melting.addRecipe(<liquid:tic_useful_metal>*144,<contenttweaker:useful_ingot>,700);
+Melting.addRecipe(<liquid:advancedalloy>*144,<techreborn:ingot:20>,450);

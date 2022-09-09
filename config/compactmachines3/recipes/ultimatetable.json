@@ -3,7 +3,7 @@
   
   "disabled": false,
   
-  "target-item": "extendedcrafting:table_ultimate",
+  "target-item": "botania_tweaks:ultimate_extended_crafty_crate",
   "target-count": 1,
   
   "duration": 960,
@@ -30,7 +30,7 @@
       "meta": 8
     },
     "e": {
-      "id": "extendedcrafting:table_elite",
+      "id": "botania_tweaks:elite_extended_crafty_crate",
       "meta": 0
     }
   },

@@ -1,6 +1,9 @@
 {
 	x: -1.0d,
 	y: 0.0d,
+	text: [
+		"进行一次铂处理"
+	],
 	dependencies: [
 		"0297fa47"
 	],
@@ -9,13 +12,7 @@
 		type: "item",
 		title: "Any orePlatinum",
 		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "orePrecious"
-				}
-			}
+			item: "contenttweaker:sub_block_holder_0 1 9"
 		}]
 	}]
 }

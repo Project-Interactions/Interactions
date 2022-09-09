@@ -206,14 +206,7 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<contenttweaker:material_part:108>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<enderio:item_material:32>])
+        .items([<actuallyadditions:item_dust:4>])
       )
       .addDrop(
         Dropt.drop()

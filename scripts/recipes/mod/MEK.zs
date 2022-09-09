@@ -33,7 +33,7 @@ enrichment.removeRecipe(<mekanism:otherdust:5>);
 
 enrichment.addRecipe(<actuallyadditions:item_crystal_empowered>, <contenttweaker:compressedredstone>);
 enrichment.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <contenttweaker:compresseddiamond>);
-enrichment.addRecipe(<calculator:purifiedobsidian>, <contenttweaker:compressedobsidian>);
+enrichment.addRecipe(<moreplates:refined_obsidian_plate>, <contenttweaker:compressedobsidian>);
 
 
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:8>, [[<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>], [<ore:circuitNuclear>, <mekanism:basicblock:8>, <ore:circuitNuclear>], [<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>]]);
@@ -115,7 +115,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:basicblock:14>, [
 	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
 	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
 	[<mekanism:basicblock2>, <mekanism:basicblock:15>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <mekanism:basicblock:15>, <mekanism:basicblock2>], 
-	[<mekanism:basicblock2>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:teleportationcore>, <mekanism:basicblock2>], 
+	[<mekanism:basicblock2>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock:10>, <mekanism:basicblock2>], 
 	[<mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>, <mekanism:basicblock2>]
 ]);
 
@@ -137,3 +137,13 @@ thermalevaporation.addRecipe(<liquid:liquidlithium>, <liquid:lithium>);
 
 //semiconductor
 thermalevaporation.addRecipe(<liquid:fluxed_electrum>, <liquid:semiconductor>);
+
+//teleportationcore
+recipes.remove(<mekanism:teleportationcore>);
+mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:teleportationcore>*4, [
+	[null, null, <ore:ingotCrystallineAlloy>, null, null], 
+	[null, <ore:ingotCrystallineAlloy>, <ore:alloyUltimate>, <ore:ingotCrystallineAlloy>, null], 
+	[<ore:ingotCrystallineAlloy>, <ore:plateKnightslime>, <bloodmagic:teleposition_focus:3>, <ore:plateKnightslime>, <ore:ingotCrystallineAlloy>], 
+	[null, <ore:ingotCrystallineAlloy>, <ore:alloyUltimate>, <ore:ingotCrystallineAlloy>, null], 
+	[null, null, <ore:ingotCrystallineAlloy>, null, null]
+]);

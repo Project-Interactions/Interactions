@@ -13,7 +13,7 @@ recipes.remove(<extendedcrafting:table_advanced>);
 recipes.addShapeless(<contenttweaker:aether_log_fix>, [<aether_legacy:aether_log>]);
 
 
-mods.embers.Alchemy.add(<extendedcrafting:table_basic>, [<ore:blockAether>,<extendedcrafting:storage>,<enderio:item_material:1>,<thaumcraft:metal_void>,<ore:circuitElite>], {"dawnstone":20 to 30,"iron":20 to 23,"silver":25 to 40,"copper":10 to 15});
+mods.embers.Alchemy.add(<botania_tweaks:basic_extended_crafty_crate>, [<ore:blockAether>,<extendedcrafting:storage>,<enderio:item_material:1>,<thaumcraft:metal_void>,<ore:circuitElite>], {"dawnstone":20 to 30,"iron":20 to 23,"silver":25 to 40,"copper":10 to 15});
 recipes.remove(<integrateddynamics:coal_generator>);
 //File End
 recipes.removeShapeless(<aether_legacy:skyroot_plank>*4);

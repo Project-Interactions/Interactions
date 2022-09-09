@@ -7,17 +7,13 @@ recipes.remove(<simplyjetpacks:itemjetpack:24>);
 recipes.remove(<simplyjetpacks:itemjetpack:25>);
 recipes.remove(<simplyjetpacks:itemjetpack:19>);
 recipes.remove(<simplyjetpacks:itemjetpack:10>);
-recipes.remove(<simplyjetpacks:itemjetpack:29>);
 recipes.remove(<simplyjetpacks:itemjetpack:36>);
-recipes.remove(<simplyjetpacks:itemjetpack:28>);
 recipes.remove(<simplyjetpacks:itemjetpack:18>);
 recipes.remove(<simplyjetpacks:itemjetpack:9>);
-recipes.remove(<simplyjetpacks:itemjetpack:27>);
 recipes.remove(<simplyjetpacks:itemjetpack:16>);
 recipes.remove(<simplyjetpacks:itemjetpack:8>);
 recipes.remove(<simplyjetpacks:itemjetpack:17>);
 recipes.remove(<simplyjetpacks:itemjetpack:7>);
-recipes.remove(<simplyjetpacks:itemjetpack:26>);
 recipes.remove(<simplyjetpacks:itemjetpack:34>);
 recipes.remove(<simplyjetpacks:itemjetpack:35>);
 recipes.remove(<simplyjetpacks:itemjetpack:1>);
@@ -31,8 +27,6 @@ mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:7>, 
 mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:8>, [[<ore:ingotElectricalSteel>, <enderio:item_basic_capacitor>, <ore:ingotElectricalSteel>], [<ore:ingotElectricalSteel>, <simplyjetpacks:itemjetpack:7>, <ore:ingotElectricalSteel>], [<simplyjetpacks:metaitemmods:8>, null, <simplyjetpacks:metaitemmods:8>]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:16>, [[<ore:ingotLead>, <thermalexpansion:capacitor>, <ore:ingotLead>], [<ore:ingotLead>, <simplyjetpacks:metaitem:4>, <ore:ingotLead>], [<simplyjetpacks:metaitemmods:20>, null, <simplyjetpacks:metaitemmods:20>]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:17>, [[<ore:ingotInvar>, <thermalexpansion:capacitor:1>, <ore:ingotInvar>], [<ore:ingotInvar>, <simplyjetpacks:itemjetpack:16>, <ore:ingotInvar>], [<simplyjetpacks:metaitemmods:21>, null, <simplyjetpacks:metaitemmods:21>]]);
-mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:26>, [[<ore:ingotOsmium>, <ore:circuitBasic>, <ore:ingotOsmium>], [<ore:ingotOsmium>, <simplyjetpacks:metaitem:4>, <ore:ingotOsmium>], [<simplyjetpacks:metaitemmods:35>, null, <simplyjetpacks:metaitemmods:35>]]);
-mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:27>, [[<ore:ingotOsmium>, <ore:circuitGoodQ>, <ore:ingotOsmium>], [<ore:ingotOsmium>, <simplyjetpacks:itemjetpack:26>, <ore:ingotOsmium>], [<simplyjetpacks:metaitemmods:36>, null, <simplyjetpacks:metaitemmods:36>]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:34>, [[<ore:plateIron>, <immersiveengineering:material:8>, <ore:plateIron>], [<ore:plateIron>, <simplyjetpacks:metaitem:4>, <ore:plateIron>], [<simplyjetpacks:metaitemmods:42>, null, <simplyjetpacks:metaitemmods:42>]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<simplyjetpacks:itemjetpack:35>, [[<ore:plateAluminum>, <immersiveengineering:material:26>, <ore:plateAluminum>], [<ore:plateAluminum>, <simplyjetpacks:itemjetpack:34>, <ore:plateAluminum>], [<simplyjetpacks:metaitemmods:43>, null, <simplyjetpacks:metaitemmods:43>]]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:9>, [
@@ -49,13 +43,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:18>
 	[<simplyjetpacks:metaitemmods:22>, <ore:gearElectrum>, null, <ore:gearElectrum>, <simplyjetpacks:metaitemmods:22>], 
 	[null, <simplyjetpacks:metaitemmods:22>, null, <simplyjetpacks:metaitemmods:22>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:28>, [
-	[null, <ore:gearOsmium>, <ore:circuitElite>, <ore:gearOsmium>, null], 
-	[null, <ore:gearOsmium>, <ore:circuitElite>, <ore:gearOsmium>, null], 
-	[null, <ore:gearOsmium>, <simplyjetpacks:itemjetpack:27>, <ore:gearOsmium>, null], 
-	[<simplyjetpacks:metaitemmods:37>, <ore:gearOsmium>, null, <ore:gearOsmium>, <simplyjetpacks:metaitemmods:37>], 
-	[null, <simplyjetpacks:metaitemmods:37>, null, <simplyjetpacks:metaitemmods:37>, null]
-]);
+
 mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:36>, [
 	[null, <ore:gearSteel>, <ore:circuitElite>, <ore:gearSteel>, null], 
 	[null, <ore:gearSteel>, <ore:circuitElite>, <ore:gearSteel>, null], 
@@ -63,13 +51,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:36>
 	[<simplyjetpacks:metaitemmods:44>, <ore:gearSteel>, null, <ore:gearSteel>, <simplyjetpacks:metaitemmods:44>], 
 	[null, <simplyjetpacks:metaitemmods:44>, null, <simplyjetpacks:metaitemmods:44>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:29>, [
-	[null, <ore:gearOsmiridium>, <ore:circuitUltimate>, <ore:gearOsmiridium>, null], 
-	[null, <ore:gearOsmiridium>, <ore:circuitUltimate>, <ore:gearOsmiridium>, null], 
-	[null, <ore:gearOsmiridium>, <simplyjetpacks:itemjetpack:28>, <ore:gearOsmiridium>, null], 
-	[<simplyjetpacks:metaitemmods:38>, <ore:gearOsmiridium>, null, <ore:gearOsmiridium>, <simplyjetpacks:metaitemmods:38>], 
-	[null, <simplyjetpacks:metaitemmods:38>, null, <simplyjetpacks:metaitemmods:38>, null]
-]);
+
 mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:10>, [
 	[null, <ore:gearVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:gearVibrantAlloy>, null], 
 	[null, <ore:gearVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:gearVibrantAlloy>, null], 

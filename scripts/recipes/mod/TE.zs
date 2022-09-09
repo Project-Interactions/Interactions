@@ -5,11 +5,11 @@ import crafttweaker.item.IIngredient;
 import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Factorizer;
 import mods.thermalexpansion.Pulverizer;
+import mods.thermalexpansion.InductionSmelter;
 
 recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <minecraft:bucket>, <ore:ingotCopper>], [null, <ore:blockRedstone>, null]]);
 
 recipes.removeShaped(<thermalexpansion:machine:5>, [[null, <minecraft:piston:*>, null], [<ore:ingotBronze>, <thermalexpansion:frame>, <ore:ingotBronze>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
-recipes.removeShaped(<thermalexpansion:machine:3>, [[null, <ore:gearInvar>, null], [<ore:sand>, <thermalexpansion:frame>, <ore:sand>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 recipes.removeShaped(<thermalexpansion:machine:1>, [[null, <minecraft:piston:*>, null], [<minecraft:flint:*>, <thermalexpansion:frame>, <minecraft:flint:*>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 recipes.removeShaped(<thermalexpansion:machine>, [[null, <ore:dustRedstone>, null], [<minecraft:brick_block:*>, <thermalexpansion:frame>, <minecraft:brick_block:*>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
@@ -126,14 +126,20 @@ mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>,
 mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_perditio>, <liquid:aerotheum> * 100,1200 );
 mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_vitium>, <liquid:aerotheum> * 100,1200 );
 
-mods.extendedcrafting.TableCrafting.addShaped(3, <thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 2 as byte, Creative: 0 as byte, Energy: 0, Level: 4 as byte, Augments: [], SideCache: [3, 1, 0, 2, 2, 2] as byte[] as byte[]}), [
-	[<thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>], 
-	[<thermalfoundation:upgrade:35>, <thermalexpansion:frame>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <tcomplement:high_oven_controller>, <ore:chassis>, <thermalfoundation:upgrade:35>], 
-	[<thermalfoundation:upgrade:35>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <enderio:block_inventory_panel_sensor>, <tcomplement:high_oven_controller>, <actuallyadditions:block_phantomface>, <thermalfoundation:upgrade:35>], 
-	[<thermalfoundation:upgrade:35>, <ore:circuitInfiniteQ>, <enderio:block_inventory_panel_sensor>, <enderio:block_inventory_panel_sensor>, <enderio:block_inventory_panel_sensor>, <actuallyadditions:block_phantomface>, <thermalfoundation:upgrade:35>], 
-	[<thermalfoundation:upgrade:35>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <enderio:block_inventory_panel_sensor>, <tcomplement:high_oven_controller>, <actuallyadditions:block_phantomface>, <thermalfoundation:upgrade:35>], 
-	[<thermalfoundation:upgrade:35>, <rftools:machine_frame>, <ore:circuitInfiniteQ>, <ore:circuitInfiniteQ>, <tcomplement:high_oven_controller>, <ore:itemEnhancedMachineChassi>, <thermalfoundation:upgrade:35>], 
-	[<thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:35>]
-]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:device>, [[null, <minecraft:bucket:*>, null], [<ore:blockGlass>, <teslacorelib:machine_case>, <ore:blockGlass>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:device:1>, [[null, <minecraft:lava_bucket>, null], [<minecraft:brick_block:*>, <teslacorelib:machine_case>, <minecraft:brick_block:*>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:device:2>, [[null, <ore:ingotCopper>, null], [<ore:ingotInvar>, <teslacorelib:machine_case>, <ore:ingotInvar>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:device:5>, [[null, <ore:chestWood>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:device:7>, [[null, <thermalfoundation:tome_lexicon>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:device:10>, [[null, <ore:workbench>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
 
+
+val a as IItemStack []= [<thermalfoundation:material:866>,<minecraft:sand>];
+val b as IItemStack []= [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>];
+for i in a{ for j in b{
+        InductionSmelter.removeRecipe(i,j);
+}}
+
+recipes.remove(<thermalexpansion:augment:257>);
 

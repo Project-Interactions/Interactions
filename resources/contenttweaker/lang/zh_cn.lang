@@ -43,6 +43,14 @@ fluid.superconduct=熔融超导体
 fluid.culture_medium=培养液
 item.contenttweaker.twilight_crystal.name=暮色水晶
 
+fluid.advancedalloy=熔融高级合金
+fluid.refinediron=熔融精炼铁
+fluid.tic_useful_metal=熔融实用合金
+fluid.duplication=熔融复制金属
+
+
+
+
 tile.contenttweaker.frost_proof_machine_casing.name=冷冻机器方块
 tile.contenttweaker.refined_ore_essence.name=精炼矿石精华块
 tile.contenttweaker.basic_refined_ore_essence.name=矿石精华块
