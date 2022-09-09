@@ -1,7 +1,7 @@
 {
 	title: "制作压印模板",
-	x: 1.5d,
-	y: 4.5d,
+	x: 0.0d,
+	y: 3.0d,
 	dependencies: [
 		"5b2681d2"
 	],

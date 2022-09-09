@@ -1,14 +1,14 @@
 {
 	x: -4.5d,
-	y: 1.5d,
+	y: 1.0d,
 	dependencies: [
-		"a63735cc"
+		"afd841d2"
 	],
 	tasks: [{
-		uid: "d3305cb5",
+		uid: "771ef7ac",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sunnarium"
+			item: "minecraft:tnt"
 		}]
 	}]
 }

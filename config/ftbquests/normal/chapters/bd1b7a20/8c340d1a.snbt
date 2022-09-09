@@ -1,7 +1,7 @@
 {
 	icon: "immersiveengineering:stone_device 1 7",
 	x: -6.0d,
-	y: 2.0d,
+	y: 2.5d,
 	text: [
 		"用于制作基础合金"
 	],
