@@ -25,9 +25,11 @@ recipes.removeByRecipeName("projecte:conversions/gold_to_diamond");
 recipes.removeByRecipeName("projecte:conversions/emerald_to_diamond");
 recipes.removeByRecipeName("projecte:conversions/iron_to_ender_pearl");
 recipes.removeByRecipeName("projecte:conversions/diamond_to_emerald");
-recipes.removeByRecipeName("unidict:ingotiron_x8_size.2");
-recipes.removeByRecipeName("unidict:ingotgold_x1_shape.abbbbbbbb");
-recipes.removeByRecipeName("unidict:ingotgold_x4_size.2");
+recipes.removeByRecipeName("projecte:conversions/iron_to_gold");
+recipes.removeByRecipeName("projecte:conversions/diamond_to_iron");
+recipes.removeByRecipeName("projecte:conversions/gold_to_iron");
+
+
 //加上下一级主机
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_philosophers_stone>, 100000000 , 1000000, <draconicevolution:chaotic_core>, [<extendedcrafting:storage:4>,<extendedcrafting:storage:4>,<extendedcrafting:storage:4>,<extendedcrafting:storage:4>,<projecte:item.pe_covalence_dust:2>,<projecte:item.pe_covalence_dust:1>,<projecte:item.pe_covalence_dust>]);
 

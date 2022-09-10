@@ -6,6 +6,7 @@ import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.BloodAltar;
 import mods.bloodmagic.AlchemyTable;
 recipes.remove(<bloodmagic:alchemy_table>);
+recipes.addShaped(<bloodmagic:soul_snare>, [[<embers:ashen_cloth>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>],[null, <thaumadditions:adaminite_fabric>, <nuclearcraft:alloy:2>], [<thaumadditions:adaminite_fabric>, null, <embers:ashen_cloth>]]);
 
 #--------------Weak blood orb
 BloodAltar.removeRecipe(<minecraft:diamond>);

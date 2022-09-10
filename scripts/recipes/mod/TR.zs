@@ -15,7 +15,6 @@ recipes.remove(<techreborn:machine_casing:1> * 4);
 recipes.remove(<techreborn:cable> * 6);
 recipes.remove(<techreborn:machine_casing:2>);
 recipes.addShaped(<techreborn:machine_casing:2> * 2, [[<ore:plateChrome>,<ore:plateChrome>,<ore:plateChrome>],[null, <techreborn:machine_frame:2>, null], [<ore:plateChrome>,<ore:plateChrome>,<ore:plateChrome>]]);
-recipes.removeShaped(<minecraft:iron_ingot> * 8, null);
 recipes.removeShaped(<techreborn:machine_frame>, [[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>], [<ore:ingotRefinedIron>, null, <ore:ingotRefinedIron>], [<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>]]);
 recipes.addShaped(<techreborn:cable> * 3, [[<immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>],[null, null, null], [<immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>]]);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:iron_door>);

@@ -1,0 +1,20 @@
+{
+	x: -15.5d,
+	y: -3.5d,
+	dependencies: [
+		"9a0b276f",
+		"a4b871fb"
+	],
+	tasks: [{
+		uid: "7a2db873",
+		type: "item",
+		items: [{
+			item: "contenttweaker:landia_tp"
+		}]
+	},
+	{
+		uid: "5bc31c9e",
+		type: "dimension",
+		dim: 1304
+	}]
+}

@@ -142,4 +142,5 @@ for i in a{ for j in b{
 }}
 
 recipes.remove(<thermalexpansion:augment:257>);
+InductionSmelter.removeRecipe(<enderio:item_material>,<enderio:item_material:51>);
 

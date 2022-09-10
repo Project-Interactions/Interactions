@@ -2,11 +2,23 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
-
+recipes.removeShapeless(<extendedcrafting:material:36>);
+recipes.remove(<extendedcrafting:table_advanced>);
+recipes.remove(<extendedcrafting:ender_alternator> * 2);
+recipes.remove(<extendedcrafting:ender_crafter>);
 recipes.remove(<extendedcrafting:compressor>);
 recipes.remove(<extendedcrafting:table_ultimate>);
 recipes.remove(<extendedcrafting:table_elite>);
 recipes.remove(<extendedcrafting:crafting_core>);
+recipes.remove(<extendedcrafting:material:2>);
+recipes.remove(<extendedcrafting:table_basic>);
+recipes.removeShapeless(<extendedcrafting:material>);
+recipes.remove(<extendedcrafting:pedestal>*2);
+recipes.addShaped(<extendedcrafting:pedestal>,[[null,<thaumicrestoration:block_adv_recharge_pedestal>,null],[null,<pneumaticcraft:elevator_base>,null],[<extendedcrafting:trimmed:4>,<extendedcrafting:trimmed:4>,<extendedcrafting:trimmed:4>]]);
+recipes.remove(<extendedcrafting:material:7>*2);
+recipes.addShaped(<extendedcrafting:material:7>,[[<ore:dustLumium>,<ore:dustLumium>,null],[<enderio:block_holier_fog>,<enderio:block_holier_fog>,null],[null,null,null]]);
+<ore:essenceLumium>.add(<extendedcrafting:material:7>);
+
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:frame>, [[<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>], [<psicosts:material_glassy>, <extendedcrafting:material:2>, <psicosts:material_glassy>], [<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>]]);
 RecipeUtils.recipeTweak(true, <extendedcrafting:interface>, [[<extendedcrafting:material>, <extendedcrafting:material:10>, <extendedcrafting:material>], [<extendedcrafting:material:18>, <extendedcrafting:frame>, <extendedcrafting:material:18>], [<extendedcrafting:material>, <ore:circuitElite>, <extendedcrafting:material>]]);
@@ -54,4 +66,25 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:table_ultimat
 	[null, null, <projecte:item.pe_philosophers_stone>, null, null, null, <projecte:item.pe_philosophers_stone>, null, null], 
 	[null, null, null, <projecte:item.pe_philosophers_stone>, null, <projecte:item.pe_philosophers_stone>, null, null, null], 
 	[null, null, null, null, <projecte:item.pe_philosophers_stone>, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:crafting_core>, [
+	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
+	[null, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, null], 
+	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
+	[null, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, null], 
+	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:circuitUniversal>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
+	[null, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:circuitUniversal>, <ore:blockBlackIron>, <ore:blockBlackIron>, null], 
+	[<ore:blockBlackIron>, <ore:blockBlackIron>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:blockBlackIron>, <ore:blockBlackIron>]
+]);
+
+mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
+mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
+	[<ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>], 
+	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
+	[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>]
 ]);

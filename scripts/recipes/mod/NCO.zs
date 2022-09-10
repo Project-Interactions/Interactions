@@ -110,3 +110,5 @@ mods.extendedcrafting.TableCrafting.addShaped(3,<interaction:uu_crafter>, [
 
 
 
+mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<qmd:ingot_alloy:2>*6);
+mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<plustic:osmiridiumingot>*2);

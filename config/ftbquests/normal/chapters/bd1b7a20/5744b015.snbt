@@ -6,7 +6,7 @@
 	shape: "diamond",
 	text: [
 		"本整合包由mczph制作",
-		"500+mods",
+		"450+mods",
 		"本整合包仍在开发中，有意向参与制作的可以联系我"
 	],
 	size: 2.0d,
@@ -769,6 +769,182 @@
 						}
 					}
 				}
+			}
+		}
+	},
+	{
+		uid: "22780964",
+		type: "item",
+		item: {
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:data": {
+					bloodmagic: {
+						id: "bloodmagic:ritual_reader",
+						Count: 1b,
+						Damage: 0s
+					},
+					immersiveintelligence: {
+						id: "immersiveintelligence:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					integratedtunnels: {
+						id: "integrateddynamics:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					landcraft: {
+						id: "landcraft:item_wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					pneumaticcraft: {
+						id: "pneumaticcraft:pneumatic_wrench",
+						Count: 1b,
+						Damage: 30000s
+					},
+					rftools: {
+						id: "rftools:smartwrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					techreborn: {
+						id: "techreborn:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					teslacorelib: {
+						id: "teslacorelib:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					practicallogistics2: {
+						id: "practicallogistics2:operator",
+						Count: 1b,
+						Damage: 0s
+					},
+					forestry: {
+						id: "forestry:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					extrautils2: {
+						id: "extrautils2:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					immersiveengineering: {
+						id: "immersiveengineering:tool",
+						Count: 1b,
+						Damage: 0s
+					},
+					embers: {
+						id: "embers:tinker_hammer",
+						Count: 1b,
+						Damage: 0s,
+						tag: {}
+					},
+					actuallyadditions: {
+						id: "actuallyadditions:item_laser_wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					base: {
+						id: "base:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					calculator: {
+						id: "calculator:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					enderio: {
+						id: "enderio:item_yeta_wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					botania: {
+						id: "botania:twigwand",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							color1: 0,
+							color2: 0,
+							boundTileX: 0,
+							boundTileY: -1,
+							boundTileZ: 0
+						}
+					},
+					astralsorcery: {
+						id: "astralsorcery:itemwand",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							astralsorcery: {}
+						}
+					},
+					appliedenergistics2: {
+						id: "appliedenergistics2:certus_quartz_wrench",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							"morphtool:displayName": "赛特斯石英扳手",
+							display: {
+								Name: "§r变形工具(§a赛特斯石英扳手§r)"
+							}
+						}
+					},
+					arcanearchives: {
+						id: "arcanearchives:scepter_revelation",
+						Count: 1b,
+						Damage: 0s
+					},
+					nuclearcraft: {
+						id: "nuclearcraft:multitool",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							"morphtool:displayName": "多功能工具",
+							display: {
+								Name: "§r变形工具(§a多功能工具§r)"
+							}
+						}
+					},
+					draconicevolution: {
+						id: "draconicevolution:crystal_binder",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							"morphtool:displayName": "水晶绑定扳手",
+							display: {
+								Name: "§r变形工具(§a水晶绑定扳手§r)"
+							}
+						}
+					},
+					thermalfoundation: {
+						id: "thermalfoundation:wrench",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							"morphtool:displayName": "新月锤",
+							display: {
+								Name: "§r变形工具(§a新月锤§r)"
+							}
+						}
+					},
+					mekanism: {
+						id: "mekanism:configurator",
+						Count: 1b,
+						Damage: 0s
+					}
+				},
+				"morphtool:is_morphing": 1b
 			}
 		}
 	}]

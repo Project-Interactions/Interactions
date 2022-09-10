@@ -1,5 +1,6 @@
 import mods.theaurorian.MoonlightForge;
 import mods.theaurorian.Scrapper;
+recipes.addShaped(<theaurorian:aurorianstone>, [[<twilightforest:aurora_block>, <thermalfoundation:material:264>, <twilightforest:aurora_block>],[<aetherworks:item_resource:5>, <taiga:aurorium_block>, <aetherworks:item_resource:5>], [<twilightforest:aurora_block>, <thermalfoundation:material:264>, <twilightforest:aurora_block>]]);
 
 //glass tweak
 furnace.remove(<theaurorian:moonglass>);
