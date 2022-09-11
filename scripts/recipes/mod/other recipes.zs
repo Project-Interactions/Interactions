@@ -38,6 +38,8 @@ mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<minecraft:gravel>,<min
 
 mods.logistics.hammer.addRecipe(<contenttweaker:ore_essence>,<minecraft:redstone>*3);
 mods.logistics.hammer.addRecipe(<projectred-core:resource_item>,<contenttweaker:printed_manual_circuit_board_substrate>);
+mods.logistics.hammer.addRecipe(<minecraft:cobblestone>,<practicallogistics2:stoneplate>);
+
 
 recipes.remove(<thermalfoundation:storage:8>);
 furnace.remove(<thermalfoundation:material:136>, <thermalfoundation:ore:8>);

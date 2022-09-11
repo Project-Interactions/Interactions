@@ -173,3 +173,45 @@ recipes.removeShapeless(<tconevo:metal:40> * 9);
 Melting.addRecipe(<liquid:refinediron>*144,<techreborn:ingot:19>,360);
 Melting.addRecipe(<liquid:tic_useful_metal>*144,<contenttweaker:useful_ingot>,700);
 Melting.addRecipe(<liquid:advancedalloy>*144,<techreborn:ingot:20>,450);
+
+//remove part casting
+val part as IItemStack[] = 
+[
+<tconstruct:shard>,
+<tconstruct:arrow_head>,
+<tconstruct:sharpening_kit>,
+<tconstruct:pick_head>,
+<tconstruct:shovel_head>,
+<tconstruct:axe_head>,
+<tconstruct:broad_axe_head>,
+<tconstruct:sword_blade>,
+<tconstruct:large_sword_blade>,
+<tconstruct:hammer>,
+<tconstruct:excavator_head>,
+<tconstruct:kama_head>,
+<tconstruct:scythe_head>,
+<tconstruct:pan_head>,
+<tconstruct:sign_head>,
+<tconstruct:tool_rod>,
+<tconstruct:tough_tool_rod>,
+<tconstruct:binding>,
+<tconstruct:tough_binding>,
+<tconstruct:hand_guard>,
+<tconstruct:cross_guard>,
+<tconstruct:large_plate>,
+<tconstruct:knife_blade>,
+<tconstruct:bow_limb>,
+<tconstruct:bow_string>,
+<tconstruct:arrow_shaft>,
+<tconstruct:fletching>,
+<tconstruct:bolt_core>
+];
+
+function CastRemove(a as string, b as IItemStack) as void{
+    Casting.removeTableRecipe(b.withTag({Material:a}));
+}
+/*
+for Remove in part {
+    CastRemove("iron",Remove);
+}
+*/

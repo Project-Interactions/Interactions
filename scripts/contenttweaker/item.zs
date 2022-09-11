@@ -28,16 +28,6 @@ VanillaFactory.createItem("twilight_crystal").register();
 VanillaFactory.createItem("useful_ingot").register();
 VanillaFactory.createItem("hot_tungsten_ingot").register();
 
-VanillaFactory.createItem("circuit_master").register();
-VanillaFactory.createItem("circuit_superconductor").register();
-VanillaFactory.createItem("circuit_infinite").register();
-VanillaFactory.createItem("circuit_ultimate").register();
-VanillaFactory.createItem("circuit_uev").register();
-VanillaFactory.createItem("circuit_uiv").register();
-VanillaFactory.createItem("circuit_umv").register();
-VanillaFactory.createItem("circuit_uxv").register();
-VanillaFactory.createItem("circuit_max").register();
-
 VanillaFactory.createItem("andesite_pebble").register();
 VanillaFactory.createItem("granite_pebble").register();
 VanillaFactory.createItem("diorite_pebble").register();
@@ -66,27 +56,6 @@ VanillaFactory.createItem("thermal_pneumatic_circuit").register();
 VanillaFactory.createItem("powered_circuit").register();
 VanillaFactory.createItem("psio_powered_circuit").register();
 
-VanillaFactory.createItem("precipitate_platinum_dust").register();
-VanillaFactory.createItem("calcium_chloride").register();
-VanillaFactory.createItem("platinum_salt_dust").register();
-VanillaFactory.createItem("dusty_platinum").register();
-VanillaFactory.createItem("platinum_slag").register();
-VanillaFactory.createItem("iridium_chloride").register();
-VanillaFactory.createItem("iridium_dioxide").register();
-VanillaFactory.createItem("precipitate_palladium").register();
-VanillaFactory.createItem("sodium_formate").register();
-VanillaFactory.createItem("rhodium_nitrate").register();
-VanillaFactory.createItem("rhodium_salt").register();
-VanillaFactory.createItem("tungsten_trioxide").register();
-VanillaFactory.createItem("crude_rhodium_metal").register();
-VanillaFactory.createItem("rhodium_sulfate").register();
-VanillaFactory.createItem("zinc_sulfate").register();
-VanillaFactory.createItem("leaching_slag").register();
-VanillaFactory.createItem("rhodium_filter_cake").register();
-VanillaFactory.createItem("rhodium_filter_cake_solution").register();
-VanillaFactory.createItem("tungsten_acid").register();
-VanillaFactory.createItem("rare_metal_slag").register();
-VanillaFactory.createItem("potassium_pyrosulfate").register();
 
 VanillaFactory.createItem("compressedredstone").register();
 VanillaFactory.createItem("compresseddiamond").register();
@@ -97,6 +66,8 @@ VanillaFactory.createItem("ultimate_ingot_left_down").register();
 VanillaFactory.createItem("ultimate_ingot_right_up").register();
 VanillaFactory.createItem("ultimate_ingot_right_down").register();
 
+VanillaFactory.createItem("inverse_entropy_alloy").register();
+VanillaFactory.createItem("inverse_entropy_circuit").register();
 
 
 

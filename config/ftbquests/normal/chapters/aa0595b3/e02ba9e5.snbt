@@ -11,5 +11,10 @@
 		items: [{
 			item: "avaritia:resource 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "787ae2a0",
+		type: "item",
+		item: "avaritia:block_resource 1 2"
 	}]
 }

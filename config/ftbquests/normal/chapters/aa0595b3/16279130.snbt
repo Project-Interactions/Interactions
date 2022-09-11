@@ -11,5 +11,10 @@
 		items: [{
 			item: "plustic:osgloglasingot"
 		}]
+	}],
+	rewards: [{
+		uid: "cd75a692",
+		type: "item",
+		item: "plustic:osgloglasblock"
 	}]
 }

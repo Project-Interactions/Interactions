@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: -1.5d,
+	dependencies: [
+		"0e0c1f29"
+	],
+	tasks: [{
+		uid: "511c1598",
+		type: "item",
+		items: [{
+			item: "bfr:reactor"
+		}]
+	}]
+}

@@ -15,6 +15,5 @@
 <contenttweaker:material_part:127>.addTooltip("\u4F7F\u7528Duraluminium\u7EBF\u5708\u5728\u9AD8\u7089\u70E7\u5236");
 
 <contenttweaker:oganesson897>.displayName = "\u9FEB897";
-<contenttweaker:oganesson897>.addTooltip("\ue900\ue901\ue902\ue903\ue904\ue906\ue907\ue90A\ue90C\u9FEB\u9FEC\u9FED\ue900\ue909");
 
 

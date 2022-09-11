@@ -15,3 +15,5 @@ InfuserType.addTypeObject(<contenttweaker:compresseddiamond>,"DIAMONDHARD",80);
 
 InfuserType.addTypeObject(<calculator:purifiedobsidian>,"OBSIDIANHARD",10);
 InfuserType.addTypeObject(<contenttweaker:compressedobsidian>,"OBSIDIANHARD",80);
+
+InfuserType.addTypeObject(<avaritia:resource:4>,"ENTROPY",100);

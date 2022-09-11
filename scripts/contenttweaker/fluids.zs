@@ -70,47 +70,8 @@ zsFluid21.register();
 var zsFluid22 = VanillaFactory.createFluid("aqua_regia", Color.fromHex("B1AB5F"));
 zsFluid22.register();
 
-var zsFluid23 = VanillaFactory.createFluid("ammonium_chloride", Color.fromHex("B2332D"));
-zsFluid23.register();
-
-var zsFluid24 = VanillaFactory.createFluid("condense_platinum", Color.fromHex("B1AB5F"));
-zsFluid24.register();
-
-var zsFluid25 = VanillaFactory.createFluid("palladium_rich_ammonia", Color.fromHex("6C7711"));
-zsFluid25.register();
-
-var zsFluid26 = VanillaFactory.createFluid("acid_iridium", Color.fromHex("771121"));
-zsFluid26.register();
-
-var zsFluid27 = VanillaFactory.createFluid("acidic_osmium", Color.fromHex("4000F7"));
-zsFluid27.register();
-
-var zsFluid28 = VanillaFactory.createFluid("osmium_solution", Color.fromHex("4000F7"));
-zsFluid28.register();
-
-var zsFluid29 = VanillaFactory.createFluid("acetic_acid", Color.fromHex("3A5056"));
-zsFluid29.register();
-
-var zsFluid30 = VanillaFactory.createFluid("ruthenium_tetroxide", Color.fromHex("3A5056"));
-zsFluid30.register();
-
-var zsFluid31 = VanillaFactory.createFluid("hot_ruthenium_tetroxide", Color.fromHex("617074"));
-zsFluid31.register();
-
-var zsFluid32 = VanillaFactory.createFluid("ruthenium_tetroxide_solution", Color.fromHex("617074"));
-zsFluid32.register();
-
-var zsFluid33 = VanillaFactory.createFluid("sodium_ruthate", Color.fromHex("617074"));
-zsFluid33.register();
-
-var zsFluid34 = VanillaFactory.createFluid("rhodium_salt_solution", Color.fromHex("617074"));
-zsFluid34.register();
-
 var zsFluid35 = VanillaFactory.createFluid("molten_mana", Color.fromHex("617074"));
 zsFluid35.register();
-
-var zsFluid36 = VanillaFactory.createFluid("mek_supercritical", Color.fromHex("617074"));
-zsFluid36.register();
 
 var zsFluid37 = VanillaFactory.createFluid("rich_iodine_oil", Color.fromHex("617074"));
 zsFluid37.register();

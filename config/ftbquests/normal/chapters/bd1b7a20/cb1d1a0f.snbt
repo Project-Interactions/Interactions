@@ -20,11 +20,5 @@
 				}
 			}
 		}]
-	}],
-	rewards: [{
-		uid: "e7988fbc",
-		type: "item",
-		item: "oeintegration:excavatemodifier",
-		count: 4
 	}]
 }

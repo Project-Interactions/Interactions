@@ -29,6 +29,7 @@
 <ore:circuitNuclear>.add(<mekanism:controlcircuit:2>);
 <ore:circuitUniversal>.add(<mekanism:controlcircuit:3>);
 
+<ore:circuitUniversal>.add(<contenttweaker:inverse_entropy_circuit>);
 
 
 

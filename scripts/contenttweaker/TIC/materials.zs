@@ -1,6 +1,6 @@
 #loader contenttweaker 
 #priority 2000
-
+#ignoreBracketErrors
 
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.game.IGame;

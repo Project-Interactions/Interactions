@@ -14,3 +14,4 @@ $ cat .gitignore
 !/.gitignore
 !/README.md
 !/icon.png
+!/options.txt

@@ -1,0 +1,21 @@
+{
+	x: -19.0d,
+	y: -8.0d,
+	dependencies: [
+		"82ad3919"
+	],
+	tasks: [{
+		uid: "53b33199",
+		type: "item",
+		items: [{
+			item: "contenttweaker:inverse_entropy_alloy"
+		}]
+	},
+	{
+		uid: "4149d01f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:inverse_entropy_circuit"
+		}]
+	}]
+}
