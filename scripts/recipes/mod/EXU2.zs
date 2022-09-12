@@ -62,11 +62,11 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:quarryproxy>, [
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:snowglobe>, [
-	[<wirelessutils:void_pearl>, <ore:blockGlassColorless>, <astralsorcery:itemshiftingstar>, <actuallyadditions:block_greenhouse_glass>, <wirelessutils:void_pearl>], 
-	[<botania:elfglass>, <aether_legacy:enchanted_aether_grass>, <minecraft:snowball>, <aether_legacy:aether_grass>, <calculator:flawlessglass>], 
-	[<extendedcrafting:material:40>, <appliedenergistics2:paint_ball>, <extrautils2:opinium:8>, <thermalexpansion:morb>, <actuallyadditions:item_misc:19>], 
-	[<twilightforest:auroralized_glass>, <theaurorian:auroriangrass>, <tconstruct:materials:18>, <minecraft:grass>, <ore:blockGlassHardenedWhite>], 
-	[<minecraft:ender_pearl>, <ore:blockGlassColorless>, <ore:netherStar>, <ore:blockGlassHardened>, <wirelessutils:void_pearl>]
+	[<twilightforest:auroralized_glass>, <minecraft:grass>, <botania:altgrass:3>, <botania:altgrass>, <twilightforest:auroralized_glass>], 
+	[<botania:altgrass:1>, <ore:pearlFluix>, <wirelessutils:scorched_pearl>, <ore:manaPearl>, <botania:altgrass:4>], 
+	[<botania:altgrass:5>, <wirelessutils:quenched_pearl>, <thaumcraft:primordial_pearl>, <wirelessutils:fluxed_pearl>, <tconstruct:slime_grass:10>], 
+	[<botania:altgrass:2>, <projectred-expansion:infused_ender_pearl>, <wirelessutils:scorched_pearl>, <darkutils:shulker_pearl>, <tconstruct:slime_grass:5>], 
+	[<twilightforest:auroralized_glass>, <aether_legacy:aether_grass>, <aether_legacy:enchanted_aether_grass>, <tconstruct:slime_grass>, <twilightforest:auroralized_glass>]
 ]);
 
 

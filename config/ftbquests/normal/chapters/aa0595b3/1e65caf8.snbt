@@ -1,0 +1,17 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"熔融物可合成"
+	],
+	dependencies: [
+		"e725861b"
+	],
+	tasks: [{
+		uid: "06fa119e",
+		type: "item",
+		items: [{
+			item: "landcore:item_ingot 1 2"
+		}]
+	}]
+}

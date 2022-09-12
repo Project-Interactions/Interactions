@@ -88,3 +88,14 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
 	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
 	[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>]
 ]);
+
+//biggercraftingtables
+recipes.remove(<biggercraftingtables:biggercraftingtable>);
+recipes.remove(<biggercraftingtables:biggercraftingtable:1>);
+recipes.remove(<biggercraftingtables:biggercraftingtable:2>);
+recipes.remove(<biggercraftingtables:autobiggercraftingtable>);
+recipes.remove(<biggercraftingtables:autobiggercraftingtable:1>);
+recipes.remove(<biggercraftingtables:autobiggercraftingtable:2>);
+mods.jei.JEI.hideCategory("biggerct.big");
+mods.jei.JEI.hideCategory("biggerct.huge");
+mods.jei.JEI.hideCategory("biggerct.giant");

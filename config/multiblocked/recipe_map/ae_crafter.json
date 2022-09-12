@@ -182,6 +182,51 @@
       }
     },
     {
+      "uid": "5ad7ac76-4cd3-428a-9c91-00b98eaa0b5f",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"techreborn:lapotroncrystal\",Count:8b,Damage:0s,tag:{energy:0}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:16b,Damage:19s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:lapotronicorb\",Count:1b,Damage:0s,tag:{energy:0}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "ad13d386-0c75-440d-962d-428f6931179f",
       "duration": 1000,
       "inputs": {

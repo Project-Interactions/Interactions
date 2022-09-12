@@ -1,5 +1,6 @@
 {
-	title: "《万物归一》",
+	title: "万物归一",
+	icon: "avaritia:resource 1 6",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,9 +1,6 @@
 {
 	x: -3.0d,
 	y: 2.5d,
-	text: [
-		"无限水已禁用"
-	],
 	dependencies: [
 		"0820f0ab"
 	],

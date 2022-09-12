@@ -105,9 +105,8 @@ Casting.addTableRecipe(<wirelessutils:fluxed_pearl>, <minecraft:ender_pearl>, <l
 //
 Casting.addTableRecipe(<moreplates:silver_stick>, <immersiveengineering:mold:2>, <liquid:silver>,144,false, 80);
 Casting.addTableRecipe(<moreplates:gold_stick>, <immersiveengineering:mold:2>, <liquid:gold>,144,false, 80);
-//Casting.addTableRecipe(<libvulpes:productrod:1>, <immersiveengineering:mold:2>, <liquid:iron>,144,false, 80);
-//Casting.addTableRecipe(<libvulpes:productrod:4>, <immersiveengineering:mold:2>, <liquid:copper>,144,false, 80);
-//Casting.addTableRecipe(<libvulpes:productrod:6>, <immersiveengineering:mold:2>, <liquid:steel>,144,false, 80);
+Casting.addTableRecipe(<immersiveengineering:material:1>, <immersiveengineering:mold:2>, <liquid:iron>,144,false, 80);
+Casting.addTableRecipe(<immersiveengineering:material:2>, <immersiveengineering:mold:2>, <liquid:steel>,144,false, 80);
 Casting.addTableRecipe(<immersiveengineering:material:3>, <immersiveengineering:mold:2>, <liquid:aluminum>,144,false, 80);
 Casting.addTableRecipe(<moreplates:nickel_stick>, <immersiveengineering:mold:2>, <liquid:nickel>,144,false, 80);
 Casting.addTableRecipe(<moreplates:lead_stick>, <immersiveengineering:mold:2>, <liquid:lead>,144,false, 80);
