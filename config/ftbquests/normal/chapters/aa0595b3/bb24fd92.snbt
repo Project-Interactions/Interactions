@@ -1,0 +1,32 @@
+{
+	x: -17.0d,
+	y: -3.5d,
+	dependencies: [
+		"47f529aa"
+	],
+	tasks: [{
+		uid: "25269323",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreDimensionalShard"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreDimensionalShard"
+				}
+			}
+		}]
+	},
+	{
+		uid: "171a2373",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard"
+		}]
+	}]
+}

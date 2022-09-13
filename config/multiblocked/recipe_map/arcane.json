@@ -42,93 +42,6 @@
       }
     },
     {
-      "uid": "066c3476-a40c-4593-9f0a-f658a0ba40a4",
-      "duration": 10,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"appliedenergistics2:quartz_vibrant_glass\",Count:2b,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"arcanearchives:storage_shaped_quartz\",Count:1b,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"ironchest:iron_chest\",Count:3b,Damage:2s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"aeadditions:storage.casing\",Count:1b,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "6e15f8fe-0c89-40a9-940a-513cb5dd4c41",
-      "duration": 10,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"projecte:item.pe_matter\",Count:2b,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"aeadditions:storage.casing\",Count:1b,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"equivalentenergistics:item_misc\",Count:1b,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "84813721-9b68-44d0-8fc9-21e54f9910ee",
       "duration": 10,
       "inputs": {
@@ -184,7 +97,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"appliedenergistics2:quartz_vibrant_glass\",Count:2b,Damage:0s}"
+                "{id:\"appliedenergistics2:quartz_vibrant_glass\",Count:3b,Damage:0s}"
               ]
             }
           },
@@ -319,6 +232,54 @@
       }
     },
     {
+      "uid": "e0b8e166-92a5-4fd8-8d08-69d77558a417",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"ironchest:iron_chest\",Count:3b,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"arcanearchives:storage_shaped_quartz\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"appliedenergistics2:quartz_vibrant_glass\",Count:3b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"aeadditions:storage.casing\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "ded16921-5d1b-4928-9236-9e7fe55b3748",
       "duration": 10,
       "inputs": {
@@ -337,7 +298,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"arcanearchives:radiant_dust\",Count:2b,Damage:0s}"
+                "{id:\"arcanearchives:radiant_dust\",Count:1b,Damage:0s}"
               ]
             }
           }
@@ -367,7 +328,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"appliedenergistics2:quartz_vibrant_glass\",Count:2b,Damage:0s}"
+                "{id:\"appliedenergistics2:quartz_vibrant_glass\",Count:3b,Damage:0s}"
               ]
             }
           },

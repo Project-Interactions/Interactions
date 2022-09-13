@@ -46,6 +46,215 @@
       }
     },
     {
+      "uid": "10d16ebe-a6c5-44d9-a60c-dc39a9e199f9",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dustIridium"
+            }
+          }
+        ],
+        "exu2_gp": [
+          {
+            "chance": 1.0,
+            "content": 20.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hot_irdium_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2008e48d-277f-46cc-b1c5-407ac6c22146",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:102s}"
+              ]
+            }
+          }
+        ],
+        "ember": [
+          {
+            "chance": 1.0,
+            "content": 100.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 20000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:166s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0fb41f18-8dec-4d74-8a1b-6b8b64c4912b",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:dust\",Count:1b,Damage:2s}",
+                "{id:\"techreborn:dust\",Count:1b,Damage:10s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 10000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:ingot\",Count:1b,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "block": {
+          "block": {
+            "id": "contenttweaker:sub_block_holder_0",
+            "meta": 6
+          },
+          "count": 16
+        }
+      }
+    },
+    {
+      "uid": "589a628d-0738-4af8-9a63-be60d7ab25ca",
+      "duration": 15,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:material\",Count:1b,Damage:6s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:160s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2225c6a2-186a-4ceb-afeb-b6e0ffe2823d",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"jaopca:dust.tungstensteel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "mek_heat": [
+          {
+            "chance": 1.0,
+            "content": 200.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"techreborn:ingot\",Count:1b,Damage:16s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "8dcba00f-2ac8-43b6-9b3b-0e5860c50c9b",
       "duration": 100,
       "inputs": {
@@ -132,6 +341,46 @@
       }
     },
     {
+      "uid": "525c0ef8-85fd-44ad-a14b-46e35a7f2419",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dustOsmium"
+            }
+          }
+        ],
+        "exu2_gp": [
+          {
+            "chance": 1.0,
+            "content": 20.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hot_osmium_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "f573d93f-a4a9-4aa3-bfdd-2d999b1dfd93",
       "duration": 100,
       "inputs": {
@@ -167,48 +416,6 @@
               "amount": 1,
               "matches": [
                 "{id:\"thermalfoundation:material\",Count:1b,Damage:165s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "2008e48d-277f-46cc-b1c5-407ac6c22146",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:102s}"
-              ]
-            }
-          }
-        ],
-        "ember": [
-          {
-            "chance": 1.0,
-            "content": 100.0
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 20000
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:166s}"
               ]
             }
           }
@@ -375,133 +582,6 @@
       }
     },
     {
-      "uid": "0fb41f18-8dec-4d74-8a1b-6b8b64c4912b",
-      "duration": 800,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"qmd:dust\",Count:1b,Damage:2s}",
-                "{id:\"techreborn:dust\",Count:1b,Damage:10s}"
-              ]
-            }
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 10000
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"techreborn:ingot\",Count:1b,Damage:3s}"
-              ]
-            }
-          }
-        ]
-      },
-      "conditions": {
-        "block": {
-          "block": {
-            "id": "contenttweaker:sub_block_holder_0",
-            "meta": 6
-          },
-          "count": 16
-        }
-      }
-    },
-    {
-      "uid": "589a628d-0738-4af8-9a63-be60d7ab25ca",
-      "duration": 15,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"immersiveengineering:material\",Count:1b,Damage:6s}"
-              ]
-            }
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 2000
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:160s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "2225c6a2-186a-4ceb-afeb-b6e0ffe2823d",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"jaopca:dust.tungstensteel\",Count:1b,Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "mek_heat": [
-          {
-            "chance": 1.0,
-            "content": 200.0
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"techreborn:ingot\",Count:1b,Damage:16s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "1c045e4a-ec4b-4bb2-a9a4-4877b034ad65",
       "duration": 100,
       "inputs": {
@@ -546,6 +626,40 @@
               "amount": 1,
               "matches": [
                 "{id:\"enderio:item_alloy_endergy_ingot\",Count:1b,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a1551715-5ee3-491e-9d25-5d8bc4b8e505",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dustTungsten"
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hot_tungsten_ingot\",Count:1b,Damage:0s}"
               ]
             }
           }

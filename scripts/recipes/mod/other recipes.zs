@@ -3,6 +3,10 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 
+recipes.remove(<darkutils:material:1>);
+recipes.addShapeless(<darkutils:material:1>, [<darkutils:material>, <wirelessutils:stabilized_ender_pearl>]);
+
+
 
 
 recipes.addShapeless(<contenttweaker:aether_log_fix>, [<aether_legacy:aether_log>]);

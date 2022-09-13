@@ -3,5 +3,5 @@
 	#The material blacklist of this module.
 	materialBlacklist = ["Vibranium", "Valyrium", "Uru", "Tiberium", "Sapphire", "Ruby", "QuartzBlack", "Prometheum", "Phosphorus", "Peridot", "Palladium", "Ovium", "Osram", "Mithril", "Karmesine", "Jauxum", "Eezo", "Duranite", "DimensionalShard", "Cinnabar", "CertusQuartz", "Aurorium", "Aquamarine", "Apatite", "Amber", "Aluminium", "Abyssum", "AstralStarmetal"]
 	#The materials to force generate passive forms for this module.
-	passiveMaterialWhitelist = []
+	passiveMaterialWhitelist = ["DimensionalShard"]
 

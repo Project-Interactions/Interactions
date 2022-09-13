@@ -1,40 +1,5 @@
 {
   "name": "chaos",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
-  "recipes": [
-    {
-      "uid": "18df78b3-b837-4be5-8d21-1676883e307d",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 10000000
-          }
-        ]
-      },
-      "outputs": {
-        "mek_gas": [
-          {
-            "chance": 1.0,
-            "content": {
-              "gas": "liquid_chaos",
-              "amount": 1000
-            }
-          }
-        ]
-      }
-    }
-  ]
+  "recipes": []
 }

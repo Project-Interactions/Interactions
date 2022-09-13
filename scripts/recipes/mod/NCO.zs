@@ -1,4 +1,4 @@
-#ikwid
+
 
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.IngotFormer;
@@ -8,6 +8,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.nuclearcraft.AlloyFurnace;
 
 recipes.remove(<nuclearcraft:part> * 2);
 recipes.remove(<nuclearcraft:part:10>);
@@ -58,24 +59,6 @@ Radiation.setRadiationLevel(<contenttweaker:material_part:58>,2.1);
 Radiation.setRadiationLevel(<contenttweaker:sub_block_holder_0:4>,3.2);
 Radiation.setRadiationLevel(<liquid:heavymetalelements>,2.1);
 
-/*
-Melter.removeRecipeWithInput(<ore:dustTungsten>);
-Melter.removeRecipeWithInput(<ore:oreTungsten>);
-Melter.removeRecipeWithInput(<ore:dustOsmium>);
-Melter.removeRecipeWithInput(<ore:oreOsmium>);
-Melter.removeRecipeWithInput(<ore:dustIridium>);
-Melter.removeRecipeWithInput(<ore:oreIridium>);
-Melter.removeRecipeWithInput(<ore:dustPlatinum>);
-Melter.removeRecipeWithInput(<ore:orePlatinum>);
-Melter.removeRecipeWithInput(<ore:dustChromium>);
-Melter.removeRecipeWithInput(<ore:dustTitanium>);
-IngotFormer.removeRecipeWithOutput(<avaritia:resource:6>);
-IngotFormer.removeRecipeWithOutput(<taiga:dilithium_ingot>);
-Melter.removeRecipeWithInput(<ore:oreDraconium>);
-Melter.removeRecipeWithInput(<ore:dustDraconium>);
-mods.nuclearcraft.Manufactory.removeRecipeWithOutput(<thermalfoundation:material:72>*2);
-mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<techreborn:plates:38>);
-*/
 
 mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
 
@@ -108,7 +91,39 @@ mods.extendedcrafting.TableCrafting.addShaped(3,<interaction:uu_crafter>, [
 ]);
 
 
+val AlloyFurnaceRemove as IItemStack[] = 
+[
+<qmd:ingot_alloy:2>*6,
+<plustic:osmiridiumingot>*2,
+<enderio:item_alloy_endergy_ingot:1>,
+<enderio:item_alloy_endergy_ingot:2>,
+<enderio:item_alloy_endergy_ingot:3>*2,
+<enderio:item_alloy_endergy_ingot:5>,
+<enderio:item_alloy_endergy_ingot:6>,
+<plustic:osmiridiumnugget>*2,
+<plustic:osmiridiumblock>
+];
 
+for removea in AlloyFurnaceRemove {
+    AlloyFurnace.removeRecipeWithOutput(removea);
+}
 
-mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<qmd:ingot_alloy:2>*6);
-mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<plustic:osmiridiumingot>*2);
+val MelterRemove as IIngredient[] = 
+[
+<ore:orePlatinum>,
+<ore:dustPlatinum>,
+<ore:dustIridium>,
+<ore:oreIridium>,
+<ore:dustOsmium>,
+<ore:oreOsmium>,
+<ore:dustDraconium>,
+<ore:oreDraconium>,
+<ore:ingotInfinity>,
+<ore:dustInfinity>,
+<ore:nuggetInfinity>,
+<ore:blockInfinity>
+];
+
+for removeb in MelterRemove {
+    Melter.removeRecipeWithInput(removeb);
+}

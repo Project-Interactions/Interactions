@@ -140,6 +140,7 @@ thermalevaporation.addRecipe(<liquid:liquidlithium>, <liquid:lithium>);
 
 //semiconductor
 thermalevaporation.addRecipe(<liquid:fluxed_electrum>, <liquid:semiconductor>);
+RecipeUtils.recipeTweak(true, <mekanism:basicblock:15>, [[null, <mekanism:basicblock2>, null], [<mekanism:basicblock2>, <ore:circuitNuclear>, <mekanism:basicblock2>], [null, <mekanism:basicblock2>, null]]);
 
 //teleportationcore
 recipes.remove(<mekanism:teleportationcore>);
@@ -162,3 +163,6 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy
 	[<ore:nuggetCosmicNeutronium>, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <ore:nuggetCosmicNeutronium>], 
 	[null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null]
 ]);
+
+//chaos crystal duplication
+mods.mekanism.compressor.addRecipe(<thaumicrestoration:item_ingot:5>, <gas:chaos>, <draconicevolution:chaos_shard>);

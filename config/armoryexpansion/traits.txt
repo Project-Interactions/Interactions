@@ -89,7 +89,6 @@
   "tconevo.fae_voice_armor",
   "congenial",
   "launching",
-  "defiled",
   "spiky",
   "aridiculous",
   "tconevo.sentient_armor",

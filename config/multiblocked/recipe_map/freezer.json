@@ -65,7 +65,7 @@
       }
     },
     {
-      "uid": "415154d8-f21e-4005-b8ee-b0cfd01945f2",
+      "uid": "fa2d8dbf-da3a-4bab-ac91-843b60c38b5d",
       "duration": 100,
       "inputs": {
         "item": [
@@ -74,7 +74,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"techreborn:ingot\",Count:1b,Damage:16s}"
+                "{id:\"contenttweaker:hot_osmium_ingot\",Count:1b,Damage:0s}"
               ]
             }
           }
@@ -93,7 +93,85 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"techreborn:ingot\",Count:1b,Damage:17s}"
+                "{id:\"mekanism:ingot\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1b9c5afa-3776-41d3-a93e-6e5120483605",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hot_tungsten_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"cryotheum\",Amount:1000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 10000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "16eb299a-864e-4142-b963-b64795e5caa8",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hot_irdium_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"cryotheum\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1b,Damage:135s}"
               ]
             }
           }

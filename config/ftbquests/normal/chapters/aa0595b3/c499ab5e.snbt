@@ -8,7 +8,7 @@
 		uid: "d258bf13",
 		type: "item",
 		items: [{
-			item: "extendedcrafting:material 1 24"
+			item: "extendedcrafting:storage 1 3"
 		}]
 	}]
 }

@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: 9.0d,
+	dependencies: [
+		"9e5c37fb"
+	],
+	tasks: [{
+		uid: "2cd362ff",
+		type: "item",
+		items: [{
+			item: "soot:ingot_antimony"
+		}]
+	}]
+}

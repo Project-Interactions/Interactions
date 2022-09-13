@@ -135,8 +135,8 @@ RecipeUtils.recipeTweak(true, <thermalexpansion:device:10>, [[null, <ore:workben
 RecipeUtils.recipeTweak(true, <thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
 
 
-val a as IItemStack []= [<thermalfoundation:material:866>,<minecraft:sand>];
-val b as IItemStack []= [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>];
+val a as IItemStack []= [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
+val b as IItemStack []= [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<immersiveintelligence:ore:2>,<thermalfoundation:ore:7>,<techreborn:dust:55>];
 for i in a{ for j in b{
         InductionSmelter.removeRecipe(i,j);
 }}

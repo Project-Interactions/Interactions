@@ -11,7 +11,6 @@ mods.arcanearchives.GCT.addRecipe("ae2_yangban_1",<appliedenergistics2:material:
 mods.arcanearchives.GCT.addRecipe("ae2_yangban_2",<appliedenergistics2:material:52>*32,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitElite>]);
 
 
-mods.arcanearchives.GCT.addRecipe("ae2_casing_1",<equivalentenergistics:item_misc>,[<ore:itemRedMatter>*2,<aeadditions:storage.casing>]);
 mods.arcanearchives.GCT.addRecipe("ae2_casing_2",<aeadditions:storage.casing:2>,[<redstonearsenal:material:32>*2,<appliedenergistics2:material:8>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:gastank>*3]);
 mods.arcanearchives.GCT.addRecipe("ae2_casing_3",<aeadditions:storage.casing:1>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:machineblock2:11>*3]);
 mods.arcanearchives.GCT.addRecipe("ae2_casing_4",<aeadditions:storage.casing>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<ironchest:iron_chest:2>*3]);
