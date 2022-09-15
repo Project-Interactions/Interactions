@@ -1,0 +1,42 @@
+{
+  "name": "pnc",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "d78d830b-5acd-41e0-b53f-65c4e6df9826",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:creative_compressor\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 30.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:creative_energy_cell\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -65,3 +65,13 @@ singularity_block.toolClass="pickaxe";
 singularity_block.toolLevel=4;
 singularity_block.blockSoundType=<soundtype:stone>;
 singularity_block.register();
+
+var lock = VanillaFactory.createBlock("locked_drawer",<blockmaterial:iron>);
+lock.lightOpacity=255;
+lock.lightValue=1.0;
+lock.blockHardness=4.5;
+lock.blockResistance=4.5;
+lock.toolClass="pickaxe";
+lock.toolLevel=4;
+lock.blockSoundType=<soundtype:stone>;
+lock.register();

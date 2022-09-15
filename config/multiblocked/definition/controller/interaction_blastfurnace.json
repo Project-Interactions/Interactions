@@ -1,6 +1,5 @@
 {
-  "catalyst": "{id:\"immersiveengineering:maintenance_kit\",Count:1b,Damage:0s}",
-  "consumeCatalyst": true,
+  "consumeCatalyst": false,
   "location": "interaction:blastfurnace",
   "traits": {},
   "allowRotate": true,
@@ -8,7 +7,6 @@
   "baseRenderer": {
     "baseTexture": "multiblocked:blocks/gregtech_base",
     "frontTexture": "multiblocked:blocks/gregtech_front",
-    "formedAsController": true,
     "type": "gregtech"
   },
   "isOpaqueCube": true,
@@ -23,19 +21,19 @@
         "AAA",
         "BBB",
         "BBB",
-        "CCC"
+        "CDE"
       ],
       [
         "AA@",
         "B B",
         "B B",
-        "CCC"
+        "FGH"
       ],
       [
         "AAA",
         "BBB",
         "BBB",
-        "CCD"
+        "IJA"
       ]
     ],
     "aisleRepetitions": [
@@ -53,8 +51,8 @@
       ]
     ],
     "predicates": {
-      "heat": {
-        "capability": "mek_heat",
+      "lightning": {
+        "capability": "lightningcraft_le",
         "type": "capability"
       },
       "A": {
@@ -66,105 +64,52 @@
         ],
         "type": "states"
       },
+      "controller": {
+        "location": "interaction:blastfurnace",
+        "type": "component"
+      },
       "B": {
         "states": [
           {
-            "id": "contenttweaker:sub_block_holder_0",
+            "id": "contenttweaker:sub_block_holder_1",
+            "meta": 0
+          },
+          {
+            "id": "contenttweaker:sub_block_holder_1",
+            "meta": 2
+          },
+          {
+            "id": "contenttweaker:sub_block_holder_1",
             "meta": 6
           }
         ],
         "type": "states"
       },
-      "controller": {
-        "location": "interaction:blastfurnace",
-        "type": "component"
-      },
       "item": {
         "capability": "item",
         "type": "capability"
       },
-      "coil3": {
-        "states": [
-          {
-            "id": "contenttweaker:sub_block_holder_1",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
-      "coil2": {
-        "states": [
-          {
-            "id": "contenttweaker:sub_block_holder_1",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "pnc": {
-        "capability": "pneumatic_pressure",
+      "mekh": {
+        "capability": "mek_heat",
         "type": "capability"
       },
-      "coil1": {
-        "states": [
-          {
-            "id": "contenttweaker:sub_block_holder_1",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "ember": {
-        "capability": "ember",
+      "mekg": {
+        "capability": "mek_gas",
         "type": "capability"
       },
       "qmd": {
-        "capability": "qmd_particle",
+        "capability": "pneumatic_pressure",
         "type": "capability"
       },
       "any": {
         "type": "any"
       },
-      "ta": {
-        "capability": "ta_impetus",
-        "type": "capability"
-      },
-      "aura": {
-        "capability": "natures_aura",
-        "type": "capability"
-      },
-      "as": {
-        "capability": "starlight_as",
-        "type": "capability"
-      },
       "mana": {
         "capability": "bot_mana",
         "type": "capability"
       },
-      "creative_pnc": {
-        "blocks": [
-          {
-            "id": "pneumaticcraft:creative_compressor"
-          },
-          {
-            "id": "thaumicaugmentation:impetus_creative"
-          },
-          {
-            "id": "thaumicaugmentation:impetus_creative"
-          }
-        ],
-        "type": "blocks"
-      },
       "aspect": {
         "capability": "tc6_aspect",
-        "type": "capability"
-      },
-      "gas": {
-        "capability": "mek_gas",
-        "type": "capability"
-      },
-      "le": {
-        "capability": "lightningcraft_le",
         "type": "capability"
       },
       "fluid": {
@@ -184,33 +129,43 @@
         "any"
       ],
       "A": [
-        "A"
+        "A",
+        "item"
       ],
       "B": [
-        "B",
-        "coil3",
-        "coil2",
-        "coil1"
+        "B"
       ],
       "C": [
-        "heat",
         "A",
-        "item",
-        "mana",
-        "aspect",
-        "gas",
-        "qmd",
-        "fluid",
-        "ta",
-        "aura",
-        "energy"
+        "aspect"
       ],
       "D": [
-        "as",
-        "pnc",
-        "ember",
-        "creative_pnc",
-        "le"
+        "A",
+        "mekg"
+      ],
+      "E": [
+        "A",
+        "energy"
+      ],
+      "F": [
+        "A",
+        "mana"
+      ],
+      "G": [
+        "A",
+        "mekh"
+      ],
+      "H": [
+        "A",
+        "fluid"
+      ],
+      "I": [
+        "A",
+        "qmd"
+      ],
+      "J": [
+        "lightning",
+        "A"
       ]
     }
   },

@@ -32,14 +32,15 @@ map.recipeMap.start()
 
 map.recipeMap.start()
     .duration(100)    
-    .inputtems(<avaritiaddons:infinity_compressor>)
+    .inputItems(<avaritiaddons:infinity_compressor>)
     .outputItems(<pneumaticcraft:creative_compressor>)
     .inputEmber(1,80000)
     .buildAndRegister();
-
+/*
 map.recipeMap.start()
     .duration(100)
-    .inputtems(<pneumaticcraft:creative_compressor>)
+    .inputItems(<pneumaticcraft:creative_compressor>)
     .outputItems(<appliedenergistics2:creative_energy_cell>)
     .inputPressure(1,30)
     .buildAndRegister();
+*/

@@ -16,4 +16,5 @@
 
 <contenttweaker:oganesson897>.displayName = "\u9FEB897";
 
+<qmd:creative_particle_source>.addTooltip("\u9700\u8981\u4F7F\u7528\u65E0\u5C3D\u8981\u7D20\u7684\u6C34\u6676\u5757\u5408\u6210");
 

@@ -50,10 +50,6 @@
       ]
     ],
     "predicates": {
-      "heat": {
-        "capability": "mek_heat",
-        "type": "capability"
-      },
       "controller": {
         "location": "interaction:chemical_reactor",
         "type": "component"
@@ -97,6 +93,10 @@
           }
         ],
         "type": "states"
+      },
+      "mekh": {
+        "capability": "mek_heat",
+        "type": "capability"
       },
       "G": {
         "states": [
@@ -152,7 +152,7 @@
         "G"
       ],
       "H": [
-        "heat",
+        "mekh",
         "fluid"
       ],
       "I": [

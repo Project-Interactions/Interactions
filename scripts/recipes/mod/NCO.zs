@@ -131,9 +131,9 @@ for removeb in MelterRemove {
 
 mods.qmd.target_chamber.addRecipe(<qmd:creative_particle_source>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
 mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>, [
-	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <qmd:particle_chamber_beam_port>, <ore:blockInfinity>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})]
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:particle_chamber_beam_port>,<thaumicenergistics:essentia_cell_creative>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})]
 ]);

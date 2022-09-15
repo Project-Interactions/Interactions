@@ -2,7 +2,7 @@
 	x: -11.0d,
 	y: 5.0d,
 	text: [
-		"Infinity Items"
+		"Infinity Items,but it's not enough for me"
 	],
 	dependencies: [
 		"016c03a7"

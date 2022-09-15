@@ -1,0 +1,137 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:advanced_pnc",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "pneumaticcraft:creative_compressor",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        "BCBCB",
+        "AAAAA"
+      ],
+      [
+        "AAAAD",
+        "E   E",
+        "AAAAA"
+      ],
+      [
+        "AAAA@",
+        "B   B",
+        "AAAAA"
+      ],
+      [
+        "AAAAF",
+        "E   E",
+        "AAAAA"
+      ],
+      [
+        "AAAAA",
+        "BCBCB",
+        "AAAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "pneumaticcraft:pressure_chamber_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:advanced_pnc",
+        "type": "component"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "ifb": {
+        "blocks": [
+          {
+            "id": "avaritiaddons:infinity_glass"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "pneumaticcraft:creative_compressor",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "ifb"
+      ],
+      "C": [
+        "ifb"
+      ],
+      "D": [
+        "item"
+      ],
+      "E": [
+        "ifb"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  },
+  "recipeMap": "pnc"
+}

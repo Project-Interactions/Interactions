@@ -605,12 +605,6 @@
             }
           }
         ],
-        "projecte_emc": [
-          {
-            "chance": 1.0,
-            "content": 1000000
-          }
-        ],
         "ta_impetus": [
           {
             "chance": 1.0,
