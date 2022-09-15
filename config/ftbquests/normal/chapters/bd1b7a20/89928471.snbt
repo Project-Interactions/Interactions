@@ -34,5 +34,26 @@
 		uid: "fa4e6be8",
 		type: "item",
 		item: "jecalculation:item_calculator"
+	},
+	{
+		uid: "9285c45d",
+		type: "item",
+		item: {
+			id: "thermalexpansion:device",
+			Damage: 12s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				RSControl: 0b,
+				Energy: 0
+			}
+		}
 	}]
 }

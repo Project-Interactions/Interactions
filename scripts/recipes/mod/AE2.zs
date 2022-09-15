@@ -72,18 +72,6 @@ recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_64k>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_16k>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_4k>);
 
-/*
-//extra cpus
-recipes.removeShapeless(<extracpus:crafting_storage_256k>, [<appliedenergistics2:crafting_unit>, <aeadditions:storage.physical>]);
-recipes.removeShapeless(<extracpus:crafting_storage_4096k>, [<appliedenergistics2:crafting_unit>, <aeadditions:storage.physical:2>]);
-recipes.removeShapeless(<extracpus:crafting_storage_16384k>, [<appliedenergistics2:crafting_unit>, <aeadditions:storage.physical:3>]);
-recipes.removeShapeless(<extracpus:crafting_storage_1024k>, [<appliedenergistics2:crafting_unit>, <aeadditions:storage.physical:1>]);
-//add
-recipes.addShapeless(<extracpus:crafting_storage_256k>,[<appliedenergistics2:crafting_unit>,<aeadditions:storage.component>]);
-recipes.addShapeless(<extracpus:crafting_storage_1024k>,[<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:1>]);
-recipes.addShapeless(<extracpus:crafting_storage_4096k>,[<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:2>]);
-recipes.addShapeless(<extracpus:crafting_storage_16384k>,[<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:3>]);
-*/
 recipes.remove(<appliedenergistics2:material:52>);
 recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
 recipes.remove(<appliedenergistics2:quartz_glass> * 4);
@@ -109,9 +97,10 @@ mods.appliedenergistics2.Inscriber.addRecipe(<mysticalagriculture:crafting:19>,<
 RecipeUtils.recipeTweak(true, <ae2fc:burette>, [[<ore:circuitElite>, <rftools:shape_card>, <ore:circuitElite>], [<appliedenergistics2:quartz_glass>, <minecraft:bucket>, <appliedenergistics2:quartz_glass>], [<calculator:precisionchamber>, <appliedenergistics2:material:23>, <calculator:precisionchamber>]]);
 RecipeUtils.recipeTweak(true, <ae2fc:ingredient_buffer>, [[<enderio:block_buffer>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:material:54>, <enderio:block_buffer>]]);
 RecipeUtils.recipeTweak(true, <ae2fc:fluid_packet_decoder>, [[<ore:circuitElite>, <minecraft:hopper>, <ore:circuitElite>], [<appliedenergistics2:part:16>, <appliedenergistics2:fluid_interface>, <appliedenergistics2:part:16>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
-RecipeUtils.recipeTweak(true, <ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <appliedenergistics2:material:24>, <ore:blockLapis>], [<ore:ingotIron>, <ae2stuff:encoder>, <ore:ingotIron>], [<ore:ingotIron>, <ore:circuitElite>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <threng:machine:4>, <ore:blockLapis>], [<ore:ingotIron>, <ae2stuff:encoder>, <ore:ingotIron>], [<ore:ingotIron>, <ore:circuitElite>, <ore:ingotIron>]]);
 recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
 recipes.addShapeless(<ae2fc:part_fluid_pattern_terminal>, [<appliedenergistics2:part:340>, <ae2fc:fluid_pattern_encoder>,<aeadditions:fluidfiller>]);
+RecipeUtils.recipeTweak(true, <ae2fc:fluid_level_maintainer>, [[<ore:dustFluix>, <appliedenergistics2:part:281>, <ore:dustFluix>], [<appliedenergistics2:material:24>, <appliedenergistics2:crafting_monitor>, <appliedenergistics2:material:24>], [<ore:dustFluix>, <ore:dyeBlue>, <ore:dustFluix>]]);
 
 
 //lazyae2 machines
@@ -142,3 +131,5 @@ mods.threng.Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_fra
 
 recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_interface_tier3>,<appliedenergistics2:part:441>]);
 
+//booster_card
+RecipeUtils.recipeTweak(true, <ae2wtlib:infinity_booster_card>, [[<aeadditions:storage.component:12>,null,<aeadditions:storage.component:12>],[null,<aeadditions:storage.component:3>,null],[<aeadditions:storage.component:5>,null,<aeadditions:storage.component:5>]]);

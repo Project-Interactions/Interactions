@@ -1,0 +1,14 @@
+{
+	x: -22.5d,
+	y: -3.5d,
+	dependencies: [
+		"e407253f"
+	],
+	tasks: [{
+		uid: "12c24c78",
+		type: "item",
+		items: [{
+			item: "avaritiaddons:avaritiaddons_chest 1 1"
+		}]
+	}]
+}

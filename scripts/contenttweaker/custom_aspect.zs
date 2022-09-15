@@ -5,6 +5,6 @@ import mods.randomtweaker.cote.Aspect;
 var twilght as Aspect = VanillaFactory.createAspect("twilight", 0x446E43);
 twilght.register();
 
-//var gregtech as Aspect = VanillaFactory.createAspect("gregtech", 0x4200FF);
-//gregtech.register();
+var creative as Aspect = VanillaFactory.createAspect("creative", 0x8600FC);
+creative.register();
 

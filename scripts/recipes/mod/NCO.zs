@@ -77,6 +77,7 @@ Assembler.addRecipe(<qmd:semiconductor:5>*3,<theaurorian:auroriansteel>*4,<ore:g
 
 mods.nuclearcraft.Crystallizer.addRecipe(<liquid:molten_mana>*1000, <thermalfoundation:geode>);
 mods.nuclearcraft.Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);
+mods.nuclearcraft.Melter.addRecipe(<rftools:dimensional_shard>,<liquid:dimensionalshard>*150);
 
 RecipeUtils.recipeTweak(true, <qmd:vacuum_chamber_plasma_glass> * 2, [[<psicosts:material_glassy>, <ore:wireBSCCO>, <ore:ingotSuperAlloy>], [<ore:wireBSCCO>, <ore:gemBoronNitride>, <ore:wireBSCCO>], [<ore:ingotSuperAlloy>, <ore:wireBSCCO>, <psicosts:material_glassy>]]);
 
@@ -127,3 +128,12 @@ val MelterRemove as IIngredient[] =
 for removeb in MelterRemove {
     Melter.removeRecipeWithInput(removeb);
 }
+
+mods.qmd.target_chamber.addRecipe(<qmd:creative_particle_source>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
+mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>, [
+	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <qmd:particle_chamber_beam_port>, <ore:blockInfinity>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"}), <thaumadditions:crystal_block>.withTag({Aspect: "infinity"})]
+]);

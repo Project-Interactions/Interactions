@@ -33,13 +33,13 @@ ZenScroll.add(<techreborn:creative_quantum_tank>
 ,<extrautils2:drum:4>
 ,<mekanism:machineblock2:11>.withTag({tier: 4}));
 
-ZenScroll.add(<appliedenergistics2:creative_storage_cell>.withTag({})
-,<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte})
+//<appliedenergistics2:creative_storage_cell>.withTag({}),<storagedrawers:upgrade_creative:1>
+ZenScroll.add(<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte})
 ,<extrautils2:creativechest>
 ,<extrautils2:creativeharvest>
-,<storagedrawers:upgrade_creative:1>
 ,<techreborn:creative_quantum_chest>
 ,<mekanism:basicblock:6>.withTag({tier: 4})
+,<storagedrawers:upgrade_creative:1>
 ,<draconicevolution:creative_exchanger>);
 
 ZenScroll.add(<bloodmagic:activation_crystal:2>,<bloodmagic:sacrificial_dagger:1>);

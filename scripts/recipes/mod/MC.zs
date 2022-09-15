@@ -19,6 +19,7 @@ recipes.addShapeless(<minecraft:planks:3> * 2,[<minecraft:log:3>]);
 recipes.addShapeless(<minecraft:planks:4> * 2,[<minecraft:log2>]);
 recipes.addShapeless(<minecraft:planks:5> * 2,[<minecraft:log2:1>]);
 recipes.remove(<minecraft:end_portal_frame>);
+furnace.addRecipe(<minecraft:coal>, <ore:dustCoal>);
 
 
 recipes.remove(<minecraft:golden_chestplate>);
@@ -74,3 +75,19 @@ vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, a
 
 //<entity:minecraft:enderman>.addDrop(<contenttweaker:exe>.weight(0.25));
 recipes.remove(<minecraft:piston>);
+
+//command block extra
+mods.extendedcrafting.TableCrafting.addShaped(4, <minecraft:command_block>, [
+	[<ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <qmd:accelerator_computer_port>, <techreborn:computer_cube>, <qmd:accelerator_computer_port>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>]
+]);
+recipes.addShapeless(<minecraft:command_block_minecart>,[<minecraft:command_block>,<minecraft:minecart>]);
+recipes.addShapeless(<minecraft:chain_command_block>, [<minecraft:command_block>,<integrateddynamics:part_connector_omni_directional_item>]);
+recipes.addShapeless(<minecraft:repeating_command_block>, [<minecraft:command_block>,<thermalexpansion:machine:11>]);

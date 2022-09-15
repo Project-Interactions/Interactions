@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "36931168",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

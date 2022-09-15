@@ -4,19 +4,18 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 #modloaded armoreablemobs
-print("--- loading ArmoreableMobs.zs ---");
 
 # *======= Variables =======*
 
-	var draconicGroup = ArmorHandler.createArmorGroup("draconic", 0.001);
-	var wyvernGroup = ArmorHandler.createArmorGroup("wyvern", 0.002);
-	var nuclearGroup = ArmorHandler.createArmorGroup("nuclear", 0.1);
-	var mysticalGroup = ArmorHandler.createArmorGroup("mystical", 0.1);
-	var twilightGroup = ArmorHandler.createArmorGroup("twilight", 0.15);
-	var magicalGroup = ArmorHandler.createArmorGroup("magical", 0.15);
-	var vanillaGroup = ArmorHandler.createArmorGroup("vanilla", 0.1);
-	var energyGroup = ArmorHandler.createArmorGroup("energy", 0.1);
-	var skeletonGroup = ArmorHandler.createArmorGroup("skeleton", 0.3);
+	var draconicGroup = ArmorHandler.createArmorGroup("draconic", 0.0001);
+	var wyvernGroup = ArmorHandler.createArmorGroup("wyvern", 0.0002);
+	var nuclearGroup = ArmorHandler.createArmorGroup("nuclear", 0.01);
+	var mysticalGroup = ArmorHandler.createArmorGroup("mystical", 0.01);
+	var twilightGroup = ArmorHandler.createArmorGroup("twilight", 0.015);
+	var magicalGroup = ArmorHandler.createArmorGroup("magical", 0.015);
+	var vanillaGroup = ArmorHandler.createArmorGroup("vanilla", 0.01);
+	var energyGroup = ArmorHandler.createArmorGroup("energy", 0.01);
+	var skeletonGroup = ArmorHandler.createArmorGroup("skeleton", 0.03);
 
 # *======= Entities =======*
 

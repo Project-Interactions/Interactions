@@ -136,3 +136,4 @@ mods.botania.RuneAltar.addRecipe(<contenttweaker:mana_circuit>*3, [<ore:ingotPin
 
 RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:manatablet>, <ore:livingrock>], [<ore:livingrock>, <ore:manaPearl> | <ore:manaDiamond>, <ore:livingrock>]]);
 
+mods.botania.ManaInfusion.addConjuration(<projecte:item.pe_fuel:2>*2, <projecte:item.pe_fuel:2>, 1000000);

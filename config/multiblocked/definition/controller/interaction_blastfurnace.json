@@ -35,7 +35,7 @@
         "AAA",
         "BBB",
         "BBB",
-        "CCC"
+        "CCD"
       ]
     ],
     "aisleRepetitions": [
@@ -74,34 +74,6 @@
           }
         ],
         "type": "states"
-      },
-      "lp": {
-        "capability": "bg_lp",
-        "type": "capability"
-      },
-      "qmd": {
-        "capability": "qmd_particle",
-        "type": "capability"
-      },
-      "aura": {
-        "capability": "natures_aura",
-        "type": "capability"
-      },
-      "aspect": {
-        "capability": "tc6_aspect",
-        "type": "capability"
-      },
-      "gas": {
-        "capability": "mek_gas",
-        "type": "capability"
-      },
-      "fluid": {
-        "capability": "fluid",
-        "type": "capability"
-      },
-      "energy": {
-        "capability": "forge_energy",
-        "type": "capability"
       },
       "controller": {
         "location": "interaction:blastfurnace",
@@ -146,12 +118,8 @@
         "capability": "ember",
         "type": "capability"
       },
-      "gp": {
-        "capability": "exu2_gp",
-        "type": "capability"
-      },
-      "starlight": {
-        "capability": "starlight_as",
+      "qmd": {
+        "capability": "qmd_particle",
         "type": "capability"
       },
       "any": {
@@ -161,16 +129,50 @@
         "capability": "ta_impetus",
         "type": "capability"
       },
+      "aura": {
+        "capability": "natures_aura",
+        "type": "capability"
+      },
+      "as": {
+        "capability": "starlight_as",
+        "type": "capability"
+      },
       "mana": {
         "capability": "bot_mana",
+        "type": "capability"
+      },
+      "creative_pnc": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:creative_compressor"
+          },
+          {
+            "id": "thaumicaugmentation:impetus_creative"
+          },
+          {
+            "id": "thaumicaugmentation:impetus_creative"
+          }
+        ],
+        "type": "blocks"
+      },
+      "aspect": {
+        "capability": "tc6_aspect",
+        "type": "capability"
+      },
+      "gas": {
+        "capability": "mek_gas",
         "type": "capability"
       },
       "le": {
         "capability": "lightningcraft_le",
         "type": "capability"
       },
-      "emc": {
-        "capability": "projecte_emc",
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "forge_energy",
         "type": "capability"
       }
     },
@@ -194,21 +196,21 @@
         "heat",
         "A",
         "item",
-        "pnc",
-        "lp",
-        "ember",
-        "qmd",
-        "gp",
-        "starlight",
-        "ta",
-        "aura",
         "mana",
         "aspect",
         "gas",
-        "le",
+        "qmd",
         "fluid",
-        "emc",
+        "ta",
+        "aura",
         "energy"
+      ],
+      "D": [
+        "as",
+        "pnc",
+        "ember",
+        "creative_pnc",
+        "le"
       ]
     }
   },

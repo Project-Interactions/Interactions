@@ -5,13 +5,6 @@
 		"1e65caf8"
 	],
 	tasks: [{
-		uid: "7a2db873",
-		type: "item",
-		items: [{
-			item: "contenttweaker:landia_tp"
-		}]
-	},
-	{
 		uid: "5bc31c9e",
 		type: "dimension",
 		dim: 1304

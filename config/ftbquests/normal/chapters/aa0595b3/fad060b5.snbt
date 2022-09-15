@@ -1,0 +1,14 @@
+{
+	x: -15.5d,
+	y: -1.5d,
+	dependencies: [
+		"a6ed8598"
+	],
+	tasks: [{
+		uid: "2a2f125c",
+		type: "item",
+		items: [{
+			item: "minecraft:command_block"
+		}]
+	}]
+}

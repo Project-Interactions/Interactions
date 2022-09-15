@@ -96,3 +96,11 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:25>
 	[null, <conarm:chest_core>.withTag({Material: "gelid_enderium"}), null, <simplyjetpacks:itemfluxpack:14>, null, <conarm:chest_core>.withTag({Material: "gelid_gem"}), null], 
 	[<simplyjetpacks:metaitemmods:24>, null, <simplyjetpacks:metaitemmods:24>, <simplyjetpacks:itemfluxpack:14>, <simplyjetpacks:metaitemmods:24>, null, <simplyjetpacks:metaitemmods:24>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack>.withTag({Energy: 200000, JetpackParticle: 0}), [
+	[null, <ore:ingotUltimate>, null, <ore:ingotUltimate>, null], 
+	[<ore:ingotUltimate>, <ore:ingotUltimate>, null, <ore:ingotUltimate>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>, <simplyjetpacks:itemjetpack:15>, <ore:ingotUltimate>, <simplyjetpacks:itemjetpack:15>, <ore:ingotUltimate>], 
+	[<environmentaltech:modifier_flight_speed>, <simplyjetpacks:itemjetpack:15>, null, <simplyjetpacks:itemjetpack:15>, <environmentaltech:modifier_flight_speed>], 
+	[<environmentaltech:modifier_flight_speed>, <environmentaltech:modifier_flight_speed>, null, <environmentaltech:modifier_flight_speed>, <environmentaltech:modifier_flight_speed>]
+]);

@@ -1,0 +1,14 @@
+{
+	x: -14.0d,
+	y: 0.0d,
+	dependencies: [
+		"fad060b5"
+	],
+	tasks: [{
+		uid: "973568cc",
+		type: "item",
+		items: [{
+			item: "lightningcraft:lightning_cell 1 3"
+		}]
+	}]
+}

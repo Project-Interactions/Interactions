@@ -1,0 +1,14 @@
+{
+	x: -20.5d,
+	y: -5.0d,
+	dependencies: [
+		"6ec99987"
+	],
+	tasks: [{
+		uid: "f4d2650c",
+		type: "item",
+		items: [{
+			item: "eternalsingularity:eternal_singularity"
+		}]
+	}]
+}

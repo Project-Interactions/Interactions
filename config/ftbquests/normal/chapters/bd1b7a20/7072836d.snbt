@@ -1,6 +1,9 @@
 {
 	x: -4.5d,
 	y: 1.0d,
+	text: [
+		"副手拿打火石，主手拿tnt右键可以丢出点燃的tnt"
+	],
 	dependencies: [
 		"afd841d2"
 	],

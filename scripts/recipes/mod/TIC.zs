@@ -90,6 +90,7 @@ Melting.addRecipe(<liquid:basalt_fluid>*144,<environmentalmaterials:basalt>,360)
 Melting.addRecipe(<liquid:sky_stone>*72,<appliedenergistics2:material:45>,500);
 
 Melting.addRecipe(<liquid:sunnarium>*144,<contenttweaker:sunnarium>,1360);
+Melting.addRecipe(<liquid:everlasting>*1000,<eternalsingularity:eternal_singularity>,1360);
 
 Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_dust>);
 Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore>);
@@ -214,3 +215,16 @@ for Remove in part {
     CastRemove("iron",Remove);
 }
 */
+
+Casting.addBasinRecipe(<botania:pool:1>, <botania:pool:3>, <liquid:everlasting>, 1000, true, 200);
+Casting.addBasinRecipe(<tinkertoolcasts:cast_creative>, <avaritia:resource:6>, <liquid:everlasting>, 1000, true, 200);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <tconstruct:materials:50>, [
+	[<tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>], 
+	[<tconevo:material:2>, <tinkersaddons:modifier_item:4>, <ore:gearAdamant>, <ore:gearAdamant>, <ore:gearAdamant>, <tinkersaddons:modifier_item:4>, <tconevo:material:2>], 
+	[<tconevo:material:2>, <ore:gearAdamant>, <ore:plateOsgloglas>, <ore:plateOsgloglas>, <ore:plateOsgloglas>, <ore:gearAdamant>, <tconevo:material:2>], 
+	[<tconevo:material:2>, <ore:gearAdamant>, <ore:plateOsgloglas>, <ore:ingotUltimate>, <ore:plateOsgloglas>, <ore:gearAdamant>, <tconevo:material:2>], 
+	[<tconevo:material:2>, <ore:gearAdamant>, <ore:plateOsgloglas>, <ore:plateOsgloglas>, <ore:plateOsgloglas>, <ore:gearAdamant>, <tconevo:material:2>], 
+	[<tconevo:material:2>, <tinkersaddons:modifier_item:4>, <ore:gearAdamant>, <ore:gearAdamant>, <ore:gearAdamant>, <tinkersaddons:modifier_item:4>, <tconevo:material:2>], 
+	[<tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>]
+]);

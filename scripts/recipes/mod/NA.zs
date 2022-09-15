@@ -28,3 +28,14 @@ RecipeUtils.recipeTweak(true,<naturesaura:offering_table>, [[<ore:livingrock>, <
 
 mods.naturesaura.TreeRitual.addRecipe("menril_sapling", <techreborn:rubber_sapling>, <integrateddynamics:menril_sapling>, 400, [<botanicadds:rune_energy>,<botanicadds:rune_energy>,<botanicadds:rune_energy>,<ore:gemSapphire>,<ore:gemSapphire>,<naturesaura:sky_ingot>,<naturesaura:sky_ingot>,<ore:gemSapphire>]);
 
+mods.extendedcrafting.TableCrafting.addShaped(4, <auraddons:item_creative_aura_cache>, [
+	[null, null, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, null, null], 
+	[null, <naturesaura:field_creator>, <ore:gemZanite>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <ore:gemZanite>, <naturesaura:field_creator>, null], 
+	[<naturesaura:field_creator>, <naturesaura:aura_detector>, <auraddons:block_aura_transporter>, <auraddons:block_aura_transporter>, <auraddons:block_aura_transporter>, <auraddons:block_aura_transporter>, <auraddons:block_aura_transporter>, <naturesaura:aura_detector>, <naturesaura:field_creator>], 
+	[<naturesaura:field_creator>, <naturesaura:aura_detector>, <naturesaura:aura_trove>.withTag({aura: 1200000}), <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <naturesaura:aura_trove>.withTag({aura: 1200000}), <naturesaura:aura_detector>, <naturesaura:field_creator>], 
+	[<naturesaura:field_creator>, <ore:gemZanite>, <naturesaura:aura_trove>.withTag({aura: 1200000}), <ore:gemZanite>, <minecraft:command_block>, <ore:gemZanite>, <naturesaura:aura_trove>.withTag({aura: 1200000}), <ore:gemZanite>, <naturesaura:field_creator>], 
+	[<naturesaura:field_creator>, <naturesaura:aura_detector>, <naturesaura:aura_trove>.withTag({aura: 1200000}), <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <naturesaura:aura_trove>.withTag({aura: 1200000}), <naturesaura:aura_detector>, <naturesaura:field_creator>], 
+	[<naturesaura:field_creator>, <naturesaura:aura_detector>, <auraddons:block_aura_transporter>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <auraddons:block_aura_transporter>, <naturesaura:aura_detector>, <naturesaura:field_creator>], 
+	[null, <naturesaura:field_creator>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:field_creator>, null], 
+	[null, null, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, null, null]
+]);

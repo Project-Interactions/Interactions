@@ -69,4 +69,12 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:snowglobe>, [
 	[<twilightforest:auroralized_glass>, <aether_legacy:aether_grass>, <aether_legacy:enchanted_aether_grass>, <tconstruct:slime_grass>, <twilightforest:auroralized_glass>]
 ]);
 
-
+mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:passivegenerator:6>, [
+	[<extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>], 
+	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
+	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:rainbowgenerator>, <extrautils2:opinium:8>, <extrautils2:rainbowgenerator>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
+	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:opinium:8>, <minecraft:command_block>, <extrautils2:opinium:8>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
+	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:rainbowgenerator>, <extrautils2:opinium:8>, <extrautils2:rainbowgenerator>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
+	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
+	[<extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>]
+]);

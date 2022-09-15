@@ -1,0 +1,17 @@
+{
+	x: -15.5d,
+	y: 4.5d,
+	text: [
+		"获取创造粒子"
+	],
+	dependencies: [
+		"d494b911"
+	],
+	tasks: [{
+		uid: "a0de3666",
+		type: "item",
+		items: [{
+			item: "qmd:creative_particle_source"
+		}]
+	}]
+}

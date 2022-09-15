@@ -165,4 +165,5 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy
 ]);
 
 //chaos crystal duplication
-mods.mekanism.compressor.addRecipe(<thaumicrestoration:item_ingot:5>, <gas:chaos>, <draconicevolution:chaos_shard>);
+mods.mekanism.compressor.addRecipe(<thaumicrestoration:item_ingot:5>, <gas:liquid_chaos>, <draconicevolution:chaos_shard>);
+

@@ -134,6 +134,10 @@
         "capability": "qmd_particle",
         "type": "capability"
       },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
       "any": {
         "type": "any"
       },
@@ -159,6 +163,7 @@
         "C"
       ],
       "D": [
+        "fluid",
         "energy"
       ],
       "E": [

@@ -1,0 +1,16 @@
+{
+	x: -17.0d,
+	y: 0.0d,
+	dependencies: [
+		"fad060b5"
+	],
+	tasks: [{
+		uid: "7d7f8bf5",
+		type: "item",
+		items: [{
+			item: "auraddons:item_creative_aura_cache"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

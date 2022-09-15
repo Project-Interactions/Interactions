@@ -1,0 +1,17 @@
+{
+	x: -17.0d,
+	y: 4.5d,
+	text: [
+		"无尽源质在无尽锭中找到"
+	],
+	dependencies: [
+		"cdfe222b"
+	],
+	tasks: [{
+		uid: "79d76148",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_cell_creative"
+		}]
+	}]
+}

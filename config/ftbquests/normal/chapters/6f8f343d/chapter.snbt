@@ -1,6 +1,12 @@
 {
 	title: "万物归一",
-	icon: "avaritia:resource 1 6",
+	icon: {
+		id: "appliedenergistics2:creative_storage_cell",
+		tag: {}
+	},
+	description: [
+		"你可能需要一点点的智慧"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

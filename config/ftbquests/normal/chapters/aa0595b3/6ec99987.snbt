@@ -1,0 +1,14 @@
+{
+	x: -20.5d,
+	y: -6.5d,
+	dependencies: [
+		"56290edf"
+	],
+	tasks: [{
+		uid: "dd0cde9a",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}]
+}

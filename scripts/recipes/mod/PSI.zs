@@ -129,5 +129,42 @@ Trick.addRecipe("trickGreaterInfusion", <calculator:flawlessdiamond>, <psi:mater
 Trick.addRecipe("trickEbonyIvory", <arcanearchives:shaped_quartz>, <psi:material:6>, <psi:cad_assembly:2>);
 Trick.addRecipe("trickEbonyIvory", <extendedcrafting:material>, <psi:material:5>, <psi:cad_assembly:2>);
 
+Trick.addRecipe("", <rpsideas:creative_colorizer>, <contenttweaker:ultimate_ingot_left_up>, <psi:cad_assembly:5>);
 
 RecipeUtils.recipeTweak(true, <psicosts:material_glassy> * 4, [[<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>], [<pneumaticcraft:pressure_chamber_glass>, <ore:dustPsi>, <pneumaticcraft:pressure_chamber_glass>], [<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <psi:cad_assembly:5>, [
+	[<ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, null, null, null, null, null, null], 
+	[<ore:ingotCommand>, <psi:cad_assembly:3>, <ore:ingotCommand>, <ore:ingotCommand>, null, null, null, null, null], 
+	[<ore:ingotCommand>, <ore:ingotCommand>, <psi:cad_assembly:4>, <ore:ingotCommand>, <ore:ingotCommand>, null, null, null, null], 
+	[null, <ore:ingotCommand>, <ore:ingotCommand>, <rpsideas:battlecaster>, <ore:ingotCommand>, <ore:ingotCommand>, null, null, null], 
+	[null, null, <ore:ingotCommand>, <ore:ingotCommand>, <rpsideas:hyperthreaded_cad_core>, <ore:ingotCommand>, <ore:ingotCommand>, null, null], 
+	[null, null, null, <ore:ingotCommand>, <ore:ingotCommand>, <rpsideas:shielded_battery>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>], 
+	[null, null, null, null, <ore:ingotCommand>, <ore:ingotCommand>, <psicosts:creative_cell>, <ore:ingotCommand>, <ore:ingotCommand>], 
+	[null, null, null, null, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>], 
+	[null, null, null, null, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <rpsideas:creative_colorizer>, [
+	[null, null, null, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, null, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, null, null, null, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, null, <rpsideas:cyclic_colorizer>, null, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, null, <rpsideas:cyclic_colorizer>, null, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, null, <rpsideas:cyclic_colorizer>, null, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, null, null, null, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, null, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, null, null, null]
+]);
+recipes.remove(<psi:cad_colorizer_:16>);
+mods.extendedcrafting.TableCrafting.addShapeless(2, <psi:cad_colorizer_:16>, [<psi:cad_colorizer_>, <psi:cad_colorizer_:1>, <psi:cad_colorizer_:2>, <psi:cad_colorizer_:3>, <psi:cad_colorizer_:4>, <psi:cad_colorizer_:5>, <psi:cad_colorizer_:6>, <psi:cad_colorizer_:7>, <psi:cad_colorizer_:8>, <psi:cad_colorizer_:9>, <psi:cad_colorizer_:10>, <psi:cad_colorizer_:11>, <psi:cad_colorizer_:12>, <psi:cad_colorizer_:13>, <psi:cad_colorizer_:14>, <psi:cad_colorizer_:15>, <psi:cad_colorizer_:17>]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <psicosts:creative_cell>, [
+	[<psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), <psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), null, null, null, null, null], 
+	[null, null, <psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), null, null, null, null], 
+	[null, null, <rpsideas:creative_colorizer>, null, null, null, <psicosts:psi_cell:3>.withTag({PsioCharge: 2560000})], 
+	[null, null, null, <rpsideas:creative_colorizer>, <rpsideas:creative_colorizer>, <psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), <psicosts:psi_cell:3>.withTag({PsioCharge: 2560000})], 
+	[null, <psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), <rpsideas:creative_colorizer>, null, null, null, <psicosts:psi_cell:3>.withTag({PsioCharge: 2560000})], 
+	[<psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), null, null, null, null, null, null], 
+	[<psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), null, null, null, null, null, null]
+]);

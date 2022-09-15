@@ -6,6 +6,8 @@ import thaumcraft.aspect.CTAspect;
 import thaumcraft.aspect.CTAspectStack;
 import crafttweaker.data.IData;
 import mods.thaumicrestoration.CrystalInfusion;
+import mods.thaumcraft.Crucible;
+
 
 mods.thaumcraft.SalisMundus.removeSingleConversion(<*>);
 
@@ -64,8 +66,7 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <twilightforest:steeleaf_ingot> : [<aspect:herba> * 12, <aspect:twilight> * 6, <aspect:metallum> * 4],
     <twilightforest:knightmetal_ingot> : [<aspect:metallum> * 18, <aspect:fabrico> * 6, <aspect:twilight> * 6],
     <twilightforest:fiery_ingot> : [<aspect:metallum> * 10, <aspect:ignis> * 20, <aspect:auram> * 20, <aspect:twilight> * 8],
-
-    
+    <avaritia:resource:6> : [<aspect:infinity>],
 };
 
 for ingredient in aspectMap {
@@ -74,7 +75,19 @@ for ingredient in aspectMap {
         item.setAspects(aspects);
     }
 }
+//Crucible
+//Crucible.registerRecipe("infinity", "", <minecraft:diamond>, <minecraft:stick>, [<aspect:aer>]);
 
 //thaumicrestoration
 // String Research, IItemStack output, String Aspect, IItemStack input 
 //CrystalInfusion.addRecipe("BASEELDRITCH",<thaumcraft:ingot:1>,"alienis",<thaumcraft:ingot:0>);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <thaumicenergistics:essentia_cell_creative>, [
+	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>], 
+	[<thaumicenergistics:essentia_component_64k>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumicenergistics:essentia_component_64k>], 
+	[<thaumicenergistics:essentia_component_64k>, <thaumadditions:jar_adaminite>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <thaumadditions:jar_adaminite>, <thaumicenergistics:essentia_component_64k>], 
+	[<thaumicenergistics:essentia_component_64k>, <thaumadditions:jar_adaminite>, <ore:plateInfinity>, <mekanism:gastank>, <ore:plateInfinity>, <thaumadditions:jar_adaminite>, <thaumicenergistics:essentia_component_64k>], 
+	[<thaumicenergistics:essentia_component_64k>, <thaumadditions:jar_adaminite>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <thaumadditions:jar_adaminite>, <thaumicenergistics:essentia_component_64k>], 
+	[<thaumicenergistics:essentia_component_64k>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumadditions:jar_adaminite>, <thaumicenergistics:essentia_component_64k>], 
+	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>]
+]);

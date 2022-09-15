@@ -79,5 +79,8 @@ zsFluid37.register();
 var zsFluid38 = VanillaFactory.createFluid("rich_lithium_water", Color.fromHex("617074"));
 zsFluid38.register();
 
+var zsFluid39 = VanillaFactory.createFluid("dimensionalshard", Color.fromHex("0052D8"));
+zsFluid39.register();
 
-
+var zsFluid40 = VanillaFactory.createFluid("everlasting", Color.fromHex("0052D8"));
+zsFluid40.register();

@@ -1,0 +1,14 @@
+{
+	x: -20.5d,
+	y: 0.0d,
+	dependencies: [
+		"7b6542f5"
+	],
+	tasks: [{
+		uid: "c1195bb2",
+		type: "item",
+		items: [{
+			item: "embers:creative_ember_source"
+		}]
+	}]
+}

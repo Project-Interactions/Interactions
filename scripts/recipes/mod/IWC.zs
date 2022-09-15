@@ -49,7 +49,9 @@ mods.inworldcrafting.FluidToItem.transform(<integrateddynamics:crystalized_choru
 
 mods.inworldcrafting.FluidToItem.transform(<thermalfoundation:material:1>*3, <liquid:sulfuric_acid>, [<contenttweaker:material_part:108>], true);
 
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<extendedcrafting:compressor>,<avaritia:neutronium_compressor>,50);
+mods.inworldcrafting.FluidToItem.transform(<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}), <liquid:infinity_metal>, [<appliedenergistics2:creative_energy_cell>], true);
 
-
+mods.inworldcrafting.FluidToItem.transform(<mekanism:gastank>.withTag({tier: 4}), <liquid:infinity_metal>, [<mekanism:gastank>.withTag({tier: 3, mekData: {stored: {amount: 512000, gasName: "everlasting"}}}),<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}})], true);
 
 

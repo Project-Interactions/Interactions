@@ -26,3 +26,21 @@ recipes.remove(<embers:geo_separator>);
 
 mods.embers.Melter.remove(<liquid:draconium>*288);
 
+mods.extendedcrafting.TableCrafting.addShaped(3, <mysticalmechanics:creative_mech_source>, [
+	[<embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:ingotInfinity>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(3, <embers:creative_ember_source>, [
+	[<embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateWyvernMetal>, <mysticalmechanics:creative_mech_source>, <ore:plateWyvernMetal>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>]
+]);

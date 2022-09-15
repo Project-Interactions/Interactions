@@ -1,0 +1,14 @@
+{
+	x: -15.5d,
+	y: 1.5d,
+	dependencies: [
+		"72f363d1"
+	],
+	tasks: [{
+		uid: "88d0afd9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ultimate_ingot_left_up"
+		}]
+	}]
+}

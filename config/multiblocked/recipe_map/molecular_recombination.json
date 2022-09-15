@@ -117,6 +117,87 @@
           }
         ]
       }
+    },
+    {
+      "uid": "5cf0f31e-5b14-4fc2-816f-542a335b8965",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:rainbowgenerator\",Count:1b,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:rainbowgenerator\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "exu2_gp": [
+          {
+            "chance": 1.0,
+            "content": 1.0E7
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:ultimate_ingot_left_down\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "36840f50-e07a-4ce8-9a6a-b4c7094f1fcb",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"auraddons:block_rainbow_beacon\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "natures_aura": [
+          {
+            "chance": 1.0,
+            "content": 10000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:ultimate_ingot_right_up\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
     }
   ]
 }
