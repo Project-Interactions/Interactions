@@ -8,5 +8,16 @@
 		uid: "5bc31c9e",
 		type: "dimension",
 		dim: 1304
+	},
+	{
+		uid: "e5e98331",
+		type: "item",
+		items: [{
+			id: "dimensionaledibles:custom_cake",
+			tag: {
+				dimID: 1304,
+				cakeName: "landia"
+			}
+		}]
 	}]
 }

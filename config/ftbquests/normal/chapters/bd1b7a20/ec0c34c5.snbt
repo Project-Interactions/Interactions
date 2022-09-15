@@ -14,5 +14,10 @@
 		type: "checkmark",
 		title: "剧情",
 		icon: "akashictome:tome"
+	}],
+	rewards: [{
+		uid: "a481fdc9",
+		type: "item",
+		item: "contenttweaker:locked_drawer"
 	}]
 }

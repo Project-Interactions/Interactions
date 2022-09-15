@@ -3,7 +3,7 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.botaniatweaks.Agglomeration;
-//大量修改（pylon水晶，spreader发射器
+//大量修改，pylon水晶，spreader发射器
 recipes.remove(<botania:manaresource:14>);
 recipes.removeShaped(<botania:pool:3>, [[<botania:shimmerrock>, null, <botania:shimmerrock>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
 recipes.removeShaped(<botania:alfheimportal>, [[<ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>], [<ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>], [<ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>]]);

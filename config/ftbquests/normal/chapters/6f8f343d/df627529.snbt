@@ -1,0 +1,15 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	dependencies: [
+		"cf4d0576"
+	],
+	hide: true,
+	tasks: [{
+		uid: "822ebc78",
+		type: "item",
+		items: [{
+			item: "biggercraftingtables:biggercraftingtable"
+		}]
+	}]
+}
