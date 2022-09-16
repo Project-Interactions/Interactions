@@ -1,0 +1,19 @@
+{
+	title: "提示2",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"码"
+	],
+	dependencies: [
+		"3efbbd3c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bdd58cc4",
+		type: "item",
+		items: [{
+			item: "threng:material 1 13"
+		}]
+	}]
+}

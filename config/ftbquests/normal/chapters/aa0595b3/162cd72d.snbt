@@ -1,0 +1,21 @@
+{
+	x: -9.0d,
+	y: 5.0d,
+	text: [
+		"通过这一个工作台"
+	],
+	dependencies: [
+		"cad12c35"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88c2d12e",
+		type: "checkmark",
+		title: "寻找"
+	}],
+	rewards: [{
+		uid: "74beb35e",
+		type: "item",
+		item: "biggercraftingtables:biggercraftingtable"
+	}]
+}

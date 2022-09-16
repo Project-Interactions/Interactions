@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"将荒芜土壤7x7压缩，看看会发生什么"
+	],
+	dependencies: [
+		"df627529"
+	],
+	hide: true,
+	tasks: [{
+		uid: "17b629f0",
+		type: "item",
+		items: [{
+			item: "biggercraftingtables:biggercraftingtable 1 1"
+		}]
+	}]
+}

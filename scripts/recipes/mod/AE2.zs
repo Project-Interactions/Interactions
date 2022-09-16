@@ -139,3 +139,17 @@ recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_int
 
 //booster_card
 RecipeUtils.recipeTweak(true, <ae2wtlib:infinity_booster_card>, [[<aeadditions:storage.component:12>,null,<aeadditions:storage.component:12>],[null,<aeadditions:storage.component:3>,null],[<aeadditions:storage.component:5>,null,<aeadditions:storage.component:5>]]);
+
+//
+mods.biggercraftingtables.Giant.addShaped(<appliedenergistics2:creative_storage_cell>.withTag({}), [
+	[null, null, null, null, <aeadditions:storage.casing>, null, null, null, null],
+	[null, null, null, <aeadditions:storage.casing>, <avaritia:block_resource:1>, <aeadditions:storage.casing>, null, null, null],
+	[null, null, <aeadditions:storage.casing>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <aeadditions:storage.casing>, null, null],
+	[null, <aeadditions:storage.casing>, <avaritia:block_resource>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource>, <aeadditions:storage.casing>, null],
+	[<aeadditions:storage.casing>, <aeadditions:storage.component:3>, <avaritiaddons:infinity_glass>, <avaritia:block_resource>, <avaritia:block_resource:1>, <avaritia:block_resource>, <avaritiaddons:infinity_glass>, <aeadditions:storage.component:3>, <aeadditions:storage.casing>],
+	[null, <aeadditions:storage.casing>, <aeadditions:storage.component:3>, <avaritiaddons:infinity_glass>, <avaritia:block_resource>, <avaritiaddons:infinity_glass>, <aeadditions:storage.component:3>, <aeadditions:storage.casing>, null],
+	[null, null, <aeadditions:storage.casing>, <aeadditions:storage.component:3>, <avaritiaddons:infinity_glass>, <aeadditions:storage.component:3>, <aeadditions:storage.casing>, null, null],
+	[null, null, null, <aeadditions:storage.casing>, <aeadditions:storage.component:3>, <aeadditions:storage.casing>, null, null, null],
+	[null, null, null, null, <aeadditions:storage.casing>, null, null, null, null]
+]);
+

@@ -154,10 +154,10 @@
             "content": "{FluidName:\"steadfast_will\",Amount:1000}"
           }
         ],
-        "forge_energy": [
+        "bg_lp": [
           {
             "chance": 1.0,
-            "content": 1000000
+            "content": 200000
           }
         ]
       },

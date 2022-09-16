@@ -184,7 +184,6 @@ mods.immersivetechnology.CoolingTower.addRecipe(<liquid:ore_water>*2000,<liquid:
 
 //mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
 
-mods.immersivetechnology.CoolingTower.addRecipe(<liquid:refined_biofuel>*2000,<liquid:biomass>*2000,<liquid:culture_medium>*1000,<liquid:waste_water>*2000,<liquid:hot_spring_water>*2000,60);
 
 mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<immersiveengineering:material:20>*3,<ore:ingotRedAlloy>*2]);
 

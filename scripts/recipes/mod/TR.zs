@@ -160,10 +160,6 @@ mods.techreborn.fusionReactor.addRecipe(<jaopca:dense_plate.diamond>*4,<contentt
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:49>*20);
 mods.techreborn.industrialElectrolyzer.addRecipe(<thermalfoundation:material:68>*3,<techreborn:dust:31>*5,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*4,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*5,<techreborn:dynamiccell>*9,<techreborn:dust:49>*15,160,280);
 
-
-mods.techreborn.fluidReplicator.addRecipe(40,<liquid:uu>*1000,100,100);
-mods.techreborn.fluidReplicator.addRecipe(26,<liquid:culture_medium>*1000,100,100);
-
 recipes.remove(<techreborn:fluid_replicator>);
 
 mods.techreborn.fluidReplicator.addRecipe(64,<liquid:duplication>*1000,50,100);

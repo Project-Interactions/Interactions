@@ -1,6 +1,14 @@
 {
-	x: 0.0d,
-	y: 0.0d,
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"凭空获取一切，这是真正的终点？"
+	],
+	dependencies: [
+		"b6599f27",
+		"9239bfd2"
+	],
+	hide: true,
 	tasks: [{
 		uid: "36931168",
 		type: "item",

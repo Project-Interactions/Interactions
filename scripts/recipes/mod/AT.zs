@@ -55,4 +55,6 @@ recipes.addShaped(<avaritiaddons:infinity_glass>, [[<bfr:reactorglass>, <theauro
 
 //remove compresser
 mods.avaritia.Compressor.remove(<avaritia:singularity:*>);
+
 mods.extendedcrafting.CompressionCrafting.addRecipe(<eternalsingularity:eternal_singularity>, <projecte:item.pe_fuel:2>, 4096, <extendedcrafting:material:13>, 10000000, 100000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:give>, <storagedrawers:upgrade_creative:1>, 10000, <storagedrawers:upgrade_creative:1>, 10000000, 100000);

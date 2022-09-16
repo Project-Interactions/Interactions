@@ -101,13 +101,3 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:storage:4>, [
 	[<contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>], 
 	[<contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>]
 ]);
-//biggercraftingtables
-recipes.remove(<biggercraftingtables:biggercraftingtable>);
-recipes.remove(<biggercraftingtables:biggercraftingtable:1>);
-recipes.remove(<biggercraftingtables:biggercraftingtable:2>);
-recipes.remove(<biggercraftingtables:autobiggercraftingtable>);
-recipes.remove(<biggercraftingtables:autobiggercraftingtable:1>);
-recipes.remove(<biggercraftingtables:autobiggercraftingtable:2>);
-mods.jei.JEI.hideCategory("biggerct.big");
-mods.jei.JEI.hideCategory("biggerct.huge");
-mods.jei.JEI.hideCategory("biggerct.giant");

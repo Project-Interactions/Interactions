@@ -4,6 +4,7 @@
     "refillDmgThreshold": 1
   },
   "ItemSortRules": [
+    "display_name",
     "ore_prefix",
     "material",
     "mod",

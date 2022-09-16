@@ -17,13 +17,13 @@ import mods.contenttweaker.ActionResult;
 import mods.ctutils.utils.Math;
 import mods.zenutils.cotx.Item;
 
-var landia_tp = VanillaFactory.createItem("landia_tp");
-landia_tp.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote && !player.isFake() && world.dimension == 0) {
-        Commands.call("forge setdimension @p 1304 0 80 0", player, world);
+var give = VanillaFactory.createItem("give");
+give.itemRightClick = function(stack, world, player, hand) {
+    if (!world.remote && !player.isFake() && world.dimension == 4598) {
+        Commands.call("give @p contenttweaker:outside_minecraft", player, world);
         stack.shrink(1);
 
     }
     return "success";
 };
-landia_tp.register();
+give.register();

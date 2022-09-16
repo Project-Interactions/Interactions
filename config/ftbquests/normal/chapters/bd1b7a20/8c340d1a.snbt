@@ -19,7 +19,7 @@
 	rewards: [{
 		uid: "670fba3d",
 		type: "item",
-		item: "techreborn:ingot 1 2",
-		count: 4
+		item: "thermalfoundation:material 1 163",
+		count: 8
 	}]
 }

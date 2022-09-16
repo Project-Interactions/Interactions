@@ -46,9 +46,6 @@ zsFluid13.register();
 var zsFluid14 = VanillaFactory.createFluid("superconduct", Color.fromHex("FFFFFF"));
 zsFluid14.register();
 
-var zsFluid15 = VanillaFactory.createFluid("culture_medium", Color.fromHex("D8DA93"));
-zsFluid15.register();
-
 var zsFluid16 = VanillaFactory.createFluid("liquid_chaos", Color.fromHex("231923"));
 zsFluid16.register();
 
@@ -84,3 +81,6 @@ zsFluid39.register();
 
 var zsFluid40 = VanillaFactory.createFluid("everlasting", Color.fromHex("0052D8"));
 zsFluid40.register();
+
+var zsFluid41 = VanillaFactory.createFluid("ytinifni", Color.fromHex("0052D8"));
+zsFluid41.register();

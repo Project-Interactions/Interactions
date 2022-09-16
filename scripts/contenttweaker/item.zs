@@ -71,6 +71,7 @@ VanillaFactory.createItem("inverse_entropy_circuit").register();
 
 VanillaFactory.createItem("wood_essence").register();
 
+VanillaFactory.createItem("outside_minecraft").register();
 
 
 

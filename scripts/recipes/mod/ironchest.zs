@@ -25,7 +25,7 @@ print("--- loading IronChest.zs ---");
 
 # copper Chest
 	recipes.remove(<ironchest:iron_chest:3>);
-	recipes.addShaped("copper Chest", 
+	recipes.addShaped("Copper Chest", 
 	<ironchest:iron_chest:3>, 
 	[[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
 	[<ore:plateCopper>, <ironchest:iron_chest>, <ore:plateCopper>], 
@@ -33,7 +33,7 @@ print("--- loading IronChest.zs ---");
 
 # silver Chest
 	recipes.remove(<ironchest:iron_chest:4>);
-	recipes.addShaped("silver Chest", 
+	recipes.addShaped("Silver Chest", 
 	<ironchest:iron_chest:4>, 
 	[[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>],
 	[<ore:plateSilver>, <ironchest:iron_chest>, <ore:plateSilver>], 

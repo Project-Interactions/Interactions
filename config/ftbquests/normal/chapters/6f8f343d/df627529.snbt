@@ -1,8 +1,8 @@
 {
-	x: -4.5d,
-	y: 0.0d,
-	dependencies: [
-		"cf4d0576"
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"回归开始，将你获得的第一个物品5x5合成"
 	],
 	hide: true,
 	tasks: [{

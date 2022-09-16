@@ -5,7 +5,6 @@ tile.contenttweaker.useful_block.name=实用合金块
 item.contenttweaker.ore_essence.name=矿物精华
 item.contenttweaker.gem_essence.name=宝石精华
 
-item.contenttweaker.stemcells.name=干细胞
 item.contenttweaker.andesite_pebble.name=安山岩石子
 item.contenttweaker.granite_pebble.name=花岗岩石子
 item.contenttweaker.diorite_pebble.name=闪长岩石子
@@ -25,6 +24,22 @@ item.contenttweaker.thermal_pneumatic_circuit.name=热力电路板
 item.contenttweaker.powered_circuit.name=充能电路板
 item.contenttweaker.psio_powered_circuit.name=Psi充能电路板
 
+item.contenttweaker.compressedredstone=压缩充能红石水晶
+item.contenttweaker.compresseddiamond=压缩充能钻石水晶
+item.contenttweaker.compressedobsidian=压缩强化黑曜石
+
+item.contenttweaker.ultimate_ingot_left_up=终极锭（左上）
+item.contenttweaker.ultimate_ingot_left_down=终极锭（左下）
+item.contenttweaker.ultimate_ingot_right_up=终极锭（右上）
+item.contenttweaker.ultimate_ingot_right_down=终极锭（右下）
+
+item.contenttweaker.inverse_entropy_alloy=逆熵合金
+item.contenttweaker.inverse_entropy_circuit=逆熵控制电路
+
+item.contenttweaker.wood_essence=树木精华
+
+item.contenttweaker.outside_minecraft=在Minecraft之外？
+
 fluid.blend_caminite=液态方镁矾
 fluid.witch_water=巫水
 fluid.ore_water=矿物浆液
@@ -40,25 +55,27 @@ fluid.europium=熔融铕
 fluid.uu=UU物质
 fluid.liquid_chaos=液态混沌
 fluid.superconduct=熔融超导体
-fluid.culture_medium=培养液
 item.contenttweaker.twilight_crystal.name=暮色水晶
-
+fluid.aqua_regia=王水
+fluid.rich_iodine_oil=富碘油
+fluid.molten_mana=熔融魔力
+fluid.rich_lithium_water=富锂水
+fluid.dimensionalshard=熔融空间碎片
+fluid.everlasting=熔融永恒
 fluid.advancedalloy=熔融高级合金
 fluid.refinediron=熔融精炼铁
 fluid.tic_useful_metal=熔融实用合金
 fluid.duplication=熔融复制金属
-
-
-
+fluid.ytinifni=流涌尽无
 
 tile.contenttweaker.frost_proof_machine_casing.name=冷冻机器方块
 tile.contenttweaker.refined_ore_essence.name=精炼矿石精华块
 tile.contenttweaker.basic_refined_ore_essence.name=矿石精华块
-
+tile.singularity_block=奇点块
+tile.locked_drawer=上锁的抽屉
 
 tile.contenttweaker.aether_log_fix.name=天根木修复
 base.material.kanthal=坝塔尔合金
-base.material.cupronickel=白铜
 base.material.gold=金
 base.material.europium=铕
 base.material.gallium=镓
@@ -92,8 +109,6 @@ base.material.talc=滑石
 base.material.ferrotitanium=钛铁
 base.material.crystallineuranium=晶质铀
 
-
-
 contenttweaker.part.dust_tiny=小搓%s粉
 contenttweaker.part.coin=%s币
 contenttweaker.part.dust_small=小堆%s粉
@@ -106,19 +121,9 @@ contenttweaker.part.machine_frame=%s机器框架
 contenttweaker.part.coil=%s线圈
 contenttweaker.part.wire=%s线
 contenttweaker.part.dustore=%s矿粉
-item.contenttweaker.circuit_master.name=纳米主机
-item.contenttweaker.circuit_ultimate.name=量子主机
-item.contenttweaker.circuit_superconductor.name=晶体主机
-item.contenttweaker.circuit_infinite.name=湿件主机
 
-item.contenttweaker.circuit_uev.name=生物活性处理器主机
-item.contenttweaker.circuit_uiv.name=光学处理器主机
-item.contenttweaker.circuit_umv.name=奇异处理器主机
-item.contenttweaker.circuit_uxv.name=寰宇处理器主机
-item.contenttweaker.circuit_max.name=超因果处理器主机
 item.contenttweaker.crystal_colorful.name=五彩水晶
 item.contenttweaker.cold_ingot.name=冷冻锭
-item.contenttweaker.stainless_steel_dust.name=不锈钢粉
 
 item.contenttweaker.hot_osmium_ingot.name=热锇锭
 item.contenttweaker.hot_irdium_ingot.name=热铱锭
@@ -127,10 +132,6 @@ item.contenttweaker.hot_palladium_ingot.name=热钯锭
 item.contenttweaker.hot_tungsten_ingot.name=热钨锭
 
 item.contenttweaker.enrichedsunnarium.name=富集阳光化合物
-item.contenttweaker.enrichedsunnariumalloy.name=富集阳光化合物合金1阶
-item.contenttweaker.enrichedsunnariumalloy2.name=富集阳光化合物合金2阶
-item.contenttweaker.enrichedsunnariumalloy3.name=富集阳光化合物合金3阶
-item.contenttweaker.enrichedsunnariumalloy4.name=富集阳光化合物合金4阶
 item.contenttweaker.sunnariumalloy.name=阳光化合物合金
 item.contenttweaker.sunnarium.name=阳光化合物
 
