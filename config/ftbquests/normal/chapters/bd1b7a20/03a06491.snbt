@@ -1,6 +1,9 @@
 {
 	x: 1.0d,
 	y: 2.5d,
+	text: [
+		"捏可以使用它来发点"
+	],
 	dependencies: [
 		"418aa06b"
 	],

@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<theaurorian:aurorianportalframebricks> * 4);
 recipes.remove(<projecte:item.pe_transmutation_tablet>);
 recipes.remove(<extrautils2:angelring:5>);
 recipes.remove(<extrautils2:angelring:4>);

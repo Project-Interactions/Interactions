@@ -21,8 +21,3 @@
 <contenttweaker:give>.addTooltip("\u5728\u5E9F\u571F\u4E16\u754C\u53F3\u952E");
 <contenttweaker:outside_minecraft>.addTooltip("https://github.com/Project-Interactions/Interactions/issues/9");
 <contenttweaker:outside_minecraft>.addTooltip("\u6216\u8BB8\u4F60\u9700\u8981\u5C06\u627E\u5230\u7684\u4FE1\u606F\u518D\u8FDB\u884C\u89E3\u6790");
-<bloodarsenal:slate>.displayName = "\u7A7A\u767D\u77F3\u677F\u5757";
-<bloodarsenal:slate:1>.displayName = "\u5F3A\u5316\u77F3\u677F\u5757";
-<bloodarsenal:slate:2>.displayName = "\u704C\u8F93\u77F3\u677F\u5757";
-<bloodarsenal:slate:3>.displayName = "\u60AC\u5E7D\u77F3\u677F\u5757";
-<bloodarsenal:slate:4>.displayName = "\u6076\u9B54\u77F3\u677F\u5757";

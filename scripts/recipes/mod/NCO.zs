@@ -132,8 +132,13 @@ for removeb in MelterRemove {
 mods.qmd.target_chamber.addRecipe(<qmd:creative_particle_source>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
 mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>, [
 	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:particle_chamber_beam_port>,<thaumicenergistics:essentia_cell_creative>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:cell:1>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:9>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:particle_chamber_beam_port>, <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:cell:2>.withTag({particle_storage: {particle_amount: 100000}}),<thaumicenergistics:essentia_cell_creative>, <qmd:cell:6>.withTag({particle_storage: {particle_amount: 100000}}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
+	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:cell:3>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:5>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:8>.withTag({particle_storage: {particle_amount: 100000}}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
 	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})]
 ]);
+
+
+
+
+
