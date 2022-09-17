@@ -19,9 +19,6 @@ zsFluid4.register();
 var zsFluid5 = VanillaFactory.createFluid("living_water", Color.fromHex("00CC33"));
 zsFluid5.register();
 
-var zsFluid6 = VanillaFactory.createFluid("gem_water", Color.fromHex("9966CC"));
-zsFluid6.register();
-
 var zsFluid7 = VanillaFactory.createFluid("slime_cot", Color.fromHex("00CC33"));
 zsFluid7.register();
 

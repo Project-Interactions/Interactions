@@ -19,15 +19,6 @@ basic_refined_ore_essence.toolLevel=1;
 basic_refined_ore_essence.blockSoundType=<soundtype:sand>;
 basic_refined_ore_essence.register();
 
-var universal_circuit_block = VanillaFactory.createBlock("universal_circuit_block",<blockmaterial:iron>);
-universal_circuit_block.lightOpacity=255;
-universal_circuit_block.blockHardness=6;
-universal_circuit_block.blockResistance=6;
-universal_circuit_block.toolClass="shovel";
-universal_circuit_block.toolLevel=6;
-universal_circuit_block.blockSoundType=<soundtype:stone>;
-universal_circuit_block.register();
-
 var aether = VanillaFactory.createBlock("aether_log_fix",<blockmaterial:iron>);
 aether.lightOpacity=255;
 aether.blockHardness=4.0;

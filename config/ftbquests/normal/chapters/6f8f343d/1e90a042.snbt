@@ -9,7 +9,7 @@
 		uid: "192a6706",
 		type: "item",
 		items: [{
-			item: "minecraft:stone"
+			item: "contenttweaker:give"
 		}]
 	}]
 }

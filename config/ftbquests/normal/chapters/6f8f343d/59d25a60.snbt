@@ -1,14 +1,15 @@
 {
-	x: 1.5d,
+	x: 3.5d,
 	y: -1.5d,
 	text: [
-		"凭空获取一切，这是真正的终点？"
+		"寻找合成它的方法"
 	],
 	dependencies: [
 		"b6599f27",
 		"9239bfd2"
 	],
 	hide: true,
+	size: 2.0d,
 	tasks: [{
 		uid: "36931168",
 		type: "item",

@@ -24,21 +24,22 @@ item.contenttweaker.thermal_pneumatic_circuit.name=热力电路板
 item.contenttweaker.powered_circuit.name=充能电路板
 item.contenttweaker.psio_powered_circuit.name=Psi充能电路板
 
-item.contenttweaker.compressedredstone=压缩充能红石水晶
-item.contenttweaker.compresseddiamond=压缩充能钻石水晶
-item.contenttweaker.compressedobsidian=压缩强化黑曜石
+item.contenttweaker.compressedredstone.name=压缩充能红石水晶
+item.contenttweaker.compresseddiamond.name=压缩充能钻石水晶
+item.contenttweaker.compressedobsidian.name=压缩强化黑曜石
 
-item.contenttweaker.ultimate_ingot_left_up=终极锭（左上）
-item.contenttweaker.ultimate_ingot_left_down=终极锭（左下）
-item.contenttweaker.ultimate_ingot_right_up=终极锭（右上）
-item.contenttweaker.ultimate_ingot_right_down=终极锭（右下）
+item.contenttweaker.ultimate_ingot_left_up.name=终极锭（左上）
+item.contenttweaker.ultimate_ingot_left_down.name=终极锭（左下）
+item.contenttweaker.ultimate_ingot_right_up.name=终极锭（右上）
+item.contenttweaker.ultimate_ingot_right_down.name=终极锭（右下）
 
-item.contenttweaker.inverse_entropy_alloy=逆熵合金
-item.contenttweaker.inverse_entropy_circuit=逆熵控制电路
+item.contenttweaker.inverse_entropy_alloy.name=逆熵合金
+item.contenttweaker.inverse_entropy_circuit.name=逆熵控制电路
 
-item.contenttweaker.wood_essence=树木精华
+item.contenttweaker.wood_essence.name=树木精华
 
-item.contenttweaker.outside_minecraft=在Minecraft之外？
+item.contenttweaker.outside_minecraft.name=在Minecraft之外？
+item.contenttweaker.give.name=----
 
 fluid.blend_caminite=液态方镁矾
 fluid.witch_water=巫水
@@ -71,8 +72,8 @@ fluid.ytinifni=流涌尽无
 tile.contenttweaker.frost_proof_machine_casing.name=冷冻机器方块
 tile.contenttweaker.refined_ore_essence.name=精炼矿石精华块
 tile.contenttweaker.basic_refined_ore_essence.name=矿石精华块
-tile.singularity_block=奇点块
-tile.locked_drawer=上锁的抽屉
+tile.contenttweaker.singularity_block.name=奇点块
+tile.contenttweaker.locked_drawer.name=上锁的抽屉
 
 tile.contenttweaker.aether_log_fix.name=天根木修复
 base.material.kanthal=坝塔尔合金

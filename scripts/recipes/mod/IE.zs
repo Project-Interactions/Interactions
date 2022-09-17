@@ -179,8 +179,7 @@ mods.immersiveengineering.Squeezer.addRecipe(<industrialforegoing:dryrubber>,nul
 mods.immersiveintelligence.ChemicalBath.removeRecipe(<immersiveintelligence:material:11>);
 mods.immersiveintelligence.ChemicalBath.addRecipe(<immersiveintelligence:material:10>,<immersiveintelligence:material:11>,<liquid:advanced_etching>*4000,160,160);
 
-mods.immersivetechnology.CoolingTower.addRecipe(<liquid:gem_water>*2000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:hot_spring_water>*8100,<liquid:ore_water>*2000,60);
-mods.immersivetechnology.CoolingTower.addRecipe(<liquid:ore_water>*2000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:waste_water>*1000,<liquid:ore_water>*1000,60);
+mods.immersivetechnology.CoolingTower.addRecipe(<liquid:ore_water>*1000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:waste_water>*1000,<liquid:ore_water>*10000,60);
 
 //mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
 

@@ -79,7 +79,7 @@ mods.nuclearcraft.Crystallizer.addRecipe(<liquid:molten_mana>*1000, <thermalfoun
 mods.nuclearcraft.Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);
 mods.nuclearcraft.Melter.addRecipe(<rftools:dimensional_shard>,<liquid:dimensionalshard>*150);
 
-RecipeUtils.recipeTweak(true, <qmd:vacuum_chamber_plasma_glass> * 2, [[<psicosts:material_glassy>, <ore:wireBSCCO>, <ore:ingotSuperAlloy>], [<ore:wireBSCCO>, <ore:gemBoronNitride>, <ore:wireBSCCO>], [<ore:ingotSuperAlloy>, <ore:wireBSCCO>, <psicosts:material_glassy>]]);
+RecipeUtils.recipeTweak(true, <qmd:vacuum_chamber_plasma_glass> * 2, [[<bloodarsenal:blood_stained_glass>, <ore:wireBSCCO>, <ore:ingotSuperAlloy>], [<ore:wireBSCCO>, <ore:gemBoronNitride>, <ore:wireBSCCO>], [<ore:ingotSuperAlloy>, <ore:wireBSCCO>, <bloodarsenal:blood_stained_glass>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3,<interaction:uu_crafter>, [
 	[<qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>], 

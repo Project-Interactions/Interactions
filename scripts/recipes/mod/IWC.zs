@@ -16,7 +16,6 @@ FluidToItem.transform(<immersiveengineering:blueprint>.withTag({blueprint: "elec
 FluidToItem.transform(<contenttweaker:ore_essence>*64, <liquid:ore_water>, [<botania:manaresource:21>*2], true);
 FluidToItem.transform(<contenttweaker:ore_essence>*64, <liquid:ore_water>, [<practicallogistics2:stoneplate>], true);
 FluidToItem.transform(<minecraft:clay>, <liquid:water>, [<extrautils2:compressedsand>], true);
-FluidToItem.transform(<contenttweaker:gem_essence>*64, <liquid:gem_water>, [<minecraft:glass>*4], true);
 FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dirt>], true);
 FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:logWood>*64], true);
 FluidToItem.transform(<contenttweaker:sub_block_holder_0:10>, <liquid:mana>, [<thaumadditions:mithrillium_block>], true);

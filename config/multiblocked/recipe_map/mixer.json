@@ -121,17 +121,6 @@
       "uid": "5f8beb2a-e95a-4e18-a79b-b0a8a0c43580",
       "duration": 100,
       "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"bloodarsenal:blood_diamond\",Count:1b,Damage:3s}"
-              ]
-            }
-          }
-        ],
         "fluid": [
           {
             "chance": 1.0,
