@@ -19,3 +19,10 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <forestry:sturdy_machine>, [
 RecipeUtils.recipeTweak(true, <forestry:carpenter>, [[<ore:plankTreatedWood>, <ore:circuitElite>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <forestry:sturdy_machine>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:gearConductiveIron>, <ore:plankTreatedWood>]]);
 RecipeUtils.recipeTweak(true, <forestry:squeezer>, [[<ore:plateElectricalSteel>, <ore:circuitElite>, <ore:plateElectricalSteel>], [<ore:ingotTin>, <forestry:sturdy_machine:*>,<ore:plateElectricalSteel>], [<ore:plateElectricalSteel>, <ore:circuitElite>, <ore:plateElectricalSteel>]]);
 RecipeUtils.recipeTweak(true, <forestry:fabricator>, [[<ore:plateEnergeticAlloy>, <ore:blockGlass>, <ore:plateEnergeticAlloy>], [<ore:blockGlass>, <forestry:sturdy_machine:*>, <ore:blockGlass>], [<ore:circuitElite>, <ore:chestWood>,<ore:circuitElite>]]);
+
+
+//gendustry
+RecipeUtils.recipeTweak(true, <gendustry:mutagen_tank>, [[<ore:ingotTin>, <techreborn:reinforced_glass>, <ore:ingotTin>], [<ore:ingotTin>, <techreborn:reinforced_glass>, <ore:ingotTin>], [<ore:ingotTin>, <techreborn:reinforced_glass>, <ore:ingotTin>]]);
+RecipeUtils.recipeTweak(true, <gendustry:power_module>, [[<ore:gearDawnstone>, <minecraft:gold_ingot:*>, <ore:gearDawnstone>], [<minecraft:piston:*>, <ore:circuitOperation>, <minecraft:piston:*>], [<ore:gearDawnstone>, <minecraft:gold_ingot:*>, <ore:gearDawnstone>]]);
+RecipeUtils.recipeTweak(true, <gendustry:genetics_processor>, [[<minecraft:diamond:*>, <minecraft:quartz:*>, <minecraft:diamond:*>], [<ore:circuitOperation>, <forestry:crafting_material:1>, <ore:circuitOperation>], [<minecraft:diamond:*>, <minecraft:quartz:*>, <minecraft:diamond:*>]]);
+RecipeUtils.recipeTweak(true, <gendustry:bee_receptacle>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <techreborn:reinforced_glass>, <ore:ingotBronze>], [<ore:circuitOperation>, <enderio:block_painted_pressure_plate:8>, <ore:circuitOperation>]]);
