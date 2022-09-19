@@ -4,6 +4,9 @@
 	text: [
 		"回归开始，将你获得的第一个物品5x5合成"
 	],
+	dependencies: [
+		"162cd72d"
+	],
 	hide: true,
 	tasks: [{
 		uid: "822ebc78",

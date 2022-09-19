@@ -19,5 +19,5 @@
 <qmd:creative_particle_source>.addTooltip("\u9700\u8981\u4F7F\u7528\u65E0\u5C3D\u8981\u7D20\u7684\u6C34\u6676\u5757\u5408\u6210");
 
 <contenttweaker:give>.addTooltip("\u5728\u5E9F\u571F\u4E16\u754C\u53F3\u952E");
-<contenttweaker:outside_minecraft>.addTooltip("https://github.com/Project-Interactions/Interactions/issues/9");
-<contenttweaker:outside_minecraft>.addTooltip("\u6216\u8BB8\u4F60\u9700\u8981\u5C06\u627E\u5230\u7684\u4FE1\u606F\u518D\u8FDB\u884C\u89E3\u6790");
+<biggercraftingtables:biggercraftingtable:2>.addTooltip("https://imgse.com/i/vz2GYF");
+<biggercraftingtables:biggercraftingtable:2>.addTooltip("Welcome to the end!");

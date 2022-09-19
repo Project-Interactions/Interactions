@@ -1,12 +1,11 @@
 {
-	x: 3.5d,
-	y: -1.5d,
+	x: 2.0d,
+	y: -2.0d,
 	text: [
 		"寻找合成它的方法"
 	],
 	dependencies: [
-		"b6599f27",
-		"9239bfd2"
+		"b6599f27"
 	],
 	hide: true,
 	size: 2.0d,

@@ -1,6 +1,9 @@
 {
 	x: 0.0d,
 	y: 0.0d,
+	text: [
+		"输入本整合包的mcmod发布帖id并放在工作台与右键得到的物品合成"
+	],
 	dependencies: [
 		"4a9c0bd0"
 	],
@@ -11,5 +14,10 @@
 		items: [{
 			item: "contenttweaker:give"
 		}]
+	}],
+	rewards: [{
+		uid: "95ae5333",
+		type: "item",
+		item: "jecalculation:item_calculator 1 1"
 	}]
 }

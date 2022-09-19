@@ -4,6 +4,9 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 //解密
 recipes.addHiddenShapeless("ytinifni",<forge:bucketfilled>.withTag({FluidName: "ytinifni", Amount: 1000}),[<forge:bucketfilled>.withTag({FluidName: "infinity_metal", Amount: 1000}),<appliedenergistics2:material:31>]);
+
+recipes.addHiddenShapeless("biggercraftingtable",<biggercraftingtables:biggercraftingtable:2>,[<jecalculation:item_calculator:1>.withTag({jecalculation: {math: {current: "224", last: "0", state: 0, operator: 0}}}),<contenttweaker:outside_minecraft>]);
+
 //biggercraftingtables
 recipes.remove(<biggercraftingtables:biggercraftingtable>);
 recipes.remove(<biggercraftingtables:biggercraftingtable:1>);

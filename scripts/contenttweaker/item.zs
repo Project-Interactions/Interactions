@@ -8,10 +8,6 @@ import mods.contenttweaker.IItemColorSupplier;
 import mods.contenttweaker.Color;
 
 VanillaFactory.createItem("enrichedsunnarium").register();
-VanillaFactory.createItem("enrichedsunnariumalloy").register();
-VanillaFactory.createItem("enrichedsunnariumalloy2").register();
-VanillaFactory.createItem("enrichedsunnariumalloy3").register();
-VanillaFactory.createItem("enrichedsunnariumalloy4").register();
 VanillaFactory.createItem("sunnarium").register();
 VanillaFactory.createItem("sunnariumalloy").register();
 VanillaFactory.createItem("stemcells").register();
