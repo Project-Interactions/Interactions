@@ -21,6 +21,8 @@ BloodAltar.removeRecipe(<minecraft:stone>);
 BloodAltar.addRecipe(<bloodmagic:slate>, <botanicadds:dreamrock>, 0, 1000, 12, 12);
 
 BloodAltar.addRecipe(<theaurorian:aurorianportalframebricks>, <theaurorian:aurorianstone>, 5, 100000, 1200, 1200);
+BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <theaurorian:auroriansteelblock>, 5, 100000, 1200, 1200);
+
 
 AlchemyArray.removeRecipe(<bloodarsenal:base_item:8>, <bloodmagic:slate:3>);
 AlchemyArray.addRecipe(<bloodarsenal:sigil_lightning>, <bloodarsenal:base_item:8>, <lightningcraft:ingot>);

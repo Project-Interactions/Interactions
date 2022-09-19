@@ -1,4 +1,4 @@
-#suppress all
+#ikwid
 
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
