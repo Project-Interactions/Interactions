@@ -20,9 +20,8 @@ import mods.zenutils.cotx.Item;
 var give = VanillaFactory.createItem("give");
 give.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && !player.isFake() && world.dimension == 4598) {
-        Commands.call("give @p contenttweaker:outside_minecraft", player, world);
+        player.give(<item:contenttweaker:outside_minecraft>);
         stack.shrink(1);
-
     }
     return "success";
 };
