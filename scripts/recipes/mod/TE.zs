@@ -1,5 +1,3 @@
-#ikwid
-
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
@@ -136,12 +134,14 @@ RecipeUtils.recipeTweak(true, <thermalexpansion:device:7>, [[null, <thermalfound
 RecipeUtils.recipeTweak(true, <thermalexpansion:device:10>, [[null, <ore:workbench>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
 RecipeUtils.recipeTweak(true, <thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
 
-
-val a as IItemStack []= [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
-val b as IItemStack []= [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<immersiveintelligence:ore:2>,<thermalfoundation:ore:7>,<techreborn:dust:55>];
-for i in a{ for j in b{
+addRegexLogFilter("No InductionSmelter recipe exists for.*");
+val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
+val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<immersiveintelligence:ore:2>,<thermalfoundation:ore:7>,<techreborn:dust:55>];
+for i in a { 
+    for j in b {
         InductionSmelter.removeRecipe(i,j);
-}}
+    }
+}
 
 recipes.remove(<thermalexpansion:augment:257>);
 InductionSmelter.removeRecipe(<enderio:item_material>,<enderio:item_material:51>);
