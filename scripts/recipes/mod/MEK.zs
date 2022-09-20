@@ -38,19 +38,16 @@ enrichment.addRecipe(<actuallyadditions:item_crystal_empowered>, <contenttweaker
 enrichment.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <contenttweaker:compresseddiamond>);
 enrichment.addRecipe(<moreplates:refined_obsidian_plate>, <contenttweaker:compressedobsidian>);
 
-
-RecipeUtils.recipeTweak(true, <mekanism:machineblock:8>, [[<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>], [<ore:circuitNuclear>, <mekanism:basicblock:8>, <ore:circuitNuclear>], [<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>]]);
-RecipeUtils.recipeTweak(true, <mekanism:machineblock:1>, [[<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>], [<minecraft:bucket>, <mekanism:basicblock:8>, <minecraft:bucket>], [<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>]]);
-
 RecipeUtils.recipeTweak(true, <mekanism:tierinstaller>, [[<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>], [<ore:ingotIron>, <ore:plankWood>, <ore:ingotIron>], [<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>]]);
 RecipeUtils.recipeTweak(true, <mekanism:tierinstaller:1>, [[<ore:alloyAdvanced>, <ore:circuitMaster>, <ore:alloyAdvanced>], [<ore:ingotOsmium>, <ore:plankWood>, <ore:ingotOsmium>], [<ore:alloyAdvanced>, <ore:circuitMaster>, <ore:alloyAdvanced>]]);
 RecipeUtils.recipeTweak(true, <mekanism:tierinstaller:2>, [[<ore:alloyElite>, <ore:circuitNuclear>, <ore:alloyElite>], [<ore:ingotGold>, <ore:plankWood>, <ore:ingotGold>], [<ore:alloyElite>,<ore:circuitNuclear>, <ore:alloyElite>]]);
 RecipeUtils.recipeTweak(true, <mekanism:tierinstaller:3>, [[<ore:alloyUltimate>, <ore:circuitUniversal>, <ore:alloyUltimate>], [<ore:gemDiamond>, <ore:plankWood>, <ore:gemDiamond>], [<ore:alloyUltimate>, <ore:circuitUniversal>, <ore:alloyUltimate>]]);
 
 RecipeUtils.recipeTweak(true,<mekanism:machineblock>, [[<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>], [<ore:plateCrystallineAlloy>, <mekanism:basicblock:8>, <ore:plateCrystallineAlloy>], [<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>]]);
-RecipeUtils.recipeTweak(true,<mekanism:machineblock:1>, [[<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>], [<minecraft:bucket>, <mekanism:basicblock:8>, <minecraft:bucket>], [<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>]]);
+RecipeUtils.recipeTweak(true, <mekanism:machineblock:1>, [[<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>], [<minecraft:bucket>, <mekanism:basicblock:8>, <minecraft:bucket>], [<ore:alloyAdvanced>, <extendedcrafting:material:48>, <ore:alloyAdvanced>]]);
 RecipeUtils.recipeTweak(true,<mekanism:machineblock:2>, [[<ore:alloyElite>, <ore:circuitNuclear>, <ore:alloyElite>], [<ore:cobblestone>, <mekanism:basicblock:8>, <ore:cobblestone>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
 RecipeUtils.recipeTweak(true,<mekanism:machineblock:3>, [[<ore:dustRedstone>, <ore:circuitElite>, <ore:dustRedstone>], [<minecraft:lava_bucket>, <mekanism:basicblock:8>, <minecraft:lava_bucket>], [<ore:dustRedstone>, <ore:circuitElite>, <ore:dustRedstone>]]);
+RecipeUtils.recipeTweak(true, <mekanism:machineblock:8>, [[<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>], [<ore:circuitNuclear>, <mekanism:basicblock:8>, <ore:circuitNuclear>], [<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>]]);
 RecipeUtils.recipeTweak(true,<mekanism:machineblock:9>, [[<ore:alloyAdvanced>, <ore:circuitMaster>, <ore:alloyAdvanced>], [<ore:ingotOsmium>, <mekanism:machineblock>, <ore:ingotOsmium>], [<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
 RecipeUtils.recipeTweak(true,<mekanism:machineblock:10>, [[<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>], [<ore:blockGlass>, <mekanism:basicblock:8>, <ore:blockGlass>], [<ore:alloyBasic>, <ore:circuitElite>, <ore:alloyBasic>]]);
 RecipeUtils.recipeTweak(true,<mekanism:machineblock2>, [[<ore:blockGlass>, <ore:circuitElite>, <ore:blockGlass>], [<mekanism:gastank>.withTag({tier: 0}), <mekanism:energytablet>, <mekanism:machineblock2:11>.withTag({tier: 0})], [<ore:blockGlass>, <ore:circuitElite>, <ore:blockGlass>]]);
