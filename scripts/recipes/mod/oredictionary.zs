@@ -76,7 +76,6 @@
 <ore:ingotSunnarium>.add(<contenttweaker:sunnarium>);
 <ore:plateSunnarium>.add(<contenttweaker:sunnariumalloy>);
 
-<ore:plateEnrichedSunnarium>.add(<contenttweaker:enrichedsunnariumalloy>);
 <ore:ingotEnrichedSunnarium>.add(<contenttweaker:enrichedsunnarium>);
 
 <ore:itemRubber>.remove(<industrialforegoing:plastic>);

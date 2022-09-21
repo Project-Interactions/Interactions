@@ -123,7 +123,6 @@ RecipeUtils.recipeTweak(true, <packagedauto:unpackager>, [[<ore:plateVibrantAllo
 
 //capability adapter
 RecipeUtils.recipeTweak(true, <rf-capability-adapter:aecapabilityadapter>, [[<ore:plateVibrantAlloy>, <ore:circuitElite>, <ore:plateVibrantAlloy>], [<ore:crystalFluix> | <appliedenergistics2:material:12>, <appliedenergistics2:interface>, <ore:crystalFluix> | <appliedenergistics2:material:12>], [<ore:plateVibrantAlloy>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <ore:plateVibrantAlloy>]]);
-
 //lazyae2
 Etcher.removeRecipe(<appliedenergistics2:material:22>);
 Etcher.removeRecipe(<appliedenergistics2:material:24>);
