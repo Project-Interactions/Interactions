@@ -126,13 +126,13 @@ mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>,
 mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_perditio>, <liquid:aerotheum> * 100,1200 );
 mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_vitium>, <liquid:aerotheum> * 100,1200 );
 
-RecipeUtils.recipeTweak(true, <thermalexpansion:device>, [[null, <minecraft:bucket:*>, null], [<ore:blockGlass>, <teslacorelib:machine_case>, <ore:blockGlass>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-RecipeUtils.recipeTweak(true, <thermalexpansion:device:1>, [[null, <minecraft:lava_bucket>, null], [<minecraft:brick_block:*>, <teslacorelib:machine_case>, <minecraft:brick_block:*>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-RecipeUtils.recipeTweak(true, <thermalexpansion:device:2>, [[null, <ore:ingotCopper>, null], [<ore:ingotInvar>, <teslacorelib:machine_case>, <ore:ingotInvar>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-RecipeUtils.recipeTweak(true, <thermalexpansion:device:5>, [[null, <ore:chestWood>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-RecipeUtils.recipeTweak(true, <thermalexpansion:device:7>, [[null, <thermalfoundation:tome_lexicon>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-RecipeUtils.recipeTweak(true, <thermalexpansion:device:10>, [[null, <ore:workbench>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-RecipeUtils.recipeTweak(true, <thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device>, [[null, <minecraft:bucket:*>, null], [<ore:blockGlass>, <teslacorelib:machine_case>, <ore:blockGlass>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:1>, [[null, <minecraft:lava_bucket>, null], [<minecraft:brick_block:*>, <teslacorelib:machine_case>, <minecraft:brick_block:*>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:2>, [[null, <ore:ingotCopper>, null], [<ore:ingotInvar>, <teslacorelib:machine_case>, <ore:ingotInvar>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:5>, [[null, <ore:chestWood>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:7>, [[null, <thermalfoundation:tome_lexicon>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:10>, [[null, <ore:workbench>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
 
 addRegexLogFilter("No InductionSmelter recipe exists for.*");
 val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
@@ -146,3 +146,7 @@ for i in a {
 recipes.remove(<thermalexpansion:augment:257>);
 InductionSmelter.removeRecipe(<enderio:item_material>,<enderio:item_material:51>);
 
+//morb
+recipes.remove(<thermalexpansion:morb>*8);
+recipes.addShapeless(<thermalexpansion:morb>,[<ore:crystalSlag>,<ore:slimeball>,<tconstruct:dried_clay>,<thaumadditions:dna_sample>]);
+RecipeUtils.recipeTweak(true, <thermalexpansion:augment:416>, [[null, <ore:gearSignalum>, null], [<actuallyadditions:block_bio_reactor>, <thermalfoundation:material:512>, <actuallyadditions:block_bio_reactor>], [null, <minecraft:piston:*>, null]]);

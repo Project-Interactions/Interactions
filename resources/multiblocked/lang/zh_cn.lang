@@ -58,3 +58,5 @@ multiblocked.recipe_map.mixer=混合
 multiblocked.recipe_map.chemical_reactor=化学反应
 multiblocked.recipe_map.arcane=辉耀装配
 
+#part
+tile.interaction.starlight.name=星能输入仓

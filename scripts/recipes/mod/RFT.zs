@@ -32,3 +32,7 @@ RecipeUtils.recipeTweak(true, <rftools:shape_card>, [[<minecraft:paper>, <tconst
 condenser.addRecipe(<liquid:dimensionalshard>*1000, <actuallyadditions:item_crystal_empowered:2>,<rftools:infused_diamond>);
 condenser.addRecipe(<liquid:dimensionalshard>*1000, <darkutils:material:1>,<rftools:infused_enderpearl>);
 
+//contoller
+recipes.remove(<xnet:netcable>*16);
+recipes.addShaped(<xnet:netcable>*4,[[<computercraft:cable>,<computercraft:cable>,<computercraft:cable>],[<computercraft:cable>,<enderio:item_item_conduit>,<computercraft:cable>],[<computercraft:cable>,<computercraft:cable>,<computercraft:cable>]]);
+RecipeUtils.recipeTweak(true, <xnet:controller>, [[<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>], [<xnet:netcable>, <xnet:netcable>, <xnet:netcable>], [<minecraft:iron_ingot>, <minecraft:gold_ingot>, <minecraft:iron_ingot>]]);

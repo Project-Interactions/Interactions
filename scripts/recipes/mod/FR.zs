@@ -12,8 +12,8 @@ mods.forestry.Carpenter.addRecipe(<forestry:flexible_casing>, [[<actuallyadditio
 mods.forestry.ThermionicFabricator.removeCast(<forestry:flexible_casing>);
 mods.extendedcrafting.TableCrafting.addShaped(1, <forestry:sturdy_machine>, [
 	[<ore:gearDawnstone>, <ore:ingotAether>, <ore:gearDawnstone>], 
-	[<ore:gearDawnstone>, <ore:circuitOperation>, <ore:ingotAether>], 
-	[<ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>]
+	[<ore:ingotAether>, <ore:circuitOperation>, <ore:ingotAether>], 
+	[<ore:gearDawnstone>, <ore:ingotAether>, <ore:gearDawnstone>]
 ]);
 
 RecipeUtils.recipeTweak(true, <forestry:carpenter>, [[<ore:plankTreatedWood>, <ore:circuitElite>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <forestry:sturdy_machine>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:gearConductiveIron>, <ore:plankTreatedWood>]]);

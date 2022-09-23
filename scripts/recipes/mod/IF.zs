@@ -25,7 +25,6 @@ recipes.remove(<industrialforegoing:dryrubber>);
 
 recipes.remove(<teslacorelib:machine_case>);
 
-
 RecipeUtils.recipeTweak(true, <industrialforegoing:tree_fluid_extractor>, [[<ore:plateMagnesium>, <minecraft:redstone>, <ore:plateMagnesium>], [<ore:runeWaterB>, <teslacorelib:machine_case>, <ore:runeFireB>], [<minecraft:stone>, <ore:gearIron>, <minecraft:stone>]]);
 RecipeUtils.recipeTweak(true, <industrialforegoing:latex_processing_unit>, [[<ore:plateMagnesium>, <minecraft:redstone>, <ore:plateMagnesium>], [<ore:runeEarthB>, <teslacorelib:machine_case>, <ore:runeAirB>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>]]);
 
@@ -35,4 +34,18 @@ RecipeUtils.recipeTweak(true, <wirelessutils:base_module>, [[<ore:gemEmerald>, <
 RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>], [<minecraft:iron_sword>, <teslacorelib:machine_case>, <minecraft:iron_sword>], [<minecraft:iron_axe>, <wirelessutils:slaughter_module>, <minecraft:iron_axe>]]);
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:plastic>, <liquid:sulfuric_acid>, [<industrialforegoing:tinydryrubber>*8], true);
 
-
+recipes.removeByRecipeName("industrialforegoing:laser_lens_1");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_2");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_3");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_4");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_5");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_6");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_7");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_8");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_9");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_10");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_11");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_12");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_13");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_14");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_15");

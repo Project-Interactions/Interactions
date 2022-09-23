@@ -26,7 +26,7 @@ recipes.addShapeless(<naturesaura:bottle_two_the_rebottling>,[<extrautils2:klein
 
 RecipeUtils.recipeTweak(true,<naturesaura:offering_table>, [[<ore:livingrock>, <naturesaura:infused_iron>, <ore:livingrock>], [<naturesaura:token_fear>, <ore:livingrock>, <naturesaura:token_sorrow>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
-mods.naturesaura.TreeRitual.addRecipe("menril_sapling", <techreborn:rubber_sapling>, <naturesaura:ancient_sapling>, 400, [<botanicadds:rune_energy>,<botanicadds:rune_energy>,<botanicadds:rune_energy>,<ore:gemSapphire>,<ore:gemSapphire>,<naturesaura:sky_ingot>,<naturesaura:sky_ingot>,<ore:gemSapphire>]);
+mods.naturesaura.TreeRitual.addRecipe("menril_sapling", <naturesaura:ancient_sapling>, <integrateddynamics:menril_sapling>, 400, [<botanicadds:rune_energy>,<botanicadds:rune_energy>,<botanicadds:rune_energy>,<ore:gemSapphire>,<ore:gemSapphire>,<naturesaura:sky_ingot>,<naturesaura:sky_ingot>,<ore:gemSapphire>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <auraddons:item_creative_aura_cache>, [
 	[null, null, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, null, null], 
