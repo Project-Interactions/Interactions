@@ -84,7 +84,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
-  value = Settings
+  value = 选项
 }
 
 customization {
@@ -138,7 +138,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
-  value = §cQuit Game
+  value = §c退出游戏
 }
 
 customization {
@@ -249,7 +249,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = sethoverlabel
-  label = Singleplayer
+  label = 孤独之旅
 }
 
 customization {

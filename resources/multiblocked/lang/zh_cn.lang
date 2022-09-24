@@ -13,21 +13,6 @@ uu_crafter.name=UU物质生成器
 vaccum_freezer.name=真空冷冻机
 molecular_recombination.name=分子重组仪
 
-#block
-block.magnetizer=磁化机
-block.blastfurnace=电力高炉
-block.co2=二氧化碳收集器
-block.mana_converter=魔能转换器
-block.ae_crafter=应用合成器
-block.advanced_pnc=创造气动压缩机
-block.arcane_crafter=辉耀装配室
-block.chaos=混沌聚合器
-block.chemical_reactor=化学反应器
-block.mixer=混合机
-block.uu_crafter=UU物质生成器
-block.vaccum_freezer=真空冷冻机
-block.molecular_recombination=分子重组仪
-
 #tile
 tile.interaction.magnetizer.name=磁化机
 tile.interaction.blastfurnace.name=电力高炉
@@ -59,4 +44,19 @@ multiblocked.recipe_map.chemical_reactor=化学反应
 multiblocked.recipe_map.arcane=辉耀装配
 
 #part
-tile.interaction.starlight.name=星能输入仓
+tile.interaction.starlight.name=星能接口
+tile.interaction.ta.name=元动能量接口
+
+#capability
+tile.multiblocked.item.any.name=任意物品接口
+tile.multiblocked.fluid.any.name=任意流体接口
+tile.multiblocked.forge_energy.any.name=任意FE能量接口
+tile.multiblocked.lightningcraft_le.any.name=任意雷电工艺LE接口
+tile.multiblocked.mek_heat.any.name=任意MEK热量接口
+tile.multiblocked.mek_gas.any.name=任意气体接口
+tile.multiblocked.tc6_aspect.any.name=任意源质接口
+tile.multiblocked.bot_mana.any.name=任意魔力接口
+tile.multiblocked.pneumatic_pressure.any.name=任意压力接口
+tile.multiblocked.qmd_particle.any.name=任意粒子接口
+tile.multiblocked.starlight_as.any.name=任意星能接口
+tile.multiblocked.ember.any.name=任意余烬能量接口

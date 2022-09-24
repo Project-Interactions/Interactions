@@ -89,6 +89,14 @@
         "capability": "item",
         "type": "capability"
       },
+      "pnc": {
+        "capability": "pneumatic_pressure",
+        "type": "capability"
+      },
+      "ember": {
+        "capability": "ember",
+        "type": "capability"
+      },
       "mekh": {
         "capability": "mek_heat",
         "type": "capability"
@@ -98,7 +106,7 @@
         "type": "capability"
       },
       "qmd": {
-        "capability": "pneumatic_pressure",
+        "capability": "qmd_particle",
         "type": "capability"
       },
       "any": {
@@ -153,6 +161,7 @@
       ],
       "G": [
         "A",
+        "ember",
         "mekh"
       ],
       "H": [
@@ -161,6 +170,7 @@
       ],
       "I": [
         "A",
+        "pnc",
         "qmd"
       ],
       "J": [

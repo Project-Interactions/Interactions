@@ -21,7 +21,7 @@ BloodAltar.removeRecipe(<minecraft:stone>);
 BloodAltar.addRecipe(<bloodmagic:slate>, <botanicadds:dreamrock>, 0, 1000, 12, 12);
 
 BloodAltar.addRecipe(<theaurorian:aurorianportalframebricks>, <theaurorian:aurorianstone>, 5, 100000, 1200, 1200);
-BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <theaurorian:auroriansteelblock>, 5, 100000, 1200, 1200);
+BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <contenttweaker:sub_block_holder_0:4>, 4, 10000, 120, 120);
 
 
 AlchemyArray.removeRecipe(<bloodarsenal:base_item:8>, <bloodmagic:slate:3>);
@@ -44,8 +44,6 @@ AnimusPlugin.addComponentMapping(<blockstate:minecraft:dirt>, "GLOWSTONE");
 
 AnimusPlugin.removeComponentMapping(<blockstate:bloodmagic:decorative_brick>,"BLOODSTONE");
 AnimusPlugin.addComponentMapping(<blockstate:minecraft:dirt>, "BLOODSTONE");
-
-AnimusPlugin.addComponentMapping(<blockstate:contenttweaker:sub_block_holder_0:4>, "CRYSTAL");
 
 //HellFireForgeTweak
 //Speeding up the Hellfire Forge

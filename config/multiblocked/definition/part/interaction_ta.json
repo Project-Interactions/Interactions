@@ -1,0 +1,33 @@
+{
+  "canShared": true,
+  "location": "interaction:ta",
+  "traits": {
+    "ta_impetus": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 56,
+      "y": 81,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 300,
+      "maxReceive": 50,
+      "maxExtract": 50,
+      "maxInputs": 1,
+      "maxOutputs": 1,
+      "beamEndpointXOffset": 0.5,
+      "beamEndpointYOffset": 0.5,
+      "beamEndpointZOffset": 0.5
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "thaumicaugmentation:void_recharge_pedestal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true
+}

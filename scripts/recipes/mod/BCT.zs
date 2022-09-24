@@ -18,10 +18,6 @@ recipes.remove(<biggercraftingtables:autobiggercraftingtable:2>);
 mods.jei.JEI.hideCategory("biggerct.big");
 mods.jei.JEI.hideCategory("biggerct.huge");
 mods.jei.JEI.hideCategory("biggerct.giant");
-//display
-<biggercraftingtables:biggercraftingtable>.displayName = "\u4E00\u9636\u89E3\u5BC6\u5DE5\u4F5C\u53F0";
-<biggercraftingtables:biggercraftingtable:1>.displayName = "\u4E8C\u9636\u89E3\u5BC6\u5DE5\u4F5C\u53F0";
-<biggercraftingtables:biggercraftingtable:2>.displayName = "\u4E09\u9636\u89E3\u5BC6\u5DE5\u4F5C\u53F0";
 //工作台自复制
 recipes.addShapeless(<biggercraftingtables:biggercraftingtable>*2,[<biggercraftingtables:biggercraftingtable>]);
 recipes.addShapeless(<biggercraftingtables:biggercraftingtable:1>*2,[<biggercraftingtables:biggercraftingtable:1>]);
