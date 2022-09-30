@@ -131,6 +131,12 @@ Trick.addRecipe("trickEbonyIvory", <extendedcrafting:material>, <psi:material:5>
 
 Trick.addRecipe("", <rpsideas:creative_colorizer>, <contenttweaker:ultimate_ingot_left_up>, <psi:cad_assembly:5>);
 
+//filling psio cells with creative psi cell
+recipes.addShapeless(<psicosts:psi_cell>.withTag({PsioCharge: 80000}), [<psicosts:psi_cell>,<psicosts:creative_cell>.reuse()]);
+recipes.addShapeless(<psicosts:psi_cell:1>.withTag({PsioCharge: 240000}), [<psicosts:psi_cell:1>,<psicosts:creative_cell>.reuse()]);
+recipes.addShapeless(<psicosts:psi_cell:2>.withTag({PsioCharge: 720000}), [<psicosts:psi_cell:2>,<psicosts:creative_cell>.reuse()]);
+recipes.addShapeless(<psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), [<psicosts:psi_cell:3>,<psicosts:creative_cell>.reuse()]);
+
 RecipeUtils.recipeTweak(true, <psicosts:material_glassy> * 4, [[<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>], [<pneumaticcraft:pressure_chamber_glass>, <ore:dustPsi>, <pneumaticcraft:pressure_chamber_glass>], [<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <psi:cad_assembly:5>, [

@@ -26,7 +26,7 @@ tile.interaction.chemical_reactor.name=化学反应器
 tile.interaction.mixer.name=混合机
 tile.interaction.uu_crafter.name=UU物质生成器
 tile.interaction.vaccum_freezer.name=真空冷冻机
-tile.molecular_recombination.name=分子重组仪
+tile.interaction.molecular_recombination.name=分子重组仪
 
 #recipe map
 multiblocked.recipe_map.uu=UU生成

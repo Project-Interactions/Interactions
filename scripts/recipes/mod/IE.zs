@@ -134,6 +134,10 @@ MetalPress.addRecipe(<contenttweaker:crystal_useless>,<astralsorcery:itemrockcry
 MetalPress.addRecipe(<moreplates:fluix_plate>,<appliedenergistics2:material:7>,<immersiveengineering:mold>,1024);
 MetalPress.addRecipe(<moreplates:fluix_gear>,<appliedenergistics2:material:7>*4,<immersiveengineering:mold:1>,1024);
 
+MetalPress.addRecipe(<thermalfoundation:material:26>,<minecraft:diamond>*4,<immersiveengineering:mold:1>,1024);
+MetalPress.addRecipe(<thermalfoundation:material:27>,<minecraft:emerald>*4,<immersiveengineering:mold:1>,1024);
+
+
 recipes.remove(<extrautils2:machine> * 4);
 recipes.remove(<techreborn:part:4> * 2);
 recipes.removeShapeless(<tconstruct:throwball:1>);

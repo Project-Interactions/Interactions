@@ -1453,6 +1453,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 71.0,
+      "defense": 20.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 95.74737,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 95.74737,
+      "materialType": "trim"
+    },
+    "identifier": "netherite",
+    "color": -13094093,
+    "type": "METAL",
+    "castable": true,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 98.0,
       "defense": 37.125,
       "materialType": "core"

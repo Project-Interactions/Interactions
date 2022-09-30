@@ -15,6 +15,8 @@ recipes.remove(<computercraft:command_computer>);
 recipes.remove(<extrautils2:angelring>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<interaction:chaos>, [[<tconevo:metal:13>, <tconevo:metal:13>, <tconevo:metal:13>],[<tconevo:metal:13>, <draconicevolution:fusion_crafting_core>, <tconevo:metal:13>], [<tconevo:metal:13>, <tconevo:metal:13>, <tconevo:metal:13>]]);
+recipes.addShaped(<interaction:ta>, [[<thaumicaugmentation:impetus_mirror>, <thaumicaugmentation:material:5>, <thaumicaugmentation:impetus_mirror>],[<thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>], [<thaumicaugmentation:impetus_mirror>, <thaumicaugmentation:material:5>, <thaumicaugmentation:impetus_mirror>]]);
 recipes.addShaped(<interaction:advanced_pnc>, [[<pneumaticcraft:pneumatic_dynamo>, <pneumaticcraft:pneumatic_dynamo>, <pneumaticcraft:pneumatic_dynamo>],[<pneumaticcraft:pneumatic_dynamo>, <pneumaticcraft:flux_compressor>, <pneumaticcraft:pneumatic_dynamo>], [<pneumaticcraft:pneumatic_dynamo>, <pneumaticcraft:pneumatic_dynamo>, <pneumaticcraft:pneumatic_dynamo>]]);
 recipes.addShaped(<interaction:starlight>, [[<naturesaura:sky_ingot>, <naturesaura:sky_ingot>, <naturesaura:sky_ingot>],[<naturesaura:sky_ingot>, <ore:chest>, <naturesaura:sky_ingot>], [<naturesaura:sky_ingot>, <naturesaura:sky_ingot>, <naturesaura:sky_ingot>]]);
 recipes.addShapeless(<nuclearcraft:wasteland_earth>, [<tconstruct:soil:3>,<tconstruct:soil:4>]);

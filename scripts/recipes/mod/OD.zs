@@ -95,3 +95,6 @@
 
 <ore:circuitElite>.add(<contenttweaker:powered_circuit>);
 <ore:circuitMaster>.add(<contenttweaker:psio_powered_circuit>);
+
+<ore:ingotRedstoneAlloy>.add(<projectred-core:resource_item:103>);
+<ore:ingotRedAlloy>.add(<enderio:item_alloy_ingot:3>);
