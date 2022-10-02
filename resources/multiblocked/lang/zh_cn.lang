@@ -60,3 +60,4 @@ tile.multiblocked.pneumatic_pressure.any.name=任意压力接口
 tile.multiblocked.qmd_particle.any.name=任意粒子接口
 tile.multiblocked.starlight_as.any.name=任意星能接口
 tile.multiblocked.ember.any.name=任意余烬能量接口
+tile.multiblocked.ta_impetus.any.name=任意元动能量接口

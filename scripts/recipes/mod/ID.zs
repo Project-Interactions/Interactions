@@ -3,6 +3,7 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.integrateddynamics.DryingBasin;
+import mods.integrateddynamics.MechanicalDryingBasin;
 
 
 recipes.remove(<integrateddynamics:cable> * 3);
@@ -19,6 +20,8 @@ recipes.addShaped(<integrateddynamics:energy_battery>, [[<integrateddynamics:cry
 DryingBasin.removeRecipesWithOutput(<integratedterminals:menril_glass>, null);
 DryingBasin.addRecipe(<botania:bifrostperm>, <liquid:menrilresin> * 1000, <integratedterminals:menril_glass>, null, 40);
 
+MechanicalDryingBasin.removeRecipesWithOutput(<integratedterminals:menril_glass>, null);
+MechanicalDryingBasin.addRecipe(<botania:managlass>, <liquid:menrilresin> * 1000, <integratedterminals:menril_glass>, null, 40);
 
 
 

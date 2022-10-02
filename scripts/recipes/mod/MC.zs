@@ -42,11 +42,8 @@ recipes.remove(<minecraft:leather_boots>);
 recipes.remove(<minecraft:leather_helmet>);
 recipes.remove(<minecraft:leather_chestplate>);
 
-recipes.removeShapeless(<minecraft:flint_and_steel>, [<ore:ingotIron>, <minecraft:flint>]);
-recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotRefinedIron>, <minecraft:flint>]);
-
 recipes.removeByRecipeName("minecraft:bucket");
-recipes.addShaped(<minecraft:bucket>, [[<techreborn:plates:35>, null, <techreborn:plates:35>], [null, <techreborn:plates:35>, null]]);
+recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
 recipes.removeShaped(<aether_legacy:skyroot_plank> * 4, [[<aether_legacy:aether_log> | <aether_legacy:aether_log:1>]]);
 recipes.addShaped(<aether_legacy:skyroot_plank> * 2, [[<aether_legacy:aether_log> | <aether_legacy:aether_log:1>]]);
@@ -72,7 +69,7 @@ vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:cactus_plant", agri_growth: 1 as byte}).weight(0.06));
 vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:potato_plant", agri_growth: 1 as byte}).weight(0.06));
-vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:sugarcane_plant", agri_growth: 1 as byte}));
+vanilla.seeds.addSeed(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:sugarcane_plant", agri_growth: 1 as byte}).weight(0.06));
 
 //<entity:minecraft:enderman>.addDrop(<contenttweaker:exe>.weight(0.25));
 recipes.remove(<minecraft:piston>);

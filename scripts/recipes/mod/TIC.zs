@@ -123,9 +123,6 @@ recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget
 recipes.addShaped(<tinkertoolcasts:upgrade_reinforced>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_ingot>, <immersiveintelligence:material_nugget>],[<tinkertoolcasts:upgrade_advanced>, <immersiveintelligence:material_ingot>, <tinkertoolcasts:upgrade_advanced>], [null, <immersiveintelligence:material_ingot>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>],[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>], [null, <techreborn:ingot:19>, null]]);
 
-
-
-//Casting.addTableRecipe(<alternatingflux:material>, <immersiveengineering:mold:4>, <liquid:constantan>,144,false, 80);
 Casting.addTableRecipe(<immersiveengineering:material:20>, <immersiveengineering:mold:4>, <liquid:copper>,144,false, 80);
 Casting.addTableRecipe(<immersiveengineering:material:21>, <immersiveengineering:mold:4>, <liquid:electrum>,144,false, 80);
 Casting.addTableRecipe(<immersiveengineering:material:22>, <immersiveengineering:mold:4>, <liquid:aluminum>,144,false, 80);
@@ -133,26 +130,14 @@ Casting.addTableRecipe(<immersiveengineering:material:23>, <immersiveengineering
 Casting.addTableRecipe(<contenttweaker:material_part:15>, <immersiveengineering:mold:4>, <liquid:refinediron>,144,false, 80);
 Casting.addTableRecipe(<contenttweaker:material_part:16>, <immersiveengineering:mold:4>, <liquid:gold>,144,false, 80);
 
-//高炉
-mods.tcomplement.highoven.HighOven.removeFuel(<ore:fuelCoal>);
-mods.tcomplement.highoven.HighOven.removeFuel(<ore:blockFuelCoal>);
-mods.tcomplement.highoven.HighOven.removeFuel(<ore:charcoal>);
-mods.tcomplement.highoven.HighOven.removeFuel(<ore:blockCharcoal>);
-mods.tcomplement.highoven.HighOven.removeFuel(<thermalfoundation:material:802>);
-mods.tcomplement.highoven.HighOven.removeFuel(<thermalfoundation:storage_resource:1>);
-mods.tcomplement.highoven.HighOven.addFuel(<projecte:item.pe_fuel>,100,100);
-mods.tcomplement.highoven.HighOven.addFuel(<projecte:item.pe_fuel:1>,400,400);
-mods.tcomplement.highoven.HighOven.addFuel(<projecte:item.pe_fuel:2>,1600,1600);
-
 Melting.removeRecipe(<liquid:void_metal>,<actuallyadditions:item_crystal:3>);
 
 Casting.addTableRecipe(<mysticalagriculture:crafting:16>, <mysticalagriculture:storage:5>, <liquid:refinediron>,288,true, 80);
 
-Alloy.addRecipe(<liquid:mirion>*36,[<liquid:terrasteel>*18,<liquid:manasteel>*18,<liquid:elementium>*18,<liquid:glass>*1000]);
-
 recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>]]);
 
 Casting.addTableRecipe(<contenttweaker:useful_ingot>, <tconstruct:cast_custom>, <liquid:tic_useful_metal>,144,false, 80);
+Casting.addTableRecipe(<techreborn:plates:35>, <tconstruct:cast_custom:3>, <liquid:refinediron>,144,false, 80);
 
 recipes.addShaped(<tinkertoolcasts:upgrade_ultimate>, [[<extendedcrafting:material:33>, <extendedcrafting:material:32>, <extendedcrafting:material:33>],[<tinkertoolcasts:upgrade_iridium>, <extendedcrafting:material:32>, <tinkertoolcasts:upgrade_iridium>], [null, <extendedcrafting:material:32>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget>, <plustic:osmiridiumingot>, <plustic:osmiridiumnugget>],[<tinkertoolcasts:upgrade_reinforced>, <plustic:osmiridiumingot>, <tinkertoolcasts:upgrade_reinforced>], [null, <plustic:osmiridiumingot>, null]]);
