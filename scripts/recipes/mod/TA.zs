@@ -15,7 +15,7 @@ MoonlightForge.addRecipe(<theaurorian:moonstoneingot>, <theaurorian:crystal>, <t
 MoonlightForge.addRecipe(<taiga:aurorium_ingot>, <theaurorian:crystal>, <theaurorian:scrapaurorianite>);
 //Scrapper
 Scrapper.addRecipe(<environmentaltech:lonsdaleite_crystal>, <theaurorian:crystal>*2);
-Scrapper.addRecipe(<keletupack:resourcetmisc>, <theaurorian:scrapumbra>);
+Scrapper.addRecipe(<thaumcraft:ingot:1>, <theaurorian:scrapumbra>);
 
 
 

@@ -45,7 +45,7 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:right
-attackIndicator:2
+attackIndicator:0
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
@@ -127,7 +127,6 @@ key_key.togglePotionParticles:66:CONTROL
 key_cos.key.opencosarmorinventory:0
 key_key.custommodel.selectmodel:50:CONTROL
 key_key.findme.search:21
-key_key.ftbultimine:41
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
@@ -140,6 +139,8 @@ key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_pneumaticcraft.chestplate.launcher:0:CONTROL
 key_neat.keybind.toggle:0
+key_oreexcavation.key.excavate:41
+key_oreexcavation.key.shape:47
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -164,6 +165,8 @@ key_zenscroll.options.modifier_key:56
 key_key.dismount:42
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
+key_key.quit.fastQuit:16
+key_key.quit.bossKey:48
 key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -195,7 +198,6 @@ key_mekanism.key.voice:22
 key_key.aether.accessory_menu:23
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
-key_key.reveal:34
 key_astraladditions.key.ring_toggle:82
 key_key.infinity_armor.noclip:40
 key_key.bettersigns.nosigntext:56
@@ -293,6 +295,7 @@ key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_toggle_manual_cave_mode:0
+key_gui.xaero_alternative_list_players:0
 key_gui.xaero_minimap_settings:21
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:27

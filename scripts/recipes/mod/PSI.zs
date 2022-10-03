@@ -126,8 +126,8 @@ Trick.addRecipe("trickEbonyIvory", <contenttweaker:powered_circuit>, <contenttwe
 Trick.addRecipe("", <jaopca:dust.redstone_alloy>, <psi:material>, <psi:cad_assembly>);
 Trick.addRecipe("trickInfusion", <enderio:item_alloy_ingot:1>,  <psi:material:1>, <psi:cad_assembly>);
 Trick.addRecipe("trickGreaterInfusion", <calculator:flawlessdiamond>, <psi:material:2>, <psi:cad_assembly:2>);
-Trick.addRecipe("trickEbonyIvory", <arcanearchives:shaped_quartz>, <psi:material:6>, <psi:cad_assembly:2>);
-Trick.addRecipe("trickEbonyIvory", <extendedcrafting:material>, <psi:material:5>, <psi:cad_assembly:2>);
+Trick.addRecipe("trickEbonyIvory", <taiga:basalt_ingot>, <psi:material:6>, <psi:cad_assembly:2>);
+Trick.addRecipe("trickEbonyIvory", <thaumcraft:ingot:1>, <psi:material:5>, <psi:cad_assembly:2>);
 
 Trick.addRecipe("", <rpsideas:creative_colorizer>, <contenttweaker:ultimate_ingot_left_up>, <psi:cad_assembly:5>);
 
@@ -174,3 +174,17 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <psicosts:creative_cell>, [
 	[<psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), null, null, null, null, null, null], 
 	[<psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), null, null, null, null, null, null]
 ]);
+
+//psio resonators
+RecipeUtils.recipeTweak(true, <psicosts:flux_resonator>, [[<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<psicosts:material_glassy>, <mekanismgenerators:generator:9>, <psicosts:material_glassy>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
+RecipeUtils.recipeTweak(true, <psicosts:mana_resonator>, [[<psicosts:material_glassy>, <ore:obsidian>, <psicosts:material_glassy>], [<ore:ingotManasteel>, <ore:livingrock>, <ore:ingotManasteel>], [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]]);
+RecipeUtils.recipeTweak(true, <psicosts:blood_resonator>, [[<ore:plateDemonicMetal>, <bloodmagic:slate>, <ore:plateDemonicMetal>], [<psicosts:material_glassy>,blood_orb_tier_1.reuse(), <psicosts:material_glassy>], [<ore:plateDemonicMetal>, <bloodmagic:slate>, <ore:plateDemonicMetal>]]);
+RecipeUtils.recipeTweak(true, <psicosts:ember_resonator>, [[<ore:plateDawnstone>, <ore:plateDawnstone>, <ore:plateDawnstone>], [<ore:ingotSilver>, <psicosts:material_glassy>, <ore:ingotSilver>], [<embers:block_caminite_brick>, <embers:crystal_ember>, <embers:block_caminite_brick>]]);
+
+recipes.removeByRecipeName("psicosts:psi_cell_t2");
+recipes.removeByRecipeName("psicosts:psi_cell_t3");
+recipes.removeByRecipeName("psicosts:psi_cell_t4");
+
+recipes.addShaped(<psicosts:psi_cell:1>, [[<ore:ingotGold>, <ore:gemEmerald>, <ore:ingotGold>], [<psicosts:psi_cell>, <ore:gemPsi>, <psicosts:psi_cell>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>]]);
+recipes.addShaped(<psicosts:psi_cell:2>, [[<ore:ingotPsi>, <minecraft:ghast_tear>, <ore:ingotPsi>], [<psicosts:psi_cell:1>, <ore:blockPsiGem>, <psicosts:psi_cell:1>], [<ore:ingotPsi>, <ore:dustGlowstone>, <ore:ingotPsi>]]);
+recipes.addShaped(<psicosts:psi_cell:3>, [[<ore:ingotEbonyPsi>, <minecraft:nether_star>, <ore:ingotEbonyPsi>], [<psicosts:psi_cell:1>, <ore:blockPsiGem>, <psicosts:psi_cell:1>], [<ore:ingotEbonyPsi>, <ore:substanceIvory>, <ore:ingotEbonyPsi>]]);
