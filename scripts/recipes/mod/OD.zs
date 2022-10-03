@@ -10,7 +10,6 @@
 <ore:nuggetVoid>.remove(<actuallyadditions:item_crystal_shard:3>);
 
 
-<ore:nuggetQuartz>.remove(<agricraft:agri_nugget:2>);
 <ore:gearVoid>.remove(<moreplates:void_gear>);
 <ore:plateVoid>.remove(<moreplates:void_plate>);
 <ore:plateBlackIron>.add(<extendedcrafting:material:2>);

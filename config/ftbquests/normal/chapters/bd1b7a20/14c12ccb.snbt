@@ -7,8 +7,7 @@
 	tasks: [{
 		uid: "866b7d9f",
 		type: "fluid",
-		fluid: "creosote",
-		amount: 2000
+		fluid: "creosote"
 	}],
 	rewards: [{
 		uid: "6defd5aa",

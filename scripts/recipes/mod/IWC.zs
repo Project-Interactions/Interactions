@@ -34,4 +34,9 @@ ExplosionCrafting.explodeItemRecipe(<contenttweaker:refined_ore_essence>,<conten
 ExplosionCrafting.explodeItemRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:ore_essence>,100);
 ExplosionCrafting.explodeItemRecipe(<techreborn:dust:16>,<thermalfoundation:material:768> ,10);
 ExplosionCrafting.explodeItemRecipe(<mysticalagriculture:fire_essence>,<extrautils2:compressedcobblestone> ,60);
-
+//gems
+ExplosionCrafting.explodeItemRecipe(<techreborn:gem:1>,<ore:dustSapphire>,60);
+ExplosionCrafting.explodeItemRecipe(<minecraft:emerald>,<ore:dustEmerald>,60);
+ExplosionCrafting.explodeItemRecipe(<techreborn:gem>,<ore:dustRuby>,60);
+ExplosionCrafting.explodeItemRecipe(<minecraft:diamond>,<ore:dustDiamond>,60);
+ExplosionCrafting.explodeItemRecipe(<techreborn:gem:2>,<ore:dustPeridot>,60);

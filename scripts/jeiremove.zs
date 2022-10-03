@@ -9,7 +9,8 @@ var jeiremove as string[]=[
 "tcomplement:high_oven_melting",
 "tcomplement:high_oven_fuel",
 "thermaldynamics.covers",
-"thermalexpansion.furnace_ore"
+"thermalexpansion.furnace_ore",
+"jehc.shippingbin"
 ];
 for Remove in jeiremove {
     JEI.hideCategory(Remove);

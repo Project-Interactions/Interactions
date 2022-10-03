@@ -15,27 +15,5 @@
 		type: "item",
 		item: "minecraft:gunpowder",
 		count: 128
-	},
-	{
-		uid: "a488534f",
-		type: "item",
-		item: {
-			id: "thermalexpansion:device",
-			Damage: 12s,
-			tag: {
-				Creative: 0b,
-				Level: 0b,
-				RSControl: 0b,
-				Facing: 4b,
-				SideCache: [B;
-					0b,
-					1b,
-					0b,
-					0b,
-					0b,
-					0b
-				]
-			}
-		}
 	}]
 }

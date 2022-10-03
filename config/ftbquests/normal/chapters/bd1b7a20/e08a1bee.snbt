@@ -7,5 +7,12 @@
 		items: [{
 			item: "interaction:magnetizer"
 		}]
+	},
+	{
+		uid: "7d420a78",
+		type: "item",
+		items: [{
+			item: "multiblocked:multiblock_builder"
+		}]
 	}]
 }
