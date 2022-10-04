@@ -137,6 +137,8 @@ MetalPress.addRecipe(<moreplates:fluix_gear>,<appliedenergistics2:material:7>*4,
 MetalPress.addRecipe(<thermalfoundation:material:26>,<minecraft:diamond>*4,<immersiveengineering:mold:1>,1024);
 MetalPress.addRecipe(<thermalfoundation:material:27>,<minecraft:emerald>*4,<immersiveengineering:mold:1>,1024);
 
+MetalPress.addRecipe(<moreplates:diamond_plate>,<minecraft:diamond>,<immersiveengineering:mold>,1024);
+MetalPress.addRecipe(<moreplates:emerald_plate>,<minecraft:emerald>,<immersiveengineering:mold>,1024);
 
 recipes.remove(<extrautils2:machine> * 4);
 recipes.remove(<techreborn:part:4> * 2);

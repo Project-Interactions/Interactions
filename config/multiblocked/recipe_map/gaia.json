@@ -1,0 +1,60 @@
+{
+  "name": "gaia",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "f4dc050e-7ad2-42fa-b3c4-24e5f7c385f9",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"threng:material\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tconevo:part_arcane_focus\",Count:1b,Damage:0s,tag:{Material:\"dragonstone\"}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:14s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botanicadds:gaiasteel_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

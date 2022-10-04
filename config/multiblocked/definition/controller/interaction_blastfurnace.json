@@ -112,6 +112,10 @@
       "any": {
         "type": "any"
       },
+      "ta": {
+        "capability": "ta_impetus",
+        "type": "capability"
+      },
       "mana": {
         "capability": "bot_mana",
         "type": "capability"
@@ -175,7 +179,8 @@
       ],
       "J": [
         "lightning",
-        "A"
+        "A",
+        "ta"
       ]
     }
   },

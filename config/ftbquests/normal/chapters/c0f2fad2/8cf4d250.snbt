@@ -5,6 +5,9 @@
 		"开始任务线：植物魔法",
 		"两种材料都可在天境找到"
 	],
+	dependencies: [
+		"1d4dedef"
+	],
 	tasks: [{
 		uid: "1feb91ab",
 		type: "item",

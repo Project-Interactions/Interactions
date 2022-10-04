@@ -1,0 +1,83 @@
+{
+    "name": "botanicadds:gaia_plate",
+  
+    "disabled": false,
+  
+    "target-item": "botanicadds:gaia_plate",
+  
+    "duration": 480,
+    "symmetrical": true,
+  
+    "catalyst": "botania:terraplate",
+    "input-types": {
+    "a": {
+      "id": "botania:alchemycatalyst",
+      "meta": 0
+    },
+    "b": {
+      "id": "botania:storage",
+      "meta": 1
+    },
+    "c": {
+      "id": "naturesaura:conversion_catalyst",
+      "meta": 0
+    },
+    "d": {
+      "id": "avaritiatweaks:gaia_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+}

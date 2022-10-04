@@ -1,12 +1,18 @@
 {
-	title: "搭建方式",
-	x: 0.0d,
-	y: -1.5d,
+	x: -1.5d,
+	y: 0.0d,
 	dependencies: [
-		"72369c1a"
+		"af24b10d"
 	],
 	tasks: [{
-		uid: "bacae357",
+		uid: "bb0ac0ab",
+		type: "item",
+		items: [{
+			item: "botanicadds:gaia_plate"
+		}]
+	},
+	{
+		uid: "2cb453b7",
 		type: "item",
 		items: [{
 			item: "botanicadds:dreamrock"
@@ -14,16 +20,11 @@
 		count: 5L
 	},
 	{
-		uid: "036b5548",
+		uid: "bbffb3a9",
 		type: "item",
 		items: [{
 			item: "botanicadds:elven_lapis_block"
 		}],
 		count: 4L
-	}],
-	rewards: [{
-		uid: "8d85a1f7",
-		type: "item",
-		item: "botania:spark"
 	}]
 }

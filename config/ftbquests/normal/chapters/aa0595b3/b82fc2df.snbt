@@ -4,6 +4,9 @@
 	text: [
 		"用于生产水蒸气"
 	],
+	dependencies: [
+		"ea21c88f"
+	],
 	tasks: [{
 		uid: "b3b8ff32",
 		type: "item",

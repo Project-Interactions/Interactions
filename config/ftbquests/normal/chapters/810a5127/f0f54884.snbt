@@ -4,6 +4,9 @@
 	text: [
 		"集成动力之开始"
 	],
+	dependencies: [
+		"9a01903b"
+	],
 	tasks: [{
 		uid: "8771bf37",
 		type: "item",

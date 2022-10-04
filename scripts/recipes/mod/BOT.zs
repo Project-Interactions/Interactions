@@ -122,7 +122,6 @@ OrechidEndium.addOre(<ore:oreAurorium>, 6);
 OrechidEndium.addOre(<ore:oreAbyssum>, 10);
 //泰拉凝聚板
 RecipeUtils.recipeTweak(true, <botania:terraplate>, [[<botanicadds:mana_lapis_block>,<botanicadds:mana_lapis_block>, <botanicadds:mana_lapis_block>], [<ore:runeWaterB>, <botania:storage>, <ore:runeFireB>], [<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
-Agglomeration.addRecipe(<botanicadds:terra_catalyst>,[<botania:alchemycatalyst>,<botania:manaresource:14>,<moreplates:terrasteel_gear>,<naturesaura:conversion_catalyst>],1000000,0xFFFF33,0x66FF33,<techreborn:machine_casing:2>,<compactmachines3:wallbreakable>,<botania:storage:1>,<techreborn:machine_casing:1>,<minecraft:stone>,null);
 recipes.remove(<botanicadds:terra_catalyst>);
 recipes.remove(<botanicadds:gaia_plate>);
 //gaia plate
@@ -146,3 +145,5 @@ RuneAltar.addRecipe(<contenttweaker:mana_circuit>*3, [<ore:ingotPinkMetal>,<ore:
 RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:manatablet>, <ore:livingrock>], [<ore:livingrock>, <ore:manaPearl> | <ore:manaDiamond>, <ore:livingrock>]]);
 
 ManaInfusion.addConjuration(<projecte:item.pe_fuel:2>*2, <projecte:item.pe_fuel:2>, 1000000);
+
+RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamrock>, <botanicadds:dreamrock>, <botanicadds:dreamrock>], [<botanicadds:dreamrock>, <botania:pool:3>, <botanicadds:dreamrock>], [<ore:plateTerrasteel>, <ore:plateTerrasteel>, <ore:plateTerrasteel>]]);

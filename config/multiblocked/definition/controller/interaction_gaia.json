@@ -1,0 +1,98 @@
+{
+  "consumeCatalyst": false,
+  "location": "interaction:gaia",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "botanicadds:gaia_plate",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "   "
+      ],
+      [
+        "BAB",
+        " @ "
+      ],
+      [
+        "ABA",
+        "   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botanicadds:dreamrock",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "interaction:gaia",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "botanicadds:elven_lapis_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "gaia"
+}

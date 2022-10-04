@@ -4,6 +4,9 @@
 	text: [
 		"二氧化硫"
 	],
+	dependencies: [
+		"ea21c88f"
+	],
 	tasks: [{
 		uid: "93a4ef02",
 		type: "item",

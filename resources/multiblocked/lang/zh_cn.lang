@@ -13,6 +13,8 @@ uu_crafter.name=UU物质生成器
 vaccum_freezer.name=真空冷冻机
 molecular_recombination.name=分子重组仪
 
+gaia.name=盖亚凝聚板
+
 #tile
 tile.interaction.magnetizer.name=磁化机
 tile.interaction.blastfurnace.name=电力高炉
@@ -28,6 +30,8 @@ tile.interaction.uu_crafter.name=UU物质生成器
 tile.interaction.vaccum_freezer.name=真空冷冻机
 tile.interaction.molecular_recombination.name=分子重组仪
 
+tile.interaction.gaia.name=盖亚凝聚板
+
 #recipe map
 multiblocked.recipe_map.uu=UU生成
 multiblocked.recipe_map.chaos=混沌聚合
@@ -42,6 +46,8 @@ multiblocked.recipe_map.freezer=真空冷冻
 multiblocked.recipe_map.mixer=混合
 multiblocked.recipe_map.chemical_reactor=化学反应
 multiblocked.recipe_map.arcane=辉耀装配
+
+multiblocked.recipe_map.gaia.name=盖亚凝聚
 
 #part
 tile.interaction.starlight.name=星能接口
@@ -61,3 +67,6 @@ tile.multiblocked.qmd_particle.any.name=任意粒子接口
 tile.multiblocked.starlight_as.any.name=任意星能接口
 tile.multiblocked.ember.any.name=任意余烬能量接口
 tile.multiblocked.ta_impetus.any.name=任意元动能量接口
+
+#description
+interaction.gaia.description=这是一个演示多方块结构，请按照植物魔法辞典搭建

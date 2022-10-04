@@ -4,6 +4,9 @@
 	text: [
 		"可以获得氧气和氢气"
 	],
+	dependencies: [
+		"ea21c88f"
+	],
 	tasks: [{
 		uid: "fe8072bd",
 		type: "item",
