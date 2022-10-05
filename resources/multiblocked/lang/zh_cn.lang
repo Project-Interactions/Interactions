@@ -47,7 +47,7 @@ multiblocked.recipe_map.mixer=混合
 multiblocked.recipe_map.chemical_reactor=化学反应
 multiblocked.recipe_map.arcane=辉耀装配
 
-multiblocked.recipe_map.gaia.name=盖亚凝聚
+multiblocked.recipe_map.gaia=盖亚凝聚
 
 #part
 tile.interaction.starlight.name=星能接口

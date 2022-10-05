@@ -23,7 +23,8 @@ DryingBasin.addRecipe(<botania:bifrostperm>, <liquid:menrilresin> * 1000, <integ
 MechanicalDryingBasin.removeRecipesWithOutput(<integratedterminals:menril_glass>, null);
 MechanicalDryingBasin.addRecipe(<botania:managlass>, <liquid:menrilresin> * 1000, <integratedterminals:menril_glass>, null, 40);
 
-
+recipes.remove(<integrateddynamics:variable>*24);
+recipes.addShaped(<integrateddynamics:variable>*4, [[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <ore:circuitAdvanced>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>]]);
 
 
 

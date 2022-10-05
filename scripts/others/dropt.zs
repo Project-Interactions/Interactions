@@ -215,6 +215,13 @@ Dropt.list("refined_ore_essence")
         )
         .items([<minecraft:glowstone_dust>])
       )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<projectred-core:resource_item:105>])
+      )
 );
 
 //basic ores

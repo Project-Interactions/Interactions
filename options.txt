@@ -330,8 +330,6 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-key_rsb.keybind.find_recipe:79
-key_rsb.keybind.find_uses:80
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
