@@ -1,9 +1,9 @@
 {
-    "name": "botanicadds:gaia_plate",
+    "name": "botanicadds:terra_catalyst",
   
     "disabled": false,
   
-    "target-item": "botanicadds:gaia_plate",
+    "target-item": "botanicadds:terra_catalyst",
   
     "duration": 480,
     "symmetrical": true,

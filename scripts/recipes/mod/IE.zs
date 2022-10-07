@@ -9,7 +9,9 @@ import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.MetalPress;
 import mods.immersivetweaker.Recycling;
-//import mods.TweakedPetroleum.TweakedReservoir;
+import mods.immersiveintelligence.ChemicalBath;
+import mods.immersiveengineering.Refinery;
+
 
 
 //
@@ -269,3 +271,6 @@ recipes.addShapeless(<immersiveintelligence:material_nugget> * 9, [<immersiveint
 
 //obsidian plate
 MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengineering:mold>,1024);
+
+ChemicalBath.addRecipe(<contenttweaker:material_part:108>*2, <thermalfoundation:material:70>, <fluid:aqua_regia>*1000, 20000, 200);
+Refinery.addRecipe(<liquid:aqua_regia>*4, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 2048);

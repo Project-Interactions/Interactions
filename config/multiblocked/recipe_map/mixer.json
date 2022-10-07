@@ -38,36 +38,6 @@
       }
     },
     {
-      "uid": "080461c1-ebb7-4c30-aa04-db73e986e88a",
-      "duration": 40,
-      "inputs": {
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"hydrochloric_acid\",Amount:3000}"
-          },
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"nitric_acid\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 20000
-          }
-        ]
-      },
-      "outputs": {
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"aqua_regia\",Amount:4000}"
-          }
-        ]
-      }
-    },
-    {
       "uid": "4aee9705-ffeb-4f21-92ad-c7ef43ac72d4",
       "duration": 1000,
       "inputs": {

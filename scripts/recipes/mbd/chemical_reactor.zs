@@ -8,6 +8,7 @@ import mods.multiblocked.recipe.RecipeMap;
 var definition as ComponentDefinition = MBDRegistry.getDefinition("interaction:chemical_reactor");
 var map = definition as ControllerDefinition;
 
+/*
 map.recipeMap.start()
     .duration(100)
     .inputItems(<contenttweaker:material_part:108>)
@@ -16,7 +17,7 @@ map.recipeMap.start()
     .inputFE(10000)
     .buildAndRegister();
 
-/*map.recipeMap.start()
+map.recipeMap.start()
     .duration(100)
     .inputFluids()
     .inputItems()

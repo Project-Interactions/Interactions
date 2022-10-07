@@ -1,10 +1,10 @@
 {
-  "name": "magnetizer",
+  "name": "magnetize",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
-      "uid": "0cc0adcf-4eec-47d6-a62d-8d51964c1ddf",
-      "duration": 140,
+      "uid": "b80040e8-b95d-4f13-893a-5806a1da00e7",
+      "duration": 100,
       "inputs": {
         "item": [
           {
@@ -20,7 +20,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 1000
+            "content": 10000
           }
         ]
       },

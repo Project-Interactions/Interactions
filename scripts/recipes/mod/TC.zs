@@ -20,7 +20,7 @@ recipes.remove(<thaumadditions:mithminite_plate> * 3);
 recipes.removeShapeless(<thaumcraft:plate:3>);
 recipes.removeShapeless(<thaumcraft:plate:2>);
 recipes.removeShapeless(<thaumcraft:plate>);
-mods.immersiveengineering.Crusher.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 2048);
 
 
 
