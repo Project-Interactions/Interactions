@@ -2,13 +2,6 @@ import mods.ltt.LootTable;
 
 var itemsToRemove as string[] = [
 	
-	"actuallyadditions:block_misc:4",
-	
-	"forestry:broken_bronze_shovel",
-	"forestry:broken_bronze_pickaxe",
-	"forestry:kit_pickaxe",
-	"forestry:kit_shovel",
-	
     "techreborn:ingot:10",
 	"techreborn:ingot:14",
 	"techreborn:ingot:15",
@@ -20,16 +13,21 @@ var itemsToRemove as string[] = [
 	"techreborn:part",
 	"techreborn:machine_frame:2",
 	
-	"immersiveengineering:pickaxe_steel",
-	"immersiveengineering:shovel_steel",
-	"immersiveengineering:axe_steel",
-	"immersiveengineering:sword_steel",
-	
-	"minecraft:iron_pickaxe",
-	"minecraft:iron_sword",
-	"minecraft:obsidian",
-	
-	"twilightforest:uncrafting_table"
+	"twilightforest:uncrafting_table",
+
+	"actuallyadditions:block_misc:4",
+	"actuallyadditions:item_crystal",
+	"enderio:item_material:12",
+	"enderio:item_material:13",
+	"botania:manaresource",
+	"enderio:item_alloy_ingot:6",
+	"enderio:item_conduit_probe",
+	"actuallyadditions:block_crystal",
+	"enderio:item_alloy_ingot:5",
+	"enderio:item_alloy_ingot:2",
+	"enderio:item_alloy_ingot",
+	"actuallyadditions:item_misc:5",
+	"appliedenergistics2:material"
 ];
 
 for item in itemsToRemove {

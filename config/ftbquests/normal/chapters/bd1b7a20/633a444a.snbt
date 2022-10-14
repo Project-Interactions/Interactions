@@ -18,23 +18,5 @@
 		uid: "9cd51d9a",
 		type: "item",
 		item: "ceramics:clay_bucket"
-	},
-	{
-		uid: "367bdb96",
-		type: "item",
-		item: {
-			id: "ftbquests:screen",
-			tag: {
-				BlockEntityTag: {
-					Size: 1b,
-					id: "ftbquests:screen_core"
-				},
-				display: {
-					Lore: [
-						"(+NBT)"
-					]
-				}
-			}
-		}
 	}]
 }

@@ -28,9 +28,6 @@
 
 
 
-<ore:logWood>.add(<contenttweaker:aether_log_fix>);
-<ore:logSkyroot>.add(<contenttweaker:aether_log_fix>);
-
 <ore:oreArdite>.remove(<tconstruct:ore>);
 
 <ore:ingotSky>.add(<naturesaura:sky_ingot>);

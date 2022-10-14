@@ -14,5 +14,16 @@
 		items: [{
 			item: "multiblocked:multiblock_builder"
 		}]
+	},
+	{
+		uid: "bb6ab6b8",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
 	}]
 }

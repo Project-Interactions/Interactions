@@ -9,7 +9,6 @@ recipes.addShapeless(<darkutils:material:1>, [<darkutils:material>, <wirelessuti
 
 
 
-recipes.addShapeless(<contenttweaker:aether_log_fix>, [<aether_legacy:aether_log>]);
 
 
 //File End
@@ -74,5 +73,5 @@ recipes.addShapeless(<projectred-core:resource_item:103>, [<enderio:item_alloy_i
 recipes.addShaped(<darkutils:trap_move> * 4, [[null, null, null],[<ore:coal>, <tconstruct:arrow_head>.withTag({Material: "wood"}).onlyWithTag({Material: "wood"}), <ore:coal>], [<tconstruct:large_plate>.withTag({Material: "stone"}).onlyWithTag({Material: "stone"}), <ore:coal>, <tconstruct:large_plate>.withTag({Material: "stone"}).onlyWithTag({Material: "stone"})]]);
 recipes.addShaped(<zensummoning:altar>, [[<moreplates:demon_plate>, null, <moreplates:demon_plate>],[null, <extrautils2:compressednetherrack:3>, null], [<moreplates:demon_plate>, null, <moreplates:demon_plate>]]);
 
-
+recipes.remove(<weirdinggadget:weirding_gadget>);
 

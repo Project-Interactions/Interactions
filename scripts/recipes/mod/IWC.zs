@@ -1,6 +1,6 @@
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FluidToItem;
-import mods.inworldcrafting.ExplosionCrafting;
+import mods.pneumaticcraft.explosioncrafting;
 
 //ftf
 FluidToFluid.transform(<liquid:slime_cot>, <liquid:sludge>, [<minecraft:slime>], true);
@@ -27,16 +27,18 @@ FluidToItem.transform(<integrateddynamics:crystalized_chorus_chunk>, <liquid:if.
 FluidToItem.transform(<thermalfoundation:material:1>*3, <liquid:sulfuric_acid>, [<contenttweaker:material_part:108>], true);
 FluidToItem.transform(<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}), <liquid:ytinifni>, [<appliedenergistics2:creative_energy_cell>], true);
 FluidToItem.transform(<mekanism:gastank>.withTag({tier: 4}), <liquid:ytinifni>, [<mekanism:gastank>.withTag({tier: 3, mekData: {stored: {amount: 512000, gasName: "everlasting"}}}),<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}})], true);
+FluidToItem.transform(<contenttweaker:aether_log_fix>, <liquid:etching_acid>, [<aether_legacy:aether_log>], false);
+
 //boom
-ExplosionCrafting.explodeItemRecipe(<extendedcrafting:compressor>,<avaritia:neutronium_compressor>,50);
-ExplosionCrafting.explodeItemRecipe(<techreborn:rubber_sapling>,<techreborn:part:44> ,100);
-ExplosionCrafting.explodeItemRecipe(<contenttweaker:refined_ore_essence>,<contenttweaker:basic_refined_ore_essence>,80);
-ExplosionCrafting.explodeItemRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:ore_essence>,100);
-ExplosionCrafting.explodeItemRecipe(<techreborn:dust:16>,<thermalfoundation:material:768> ,10);
-ExplosionCrafting.explodeItemRecipe(<mysticalagriculture:fire_essence>,<extrautils2:compressedcobblestone> ,60);
+explosioncrafting.addRecipe(<avaritia:neutronium_compressor>,<extendedcrafting:compressor>,50);
+explosioncrafting.addRecipe(<techreborn:part:44>,<techreborn:rubber_sapling> ,0);
+explosioncrafting.addRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:refined_ore_essence>,20);
+explosioncrafting.addRecipe(<contenttweaker:ore_essence>,<contenttweaker:basic_refined_ore_essence>,0);
+explosioncrafting.addRecipe(<thermalfoundation:material:768>,<techreborn:dust:16> ,90);
+explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<mysticalagriculture:fire_essence> ,40);
 //gems
-ExplosionCrafting.explodeItemRecipe(<techreborn:gem:1>,<ore:dustSapphire>,60);
-ExplosionCrafting.explodeItemRecipe(<minecraft:emerald>,<ore:dustEmerald>,60);
-ExplosionCrafting.explodeItemRecipe(<techreborn:gem>,<ore:dustRuby>,60);
-ExplosionCrafting.explodeItemRecipe(<minecraft:diamond>,<ore:dustDiamond>,60);
-ExplosionCrafting.explodeItemRecipe(<techreborn:gem:2>,<ore:dustPeridot>,60);
+explosioncrafting.addRecipe(<ore:dustSapphire>,<techreborn:gem:1>,40);
+explosioncrafting.addRecipe(<ore:dustEmerald>,<minecraft:emerald>,40);
+explosioncrafting.addRecipe(<ore:dustRuby>,<techreborn:gem>,40);
+explosioncrafting.addRecipe(<ore:dustDiamond>,<minecraft:diamond>,40);
+explosioncrafting.addRecipe(<ore:dustPeridot>,<techreborn:gem:2>,40);

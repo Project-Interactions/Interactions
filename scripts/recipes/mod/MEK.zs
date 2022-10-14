@@ -164,3 +164,5 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy
 //chaos crystal duplication
 mods.mekanism.compressor.addRecipe(<thaumicrestoration:item_ingot:5>, <gas:liquid_chaos>, <draconicevolution:chaos_shard>);
 
+//cheaper energy cube
+recipes.addShaped(<mekanism:energycube>, [[<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>],[<thermalfoundation:material:24>, <ore:circuitBasic>, <thermalfoundation:material:24>], [<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>]]);
