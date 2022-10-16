@@ -15,7 +15,6 @@
 	rewards: [{
 		uid: "295ac8ae",
 		type: "item",
-		item: "minecraft:iron_ingot",
-		count: 16
+		item: "techreborn:storage2 1 10"
 	}]
 }

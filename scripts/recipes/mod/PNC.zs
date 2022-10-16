@@ -46,8 +46,8 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:refinery>, [[<ore:ingotIronCompres
 mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:transistor>]);
 mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:capacitor>]);
 
-mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:transistor>], 1, [<pneumaticcraft:plastic>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:8>]);
-mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:capacitor>], 1, [<pneumaticcraft:plastic:4>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:4>]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:plastic>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:8>], 1, [<pneumaticcraft:transistor>]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:plastic:4>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:4>], 1, [<pneumaticcraft:capacitor>]);
 
 mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:plastic:*>*8,<moreplates:pulsating_iron_gear>*2,<appliedenergistics2:material:24>*6], 8, [<contenttweaker:pneumatic_circuit>*3]);
 

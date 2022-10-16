@@ -1,6 +1,10 @@
 {
+	title: "神秘能源",
 	x: -1.0d,
 	y: 1.0d,
+	text: [
+		"魔法数字化！"
+	],
 	dependencies: [
 		"fbebc148"
 	],

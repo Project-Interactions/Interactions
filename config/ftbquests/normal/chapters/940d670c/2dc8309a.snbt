@@ -1,6 +1,9 @@
 {
 	x: -1.0d,
 	y: -0.5d,
+	text: [
+		"可以储存mek的气体"
+	],
 	dependencies: [
 		"fbebc148"
 	],

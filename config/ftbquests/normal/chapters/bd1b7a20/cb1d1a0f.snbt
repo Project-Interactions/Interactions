@@ -1,9 +1,6 @@
 {
 	x: -6.0d,
 	y: -0.5d,
-	text: [
-		"使用挖掘强化使你的工具能连锁发掘"
-	],
 	dependencies: [
 		"0bab1356"
 	],
@@ -20,5 +17,11 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "2766374d",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 4
 	}]
 }

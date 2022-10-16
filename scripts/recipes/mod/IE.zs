@@ -274,3 +274,18 @@ MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengine
 
 ChemicalBath.addRecipe(<contenttweaker:material_part:108>*2, <thermalfoundation:material:70>, <fluid:aqua_regia>*1000, 20000, 200);
 Refinery.addRecipe(<liquid:aqua_regia>*4, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 2048);
+
+
+//fix
+mods.immersiveintelligence.PrecissionAssembler.removeRecipe(<immersiveintelligence:material>*2);
+mods.immersiveintelligence.PrecissionAssembler.addRecipe(<immersiveintelligence:material>*2,null,[<ore:plateSteel>*4,<immersiveengineering:material:26>*2], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
+
+//
+recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:processor_mechanical_circuit", Count: 1 as byte, Damage: 0 as short}}), [[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material>, null],[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material>], [<immersiveintelligence:material>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>]]);
+recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:mechanical_circuit", Count: 3 as byte, Damage: 0 as short}}), [[<immersiveintelligence:material_plate:7>, <immersiveengineering:material:26>, null],[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>, <immersiveengineering:material:26>], [<immersiveengineering:material:26>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>]]);
+recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:sub_block_holder_0", Count: 1 as byte, Damage: 6 as short}}), [[<immersiveintelligence:material_plate:7>, null, null],[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>, null], [null, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>]]);
+recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:sub_block_holder_1", Count: 1 as byte, Damage: 0 as short}}), [[<contenttweaker:material_part:138>, null, null],[<contenttweaker:material_part:138>, <contenttweaker:material_part:138>, null], [null, <contenttweaker:material_part:138>, <contenttweaker:material_part:138>]]);
+recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:sub_block_holder_1", Count: 1 as byte, Damage: 2 as short}}), [[<contenttweaker:material_part:128>, null, null],[<contenttweaker:material_part:128>, <contenttweaker:material_part:128>, null], [null, <contenttweaker:material_part:128>, <contenttweaker:material_part:128>]]);
+
+recipes.removeByRecipeName("immersiveintelligence:blueprints/schemes/processor");
+recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "immersiveintelligence:material", Count: 1, Damage: 9}}), [[<ore:transistor>, <immersiveintelligence:radio_configurator>, <ore:transistor>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
