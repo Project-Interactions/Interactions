@@ -5,13 +5,5 @@
 	tasks: [{
 		uid: "0f6c0bc0",
 		type: "checkmark"
-	}],
-	rewards: [{
-		uid: "655b51cb",
-		type: "item",
-		item: {
-			id: "botania:lexicon",
-			tag: {}
-		}
 	}]
 }

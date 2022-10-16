@@ -42,3 +42,6 @@ explosioncrafting.addRecipe(<ore:dustEmerald>,<minecraft:emerald>,40);
 explosioncrafting.addRecipe(<ore:dustRuby>,<techreborn:gem>,40);
 explosioncrafting.addRecipe(<ore:dustDiamond>,<minecraft:diamond>,40);
 explosioncrafting.addRecipe(<ore:dustPeridot>,<techreborn:gem:2>,40);
+
+explosioncrafting.addRecipe(<minecraft:gravel>,<minecraft:sand>,20);
+explosioncrafting.addRecipe(<minecraft:cobblestone>,<minecraft:gravel>,20);

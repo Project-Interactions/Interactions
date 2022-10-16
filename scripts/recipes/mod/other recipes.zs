@@ -32,8 +32,6 @@ recipes.remove(<mysticalmechanics:gear_gold>);
 
 
 
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<minecraft:sand>,<minecraft:gravel>,80);
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<minecraft:gravel>,<minecraft:cobblestone>,80);
 
 
 
@@ -75,3 +73,21 @@ recipes.addShaped(<zensummoning:altar>, [[<moreplates:demon_plate>, null, <morep
 
 recipes.remove(<weirdinggadget:weirding_gadget>);
 
+recipes.addShapeless(<buildinggadgets:constructionblock_dense>,[<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>]);
+
+//recipes.remove(<landcraft:landia_portal_marker>);
+/*
+mods.avaritia.ExtremeCrafting.addShaped("landia_tp", <dimensionaledibles:custom_cake>.withTag({dimID: 1304, cakeName: "landia"}), [
+	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>], 
+	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>], 
+	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
+	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
+	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
+	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
+	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
+	[<ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, null, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>], 
+	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]
+]);
+*/
+
+recipes.remove(<jaopca:block.tanzanite>);

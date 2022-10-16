@@ -228,6 +228,8 @@ key_key.craftingtweaks.refill_last_stack:15
 key_key.overload:33:SHIFT
 key_key.chaosInjection:34:SHIFT
 key_keys.techreborn.config:25
+key_FpsReducer.key.guiOpen:207
+key_FpsReducer.key.forceIdle:197
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
@@ -330,6 +332,8 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
+key_rsb.keybind.find_recipe:79
+key_rsb.keybind.find_uses:80
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0

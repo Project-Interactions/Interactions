@@ -10,7 +10,7 @@ var map = definition as ControllerDefinition;
 
 map.recipeMap.start()
     .duration(1000)
-    .inputItems(<tconevo:metal:5>,<botania:manaresource:14>,<landcraft:landia_ingot:2>)
+    .inputItems(<tconevo:metal:5>,<botania:manaresource:14>,<avaritia:resource:1>)
     .outputItems(<contenttweaker:material_part:178>)
     .inputHeat(1,10000)
     .inputFE(1000000)

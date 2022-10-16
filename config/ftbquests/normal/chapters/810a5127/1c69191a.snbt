@@ -13,11 +13,5 @@
 		items: [{
 			item: "astralsorcery:blockattunementaltar"
 		}]
-	}],
-	rewards: [{
-		uid: "66233c24",
-		type: "command",
-		auto: "disabled",
-		command: "/time set 20000"
 	}]
 }

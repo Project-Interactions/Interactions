@@ -97,7 +97,7 @@ Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore>);
 Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore:1>);
 Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore:2>);
 
-
+Melting.removeRecipe(<liquid:iron>,<integrateddynamics:squeezer>);
 
 recipes.remove(<tconevo:material>);
 

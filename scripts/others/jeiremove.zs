@@ -13,7 +13,9 @@ var jeiremove as string[]=[
 "jehc.shippingbin",
 "jei_uncrafting",
 "appliedenergistics2.grinder",
-"jeresources.villager"
+"jeresources.villager",
+"jeresources.enchantment",
+"Painter"
 ];
 for Remove in jeiremove {
     JEI.hideCategory(Remove);
