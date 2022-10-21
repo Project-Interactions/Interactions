@@ -191,7 +191,7 @@
       },
       "conditions": {
         "dimension": {
-          "dim": "twilght_forest"
+          "dim": "twilight_forest"
         }
       }
     },
@@ -402,7 +402,7 @@
       },
       "conditions": {
         "dimension": {
-          "dim": "twilght_forest"
+          "dim": "twilight_forest"
         }
       }
     }

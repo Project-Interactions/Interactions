@@ -16,7 +16,6 @@
 				blueprint: "basic_circuits"
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}]
 }

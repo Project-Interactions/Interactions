@@ -67,3 +67,8 @@ B:show_server_icons = 'true';
 ##[singleplayer_screen]
 
 B:show_world_icons = 'true';
+
+
+##[compatibility]
+
+B:allow_level_registry_interactions = 'true';

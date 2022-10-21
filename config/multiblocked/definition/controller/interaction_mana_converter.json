@@ -20,19 +20,19 @@
     ],
     "pattern": [
       [
-        "AAAB",
+        "AAAA",
         "CCCC",
-        "DEED"
+        "DEEB"
       ],
       [
-        "ADAF",
+        "ADAA",
         "@DDC",
-        "EDDE"
+        "EDDF"
       ],
       [
-        "AAAG",
+        "AAAA",
         "CCCC",
-        "DEED"
+        "DEEG"
       ]
     ],
     "aisleRepetitions": [

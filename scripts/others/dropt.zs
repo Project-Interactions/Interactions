@@ -222,6 +222,20 @@ Dropt.list("refined_ore_essence")
         )
         .items([<projectred-core:resource_item:105>])
       )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<nuclearcraft:dust:7>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<mekanism:otherdust>])
+      )
 );
 
 //basic ores
@@ -256,13 +270,6 @@ Dropt.list("basic_refined_ore_essence")
         Dropt.weight(60)
         )
         .items([<thermalfoundation:material>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<mekanism:otherdust>])
       )
       .addDrop(
         Dropt.drop()
