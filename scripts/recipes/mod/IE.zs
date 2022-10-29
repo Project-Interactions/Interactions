@@ -275,10 +275,39 @@ MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengine
 ChemicalBath.addRecipe(<contenttweaker:material_part:108>*2, <thermalfoundation:material:70>, <fluid:aqua_regia>*1000, 20000, 200);
 Refinery.addRecipe(<liquid:aqua_regia>*4, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 2048);
 
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [1]);
 
 //fix
 mods.immersiveintelligence.PrecissionAssembler.removeRecipe(<immersiveintelligence:material>*2);
 mods.immersiveintelligence.PrecissionAssembler.addRecipe(<immersiveintelligence:material>*2,null,[<ore:plateSteel>*4,<immersiveengineering:material:26>*2], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
+//imm slab add oredictionary
+recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_slab");
+recipes.removeByRecipeName("immersiveintelligence:metals/platinum/slab");
+recipes.removeByRecipeName("immersiveintelligence:metals/zinc/slab");
+recipes.removeByRecipeName("immersiveintelligence:metals/tungsten/slab");
+recipes.removeByRecipeName("immersiveintelligence:metals/brass/slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/copper_slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/lead_slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/silver_slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/constantan_slab");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/uranium_slab");
+
+recipes.addShaped(<immersiveengineering:storage_slab:8> * 6, [[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
+recipes.addShaped(<immersiveintelligence:storage_slab> * 6, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>]]);
+recipes.addShaped(<immersiveintelligence:storage_slab:1> * 6, [[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>]]);
+recipes.addShaped(<immersiveintelligence:storage_slab:2> * 6, [[<ore:blockTungsten>, <ore:blockTungsten>, <ore:blockTungsten>]]);
+recipes.addShaped(<immersiveintelligence:storage_slab:3> * 6, [[<ore:blockBrass>, <ore:blockBrass>, <ore:blockBrass>]]);
+recipes.addShaped(<immersiveengineering:storage_slab> * 6, [[<ore:blockCopper>, <ore:blockCopper>, <ore:blockCopper>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:1> * 6, [[<ore:blockAluminum>, <ore:blockAluminum>, <ore:blockAluminum>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:2> * 6, [[<ore:blockLead>, <ore:blockLead>, <ore:blockLead>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:3> * 6, [[<ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:4> * 6, [[<ore:blockNickel>, <ore:blockNickel>, <ore:blockNickel>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:7> * 6, [[<ore:blockElectrum>, <ore:blockElectrum>, <ore:blockElectrum>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:6> * 6, [[<ore:blockConstantan>, <ore:blockConstantan>, <ore:blockConstantan>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:5> * 6, [[<ore:blockUranium>, <ore:blockUranium>, <ore:blockUranium>]]);
 
 //
 recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:processor_mechanical_circuit", Count: 1 as byte, Damage: 0 as short}}), [[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material>, null],[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material>], [<immersiveintelligence:material>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>]]);

@@ -1,5 +1,6 @@
 {
 	title: "斗轮式挖矿机",
+	icon: "immersiveengineering:metal_multiblock 1 11",
 	x: 9.0d,
 	y: 1.0d,
 	shape: "diamond",

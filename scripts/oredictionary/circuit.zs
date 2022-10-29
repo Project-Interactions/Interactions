@@ -31,5 +31,6 @@
 
 <ore:circuitUniversal>.add(<contenttweaker:inverse_entropy_circuit>);
 
+<ore:circuitUltimate>.add(<contenttweaker:infinity_circuit>);
 
 

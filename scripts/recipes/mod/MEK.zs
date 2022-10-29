@@ -124,7 +124,7 @@ RecipeUtils.recipeTweak(true, <bfr:reactorglass>, [[null, <bfr:reactor:1>, null]
 
 
 //fusion
-recipes.addShaped(<bfr:reactor>, [[<ore:circuitUniversal>, <ore:paneGlass>, <ore:circuitUniversal>], [<bfr:reactor:1>, <mekanism:gastank>.withTag({tier: 0}), <bfr:reactor:1>], [<bfr:reactor:1>, <bfr:reactor:1>, <bfr:reactor:1>]]);
+recipes.addShaped(<bfr:reactor>, [[<ore:circuitUniversal>, <ore:paneGlass>, <ore:circuitUniversal>], [<bfr:reactor:1>, <mekanism:gastank>.withTag({tier: 3}), <bfr:reactor:1>], [<bfr:reactor:1>, <bfr:reactor:1>, <bfr:reactor:1>]]);
 RecipeUtils.recipeTweak(true, <bfr:reactor:2> * 2, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
 RecipeUtils.recipeTweak(true, <bfr:reactor:3>, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_redstone_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
 

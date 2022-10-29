@@ -57,15 +57,15 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_elite>,
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:table_ultimate>, [
-	[null, null, null, null, <projecte:item.pe_philosophers_stone>, null, null, null, null], 
-	[null, null, null, <projecte:item.pe_philosophers_stone>, null, <projecte:item.pe_philosophers_stone>, null, null, null], 
-	[null, null, <projecte:item.pe_philosophers_stone>, null, null, null, <projecte:item.pe_philosophers_stone>, null, null], 
-	[null, <projecte:item.pe_philosophers_stone>, null, null, null, null, null, <projecte:item.pe_philosophers_stone>, null], 
-	[<projecte:item.pe_philosophers_stone>, null, null, null, <botania_tweaks:ultimate_extended_crafty_crate>, null, null, null, <projecte:item.pe_philosophers_stone>], 
-	[null, <projecte:item.pe_philosophers_stone>, null, null, null, null, null, <projecte:item.pe_philosophers_stone>, null], 
-	[null, null, <projecte:item.pe_philosophers_stone>, null, null, null, <projecte:item.pe_philosophers_stone>, null, null], 
-	[null, null, null, <projecte:item.pe_philosophers_stone>, null, <projecte:item.pe_philosophers_stone>, null, null, null], 
-	[null, null, null, null, <projecte:item.pe_philosophers_stone>, null, null, null, null]
+	[null, null, null, null, <ore:ingotUltimate>, null, null, null, null], 
+	[null, null, null, <ore:ingotUltimate>, null, <ore:ingotUltimate>, null, null, null], 
+	[null, null, <ore:ingotUltimate>, null, null, null, <ore:ingotUltimate>, null, null], 
+	[null, <ore:ingotUltimate>, null, null, null, null, null, <ore:ingotUltimate>, null], 
+	[<ore:ingotUltimate>, null, null, null, <botania_tweaks:ultimate_extended_crafty_crate>, null, null, null, <ore:ingotUltimate>], 
+	[null, <ore:ingotUltimate>, null, null, null, null, null, <ore:ingotUltimate>, null], 
+	[null, null, <ore:ingotUltimate>, null, null, null, <ore:ingotUltimate>, null, null], 
+	[null, null, null, <ore:ingotUltimate>, null, <ore:ingotUltimate>, null, null, null], 
+	[null, null, null, null, <ore:ingotUltimate>, null, null, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:crafting_core>, [

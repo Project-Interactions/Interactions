@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.astralsorcery.Grindstone;
 
 //空岛适配
 recipes.remove(<astralsorcery:itemcraftingcomponent:1> * 4);
@@ -55,6 +56,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(
 	[null, <contenttweaker:mana_circuit>, null, <contenttweaker:mana_circuit>, <ore:gearAstralStarmetal>, <contenttweaker:mana_circuit>, null, <contenttweaker:mana_circuit>, null]
 );
 
+Grindstone.addRecipe(<botania:dice>, <botania:manaresource:5>*4);
 
 
 

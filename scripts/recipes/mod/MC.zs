@@ -70,7 +70,7 @@ vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:reeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:potato>.weight(0.06));
 
-//<entity:minecraft:enderman>.addDrop(<contenttweaker:exe>.weight(0.25));
+<entity:botania:doppleganger>.addDrop(<botania:manaresource:5>*4);
 recipes.remove(<minecraft:piston>);
 
 //command block extra

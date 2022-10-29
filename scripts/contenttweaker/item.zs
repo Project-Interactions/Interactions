@@ -67,6 +67,7 @@ VanillaFactory.createItem("wood_essence").register();
 
 VanillaFactory.createItem("outside_minecraft").register();
 
+VanillaFactory.createItem("infinity_circuit").register();
 
 
 
