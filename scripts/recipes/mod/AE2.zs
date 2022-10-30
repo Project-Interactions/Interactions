@@ -161,3 +161,12 @@ mods.biggercraftingtables.Giant.addShaped(<appliedenergistics2:creative_storage_
 	[null, null, null, null, <aeadditions:storage.casing>, null, null, null, null]
 ]);
 
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:1>, [[<ore:dustGlowstone>, <threng:material:6>, <ore:dustGlowstone>], [<aeadditions:storage.component>, <appliedenergistics2:material:22>, <aeadditions:storage.component>], [<ore:dustGlowstone>, <aeadditions:storage.component>, <ore:dustGlowstone>]]);
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:5>, [[<ore:dyeBlue>, <threng:material:6>, <ore:dyeBlue>], [<aeadditions:storage.component:4>, <appliedenergistics2:material:22>, <aeadditions:storage.component:4>], [<ore:dyeBlue>, <aeadditions:storage.component:4>, <ore:dyeBlue>]]);
+RecipeUtils.recipeTweak(true,  <aeadditions:storage.component:12>, [[<ore:dyeYellow>, <threng:material:6>, <ore:dyeYellow>], [<aeadditions:storage.component:11>, <appliedenergistics2:material:22>, <aeadditions:storage.component:11>], [<ore:dyeYellow>, <aeadditions:storage.component:11>, <ore:dyeYellow>]]);
+
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:2>, [[<ore:dustGlowstone>, <threng:material:14>, <ore:dustGlowstone>], [<aeadditions:storage.component:1>, <appliedenergistics2:material:22>, <aeadditions:storage.component:1>], [<ore:dustGlowstone>, <aeadditions:storage.component:1>, <ore:dustGlowstone>]]);
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:3>, [[<ore:dustGlowstone>, <threng:material:14>, <ore:dustGlowstone>], [<aeadditions:storage.component:2>, <appliedenergistics2:material:22>, <aeadditions:storage.component:2>], [<ore:dustGlowstone>, <aeadditions:storage.component:2>, <ore:dustGlowstone>]]);
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:13>, [[<ore:dyeYellow>, <threng:material:14>, <ore:dyeYellow>], [<aeadditions:storage.component:12>, <appliedenergistics2:material:22>, <aeadditions:storage.component:12>], [<ore:dyeYellow>, <aeadditions:storage.component:12>, <ore:dyeYellow>]]);
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:6>, [[<ore:dyeBlue>, <threng:material:14>, <ore:dyeBlue>], [<aeadditions:storage.component:5>, <appliedenergistics2:material:22>, <aeadditions:storage.component:5>], [<ore:dyeBlue>, <aeadditions:storage.component:5>, <ore:dyeBlue>]]);
+

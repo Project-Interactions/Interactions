@@ -122,6 +122,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:basicblock:14>, [
 RecipeUtils.recipeTweak(true, <mekanism:basicblock:10>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <qmd:vacuum_chamber_plasma_glass>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 RecipeUtils.recipeTweak(true, <bfr:reactorglass>, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <mekanism:basicblock:10>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
 
+RecipeUtils.recipeTweak(true, <mekanism:machineblock3>, [[<ore:ingotRefinedObsidian>, <ore:circuitNuclear>, <ore:ingotRefinedObsidian>], [<ore:alloyUltimate>, <mekanism:teleportationcore>, <ore:alloyUltimate>], [<ore:ingotRefinedObsidian>, <ore:circuitNuclear>, <ore:ingotRefinedObsidian>]]);
 
 //fusion
 recipes.addShaped(<bfr:reactor>, [[<ore:circuitUniversal>, <ore:paneGlass>, <ore:circuitUniversal>], [<bfr:reactor:1>, <mekanism:gastank>.withTag({tier: 3}), <bfr:reactor:1>], [<bfr:reactor:1>, <bfr:reactor:1>, <bfr:reactor:1>]]);

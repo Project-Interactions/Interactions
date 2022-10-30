@@ -8,8 +8,8 @@ import crafttweaker.data.IData;
 import mods.thaumicrestoration.CrystalInfusion;
 import mods.thaumcraft.Crucible;
 
-
-mods.thaumcraft.SalisMundus.removeSingleConversion(<*>);
+//salis_mundus
+recipes.remove(<thaumcraft:salis_mundus>);
 
 //石英粒修改
 mods.techreborn.grinder.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 30, 15);
@@ -49,7 +49,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BAS
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<integratedterminals:menril_glass>,<integratedterminals:menril_glass>,<integratedterminals:menril_glass>],[<integratedterminals:menril_glass>,<thaumicaugmentation:material:1>,<integratedterminals:menril_glass>],[<integratedterminals:menril_glass>,<integratedterminals:menril_glass>,<integratedterminals:menril_glass>]]);
 
-
+recipes.addShapeless(<thaumcraft:thaumonomicon>,[<minecraft:writable_book>,<thaumcraft:crystal_essence:*>]);
 
 
 

@@ -20,9 +20,9 @@
     ],
     "pattern": [
       [
-        "AAA",
-        "AAA",
-        "AAA"
+        "FFF",
+        "EEE",
+        "DDD"
       ],
       [
         "BBB",
@@ -50,15 +50,6 @@
       ]
     ],
     "predicates": {
-      "A": {
-        "states": [
-          {
-            "id": "contenttweaker:frost_proof_machine_casing",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "controller": {
         "location": "interaction:vaccum_freezer",
         "type": "component"
@@ -98,17 +89,23 @@
       "@": [
         "controller"
       ],
-      "A": [
-        "A",
-        "item",
-        "fluid",
-        "energy"
-      ],
       "B": [
         "B"
       ],
       "C": [
         "C"
+      ],
+      "D": [
+        "B",
+        "item"
+      ],
+      "E": [
+        "B",
+        "fluid"
+      ],
+      "F": [
+        "B",
+        "energy"
       ]
     }
   },

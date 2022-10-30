@@ -5,7 +5,6 @@
 //<item>.displayName = "name";
 
 <immersiveintelligence:material_wire>.displayName = "\u9AD8\u7EA7\u7535\u5B50\u5408\u91D1\u7EBF";
-<interaction:blastfurnace>.addTooltip("\u4F7F\u7528\u6C89\u6D78\u667A\u80FD\u7684\u7EF4\u62A4\u5DE5\u5177\u5305\u53F3\u952E\u4EE5\u6210\u578B");
 
 <ore:wireTungsten>.remove(<immersiveintelligence:material_wire>);
 <ore:wireAdvancedElectronicAlloy>.add(<immersiveintelligence:material_wire>);
@@ -18,5 +17,8 @@
 <qmd:creative_particle_source>.addTooltip("\u9700\u8981\u4F7F\u7528\u65E0\u5C3D\u8981\u7D20\u7684\u6C34\u6676\u5757\u5408\u6210");
 
 <contenttweaker:give>.addTooltip("\u5728\u5E9F\u571F\u4E16\u754C\u53F3\u952E");
+
+<cookingforblockheads:sink>.addTooltip("\u6C34\u69FD\u73B0\u5728\u4E0D\u80FD\u7528\u4F5C\u65E0\u9650\u6C34");
+
 <biggercraftingtables:biggercraftingtable:2>.addTooltip("https://imgse.com/i/vz2GYF");
 <biggercraftingtables:biggercraftingtable:2>.addTooltip("Welcome to the end!");

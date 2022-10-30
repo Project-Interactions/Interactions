@@ -15,7 +15,7 @@ mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_stone>);
 //灌注铁
 mods.naturesaura.Altar.addRecipe("infused_iron", <ore:ingotRefinedIron>, <naturesaura:infused_iron>, null, 20, 50);
 //灌注石
-mods.naturesaura.Altar.addRecipe("infused_stone", <ore:icestone>, <naturesaura:infused_stone>, null, 20, 50);
+mods.naturesaura.Altar.addRecipe("infused_stone", <aether_legacy:holystone>, <naturesaura:infused_stone>, null, 20, 50);
 mods.naturesaura.Altar.removeRecipe(<minecraft:blaze_powder>*4);
 mods.naturesaura.Altar.removeRecipe(<minecraft:leather>);
 

@@ -138,64 +138,6 @@
       }
     },
     {
-      "uid": "31d57b08-b79c-439a-95a2-e3be055e4ea0",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"minecraft:cauldron\",Count:1b,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
-              ]
-            }
-          }
-        ],
-        "starlight_as": [
-          {
-            "chance": 1.0,
-            "content": {
-              "starlight": 800
-            }
-          }
-        ],
-        "bot_mana": [
-          {
-            "chance": 1.0,
-            "content": 1000000
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thaumcraft:crucible\",Count:1b,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "conditions": {
-        "dimension": {
-          "dim": "twilight_forest"
-        }
-      }
-    },
-    {
       "uid": "539f987e-596d-4d90-9713-e4b59195c7a0",
       "duration": 400,
       "inputs": {
@@ -229,6 +171,73 @@
             }
           }
         ]
+      }
+    },
+    {
+      "uid": "0a32563c-b00e-48e9-bb7e-7b4deac23616",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"immersiveengineering:material\",Count:32b,Damage:24s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcoloredlens\",Count:1b,Damage:4s}"
+              ]
+            }
+          }
+        ],
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 200000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:salis_mundus\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "dimension": {
+          "dim": "twilightforest"
+        }
       }
     },
     {
@@ -346,64 +355,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "uid": "073425b7-d889-4b4e-af5b-144ab4fcd76c",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"minecraft:crafting_table\",Count:1b,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
-              ]
-            }
-          }
-        ],
-        "starlight_as": [
-          {
-            "chance": 1.0,
-            "content": {
-              "starlight": 800
-            }
-          }
-        ],
-        "bot_mana": [
-          {
-            "chance": 1.0,
-            "content": 1000000
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thaumcraft:arcane_workbench\",Count:1b,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "conditions": {
-        "dimension": {
-          "dim": "twilight_forest"
-        }
       }
     }
   ]
