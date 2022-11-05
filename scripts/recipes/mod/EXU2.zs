@@ -6,7 +6,7 @@ recipes.remove(<extrautils2:snowglobe>);
 recipes.remove(<extrautils2:quarryproxy>);
 recipes.removeShapeless(<extrautils2:rainbowgenerator>);
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.removeShaped(<extrautils2:resonator>, [[<ore:dustRedstone>, <ore:blockCoal>, <ore:dustRedstone>], [<ore:ingotron>, <extrautils2:ingredients>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.removeShaped(<extrautils2:resonator>, [[<ore:dustRedstone>, <ore:blockCoal>, <ore:dustRedstone>], [<ore:ingotIron>, <extrautils2:ingredients>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<extrautils2:passivegenerator:5>, [[<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients:1>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <minecraft:nether_brick_fence:*>, <extrautils2:decorativesolid:3>]]);
 recipes.removeShaped(<extrautils2:passivegenerator:7>, [[null, <extrautils2:ingredients:1>, null], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);
 recipes.removeShaped(<extrautils2:passivegenerator:3>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>], [<extrautils2:ingredients:1>, <extrautils2:ingredients>, <extrautils2:ingredients:1>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);

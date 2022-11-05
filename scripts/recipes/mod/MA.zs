@@ -97,9 +97,7 @@ recipes.addShaped(<mysticalcreations:aether_seeds>,
 [<aetherworks:item_resource:4>,<mysticalagriculture:crafting:3>,<aetherworks:item_resource:4>]]
 );
 recipes.addShaped(<aetherworks:item_resource:4>,
-[[<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>],
-[null,null,null],
-[null,null,null]]
+[[<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>],]
 );
 //活石
 recipes.addShaped(<mysticalcreations:livingrock_seeds>,
@@ -108,7 +106,5 @@ recipes.addShaped(<mysticalcreations:livingrock_seeds>,
 [<botania:livingrock>,<mysticalagriculture:crafting:2>,<botania:livingrock>]]
 );
 recipes.addShaped(<botania:livingrock>*3,
-[[<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>],
-[null,null,null],
-[null,null,null]]
+[[<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>],]
 );
