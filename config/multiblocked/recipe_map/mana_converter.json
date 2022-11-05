@@ -181,15 +181,6 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
               "amount": 32,
               "matches": [
                 "{id:\"immersiveengineering:material\",Count:32b,Damage:24s}"
@@ -199,9 +190,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 16,
               "matches": [
-                "{id:\"astralsorcery:itemcoloredlens\",Count:1b,Damage:4s}"
+                "{id:\"thaumcraft:amber_block\",Count:16b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:32b,Damage:23s}"
               ]
             }
           }
@@ -228,7 +228,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:salis_mundus\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:crude_salis_mundus\",Count:1b,Damage:0s}"
               ]
             }
           }
@@ -248,9 +248,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 32,
+              "amount": 4,
               "matches": [
-                "{id:\"botania:shimmerrock\",Count:32b,Damage:0s}"
+                "{id:\"botania:shimmerrock\",Count:4b,Damage:0s}"
               ]
             }
           }

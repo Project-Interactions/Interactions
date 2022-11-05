@@ -214,3 +214,6 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <tconstruct:materials:50>, [
 	[<tconevo:material:2>, <tinkersaddons:modifier_item:4>, <ore:gearAdamant>, <ore:gearAdamant>, <ore:gearAdamant>, <tinkersaddons:modifier_item:4>, <tconevo:material:2>], 
 	[<tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>, <tconevo:material:2>]
 ]);
+
+//fix rail can be smelt into osmium
+Melting.removeRecipe(<liquid:osmium>,<minecraft:rail>);

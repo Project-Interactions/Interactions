@@ -40,10 +40,7 @@ RecipeUtils.recipeTweak(true, <bloodmagic:incense_altar>, [[<bloodmagic:blood_ru
 
 //altar block tweak
 AnimusPlugin.removeComponentMapping(<blockstate:minecraft:glowstone>,"GLOWSTONE");
-AnimusPlugin.addComponentMapping(<blockstate:minecraft:dirt>, "GLOWSTONE");
-
-AnimusPlugin.removeComponentMapping(<blockstate:bloodmagic:decorative_brick>,"BLOODSTONE");
-AnimusPlugin.addComponentMapping(<blockstate:minecraft:dirt>, "BLOODSTONE");
+AnimusPlugin.addComponentMapping(<blockstate:mysticalagriculture:glowstone_lamp>, "GLOWSTONE");
 
 //HellFireForgeTweak
 //Speeding up the Hellfire Forge

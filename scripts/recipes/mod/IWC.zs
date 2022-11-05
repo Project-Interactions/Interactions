@@ -22,7 +22,7 @@ FluidToItem.transform(<contenttweaker:sub_block_holder_0:10>, <liquid:mana>, [<t
 FluidToItem.transform(<tconevo:edible>, <liquid:meat>, [<ceramics:unfired_clay:8>], true);
 FluidToItem.transform(<industrialforegoing:pink_slime_ingot>, <liquid:if.pink_slime>, [<tconevo:material:1>], true);
 FluidToItem.transform(<compactmachines3:machine:5>, <liquid:aetherworks.aetherium_gas>, [<compactmachines3:machine:4>*2], true);
-FluidToItem.transform(<immersiveintelligence:material:28>, <liquid:formic_acid>, [<ore:materialResin>*4], true);
+FluidToItem.transform(<immersiveintelligence:material:28>*2, <liquid:formic_acid>, [<ore:materialResin>], true);
 FluidToItem.transform(<integrateddynamics:crystalized_chorus_chunk>, <liquid:if.pink_slime>, [<integrateddynamics:crystalized_menril_block>], true);
 FluidToItem.transform(<thermalfoundation:material:1>*3, <liquid:sulfuric_acid>, [<contenttweaker:material_part:108>], true);
 FluidToItem.transform(<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}), <liquid:ytinifni>, [<appliedenergistics2:creative_energy_cell>], true);

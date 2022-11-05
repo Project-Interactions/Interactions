@@ -69,6 +69,7 @@ VanillaFactory.createItem("outside_minecraft").register();
 
 VanillaFactory.createItem("infinity_circuit").register();
 
+VanillaFactory.createItem("crude_salis_mundus").register();
 
 
 

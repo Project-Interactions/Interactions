@@ -10,6 +10,7 @@ import mods.thaumcraft.Crucible;
 
 //salis_mundus
 recipes.remove(<thaumcraft:salis_mundus>);
+recipes.addShapeless(<thaumcraft:salis_mundus>,[<contenttweaker:crude_salis_mundus>,<naturesaura:chunk_loader>]);
 
 //石英粒修改
 mods.techreborn.grinder.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 30, 15);

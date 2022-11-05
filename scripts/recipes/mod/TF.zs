@@ -18,9 +18,7 @@ recipes.addShapeless(<twilightforest:aurora_block>, [<twilightforest:aurora_pill
 recipes.addShapeless(<twilightforest:auroralized_glass>, [<twilightforest:aurora_block>,<aether_legacy:quicksoil_glass>]);
 
 mods.techreborn.grinder.addRecipe(<appliedenergistics2:material:3>*2, <minecraft:quartz>, 40, 10);
-recipes.removeShapeless(<appliedenergistics2:crystal_seed:600>* 2, [<ore:sand>, <ore:dustNetherQuartz>]);
 
-recipes.addShapeless(<appliedenergistics2:crystal_seed:600>.withTag({progress: 600})*2,[<ore:sand>,<immersiveintelligence:material_dust:7>]);
 
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "fiery_essence", Amount: 1000}), [[<twilightforest:fiery_tears>, <twilightforest:fiery_tears>, <twilightforest:fiery_tears>],[<twilightforest:fiery_tears>, null, null], [null, null, null]]);
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "fiery_essence", Amount: 1000}), [[<twilightforest:fiery_blood>, <twilightforest:fiery_blood>, <twilightforest:fiery_blood>],[<twilightforest:fiery_blood>, null, null], [null, null, null]]);

@@ -198,8 +198,7 @@ mods.immersiveengineering.Blueprint.addRecipe("Manual Circuit", <contenttweaker:
 
 //AlloySmelter
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
-//Crusher 硅锭
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>*2, <ore:sandstone>, 2048, <nuclearcraft:gem:6>, 0.1);
+//Crusher
 mods.immersiveengineering.Crusher.addRecipe(<buildinggadgets:constructionblockpowder>, <minecraft:sand>, 2048);
 //blueprint
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Manual Circuit"}),[<immersiveengineering:stone_decoration:8>,<immersiveengineering:stone_decoration:8>,<ore:plateBronze>]);
@@ -275,7 +274,7 @@ MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengine
 ChemicalBath.addRecipe(<contenttweaker:material_part:108>*2, <thermalfoundation:material:70>, <fluid:aqua_regia>*1000, 20000, 200);
 Refinery.addRecipe(<liquid:aqua_regia>*4, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 2048);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [1]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.8]);
 
 //fix
 mods.immersiveintelligence.PrecissionAssembler.removeRecipe(<immersiveintelligence:material>*2);

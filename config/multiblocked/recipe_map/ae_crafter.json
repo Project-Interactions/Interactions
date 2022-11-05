@@ -48,12 +48,6 @@
             "content": "{FluidName:\"empoweredoil\",Amount:4000}"
           }
         ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 2000000
-          }
-        ],
         "tc6_aspect": [
           {
             "chance": 1.0,
@@ -61,6 +55,12 @@
               "aspect": "infernum",
               "amount": 20
             }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 200000
           }
         ]
       },
@@ -115,12 +115,6 @@
             "content": "{FluidName:\"thaumium\",Amount:10000}"
           }
         ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1000000
-          }
-        ],
         "tc6_aspect": [
           {
             "chance": 1.0,
@@ -128,6 +122,12 @@
               "aspect": "machina",
               "amount": 100
             }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
           }
         ]
       },
@@ -281,12 +281,6 @@
             "content": "{FluidName:\"uranium\",Amount:10000}"
           }
         ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 100000
-          }
-        ],
         "tc6_aspect": [
           {
             "chance": 1.0,
@@ -294,6 +288,12 @@
               "aspect": "vitium",
               "amount": 20
             }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
           }
         ]
       },

@@ -10,6 +10,9 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.AlloyFurnace;
 
+
+addRegexLogFilter("At least one NuclearCraft recipe removal method has errored. Check the log for more details");
+
 recipes.remove(<nuclearcraft:part> * 2);
 recipes.remove(<nuclearcraft:part:10>);
 recipes.remove(<nuclearcraft:part:8>);

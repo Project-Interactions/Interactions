@@ -19,9 +19,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 2,
               "matches": [
-                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}}}"
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:2b,Damage:1s}"
               ]
             }
           }

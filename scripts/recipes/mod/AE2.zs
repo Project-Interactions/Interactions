@@ -49,6 +49,11 @@ Inscriber.removeRecipe(<appliedenergistics2:material:17>);
 Inscriber.removeRecipe(<appliedenergistics2:material:18>);
 Inscriber.removeRecipe(<appliedenergistics2:material:20>);
 
+Inscriber.removeRecipe(<appliedenergistics2:material:13>);
+Inscriber.removeRecipe(<appliedenergistics2:material:14>);
+Inscriber.removeRecipe(<appliedenergistics2:material:15>);
+Inscriber.removeRecipe(<appliedenergistics2:material:19>);
+
 
 Inscriber.addRecipe(<appliedenergistics2:material:17>,<calculator:flawlessdiamond>,true,<appliedenergistics2:material:14>);
 Inscriber.addRecipe(<appliedenergistics2:material:18>,<moreplates:enriched_gold_plate>,true,<appliedenergistics2:material:15>);

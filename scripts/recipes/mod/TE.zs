@@ -150,3 +150,5 @@ InductionSmelter.removeRecipe(<enderio:item_material>,<enderio:item_material:51>
 recipes.remove(<thermalexpansion:morb>*8);
 recipes.addShapeless(<thermalexpansion:morb>,[<ore:crystalSlag>,<ore:slimeball>,<tconstruct:dried_clay>,<thaumadditions:dna_sample>]);
 RecipeUtils.recipeTweak(true, <thermalexpansion:augment:416>, [[null, <ore:gearSignalum>, null], [<actuallyadditions:block_bio_reactor>, <thermalfoundation:material:512>, <actuallyadditions:block_bio_reactor>], [null, <minecraft:piston:*>, null]]);
+
+

@@ -1,35 +1,3 @@
 [
-  {
-    "item" : "oreCertusQuartz",
-    "color" : 8,
-    "rarity" : [
-      {
-        "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
-        "depth_min": 20,
-        "depth_max": 63,
-        "weight": 0
-      },
-      {
-        "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
-        "depth_min": 0,
-        "depth_max": 255,
-        "weight": 0
-      }
-    ]
-  },
-  {
-    "item" : "oreChargedCertusQuartz",
-    "color" : 8,
-    "rarity" : [
-      {
-        "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
-        "depth_min": 20,
-        "depth_max": 63,
-        "weight": 0
-      }
-    ]
-  }
+  
 ]
