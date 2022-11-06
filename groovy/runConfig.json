@@ -1,0 +1,13 @@
+{
+  "packName": "Interactions",
+  "version": "1.26",
+  "debug": false,
+  "loaders": {
+    "preInit": [
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 #priority 70000
 #loader crafttweaker reloadable
-
+/*
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -20,3 +20,4 @@ events.onPlayerLoggedIn(
         }
     }
 );
+*/

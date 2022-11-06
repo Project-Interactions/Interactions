@@ -7,7 +7,6 @@ import mods.appliedenergistics2.Inscriber;
 import mods.threng.Etcher;
 import mods.threng.Aggregator;
 //普通修改
-recipes.remove(<appliedenergistics2:material:58>);
 recipes.removeShapeless(<appliedenergistics2:part:360>, [<appliedenergistics2:part:380>, <ore:workbench>, <appliedenergistics2:material:23>]);
 recipes.remove(<enderio:item_material>);
 recipes.remove(<appliedenergistics2:grindstone>);
@@ -103,9 +102,9 @@ recipes.removeShaped(<ae2utilities:enhanced_interface_tier1>, [[<ore:ingotIron>,
 recipes.removeShaped(<ae2utilities:enhanced_interface_tier2>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:36>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
 recipes.removeShaped(<ae2utilities:enhanced_interface_tier3>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:37>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
 
-recipes.addShaped(<ae2utilities:enhanced_interface_tier1>, [[<moreplates:energetic_alloy_plate>, <appliedenergistics2:interface>, <moreplates:energetic_alloy_plate>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:35>, <appliedenergistics2:material:43>], [<moreplates:energetic_alloy_plate>, <appliedenergistics2:interface>, <moreplates:energetic_alloy_plate>]]);
-recipes.addShaped(<ae2utilities:enhanced_interface_tier2>, [[<moreplates:vibrant_alloy_plate>, <appliedenergistics2:material:27>, <moreplates:vibrant_alloy_plate>], [<appliedenergistics2:material:44>, <ae2utilities:enhanced_interface_tier1>, <appliedenergistics2:material:43>], [<moreplates:vibrant_alloy_plate>, <appliedenergistics2:material:27>, <moreplates:vibrant_alloy_plate>]]);
-recipes.addShaped(<ae2utilities:enhanced_interface_tier3>, [[<moreplates:vivid_alloy_plate>, <threng:material:14>, <moreplates:vivid_alloy_plate>], [<appliedenergistics2:material:44>, <ae2utilities:enhanced_interface_tier2>, <appliedenergistics2:material:43>], [<moreplates:vivid_alloy_plate>, <threng:material:14>, <moreplates:vivid_alloy_plate>]]);
+recipes.addShapeless(<ae2utilities:enhanced_interface_tier1>,[<appliedenergistics2:interface>,<appliedenergistics2:material:58>]);
+recipes.addShapeless(<ae2utilities:enhanced_interface_tier2>,[<ae2utilities:enhanced_interface_tier1>,<appliedenergistics2:material:58>]);
+recipes.addShapeless(<ae2utilities:enhanced_interface_tier3>,[<ae2utilities:enhanced_interface_tier2>,<appliedenergistics2:material:58>]);
 
 Inscriber.addRecipe(<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:18>,false,<mysticalagriculture:storage:2>);
 

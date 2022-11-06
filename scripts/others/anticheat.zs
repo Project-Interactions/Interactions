@@ -5,6 +5,7 @@ import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.CommandEvent;
 
+/*
 var mod as string[]=[
     "upsizer",
     "utimatestack",
@@ -46,3 +47,4 @@ for i in mod{
         );
     }
 }
+*/

@@ -9,6 +9,7 @@ $ cat .gitignore
 !/config
 !/bansoukou
 !/fontfiles
+!/groovy
 
 #Files
 !/.gitignore
