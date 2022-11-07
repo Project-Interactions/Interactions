@@ -8,3 +8,5 @@ Freezer.registerFreezable(<pneumaticcraft:ingot_iron_compressed>,<contenttweaker
 
 recipes.removeShapeless(<aether_legacy:skyroot_plank>*4);
 recipes.addShapeless(<aether_legacy:skyroot_plank>*2,[<ore:logSkyroot>]);
+
+recipes.remove(<aeble:obsidian_ring>);
