@@ -282,7 +282,7 @@ mods.immersiveintelligence.PrecissionAssembler.addRecipe(<immersiveintelligence:
 
 //balance
 mods.immersiveintelligence.PrecissionAssembler.removeRecipe(<immersiveintelligence:material:9>);
-mods.immersiveintelligence.PrecissionAssembler.addRecipe(<immersiveintelligence:material>*2,null,[<immersiveintelligence:material>*2,<immersiveintelligence:material:8>*8], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
+mods.immersiveintelligence.PrecissionAssembler.addRecipe(<immersiveintelligence:material:9>*2,null,[<immersiveintelligence:material>*2,<immersiveintelligence:material:8>*8], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
 
 //imm slab add oredictionary
 recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_slab");

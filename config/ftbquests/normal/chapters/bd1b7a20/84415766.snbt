@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	text: [
+		"你可以使用它使用任意材料制作抽屉"
+	],
+	dependencies: [
+		"b08d6b10"
+	],
+	tasks: [{
+		uid: "e0b333d5",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	},
+	{
+		uid: "e22f3abd",
+		type: "item",
+		items: [{
+			item: "storagedrawers:customdrawers"
+		}]
+	}]
+}

@@ -113,6 +113,10 @@
         "capability": "qmd_particle",
         "type": "capability"
       },
+      "gp": {
+        "capability": "exu2_gp",
+        "type": "capability"
+      },
       "any": {
         "type": "any"
       },
@@ -157,7 +161,8 @@
       ],
       "D": [
         "A",
-        "mekg"
+        "mekg",
+        "gp"
       ],
       "E": [
         "A",

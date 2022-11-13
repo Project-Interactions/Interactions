@@ -23,7 +23,7 @@
 	rewards: [{
 		uid: "fb60ba2d",
 		type: "item",
-		item: "extendedcrafting:material 1 2",
+		item: "extendedcrafting:storage",
 		count: 2
 	}]
 }

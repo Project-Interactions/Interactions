@@ -4,8 +4,8 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.embers.Melter;
 import mods.embers.Alchemy;
-
-
+import mods.aetherworks.MetalFormer;
+import mods.aetherworks.Anvil;
 recipes.removeShapeless(<embers:blend_caminite> * 8);
 recipes.remove(<embers:gear_dawnstone>);
 RecipeUtils.recipeTweak(true, <embers:mech_core>, [[<ore:plateIronCompressed>, <minecraft:compass:*>, <ore:plateIronCompressed>], [null, <ore:circuitOperation>, null], [<ore:plateIronCompressed>, null, <ore:plateIronCompressed>]]);
@@ -35,7 +35,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <mysticalmechanics:creative_mec
 	[<embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
-	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:ingotInfinity>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:blockWyvernMetal>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>]
@@ -43,9 +43,16 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <mysticalmechanics:creative_mec
 mods.extendedcrafting.TableCrafting.addShaped(3, <embers:creative_ember_source>, [
 	[<embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>], 
 	[<embers:crystal_cell>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:crystal_cell>], 
-	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <embers:ember_cluster>, <embers:crystal_cell>], 
-	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateWyvernMetal>, <mysticalmechanics:creative_mech_source>, <ore:plateWyvernMetal>, <embers:ember_cluster>, <embers:crystal_cell>], 
-	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateInfinity>, <mysticalmechanics:creative_mech_source>, <ore:plateInfinity>, <embers:ember_cluster>, <embers:crystal_cell>], 
+	[<embers:crystal_cell>, <embers:ember_cluster>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <embers:ember_cluster>, <embers:crystal_cell>], 
 	[<embers:crystal_cell>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:ember_cluster>, <embers:crystal_cell>], 
 	[<embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>]
 ]);
+
+//fix aetherwork metalformer don't receive tf's bronze
+MetalFormer.removeRecipesByInput(<embers:ingot_bronze>);
+MetalFormer.removeRecipesByInput(<embers:plate_bronze>);
+
+MetalFormer.addRecipe(<thermalfoundation:material:163>, <liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:4>,2100);
+MetalFormer.addRecipe(<thermalfoundation:material:355>,<liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:3>,2100);

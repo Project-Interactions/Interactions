@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.rockytweaks.Anvil;
+
+
 recipes.addShaped(<minecraft:hopper> * 2, [[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>],[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.removeShaped(<minecraft:stick> * 4, [[<ore:plankWood>], [<ore:plankWood>]]);
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
@@ -90,3 +93,15 @@ recipes.addShapeless(<minecraft:chain_command_block>, [<minecraft:command_block>
 recipes.addShapeless(<minecraft:repeating_command_block>, [<minecraft:command_block>,<thermalexpansion:machine:11>]);
 
 recipes.addShaped(<nuclearcraft:water_source>, [[<forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000})],[<forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000}), <cookingforblockheads:sink>, <forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000})], [<forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}).onlyWithTag({FluidName: "hot_spring_water", Amount: 1000})]]);
+
+
+//anvil
+val salis_mundus = <thaumcraft:salis_mundus>;
+Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),2);
+Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),2);
+Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),2);
+Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}),2);
+Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victum"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}),2);
+Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),2);
+Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),2);
+

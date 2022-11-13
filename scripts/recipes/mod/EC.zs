@@ -11,6 +11,7 @@ recipes.remove(<extendedcrafting:table_ultimate>);
 recipes.remove(<extendedcrafting:table_elite>);
 recipes.remove(<extendedcrafting:crafting_core>);
 recipes.remove(<extendedcrafting:material:2>);
+recipes.remove(<extendedcrafting:material:3>);
 recipes.remove(<extendedcrafting:table_basic>);
 recipes.removeShapeless(<extendedcrafting:material>);
 recipes.remove(<extendedcrafting:pedestal>*2);
@@ -20,7 +21,7 @@ recipes.addShaped(<extendedcrafting:material:7>,[[<ore:dustLumium>,<ore:dustLumi
 <ore:essenceLumium>.add(<extendedcrafting:material:7>);
 
 
-RecipeUtils.recipeTweak(true, <extendedcrafting:frame>, [[<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>], [<psicosts:material_glassy>, <extendedcrafting:material:2>, <psicosts:material_glassy>], [<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>]]);
+RecipeUtils.recipeTweak(true, <extendedcrafting:frame>, [[<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>], [<psicosts:material_glassy>, <ore:plateBlackIron>, <psicosts:material_glassy>], [<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>]]);
 RecipeUtils.recipeTweak(true, <extendedcrafting:interface>, [[<extendedcrafting:material>, <extendedcrafting:material:10>, <extendedcrafting:material>], [<extendedcrafting:material:18>, <extendedcrafting:frame>, <extendedcrafting:material:18>], [<extendedcrafting:material>, <ore:circuitElite>, <extendedcrafting:material>]]);
 
 //EnderCrafting
@@ -101,3 +102,21 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:storage:4>, [
 	[<contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>], 
 	[<contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <contenttweaker:ultimate_ingot_left_down>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>, <contenttweaker:ultimate_ingot_right_down>]
 ]);
+
+//fix black iron plate
+recipes.remove(<extendedcrafting:material:14>);
+recipes.remove(<extendedcrafting:material:15>);
+recipes.remove(<extendedcrafting:material:16>);
+recipes.remove(<extendedcrafting:material:17>);
+recipes.remove(<extendedcrafting:material:18>);
+recipes.remove(<extendedcrafting:material:19>);
+recipes.addShapeless(<extendedcrafting:material:19>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <extendedcrafting:material:32>, <extendedcrafting:material:32>]);
+recipes.addShapeless(<extendedcrafting:material:17>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <ore:gemEmerald>, <ore:gemEmerald>]);
+recipes.addShapeless(<extendedcrafting:material:15>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <ore:ingotGold>, <ore:ingotGold>]);
+recipes.addShapeless(<extendedcrafting:material:16>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <ore:gemDiamond>, <ore:gemDiamond>]);
+recipes.addShapeless(<extendedcrafting:material:14>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <ore:ingotIron>, <ore:ingotIron>]);
+recipes.addShapeless(<extendedcrafting:material:18>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <extendedcrafting:material:24>, <extendedcrafting:material:24>]);
+<ore:plateBlackIron>.remove(<ore:plateBlackIron>);
+RecipeUtils.recipeTweak(true, <packagedexcrafting:ultimate_crafter>, [[<extendedcrafting:material:17>, <extendedcrafting:interface>, <extendedcrafting:material:17>], [<ore:plateBlackIron>, <extendedcrafting:table_ultimate>, <ore:plateBlackIron>], [<extendedcrafting:material:17>, <packagedauto:me_package_component>, <extendedcrafting:material:17>]]);
+RecipeUtils.recipeTweak(true, <packagedexcrafting:elite_crafter>, [[<extendedcrafting:material:16>, <extendedcrafting:interface>, <extendedcrafting:material:16>], [<ore:plateBlackIron>, <extendedcrafting:table_elite>, <ore:plateBlackIron>], [<extendedcrafting:material:16>, <packagedauto:me_package_component>, <extendedcrafting:material:16>]]);
+RecipeUtils.recipeTweak(true, <packagedexcrafting:advanced_crafter>, [[<extendedcrafting:material:15>, <extendedcrafting:interface>, <extendedcrafting:material:15>], [<ore:plateBlackIron>, <extendedcrafting:table_advanced>, <ore:plateBlackIron>], [<extendedcrafting:material:15>, <packagedauto:me_package_component>, <extendedcrafting:material:15>]]);

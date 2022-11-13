@@ -2,6 +2,19 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.techreborn.scrapbox;
+import mods.techreborn.industrialElectrolyzer;
+import mods.techreborn.extractor;
+import mods.techreborn.plateBendingMachine;
+import mods.techreborn.compressor;
+import mods.techreborn.alloySmelter;
+import mods.techreborn.rollingMachine;
+import mods.techreborn.blastFurnace;
+import mods.techreborn.assemblingMachine;
+import mods.techreborn.industrialGrinder;
+import mods.techreborn.fusionReactor;
+import mods.techreborn.vacuumFreezer;
+import mods.techreborn.fluidReplicator;
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:10>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades>, [[<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
@@ -28,29 +41,29 @@ mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:detector_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:activator_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:minecart>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:heavy_weighted_pressure_plate>);
-mods.techreborn.extractor.addRecipe(<industrialforegoing:dryrubber>,<industrialforegoing:tinydryrubber>*8,100,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:energycrystal>.withTag({energy: 0}),<contenttweaker:material_part:81>*9,200,10);
+extractor.addRecipe(<industrialforegoing:dryrubber>,<industrialforegoing:tinydryrubber>*8,100,10);
+plateBendingMachine.addRecipe(<techreborn:energycrystal>.withTag({energy: 0}),<contenttweaker:material_part:81>*9,200,10);
 recipes.removeShaped(<techreborn:lapotroncrystal>.withTag({energy: 0}), [[<minecraft:dye:4>, <ore:circuitBasic>, <minecraft:dye:4>], [<minecraft:dye:4>, <ore:gemSapphire>, <minecraft:dye:4>], [<minecraft:dye:4>, <ore:circuitBasic>, <minecraft:dye:4>]]);
 recipes.removeShaped(<techreborn:machine_casing:1>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:circuitAdvanced>, <techreborn:machine_casing>, <ore:circuitAdvanced>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.remove(<techreborn:compressor>);
 recipes.removeShaped(<techreborn:quantum_chest>, [[<techreborn:part:3>, <techreborn:part:24>, <techreborn:part:3>], [<ore:machineBlockElite>, <techreborn:compressor>, <ore:machineBlockElite>], [<techreborn:part:3>, <techreborn:digital_chest>, <techreborn:part:3>]]);
 recipes.addShaped(<techreborn:quantum_chest>, [[<techreborn:part:3>, <techreborn:part:24>, <techreborn:part:3>], [<ore:machineBlockElite>, <techreborn:plate_bending_machine>, <ore:machineBlockElite>], [<techreborn:part:3>, <techreborn:digital_chest>, <techreborn:part:3>]]);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:2>, <techreborn:part:34>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:3>,<ore:plankWood>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:6>,<minecraft:emerald>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:5>,<minecraft:diamond>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:4>,<minecraft:redstone>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:8>,<minecraft:coal>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:12>,<ore:gemRuby>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:13>,<ore:gemSapphire>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:14>,<ore:gemPeridot>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:15>,<ore:gemRedGarnet>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:16>,<ore:gemYellowGarnet>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:plates:24>,<ore:ingotIridium>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<techreborn:part:45>,<techreborn:part:44>,40,10);
-mods.techreborn.plateBendingMachine.addRecipe(<contenttweaker:crystal_useless>,<astralsorcery:itemrockcrystalsimple>,40,60);
+plateBendingMachine.addRecipe(<techreborn:plates:2>, <techreborn:part:34>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:3>,<ore:plankWood>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:6>,<minecraft:emerald>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:5>,<minecraft:diamond>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:4>,<minecraft:redstone>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:8>,<minecraft:coal>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:12>,<ore:gemRuby>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:13>,<ore:gemSapphire>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:14>,<ore:gemPeridot>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:15>,<ore:gemRedGarnet>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:16>,<ore:gemYellowGarnet>,40,10);
+plateBendingMachine.addRecipe(<techreborn:plates:24>,<ore:ingotIridium>,40,10);
+plateBendingMachine.addRecipe(<techreborn:part:45>,<techreborn:part:44>,40,10);
+plateBendingMachine.addRecipe(<contenttweaker:crystal_useless>,<astralsorcery:itemrockcrystalsimple>,40,60);
 
-mods.techreborn.compressor.removeAll();
+compressor.removeAll();
 recipes.removeShaped(<techreborn:lapotroncrystal>, [[<minecraft:dye:4>, <ore:circuitBasic>, <minecraft:dye:4>], [<minecraft:dye:4>, <ore:energyCrystal>, <minecraft:dye:4>], [<minecraft:dye:4>, <ore:circuitBasic>, <minecraft:dye:4>]]);
 recipes.addShaped(<techreborn:part:4>, [[<minecraft:diamond>, <ore:platePlatinum>, <minecraft:diamond>],[<ore:platePlatinum>, <minecraft:diamond>, <ore:platePlatinum>], [<minecraft:diamond>, <ore:platePlatinum>, <minecraft:diamond>]]);
 
@@ -61,30 +74,30 @@ recipes.remove(<techreborn:cable:2> * 12);
 recipes.remove(<techreborn:cable:1> * 9);
 recipes.addShaped(<techreborn:cable:2> * 3, [[<ore:wireGold>, <ore:wireGold>, <ore:wireGold>],[null, null, null], [<ore:wireGold>, <ore:wireGold>, <ore:wireGold>]]);
 recipes.addShaped(<techreborn:cable:3> * 3, [[<ore:wireRefinedIron>, <ore:wireRefinedIron>, <ore:wireRefinedIron>],[null, null, null], [<ore:wireRefinedIron>, <ore:wireRefinedIron>, <ore:wireRefinedIron>]]);
-mods.techreborn.alloySmelter.addRecipe(<nuclearcraft:alloy:8>*4, <thermalfoundation:material:129>*3, <thermalfoundation:material:130>, 500 , 60);
-mods.techreborn.alloySmelter.addRecipe(<nuclearcraft:alloy:7>*4, <thermalfoundation:material:128>*3, <thermalfoundation:material:130>, 500 , 60);
+alloySmelter.addRecipe(<nuclearcraft:alloy:8>*4, <thermalfoundation:material:129>*3, <thermalfoundation:material:130>, 500 , 60);
+alloySmelter.addRecipe(<nuclearcraft:alloy:7>*4, <thermalfoundation:material:128>*3, <thermalfoundation:material:130>, 500 , 60);
 
 
-mods.techreborn.plateBendingMachine.removeRecipe(<moreplates:void_plate>);
-mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:crafting:32>, <ore:ingotRefinedIron>,<mysticalagriculture:crafting:5>*4 , 100 , 40);
-mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:crafting:33>, <mysticalagriculture:crafting:32>,<mysticalagriculture:crafting>*4 , 100 , 40);
-mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:crafting:34>, <mysticalagriculture:crafting:33>,<mysticalagriculture:crafting:1>*4 , 100 , 50);
-mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:crafting:35>, <mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:2>*4 , 100 , 50);
-mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:crafting:36>, <mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:3>*4 , 100 , 60);
-mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:crafting:37>, <mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:4>*4 , 100 , 60);
-mods.techreborn.alloySmelter.addRecipe(<mysticalagradditions:insanium:2>, <mysticalagriculture:crafting:37>,<mysticalagradditions:insanium>*4 , 100 , 70);
+plateBendingMachine.removeRecipe(<moreplates:void_plate>);
+alloySmelter.addRecipe(<mysticalagriculture:crafting:32>, <ore:ingotRefinedIron>,<mysticalagriculture:crafting:5>*4 , 100 , 40);
+alloySmelter.addRecipe(<mysticalagriculture:crafting:33>, <mysticalagriculture:crafting:32>,<mysticalagriculture:crafting>*4 , 100 , 40);
+alloySmelter.addRecipe(<mysticalagriculture:crafting:34>, <mysticalagriculture:crafting:33>,<mysticalagriculture:crafting:1>*4 , 100 , 50);
+alloySmelter.addRecipe(<mysticalagriculture:crafting:35>, <mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:2>*4 , 100 , 50);
+alloySmelter.addRecipe(<mysticalagriculture:crafting:36>, <mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:3>*4 , 100 , 60);
+alloySmelter.addRecipe(<mysticalagriculture:crafting:37>, <mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:4>*4 , 100 , 60);
+alloySmelter.addRecipe(<mysticalagradditions:insanium:2>, <mysticalagriculture:crafting:37>,<mysticalagradditions:insanium>*4 , 100 , 70);
 
-mods.techreborn.rollingMachine.removeRecipe(<techreborn:part:13>*3);
-mods.techreborn.rollingMachine.removeRecipe(<techreborn:part:14>*2);
-mods.techreborn.rollingMachine.removeRecipe(<techreborn:part:15>*3);
+rollingMachine.removeRecipe(<techreborn:part:13>*3);
+rollingMachine.removeRecipe(<techreborn:part:14>*2);
+rollingMachine.removeRecipe(<techreborn:part:15>*3);
 
-mods.techreborn.rollingMachine.addShaped(<techreborn:part:15>*2, [[<contenttweaker:material_part:1>,<contenttweaker:material_part:1>,<contenttweaker:material_part:1>],[<contenttweaker:material_part:1>,null,<contenttweaker:material_part:1>],[<contenttweaker:material_part:1>,<contenttweaker:material_part:1>,<contenttweaker:material_part:1>]]);
-mods.techreborn.rollingMachine.addShaped(<techreborn:part:14>*2, [[<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>],[<qmd:ingot_alloy:5>,null,<qmd:ingot_alloy:5>],[<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>]]);
-mods.techreborn.rollingMachine.addShaped(<techreborn:part:13>*2, [[<ore:ingotConstantan>,<ore:ingotConstantan>,<ore:ingotConstantan>],[<ore:ingotConstantan>,null,<ore:ingotConstantan>],[<ore:ingotConstantan>,<ore:ingotConstantan>,<ore:ingotConstantan>]]);
+rollingMachine.addShaped(<techreborn:part:15>*2, [[<contenttweaker:material_part:1>,<contenttweaker:material_part:1>,<contenttweaker:material_part:1>],[<contenttweaker:material_part:1>,null,<contenttweaker:material_part:1>],[<contenttweaker:material_part:1>,<contenttweaker:material_part:1>,<contenttweaker:material_part:1>]]);
+rollingMachine.addShaped(<techreborn:part:14>*2, [[<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>],[<qmd:ingot_alloy:5>,null,<qmd:ingot_alloy:5>],[<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>,<qmd:ingot_alloy:5>]]);
+rollingMachine.addShaped(<techreborn:part:13>*2, [[<ore:ingotConstantan>,<ore:ingotConstantan>,<ore:ingotConstantan>],[<ore:ingotConstantan>,null,<ore:ingotConstantan>],[<ore:ingotConstantan>,<ore:ingotConstantan>,<ore:ingotConstantan>]]);
 
 
-mods.techreborn.alloySmelter.addRecipe(<qmd:ingot_alloy:5>*2, <ore:ingotChrome>,<ore:ingotNickel> , 100 , 50);
-mods.techreborn.alloySmelter.addRecipe(<contenttweaker:material_part:1>, <ore:ingotChrome>,<ore:ingotAluminum> , 100 , 50);
+alloySmelter.addRecipe(<qmd:ingot_alloy:5>*2, <ore:ingotChrome>,<ore:ingotNickel> , 100 , 50);
+alloySmelter.addRecipe(<contenttweaker:material_part:1>, <ore:ingotChrome>,<ore:ingotAluminum> , 100 , 50);
 
 recipes.remove(<techreborn:part:29>);
 recipes.remove(<techreborn:part:1>);
@@ -95,66 +108,64 @@ recipes.addShaped(<techreborn:plate_bending_machine>, [[<minecraft:piston>, <ore
 recipes.addShaped(<techreborn:machine_casing:1>*2, [[<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>],[<techreborn:part:13>, <techreborn:machine_frame:1>, <techreborn:part:13>], [<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>]]);
 
 
-//mods.techreborn.blastFurnace.addRecipe(<thermalfoundation:material:134>,<techreborn:dust:3>,<ore:dustPlatinum>,null,1600,800,1640);
+//blastFurnace.addRecipe(<thermalfoundation:material:134>,<techreborn:dust:3>,<ore:dustPlatinum>,null,1600,800,1640);
 //
 recipes.remove(<techreborn:part:2>*4);
-//quartz glass ae2
-//mods.techreborn.blastFurnace.addRecipe(<appliedenergistics2:quartz_glass>*2,null,<botania:elfglass>,<immersiveintelligence:material_dust:7>,600,160,1100);
-mods.techreborn.blastFurnace.addRecipe(<appliedenergistics2:quartz_vibrant_glass>,null,<appliedenergistics2:quartz_glass>,<astralsorcery:iteminfusedglass>,800,200,1200);
 
-mods.techreborn.rollingMachine.addShapeless(<advgenerators:iron_frame>, [<ore:plateIron>]);
-//mods.techreborn.rollingMachine.
+rollingMachine.addShapeless(<advgenerators:iron_frame>, [<ore:plateIron>]);
+//rollingMachine.
 recipes.remove(<techreborn:part>*4);
 recipes.remove(<techreborn:lapotronicorb>);
 
-//mods.techreborn.blastFurnace.addRecipe(<thermalfoundation:material:165>,null,<thermalfoundation:material:101>,null,600,400,1600);
-//mods.techreborn.blastFurnace.addRecipe(<thermalfoundation:material:166>,null,<thermalfoundation:material:102>,null,600,400,1600);
-//mods.techreborn.blastFurnace.addRecipe(<redstonearsenal:material:32>,null,<redstonearsenal:material>,null,600,400,1600);
-//mods.techreborn.blastFurnace.addRecipe(<qmd:ingot_alloy:2>,null,<contenttweaker:stainless_steel_dust>,null,1200,400,2011);
-//mods.techreborn.blastFurnace.addRecipe(<techreborn:ingot:19>,null,<minecraft:iron_ingot>,null,80,300,1000);
+//blastFurnace.addRecipe(<thermalfoundation:material:165>,null,<thermalfoundation:material:101>,null,600,400,1600);
+//blastFurnace.addRecipe(<thermalfoundation:material:166>,null,<thermalfoundation:material:102>,null,600,400,1600);
+//blastFurnace.addRecipe(<redstonearsenal:material:32>,null,<redstonearsenal:material>,null,600,400,1600);
+//blastFurnace.addRecipe(<qmd:ingot_alloy:2>,null,<contenttweaker:stainless_steel_dust>,null,1200,400,2011);
+//blastFurnace.addRecipe(<techreborn:ingot:19>,null,<minecraft:iron_ingot>,null,80,300,1000);
 
 
-//mods.techreborn.vacuumFreezer.addRecipe(<redstonerepository:material:1>,<redstonerepository:material>,80,400);
-//mods.techreborn.vacuumFreezer.addRecipe(<thermalfoundation:material:167>,<thermalfoundation:material:103>,80,400);
+//vacuumFreezer.addRecipe(<redstonerepository:material:1>,<redstonerepository:material>,80,400);
+//vacuumFreezer.addRecipe(<thermalfoundation:material:167>,<thermalfoundation:material:103>,80,400);
 
 
 
-// mods.techreborn.
-mods.techreborn.assemblingMachine.removeRecipe(<techreborn:part:29>);
-mods.techreborn.assemblingMachine.removeRecipe(<techreborn:part:1>);
+// 
+assemblingMachine.removeRecipe(<techreborn:part:29>);
+assemblingMachine.removeRecipe(<techreborn:part:1>);
 
-mods.techreborn.assemblingMachine.removeRecipe(<techreborn:part>);
-mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:29>,<techreborn:part:40>,<techreborn:cable:5>*3,40,60);
+assemblingMachine.removeRecipe(<techreborn:part>);
+assemblingMachine.addRecipe(<techreborn:part:29>,<techreborn:part:40>,<techreborn:cable:5>*3,40,60);
 //ga
-mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:50>*2);
-mods.techreborn.industrialElectrolyzer.addRecipe(<techreborn:dust:59>*2,<techreborn:dust:52>,<contenttweaker:material_part:34>*7,null,null,<techreborn:dust:50>*3,140,250);
+industrialElectrolyzer.removeInputRecipe(<techreborn:dust:50>*2);
+industrialElectrolyzer.addRecipe(<techreborn:dust:59>*2,<techreborn:dust:52>,<contenttweaker:material_part:34>*7,null,null,<techreborn:dust:50>*3,140,250);
 
 //
-mods.techreborn.industrialGrinder.addRecipe(<enderio:item_material:20>*64,<taiga:eezo_dust>*8,null,null,<enderio:block_infinity:2>,<appliedenergistics2:material:6>,<liquid:petrotheum>*200,160,512);
-mods.techreborn.industrialGrinder.addRecipe(<taiga:meteorite_dust>*2,<taiga:duranite_dust>,null,null,<taiga:meteoritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
-mods.techreborn.industrialGrinder.addRecipe(<taiga:obsidiorite_dust>*2,<taiga:uru_dust>,null,null,<taiga:obsidioritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
+industrialGrinder.addRecipe(<enderio:item_material:20>*64,<taiga:eezo_dust>*8,null,null,<enderio:block_infinity:2>,<appliedenergistics2:material:6>,<liquid:petrotheum>*200,160,512);
+industrialGrinder.addRecipe(<taiga:meteorite_dust>*2,<taiga:duranite_dust>,null,null,<taiga:meteoritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
+industrialGrinder.addRecipe(<taiga:obsidiorite_dust>*2,<taiga:uru_dust>,null,null,<taiga:obsidioritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
 
-mods.techreborn.fusionReactor.removeRecipe(<techreborn:part:39>*4);
+fusionReactor.removeRecipe(<techreborn:part:39>*4);
 
-mods.techreborn.fusionReactor.addRecipe(<techreborn:part:17>*4,<contenttweaker:sub_block_holder_0:5>,<techreborn:part:39>,400000000,-320000,1024,20);
-mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconium_dust>,<thermalfoundation:material:1028>,<draconicevolution:draconium_ingot>,1000000,-20000,256);
+fusionReactor.addRecipe(<techreborn:part:17>*4,<contenttweaker:sub_block_holder_0:5>,<techreborn:part:39>,400000000,-320000,1024,20);
+fusionReactor.addRecipe(<draconicevolution:draconium_dust>,<thermalfoundation:material:1028>,<draconicevolution:draconium_ingot>,1000000,-20000,256);
 
-mods.techreborn.fusionReactor.addRecipe(<moreplates:draconium_gear>*2,<threng:material:14>,<draconicevolution:draconic_core>*2,2000000,-20000,256);
-mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<techreborn:storage2:10>*8,<draconicevolution:crafting_injector>,500000,-10000,128);
-mods.techreborn.fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<enderio:item_alloy_ingot:3>*8,<draconicevolution:wyvern_energy_core>,4000000,-40000,512);
+fusionReactor.addRecipe(<moreplates:draconium_gear>*2,<threng:material:14>,<draconicevolution:draconic_core>*2,2000000,-20000,256);
+fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<techreborn:storage2:10>*8,<draconicevolution:crafting_injector>,500000,-10000,128);
+fusionReactor.addRecipe(<draconicevolution:draconic_core>*2,<enderio:item_alloy_ingot:3>*8,<draconicevolution:wyvern_energy_core>,4000000,-40000,512);
 
 
-mods.techreborn.fusionReactor.addRecipe(<jaopca:dense_plate.diamond>*4,<contenttweaker:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);
+fusionReactor.addRecipe(<jaopca:dense_plate.diamond>*4,<contenttweaker:compresseddiamond>*8,<avaritia:resource>,400000000,-800000,512);
 
-mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:49>*20);
-mods.techreborn.industrialElectrolyzer.addRecipe(<thermalfoundation:material:68>*3,<techreborn:dust:31>*5,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*4,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*5,<techreborn:dynamiccell>*9,<techreborn:dust:49>*15,160,280);
+industrialElectrolyzer.removeInputRecipe(<techreborn:dust:49>*20);
+industrialElectrolyzer.addRecipe(<thermalfoundation:material:68>*3,<techreborn:dust:31>*5,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*4,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*5,<techreborn:dynamiccell>*9,<techreborn:dust:49>*15,160,280);
 
 recipes.remove(<techreborn:fluid_replicator>);
 
-mods.techreborn.fluidReplicator.addRecipe(64,<liquid:duplication>*1000,50,100);
+fluidReplicator.addRecipe(64,<liquid:duplication>*1000,50,100);
 
-mods.techreborn.blastFurnace.removeAll();
-mods.techreborn.vacuumFreezer.removeAll();
+blastFurnace.removeAll();
+vacuumFreezer.removeAll();
+scrapbox.removeAll();
 
 
 RecipeUtils.recipeTweak(true, <techreborn:machine_frame:1>, [[<ore:circuitMana>, <ore:plateCarbon>, <ore:circuitMana>], [<ore:plateAdvancedAlloy>, <ore:machineBlockBasic>, <ore:plateAdvancedAlloy>], [<ore:circuitMana>, <ore:plateCarbon>, <ore:circuitMana>]]);
@@ -207,3 +218,5 @@ RecipeUtils.recipeTweak(true, <techreborn:semi_fluid_generator>, [[<ore:plateEnc
 RecipeUtils.recipeTweak(true, <techreborn:plate_bending_machine>, [[<minecraft:piston>, <ore:circuitMana>, <minecraft:piston>], [<ore:circuitMana>, <techreborn:machine_frame>, <ore:circuitMana>], [<minecraft:piston>, <ore:circuitMana>, <minecraft:piston>]]);
 RecipeUtils.recipeTweak(true, <techreborn:quantum_tank>, [[<ore:circuitMaster>, <ore:platePlatinum>, <ore:circuitMaster>], [<ore:platePlatinum>, <techreborn:quantum_chest>, <ore:platePlatinum>], [<ore:circuitMaster>, <ore:platePlatinum>, <ore:circuitMaster>]]);
 recipes.addShaped(<techreborn:pump>, [[null, null, null],[<ore:circuitMana>, <techreborn:machine_frame>, <ore:circuitMana>], [<immersiveengineering:metal_device0:5>, <ore:circuitMana>, <immersiveengineering:metal_device0:5>]]);
+
+recipes.addShaped(<techreborn:lapotroncrystal>, [[<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>],[<ore:gearEnergium>, <ore:plateSapphire>, <ore:gearEnergium>], [<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>]]);

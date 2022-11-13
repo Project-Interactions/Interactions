@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:2
 guiScale:4
 particles:2
 bobView:true
@@ -116,6 +116,7 @@ key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_arcanearchives.gui.keybinds.manifest:0
+key_arcanearchives.gui.keybinds.socket:0
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
@@ -126,7 +127,7 @@ key_key.toggleTimeOfDayOverlay:0
 key_key.togglePotionParticles:66:CONTROL
 key_cos.key.opencosarmorinventory:0
 key_key.custommodel.selectmodel:50:CONTROL
-key_key.findme.search:21
+key_key.findme.search:33:CONTROL
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
@@ -228,12 +229,12 @@ key_key.craftingtweaks.refill_last_stack:15
 key_key.overload:33:SHIFT
 key_key.chaosInjection:34:SHIFT
 key_keys.techreborn.config:25
+key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
-key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.integratedterminals.terminal.tab.next:15
 key_key.integratedterminals.terminal.tab.previous:15:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
@@ -311,6 +312,7 @@ key_key.immersiveintelligence.motorbikeTowing:44
 key_key.sort_config:37
 key_key.sort:-98
 key_key.control:29
+key_Check Slot:25
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:34

@@ -1,5 +1,9 @@
 #priority 10000
 #loader contenttweaker
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.game.IGame;
+import mods.contenttweaker.tconstruct.Material;
+import mods.contenttweaker.tconstruct.MaterialBuilder;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
@@ -25,38 +29,14 @@ zsFluid7.register();
 var zsFluid8 = VanillaFactory.createFluid("waste_water", Color.fromHex("9999CC"));
 zsFluid8.register();
 
-var zsFluid9 = VanillaFactory.createFluid("heavymetalelements", Color.fromHex("993333"));
-zsFluid9.register();
-
 var zsFluid10 = VanillaFactory.createFluid("will_alloy", Color.fromHex("FFFFFF"));
 zsFluid10.register();
-
-var zsFluid11 = VanillaFactory.createFluid("europium", Color.fromHex("FFFFFF"));
-zsFluid11.register();
-
-var zsFluid12 = VanillaFactory.createFluid("semiconductor", Color.fromHex("FFFFFF"));
-zsFluid12.register();
 
 var zsFluid13 = VanillaFactory.createFluid("uu", Color.fromHex("DF00E3"));
 zsFluid13.register();
 
-var zsFluid14 = VanillaFactory.createFluid("superconduct", Color.fromHex("FFFFFF"));
-zsFluid14.register();
-
 var zsFluid16 = VanillaFactory.createFluid("liquid_chaos", Color.fromHex("231923"));
 zsFluid16.register();
-
-var zsFluid17 = VanillaFactory.createFluid("advancedalloy", Color.fromHex("FF9966"));
-zsFluid17.register();
-
-var zsFluid18 = VanillaFactory.createFluid("duplication", Color.fromHex("0052D8"));
-zsFluid18.register();
-
-var zsFluid19 = VanillaFactory.createFluid("tic_useful_metal", Color.fromHex("759E7F"));
-zsFluid19.register();
-
-var zsFluid20 = VanillaFactory.createFluid("refinediron", Color.fromHex("E1E8EB"));
-zsFluid20.register();
 
 var zsFluid21 = VanillaFactory.createFluid("hot_blend_caminite", Color.fromHex("FFFFFF"));
 zsFluid21.register();
@@ -73,11 +53,86 @@ zsFluid37.register();
 var zsFluid38 = VanillaFactory.createFluid("rich_lithium_water", Color.fromHex("617074"));
 zsFluid38.register();
 
-var zsFluid39 = VanillaFactory.createFluid("dimensionalshard", Color.fromHex("0052D8"));
-zsFluid39.register();
-
-var zsFluid40 = VanillaFactory.createFluid("everlasting", Color.fromHex("0052D8"));
-zsFluid40.register();
-
 var zsFluid41 = VanillaFactory.createFluid("ytinifni", Color.fromHex("0052D8"));
 zsFluid41.register();
+
+//moltens
+val heavymetalelements = mods.contenttweaker.VanillaFactory.createFluid("heavymetalelements", Color.fromHex("993333").getIntColor());
+heavymetalelements.material = <blockmaterial:lava>;
+heavymetalelements.viscosity = 2400;
+heavymetalelements.density = 2400;
+heavymetalelements.stillLocation = "base:fluids/molten";
+heavymetalelements.flowingLocation = "base:fluids/molten_flowing";
+heavymetalelements.register();
+
+val europium = mods.contenttweaker.VanillaFactory.createFluid("europium", Color.fromHex("FFFFFF").getIntColor());
+europium.material = <blockmaterial:lava>;
+europium.viscosity = 2400;
+europium.density = 2400;
+europium.stillLocation = "base:fluids/molten";
+europium.flowingLocation = "base:fluids/molten_flowing";
+europium.register();
+
+val semiconductor = mods.contenttweaker.VanillaFactory.createFluid("semiconductor", Color.fromHex("FFFFFF").getIntColor());
+semiconductor.material = <blockmaterial:lava>;
+semiconductor.viscosity = 2400;
+semiconductor.density = 2400;
+semiconductor.stillLocation = "base:fluids/molten";
+semiconductor.flowingLocation = "base:fluids/molten_flowing";
+semiconductor.register();
+
+val superconduct = mods.contenttweaker.VanillaFactory.createFluid("superconduct", Color.fromHex("FFFFFF").getIntColor());
+superconduct.material = <blockmaterial:lava>;
+superconduct.viscosity = 2400;
+superconduct.density = 2400;
+superconduct.stillLocation = "base:fluids/molten";
+superconduct.flowingLocation = "base:fluids/molten_flowing";
+superconduct.register();
+
+val advancedalloy = mods.contenttweaker.VanillaFactory.createFluid("advancedalloy", Color.fromHex("FF9966").getIntColor());
+advancedalloy.material = <blockmaterial:lava>;
+advancedalloy.viscosity = 2400;
+advancedalloy.density = 2400;
+advancedalloy.stillLocation = "base:fluids/molten";
+advancedalloy.flowingLocation = "base:fluids/molten_flowing";
+advancedalloy.register();
+
+val duplication = mods.contenttweaker.VanillaFactory.createFluid("duplication", Color.fromHex("0052D8").getIntColor());
+duplication.material = <blockmaterial:lava>;
+duplication.viscosity = 2400;
+duplication.density = 2400;
+duplication.stillLocation = "base:fluids/molten";
+duplication.flowingLocation = "base:fluids/molten_flowing";
+duplication.register();
+
+val tic_useful_metal = mods.contenttweaker.VanillaFactory.createFluid("tic_useful_metal", Color.fromHex("759E7F").getIntColor());
+tic_useful_metal.material = <blockmaterial:lava>;
+tic_useful_metal.viscosity = 2400;
+tic_useful_metal.density = 2400;
+tic_useful_metal.stillLocation = "base:fluids/molten";
+tic_useful_metal.flowingLocation = "base:fluids/molten_flowing";
+tic_useful_metal.register();
+
+val refinediron = mods.contenttweaker.VanillaFactory.createFluid("refinediron", Color.fromHex("E1E8EB").getIntColor());
+refinediron.material = <blockmaterial:lava>;
+refinediron.viscosity = 2400;
+refinediron.density = 2400;
+refinediron.stillLocation = "base:fluids/molten";
+refinediron.flowingLocation = "base:fluids/molten_flowing";
+refinediron.register();
+
+val dimensionalshard = mods.contenttweaker.VanillaFactory.createFluid("dimensionalshard", Color.fromHex("0052D8").getIntColor());
+dimensionalshard.material = <blockmaterial:lava>;
+dimensionalshard.viscosity = 2400;
+dimensionalshard.density = 2400;
+dimensionalshard.stillLocation = "base:fluids/molten";
+dimensionalshard.flowingLocation = "base:fluids/molten_flowing";
+dimensionalshard.register();
+
+val everlasting = mods.contenttweaker.VanillaFactory.createFluid("everlasting", Color.fromHex("0052D8").getIntColor());
+everlasting.material = <blockmaterial:lava>;
+everlasting.viscosity = 2400;
+everlasting.density = 2400;
+everlasting.stillLocation = "base:fluids/molten";
+everlasting.flowingLocation = "base:fluids/molten_flowing";
+everlasting.register();

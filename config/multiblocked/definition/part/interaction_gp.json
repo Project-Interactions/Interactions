@@ -1,0 +1,23 @@
+{
+  "canShared": true,
+  "location": "interaction:gp",
+  "traits": {
+    "exu2_gp": {
+      "x": 56,
+      "y": 76,
+      "width": 60,
+      "height": 18,
+      "textType": 3
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "extrautils2:poweroverload",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true
+}

@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.immersivetweaker.Recycling;
+
 recipes.remove(<mysticalagradditions:insanium:1>);
 recipes.remove(<mysticalagriculture:crafting:21>);
 recipes.remove(<mysticalagriculture:crafting:20>);
@@ -108,3 +110,10 @@ recipes.addShaped(<mysticalcreations:livingrock_seeds>,
 recipes.addShaped(<botania:livingrock>*3,
 [[<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>],]
 );
+
+// 
+Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:33>);
+Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:34>);
+Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:35>);
+Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:36>);
+Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:37>);

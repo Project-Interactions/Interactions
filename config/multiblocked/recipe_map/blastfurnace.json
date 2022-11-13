@@ -747,12 +747,6 @@
             "chance": 1.0,
             "content": 20000
           }
-        ],
-        "natures_aura": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {

@@ -28,7 +28,7 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <environmentaltech:void_ore_min
 	[<ore:blockErodium>, <ore:etLaserLens>, <ore:blockErodium>]
 ]);
 recipes.removeShaped(<environmentaltech:structure_frame_2>, [[null, <ore:ingotGold>, null], [<ore:crystalErodium>, <environmentaltech:structure_frame_1>, <ore:crystalErodium>], [null, <ore:gemLapis>, null]]);
-recipes.addShaped(<environmentaltech:structure_frame_2>, [[null, <embers:ember_cluster>, null],[<environmentaltech:erodium_crystal>, <environmentaltech:structure_frame_1>, <environmentaltech:erodium_crystal>], [null, <extendedcrafting:material:2>, null]]);
+recipes.addShaped(<environmentaltech:structure_frame_2>, [[null, <embers:ember_cluster>, null],[<environmentaltech:erodium_crystal>, <environmentaltech:structure_frame_1>, <environmentaltech:erodium_crystal>], [null, <ore:plateBlackIron>, null]]);
 recipes.removeShaped(<environmentaltech:modifier_null>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<ore:blockGlass>, <environmentaltech:interconnect>, <ore:blockGlass>], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
 recipes.addShaped(<environmentaltech:modifier_null>, [[<pneumaticcraft:ingot_iron_compressed>, <tconstruct:clear_glass>, <pneumaticcraft:ingot_iron_compressed>],[<tconstruct:clear_glass>, <environmentaltech:interconnect>, <tconstruct:clear_glass>], [<pneumaticcraft:ingot_iron_compressed>, <tconstruct:clear_glass>, <pneumaticcraft:ingot_iron_compressed>]]);
 
