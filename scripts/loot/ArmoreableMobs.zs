@@ -14,7 +14,6 @@ import mods.armoreablemobs.ArmorGroup;
 	var twilightGroup = ArmorHandler.createArmorGroup("twilight", 0.015);
 	var magicalGroup = ArmorHandler.createArmorGroup("magical", 0.015);
 	var vanillaGroup = ArmorHandler.createArmorGroup("vanilla", 0.01);
-	var energyGroup = ArmorHandler.createArmorGroup("energy", 0.01);
 	var skeletonGroup = ArmorHandler.createArmorGroup("skeleton", 0.03);
 
 # *======= Entities =======*
@@ -73,7 +72,6 @@ import mods.armoreablemobs.ArmorGroup;
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	}
 	
 # *======= Draconic =======*
@@ -278,41 +276,9 @@ import mods.armoreablemobs.ArmorGroup;
 	vanillaGroup.addEntity(witherSkeleton);
 	vanillaGroup.addEntity(zombiePigman);
 	vanillaGroup.addEntity(zombieVillager);
-	
-# *======= Energy Armor =======*
-		
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("head", <immersiveengineering:faraday_suit_head>, 10, 0.1));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("chest", <immersiveengineering:faraday_suit_chest>, 10, 0.1));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("legs", <immersiveengineering:faraday_suit_legs>, 10, 0.1));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("feet", <immersiveengineering:faraday_suit_feet>, 10, 0.1));
 
-
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("head", <redstonearsenal:armor.helmet_flux>, 3, 0.04));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("chest", <redstonearsenal:armor.plate_flux>, 3, 0.04));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("legs", <redstonearsenal:armor.legs_flux>, 3, 0.04));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("feet", <redstonearsenal:armor.boots_flux>, 3, 0.04));
-
-
-
-	energyGroup.addEntity(zombie);
-	energyGroup.addEntity(zombieStrong);
-	energyGroup.addEntity(zombieBoss);
-	energyGroup.addEntity(knight);
-	energyGroup.addEntity(husk);
-	energyGroup.addEntity(witherSkeleton);
-	energyGroup.addEntity(zombiePigman);
-	energyGroup.addEntity(zombieVillager);
 	
 # *======= Skeleton Armor =======*
-
-
-
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("head", <redstonearsenal:armor.helmet_flux>, 3, 0.04));
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("chest", <redstonearsenal:armor.plate_flux>, 3, 0.04));
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("legs", <redstonearsenal:armor.legs_flux>, 3, 0.04));
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("feet", <redstonearsenal:armor.boots_flux>, 3, 0.04));
-
-
 	
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:terrasteelhelm>, 1, 0.003));
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:terrasteelchest>, 1, 0.003));
@@ -324,4 +290,3 @@ import mods.armoreablemobs.ArmorGroup;
 	skeletonGroup.addEntity(stray);
 	skeletonGroup.addEntity(strayBoss);
 
-		print("--- ArmoreableMobs.zs initialized ---");

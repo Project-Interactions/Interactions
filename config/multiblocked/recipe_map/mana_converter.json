@@ -204,6 +204,15 @@
                 "{id:\"botania:manaresource\",Count:32b,Damage:23s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:2b,Damage:154s}"
+              ]
+            }
           }
         ],
         "starlight_as": [
@@ -233,11 +242,6 @@
             }
           }
         ]
-      },
-      "conditions": {
-        "dimension": {
-          "dim": "twilightforest"
-        }
       }
     },
     {

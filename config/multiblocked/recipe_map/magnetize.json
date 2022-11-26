@@ -4,7 +4,7 @@
   "recipes": [
     {
       "uid": "b80040e8-b95d-4f13-893a-5806a1da00e7",
-      "duration": 100,
+      "duration": 50,
       "inputs": {
         "item": [
           {
@@ -13,6 +13,60 @@
               "amount": 1,
               "matches": [
                 "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveintelligence:material_ingot\",Count:1b,Damage:5s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3b88968e-7dfb-46bc-a78d-2e0aa9541765",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:ingot2\",Count:1b,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"nuclearcraft:alloy\",Count:2b,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveintelligence:material_ingot\",Count:1b,Damage:5s}"
               ]
             }
           }
@@ -31,7 +85,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersiveintelligence:material_ingot\",Count:1b,Damage:5s}"
+                "{id:\"qmd:part\",Count:1b,Damage:8s}"
               ]
             }
           }

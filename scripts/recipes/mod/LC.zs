@@ -15,7 +15,7 @@ LightningInfusion.remove(<lightningcraft:ingot:1>);
 LightningInfusion.add(<lightningcraft:ingot:1>, <lightningcraft:ingot>, 85, [<lightningcraft:stone_block>,<lightningcraft:stone_block>,<tinkersaether:valkyrie_ingot>,<tinkersaether:valkyrie_ingot>]);
 
 LightningInfusion.remove(<lightningcraft:ingot:2>*2);
-LightningInfusion.add(<lightningcraft:ingot:2>, <lightningcraft:ingot:1>, 160, [<lightningcraft:material:11>,<keletupack:resourcetmisc:2>,<thaumadditions:adaminite_ingot>,<thaumadditions:adaminite_ingot>]);
+LightningInfusion.add(<lightningcraft:ingot:2>, <lightningcraft:ingot:1>, 160, [<lightningcraft:material:11>,<ichoriumkit:resourcekami:2>,<thaumadditions:adaminite_ingot>,<thaumadditions:adaminite_ingot>]);
 
 LightningInfusion.remove(<lightningcraft:ingot>);
 LightningInfusion.add(<lightningcraft:ingot>,<calculator:flawlessdiamond> , 30, [<enderio:item_alloy_ingot:5>,<enderio:item_alloy_ingot:5>,<enderio:item_alloy_ingot:1>,<enderio:item_alloy_ingot:1>]);

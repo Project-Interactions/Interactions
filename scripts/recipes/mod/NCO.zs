@@ -69,6 +69,8 @@ mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymi
 
 mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
 
+Assembler.removeRecipeWithOutput(<qmd:part:8>);
+
 Assembler.removeRecipeWithOutput(<qmd:semiconductor:4>);
 Assembler.addRecipe(<ore:siliconNDoped>,<ore:plateElectricium>*4,<ore:ingotDyonite>,<ore:plateSilicon>*2,<qmd:semiconductor:4>*3);
 

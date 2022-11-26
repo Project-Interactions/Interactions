@@ -7,11 +7,10 @@ import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
-import mods.botania.OrechidIgnem;
-import mods.botania.OrechidEndium;
-import mods.botania.Orechid;
 import mods.botania.ElvenTrade;
 import mods.botanicadds.GaiaPlate;
+import mods.immersivetweaker.Recycling;
+
 //大量修改，pylon水晶，spreader发射器
 recipes.remove(<botania:manaresource:14>);
 recipes.removeShaped(<botania:pool:3>, [[<botania:shimmerrock>, null, <botania:shimmerrock>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
@@ -61,65 +60,7 @@ ManaInfusion.addInfusion(<botania:managlass>, <engineersdecor:panzerglass_block>
 //凝矿兰删除
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
-Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidEndium"}));
 
-RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:rune:11>,<botania:rune:15>,<botania:manaresource:6>,<mysticalagriculture:dirt_essence>], 500000);
-RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:rune:11>,<botania:rune:15>,<botania:manaresource:6>,<mysticalagriculture:nether_essence>], 500000);
-RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechidEndium"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:rune:11>,<botania:rune:15>,<botania:manaresource:6>,<mysticalagriculture:end_essence>], 500000);
-
-Orechid.removeOre(<ore:oreOsmium>);
-Orechid.removeOre(<ore:oreTungsten>);
-Orechid.removeOre(<ore:oreMithril>);
-Orechid.removeOre(<ore:oreLapis>);
-Orechid.removeOre(<ore:oreDiamond>);
-Orechid.removeOre(<ore:oreEmerald>);
-Orechid.removeOre(<ore:oreGold>);
-Orechid.removeOre(<ore:orePlatinum>);
-Orechid.removeOre(<ore:oreAluminium>);
-Orechid.removeOre(<ore:oreAluminum>);
-Orechid.removeOre(<ore:oreNickel>);
-Orechid.removeOre(<ore:oreApatite>);
-Orechid.removeOre(<ore:oreAmber>);
-Orechid.removeOre(<ore:oreGalena>);
-Orechid.removeOre(<ore:oreCinnabar>);
-Orechid.removeOre(<ore:oreRuby>);
-Orechid.removeOre(<ore:oreSapphire>);
-Orechid.removeOre(<ore:oreUranium>);
-Orechid.removeOre(<ore:oreCoal>);
-Orechid.removeOre(<ore:oreIron>);
-Orechid.removeOre(<ore:oreTin>);
-Orechid.removeOre(<ore:oreCopper>);
-Orechid.removeOre(<ore:oreLead>);
-Orechid.removeOre(<ore:oreRedstone>);
-Orechid.removeOre(<ore:oreSilver>);
-Orechid.removeOre(<ore:oreQuartzBlack>);
-Orechid.removeOre(<ore:oreCertusQuartz>);
-Orechid.removeOre(<ore:oreZinc>);
-Orechid.removeOre(<ore:oreSulfur>);
-Orechid.removeOre(<ore:oreSulphur>);
-
-OrechidIgnem.removeOre(<ore:oreQuartz>);
-OrechidIgnem.removeOre(<ore:oreCobalt>);
-OrechidIgnem.removeOre(<ore:oreArdite>);
-
-Orechid.addOre(<ore:stone>, 16);
-Orechid.addOre(<ore:oreVibranium>, 1);
-Orechid.addOre(<ore:oreKarmesine>, 6);
-Orechid.addOre(<ore:oreOvium>, 6);
-Orechid.addOre(<ore:oreJauxum>, 6);
-
-OrechidIgnem.addOre(<ore:netherrack>,20);
-OrechidIgnem.addOre(<ore:oreOsram>,2);
-OrechidIgnem.addOre(<ore:orePrometheum>,8);
-OrechidIgnem.addOre(<ore:oreValyrium>,5);
-OrechidIgnem.addOre(<ore:oreTiberium>,12);
-
-OrechidEndium.removeOre(<ore:oreEndDraconium>);
-OrechidEndium.removeOre(<ore:oreEndInferium>);
-OrechidEndium.removeOre(<ore:oreEndProsperity>);
-OrechidEndium.addOre(<ore:orePalladium>, 10);
-OrechidEndium.addOre(<ore:oreAurorium>, 6);
-OrechidEndium.addOre(<ore:oreAbyssum>, 10);
 //泰拉凝聚板
 RecipeUtils.recipeTweak(true, <botania:terraplate>, [[<botanicadds:mana_lapis_block>,<botanicadds:mana_lapis_block>, <botanicadds:mana_lapis_block>], [<ore:runeWaterB>, <botania:storage>, <ore:runeFireB>], [<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
 recipes.remove(<botanicadds:terra_catalyst>);
@@ -147,3 +88,9 @@ RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:
 ManaInfusion.addConjuration(<projecte:item.pe_fuel:2>*2, <projecte:item.pe_fuel:2>, 1000000);
 
 RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamrock>, <botanicadds:dreamrock>, <botanicadds:dreamrock>], [<botanicadds:dreamrock>, <botania:pool:3>, <botanicadds:dreamrock>], [<ore:plateTerrasteel>, <ore:plateTerrasteel>, <ore:plateTerrasteel>]]);
+
+
+//
+Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:4>);
+Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:7>);
+Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource>);

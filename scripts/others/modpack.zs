@@ -12,12 +12,12 @@ recipes.addShaped(<multiblocked:multiblock_builder>, [[<buildinggadgets:construc
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:wood_essence>, [
 	[<calculator:tanzanitelog>, <botanicadds:elvenwood_log>, <minecraft:log2:1>, <minecraft:log2>, <minecraft:log:3>, <minecraft:log:2>, <minecraft:log:1>, <minecraft:log>, <calculator:amethystlog>],
-	[<forestry:logs.3:2>, <forestry:logs.3:3>, <forestry:logs.4>, <forestry:logs.4:2>, <forestry:logs.4:3>, <integrateddynamics:menril_log>, null, <extrautils2:decorativesolidwood:1>, <twilightforest:twilight_log:3>],
-	[<forestry:logs.3>, <forestry:logs.2:3>, <bloodarsenal:blood_infused_wooden_log>, <forestry:logs.1:3>, <forestry:logs.1:2>, <tconstruct:firewood:1>, <twilightforest:twilight_log:2>, <forestry:logs.2>, <natura:overworld_logs2:1>],
+	[<forestry:logs.3:2>, <forestry:logs.3:3>, <forestry:logs.4>, <forestry:logs.4:2>, <forestry:logs.4:3>, <integrateddynamics:menril_log>, <thaumicbases:netherlogs>, <extrautils2:decorativesolidwood:1>, <twilightforest:twilight_log:3>],
+	[<forestry:logs.3>, <forestry:logs.2:3>, <bloodarsenal:blood_infused_wooden_log>, <thaumicbases:goldenlogs>,<thaumicbases:enderlogs>, <tconstruct:firewood:1>, <twilightforest:twilight_log:2>, <forestry:logs.2>, <natura:overworld_logs2:1>],
 	[<twilightforest:magic_log:3>, <forestry:logs.3:1>, <twilightforest:magic_log:1>, <lightningcraft:wood_log>, <forestry:logs.5:3>, <twilightforest:twilight_log:1>, <forestry:logs.6:3>, <forestry:logs.5:1>, <forestry:logs.0>],
 	[<tconstruct:firewood>, <forestry:logs.1:1>, <forestry:logs.7>, <aether_legacy:aether_log>, <ore:ingotUltimate>, <harvestcraft:pamcinnamon>, <thaumcraft:log_greatwood>, <forestry:logs.2:1>, <forestry:logs.4:1>],
 	[<naturesaura:ancient_bark>, <natura:overworld_logs2:2>, <twilightforest:twilight_log>, <natura:nether_logs2>, <natura:redwood_logs:1>, <forestry:logs.6:1>, <harvestcraft:pampaperbark>, <natura:overworld_logs:3>, <natura:nether_logs>],
 	[<natura:overworld_logs2:3>, <forestry:logs.2:2>, <natura:overworld_logs2>, <natura:overworld_logs:2>, <forestry:logs.0:3>, <forestry:logs.1>, <natura:nether_logs:2>, <twilightforest:magic_log:2>, <aether_legacy:aether_log:1>],
 	[<theaurorian:silentwoodlog>, <botania:dreamwood>, <techreborn:rubber_log>, <calculator:pearlog>, <natura:nether_logs:1>, <harvestcraft:pammaple>, <thaumcraft:log_silverwood>, <forestry:logs.0:1>, <forestry:logs.0:2>],
-	[<forestry:logs.6:2>, <botania:livingwood>, <naturesaura:ancient_log>, <natura:overworld_logs:1>, null, <theaurorian:weepingwillowlog>, <forestry:logs.5:2>, <forestry:logs.5>, <calculator:diamondlog>]
+	[<forestry:logs.6:2>, <botania:livingwood>, <naturesaura:ancient_log>, <natura:overworld_logs:1>,<thaumcraft:taint_log>, <theaurorian:weepingwillowlog>, <forestry:logs.5:2>, <forestry:logs.5>, <calculator:diamondlog>]
 ]);

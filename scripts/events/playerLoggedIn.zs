@@ -1,23 +1,24 @@
 #priority 70000
 #loader crafttweaker reloadable
-/*
-import crafttweaker.events.IEventManager;
-import crafttweaker.event.IPlayerEvent;
+
+import crafttweaker.block.IBlock;
+import crafttweaker.data.IData;
 import crafttweaker.event.PlayerLoggedInEvent;
+import crafttweaker.events.IEventManager;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.player.IPlayer;
-import crafttweaker.event.CommandEvent;
+import crafttweaker.text.ITextComponent;
+import mods.zenutils.HexHelper;
+import mods.zenutils.I18n;
 
-
-events.onPlayerLoggedIn(
-    function(event as crafttweaker.event.PlayerLoggedInEvent){
-        val ep = event.player;
-        if(!ep.world.remote){
-            ep.world.catenation()
-                .sleep(20)
-                .then(function(world, context) {
-                    ep.sendMessage("欢迎§b§l" + ep.name + "§f来到§6交汇§1整合包，\n请享受本次游玩！\n遇到bug请在交流群961054098反馈");
-                });
-        }
-    }
-);
-*/
+events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
+	val player as IPlayer = event.player;
+	if(!player.world.isRemote()) {
+		player.sendRichTextStatusMessage(ITextComponent.fromString("§b============================================="), false);
+		player.sendRichTextStatusMessage(ITextComponent.fromTranslation("ia.custom.welcome.name"), false);
+		player.sendRichTextStatusMessage(ITextComponent.fromString("§b============================================="), false);
+	}
+});

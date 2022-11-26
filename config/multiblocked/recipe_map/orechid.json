@@ -1,0 +1,76 @@
+{
+  "name": "orechid",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "a0f51a96-f251-461e-95be-85f807ee5759",
+      "duration": 60,
+      "inputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10000
+          }
+        ],
+        "entity": [
+          {
+            "chance": 1.0,
+            "content": {
+              "type": "minecraft:item",
+              "tag": "{Item:{id:\"minecraft:stone\"}}"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"taiga:vibranium_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"taiga:karmesine_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"taiga:ovium_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"taiga:jauxum_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:stone\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

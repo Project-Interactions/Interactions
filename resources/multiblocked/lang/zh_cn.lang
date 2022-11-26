@@ -38,7 +38,7 @@ multiblocked.recipe_map.chaos=混沌聚合
 multiblocked.recipe_map.pnc=创造压力
 multiblocked.recipe_map.CO2=二氧化碳收集
 multiblocked.recipe_map.ae_crafter=应用装配
-multiblocked.recipe_map.magnetizer=磁化
+multiblocked.recipe_map.magnetize=磁化
 multiblocked.recipe_map.mana_converter=魔能转换
 multiblocked.recipe_map.molecular_recombination=分子重组仪
 multiblocked.recipe_map.blastfurnace=高炉煅烧
@@ -52,6 +52,8 @@ multiblocked.recipe_map.gaia=盖亚凝聚
 #part
 tile.interaction.starlight.name=星能接口
 tile.interaction.ta.name=元动能量接口
+tile.interaction.gp.name=GP能量接口
+tile.interaction.lp.name=LP能量接口
 
 #capability
 tile.multiblocked.item.any.name=任意物品接口

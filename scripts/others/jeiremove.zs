@@ -14,14 +14,21 @@ var jeiremove as string[]=[
 "jei_uncrafting",
 "appliedenergistics2.grinder",
 "jeresources.villager",
-"jeresources.enchantment",
-"Painter"
+"Painter",
+"botania.orechid",
+"botania.orechid_ignem",
+"pe.collector",
+"actuallyadditions.booklet",
+"flux",
+"if_manual_category"
 ];
 for Remove in jeiremove {
     JEI.hideCategory(Remove);
 }
 
 
+
+JEI.hide(<appliedenergistics2:facade>);
 
 
 

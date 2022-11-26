@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "location": "interaction:mixer",
+  "location": "interaction:orechid",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -17,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "immersiveintelligence:metal_decoration",
-          "meta": 4
+          "id": "thaumicwonders:coalescence_matrix_precursor",
+          "meta": 0
         },
         "type": "blockstate"
       }
@@ -33,7 +33,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "mixer",
+  "recipeMap": "orechid",
   "basePattern": {
     "structureDir": [
       "FRONT",
@@ -42,19 +42,19 @@
     ],
     "pattern": [
       [
-        "ABC",
-        "DEF",
-        "DFG"
+        "ABA",
+        "C C",
+        "ACA"
       ],
       [
-        "ABB",
-        "DH@",
-        "IFG"
+        "DC@",
+        "EFC",
+        "C C"
       ],
       [
-        "ABC",
-        "DEF",
-        "DFG"
+        "ABA",
+        "C C",
+        "ACA"
       ]
     ],
     "aisleRepetitions": [
@@ -72,18 +72,18 @@
       ]
     ],
     "predicates": {
-      "controller": {
-        "location": "interaction:mixer",
-        "type": "component"
-      },
-      "B": {
+      "A": {
         "states": [
           {
-            "id": "immersiveintelligence:metal_decoration",
-            "meta": 1
+            "id": "botanicadds:gaiasteel_block",
+            "meta": 0
           }
         ],
         "type": "states"
+      },
+      "controller": {
+        "location": "interaction:orechid",
+        "type": "component"
       },
       "item": {
         "capability": "item",
@@ -92,58 +92,30 @@
       "C": {
         "states": [
           {
-            "id": "jaopca:block.magnet",
+            "id": "botanicadds:dreamrock",
             "meta": 0
           }
         ],
         "type": "states"
       },
-      "lp": {
-        "capability": "bg_lp",
+      "mana": {
+        "capability": "bot_mana",
         "type": "capability"
       },
       "E": {
         "states": [
           {
-            "id": "immersiveengineering:metal_decoration0",
-            "meta": 5
-          }
-        ],
-        "type": "states"
-      },
-      "F": {
-        "states": [
-          {
-            "id": "immersiveengineering:sheetmetal",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "G": {
-        "states": [
-          {
-            "id": "immersiveintelligence:metal_decoration",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
-      "H": {
-        "states": [
-          {
-            "id": "immersiveintelligence:etching_acid",
+            "id": "calculator:flawlessglass",
             "meta": 0
           }
         ],
         "type": "states"
       },
-      "fluid": {
-        "capability": "fluid",
-        "type": "capability"
+      "any": {
+        "type": "any"
       },
-      "energy": {
-        "capability": "forge_energy",
+      "entity": {
+        "capability": "entity",
         "type": "capability"
       }
     },
@@ -151,34 +123,26 @@
       "@": [
         "controller"
       ],
+      " ": [
+        "any"
+      ],
       "A": [
-        "item",
-        "fluid"
+        "A"
       ],
       "B": [
-        "B"
+        "mana"
       ],
       "C": [
         "C"
       ],
       "D": [
-        "fluid"
+        "item"
       ],
       "E": [
         "E"
       ],
       "F": [
-        "F"
-      ],
-      "G": [
-        "G"
-      ],
-      "H": [
-        "H"
-      ],
-      "I": [
-        "lp",
-        "energy"
+        "entity"
       ]
     }
   }

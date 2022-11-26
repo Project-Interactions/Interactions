@@ -116,7 +116,7 @@ recipes.addShapeless(<extendedcrafting:material:15>, [<ore:plateBlackIron>, <ext
 recipes.addShapeless(<extendedcrafting:material:16>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <ore:gemDiamond>, <ore:gemDiamond>]);
 recipes.addShapeless(<extendedcrafting:material:14>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <ore:ingotIron>, <ore:ingotIron>]);
 recipes.addShapeless(<extendedcrafting:material:18>, [<ore:plateBlackIron>, <extendedcrafting:material:7>, <extendedcrafting:material:24>, <extendedcrafting:material:24>]);
-<ore:plateBlackIron>.remove(<ore:plateBlackIron>);
+<ore:plateBlackIron>.remove(<extendedcrafting:material:2>);
 RecipeUtils.recipeTweak(true, <packagedexcrafting:ultimate_crafter>, [[<extendedcrafting:material:17>, <extendedcrafting:interface>, <extendedcrafting:material:17>], [<ore:plateBlackIron>, <extendedcrafting:table_ultimate>, <ore:plateBlackIron>], [<extendedcrafting:material:17>, <packagedauto:me_package_component>, <extendedcrafting:material:17>]]);
 RecipeUtils.recipeTweak(true, <packagedexcrafting:elite_crafter>, [[<extendedcrafting:material:16>, <extendedcrafting:interface>, <extendedcrafting:material:16>], [<ore:plateBlackIron>, <extendedcrafting:table_elite>, <ore:plateBlackIron>], [<extendedcrafting:material:16>, <packagedauto:me_package_component>, <extendedcrafting:material:16>]]);
 RecipeUtils.recipeTweak(true, <packagedexcrafting:advanced_crafter>, [[<extendedcrafting:material:15>, <extendedcrafting:interface>, <extendedcrafting:material:15>], [<ore:plateBlackIron>, <extendedcrafting:table_advanced>, <ore:plateBlackIron>], [<extendedcrafting:material:15>, <packagedauto:me_package_component>, <extendedcrafting:material:15>]]);

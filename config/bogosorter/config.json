@@ -1,21 +1,55 @@
 {
   "General": {
     "enableAutoRefill": true,
-    "refillDmgThreshold": 1
+    "refillDmgThreshold": 1,
+    "enableHotbarSwap": true
   },
   "ItemSortRules": [
-    "display_name",
-    "ore_prefix",
-    "material",
-    "mod",
-    "id",
-    "meta",
-    "nbt_has",
-    "nbt_rules"
+    {
+      "name": "display_name",
+      "inverted": false
+    },
+    {
+      "name": "ore_prefix",
+      "inverted": false
+    },
+    {
+      "name": "material",
+      "inverted": false
+    },
+    {
+      "name": "mod",
+      "inverted": false
+    },
+    {
+      "name": "id",
+      "inverted": false
+    },
+    {
+      "name": "meta",
+      "inverted": false
+    },
+    {
+      "name": "nbt_has",
+      "inverted": false
+    },
+    {
+      "name": "nbt_rules",
+      "inverted": false
+    }
   ],
   "NbtSortRules": [
-    "enchantment",
-    "enchantment_book",
-    "potion"
+    {
+      "name": "enchantment",
+      "inverted": false
+    },
+    {
+      "name": "enchantment_book",
+      "inverted": false
+    },
+    {
+      "name": "potion",
+      "inverted": false
+    }
   ]
 }
