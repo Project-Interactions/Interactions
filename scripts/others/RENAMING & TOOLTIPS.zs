@@ -22,3 +22,6 @@
 
 <biggercraftingtables:biggercraftingtable:2>.addTooltip("https://imgse.com/i/vz2GYF");
 <biggercraftingtables:biggercraftingtable:2>.addTooltip("Welcome to the end!");
+
+<interaction:orechid>.addTooltip("\u914D\u65B9\u5728\u76F8\u5E94\u7684\u7EF4\u5EA6\u5DE5\u4F5C\uFF0C\u5728\u5B9E\u4F53\u4ED3\u4E22\u5165\u77F3\u5934/\u5730\u72F1\u5CA9/\u672B\u5730\u77F3\u7684\u6389\u843D\u7269");
+

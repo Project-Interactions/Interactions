@@ -12,9 +12,7 @@ var itemsToRemove as string[] = [
 	"techreborn:ingot:7",
 	"techreborn:part",
 	"techreborn:machine_frame:2",
-	
 	"twilightforest:uncrafting_table",
-
 	"actuallyadditions:block_misc:4",
 	"actuallyadditions:item_crystal",
 	"enderio:item_material:12",
@@ -27,7 +25,9 @@ var itemsToRemove as string[] = [
 	"enderio:item_alloy_ingot:2",
 	"enderio:item_alloy_ingot",
 	"actuallyadditions:item_misc:5",
-	"appliedenergistics2:material"
+	"appliedenergistics2:material",
+	"<enderio:item_dark_steel_boots>",
+	"<enderio:item_dark_steel_sword>"
 ];
 
 for item in itemsToRemove {

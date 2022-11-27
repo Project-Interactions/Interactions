@@ -10,7 +10,7 @@ FluidToFluid.transform(<liquid:mana>, <liquid:cobalt>, [<thermalfoundation:geode
 FluidToFluid.transform(<liquid:witch_water>, <liquid:sewage>, [<tconstruct:slime_dirt>], true);
 //fti
 FluidToItem.transform(<embers:blend_caminite>, <liquid:blend_caminite>, [<deepmoblearning:polymer_clay>], true);
-FluidToItem.transform(<appliedenergistics2:material:45>*4, <liquid:dark_steel>, [<techreborn:dust:3>], true);
+FluidToItem.transform(<appliedenergistics2:material:45>*16, <liquid:dark_steel>, [<techreborn:dust:3>*64], true);
 FluidToItem.transform(<tconstruct:slime_dirt>, <liquid:slime_cot>, [<minecraft:dirt>], true);
 FluidToItem.transform(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), <liquid:napalm>, [<immersiveengineering:blueprint>], true);
 FluidToItem.transform(<contenttweaker:ore_essence>*64, <liquid:ore_water>, [<botania:manaresource:21>*2], true);

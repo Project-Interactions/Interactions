@@ -86,6 +86,12 @@ ArcFurnace.removeRecipe(<taiga:dyonite_ingot>);
 ArcFurnace.removeRecipe(<taiga:nucleum_ingot>);
 ArcFurnace.removeRecipe(<taiga:dilithium_ingot>);
 ArcFurnace.removeRecipe(<mekanism:ingot>);
+//eio
+ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:7>);
+ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
+ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:4>);
+ArcFurnace.removeRecipe(<enderio:item_alloy_ingot>);
+ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:1>);
 
 //
 recipes.remove(<immersiveengineering:material:8>);

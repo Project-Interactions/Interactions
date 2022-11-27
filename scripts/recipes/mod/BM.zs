@@ -21,7 +21,7 @@ BloodAltar.removeRecipe(<minecraft:stone>);
 BloodAltar.addRecipe(<bloodmagic:slate>, <botanicadds:dreamrock>, 0, 1000, 12, 12);
 
 BloodAltar.addRecipe(<theaurorian:aurorianportalframebricks>, <theaurorian:aurorianstone>, 5, 100000, 1200, 1200);
-BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <contenttweaker:sub_block_holder_0:4>, 4, 10000, 120, 120);
+BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <contenttweaker:sub_block_holder_0:4>, 4, 80000, 120, 120);
 
 
 AlchemyArray.removeRecipe(<bloodarsenal:base_item:8>, <bloodmagic:slate:3>);
@@ -49,3 +49,6 @@ HellFireForgeTweak.setCraftingTicksRequired(10);
 HellFireForgeTweak.setWorldWillTransferRate(10);
 //Crafting with all Will types
 HellFireForgeTweak.setCraftWithAllWillTypes(true);
+
+//divinity  32 8 4 16
+AlchemyTable.removeRecipe([<bloodarsenal:base_item:8>*32,<bloodmagic:decorative_brick:2>*8,<minecraft:golden_apple:1>*4,<minecraft:nether_star>*16]);

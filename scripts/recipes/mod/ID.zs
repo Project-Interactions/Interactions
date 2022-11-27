@@ -4,6 +4,7 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.integrateddynamics.DryingBasin;
 import mods.integrateddynamics.MechanicalDryingBasin;
+import mods.integrateddynamics.Squeezer;
 
 
 recipes.remove(<integrateddynamics:cable> * 3);
@@ -26,6 +27,7 @@ MechanicalDryingBasin.addRecipe(<botania:managlass>, <liquid:menrilresin> * 1000
 recipes.remove(<integrateddynamics:variable>*24);
 recipes.addShaped(<integrateddynamics:variable>*4, [[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <ore:circuitAdvanced>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>]]);
 
+Squeezer.removeRecipesWithOutput(<contenttweaker:material_part:108>);
 
 
 

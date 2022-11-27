@@ -12,7 +12,7 @@ mixer.name=混合机
 uu_crafter.name=UU物质生成器
 vaccum_freezer.name=真空冷冻机
 molecular_recombination.name=分子重组仪
-
+orechid.name=机械凝矿兰
 gaia.name=盖亚凝聚板
 
 #tile
@@ -29,7 +29,7 @@ tile.interaction.mixer.name=混合机
 tile.interaction.uu_crafter.name=UU物质生成器
 tile.interaction.vaccum_freezer.name=真空冷冻机
 tile.interaction.molecular_recombination.name=分子重组仪
-
+tile.interaction.orechid.name=机械凝矿兰
 tile.interaction.gaia.name=盖亚凝聚板
 
 #recipe map
@@ -46,7 +46,7 @@ multiblocked.recipe_map.freezer=真空冷冻
 multiblocked.recipe_map.mixer=混合
 multiblocked.recipe_map.chemical_reactor=化学反应
 multiblocked.recipe_map.arcane=辉耀装配
-
+multiblocked.recipe_map.orechid=机械凝矿兰
 multiblocked.recipe_map.gaia=盖亚凝聚
 
 #part

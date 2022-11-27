@@ -61,6 +61,8 @@ ManaInfusion.addInfusion(<botania:managlass>, <engineersdecor:panzerglass_block>
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
 
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "loonium"}));
+
 //泰拉凝聚板
 RecipeUtils.recipeTweak(true, <botania:terraplate>, [[<botanicadds:mana_lapis_block>,<botanicadds:mana_lapis_block>, <botanicadds:mana_lapis_block>], [<ore:runeWaterB>, <botania:storage>, <ore:runeFireB>], [<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
 recipes.remove(<botanicadds:terra_catalyst>);
