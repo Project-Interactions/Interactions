@@ -26,8 +26,8 @@ var itemsToRemove as string[] = [
 	"enderio:item_alloy_ingot",
 	"actuallyadditions:item_misc:5",
 	"appliedenergistics2:material",
-	"<enderio:item_dark_steel_boots>",
-	"<enderio:item_dark_steel_sword>"
+	"enderio:item_dark_steel_boots",
+	"enderio:item_dark_steel_sword"
 ];
 
 for item in itemsToRemove {

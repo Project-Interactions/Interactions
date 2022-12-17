@@ -328,3 +328,8 @@ recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {
 
 recipes.removeByRecipeName("immersiveintelligence:blueprints/schemes/processor");
 recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "immersiveintelligence:material", Count: 1, Damage: 9}}), [[<ore:transistor>, <immersiveintelligence:radio_configurator>, <ore:transistor>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+
+
+mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
+mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
+mods.immersiveengineering.Crusher.removeRecipesForInput(<embers:ore_nickel>);

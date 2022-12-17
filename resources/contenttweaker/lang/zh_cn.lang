@@ -140,7 +140,8 @@ item.contenttweaker.crude_salis_mundus.name=粗制的世界盐
 
 
 ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l!
-
-
-
+ia.custom.anticheat.name=检测到安装了作弊模组，请立即删除，否则将失去技术支持！
+ia.custom.modpackversion.name=整合包版本
+ia.custom.scoreboard1.name=测试1
+ia.custom.scoreboard2.name=测试2
 

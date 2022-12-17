@@ -105,3 +105,7 @@ Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key:
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),2);
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),2);
 
+//chest ae crafting crash fix
+recipes.removeByRecipeName("minecraft:chest");
+var plank = <ore:plankWood>;
+recipes.addShaped(<minecraft:chest>,[[plank,plank,plank],[plank,null,plank],[plank,plank,plank]]);

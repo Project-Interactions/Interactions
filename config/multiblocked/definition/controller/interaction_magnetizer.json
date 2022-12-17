@@ -1,48 +1,70 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "interaction:magnetizer",
   "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "calculator:redstoneextractor",
-      "meta": 0
-    },
-    "type": "blockstate"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "isOpaqueCube": true,
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "mekanismgenerators:generator",
+          "meta": 9
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "magnetize",
   "basePattern": {
     "structureDir": [
-      "FRONT",
+      "LEFT",
       "UP",
-      "LEFT"
+      "BACK"
     ],
     "pattern": [
       [
-        "     ",
-        " AAB ",
-        "     "
+        "AAA",
+        "A@A",
+        "AAA"
       ],
       [
-        " CCC ",
-        "ADDDD",
-        " CCC "
+        "BCB",
+        "C C",
+        "BCB"
       ],
       [
-        " CCC ",
-        "ADDD@",
-        " CCC "
+        "BCB",
+        "C C",
+        "BCB"
       ],
       [
-        " CCC ",
-        "ADDDD",
-        " CCC "
+        "BCB",
+        "C C",
+        "BCB"
       ],
       [
-        "     ",
-        " AAE ",
-        "     "
+        "DDD",
+        "DAD",
+        "EFG"
       ]
     ],
     "aisleRepetitions": [
@@ -71,8 +93,8 @@
       "A": {
         "states": [
           {
-            "id": "immersiveengineering:metal_decoration0",
-            "meta": 3
+            "id": "tconstruct:clear_glass",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -80,6 +102,15 @@
       "controller": {
         "location": "interaction:magnetizer",
         "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 2
+          }
+        ],
+        "type": "states"
       },
       "item": {
         "capability": "item",
@@ -97,14 +128,18 @@
       "D": {
         "states": [
           {
-            "id": "tconstruct:clear_glass",
-            "meta": 0
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 3
           }
         ],
         "type": "states"
       },
       "any": {
         "type": "any"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
       },
       "energy": {
         "capability": "forge_energy",
@@ -122,7 +157,7 @@
         "A"
       ],
       "B": [
-        "item"
+        "B"
       ],
       "C": [
         "C"
@@ -131,9 +166,14 @@
         "D"
       ],
       "E": [
+        "fluid"
+      ],
+      "F": [
         "energy"
+      ],
+      "G": [
+        "item"
       ]
     }
-  },
-  "recipeMap": "magnetize"
+  }
 }

@@ -4,8 +4,16 @@ import crafttweaker.event.IPlayerEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.CommandEvent;
+import crafttweaker.block.IBlock;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.text.ITextComponent;
+import mods.zenutils.HexHelper;
+import mods.zenutils.I18n;
 
-/*
 var mod as string[]=[
     "upsizer",
     "utimatestack",
@@ -33,18 +41,11 @@ var mod as string[]=[
 
 for i in mod{
     if(loadedMods in i){
-        events.onPlayerLoggedIn(
-            function(event as crafttweaker.event.PlayerLoggedInEvent){
-                val ep = event.player;
-                if(!ep.world.remote){
-                    ep.world.catenation()
-                        .sleep(20)
-                        .then(function(world, context) {
-                            ep.sendMessage(ep.name + "，请不要加载作弊模组，否则将失去技术支持");
-                        });
-                }
-            }
-        );
+        events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
+	    val player as IPlayer = event.player;
+	        if(!player.world.isRemote()) {
+		        player.sendRichTextStatusMessage(ITextComponent.fromTranslation("ia.custom.anticheat.name"), false);
+	        }
+        });
     }
 }
-*/

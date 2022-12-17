@@ -1,17 +1,39 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "interaction:chaos",
   "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "draconicevolution:fusion_crafting_core",
-      "meta": 0
-    },
-    "type": "blockstate"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "isOpaqueCube": true,
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "draconicevolution:fusion_crafting_core",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "chaos",
   "basePattern": {
     "structureDir": [
       "RIGHT",
@@ -137,6 +159,5 @@
         "G"
       ]
     }
-  },
-  "recipeMap": "chaos"
+  }
 }

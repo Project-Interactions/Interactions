@@ -1,17 +1,39 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "interaction:vaccum_freezer",
   "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "auraddons:block_freezer",
-      "meta": 0
-    },
-    "type": "blockstate"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "isOpaqueCube": true,
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "auraddons:block_freezer",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "freezer",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -108,6 +130,5 @@
         "energy"
       ]
     }
-  },
-  "recipeMap": "freezer"
+  }
 }

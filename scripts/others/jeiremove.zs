@@ -20,7 +20,8 @@ var jeiremove as string[]=[
 "pe.collector",
 "actuallyadditions.booklet",
 "flux",
-"if_manual_category"
+"if_manual_category",
+"Analysing Chamber"
 ];
 for Remove in jeiremove {
     JEI.hideCategory(Remove);

@@ -96,3 +96,6 @@ RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamr
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:4>);
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:7>);
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource>);
+
+// 
+recipes.removeByRecipeName("botanicadds:mana_tesseract_bind");

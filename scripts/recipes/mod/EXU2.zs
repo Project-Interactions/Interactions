@@ -87,3 +87,5 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:passivegenerator:6
 ]);
 
 recipes.addShaped(<interaction:gp>, [[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>],[<contenttweaker:useful_ingot>, <extrautils2:poweroverload>, <contenttweaker:useful_ingot>], [<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>]]);
+
+mods.extrautils2.Crusher.remove(<thermalfoundation:material:69>);

@@ -50,5 +50,5 @@ HellFireForgeTweak.setWorldWillTransferRate(10);
 //Crafting with all Will types
 HellFireForgeTweak.setCraftWithAllWillTypes(true);
 
-//divinity  32 8 4 16
-AlchemyTable.removeRecipe([<bloodarsenal:base_item:8>*32,<bloodmagic:decorative_brick:2>*8,<minecraft:golden_apple:1>*4,<minecraft:nether_star>*16]);
+//divinity
+AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);

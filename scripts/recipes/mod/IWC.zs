@@ -10,11 +10,11 @@ FluidToFluid.transform(<liquid:mana>, <liquid:cobalt>, [<thermalfoundation:geode
 FluidToFluid.transform(<liquid:witch_water>, <liquid:sewage>, [<tconstruct:slime_dirt>], true);
 //fti
 FluidToItem.transform(<embers:blend_caminite>, <liquid:blend_caminite>, [<deepmoblearning:polymer_clay>], true);
-FluidToItem.transform(<appliedenergistics2:material:45>*16, <liquid:dark_steel>, [<techreborn:dust:3>*64], true);
+FluidToItem.transform(<appliedenergistics2:material:45>*16, <liquid:steel>, [<techreborn:dust:3>*64], true);
 FluidToItem.transform(<tconstruct:slime_dirt>, <liquid:slime_cot>, [<minecraft:dirt>], true);
 FluidToItem.transform(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), <liquid:napalm>, [<immersiveengineering:blueprint>], true);
-FluidToItem.transform(<contenttweaker:ore_essence>*64, <liquid:ore_water>, [<botania:manaresource:21>*2], true);
-FluidToItem.transform(<contenttweaker:ore_essence>*64, <liquid:ore_water>, [<practicallogistics2:stoneplate>], true);
+FluidToItem.transform(<contenttweaker:ore_essence>*16, <liquid:ore_water>, [<botania:manaresource:21>*2], true);
+FluidToItem.transform(<contenttweaker:ore_essence>*16, <liquid:ore_water>, [<practicallogistics2:stoneplate>], true);
 FluidToItem.transform(<minecraft:clay>, <liquid:water>, [<extrautils2:compressedsand>], true);
 FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dirt>], true);
 FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:logWood>*64], true);
@@ -29,15 +29,15 @@ FluidToItem.transform(<mekanism:energycube>.withTag({tier: 4, mekData: {energySt
 FluidToItem.transform(<mekanism:gastank>.withTag({tier: 4}), <liquid:ytinifni>, [<mekanism:gastank>.withTag({tier: 3, mekData: {stored: {amount: 512000, gasName: "everlasting"}}}),<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}})], true);
 FluidToItem.transform(<contenttweaker:aether_log_fix>, <liquid:etching_acid>, [<aether_legacy:aether_log>], false);
 
-FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:ink>, [<naturesaura:bottle_two_the_rebottling>], true);
-FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <liquid:liquid_sunshine>, [<naturesaura:bottle_two_the_rebottling>], true);
-FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), <liquid:nether_brick>, [<naturesaura:bottle_two_the_rebottling>], true);
+FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:ink>, [<naturesaura:bottle_two_the_rebottling>], false);
+FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <liquid:liquid_sunshine>, [<naturesaura:bottle_two_the_rebottling>], false);
+FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), <liquid:molten_netherite>, [<naturesaura:bottle_two_the_rebottling>], false);
 
 //boom
 explosioncrafting.addRecipe(<avaritia:neutronium_compressor>,<extendedcrafting:compressor>,50);
 explosioncrafting.addRecipe(<techreborn:part:44>,<techreborn:rubber_sapling> ,0);
-explosioncrafting.addRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:refined_ore_essence>,20);
-explosioncrafting.addRecipe(<contenttweaker:ore_essence>,<contenttweaker:basic_refined_ore_essence>,0);
+explosioncrafting.addRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:refined_ore_essence>,40);
+explosioncrafting.addRecipe(<contenttweaker:ore_essence>,<contenttweaker:basic_refined_ore_essence>,20);
 explosioncrafting.addRecipe(<thermalfoundation:material:768>,<techreborn:dust:16> ,90);
 explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<mysticalagriculture:fire_essence> ,40);
 //gems

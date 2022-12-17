@@ -62,4 +62,5 @@ recipes.addShaped(<calculator:sickle>, [[null, <ore:blockUnstable>, <ore:blockUn
 RecipeUtils.recipeTweak(true, <calculator:algorithmassimilator>, [[null, <calculator:stoneassimilator>, null], [<calculator:material:3>, <calculator:algorithmseparator:*>, <calculator:material:3>], [null, <calculator:material:3>, null]]);
 RecipeUtils.recipeTweak(true, <calculator:dockingstation>, [[null, <ore:circuitOperation>, null], [<calculator:flawlessassembly>, <calculator:powercube:*>, <calculator:flawlessassembly>], [<calculator:flawlessassembly>, <ore:circuitOperation>, <calculator:flawlessassembly>]]);
 
+recipes.remove(<calculator:analysingchamber>);
 

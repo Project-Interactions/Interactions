@@ -1,6 +1,7 @@
 {
   "name": "arcane",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "29f630f9-d4b9-4ddc-a493-1cf3183e1247",
@@ -163,7 +164,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"mekanism:gastank\",Count:3b,Damage:0s}"
+                "{id:\"moreplates:osmium_gear\",Count:3b,Damage:0s}"
               ]
             }
           },
@@ -346,7 +347,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"mekanism:machineblock2\",Count:3b,Damage:11s}"
+                "{id:\"thermalfoundation:material\",Count:3b,Damage:24s}"
               ]
             }
           }

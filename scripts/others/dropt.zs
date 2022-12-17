@@ -122,13 +122,6 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<qmd:dust:13>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<techreborn:dust>])
       )
       .addDrop(

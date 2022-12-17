@@ -1,17 +1,39 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "interaction:molecular_recombination",
   "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "techreborn:fusion_control_computer",
-      "meta": 7
-    },
-    "type": "blockstate"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "isOpaqueCube": true,
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "threng:big_assembler",
+          "meta": 4
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "molecular_recombination",
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -148,7 +170,7 @@
         "capability": "fluid",
         "type": "capability"
       },
-      "energy": {
+      "fe": {
         "capability": "forge_energy",
         "type": "capability"
       }
@@ -164,7 +186,7 @@
         "A"
       ],
       "B": [
-        "energy"
+        "fe"
       ],
       "C": [
         "C"
@@ -186,6 +208,5 @@
         "qmd"
       ]
     }
-  },
-  "recipeMap": "molecular_recombination"
+  }
 }

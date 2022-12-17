@@ -117,3 +117,14 @@ Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:34>);
 Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:35>);
 Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:36>);
 Recycling.makeStackInvalidRecyclingOutput(<mysticalagriculture:crafting:37>);
+
+
+recipes.removeByRecipeName("mysticalagriculture:supremium_helmet");
+recipes.removeByRecipeName("mysticalagriculture:supremium_chestplate");
+recipes.removeByRecipeName("mysticalagriculture:supremium_leggings");
+recipes.removeByRecipeName("mysticalagriculture:supremium_boots");
+recipes.addShaped(<mysticalagriculture:supremium_boots>, [[null, null, null],[<mysticalagriculture:crafting:37>, <deepmoblearning:glitch_infused_boots>, <mysticalagriculture:crafting:37>], [<mysticalagriculture:crafting:37>, <mysticalagriculture:gear:9>, <mysticalagriculture:crafting:37>]]);
+recipes.addShaped(<mysticalagriculture:supremium_leggings>, [[<mysticalagriculture:crafting:37>, <mysticalagriculture:gear:9>, <mysticalagriculture:crafting:37>],[<mysticalagriculture:crafting:37>, <deepmoblearning:glitch_infused_leggings>, <mysticalagriculture:crafting:37>], [<mysticalagriculture:crafting:37>, null, <mysticalagriculture:crafting:37>]]);
+recipes.addShaped(<mysticalagriculture:supremium_chestplate>, [[<mysticalagriculture:crafting:37>, <mysticalagriculture:gear:9>, <mysticalagriculture:crafting:37>],[<mysticalagriculture:crafting:37>, <deepmoblearning:glitch_infused_chestplate>, <mysticalagriculture:crafting:37>], [<mysticalagriculture:crafting:37>, <mysticalagriculture:crafting:37>, <mysticalagriculture:crafting:37>]]);
+recipes.addShaped(<mysticalagriculture:supremium_helmet>, [[<mysticalagriculture:crafting:37>, <mysticalagriculture:gear:9>, <mysticalagriculture:crafting:37>],[<mysticalagriculture:crafting:37>, <deepmoblearning:glitch_infused_helmet>, <mysticalagriculture:crafting:37>], [null, null, null]]);
+
