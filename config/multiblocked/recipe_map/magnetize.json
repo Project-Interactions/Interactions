@@ -1,6 +1,7 @@
 {
   "name": "magnetize",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "b80040e8-b95d-4f13-893a-5806a1da00e7",

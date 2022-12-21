@@ -15,6 +15,9 @@ import mods.techreborn.industrialGrinder;
 import mods.techreborn.fusionReactor;
 import mods.techreborn.vacuumFreezer;
 import mods.techreborn.fluidReplicator;
+import mods.techreborn.grinder;
+
+
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:10>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
 recipes.removeShaped(<techreborn:upgrades>, [[<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
@@ -220,3 +223,5 @@ RecipeUtils.recipeTweak(true, <techreborn:quantum_tank>, [[<ore:circuitMaster>, 
 recipes.addShaped(<techreborn:pump>, [[null, null, null],[<ore:circuitMana>, <techreborn:machine_frame>, <ore:circuitMana>], [<immersiveengineering:metal_device0:5>, <ore:circuitMana>, <immersiveengineering:metal_device0:5>]]);
 
 recipes.addShaped(<techreborn:lapotroncrystal>, [[<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>],[<ore:gearEnergium>, <ore:plateSapphire>, <ore:gearEnergium>], [<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>]]);
+
+grinder.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 300, 8);

@@ -1,6 +1,7 @@
 {
   "name": "blastfurnace",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "3868fd61-38f1-4f14-810e-93ea099560f1",
@@ -316,11 +317,14 @@
           }
         ]
       },
-      "conditions": {
-        "dimension": {
-          "dim": "theaurorian"
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "theaurorian"
+          }
         }
-      }
+      ]
     },
     {
       "uid": "525c0ef8-85fd-44ad-a14b-46e35a7f2419",
@@ -511,15 +515,18 @@
           }
         ]
       },
-      "conditions": {
-        "block": {
-          "block": {
-            "id": "contenttweaker:sub_block_holder_0",
-            "meta": 6
-          },
-          "count": 16
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "contenttweaker:sub_block_holder_0",
+              "meta": 6
+            },
+            "count": 16
+          }
         }
-      }
+      ]
     },
     {
       "uid": "06dd417c-02b4-4f01-a45b-603ab1fa94dd",
@@ -762,15 +769,18 @@
           }
         ]
       },
-      "conditions": {
-        "block": {
-          "block": {
-            "id": "contenttweaker:sub_block_holder_0",
-            "meta": 6
-          },
-          "count": 16
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "contenttweaker:sub_block_holder_0",
+              "meta": 6
+            },
+            "count": 16
+          }
         }
-      }
+      ]
     }
   ]
 }

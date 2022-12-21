@@ -333,3 +333,5 @@ recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {
 mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<embers:ore_nickel>);
+
+mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 2048);

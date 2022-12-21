@@ -1,6 +1,7 @@
 {
   "name": "orechid",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "7a662ca9-17c4-4db6-adaf-80e60886b3ae",

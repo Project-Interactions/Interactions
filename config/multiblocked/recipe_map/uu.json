@@ -1,6 +1,7 @@
 {
   "name": "uu",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "f434a836-6eef-46d8-8abe-556ce3f965e5",

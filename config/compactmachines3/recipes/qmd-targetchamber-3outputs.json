@@ -1,0 +1,302 @@
+{
+  "name": "cm3qmd:target_chamber_3outputs",
+
+  "disabled": false,
+
+  "target-item": "qmd:target_chamber_controller",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "multiblocked:blueprint",
+  "catalyst-meta": 0,
+  
+
+
+  "input-types": {
+    "a": {
+      "id": "qmd:particle_chamber_casing",
+      "meta": 1,
+      "item": {
+        "id": "qmd:particle_chamber_casing",
+        "meta": 0,
+        "count": 53
+      }
+    },
+    "b": {
+      "id": "qmd:particle_chamber_glass",
+      "meta": 0,
+      "item": {
+        "id": "qmd:particle_chamber_glass",
+        "meta": 0,
+        "count": 39
+      }
+    },
+    "c": {
+      "id": "qmd:particle_chamber_beam_port",
+      "meta": 0
+    },
+    "d": {
+      "id": "qmd:target_chamber_controller",
+      "meta": 2,
+      "item": {
+        "id": "qmd:target_chamber_controller",
+        "meta": 0,
+        "count": 1
+      }
+    },
+    "e": {
+      "id": "qmd:particle_chamber_energy_port",
+      "meta": 0
+    },
+    "h": {
+      "id": "qmd:particle_chamber_beam",
+      "meta": 0,
+      "item": {
+        "id": "qmd:particle_chamber_beam",
+        "meta": 0,
+        "count": 4
+      }
+    },
+    "j": {
+      "id": "qmd:particle_chamber_beam_port",
+      "meta": 1,
+      "item": {
+        "id": "qmd:particle_chamber_beam_port",
+        "meta": 0,
+        "count": 3
+      }
+    },
+    "k": {
+      "id": "qmd:particle_chamber",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_casing\"}"
+    },
+    "b:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_glass\"}"
+    },
+    "c:A": {
+      "nbt": "{redstoneControl:0b,mode:0,IONumber:0,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_beam_port\"}"
+    },
+    "d:A": {
+      "nbt": "{isRedstonePowered:0b,alternateComparator:0b,redstoneControl:0b,inventoryConnection0:{sorption1:1,sorption0:0},inventoryConnection1:{sorption1:1,sorption0:0},radiationLevel:0.0d,inventoryConnection4:{sorption1:1,sorption0:0},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},inventoryConnection5:{sorption1:1,sorption0:0},Items:[],inventoryConnection2:{sorption1:1,sorption0:0},id:\"qmd:particle_chamber_target_chamber_controller\",inventoryConnection3:{sorption1:1,sorption0:0}}"
+    },
+    "e:A": {
+      "nbt": "{energyConnections0:0,isRedstonePowered:0b,energyConnections4:0,energyConnections3:0,energyStorage:{energy:0L,capacity:5000000L},energyConnections2:0,energyConnections1:0,alternateComparator:0b,energyConnections5:0,redstoneControl:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:particle_chamber_energy_port\"}"
+    },
+    "a:B": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,multiblockData:{efficiency:2.4500000000000006d,energyStorage:{energy:0L,capacity:5000000L},ParticleStorage4:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},ParticleStorage3:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},ParticleStorage2:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},ParticleStorage1:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},ParticleStorage0:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},isChamberOn:0b,tanks1:{Empty:\"\",capacity:1000},ParticleStorage5:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},requiredEnergy:9400,tanks0:{Empty:\"\",capacity:1000},logic:{outputSwitched:0b,recipeParticleCount:100L,particleCount:0L},logicID:\"target_chamber\"},radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_casing\"}"
+    },
+    "h:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,isFunctional:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_beam\"}"
+    },
+    "a:C": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_casing\"}"
+    },
+    "j:A": {
+      "nbt": "{redstoneControl:0b,mode:1,IONumber:1,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_beam_port\"}"
+    },
+    "k:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_particle_chamber\"}"
+    },
+    "j:B": {
+      "nbt": "{redstoneControl:0b,mode:1,IONumber:3,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_beam_port\"}"
+    },
+    "j:C": {
+      "nbt": "{redstoneControl:0b,mode:1,IONumber:2,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:particle_chamber_beam_port\"}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "c:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "h:A",
+        "_",
+        "b:A"
+      ],
+      [
+        "j:B",
+        "h:A",
+        "k:A",
+        "h:A",
+        "j:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "h:A",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "j:C",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "e:A",
+        "d:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:B",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ]
+  ]
+
+}

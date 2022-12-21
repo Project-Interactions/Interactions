@@ -17,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "appliedenergistics2:controller",
-          "meta": 1
+          "id": "appliedenergistics2:dense_energy_cell",
+          "meta": 0
         },
         "type": "blockstate"
       }
@@ -36,9 +36,9 @@
   "recipeMap": "ae_crafter",
   "basePattern": {
     "structureDir": [
-      "RIGHT",
+      "FRONT",
       "UP",
-      "FRONT"
+      "LEFT"
     ],
     "pattern": [
       [
@@ -50,30 +50,30 @@
       ],
       [
         "ACCCA",
-        "BD DB",
-        "B   B",
-        "BD DB",
+        "BDEDB",
+        "BE EF",
+        "BDEDB",
         "ACCCA"
       ],
       [
         "ACCCA",
-        "B   B",
-        "B   B",
-        "B   B",
+        "BE EG",
+        "B   @",
+        "BE EH",
         "ACCCA"
       ],
       [
         "ACCCA",
-        "BD DB",
-        "B   B",
-        "BD DB",
+        "BDEDB",
+        "BE EI",
+        "BDEDB",
         "ACCCA"
       ],
       [
         "AAAAA",
-        "AAEAA",
-        "AF@GA",
-        "AAHAA",
+        "ABBBA",
+        "ABBBA",
+        "ABBBA",
         "AAAAA"
       ]
     ],
@@ -103,8 +103,8 @@
       "A": {
         "states": [
           {
-            "id": "calculator:flawlessglass",
-            "meta": 0
+            "id": "chisel:futura",
+            "meta": 2
           }
         ],
         "type": "states"
@@ -116,11 +116,15 @@
       "B": {
         "states": [
           {
-            "id": "appliedenergistics2:sky_stone_block",
+            "id": "calculator:flawlessglass",
             "meta": 0
           }
         ],
         "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
       },
       "C": {
         "states": [
@@ -140,11 +144,11 @@
         ],
         "type": "states"
       },
-      "G": {
+      "E": {
         "states": [
           {
-            "id": "minecraft:chest",
-            "meta": 5
+            "id": "appliedenergistics2:fluix_block",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -160,7 +164,7 @@
         "capability": "fluid",
         "type": "capability"
       },
-      "energy": {
+      "fe": {
         "capability": "forge_energy",
         "type": "capability"
       }
@@ -185,16 +189,19 @@
         "D"
       ],
       "E": [
-        "aspect"
+        "E"
       ],
       "F": [
-        "energy"
+        "item"
       ],
       "G": [
-        "G"
+        "aspect"
       ],
       "H": [
         "fluid"
+      ],
+      "I": [
+        "fe"
       ]
     }
   }

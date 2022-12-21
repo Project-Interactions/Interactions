@@ -1,6 +1,7 @@
 {
   "name": "gaia",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "f4dc050e-7ad2-42fa-b3c4-24e5f7c385f9",

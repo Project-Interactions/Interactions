@@ -1,0 +1,674 @@
+{
+  "name": "cm3qmd:nucleosynthesis_chamber",
+
+  "disabled": false,
+
+  "target-item": "qmd:nucleosynthesis_chamber_controller",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "multiblocked:blueprint",
+  "catalyst-meta": 0,
+  
+
+  "input-types": {
+    "a": {
+      "id": "qmd:containment_casing",
+      "meta": 1,
+      "item": {
+        "id": "qmd:containment_casing",
+        "meta": 0,
+        "count": 103
+      }      
+    },
+    "b": {
+      "id": "qmd:containment_glass",
+      "meta": 0,
+      "item": {
+        "id": "qmd:containment_glass",
+        "meta": 0,
+        "count": 196
+      }        
+    },
+    "c": {
+      "id": "qmd:containment_vent",
+      "meta": 10,
+      "item": {
+        "id": "qmd:containment_vent",
+        "meta": 0,
+        "count": 1
+      }       
+    },
+    "d": {
+      "id": "qmd:vacuum_chamber_heater_vent",
+      "meta": 10,
+      "item": {
+        "id": "qmd:vacuum_chamber_heater_vent",
+        "meta": 0,
+        "count": 1
+      }       
+    },
+    "e": {
+      "id": "qmd:containment_vent",
+      "meta": 2,
+      "item": {
+        "id": "qmd:containment_vent",
+        "meta": 0,
+        "count": 1
+      }       
+    },
+    "f": {
+      "id": "qmd:containment_energy_port",
+      "meta": 0
+    },
+    "g": {
+      "id": "qmd:nucleosynthesis_chamber_controller",
+      "meta": 2,
+      "item": {
+        "id": "qmd:nucleosynthesis_chamber_controller",
+        "meta": 0,
+        "count": 1
+      }      
+    },
+    "h": {
+      "id": "qmd:vacuum_chamber_heater_vent",
+      "meta": 2,
+      "item": {
+        "id": "qmd:vacuum_chamber_heater_vent",
+        "meta": 0,
+        "count": 1
+      }     
+    },
+    "i": {
+      "id": "qmd:vacuum_chamber_heater",
+      "meta": 7,
+      "item": {
+        "id": "qmd:vacuum_chamber_heater",
+        "meta": 7,
+        "count": 8
+      }     
+    },
+    "j": {
+      "id": "qmd:vacuum_chamber_plasma_glass",
+      "meta": 0,
+      "item": {
+        "id": "qmd:vacuum_chamber_plasma_glass",
+        "meta": 0,
+        "count": 20
+      }     
+    },
+    "l": {
+      "id": "qmd:vacuum_chamber_fluid_port",
+      "meta": 5,
+      "item": {
+        "id": "qmd:vacuum_chamber_fluid_port",
+        "meta": 0,
+        "count": 1
+      }     
+    },
+    "m": {
+      "id": "qmd:vacuum_chamber_beam",
+      "meta": 0,
+      "item": {
+        "id": "qmd:vacuum_chamber_beam",
+        "meta": 0,
+        "count": 15
+      }   
+    },
+    "n": {
+      "id": "qmd:vacuum_chamber_fluid_port",
+      "meta": 12,
+      "item": {
+        "id": "qmd:vacuum_chamber_fluid_port",
+        "meta": 0,
+        "count": 1
+      }     
+    },
+    "o": {
+      "id": "qmd:containment_beam_port",
+      "meta": 0
+    },
+    "p": {
+      "id": "qmd:vacuum_chamber_plasma_nozzle",
+      "meta": 0,
+      "item": {
+        "id": "qmd:vacuum_chamber_plasma_nozzle",
+        "meta": 0,
+        "count": 1
+      }   
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_casing\"}"
+    },
+    "b:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_glass\"}"
+    },
+    "c:A": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:1,sorption0:3},alternateComparator:0b,fluidConnection2:{sorption1:1,sorption0:3},fluidConnection1:{sorption1:1,sorption0:3},fluidConnection0:{sorption1:1,sorption0:3},fluidConnection5:{sorption1:1,sorption0:3},fluidConnection4:{sorption1:1,sorption0:3},redstoneControl:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_vent\"}"
+    },
+    "d:A": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:1,sorption0:3},alternateComparator:0b,fluidConnection2:{sorption1:1,sorption0:3},fluidConnection1:{sorption1:1,sorption0:3},fluidConnection0:{sorption1:1,sorption0:3},fluidConnection5:{sorption1:1,sorption0:3},fluidConnection4:{sorption1:1,sorption0:3},redstoneControl:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_heater_vent\"}"
+    },
+    "e:A": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:3,sorption0:0},alternateComparator:0b,fluidConnection2:{sorption1:3,sorption0:0},fluidConnection1:{sorption1:3,sorption0:0},fluidConnection0:{sorption1:3,sorption0:0},fluidConnection5:{sorption1:3,sorption0:0},fluidConnection4:{sorption1:3,sorption0:0},redstoneControl:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_vent\"}"
+    },
+    "f:A": {
+      "nbt": "{energyConnections0:0,isRedstonePowered:0b,energyConnections4:0,energyConnections3:0,energyStorage:{energy:0L,capacity:15400000L},energyConnections2:0,energyConnections1:0,alternateComparator:0b,energyConnections5:0,redstoneControl:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_energy_port\"}"
+    },
+    "g:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_neucleosynthesis_chamber_controller\"}"
+    },
+    "h:A": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:3,sorption0:0},alternateComparator:0b,fluidConnection2:{sorption1:3,sorption0:0},fluidConnection1:{sorption1:3,sorption0:0},fluidConnection0:{sorption1:3,sorption0:0},fluidConnection5:{sorption1:3,sorption0:0},fluidConnection4:{sorption1:3,sorption0:0},redstoneControl:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_heater_vent\"}"
+    },
+    "a:B": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,multiblockData:{coolantIn:0,energyStorage:{energy:0L,capacity:15400000L},maxOperatingTemp:104.0d,cold:1b,heatBuffer:{heatStored:6954062L,heatCapacity:9625000L},ParticleStorage1:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},ParticleStorage0:{maxEnergy:9223372036854775807L,minEnergy:0L,particle_stack:{amount:0,focus:0.0d,meanEnergy:0L},capacity:2147483647},tanks5:{Empty:\"\",capacity:10000},isContainmentOn:0b,coolantOut:0,tanks6:{Empty:\"\",capacity:10000},tanks7:{Empty:\"\",capacity:10000},tanks1:{Empty:\"\",capacity:1232000},tanks2:{Empty:\"\",capacity:100000},tanks3:{Empty:\"\",capacity:100000},tanks4:{Empty:\"\",capacity:10000},requiredEnergy:19500L,tanks0:{Empty:\"\",capacity:3850},logic:{recipeParticleWork:600L,plasmaOn:0b,excessCasingHeat:0.0d,excessCasingCoolant:0,excessCoolant:0,casingHeating:0.0d,maxCasingCoolantOut:0,casingHeatBuffer:{heatStored:0L,heatCapacity:9625000L},casingCooling:5120L,maxCasingCoolantIn:0,particleWorkDone:0L},heating:4500L,logicID:\"nucleosynthesis_chamber\"},radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_casing\"}"
+    },
+    "i:A": {
+      "nbt": "{redstoneControl:0b,coolingRate:640,isRedstonePowered:0b,radiationLevel:0.0d,name:\"diamond\",ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_heaterdiamond\",ruleID:\"diamond_heater\"}"
+    },
+    "j:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_plasma_glass\"}"
+    },
+    "a:C": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_casing\"}"
+    },
+    "l:A": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:3,sorption0:0},alternateComparator:0b,fluidConnection2:{sorption1:3,sorption0:0},fluidConnection1:{sorption1:3,sorption0:0},fluidConnection0:{sorption1:3,sorption0:0},fluidConnection5:{sorption1:3,sorption0:0},fluidConnection4:{sorption1:3,sorption0:0},redstoneControl:0b,IONumber:4,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_fluid_port\"}"
+    },
+    "m:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,isFunctional:1b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_beam\"}"
+    },
+    "n:A": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:3,sorption0:1},alternateComparator:0b,fluidConnection2:{sorption1:3,sorption0:1},fluidConnection1:{sorption1:3,sorption0:1},fluidConnection0:{sorption1:3,sorption0:1},fluidConnection5:{sorption1:3,sorption0:1},fluidConnection4:{sorption1:3,sorption0:1},redstoneControl:0b,IONumber:6,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_fluid_port\"}"
+    },
+    "l:B": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:3,sorption0:0},alternateComparator:0b,fluidConnection2:{sorption1:3,sorption0:0},fluidConnection1:{sorption1:3,sorption0:0},fluidConnection0:{sorption1:3,sorption0:0},fluidConnection5:{sorption1:3,sorption0:0},fluidConnection4:{sorption1:3,sorption0:0},redstoneControl:0b,IONumber:5,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_fluid_port\"}"
+    },
+    "n:B": {
+      "nbt": "{isRedstonePowered:0b,fluidConnection3:{sorption1:3,sorption0:1},alternateComparator:0b,fluidConnection2:{sorption1:3,sorption0:1},fluidConnection1:{sorption1:3,sorption0:1},fluidConnection0:{sorption1:3,sorption0:1},fluidConnection5:{sorption1:3,sorption0:1},fluidConnection4:{sorption1:3,sorption0:1},redstoneControl:0b,IONumber:7,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"qmd:containment_fluid_port\"}"
+    },
+    "o:A": {
+      "nbt": "{redstoneControl:0b,mode:0,IONumber:0,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_beam_port\"}"
+    },
+    "p:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"qmd:containment_cd_nozzle\"}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "n:A",
+        "m:A",
+        "m:A",
+        "m:A",
+        "m:A",
+        "m:A",
+        "m:A",
+        "m:A",
+        "m:A",
+        "m:A",
+        "l:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "m:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "m:A",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "n:B",
+        "m:A",
+        "_",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "_",
+        "m:A",
+        "l:B"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "d:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "c:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "m:A",
+        "p:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "p:A",
+        "m:A",
+        "o:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "h:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "g:A",
+        "b:A",
+        "f:A",
+        "b:A",
+        "e:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "j:A",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:B",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:C",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ]
+  ]
+  
+}

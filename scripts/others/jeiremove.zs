@@ -1,6 +1,5 @@
 import mods.jei.JEI;
 
-
 var jeiremove as string[]=[
 "jehc.market",
 "TechReborn.Compressor",
@@ -20,25 +19,8 @@ var jeiremove as string[]=[
 "pe.collector",
 "actuallyadditions.booklet",
 "flux",
-"if_manual_category",
-"Analysing Chamber"
+"if_manual_category"
 ];
 for Remove in jeiremove {
     JEI.hideCategory(Remove);
 }
-
-
-
-JEI.hide(<appliedenergistics2:facade>);
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,7 @@
 {
   "name": "mixer",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "4ae90ff0-0afb-4e7a-b4c6-960e46b1c13d",

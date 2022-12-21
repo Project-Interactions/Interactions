@@ -1,6 +1,7 @@
 {
   "name": "pnc",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "d78d830b-5acd-41e0-b53f-65c4e6df9826",

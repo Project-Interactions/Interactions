@@ -1,6 +1,7 @@
 {
   "name": "ae_crafter",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "b76517c5-62f5-4ab1-b01b-3aa31d65cbe9",

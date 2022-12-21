@@ -1,0 +1,503 @@
+{
+  "name": "cm3nuclearcraft:irradatior",
+
+  "disabled": false,
+
+  "target-item": "nuclearcraft:solid_fission_controller",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "multiblocked:blueprint",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "nuclearcraft:fission_casing",
+      "meta": 1,
+      "item": {
+        "id": "nuclearcraft:fission_casing",
+        "meta": 0,
+        "count": 96
+      }
+    },
+    "b": {
+      "id": "nuclearcraft:fission_glass",
+      "meta": 0
+    },
+    "c": {
+      "id": "nuclearcraft:solid_fission_controller",
+      "meta": 3,
+      "item": {
+        "id": "nuclearcraft:solid_fission_controller",
+        "meta": 0,
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "nuclearcraft:fission_source",
+      "meta": 0
+    },
+    "e": {
+      "id": "nuclearcraft:solid_fission_sink",
+      "meta": 7
+    },
+    "f": {
+      "id": "nuclearcraft:solid_fission_cell",
+      "meta": 0
+    },
+    "g": {
+      "id": "nuclearcraft:heavy_water_moderator",
+      "meta": 0
+    },
+    "h": {
+      "id": "nuclearcraft:fission_irradiator",
+      "meta": 0
+    },
+    "i": {
+      "id": "nuclearcraft:solid_fission_sink2",
+      "meta": 4
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"nuclearcraft:fission_casing\"}"
+    },
+    "b:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"nuclearcraft:fission_glass\"}"
+    },
+    "c:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"nuclearcraft:solid_fission_controller\"}"
+    },
+    "d:A": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,efficiency:0.9d,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,facing:4,id:\"nuclearcraft:fission_source_radium_beryllium\"}"
+    },
+    "e:A": {
+      "nbt": "{isRedstonePowered:0b,clusterHeat:0L,alternateComparator:0b,sinkName:\"lapis\",redstoneControl:0b,coolingRate:100,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"nuclearcraft:solid_fission_sink_lapis\",ruleID:\"lapis_sink\"}"
+    },
+    "f:A": {
+      "nbt": "{isRedstonePowered:0b,decayProcessHeat:0.0d,isProcessing:0b,alternateComparator:0b,iodineFraction:0.0d,redstoneControl:0b,baseProcessCriticality:1,selfPriming:0b,poisonFraction:0.0d,canProcessInputs:0b,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},flux:0,Items:[],id:\"nuclearcraft:solid_fission_cell\",baseProcessHeat:0,hasConsumed:0b,decayHeatFraction:0.0d,baseProcessEfficiency:0.0d,clusterHeat:0L,inventoryConnection0:{sorption1:3,sorption0:3},inventoryConnection1:{sorption1:3,sorption0:3},baseProcessDecayFactor:0.0d,radiationLevel:0.0d,inventoryConnection4:{sorption1:3,sorption0:3},inventoryConnection5:{sorption1:3,sorption0:3},inventoryConnection2:{sorption1:3,sorption0:3},inventoryConnection3:{sorption1:3,sorption0:3},time:0.0d,baseProcessTime:1.0d}"
+    },
+    "h:A": {
+      "nbt": "{isRedstonePowered:0b,isProcessing:0b,alternateComparator:0b,redstoneControl:0b,canProcessInputs:0b,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},flux:0,Items:[],id:\"nuclearcraft:fission_irradiator\",baseProcessHeatPerFlux:0.0d,hasConsumed:0b,baseProcessEfficiency:0.0d,clusterHeat:0L,inventoryConnection0:{sorption1:3,sorption0:3},inventoryConnection1:{sorption1:3,sorption0:3},radiationLevel:0.0d,inventoryConnection4:{sorption1:3,sorption0:3},inventoryConnection5:{sorption1:3,sorption0:3},inventoryConnection2:{sorption1:3,sorption0:3},inventoryConnection3:{sorption1:3,sorption0:3},time:0.0d,baseProcessTime:1.0d}"
+    },
+    "i:A": {
+      "nbt": "{isRedstonePowered:0b,clusterHeat:0L,alternateComparator:0b,sinkName:\"magnesium\",redstoneControl:0b,coolingRate:125,radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"nuclearcraft:solid_fission_sink_magnesium\",ruleID:\"magnesium_sink\"}"
+    },
+    "a:B": {
+      "nbt": "{redstoneControl:0b,isRedstonePowered:0b,multiblockData:{isReactorOn:0b,fuelComponentCount:0,totalEfficiency:0.0d,clusterCount:0,usefulPartCount:0L,totalHeatMult:0L,meanHeatMult:0.0d,cooling:0L,logic:{tanks1:{Empty:\"\",capacity:1152000},heatingOutputRate:0,heatingOutputRateFP:0.0d,heatBuffer:{heatStored:0L,heatCapacity:7200000L},tanks0:{Empty:\"\",capacity:1152000},effectiveHeating:0.0d,reservedEffectiveHeat:0.0d},logicID:\"solid_fuel\",rawHeating:0L,meanEfficiency:0.0d,sparsityEfficiencyMult:0.5d},radiationLevel:0.0d,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},alternateComparator:0b,id:\"nuclearcraft:fission_casing\"}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "d:A",
+        "e:A",
+        "f:A",
+        "g",
+        "g",
+        "g",
+        "g",
+        "h:A",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "d:A",
+        "e:A",
+        "f:A",
+        "g",
+        "g",
+        "g",
+        "g",
+        "h:A",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "d:A",
+        "e:A",
+        "f:A",
+        "g",
+        "g",
+        "g",
+        "g",
+        "h:A",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "i:A",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "b:A"
+      ],
+      [
+        "d:A",
+        "e:A",
+        "f:A",
+        "g",
+        "g",
+        "g",
+        "g",
+        "h:A",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "c:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:B",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ]
+  ]
+
+}

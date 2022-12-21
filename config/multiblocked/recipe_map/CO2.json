@@ -1,6 +1,7 @@
 {
   "name": "CO2",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "9de966ee-e1fa-4296-87cf-dff2b20c4df0",

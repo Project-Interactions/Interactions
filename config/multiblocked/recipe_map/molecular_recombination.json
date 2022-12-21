@@ -1,6 +1,7 @@
 {
   "name": "molecular_recombination",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "6dc0f8fb-5f70-475e-ad1e-badf1c166e09",
@@ -22,15 +23,6 @@
               "amount": 1,
               "matches": [
                 "{id:\"extrautils2:suncrystal\",Count:1b,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thaumictinkerer:energetic_nitor\",Count:1b,Damage:0s}"
               ]
             }
           },
@@ -70,11 +62,14 @@
           }
         ]
       },
-      "conditions": {
-        "rain": {
-          "level": 0.0
+      "conditions": [
+        {
+          "type": "rain",
+          "condition": {
+            "level": 0.0
+          }
         }
-      }
+      ]
     },
     {
       "uid": "d057d8ff-9cd1-453f-bbb4-8b45ad8fc390",

@@ -1,6 +1,7 @@
 {
   "name": "mana_converter",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
       "uid": "7a98e56c-fd08-469b-acf9-25167a72285d",

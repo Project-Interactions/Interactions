@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:false
 hideServerAddress:false
 advancedItemTooltips:false
@@ -197,8 +197,6 @@ key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_key.aether.accessory_menu:23
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
 key_key.reveal:34
 key_astraladditions.key.ring_toggle:82
 key_key.infinity_armor.noclip:40
