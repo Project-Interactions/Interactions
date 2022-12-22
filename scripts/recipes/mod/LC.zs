@@ -20,6 +20,8 @@ LightningInfusion.add(<lightningcraft:ingot:2>, <lightningcraft:ingot:1>, 160, [
 LightningInfusion.remove(<lightningcraft:ingot>);
 LightningInfusion.add(<lightningcraft:ingot>,<calculator:flawlessdiamond> , 30, [<enderio:item_alloy_ingot:5>,<enderio:item_alloy_ingot:5>,<enderio:item_alloy_ingot:1>,<enderio:item_alloy_ingot:1>]);
 
+LightningInfusion.remove(<lightningcraft:metal_block>);
+
 //machines
 recipes.remove(<lightningcraft:golf_club>);
 recipes.remove(<lightningcraft:golf_club_gold>);

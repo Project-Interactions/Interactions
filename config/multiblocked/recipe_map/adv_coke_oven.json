@@ -1,0 +1,113 @@
+{
+  "name": "adv_coke_oven",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "8145aae1-480d-49dc-b904-921e923ad99a",
+      "duration": 5000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal_block\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:stone_decoration\",Count:1b,Damage:3s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:5000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "48c75532-29a0-4d6f-81dc-8aa45f2b7929",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:material\",Count:1b,Damage:6s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:500}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8c739b32-19f6-4264-ac1e-de1f75d60d14",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "logWood"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:250}"
+          }
+        ]
+      }
+    }
+  ]
+}

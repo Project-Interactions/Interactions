@@ -197,6 +197,8 @@ key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_key.aether.accessory_menu:23
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
 key_key.reveal:34
 key_astraladditions.key.ring_toggle:82
 key_key.infinity_armor.noclip:40
@@ -234,11 +236,6 @@ key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_key.integratedterminals.terminal.tab.next:15
-key_key.integratedterminals.terminal.tab.previous:15:SHIFT
-key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
-key_key.integratedterminals.terminal.craftinggrid.clearstorage:0:SHIFT
-key_key.integratedterminals.terminal.craftinggrid.balance:48
 key_key.inventoryhud.toggle:23
 key_key.inventoryhud.openconfig:24
 key_key.inventoryhud.togglepot:-1

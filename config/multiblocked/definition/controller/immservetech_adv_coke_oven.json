@@ -1,0 +1,146 @@
+{
+  "version": 2,
+  "location": "immservetech:adv_coke_oven",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 30,
+        "y": 77,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "x": 83,
+        "y": 78,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "x": 58,
+        "y": 111,
+        "autoIO": false,
+        "tC": 16000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "immersivetech:stone_decoration",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "adv_coke_oven",
+  "catalyst": "{id:\"immersiveengineering:tool\",Count:1b,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "AAA",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "@AA",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "AAA",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "immersivetech:stone_decoration",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "immservetech:adv_coke_oven",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

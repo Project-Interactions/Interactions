@@ -14,6 +14,7 @@ vaccum_freezer.name=真空冷冻机
 molecular_recombination.name=分子重组仪
 orechid.name=机械凝矿兰
 gaia.name=盖亚凝聚板
+adv_coke_oven.name=进阶焦炉
 
 #tile
 tile.interaction.magnetizer.name=磁化机
@@ -31,6 +32,7 @@ tile.interaction.vaccum_freezer.name=真空冷冻机
 tile.interaction.molecular_recombination.name=分子重组仪
 tile.interaction.orechid.name=机械凝矿兰
 tile.interaction.gaia.name=盖亚凝聚板
+tile.immersivetech.adv_coke_oven.name=进阶焦炉
 
 #recipe map
 multiblocked.recipe_map.uu=UU生成
@@ -48,6 +50,7 @@ multiblocked.recipe_map.chemical_reactor=化学反应
 multiblocked.recipe_map.arcane=辉耀装配
 multiblocked.recipe_map.orechid=机械凝矿兰
 multiblocked.recipe_map.gaia=盖亚凝聚
+multiblocked.recipe_map.adv_coke_oven=进阶焦炉
 
 #part
 tile.interaction.starlight.name=星能接口

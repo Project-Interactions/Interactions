@@ -104,4 +104,3 @@
 <ore:nuggetRedstoneAlloy>.add(<jaopca:nugget.red_alloy>);
 <ore:nuggetRedAlloy>.add(<enderio:item_alloy_nugget:3>);
 
-<ore:ingotElectricium>.remove(<lightningcraft:ingot>);

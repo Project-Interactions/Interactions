@@ -420,5 +420,10 @@
 				}
 			}
 		}
+	},
+	{
+		uid: "cf5cbcf6",
+		type: "item",
+		item: "theoneprobe:probe"
 	}]
 }

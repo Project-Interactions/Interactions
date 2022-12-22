@@ -17,12 +17,7 @@ recipes.addShaped(<integrateddynamics:cable>, [[<integrateddynamics:crystalized_
 RecipeUtils.recipeTweak(true,<integrateddynamics:mechanical_squeezer>, [[<ore:circuitAdvanced>, <ore:gemDiamond>, <ore:circuitAdvanced>], [<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [<ore:circuitAdvanced>, <ore:obsidian>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<integrateddynamics:energy_battery>, [[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_block>, <integrateddynamics:crystalized_menril_chunk>], [<ore:circuitAdvanced>, <ore:blockRedstone>, <ore:circuitAdvanced>], [<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_block>, <integrateddynamics:crystalized_menril_chunk>]]);
 
-//glass
-DryingBasin.removeRecipesWithOutput(<integratedterminals:menril_glass>, null);
-DryingBasin.addRecipe(<botania:bifrostperm>, <liquid:menrilresin> * 1000, <integratedterminals:menril_glass>, null, 40);
 
-MechanicalDryingBasin.removeRecipesWithOutput(<integratedterminals:menril_glass>, null);
-MechanicalDryingBasin.addRecipe(<botania:managlass>, <liquid:menrilresin> * 1000, <integratedterminals:menril_glass>, null, 40);
 
 recipes.remove(<integrateddynamics:variable>*24);
 recipes.addShaped(<integrateddynamics:variable>*4, [[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <ore:circuitAdvanced>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>]]);

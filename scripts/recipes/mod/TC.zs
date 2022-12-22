@@ -51,7 +51,7 @@ ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
 ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>,[[null,<thaumcraft:mechanism_simple>,null],[<thaumcraft:mechanism_simple>,<ore:circuitAdvanced>,<thaumcraft:mechanism_simple>],[null,<thaumcraft:mechanism_simple>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
-ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<integratedterminals:menril_glass>,<integratedterminals:menril_glass>,<integratedterminals:menril_glass>],[<integratedterminals:menril_glass>,<thaumicaugmentation:material:1>,<integratedterminals:menril_glass>],[<integratedterminals:menril_glass>,<integratedterminals:menril_glass>,<integratedterminals:menril_glass>]]);
+ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<botania:managlass>,<botania:managlass>,<botania:managlass>],[<botania:managlass>,<thaumicaugmentation:material:1>,<botania:managlass>],[<botania:managlass>,<botania:managlass>,<botania:managlass>]]);
 
 recipes.addShapeless(<thaumcraft:thaumonomicon>,[<minecraft:writable_book>,<thaumcraft:crystal_essence:*>]);
 
