@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"也许你想要从匠魂炉里爬出来"
+	],
+	dependencies: [
+		"de08f26e"
+	],
+	tasks: [{
+		uid: "b9691a94",
+		type: "item",
+		items: [{
+			item: "searedladder:seared_ladder"
+		}]
+	}]
+}

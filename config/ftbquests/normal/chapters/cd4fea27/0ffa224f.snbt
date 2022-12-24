@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	dependencies: [
+		"dc4791fa"
+	],
+	tasks: [{
+		uid: "e3dd608c",
+		type: "item",
+		items: [{
+			item: "speedyhoppers:speedyhopper_mk2"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 0.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "1e16e9e6",
+		type: "item",
+		items: [{
+			item: "betterfurnacesreforged:iron_furnace"
+		}]
+	}]
+}

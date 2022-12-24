@@ -202,7 +202,6 @@ for Remove in part {
 }
 */
 
-Casting.addBasinRecipe(<botania:pool:1>, <botania:pool:3>, <liquid:everlasting>, 1000, true, 200);
 Casting.addBasinRecipe(<tinkertoolcasts:cast_creative>, <avaritia:resource:6>, <liquid:everlasting>, 1000, true, 200);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <tconstruct:materials:50>, [

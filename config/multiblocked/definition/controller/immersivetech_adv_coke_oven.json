@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "location": "immservetech:adv_coke_oven",
+  "location": "immersivetech:adv_coke_oven",
   "traits": {
     "item": [
       {
@@ -118,7 +118,7 @@
         "type": "states"
       },
       "controller": {
-        "location": "immservetech:adv_coke_oven",
+        "location": "immersivetech:adv_coke_oven",
         "type": "component"
       },
       "air": {

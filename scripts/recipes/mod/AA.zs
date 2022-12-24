@@ -64,8 +64,8 @@ Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <techreborn:lapotroncrystal>, <naturesaura:sky_ingot>, 25000, 100, [0.0, 0.0, 1.0]);
 	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <techreborn:lapotroncrystal>, <naturesaura:sky_ingot>, 250000, 200, [0.0, 0.0, 1.0]);
 # Diamantine
-	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <calculator:electricdiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 50000, 200, [0.0, 1.0, 1.0]);
-	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <calculator:electricdiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 500000, 400, [0.0, 1.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <calculator:enddiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 50000, 200, [0.0, 1.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <calculator:enddiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 500000, 400, [0.0, 1.0, 1.0]);
 # Void
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal:3>,<extrautils2:compressedcobblestone:1>, <extendedcrafting:material>, <thaumcraft:plate:3>, <actuallyadditions:block_misc:2>, 250000, 100, [0.1, 0.0, 0.0]);
 	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>,<extrautils2:compressedcobblestone:1>, <extendedcrafting:material>, <thaumcraft:plate:3>, <actuallyadditions:block_misc:2>, 2500000, 200, [0.1, 0.0, 0.0]);

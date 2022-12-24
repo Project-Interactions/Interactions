@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"0ffa224f"
+	],
+	tasks: [{
+		uid: "5b090cde",
+		type: "item",
+		items: [{
+			item: "speedyhoppers:speedyhopper_mk3"
+		}]
+	}]
+}

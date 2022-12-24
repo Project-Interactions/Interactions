@@ -11,9 +11,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 32,
+              "amount": 4,
               "matches": [
-                "{id:\"integratedterminals:menril_glass\",Count:32b,Damage:0s}"
+                "{id:\"integrateddynamics:crystalized_menril_brick\",Count:4b,Damage:0s}"
               ]
             }
           }

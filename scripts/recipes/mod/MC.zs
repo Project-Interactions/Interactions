@@ -4,11 +4,16 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.rockytweaks.Anvil;
 
+recipes.removeByRecipeName("minecraft:hopper");
+recipes.removeByRecipeName("uppers:upper");
 
-recipes.addShaped(<minecraft:hopper> * 2, [[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>],[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:hopper>, [[<ore:plateIron>, null, <ore:plateIron>],[<ore:plateIron>, <tconstruct:wooden_hopper>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+
 recipes.removeShaped(<minecraft:stick> * 4, [[<ore:plankWood>], [<ore:plankWood>]]);
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>], [<ore:plankWood>]]);
+
+//planks
 recipes.removeShaped(<minecraft:planks> * 4);
 recipes.removeShaped(<minecraft:planks:1> * 4);
 recipes.removeShaped(<minecraft:planks:2> * 4);
@@ -21,7 +26,11 @@ recipes.addShapeless(<minecraft:planks:2> * 2,[<minecraft:log:2>]);
 recipes.addShapeless(<minecraft:planks:3> * 2,[<minecraft:log:3>]);
 recipes.addShapeless(<minecraft:planks:4> * 2,[<minecraft:log2>]);
 recipes.addShapeless(<minecraft:planks:5> * 2,[<minecraft:log2:1>]);
+
+//end portal uncraftable
 recipes.remove(<minecraft:end_portal_frame>);
+
+//C dust to coal
 furnace.addRecipe(<minecraft:coal>, <ore:dustCoal>);
 
 
@@ -48,17 +57,15 @@ recipes.remove(<minecraft:leather_chestplate>);
 recipes.removeByRecipeName("minecraft:bucket");
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
+//skyroot plank
 recipes.removeShaped(<aether_legacy:skyroot_plank> * 4, [[<aether_legacy:aether_log> | <aether_legacy:aether_log:1>]]);
 recipes.addShaped(<aether_legacy:skyroot_plank> * 2, [[<aether_legacy:aether_log> | <aether_legacy:aether_log:1>]]);
 recipes.remove(<aether_legacy:skyroot_bucket>);
-
-recipes.remove(<minecraft:hopper>);
 
 recipes.addShaped(<minecraft:piston> * 2, [[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],[<ore:plankTreatedWood>, <minecraft:redstone_block>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plateIron>, <ore:plankTreatedWood>]]);
 
 
 furnace.remove(<minecraft:coal:1>);
-
 
 RecipeUtils.recipeTweak(true, <minecraft:cauldron>, [
     [<ore:plateIron>, null, <ore:plateIron>], 
@@ -66,14 +73,14 @@ RecipeUtils.recipeTweak(true, <minecraft:cauldron>, [
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>
 ]]);
 
-vanilla.seeds.addSeed(<minecraft:wheat_seeds>.weight(0.12));
+vanilla.seeds.addSeed(<minecraft:wheat_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:melon_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:reeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:potato>.weight(0.06));
 
-<entity:botania:doppleganger>.addDrop(<botania:manaresource:5>*4);
+
 recipes.remove(<minecraft:piston>);
 
 //command block extra
@@ -105,7 +112,10 @@ Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key:
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),2);
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),2);
 
-//chest ae crafting crash fix
+//ae craft chest will crash
+//I can‘t fix it,just remove :(
 recipes.removeByRecipeName("minecraft:chest");
-var plank = <ore:plankWood>;
-recipes.addShaped(<minecraft:chest>,[[plank,plank,plank],[plank,null,plank],[plank,plank,plank]]);
+
+
+//flopper
+RecipeUtils.recipeTweak(true,<flopper:flopper>, [[<ore:ingotIron>, <speedyhoppers:speedyhopper_mk1>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);

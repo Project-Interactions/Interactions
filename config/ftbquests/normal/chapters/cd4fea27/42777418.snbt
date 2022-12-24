@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	dependencies: [
+		"acba0eab"
+	],
+	tasks: [{
+		uid: "5e6676f5",
+		type: "item",
+		items: [{
+			item: "betterfurnacesreforged:diamond_furnace"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"dc4791fa"
+	],
+	tasks: [{
+		uid: "df5423a6",
+		type: "item",
+		items: [{
+			item: "flopper:flopper"
+		}]
+	}]
+}

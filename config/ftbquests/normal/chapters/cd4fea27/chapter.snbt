@@ -1,5 +1,6 @@
 {
 	title: "其他章节：升级",
+	icon: "thermalfoundation:upgrade",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

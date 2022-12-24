@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+
+mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
+
 recipes.removeShapeless(<extendedcrafting:material:36>);
 recipes.remove(<extendedcrafting:table_advanced>);
 recipes.remove(<extendedcrafting:ender_alternator> * 2);

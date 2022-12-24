@@ -204,7 +204,7 @@ RecipeUtils.recipeTweak(true, <techreborn:gas_turbine>, [[<ore:plateAluminum>, <
 RecipeUtils.recipeTweak(true, <techreborn:thermal_generator>, [[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>], [<ore:plateInvar>, <ore:glassReinforced>, <ore:plateInvar>], [<ore:circuitMana>, <techreborn:solid_fuel_generator>, <ore:circuitMana>]]);
 RecipeUtils.recipeTweak(true, <techreborn:solid_canning_machine>, [[<ore:ingotTin>, <ore:circuitMana>, <ore:ingotTin>], [<ore:ingotTin>, <ore:machineBlockBasic>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
 RecipeUtils.recipeTweak(true, <techreborn:industrial_sawmill>, [[<ore:ingotRefinedIron>, <ore:circuitThaumic>, <ore:ingotRefinedIron>], [<techreborn:part:5>, <techreborn:part:5>, <techreborn:part:5>], [<ore:circuitThaumic>, <ore:machineBlockAdvanced>, <ore:circuitThaumic>]]);
-RecipeUtils.recipeTweak(true, <techreborn:electric_furnace>, [[null, <ore:circuitMana>, null], [<ore:dustRedstone>, <techreborn:iron_furnace>, <ore:dustRedstone>], [null, null, null]]);
+RecipeUtils.recipeTweak(true, <techreborn:electric_furnace>, [[null, <ore:circuitMana>, null], [<ore:dustRedstone>, <betterfurnacesreforged:iron_furnace>, <ore:dustRedstone>], [null, null, null]]);
 RecipeUtils.recipeTweak(true, <techreborn:rolling_machine>, [[<minecraft:piston>, <ore:circuitThaumic>, <minecraft:piston>], [<techreborn:plate_bending_machine>, <ore:machineBlockBasic>, <techreborn:plate_bending_machine>], [<minecraft:piston>, <ore:circuitThaumic>, <minecraft:piston>]]);
 RecipeUtils.recipeTweak(true, <techreborn:diesel_generator>, [[<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>], [<ore:plateBrass>, <ore:glassReinforced>, <ore:plateBrass>], [<ore:circuitMana>, <techreborn:solid_fuel_generator>, <ore:circuitMana>]]);
 RecipeUtils.recipeTweak(true, <techreborn:extractor>, [[<techreborn:treetap:*>, <ore:machineBlockBasic>, <techreborn:treetap:*>], [<techreborn:treetap:*>, <ore:circuitMana>, <techreborn:treetap:*>], [null, null, null]]);
@@ -225,3 +225,8 @@ recipes.addShaped(<techreborn:pump>, [[null, null, null],[<ore:circuitMana>, <te
 recipes.addShaped(<techreborn:lapotroncrystal>, [[<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>],[<ore:gearEnergium>, <ore:plateSapphire>, <ore:gearEnergium>], [<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>]]);
 
 grinder.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 300, 8);
+
+
+//
+recipes.remove(<techreborn:iron_furnace>);
+RecipeUtils.recipeTweak(true, <techreborn:iron_alloy_furnace>, [[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>], [<betterfurnacesreforged:iron_furnace>, null, <betterfurnacesreforged:iron_furnace>], [<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>]]);

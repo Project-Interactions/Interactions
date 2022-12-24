@@ -1,4 +1,5 @@
 {
+	title: "防腐木板",
 	x: 3.0d,
 	y: 5.0d,
 	dependencies: [

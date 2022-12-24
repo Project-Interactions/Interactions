@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 4.0d,
+	dependencies: [
+		"42777418"
+	],
+	tasks: [{
+		uid: "b3f55a6a",
+		type: "item",
+		items: [{
+			item: "betterfurnacesreforged:netherhot_furnace"
+		}]
+	}]
+}

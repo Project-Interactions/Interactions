@@ -336,4 +336,4 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(<embers:ore_nickel>);
 
 mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 2048);
 
-recipes.addShaped(<immservetech:adv_coke_oven>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<ore:plateSteel>, <immersivetech:stone_decoration>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<immersivetech:adv_coke_oven>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<ore:plateSteel>, <immersivetech:stone_decoration>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);

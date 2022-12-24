@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"3d5ea218"
+	],
+	tasks: [{
+		uid: "c3022a7d",
+		type: "item",
+		items: [{
+			item: "betterfurnacesreforged:gold_furnace"
+		}]
+	}]
+}
