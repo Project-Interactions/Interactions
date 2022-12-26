@@ -418,7 +418,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:twilght_symbol\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:twilight_symbol\",Count:1b,Damage:0s}"
               ]
             }
           },

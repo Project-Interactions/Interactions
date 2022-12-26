@@ -5,6 +5,8 @@ tile.contenttweaker.useful_block.name=实用合金块
 item.contenttweaker.ore_essence.name=矿物精华
 item.contenttweaker.gem_essence.name=宝石精华
 
+item.contenttweaker.twilight_symbol.name=暮色标志
+
 item.contenttweaker.andesite_pebble.name=安山岩石子
 item.contenttweaker.granite_pebble.name=花岗岩石子
 item.contenttweaker.diorite_pebble.name=闪长岩石子
@@ -75,7 +77,7 @@ tile.contenttweaker.basic_refined_ore_essence.name=矿石精华块
 tile.contenttweaker.singularity_block.name=奇点块
 tile.contenttweaker.locked_drawer.name=上锁的抽屉
 
-tile.contenttweaker.aether_log_fix.name=天根木修复
+tile.contenttweaker.aether_log_fix.name=蚀刻天根木
 base.material.kanthal=坝塔尔合金
 base.material.gold=金
 base.material.europium=铕

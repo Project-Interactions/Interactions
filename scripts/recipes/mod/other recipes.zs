@@ -36,7 +36,7 @@ recipes.remove(<mysticalmechanics:gear_gold>);
 
 
 mods.logistics.hammer.addRecipe(<contenttweaker:ore_essence>,<minecraft:redstone>*3);
-mods.logistics.hammer.addRecipe(<projectred-core:resource_item>,<contenttweaker:printed_manual_circuit_board_substrate>);
+mods.logistics.hammer.addRecipe(<projectred-core:resource_item>,<contenttweaker:printed_manual_circuit_board_substrate>*4);
 mods.logistics.hammer.addRecipe(<minecraft:cobblestone>,<practicallogistics2:stoneplate>);
 
 

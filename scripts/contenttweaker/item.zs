@@ -33,7 +33,7 @@ VanillaFactory.createItem("assembled_manual_circuit").register();
 VanillaFactory.createItem("mechanical_circuit").register();
 VanillaFactory.createItem("processor_mechanical_circuit").register();
 
-VanillaFactory.createItem("twilght_symbol").register();
+VanillaFactory.createItem("twilight_symbol").register();
 
 VanillaFactory.createItem("mana_circuit").register();
 VanillaFactory.createItem("infused_mana_circuit").register();

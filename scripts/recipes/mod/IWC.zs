@@ -29,9 +29,7 @@ FluidToItem.transform(<mekanism:energycube>.withTag({tier: 4, mekData: {energySt
 FluidToItem.transform(<mekanism:gastank>.withTag({tier: 4}), <liquid:ytinifni>, [<mekanism:gastank>.withTag({tier: 3, mekData: {stored: {amount: 512000, gasName: "everlasting"}}}),<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}})], true);
 FluidToItem.transform(<contenttweaker:aether_log_fix>, <liquid:etching_acid>, [<aether_legacy:aether_log>], false);
 
-FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:ink>, [<naturesaura:bottle_two_the_rebottling>], false);
-FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <liquid:liquid_sunshine>, [<naturesaura:bottle_two_the_rebottling>], false);
-FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), <liquid:molten_netherite>, [<naturesaura:bottle_two_the_rebottling>], false);
+FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:ink>, [<naturesaura:bottle_two_the_rebottling>], true);
 
 //boom
 explosioncrafting.addRecipe(<avaritia:neutronium_compressor>,<extendedcrafting:compressor>,50);

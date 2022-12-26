@@ -4,8 +4,9 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 recipes.remove(<naturesaura:gold_fiber> * 4);
 recipes.removeShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), [<minecraft:paper>, <minecraft:paper>, <minecraft:leather>, <ore:treeSapling>]);
-recipes.addShaped(<naturesaura:gold_fiber> * 8, [[null, <ore:dustGold>, null],[<ore:dustGold>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <ore:dustGold>], [null, <ore:dustGold>, null]]);
+recipes.addShaped(<naturesaura:gold_fiber> * 2, [[null, <ore:dustGold>, null],[<ore:dustGold>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <ore:dustGold>], [null, <ore:dustGold>, null]]);
 recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), [[<botania:manaresource:22>, <botania:manaresource:22>, <botania:manaresource:22>],[<botania:manaresource:22>, <minecraft:paper>, <botania:manaresource:22>], [<botania:manaresource:22>, <botania:manaresource:22>, <botania:manaresource:22>]]);
+
 mods.naturesaura.TreeRitual.removeRecipe(<naturesaura:nature_altar>);
 mods.botania.RuneAltar.addRecipe(<naturesaura:nature_altar>,[<naturesaura:gold_leaf>, <naturesaura:gold_leaf>,<naturesaura:gold_leaf>, <naturesaura:token_joy>, <botania:manaresource>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <botania:livingrock:1>], 1000);
 
@@ -21,7 +22,7 @@ mods.naturesaura.Altar.removeRecipe(<minecraft:leather>);
 
 //瓶与塞
 recipes.remove(<naturesaura:bottle_two_the_rebottling>);
-recipes.addShapeless(<naturesaura:bottle_two_the_rebottling>,[<extrautils2:klein>,<ore:clothManaweave>]);
+recipes.addShapeless(<naturesaura:bottle_two_the_rebottling>*2,[<extrautils2:klein>,<ore:clothManaweave>]);
 
 
 RecipeUtils.recipeTweak(true,<naturesaura:offering_table>, [[<ore:livingrock>, <naturesaura:infused_iron>, <ore:livingrock>], [<naturesaura:token_fear>, <ore:livingrock>, <naturesaura:token_sorrow>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);

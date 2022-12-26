@@ -10,3 +10,4 @@ recipes.removeShapeless(<aether_legacy:skyroot_plank>*4);
 recipes.addShapeless(<aether_legacy:skyroot_plank>*2,[<ore:logSkyroot>]);
 
 recipes.remove(<aeble:obsidian_ring>);
+RecipeUtils.recipeTweak(true, <aether_legacy:enchanter>, [[<aether_legacy:holystone>, <plustic:pipe_piece>.withTag({Material: "zanite"}), <aether_legacy:holystone>], [<plustic:pipe_piece>.withTag({Material: "zanite"}), <forge:bucketfilled>.withTag({FluidName: "obsidian", Amount: 1000}), <plustic:pipe_piece>.withTag({Material: "zanite"})], [<aether_legacy:holystone>, <plustic:pipe_piece>.withTag({Material: "zanite"}), <aether_legacy:holystone>]]);

@@ -1,9 +1,6 @@
 {
 	x: 6.0d,
 	y: 1.5d,
-	text: [
-		"权重为0无法挖到"
-	],
 	dependencies: [
 		"d0b2feb1"
 	],
