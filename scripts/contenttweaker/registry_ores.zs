@@ -17,41 +17,10 @@ mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dustore").setPartTy
 
 static materials as Material[string] = {
 	"Precious": MaterialSystem.getMaterialBuilder().setName("CrudeGold").setColor(Color.fromHex("B9B602") as Color).build(),
-	"Zircon": MaterialSystem.getMaterialBuilder().setName("Zircon").setColor(Color.fromHex("C0C496") as Color).build(),
-	"Lithiumtungstate": MaterialSystem.getMaterialBuilder().setName("Lithiumtungstate").setColor(Color.fromHex("2D5783") as Color).build(),
-	"Scheelite": MaterialSystem.getMaterialBuilder().setName("Scheelite").setColor(Color.fromHex("7999BB") as Color).build(),
-	"Neodymium": MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(Color.fromHex("68727C") as Color).build(),
-	"Lepidolite": MaterialSystem.getMaterialBuilder().setName("Lepidolite").setColor(Color.fromHex("808178") as Color).build(),
-	"Cesiumgarnet": MaterialSystem.getMaterialBuilder().setName("Cesiumgarnet").setColor(Color.fromHex("AF7575") as Color).build(),
-	"Fluorocarbonlanthanumcerium": MaterialSystem.getMaterialBuilder().setName("Fluorocarbonlanthanumcerium").setColor(Color.fromHex("C2941A") as Color).build(),
-	"Ree": MaterialSystem.getMaterialBuilder().setName("Ree").setColor(Color.fromHex("BAAF95") as Color).build(),
-	"Molybdenumore": MaterialSystem.getMaterialBuilder().setName("Molybdenum").setColor(Color.fromHex("4B618B") as Color).build(),
-	"Ferrochrome": MaterialSystem.getMaterialBuilder().setName("Ferrochrome").setColor(Color.fromHex("FFCDD2") as Color).build(),
-	"Magnesite": MaterialSystem.getMaterialBuilder().setName("Magnesite").setColor(Color.fromHex("FFCDD2") as Color).build(),
-	"Barite": MaterialSystem.getMaterialBuilder().setName("Barite").setColor(Color.fromHex("BBDEFB") as Color).build(),
-	"Arseniccopper": MaterialSystem.getMaterialBuilder().setName("Arseniccopper").setColor(Color.fromHex("EF5350") as Color).build(),
-	"Talc": MaterialSystem.getMaterialBuilder().setName("Talc").setColor(Color.fromHex("7CB342") as Color).build(),
-	"Ferrotitanium": MaterialSystem.getMaterialBuilder().setName("Ferrotitanium").setColor(Color.fromHex("BDBDBD") as Color).build(),
-	"Crystallineuranium": MaterialSystem.getMaterialBuilder().setName("Crystallineuranium").setColor(Color.fromHex("62E753") as Color).build(),
 
 };
 materials.Precious.registerParts(["dustore","ore"] as string[]);
-materials.Zircon.registerParts(["dustore"] as string[]);
-materials.Lithiumtungstate.registerParts(["dustore"] as string[]);
-materials.Scheelite.registerParts(["dustore"] as string[]);
-materials.Neodymium.registerParts(["dustore"] as string[]);
-materials.Lepidolite.registerParts(["dustore"] as string[]);
-materials.Cesiumgarnet.registerParts(["dustore"] as string[]);
-materials.Fluorocarbonlanthanumcerium.registerParts(["dustore"] as string[]);
-materials.Ree.registerParts(["dustore"] as string[]);
-materials.Molybdenumore.registerParts(["dustore"] as string[]);
-materials.Ferrochrome.registerParts(["dustore"] as string[]);
-materials.Magnesite.registerParts(["dustore"] as string[]);
-materials.Barite.registerParts(["dustore"] as string[]);
-materials.Arseniccopper.registerParts(["dustore"] as string[]);
-materials.Talc.registerParts(["dustore"] as string[]);
-materials.Ferrotitanium.registerParts(["dustore"] as string[]);
-materials.Crystallineuranium.registerParts(["dustore"] as string[]);
+
 
 
 

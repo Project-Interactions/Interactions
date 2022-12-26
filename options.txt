@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:8
 guiScale:4
 particles:2
 bobView:true
@@ -26,8 +26,8 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:false
-useVbo:false
+enableVsync:true
+useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -190,7 +190,6 @@ key_key.draconicevolution.toggleDislocator:0
 key_key.draconicevolution.cycleDigAOE:0
 key_key.draconicevolution.cycleAttackAOE:0
 key_key.draconicevolution.toggleShields:0
-key_tombstone.message.knowledge_of_death:0
 key_nei.options.keys.gui.botania_corporea_request:0
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
@@ -199,7 +198,6 @@ key_mekanism.key.voice:22
 key_key.aether.accessory_menu:23
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
-key_key.reveal:34
 key_astraladditions.key.ring_toggle:82
 key_key.infinity_armor.noclip:40
 key_key.bettersigns.nosigntext:56
@@ -251,6 +249,15 @@ key_key.jeiutilities.transferRecipe:17:CONTROL
 key_key.jeiutilities.transferRecipeMax:20:CONTROL
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
+key_key.rotateup:200
+key_key.rotatedown:208
+key_key.rotateright:205
+key_key.rotateleft:203
+key_key.little.flip:34
+key_key.little.mark:50
+key_key.little.config.item:0
+key_key.little.undo:44:CONTROL
+key_key.little.redo:21:CONTROL
 key_keybind.simplyjetpacks.gui:44
 key_keybind.simplyjetpacks.engine:34
 key_keybind.simplyjetpacks.charger:25
@@ -330,8 +337,6 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-key_rsb.keybind.find_recipe:79
-key_rsb.keybind.find_uses:80
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
