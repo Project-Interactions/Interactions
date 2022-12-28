@@ -216,3 +216,12 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <tconstruct:materials:50>, [
 
 //fix rail can be smelt into osmium
 Melting.removeRecipe(<liquid:osmium>,<minecraft:rail>);
+
+//Tinkered Hegemony
+/*
+recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
+recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
+recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
+recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
+recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
+*/

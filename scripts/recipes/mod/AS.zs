@@ -62,6 +62,6 @@ Grindstone.addRecipe(<botania:dice>, <botania:manaresource:5>*4);
 
 //harder glass len
 StarlightInfusion.removeInfusion(<astralsorcery:itemcraftingcomponent:3>);
-StarlightInfusion.addInfusion(<astralsorcery:itemcraftingcomponent:3>, <botania:bifrostpermpane>, false, 0.7, 200);
+StarlightInfusion.addInfusion(<botania:bifrostpermpane>, <astralsorcery:itemcraftingcomponent:3>, false, 0.7, 200);
 
 

@@ -17,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "mekanismgenerators:generator",
-          "meta": 9
+          "id": "demagnetize:demagnetizer",
+          "meta": 0
         },
         "type": "blockstate"
       }

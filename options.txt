@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:2
 guiScale:4
 particles:2
 bobView:true
@@ -91,11 +91,6 @@ key_Misc Caster Toggle:34
 key_Reload Menu | CTRL + ALT + :19
 key_Toggle Customization Overlay | CTRL + ALT + :65548
 key_keybind.baublesinventory:48
-key_pe.key.armor_toggle:45
-key_pe.key.charge:48:ALT
-key_pe.key.extra_function:0
-key_pe.key.fire_projectile:19
-key_pe.key.mode:34
 key_psimisc.keybind:0
 key_rpsideas.kb.offhandcast:0
 key_rpsideas.kb.switchslot01:0
@@ -110,6 +105,11 @@ key_rpsideas.kb.switchslot09:0
 key_rpsideas.kb.switchslot10:0
 key_rpsideas.kb.switchslot11:0
 key_rpsideas.kb.switchslot12:0
+key_pe.key.armor_toggle:45
+key_pe.key.charge:48:ALT
+key_pe.key.extra_function:0
+key_pe.key.fire_projectile:19
+key_pe.key.mode:34
 key_key.toggle_shaders:0
 key_key.xu2.searchforitems:20
 key_bloodmagic.keybind.open_holding:35
@@ -121,6 +121,7 @@ key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
 key_keybind.hammercorerenderstack:77
+key_ChatFlow:53:SHIFT
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:0
@@ -168,7 +169,7 @@ key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
 key_key.quit.fastQuit:16
 key_key.quit.bossKey:48
-key_key.toggle_focus.desc:15
+key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -180,7 +181,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.cofh.multimode:47
 key_key.draconicevolution.placeItem:25
 key_key.draconicevolution.toolConfig:0
 key_key.draconicevolution.toolProfileChange:43
@@ -191,13 +191,16 @@ key_key.draconicevolution.cycleDigAOE:0
 key_key.draconicevolution.cycleAttackAOE:0
 key_key.draconicevolution.toggleShields:0
 key_nei.options.keys.gui.botania_corporea_request:0
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
+key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.chemthrowerSwitch:0
+key_key.toggle_focus.desc:15
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_key.aether.accessory_menu:23
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
 key_astraladditions.key.ring_toggle:82
 key_key.infinity_armor.noclip:40
 key_key.bettersigns.nosigntext:56
@@ -232,8 +235,6 @@ key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.inventoryhud.toggle:23
 key_key.inventoryhud.openconfig:24
 key_key.inventoryhud.togglepot:-1
@@ -313,6 +314,13 @@ key_key.immersiveintelligence.manualReload:19
 key_key.immersiveintelligence.mgScope:44
 key_key.immersiveintelligence.motorbikeEngine:19
 key_key.immersiveintelligence.motorbikeTowing:44
+key_开关喷气背包:45
+key_打开火箭界面:0
+key_切换 RCS:19
+key_向右旋转载具:32
+key_向左旋转载具:30
+key_向上移动载具:44
+key_向下移动载具:45
 key_key.sort_config:37
 key_key.sort:-98
 key_key.control:29
@@ -349,6 +357,8 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
+soundCategory_ds_footsteps:1.0
+soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

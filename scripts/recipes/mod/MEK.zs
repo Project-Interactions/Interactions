@@ -68,9 +68,9 @@ RecipeUtils.recipeTweak(true,<mekanism:energytablet>, [[<ore:dustRedstone>, <ore
 recipes.remove(<mekanism:controlcircuit:1>);
 recipes.remove(<mekanism:controlcircuit:2>);
 recipes.remove(<mekanism:controlcircuit:3>);
-recipes.addShaped(<mekanism:controlcircuit:3>, [[<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>],[<mekanism:controlcircuit:2>, <ore:alloyUltimate>, <mekanism:controlcircuit:2>], [<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>]]);
-recipes.addShaped(<mekanism:controlcircuit:2>, [[<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>],[<mekanism:controlcircuit:1>, <ore:alloyElite>, <mekanism:controlcircuit:1>], [<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>]]);
-recipes.addShaped(<mekanism:controlcircuit:1>, [[<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>],[<mekanism:controlcircuit>, <ore:alloyAdvanced>, <mekanism:controlcircuit>], [<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>]]);
+recipes.addShaped(<mekanism:controlcircuit:3>*2, [[<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>],[<mekanism:controlcircuit:2>, <ore:alloyUltimate>, <mekanism:controlcircuit:2>], [<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanism:controlcircuit:2>*2, [[<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>],[<mekanism:controlcircuit:1>, <ore:alloyElite>, <mekanism:controlcircuit:1>], [<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>]]);
+recipes.addShaped(<mekanism:controlcircuit:1>*2, [[<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>],[<mekanism:controlcircuit>, <ore:alloyAdvanced>, <mekanism:controlcircuit>], [<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>]]);
 
 //use factory instead
 val remove as IItemStack[] = 
@@ -125,6 +125,7 @@ RecipeUtils.recipeTweak(true, <bfr:reactorglass>, [[null, <bfr:reactor:1>, null]
 RecipeUtils.recipeTweak(true, <mekanism:machineblock3>, [[<ore:ingotRefinedObsidian>, <ore:circuitNuclear>, <ore:ingotRefinedObsidian>], [<ore:alloyUltimate>, <mekanism:teleportationcore>, <ore:alloyUltimate>], [<ore:ingotRefinedObsidian>, <ore:circuitNuclear>, <ore:ingotRefinedObsidian>]]);
 
 //fusion
+recipes.remove(<bfr:reactor>);
 recipes.addShaped(<bfr:reactor>, [[<ore:circuitUniversal>, <ore:paneGlass>, <ore:circuitUniversal>], [<bfr:reactor:1>, <mekanism:gastank>.withTag({tier: 3}), <bfr:reactor:1>], [<bfr:reactor:1>, <bfr:reactor:1>, <bfr:reactor:1>]]);
 RecipeUtils.recipeTweak(true, <bfr:reactor:2> * 2, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
 RecipeUtils.recipeTweak(true, <bfr:reactor:3>, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_redstone_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);

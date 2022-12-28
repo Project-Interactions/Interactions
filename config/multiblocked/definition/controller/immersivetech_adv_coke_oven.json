@@ -8,15 +8,15 @@
         "gIO": 2,
         "mIO": 2,
         "x": 30,
-        "y": 77,
+        "y": 111,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
         "mIO": 2,
-        "x": 83,
-        "y": 78,
+        "x": 86,
+        "y": 111,
         "autoIO": false
       }
     ],
@@ -25,15 +25,16 @@
         "cIO": 1,
         "gIO": 1,
         "mIO": 2,
-        "x": 58,
-        "y": 111,
+        "x": 129,
+        "y": 95,
         "autoIO": false,
         "tC": 16000,
         "w": 18,
-        "h": 18,
-        "fillDir": "ALWAYS_FULL"
+        "h": 50,
+        "fillDir": "DOWN_TO_UP"
       }
-    ]
+    ],
+    "background": "multiblocked:textures/2.png"
   },
   "properties": {
     "rotationState": "ALL",

@@ -3,6 +3,8 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 
+recipes.removeByRecipeName("unstabletools:unstable_ingot");
+
 RecipeUtils.recipeTweak(true, <unstabletools:unstable_axe>, [[<ore:blockUnstable>, <ore:blockUnstable>], [<ore:blockUnstable>, <ore:obsidian>], [null, <ore:obsidian>]]);
 RecipeUtils.recipeTweak(true, <unstabletools:unstable_spade>, [[<ore:blockUnstable>], [<ore:obsidian>], [<ore:obsidian>]]);
 RecipeUtils.recipeTweak(true,  <unstabletools:unstable_pickaxe>, [[<ore:blockUnstable>, <ore:blockUnstable>, <ore:blockUnstable>], [null, <ore:obsidian>, null], [null, <ore:obsidian>, null]]);
