@@ -311,7 +311,6 @@
   "tconevo.gale_force2_armor",
   "antigrav",
   "tconevo.corrupting",
-  "ignoble",
   "tconevo.mana_infused",
   "tconevo.mortal_wounds",
   "refrigeration",

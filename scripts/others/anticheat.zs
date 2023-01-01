@@ -18,6 +18,7 @@ var mod as string[]=[
     "upsizer",
     "utimatestack",
     "utimatestackplugin",
+    "projecte",
     "projectex",
     "torcherino",
     "bacterium",

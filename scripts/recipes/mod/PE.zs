@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+/*
 recipes.remove(<projecte:item.pe_matter:1>);
 recipes.remove(<projecte:item.pe_matter>);
 recipes.remove(<projecte:item.pe_philosophers_stone>);
@@ -120,6 +121,7 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <projecte:item.pe_rm_armor_0>, 
 	[null, <conarm:armor_trim>.withTag({Material: "red_matter"}), null]
 ]);
 
+
 mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_rm_shears>, [[null, <tconstruct:tool_rod>.withTag({Material: "red_matter"}).onlyWithTag({Material: "red_matter"}), null],[null, <projecte:item.pe_dm_shears>, null], [null, <tconstruct:tool_rod>.withTag({Material: "red_matter"}).onlyWithTag({Material: "red_matter"}), null]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_rm_hammer>, [[null, <tconstruct:hammer_head>.withTag({Material: "red_matter"}).onlyWithTag({Material: "red_matter"}), null],[null, <projecte:item.pe_dm_hammer>, null], [null, <tconstruct:tool_rod>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_rm_hoe>, [[null, <tconstruct:scythe_head>.withTag({Material: "red_matter"}).onlyWithTag({Material: "red_matter"}), null],[null, <projecte:item.pe_dm_hoe>, null], [null, <tconstruct:tool_rod>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null]]);
@@ -134,9 +136,9 @@ mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_dm_pick>, [[nu
 mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_dm_axe>, [[null, <tconstruct:axe_head>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null],[null, <tconstruct:binding>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null], [null, <tconstruct:tool_rod>.withTag({Material: "diamantine_crystal"}).onlyWithTag({Material: "diamantine_crystal"}), null]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_dm_sword>, [[null, <tconstruct:sword_blade>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null],[null, <tconstruct:wide_guard>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null], [null, <tconstruct:tool_rod>.withTag({Material: "diamantine_crystal"}).onlyWithTag({Material: "diamantine_crystal"}), null]]);
 mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_dm_shovel>, [[null, <tconstruct:shovel_head>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null],[null, <tconstruct:binding>.withTag({Material: "dark_matter"}).onlyWithTag({Material: "dark_matter"}), null], [null, <tconstruct:tool_rod>.withTag({Material: "diamantine_crystal"}).onlyWithTag({Material: "diamantine_crystal"}), null]]);
-
-recipes.addShaped(<contenttweaker:singularity_block>,[[<appliedenergistics2:material:47>,<appliedenergistics2:material:47>,<appliedenergistics2:material:47>],[<appliedenergistics2:material:47>,<projecte:fuel_block:2>,<appliedenergistics2:material:47>],[<appliedenergistics2:material:47>,<appliedenergistics2:material:47>,<appliedenergistics2:material:47>]]);
-mods.projecte.WorldTransmutation.add(<projecte:matter_block>, <contenttweaker:singularity_block>);
+*/
+//recipes.addShaped(<contenttweaker:singularity_block>,[[<appliedenergistics2:material:47>,<appliedenergistics2:material:47>,<appliedenergistics2:material:47>],[<appliedenergistics2:material:47>,<projecte:fuel_block:2>,<appliedenergistics2:material:47>],[<appliedenergistics2:material:47>,<appliedenergistics2:material:47>,<appliedenergistics2:material:47>]]);
+//mods.projecte.WorldTransmutation.add(<projecte:matter_block>, <contenttweaker:singularity_block>);
 
 
 mods.extendedcrafting.EnderCrafting.addShaped( <extendedcrafting:material:40>, [
@@ -145,5 +147,5 @@ mods.extendedcrafting.EnderCrafting.addShaped( <extendedcrafting:material:40>, [
 	[null, <ore:pearlEnderEye>, null]
 ]);
 //RecipeUtils.recipeTweak(true, 
-RecipeUtils.recipeTweak(true, <projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<ore:blockCrystalMatrix>, <ore:gemDiamond>, <ore:blockCrystalMatrix>], [<ore:ingotIron>, <ore:chestWood>, <ore:ingotIron>]]);
+//RecipeUtils.recipeTweak(true, <projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<ore:blockCrystalMatrix>, <ore:gemDiamond>, <ore:blockCrystalMatrix>], [<ore:ingotIron>, <ore:chestWood>, <ore:ingotIron>]]);
 

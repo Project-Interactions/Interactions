@@ -19,6 +19,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:extreme_crafting_tabl
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
 
+/*
 mods.avaritia.ExtremeCrafting.addShaped("neutroncollector", <avaritia:neutron_collector>, [
 	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
@@ -30,7 +31,7 @@ mods.avaritia.ExtremeCrafting.addShaped("neutroncollector", <avaritia:neutron_co
 	[<ore:ingotUltimate>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>]
 ]);
-
+*/
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
@@ -56,5 +57,5 @@ recipes.addShaped(<avaritiaddons:infinity_glass>, [[<bfr:reactorglass>, <theauro
 //remove compresser
 mods.avaritia.Compressor.remove(<avaritia:singularity:*>);
 
-mods.extendedcrafting.CompressionCrafting.addRecipe(<eternalsingularity:eternal_singularity>, <projecte:item.pe_fuel:2>, 4096, <extendedcrafting:material:13>, 10000000, 100000);
+//mods.extendedcrafting.CompressionCrafting.addRecipe(<eternalsingularity:eternal_singularity>, <projecte:item.pe_fuel:2>, 4096, <extendedcrafting:material:13>, 10000000, 100000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:give>, <storagedrawers:upgrade_creative:1>, 10000, <storagedrawers:upgrade_creative:1>, 10000000, 100000);

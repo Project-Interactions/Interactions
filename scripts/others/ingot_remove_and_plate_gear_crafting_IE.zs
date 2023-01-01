@@ -97,8 +97,6 @@ MetalPress.addRecipe(<moreplates:empowered_void_gear>,<actuallyadditions:item_cr
 MetalPress.addRecipe(<moreplates:empowered_emeradic_gear>,<actuallyadditions:item_crystal_empowered:4>*4,<immersiveengineering:mold:1>,1024);
 MetalPress.addRecipe(<moreplates:empowered_enori_gear>,<actuallyadditions:item_crystal_empowered:5>*4,<immersiveengineering:mold:1>,1024);
 
-MetalPress.addRecipe(<moreplates:red_matter_plate>,<projecte:item.pe_matter:1>,<immersiveengineering:mold>,1024);
-MetalPress.addRecipe(<moreplates:red_matter_gear>,<projecte:item.pe_matter:1>*4,<immersiveengineering:mold:1>,1024);
 MetalPress.addRecipe(<contenttweaker:crystal_useless>,<astralsorcery:itemrockcrystalsimple>,<immersiveengineering:mold>,1024);
 
 MetalPress.addRecipe(<moreplates:fluix_plate>,<appliedenergistics2:material:7>,<immersiveengineering:mold>,1024);

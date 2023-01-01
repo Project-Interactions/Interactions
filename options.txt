@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:fast
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip","Modernity-format3-v3.7.1.zip","ModernityExtra-format3-v1.3.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn

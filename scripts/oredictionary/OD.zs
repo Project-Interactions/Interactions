@@ -104,3 +104,24 @@
 <ore:nuggetRedstoneAlloy>.add(<jaopca:nugget.red_alloy>);
 <ore:nuggetRedAlloy>.add(<enderio:item_alloy_nugget:3>);
 
+//
+<ore:ingotThauminite>.add(<thaumicbases:thauminite_ingot>);
+<ore:nuggetThauminite>.add(<thaumicbases:nuggetthauminite>);
+<ore:blockThauminite>.add(<thaumicbases:blockthauminite>);
+<ore:plateThauminite>.add(<thaumicbases:thauminite_plate>);
+
+<ore:ingotInfusedIron>.add(<naturesaura:infused_iron>);
+<ore:blockInfusedIron>.add(<naturesaura:infused_iron_block>);
+
+<ore:ingotGlitch>.add(<deepmoblearning:glitch_infused_ingot>);
+<ore:blockGlitch>.add(<deepmoblearning:infused_ingot_block>);
+
+<ore:ingotReinforcedRedstone>.add(<calculator:redstoneingot>);
+<ore:blockReinforcedRedstone>.add(<calculator:material:9>);
+
+<ore:ingotReinforcedIron>.add(<calculator:reinforcedironingot>);
+<ore:blockReinforcedIron>.add(<calculator:material:3>);
+
+<ore:ingotDarkChocolate>.add(<tcomplement:edibles:11>);
+<ore:foodChocolatebar>.add(<tcomplement:edibles:10>);
+<ore:ingotChocolate>.add(<tcomplement:edibles:10>);
