@@ -12,4 +12,6 @@
 	modelType = "crystal"
 	#The color of this material.
 	color = 3166891
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 

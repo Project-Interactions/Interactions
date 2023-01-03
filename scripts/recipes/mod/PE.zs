@@ -141,11 +141,7 @@ mods.extendedcrafting.TableCrafting.addShaped(1,<projecte:item.pe_dm_shovel>, [[
 //mods.projecte.WorldTransmutation.add(<projecte:matter_block>, <contenttweaker:singularity_block>);
 
 
-mods.extendedcrafting.EnderCrafting.addShaped( <extendedcrafting:material:40>, [
-	[null, <ore:pearlEnderEye>, null], 
-	[<ore:pearlEnderEye>, <actuallyadditions:item_misc:19>, <ore:pearlEnderEye>], 
-	[null, <ore:pearlEnderEye>, null]
-]);
+
 //RecipeUtils.recipeTweak(true, 
 //RecipeUtils.recipeTweak(true, <projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<ore:blockCrystalMatrix>, <ore:gemDiamond>, <ore:blockCrystalMatrix>], [<ore:ingotIron>, <ore:chestWood>, <ore:ingotIron>]]);
 

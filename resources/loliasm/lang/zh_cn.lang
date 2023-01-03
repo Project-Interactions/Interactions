@@ -1,0 +1,14 @@
+loliasm.crashscreen.title=交汇整合包崩溃啦！
+
+loliasm.crashscreen.unknownCause=LoliASM未能分析出错误模组
+
+loliasm.crashscreen.paragraph3.line1=你可以在整合包根目录下的/crash-reports文件夹里找到该崩溃报告文件。
+loliasm.crashscreen.paragraph3.line2=由于安装了LoliASM你仍然可以继续游戏，但是如果问题重现，请考虑重启游戏或恢复存档到最近的备份。
+loliasm.crashscreen.paragraph3.line3=如果继续游戏和重启后该问题仍然存在并且没有被反馈过，请通过任意途径反馈给作者。
+loliasm.crashscreen.paragraph3.line4=§e请勿仅提交该界面的截图反馈问题，该界面截图对解决问题没有任何帮助。
+
+loliasm.initerrorscreen.paragraph3.line1=你可以在整合包根目录下的/crash-reports文件夹里找到该崩溃报告文件。因为这是启动错误，你只能退出游戏。
+loliasm.initerrorscreen.paragraph3.line2=如果重启后该问题仍然存在并且没有被反馈过，请通过任意途径反馈给作者。
+loliasm.initerrorscreen.paragraph3.line3=可以通过恢复存档到最近的备份来临时修复。
+loliasm.initerrorscreen.paragraph3.line4=§e请勿仅提交该界面的截图反馈问题，该界面截图对解决问题没有任何帮助。
+

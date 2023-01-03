@@ -12,6 +12,8 @@
 	modelType = "dust"
 	#The color of this material.
 	color = 13948116
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 
 [enderio]
 	#The default byproduct material to output in Ender IO's sagmill.

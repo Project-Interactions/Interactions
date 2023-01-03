@@ -16,7 +16,6 @@ var jeiremove as string[]=[
 "Painter",
 "botania.orechid",
 "botania.orechid_ignem",
-"pe.collector",
 "actuallyadditions.booklet",
 "flux",
 "if_manual_category"
