@@ -300,3 +300,27 @@ Dropt.list("basic_refined_ore_essence")
         .items([<thermalfoundation:material:768>])
       )
 );
+
+/*
+import mods.dropt.Dropt;
+
+Dropt.list("test_drop_1")
+  .add(
+      Dropt.rule()
+      .matchBlocks(["minecraft:planks:*"])
+      .replaceStrategy("REPLACE_ALL")
+      .addDrop(
+          Dropt.drop()
+          .selector(
+              Dropt.weight(85)
+          )
+      )
+            .addDrop(
+          Dropt.drop()
+          .selector(
+              Dropt.weight(15)
+          )
+          .items([<minecraft:string>])
+      )
+  );
+*/

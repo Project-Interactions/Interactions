@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:64
 guiScale:4
 particles:2
 bobView:true
@@ -105,11 +105,6 @@ key_rpsideas.kb.switchslot09:0
 key_rpsideas.kb.switchslot10:0
 key_rpsideas.kb.switchslot11:0
 key_rpsideas.kb.switchslot12:0
-key_pe.key.armor_toggle:45
-key_pe.key.charge:48:ALT
-key_pe.key.extra_function:0
-key_pe.key.fire_projectile:19
-key_pe.key.mode:34
 key_key.toggle_shaders:0
 key_key.xu2.searchforitems:20
 key_bloodmagic.keybind.open_holding:35

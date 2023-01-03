@@ -9,12 +9,13 @@ import mods.armoreablemobs.ArmorGroup;
 
 	var draconicGroup = ArmorHandler.createArmorGroup("draconic", 0.0001);
 	var wyvernGroup = ArmorHandler.createArmorGroup("wyvern", 0.0002);
-	var nuclearGroup = ArmorHandler.createArmorGroup("nuclear", 0.01);
-	var mysticalGroup = ArmorHandler.createArmorGroup("mystical", 0.01);
-	var twilightGroup = ArmorHandler.createArmorGroup("twilight", 0.015);
-	var magicalGroup = ArmorHandler.createArmorGroup("magical", 0.015);
-	var vanillaGroup = ArmorHandler.createArmorGroup("vanilla", 0.01);
-	var skeletonGroup = ArmorHandler.createArmorGroup("skeleton", 0.03);
+	var nuclearGroup = ArmorHandler.createArmorGroup("nuclear", 0.05);
+	var mysticalGroup = ArmorHandler.createArmorGroup("mystical", 0.05);
+	var twilightGroup = ArmorHandler.createArmorGroup("twilight", 0.05);
+	var magicalGroup = ArmorHandler.createArmorGroup("magical", 0.05);
+	var vanillaGroup = ArmorHandler.createArmorGroup("vanilla", 0.1);
+	var energyGroup = ArmorHandler.createArmorGroup("energy", 0.001);
+	var skeletonGroup = ArmorHandler.createArmorGroup("skeleton", 0.2);
 
 # *======= Entities =======*
 
@@ -30,9 +31,9 @@ import mods.armoreablemobs.ArmorGroup;
 	var zombieVillager = ArmorHandler.createArmorEntity("minecraft:zombie_villager");
 	var witherSkeleton = ArmorHandler.createArmorEntity("minecraft:wither_skeleton").withNBTCheck("Health", 35.0, "GREATER");
 	var knight = ArmorHandler.createArmorEntity("emberroot:knight_fallen").withNBTCheck("Health", 50.0, "GREATER");
-	
+
 # *======= Weaponry =======*
-	
+
 	val weapons = [
 	<minecraft:stone_sword>,
 	<minecraft:iron_sword>,
@@ -65,22 +66,23 @@ import mods.armoreablemobs.ArmorGroup;
 	<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.0 as float, FreeModifiers: 3, Durability: 4422, HarvestLevel: 11, Attack: 11.45 as float}, Stats: {AttackSpeedMultiplier: 1.2 as float, MiningSpeed: 9.0 as float, FreeModifiers: 2, Durability: 4422, HarvestLevel: 11, Attack: 11.45 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {UsedModifiers: 1, Materials: ["terrasteel", "terrasteel", "terrasteel", "terrasteel"], Modifiers: ["beheading_cleaver", "toolleveling", "haste", "creative"]}, Modifiers: [{identifier: "mana", color: -11141291, level: 1}, {identifier: "terrafirma", color: -11141291, level: 3, terrafirma2: 1 as byte, terrafirma1: 1 as byte}, {identifier: "beheading_cleaver", color: 1070923, level: 2}, {identifier: "toolleveling", color: 16777215, level: 1}, {identifier: "haste", current: 50, color: 9502720, level: 1, max: 50, extraInfo: "49 / 50"}, {identifier: "creative", color: 0, level: 1}], Traits: ["mana", "terrafirma1", "terrafirma2", "toolleveling"]}),
 	<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.0 as float, FreeModifiers: 3, Durability: 1294, HarvestLevel: 10, Attack: 10.54 as float}, Stats: {AttackSpeedMultiplier: 1.2 as float, MiningSpeed: 6.8259974 as float, FreeModifiers: 2, Durability: 1409, HarvestLevel: 10, Attack: 11.110009 as float}, Special: {Categories: ["weapon", "tool"], alienStatBonus: {identifier: "", color: 0, attack: 0.49999967 as float, durability: 101, speed: 0.7140009 as float}, alienStatPool: {identifier: "", color: 16777215, attack: 1.4549989 as float, durability: 265, speed: 1.707999 as float}}, TinkerData: {UsedModifiers: 1, Materials: ["iridium", "iridium", "iridium", "iridium"], Modifiers: ["beheading_cleaver", "toolleveling", "haste", "creative"]}, Modifiers: [{identifier: "dense", color: -5592406, level: 1}, {identifier: "alien", color: -5592406, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}, {identifier: "toolleveling", color: 16777215, level: 1}, {identifier: "haste", current: 50, color: 9502720, level: 1, max: 50, extraInfo: "49 / 50"}, {identifier: "creative", color: 0, level: 1}], Traits: ["dense", "alien", "toolleveling"]})
 	] as IItemStack[];
-	
+
 	for weapon in weapons {
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", weapon, 10, 0.02));
 	}
-	
+
 # *======= Draconic =======*
 
 	draconicGroup.addArmor(ArmorHandler.createArmorSlot("head", <draconicevolution:draconic_helm>.withTag({Energy: 20000}), 1, 0.0002));
 	draconicGroup.addArmor(ArmorHandler.createArmorSlot("chest", <draconicevolution:draconic_chest>.withTag({Energy: 20000}), 1, 0.002));
 	draconicGroup.addArmor(ArmorHandler.createArmorSlot("legs", <draconicevolution:draconic_legs>.withTag({Energy: 20000}), 1, 0.002));
 	draconicGroup.addArmor(ArmorHandler.createArmorSlot("feet", <draconicevolution:draconic_boots>.withTag({Energy: 20000}), 1, 0.002));
-	
+
 	draconicGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <draconicevolution:draconic_sword>.withTag({Energy: 20000}), 1, 0.0002));
 
 	draconicGroup.addEntity(zombie);
@@ -91,14 +93,14 @@ import mods.armoreablemobs.ArmorGroup;
 	draconicGroup.addEntity(witherSkeleton);
 	draconicGroup.addEntity(zombiePigman);
 	draconicGroup.addEntity(zombieVillager);
-	
+
 # *======= Wyvern =======*
 
 	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("head", <draconicevolution:wyvern_helm>.withTag({Energy: 20000}), 1, 0.004));
 	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("chest", <draconicevolution:wyvern_chest>.withTag({Energy: 20000}), 1, 0.004));
 	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("legs", <draconicevolution:wyvern_legs>.withTag({Energy: 20000}), 1, 0.004));
 	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("feet", <draconicevolution:wyvern_boots>.withTag({Energy: 20000}), 1, 0.004));
-	
+
 	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <draconicevolution:wyvern_sword>.withTag({Energy: 20000}), 1, 0.0004));
 
 	wyvernGroup.addEntity(zombie);
@@ -133,12 +135,12 @@ import mods.armoreablemobs.ArmorGroup;
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:fiery_chestplate>, 1, 0.25));
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:fiery_leggings>, 1, 0.25));
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:fiery_boots>, 1, 0.25));
-	
+
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:ironwood_helmet>.withTag({ench: [{lvl: 1 as short, id: 6 as short}]}), 1, 0.25));
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:ironwood_chestplate>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:ironwood_leggings>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
 	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:ironwood_boots>.withTag({ench: [{lvl: 1 as short, id: 2 as short}]}), 1, 0.25));
-	
+
 	twilightGroup.addEntity(zombie);
 	twilightGroup.addEntity(zombieStrong);
 	twilightGroup.addEntity(zombieBoss);
@@ -149,7 +151,7 @@ import mods.armoreablemobs.ArmorGroup;
 	twilightGroup.addEntity(zombieVillager);
 
 # *======= Mystical Agriculture Armor =======*
-		
+
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:inferium_helmet>, 10, 0.1));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:inferium_chestplate>, 10, 0.1));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:inferium_leggings>, 10, 0.1));
@@ -159,7 +161,7 @@ import mods.armoreablemobs.ArmorGroup;
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:prudentium_chestplate>, 7, 0.1));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:prudentium_leggings>, 7, 0.1));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:prudentium_boots>, 7, 0.1));
-		
+
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:intermedium_helmet>, 5, 0.1));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:intermedium_chestplate>, 5, 0.1));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:intermedium_leggings>, 5, 0.1));
@@ -178,9 +180,9 @@ import mods.armoreablemobs.ArmorGroup;
 	mysticalGroup.addEntity(witherSkeleton);
 	mysticalGroup.addEntity(zombiePigman);
 	mysticalGroup.addEntity(zombieVillager);
-		
+
 # *======= Magical Armor =======*
-		
+
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:manaweavehelm>, 10, 0.15));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manaweavechest>, 10, 0.15));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:manaweavelegs>, 10, 0.15));
@@ -190,7 +192,7 @@ import mods.armoreablemobs.ArmorGroup;
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <psi:psimetal_exosuit_chestplate>, 5, 0.05));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <psi:psimetal_exosuit_leggings>, 5, 0.05));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <psi:psimetal_exosuit_boots>, 5, 0.05));
-		
+
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:manasteelhelm>, 10, 0.1));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manasteelchest>, 10, 0.1));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:manasteellegs>, 10, 0.1));
@@ -205,7 +207,7 @@ import mods.armoreablemobs.ArmorGroup;
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:terrasteelchest>, 1, 0.003));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:terrasteellegs>, 1, 0.003));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:terrasteelboots>, 1, 0.003));
-	
+
 	magicalGroup.addEntity(zombie);
 	magicalGroup.addEntity(zombieStrong);
 	magicalGroup.addEntity(zombieBoss);
@@ -214,7 +216,7 @@ import mods.armoreablemobs.ArmorGroup;
 	magicalGroup.addEntity(witherSkeleton);
 	magicalGroup.addEntity(zombiePigman);
 	magicalGroup.addEntity(zombieVillager);
-	
+
 # *======= NuclearCraft Armor =======*
 
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_boron>, 10, 0.2));
@@ -226,7 +228,7 @@ import mods.armoreablemobs.ArmorGroup;
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_tough>, 8, 0.04));
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_tough>, 8, 0.04));
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_tough>, 8, 0.04));
-		
+
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_hard_carbon>, 4, 0.01));
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_hard_carbon>, 4, 0.01));
 	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_hard_carbon>, 4, 0.01));
@@ -245,9 +247,9 @@ import mods.armoreablemobs.ArmorGroup;
 	nuclearGroup.addEntity(witherSkeleton);
 	nuclearGroup.addEntity(zombiePigman);
 	nuclearGroup.addEntity(zombieVillager);
-	
+
 # *======= Vanilla Armor =======*
-		
+
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:leather_helmet>, 1, 0.5));
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:leather_chestplate>, 1, 0.5));
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:leather_leggings>, 1, 0.5));
@@ -267,7 +269,7 @@ import mods.armoreablemobs.ArmorGroup;
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:diamond_chestplate>, 1, 0.025));
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:diamond_leggings>, 1, 0.025));
 	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:diamond_boots>, 1, 0.025));
-	
+
 	vanillaGroup.addEntity(zombie);
 	vanillaGroup.addEntity(zombieStrong);
 	vanillaGroup.addEntity(zombieBoss);
@@ -277,14 +279,46 @@ import mods.armoreablemobs.ArmorGroup;
 	vanillaGroup.addEntity(zombiePigman);
 	vanillaGroup.addEntity(zombieVillager);
 
-	
+# *======= Energy Armor =======*
+
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("head", <immersiveengineering:faraday_suit_head>, 10, 0.1));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("chest", <immersiveengineering:faraday_suit_chest>, 10, 0.1));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("legs", <immersiveengineering:faraday_suit_legs>, 10, 0.1));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("feet", <immersiveengineering:faraday_suit_feet>, 10, 0.1));
+
+
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("head", <redstonearsenal:armor.helmet_flux>, 3, 0.04));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("chest", <redstonearsenal:armor.plate_flux>, 3, 0.04));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("legs", <redstonearsenal:armor.legs_flux>, 3, 0.04));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("feet", <redstonearsenal:armor.boots_flux>, 3, 0.04));
+
+
+
+	energyGroup.addEntity(zombie);
+	energyGroup.addEntity(zombieStrong);
+	energyGroup.addEntity(zombieBoss);
+	energyGroup.addEntity(knight);
+	energyGroup.addEntity(husk);
+	energyGroup.addEntity(witherSkeleton);
+	energyGroup.addEntity(zombiePigman);
+	energyGroup.addEntity(zombieVillager);
+
 # *======= Skeleton Armor =======*
-	
+
+
+
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("head", <redstonearsenal:armor.helmet_flux>, 3, 0.04));
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("chest", <redstonearsenal:armor.plate_flux>, 3, 0.04));
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("legs", <redstonearsenal:armor.legs_flux>, 3, 0.04));
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("feet", <redstonearsenal:armor.boots_flux>, 3, 0.04));
+
+
+
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:terrasteelhelm>, 1, 0.003));
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:terrasteelchest>, 1, 0.003));
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:terrasteellegs>, 1, 0.003));
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:terrasteelboots>, 1, 0.003));
-	
+
 	skeletonGroup.addEntity(skeleton);
 	skeletonGroup.addEntity(skeletonBoss);
 	skeletonGroup.addEntity(stray);

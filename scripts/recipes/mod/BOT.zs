@@ -101,3 +101,5 @@ recipes.removeByRecipeName("botanicadds:mana_tesseract_bind");
 
 //botania doppleganger not drop fix
 <entity:botania:doppleganger>.addDrop(<botania:manaresource:5>*4);
+
+Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.hop_graphite>],200000,0xCCFFFF,0x99FFFF,<techreborn:machine_frame>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
