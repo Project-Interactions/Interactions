@@ -16,3 +16,4 @@ $ cat .gitignore
 !/README.md
 !/icon.png
 !/options.txt
+!/LICENSE
