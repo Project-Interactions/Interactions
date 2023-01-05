@@ -96,8 +96,6 @@ Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:4>);
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:7>);
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource>);
 
-// 
-recipes.removeByRecipeName("botanicadds:mana_tesseract_bind");
 
 //botania doppleganger not drop fix
 <entity:botania:doppleganger>.addDrop(<botania:manaresource:5>*4);

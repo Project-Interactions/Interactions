@@ -10,7 +10,8 @@
 		type: "item",
 		items: [{
 			id: "projecte:item.pe_philosophers_stone",
-			tag: {}
+			tag: {},
+			Count: 1b
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

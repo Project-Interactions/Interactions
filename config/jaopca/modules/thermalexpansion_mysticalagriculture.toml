@@ -1,0 +1,13 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have insolator Phyto-Gro recipes added.
+	basicMaterialBlacklist = []
+	#The materials that should not have insolator Rich Phyto-Gro recipes added.
+	richMaterialBlacklist = []
+	#The materials that should not have insolator Fluxed Phyto-Gro recipes added.
+	fluxMaterialBlacklist = []
+

@@ -7,6 +7,7 @@ import crafttweaker.item.IIngredient;
 recipes.remove(<advgenerators:iron_wiring>);
 recipes.remove(<advgenerators:iron_tubing> * 16);
 recipes.remove(<advgenerators:iron_frame> * 2);
+recipes.remove(<advgenerators:upgrade_kit> * 32);
 
 RecipeUtils.recipeTweak(true, <advgenerators:controller>, [
 	[null, <ore:plateSilicon>, null], 
@@ -32,5 +33,5 @@ RecipeUtils.recipeTweak(true, <advgenerators:power_io>, [
 	[null, <integratedtunnels:part_interface_energy_item>, null]
 ]);
 
-
-
+recipes.addShaped(<advgenerators:upgrade_kit>, [[<ore:stickNickel>, <ore:plateAdvancedAlloy>, <ore:stickNickel>],[<ore:plateAdvancedAlloy>, null, <ore:plateAdvancedAlloy>], [<ore:stickNickel>, <ore:plateAdvancedAlloy>, <ore:stickNickel>]]);
+recipes.addShapeless(<advgenerators:advanced_pressure_valve>,[<ore:ingotSteel>,<advgenerators:pressure_valve>,<ore:ingotSteel>]);

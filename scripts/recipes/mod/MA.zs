@@ -59,7 +59,8 @@ recipes.addShaped("mysticalagradditions_special_2", <mysticalagradditions:specia
 recipes.addShaped("mysticalagradditions_special_3", <mysticalagradditions:special:5>, [[<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>], [<denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockDiamond>, <denseneutroncollectors:triple_compressed_neutron_collector>], [<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>]]);
 
 //mysticalcreations
-//秘金
+//some replace with jargca
+/*
 recipes.addShaped(<mysticalcreations:mithminite_seeds>,
 [[<thaumadditions:mithminite_ingot>,<mysticalagradditions:insanium>,<thaumadditions:mithminite_ingot>],
 [<mysticalagradditions:insanium>,<mysticalagradditions:insanium:1>,<mysticalagradditions:insanium>],
@@ -92,6 +93,7 @@ recipes.addShaped(<thaumadditions:mithrillium_ingot>,
 [<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>],
 [<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>]]
 );
+*/
 //天华
 recipes.addShaped(<mysticalcreations:aether_seeds>,
 [[<aetherworks:item_resource:4>,<mysticalagriculture:crafting:3>,<aetherworks:item_resource:4>],

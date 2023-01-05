@@ -12,4 +12,22 @@
 	modelType = "metallic"
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false
+	#The color of this material.
+	color = 4529205
+
+[mysticalagriculture]
+	#The crop tier of this material.
+	tier = 3
+	#The amount of Mystical Agriculture essence required to craft materials.
+	inputCount = 8
+	#The amount of material obtained by crafting Mystical Agriculture essence.
+	outputCount = 4
+
+[thermalexpansion_mysticalagriculture]
+	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Phyto-Gro.
+	basicChance = 100
+	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Rich Phyto-Gro.
+	richChance = 105
+	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
+	fluxChance = 110
 

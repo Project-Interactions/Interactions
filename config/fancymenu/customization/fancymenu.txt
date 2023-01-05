@@ -569,7 +569,7 @@ customization {
   y = 5
   scale = 1.0
   alignment = left
-  value = §a本整合包有超过450模组!
+  value = §a本整合包有超过500模组!
 }
 
 customization {
