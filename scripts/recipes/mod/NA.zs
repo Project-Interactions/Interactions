@@ -31,7 +31,7 @@ RecipeUtils.recipeTweak(true,<naturesaura:offering_table>, [[<ore:livingrock>, <
 
 TreeRitual.addRecipe("menril_sapling", <naturesaura:ancient_sapling>, <integrateddynamics:menril_sapling>, 400, [<botanicadds:rune_energy>,<botanicadds:rune_energy>,<botanicadds:rune_energy>,<ore:gemSapphire>,<ore:gemSapphire>,<naturesaura:sky_ingot>,<naturesaura:sky_ingot>,<ore:gemSapphire>]);
 
-reicpes.remove(<naturesaura:calling_spirit> * 3);
+recipes.remove(<naturesaura:calling_spirit> * 3);
 recipes.addShaped(<naturesaura:calling_spirit>, [[null, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), null], [<naturesaura:infused_iron>, <minecraft:diamond>, <naturesaura:infused_iron>], [null, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), null]]);
 
 

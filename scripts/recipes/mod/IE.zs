@@ -239,7 +239,7 @@ Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:materia
 
 //steel rework
 ArcFurnace.removeRecipe(<thermalfoundation:material:160>);
-ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 1024);
+ArcFurnace.addRecipe(<techreborn:ingot:19>*2, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 1024,[<ore:ingotIron>], "Alloying");
 ArcFurnace.addRecipe(<thermalfoundation:material:160>, <techreborn:ingot:19>, <immersiveengineering:material:7>, 160, 1024,[<ore:dustCoke>], "Alloying");
 
 RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveengineering:metal_decoration1>, <immersiveengineering:connector>, <immersiveengineering:metal_decoration1>], [<ore:circuitGood>, <immersiveengineering:wooden_decoration:1>, <ore:circuitGood>], [null, <immersiveengineering:metal_device1:7>, null]]);

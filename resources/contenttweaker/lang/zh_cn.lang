@@ -16,7 +16,7 @@ item.contenttweaker.assembled_manual_circuit.name=组装的手工电路板
 item.contenttweaker.mechanical_circuit.name=机械电路板
 item.contenttweaker.processor_mechanical_circuit.name=处理器机械电路板
 item.contenttweaker.mana_circuit.name=魔能电路板
-item.contenttweaker.infused_mana_circuit.name=星辉注入的魔能电路板
+item.contenttweaker.infused_mana_circuit.name=星能电路板
 item.contenttweaker.thaumic_circuit.name=神秘电路板
 item.contenttweaker.arcane_thaumic_circuit.name=奥术电路板
 item.contenttweaker.operation_circuit.name=运算电路板
@@ -70,6 +70,7 @@ fluid.refinediron=熔融精炼铁
 fluid.tic_useful_metal=熔融实用合金
 fluid.duplication=熔融复制金属
 fluid.ytinifni=流涌尽无
+fluid.molten_elfglass=熔融精灵玻璃
 
 tile.contenttweaker.frost_proof_machine_casing.name=冷冻机器方块
 tile.contenttweaker.refined_ore_essence.name=精炼矿石精华块
@@ -93,6 +94,8 @@ base.material.superconduct=超导
 base.material.cloudium=薄云轻合金
 base.material.naturium=自然合金
 base.material.twilght_steel=暮色合金
+base.material.refined_iron=精炼铁
+
 
 base.material.crude_gold=贵金属
 
@@ -123,11 +126,11 @@ item.contenttweaker.sunnariumalloy.name=阳光化合物合金
 item.contenttweaker.sunnarium.name=阳光化合物
 
 item.contenttweaker.crude_salis_mundus.name=粗制的世界盐
+item.contenttweaker.mana_circuit_board.name=魔能电路板基板
+item.contenttweaker.starlight_circuit_board.name=星能电路板基板
+item.contenttweaker.aquamarine_menril_mixture.name=海蓝宝石-门瑞欧结晶碎片混合物
 
 
 ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l!
 ia.custom.anticheat.name=检测到安装了作弊模组，请立即删除，否则将失去技术支持！
-ia.custom.modpackversion.name=整合包版本
-ia.custom.scoreboard1.name=测试1
-ia.custom.scoreboard2.name=测试2
 
