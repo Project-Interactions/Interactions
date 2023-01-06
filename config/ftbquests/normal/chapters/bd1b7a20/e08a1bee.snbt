@@ -1,6 +1,9 @@
 {
 	x: 9.0d,
 	y: 5.0d,
+	text: [
+		"mek的能量立方需要调整输出"
+	],
 	tasks: [{
 		uid: "09ad6470",
 		type: "item",

@@ -4,15 +4,14 @@
 	y: 0.0d,
 	text: [
 		"进行一次铂处理",
-		"寻找贵金属矿棉（precious）"
+		"寻找贵金属矿脉（precious）"
 	],
 	dependencies: [
 		"0297fa47"
 	],
 	tasks: [{
-		uid: "e0cfd6e7",
+		uid: "31bb21b1",
 		type: "item",
-		title: "Any orePlatinum",
 		items: [{
 			item: "contenttweaker:sub_block_holder_0 1 9"
 		}]

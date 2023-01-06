@@ -2,32 +2,39 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.naturesaura.TreeRitual;
+import mods.naturesaura.Altar;
 recipes.remove(<naturesaura:gold_fiber> * 4);
 recipes.removeShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), [<minecraft:paper>, <minecraft:paper>, <minecraft:leather>, <ore:treeSapling>]);
 recipes.addShaped(<naturesaura:gold_fiber> * 2, [[null, <ore:dustGold>, null],[<ore:dustGold>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <ore:dustGold>], [null, <ore:dustGold>, null]]);
 recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), [[<botania:manaresource:22>, <botania:manaresource:22>, <botania:manaresource:22>],[<botania:manaresource:22>, <minecraft:paper>, <botania:manaresource:22>], [<botania:manaresource:22>, <botania:manaresource:22>, <botania:manaresource:22>]]);
 
-mods.naturesaura.TreeRitual.removeRecipe(<naturesaura:nature_altar>);
+TreeRitual.removeRecipe(<naturesaura:nature_altar>);
 mods.botania.RuneAltar.addRecipe(<naturesaura:nature_altar>,[<naturesaura:gold_leaf>, <naturesaura:gold_leaf>,<naturesaura:gold_leaf>, <naturesaura:token_joy>, <botania:manaresource>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <botania:livingrock:1>], 1000);
 
-mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_iron>);
-mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_iron_block>);
-mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_stone>);
+Altar.removeRecipe(<naturesaura:infused_iron>);
+Altar.removeRecipe(<naturesaura:infused_iron_block>);
+Altar.removeRecipe(<naturesaura:infused_stone>);
 //灌注铁
-mods.naturesaura.Altar.addRecipe("infused_iron", <ore:ingotRefinedIron>, <naturesaura:infused_iron>, null, 20, 50);
+Altar.addRecipe("infused_iron", <ore:ingotRefinedIron>, <naturesaura:infused_iron>, null, 20, 50);
 //灌注石
-mods.naturesaura.Altar.addRecipe("infused_stone", <aether_legacy:holystone>, <naturesaura:infused_stone>, null, 20, 50);
-mods.naturesaura.Altar.removeRecipe(<minecraft:blaze_powder>*4);
-mods.naturesaura.Altar.removeRecipe(<minecraft:leather>);
+Altar.addRecipe("infused_stone", <aether_legacy:holystone>, <naturesaura:infused_stone>, null, 20, 50);
+Altar.removeRecipe(<minecraft:blaze_powder>*4);
+Altar.removeRecipe(<minecraft:leather>);
 
 //瓶与塞
 recipes.remove(<naturesaura:bottle_two_the_rebottling>);
 recipes.addShapeless(<naturesaura:bottle_two_the_rebottling>*2,[<extrautils2:klein>,<ore:clothManaweave>]);
 
 
-RecipeUtils.recipeTweak(true,<naturesaura:offering_table>, [[<ore:livingrock>, <naturesaura:infused_iron>, <ore:livingrock>], [<naturesaura:token_fear>, <ore:livingrock>, <naturesaura:token_sorrow>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+RecipeUtils.recipeTweak(true,<naturesaura:offering_table>, [[<ore:livingrock>, <ore:blockInfusedIron>, <ore:livingrock>], [<naturesaura:token_fear>, <ore:livingrock>, <naturesaura:token_sorrow>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
-mods.naturesaura.TreeRitual.addRecipe("menril_sapling", <naturesaura:ancient_sapling>, <integrateddynamics:menril_sapling>, 400, [<botanicadds:rune_energy>,<botanicadds:rune_energy>,<botanicadds:rune_energy>,<ore:gemSapphire>,<ore:gemSapphire>,<naturesaura:sky_ingot>,<naturesaura:sky_ingot>,<ore:gemSapphire>]);
+TreeRitual.addRecipe("menril_sapling", <naturesaura:ancient_sapling>, <integrateddynamics:menril_sapling>, 400, [<botanicadds:rune_energy>,<botanicadds:rune_energy>,<botanicadds:rune_energy>,<ore:gemSapphire>,<ore:gemSapphire>,<naturesaura:sky_ingot>,<naturesaura:sky_ingot>,<ore:gemSapphire>]);
+
+reicpes.remove(<naturesaura:calling_spirit> * 3);
+recipes.addShaped(<naturesaura:calling_spirit>, [[null, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), null], [<naturesaura:infused_iron>, <minecraft:diamond>, <naturesaura:infused_iron>], [null, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), null]]);
+
+
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <auraddons:item_creative_aura_cache>, [
 	[null, null, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, null, null], 

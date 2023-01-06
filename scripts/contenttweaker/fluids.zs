@@ -136,3 +136,11 @@ everlasting.density = 2400;
 everlasting.stillLocation = "base:fluids/molten";
 everlasting.flowingLocation = "base:fluids/molten_flowing";
 everlasting.register();
+
+val molten_elfglass = mods.contenttweaker.VanillaFactory.createFluid("molten_elfglass", Color.fromHex("B6F1F0").getIntColor());
+molten_elfglass.material = <blockmaterial:lava>;
+molten_elfglass.viscosity = 2400;
+molten_elfglass.density = 2400;
+molten_elfglass.stillLocation = "base:fluids/molten";
+molten_elfglass.flowingLocation = "base:fluids/molten_flowing";
+molten_elfglass.register();

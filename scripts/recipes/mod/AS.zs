@@ -6,6 +6,7 @@ import mods.astralsorcery.Grindstone;
 import mods.astralsorcery.StarlightInfusion;
 import mods.astralsorcery.LightTransmutation;
 import mods.astralsorcery.Altar;
+import mods.astralsorcery.Lightwell;
 //空岛适配
 recipes.remove(<astralsorcery:itemcraftingcomponent:1> * 4);
 recipes.remove(<astralsorcery:blockblackmarble> * 8);
@@ -55,7 +56,7 @@ Altar.addDiscoveryAltarRecipe(
 	<contenttweaker:infused_mana_circuit>,
 	400,
 	100,
-	[null, <contenttweaker:mana_circuit>, null, <contenttweaker:mana_circuit>, <ore:gearAstralStarmetal>, <contenttweaker:mana_circuit>, null, <contenttweaker:mana_circuit>, null]
+	[null, <ore:plateAstralStarmetal>, null, <contenttweaker:mana_circuit>, <contenttweaker:starlight_circuit_board>, <contenttweaker:mana_circuit>, <astralsorcery:blockinfusedwood>, <contenttweaker:mana_circuit>, <astralsorcery:blockinfusedwood>]
 );
 
 Grindstone.addRecipe(<botania:dice>, <botania:manaresource:5>*4);
@@ -64,4 +65,6 @@ Grindstone.addRecipe(<botania:dice>, <botania:manaresource:5>*4);
 StarlightInfusion.removeInfusion(<astralsorcery:itemcraftingcomponent:3>);
 StarlightInfusion.addInfusion(<botania:bifrostpermpane>, <astralsorcery:itemcraftingcomponent:3>, false, 0.7, 200);
 
+Lightwell.removeLiquefaction(<astralsorcery:itemcraftingcomponent>, null);
+Lightwell.addLiquefaction(<contenttweaker:aquamarine_menril_mixture>, <liquid:astralsorcery.liquidstarlight>*1000, 1, 0.2, 0);
 

@@ -18,17 +18,9 @@ recipes.addShapeless(<thaumcraft:salis_mundus>,[<contenttweaker:crude_salis_mund
 //石英粒修改
 mods.techreborn.grinder.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 30, 15);
 recipes.remove(<thaumcraft:nugget:9> * 9);
-recipes.remove(<thaumadditions:mithrillium_plate> * 3);
-recipes.remove(<thaumadditions:adaminite_plate> * 3);
-recipes.remove(<thaumadditions:mithminite_plate> * 3);
-recipes.removeShapeless(<thaumcraft:plate:3>);
-recipes.removeShapeless(<thaumcraft:plate:2>);
-recipes.removeShapeless(<thaumcraft:plate>);
 mods.immersiveengineering.Crusher.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 2048);
-
-
-
 recipes.removeByRecipeName("hammercore:thaumadditions_recipestar.0");
+
 recipes.addShapeless(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), [<thaumcraft:nugget:9>]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:fabric>);
@@ -123,9 +115,9 @@ Infusion.registerRecipe(
     [<aspect:spiritus>*125, <aspect:lux>*125,<aspect:humanus>*125], //aspect
     <minecraft:nether_star>, //core item
     [<ichoriumkit:resourcekami>,
-<ichoriumkit:resourcekami:1>,
-<botanicadds:elven_lapis>,
-<moreplates:manyullyn_plate>]//items
+    <ichoriumkit:resourcekami:1>,
+    <botanicadds:elven_lapis>,
+    <moreplates:manyullyn_plate>]//items
 );
 
 Infusion.registerRecipe(

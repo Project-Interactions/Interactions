@@ -66,7 +66,7 @@ MetalPress.removeRecipe(<moreplates:void_plate>);
 MetalPress.removeRecipe(<immersiveengineering:graphite_electrode>);
 MetalPress.removeRecipe(<immersiveintelligence:material_wire>);
 MetalPress.removeRecipe(<techreborn:plates:38>);
-MetalPress.addRecipe(<immersiveintelligence:material_wire>,<immersiveintelligence:material_ingot>,<immersiveengineering:mold:4>,1024);
+MetalPress.addRecipe(<immersiveintelligence:material_wire>*2,<immersiveintelligence:material_ingot>,<immersiveengineering:mold:4>,1024);
 
 
 MetalPress.addRecipe(<moreplates:restonia_plate>,<actuallyadditions:item_crystal>,<immersiveengineering:mold>,1024);

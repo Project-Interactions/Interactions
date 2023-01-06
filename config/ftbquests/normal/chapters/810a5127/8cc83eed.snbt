@@ -2,6 +2,9 @@
 	title: "植物魔法：符文及产魔",
 	x: -2.5d,
 	y: 3.5d,
+	text: [
+		"我也不知道这玩意为啥跑到第三章了…"
+	],
 	tasks: [{
 		uid: "0f6c0bc0",
 		type: "checkmark"

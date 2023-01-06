@@ -8,17 +8,27 @@ import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.MetalPress;
-import mods.immersivetweaker.Recycling;
-import mods.immersiveintelligence.ChemicalBath;
-import mods.immersivetechnology.CoolingTower;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.BlastFurnace;
-import mods.immersiveintelligence.PrecissionAssembler;
 import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Mixer;
+import mods.immersivetweaker.Recycling;
 
+import mods.immersiveintelligence.ChemicalBath;
+import mods.immersiveintelligence.PrecissionAssembler;
 
+import mods.immersivetechnology.CoolingTower;
+import mods.immersivetechnology.SteamTurbine;
+import mods.immersivetechnology.GasTurbine;
+import mods.immersivetechnology.Distiller;
+import mods.immersivetechnology.Boiler;
+import mods.immersivetechnology.SolarTower;
+import mods.immersivetechnology.HeatExchanger;
+import mods.immersivetechnology.Radiator;
+import mods.immersivetechnology.ElectrolyticCrucibleBattery;
+import mods.immersivetechnology.MeltingCrucible;
+import mods.immersivetechnology.PressurizedFluid;
 //
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
@@ -83,7 +93,7 @@ Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tin
 ChemicalBath.removeRecipe(<immersiveintelligence:material:11>);
 ChemicalBath.addRecipe(<immersiveintelligence:material:10>,<immersiveintelligence:material:11>,<liquid:advanced_etching>*4000,160,160);
 
-CoolingTower.addRecipe(<liquid:ore_water>*1000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:waste_water>*1000,<liquid:ore_water>*10000,60);
+//CoolingTower.addRecipe(<liquid:ore_water>*1000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:waste_water>*1000,<liquid:ore_water>*10000,60);
 
 //Crusher.removeRecipe(<libvulpes:productgem>);
 
@@ -116,7 +126,7 @@ Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>*
 RecipeUtils.recipeTweak(true,<immersiveintelligence:material:13>,[[<ore:brushCarbon>, <ore:circuitGood>, <ore:brushCarbon>], [<ore:plateAluminum>, <ore:ingotMagnet>, <ore:plateAluminum>], [<ore:ingotMagnet>, <immersiveengineering:wirecoil:1>, <ore:ingotMagnet>]]);
 Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 //机械电路板
-PrecissionAssembler.addRecipe(<contenttweaker:mechanical_circuit>*5,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:4>*2, <immersiveintelligence:material:6>,<ore:itemRubber>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
+PrecissionAssembler.addRecipe(<contenttweaker:mechanical_circuit>*3,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:4>*2, <immersiveintelligence:material:6>,<ore:itemRubber>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
 Blueprint.removeRecipe(<immersiveintelligence:material:7>);
 //mixer
 Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4000);
@@ -174,7 +184,7 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2
 
 //fix
 PrecissionAssembler.removeRecipe(<immersiveintelligence:material>*2);
-PrecissionAssembler.addRecipe(<immersiveintelligence:material>*2,null,[<ore:plateSteel>*4,<immersiveengineering:material:26>*2], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
+PrecissionAssembler.addRecipe(<immersiveintelligence:material>*2,null,[<ore:plateSteel>*4,<immersiveengineering:material:26>*2,<ore:wireAdvancedElectronicAlloy>], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
 
 //balance
 PrecissionAssembler.removeRecipe(<immersiveintelligence:material:9>);
@@ -230,5 +240,12 @@ Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:materia
 //steel rework
 ArcFurnace.removeRecipe(<thermalfoundation:material:160>);
 ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 1024);
-ArcFurnace.addRecipe(<thermalfoundation:material:160>, <techreborn:ingot:19>, <immersiveengineering:material:7>, 40, 2048,[<ore:dustCoke>], "Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:160>, <techreborn:ingot:19>, <immersiveengineering:material:7>, 160, 1024,[<ore:dustCoke>], "Alloying");
 
+RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveengineering:metal_decoration1>, <immersiveengineering:connector>, <immersiveengineering:metal_decoration1>], [<ore:circuitGood>, <immersiveengineering:wooden_decoration:1>, <ore:circuitGood>], [null, <immersiveengineering:metal_device1:7>, null]]);
+
+MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 1024, 20);
+ChemicalBath.addRecipe(<botania:quartz:3>*2, <contenttweaker:mana_circuit_board>,<liquid:molten_elfglass>*1000, 16000, 80);
+ChemicalBath.addRecipe(<contenttweaker:mana_circuit_board>, <contenttweaker:starlight_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000, 32000, 80);
+
+ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:itemcraftingcomponent>, <immersiveengineering:material:7>, 60, 1024,[<integrateddynamics:crystalized_menril_chunk>], "Alloying");

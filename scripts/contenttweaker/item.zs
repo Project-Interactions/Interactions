@@ -71,7 +71,9 @@ VanillaFactory.createItem("infinity_circuit").register();
 
 VanillaFactory.createItem("crude_salis_mundus").register();
 
-
+VanillaFactory.createItem("mana_circuit_board").register();
+VanillaFactory.createItem("aquamarine_menril_mixture").register();
+VanillaFactory.createItem("starlight_circuit_board").register();
 
 
 //sponser+friend

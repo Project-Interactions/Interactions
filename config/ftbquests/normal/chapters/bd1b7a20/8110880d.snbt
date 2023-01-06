@@ -6,17 +6,10 @@
 		"1eb5f5f0"
 	],
 	tasks: [{
-		uid: "e5ef936b",
+		uid: "9b987948",
 		type: "item",
-		title: "Any ingotSteel",
 		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotSteel"
-				}
-			}
+			item: "thermalfoundation:material 1 160"
 		}],
 		count: 8L
 	}],

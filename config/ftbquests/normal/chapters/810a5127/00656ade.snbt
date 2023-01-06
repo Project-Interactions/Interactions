@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"3e3f15b5"
+	],
+	tasks: [{
+		uid: "a0d41021",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infused_mana_circuit"
+		}]
+	}]
+}
