@@ -111,25 +111,18 @@ recipes.addShaped(<techreborn:plate_bending_machine>, [[<minecraft:piston>, <ore
 recipes.addShaped(<techreborn:machine_casing:1>*2, [[<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>],[<techreborn:part:13>, <techreborn:machine_frame:1>, <techreborn:part:13>], [<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>]]);
 
 
-//blastFurnace.addRecipe(<thermalfoundation:material:134>,<techreborn:dust:3>,<ore:dustPlatinum>,null,1600,800,1640);
-//
+
 recipes.remove(<techreborn:part:2>*4);
 
+var psc = <ore:plateSemiconductor>;
+var rsc = <ore:rodSemiconductor>;
+
 rollingMachine.addShapeless(<advgenerators:iron_frame>, [<ore:plateCobalt>]);
-//rollingMachine.
+rollingMachine.addShaped(<libvulpes:structuremachine>*2, [[psc,rsc,psc],[rsc,null,rsc],[psc,rsc,psc]]);
+
+
 recipes.remove(<techreborn:part>*4);
 recipes.remove(<techreborn:lapotronicorb>);
-
-//blastFurnace.addRecipe(<thermalfoundation:material:165>,null,<thermalfoundation:material:101>,null,600,400,1600);
-//blastFurnace.addRecipe(<thermalfoundation:material:166>,null,<thermalfoundation:material:102>,null,600,400,1600);
-//blastFurnace.addRecipe(<redstonearsenal:material:32>,null,<redstonearsenal:material>,null,600,400,1600);
-//blastFurnace.addRecipe(<qmd:ingot_alloy:2>,null,<contenttweaker:stainless_steel_dust>,null,1200,400,2011);
-//blastFurnace.addRecipe(<techreborn:ingot:19>,null,<minecraft:iron_ingot>,null,80,300,1000);
-
-
-//vacuumFreezer.addRecipe(<redstonerepository:material:1>,<redstonerepository:material>,80,400);
-//vacuumFreezer.addRecipe(<thermalfoundation:material:167>,<thermalfoundation:material:103>,80,400);
-
 
 
 // 

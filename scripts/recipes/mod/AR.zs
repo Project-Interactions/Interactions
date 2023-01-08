@@ -3,6 +3,16 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.advancedrocketry.RecipeTweaker as ARTweaker;
+
+recipes.remove(<libvulpes:structuremachine>*16);
+RecipeUtils.recipeTweak(true, <advancedrocketry:satelliteprimaryfunction>, [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [null, <ore:dustGlowstone>, null], [<ore:gearRefinedGlowstone>, <ore:plateGold>, <ore:gearRefinedGlowstone>]]);
+
+recipes.remove(<libvulpes:linker>);
+recipes.addShaped(<libvulpes:linker>, [[<ore:circuitNuclear>], [<ore:ingotGold>], [<ore:ingotIron>]]);
+
+recipes.remove(<libvulpes:holoprojector>);
+recipes.addShaped(<libvulpes:holoprojector>, [[<advancedrocketry:satelliteprimaryfunction>, <ore:dustRedstone>, <advancedrocketry:satelliteprimaryfunction>], [<ore:circuitNuclear>, <ore:plateIron>, <ore:circuitNuclear>]]);
+
 /*
 ARTweaker.forMachine("PrecisionAssembler")
 

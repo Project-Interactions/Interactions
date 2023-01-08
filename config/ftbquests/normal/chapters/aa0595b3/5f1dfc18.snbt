@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"0e627123"
+	],
+	tasks: [{
+		uid: "666b87b9",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}]
+	}]
+}
