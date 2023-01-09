@@ -6,6 +6,8 @@ import mods.mekanism.infuser;
 import mods.mekanism.enrichment;
 import mod.mekanism.gas.IGasStack;
 import mods.mekanism.thermalevaporation;
+import mods.nuclearcraft.Assembler;
+
 recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
 recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
@@ -68,9 +70,9 @@ RecipeUtils.recipeTweak(true,<mekanism:energytablet>, [[<ore:dustRedstone>, <ore
 recipes.remove(<mekanism:controlcircuit:1>);
 recipes.remove(<mekanism:controlcircuit:2>);
 recipes.remove(<mekanism:controlcircuit:3>);
-recipes.addShaped(<mekanism:controlcircuit:3>*2, [[<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>],[<mekanism:controlcircuit:2>, <ore:alloyUltimate>, <mekanism:controlcircuit:2>], [<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>]]);
-recipes.addShaped(<mekanism:controlcircuit:2>*2, [[<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>],[<mekanism:controlcircuit:1>, <ore:alloyElite>, <mekanism:controlcircuit:1>], [<ore:alloyElite>, <mekanism:controlcircuit:1>, <ore:alloyElite>]]);
-recipes.addShaped(<mekanism:controlcircuit:1>*2, [[<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>],[<mekanism:controlcircuit>, <ore:alloyAdvanced>, <mekanism:controlcircuit>], [<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>]]);
+Assembler.addRecipe(<ore:alloyUltimate>*4,<mekanism:controlcircuit:2>*4,null,null,<mekanism:controlcircuit:3>*2);
+Assembler.addRecipe(<ore:alloyElite>*4,<mekanism:controlcircuit:2>*4,null,null,<mekanism:controlcircuit:2>*2);
+Assembler.addRecipe(<ore:alloyAdvanced>*4,<mekanism:controlcircuit>*4,null,null,<mekanism:controlcircuit:1>*2);
 
 //use factory instead
 val remove as IItemStack[] = 
@@ -168,3 +170,6 @@ mods.mekanism.compressor.addRecipe(<thaumicrestoration:item_ingot:5>, <gas:liqui
 
 //cheaper energy cube
 recipes.addShaped(<mekanism:energycube>, [[<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>],[<thermalfoundation:material:24>, <ore:circuitBasic>, <thermalfoundation:material:24>], [<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>]]);
+
+//ar
+infuser.addRecipe("DIAMONDHARD", 20, <libvulpes:structuremachine>, <contenttweaker:material_part:70>*2);

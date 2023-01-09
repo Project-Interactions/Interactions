@@ -73,7 +73,7 @@ tableEliteRecipe.transform({
 	"A" : null,
 	"B" : <mekanism:machineblock3:5>,
 	"C" : <botania_tweaks:elite_extended_crafty_crate>
-})
+});
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_elite>, tableEliteRecipe.get());
 

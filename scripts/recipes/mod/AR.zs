@@ -3,15 +3,35 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.advancedrocketry.RecipeTweaker as ARTweaker;
+import mods.nuclearcraft.Assembler;
 
 recipes.remove(<libvulpes:structuremachine>*16);
-RecipeUtils.recipeTweak(true, <advancedrocketry:satelliteprimaryfunction>, [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [null, <ore:dustGlowstone>, null], [<ore:gearRefinedGlowstone>, <ore:plateGold>, <ore:gearRefinedGlowstone>]]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:satelliteprimaryfunction>, [[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>], [null, <ore:dustGlowstone>, null], [<ore:gearRefinedGlowstone>, <ore:plateGold>, <ore:gearRefinedGlowstone>]]);
 
 recipes.remove(<libvulpes:linker>);
 recipes.addShaped(<libvulpes:linker>, [[<ore:circuitNuclear>], [<ore:ingotGold>], [<ore:ingotIron>]]);
 
 recipes.remove(<libvulpes:holoprojector>);
 recipes.addShaped(<libvulpes:holoprojector>, [[<advancedrocketry:satelliteprimaryfunction>, <ore:dustRedstone>, <advancedrocketry:satelliteprimaryfunction>], [<ore:circuitNuclear>, <ore:plateIron>, <ore:circuitNuclear>]]);
+
+val remove as IItemStack[] = 
+[
+<advancedrocketry:ic:5>,
+<advancedrocketry:ic:4>,
+<libvulpes:battery:1>,
+<advancedrocketry:misc>,
+<libvulpes:battery>,
+<advancedrocketry:ic:3>
+];
+
+for Remove in remove {
+    recipes.remove(Remove);
+}
+
+Assembler.addRecipe(<ore:plateTungsten>*3,<nuclearcraft:lithium_ion_cell>,null,null,<libvulpes:battery>*2);
+Assembler.addRecipe(<libvulpes:battery>*2,<nuclearcraft:lithium_ion_battery_basic>,null,null,<libvulpes:battery:1>);
+
+Assembler.addRecipe(<ore:circuitMaster>*2,null,null,null,<advancedrocketry:ic:5>);
 
 /*
 ARTweaker.forMachine("PrecisionAssembler")

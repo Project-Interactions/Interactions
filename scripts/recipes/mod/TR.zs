@@ -114,11 +114,9 @@ recipes.addShaped(<techreborn:machine_casing:1>*2, [[<ore:plateSteel>, <ore:circ
 
 recipes.remove(<techreborn:part:2>*4);
 
-var psc = <ore:plateSemiconductor>;
-var rsc = <ore:rodSemiconductor>;
+
 
 rollingMachine.addShapeless(<advgenerators:iron_frame>, [<ore:plateCobalt>]);
-rollingMachine.addShaped(<libvulpes:structuremachine>*2, [[psc,rsc,psc],[rsc,null,rsc],[psc,rsc,psc]]);
 
 
 recipes.remove(<techreborn:part>*4);
