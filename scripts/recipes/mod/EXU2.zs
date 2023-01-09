@@ -33,8 +33,6 @@ recipes.removeShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), [[null, <minecraft:enchanted_book:*>, null], [<ore:circuitMana>, <extrautils2:machine>, <ore:circuitMana>], [<ore:plateThaumiumOrdo>, <ore:circuitMana>, <ore:plateThaumiumOrdo>]]);
 
 recipes.removeShaped(<extrautils2:unstableingots:1>, [[<ore:nuggetIron>], [<ore:stickWood>], [<ore:gemDiamond>]]);
-recipes.addShaped(<extrautils2:unstableingots:1>, [[<ore:ingotChrome>], [<ore:ingotTitanium>], [<ore:ingotPlatinum>]]);
-
 recipes.removeByRecipeName("extrautils2:drum_256");
 recipes.removeByRecipeName("extrautils2:drum_4096");
 recipes.removeByRecipeName("extrautils2:drum_65536");

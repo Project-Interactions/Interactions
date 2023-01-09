@@ -47,6 +47,9 @@ ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20
 
 recipes.addShapeless(<thaumcraft:thaumonomicon>,[<minecraft:writable_book>,<thaumcraft:crystal_essence:*>]);
 
+ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
+ArcaneWorkbench.registerShapedRecipe("tc:mmorphic_resonator","BASEARTIFICE",50, [<aspect:aer>, <aspect:ignis>],<thaumcraft:morphic_resonator>,[[null,<astralsorcery:itemcraftingcomponent:3>,null],[<ore:plateAlchemicalBrass>,<thaumcraft:nugget:10>,<ore:plateAlchemicalBrass>],[null,<astralsorcery:itemcraftingcomponent:3>,null]]);
+
 
 
 

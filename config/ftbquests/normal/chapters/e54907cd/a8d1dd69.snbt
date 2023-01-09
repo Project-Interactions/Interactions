@@ -25,16 +25,6 @@
 		items: [{
 			item: "embers:beam_cannon"
 		}]
-	},
-	{
-		uid: "4c116111",
-		type: "item",
-		items: [{
-			id: "embers:tinker_hammer",
-			tag: {}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "8037e843",

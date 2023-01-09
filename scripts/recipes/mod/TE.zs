@@ -152,3 +152,4 @@ recipes.addShapeless(<thermalexpansion:morb>,[<ore:crystalSlag>,<ore:slimeball>,
 RecipeUtils.recipeTweak(true, <thermalexpansion:augment:416>, [[null, <ore:gearSignalum>, null], [<actuallyadditions:block_bio_reactor>, <thermalfoundation:material:512>, <actuallyadditions:block_bio_reactor>], [null, <minecraft:piston:*>, null]]);
 
 
+Factorizer.addRecipeSplit(<deepmoblearning:glitch_infused_ingot>, <extrautils2:unstableingots:1>*3);

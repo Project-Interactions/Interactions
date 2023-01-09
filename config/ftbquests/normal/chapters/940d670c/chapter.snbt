@@ -1,5 +1,6 @@
 {
 	title: "自动化进阶",
+	icon: "ae2fc:dual_interface",
 	always_invisible: false,
 	group: -448198707,
 	default_quest_shape: ""

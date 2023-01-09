@@ -18,17 +18,10 @@
 		count: 4L
 	},
 	{
-		uid: "889e8c99",
+		uid: "ed4ca9fd",
 		type: "item",
-		title: "Any ingotThaumium",
 		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotThaumium"
-				}
-			}
+			item: "thaumcraft:ingot"
 		}],
 		count: 4L
 	}],

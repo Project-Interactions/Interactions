@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"在之后的研究中，你可以解锁复制世界盐"
+	],
+	dependencies: [
+		"814c087b"
+	],
+	tasks: [{
+		uid: "7babafc2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

@@ -43,14 +43,6 @@ Melting.removeRecipe(<liquid:iridium>,<techreborn:smalldust:66>);
 Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:ore:7>);
 Melting.removeRecipe(<liquid:iridium>,<techreborn:ore:1>);
 
-
-
-
-
-
-
-
-
 //
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:glowstone", Count: 1 as byte, Damage: 0 as short}}));
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:redstone_block", Count: 1 as byte, Damage: 0 as short}}));
@@ -80,9 +72,9 @@ Alloy.removeRecipe(<liquid:marshmallow>);
 Alloy.removeRecipe(<liquid:dark_steel>);
 
 //alloy add
-Alloy.addRecipe(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);
-Alloy.addRecipe(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refinediron>]);
-Alloy.addRecipe(<liquid:dilithium_fluid>,[<liquid:lithium>*2,<liquid:hard_carbon>]);
+Alloy.addRecipe(<liquid:osgloglas>*72,[<liquid:osmium>*72,<liquid:refined_obsidian>*72,<liquid:refined_glowstone>*72]);
+Alloy.addRecipe(<liquid:meteorite_fluid>*72,[<liquid:sky_stone>*72,<liquid:refinediron>*72]);
+Alloy.addRecipe(<liquid:dilithium_fluid>*72,[<liquid:lithium>*144,<liquid:hard_carbon>*72]);
 
 Alloy.removeRecipe(<liquid:osmiridium>);
 //

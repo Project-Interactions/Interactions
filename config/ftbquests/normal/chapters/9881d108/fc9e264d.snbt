@@ -1,6 +1,9 @@
 {
 	x: 3.5d,
 	y: 12.0d,
+	text: [
+		"一些生物可通过其召唤"
+	],
 	tasks: [{
 		uid: "db746bbc",
 		type: "item",

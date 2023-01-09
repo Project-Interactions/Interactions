@@ -4,6 +4,9 @@
 	text: [
 		"世界盐的配方已经被修改"
 	],
+	dependencies: [
+		"46fa16e7"
+	],
 	tasks: [{
 		uid: "2d51935d",
 		type: "item",

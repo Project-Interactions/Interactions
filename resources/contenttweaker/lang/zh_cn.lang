@@ -44,6 +44,7 @@ item.contenttweaker.outside_minecraft.name=在Minecraft之外？
 item.contenttweaker.give.name=----
 
 fluid.blend_caminite=液态方镁矾
+fluid.hot_blend_caminite=热液态方镁矾
 fluid.witch_water=巫水
 fluid.ore_water=矿物浆液
 fluid.living_water=生物质水

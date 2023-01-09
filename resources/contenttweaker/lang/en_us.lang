@@ -44,6 +44,7 @@ item.contenttweaker.outside_minecraft.name=Outside Minecraft?
 item.contenttweaker.give.name=----
 
 fluid.blend_caminite=Liquid Caminite
+fluid.hot_blend_caminite=Hot Liquid Caminite
 fluid.witch_water=Witch Water
 fluid.ore_water=Ore Slurry
 fluid.living_water=Biomass Water
