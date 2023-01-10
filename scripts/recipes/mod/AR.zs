@@ -27,6 +27,7 @@ val remove as IItemStack[] =
 for Remove in remove {
     recipes.remove(Remove);
 }
+recipes.addShaped(<advancedrocketry:misc>, [[null, null, null],[<enderio:item_material:41>, <enderio:item_material:41>, <enderio:item_material:41>], [<arcanearchives:material_interface>, <nuclearcraft:machine_interface>, <arcanearchives:material_interface>]]);
 
 Assembler.addRecipe(<ore:plateTungsten>*3,<nuclearcraft:lithium_ion_cell>,null,null,<libvulpes:battery>*2);
 Assembler.addRecipe(<libvulpes:battery>*2,<nuclearcraft:lithium_ion_battery_basic>,null,null,<libvulpes:battery:1>);

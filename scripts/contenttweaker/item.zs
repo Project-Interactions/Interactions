@@ -75,6 +75,9 @@ VanillaFactory.createItem("mana_circuit_board").register();
 VanillaFactory.createItem("aquamarine_menril_mixture").register();
 VanillaFactory.createItem("starlight_circuit_board").register();
 
+VanillaFactory.createItem("thaumic_circuit_board").register();
+VanillaFactory.createItem("thaumic_suncrystal").register();
+
 
 //sponser+friend
 VanillaFactory.createItem("oganesson897").register();
