@@ -1,0 +1,20 @@
+{
+	title: "增长的血量",
+	x: 6.0d,
+	y: 11.0d,
+	text: [
+		"可以从黄金级地牢中找到，每次使用会增加2点最大血量，最多使用十片"
+	],
+	dependencies: [
+		"afebc263"
+	],
+	tasks: [{
+		uid: "62c2bba7",
+		type: "item",
+		items: [{
+			item: "aether_legacy:life_shard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

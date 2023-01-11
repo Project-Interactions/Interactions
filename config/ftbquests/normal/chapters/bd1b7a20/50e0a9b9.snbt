@@ -1,6 +1,6 @@
 {
 	title: "背包整理",
-	x: -3.0d,
+	x: -0.8d,
 	y: -4.0d,
 	text: [
 		"本整合包使用Bogo Sorter，而非R键整理",

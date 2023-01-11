@@ -69,5 +69,25 @@
 			}
 		}],
 		count: 9L
+	}],
+	rewards: [{
+		uid: "6772c767",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "immersiveengineering:tool",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "基础沉浸奖杯",
+				TrophyColorRed: 65,
+				TrophyColorGreen: 205,
+				TrophyColorBlue: 52,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b
+			}
+		}
 	}]
 }

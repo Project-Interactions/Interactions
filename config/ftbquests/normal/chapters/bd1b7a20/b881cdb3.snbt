@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: -0.5d,
+	dependencies: [
+		"cb1d1a0f"
+	],
+	tasks: [{
+		uid: "fe618132",
+		type: "item",
+		items: [{
+			item: "tinkersaddons:modifier_item 1 1"
+		}]
+	}]
+}

@@ -1,17 +1,14 @@
 {
-	x: -6.0d,
-	y: -0.5d,
+	x: 9.0d,
+	y: -4.5d,
 	dependencies: [
-		"7c92894e"
+		"ccdee215"
 	],
 	tasks: [{
-		uid: "13d030a4",
+		uid: "a6fbbf8b",
 		type: "item",
 		items: [{
-			id: "wct:wct",
-			tag: {
-				InfinityEnergy: 0
-			}
+			item: "bloodmagic:arcane_ashes"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
