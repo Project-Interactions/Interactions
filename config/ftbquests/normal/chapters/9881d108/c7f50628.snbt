@@ -1,0 +1,60 @@
+{
+	title: "要素注入神秘锭",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"使用对应的神秘要素注入神秘锭",
+		"它们都可用作匠魂材料"
+	],
+	dependencies: [
+		"9fcbd097"
+	],
+	tasks: [{
+		uid: "266c8f41",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:item_ingot"
+		}]
+	},
+	{
+		uid: "2f59284f",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:item_ingot 1 1"
+		}]
+	},
+	{
+		uid: "ae1682fd",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:item_ingot 1 2"
+		}]
+	},
+	{
+		uid: "bd4588b5",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:item_ingot 1 3"
+		}]
+	},
+	{
+		uid: "5384119c",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:item_ingot 1 4"
+		}]
+	},
+	{
+		uid: "d9fbdd75",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:item_ingot 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "372ab60c",
+		type: "item",
+		item: "thaumcraft:metal_thaumium",
+		count: 4
+	}]
+}

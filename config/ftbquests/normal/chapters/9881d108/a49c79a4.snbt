@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 4.5d,
+	dependencies: [
+		"97fddd46"
+	],
+	tasks: [{
+		uid: "2297fe83",
+		type: "item",
+		items: [{
+			item: "contenttweaker:thaumic_circuit"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 3.0d,
+	dependencies: [
+		"9fcbd097"
+	],
+	tasks: [{
+		uid: "793bd450",
+		type: "item",
+		items: [{
+			item: "contenttweaker:thaumic_suncrystal"
+		}]
+	}]
+}

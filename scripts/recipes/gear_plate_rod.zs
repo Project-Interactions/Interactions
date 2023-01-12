@@ -47,7 +47,19 @@ for i, gear in gears {
     recipes.remove(gear);
 }
 
+var rods as IItemStack[] = [
+<libvulpes:productrod:1> * 4,
+<libvulpes:productrod:4> * 4,
+<libvulpes:productrod:6> * 4,
+<libvulpes:productrod:7> * 4,
+<libvulpes:productrod:10> * 4,
+<advancedrocketry:productrod> * 4,
+<advancedrocketry:productrod:1> * 4
+];
 
+for i, rod in rods {
+    recipes.remove(rod);
+}
 
 recipes.removeShapeless(<immersiveengineering:metal:30>, [<ore:ingotCopper>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:31>, [<ore:ingotAluminum>, <immersiveengineering:tool>]);

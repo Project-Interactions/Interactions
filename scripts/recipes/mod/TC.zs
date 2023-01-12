@@ -39,7 +39,7 @@ ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
 ArcaneWorkbench.registerShapedRecipe("tc:mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:rodEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
-ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>,[[null,<thaumcraft:mechanism_simple>,null],[<thaumcraft:mechanism_simple>,<ore:circuitAdvanced>,<thaumcraft:mechanism_simple>],[null,<thaumcraft:mechanism_simple>,null]]);
+ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>,[[<thaumicrestoration:item_plate:3>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:2>],[<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:4>,<thaumcraft:mechanism_simple>],[<thaumicrestoration:item_plate:1>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate>]]);
 
 ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
 ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<botania:managlass>,<botania:managlass>,<botania:managlass>],[<botania:managlass>,<thaumicaugmentation:material:1>,<botania:managlass>],[<botania:managlass>,<botania:managlass>,<botania:managlass>]]);
