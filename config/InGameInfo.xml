@@ -257,9 +257,569 @@
         </line>
 
     </lines>
-
     <lines at="topcenter">
+    </lines>
 
+    <lines at="middleleft">
+        <line>
+            <str>$f</str>
+            <var>potionicon0</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative0</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect0} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks0</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks0</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration0</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon1</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative1</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect1} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks1</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks1</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration1</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon2</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative2</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect2} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks2</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks2</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration2</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon3</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative3</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect3} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks3</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks3</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration3</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon4</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative4</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect4} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks4</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks4</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration4</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon5</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative5</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect5} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks5</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks5</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration5</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon6</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative6</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect6} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks6</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks6</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration6</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon7</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative7</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect7} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks7</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks7</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration7</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon8</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative8</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect8} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks8</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks8</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration8</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon9</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative9</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks9</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect9} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks9</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks9</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration9</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon10</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative10</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks10</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect10} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks10</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks10</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration10</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon11</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative11</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks11</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect11} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks11</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks11</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration11</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
+        <line>
+            <str>$f</str>
+            <var>potionicon12</var>
+            <str />
+            <str>$f</str>
+            <if>
+                <var>potionnegative12</var>
+                <str>$c</str>
+                <str>$f</str>
+            </if>
+            <max>
+                <var>potiondurationticks12</var>
+                <num>0.5</num>
+                <concat>
+                    <str>{potioneffect12} $7|$f </str>
+                    <op>
+                        <str>ge</str>
+                        <var>potiondurationticks12</var>
+                        <num>600</num>
+                        <num>200</num>
+                        <num>100</num>
+                        <num>40</num>
+                        <num>0</num>
+                        <str>$a</str>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str />
+                    </op>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks12</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration12</var>
+                    </if>
+                    <str>$f</str>
+                </concat>
+                <str />
+            </max>
+        </line>
     </lines>
 
     <lines at="bottomleft">
