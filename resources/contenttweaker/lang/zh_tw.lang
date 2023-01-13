@@ -1,19 +1,19 @@
 item.contenttweaker.crystal_useless.name=水晶半成品板
-item.contenttweaker.useful_ingot.name=实用合金锭
-tile.contenttweaker.useful_block.name=实用合金块
+item.contenttweaker.useful_ingot.name=實用合金錠
+tile.contenttweaker.useful_block.name=實用合金块
 
-item.contenttweaker.ore_essence.name=矿物精华
-item.contenttweaker.gem_essence.name=宝石精华
+item.contenttweaker.ore_essence.name=礦物精華
+item.contenttweaker.gem_essence.name=寶石精華
 
 item.contenttweaker.twilight_symbol.name=暮光標志
 
 item.contenttweaker.andesite_pebble.name=安山岩石子
 item.contenttweaker.granite_pebble.name=花崗岩石子
 item.contenttweaker.diorite_pebble.name=閃長岩石子
-item.contenttweaker.printed_manual_circuit_board_substrate.name=压印的手工电路板基板
-item.contenttweaker.manual_circuit.name=手工电路板
-item.contenttweaker.assembled_manual_circuit.name=组装的手工电路板
-item.contenttweaker.mechanical_circuit.name=机械电路板
+item.contenttweaker.printed_manual_circuit_board_substrate.name=壓印的手工電路板基板
+item.contenttweaker.manual_circuit.name=手工電路板
+item.contenttweaker.assembled_manual_circuit.name=組裝的手工電路板
+item.contenttweaker.mechanical_circuit.name=組裝的手工電路板
 item.contenttweaker.processor_mechanical_circuit.name=处理器机械电路板
 item.contenttweaker.mana_circuit.name=魔能电路板
 item.contenttweaker.infused_mana_circuit.name=星能电路板
@@ -30,10 +30,10 @@ item.contenttweaker.compressedredstone.name=压缩充能红石水晶
 item.contenttweaker.compresseddiamond.name=压缩充能钻石水晶
 item.contenttweaker.compressedobsidian.name=压缩强化黑曜石
 
-item.contenttweaker.ultimate_ingot_left_up.name=终极锭（左上）
-item.contenttweaker.ultimate_ingot_left_down.name=终极锭（左下）
-item.contenttweaker.ultimate_ingot_right_up.name=终极锭（右上）
-item.contenttweaker.ultimate_ingot_right_down.name=终极锭（右下）
+item.contenttweaker.ultimate_ingot_left_up.name=終極錠（左上）
+item.contenttweaker.ultimate_ingot_left_down.name=終極錠（左下）
+item.contenttweaker.ultimate_ingot_right_up.name=終極錠（右上）
+item.contenttweaker.ultimate_ingot_right_down.name=終極錠（右下）
 
 item.contenttweaker.inverse_entropy_alloy.name=逆熵合金
 item.contenttweaker.inverse_entropy_circuit.name=逆熵控制电路
