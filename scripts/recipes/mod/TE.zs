@@ -37,8 +37,8 @@ mods.thermalexpansion.Transposer.removeFillRecipe(<techreborn:ingot:16>,<liquid:
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>,<liquid:redstone>*500);
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:emerald>,<liquid:cryotheum>*500);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<nuclearcraft:gem_dust>, <jaopca:dust.crystal_flux>, <liquid:redstone>*500,1000 );
-mods.thermalexpansion.Transposer.addFillRecipe(<actuallyadditions:item_dust:3>, <jaopca:dust.gelid>, <liquid:cryotheum>*500,1000 );
+mods.thermalexpansion.Transposer.addFillRecipe(<jaopca:dust.crystal_flux>,<nuclearcraft:gem_dust> , <liquid:redstone>*500,1000 );
+mods.thermalexpansion.Transposer.addFillRecipe(<jaopca:dust.gelid>,<techreborn:dust:18> ,<liquid:cryotheum>*500,1000 );
 
 
 Crucible.removeRecipe(<taiga:aurorium_ore>);

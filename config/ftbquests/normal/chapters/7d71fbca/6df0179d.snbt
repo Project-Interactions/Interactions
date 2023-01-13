@@ -1,4 +1,5 @@
 {
+	title: "两种粉",
 	x: 7.5d,
 	y: 1.5d,
 	dependencies: [

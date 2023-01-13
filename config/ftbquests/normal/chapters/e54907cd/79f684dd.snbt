@@ -1,6 +1,9 @@
 {
 	x: 7.5d,
 	y: 7.5d,
+	text: [
+		"合金制作"
+	],
 	dependencies: [
 		"b537cdf5",
 		"9e5c37fb"

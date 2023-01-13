@@ -14,5 +14,13 @@
 		items: [{
 			item: "appliedenergistics2:drive"
 		}]
+	}],
+	rewards: [{
+		uid: "d166c995",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
 	}]
 }
