@@ -159,6 +159,7 @@ key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
 key_zenscroll.options.modifier_key:56
+key_nimble.keybind.frontView:62
 key_key.dismount:42
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
@@ -281,6 +282,7 @@ key_key.taiga.alt_action:56
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.craftingGrid:0
+key_variegated.keybinds.offhand:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -340,8 +342,10 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
+key_key.groovyscript.reload:19:CONTROL
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
+key_key.groovyscript.reload:19:CONTROL
 soundCategory_master:0.0
 soundCategory_music:0.112676054
 soundCategory_record:1.0
