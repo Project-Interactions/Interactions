@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:fast
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip","Modernity-format3-v3.7.1.zip","ModernityExtra-format3-v1.3.2.zip"]
+resourcePacks:["Modernity-format3-v3.7.1.zip","ModernityExtra-format3-v1.3.2.zip","Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -282,7 +282,6 @@ key_key.taiga.alt_action:56
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.craftingGrid:0
-key_variegated.keybinds.offhand:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -345,7 +344,6 @@ key_enderio.keybind.fovminusfast:0
 key_key.groovyscript.reload:19:CONTROL
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-key_key.groovyscript.reload:19:CONTROL
 soundCategory_master:0.0
 soundCategory_music:0.112676054
 soundCategory_record:1.0

@@ -178,7 +178,7 @@ RecipeUtils.recipeTweak(true, <techreborn:fusion_coil>, [[<ore:gearSuperconduct>
 
 RecipeUtils.recipeTweak(true, <techreborn:matter_fabricator>, [[<techreborn:part:17>, <techreborn:extractor>, <ore:circuitUniversal>], [<appliedenergistics2:condenser>, <bfr:reactorglass>, <appliedenergistics2:condenser>], [<ore:circuitUniversal>, <techreborn:extractor>, <techreborn:part:17>]]);
 recipes.remove(<techreborn:part:17> * 4);
-recipes.addShaped(<techreborn:part:17> * 2, [[<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>], [<ore:plateSemiconductor>, <ore:plateIridiumAlloy>, <ore:plateSemiconductor>], [<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>]]);
+recipes.addShaped(<techreborn:part:17> * 2, [[<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>], [<ore:plateIridiumAlloy>, <libvulpes:structuremachine>, <ore:plateIridiumAlloy>], [<ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>]]);
 
 recipes.remove(<techreborn:vacuum_freezer>);
 recipes.remove(<techreborn:industrial_blast_furnace>);

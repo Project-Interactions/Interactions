@@ -30,7 +30,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:134s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:134s}"
               ]
             }
           }
@@ -70,7 +70,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:hot_irdium_ingot\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:hot_irdium_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -87,7 +87,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:102s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:102s}"
               ]
             }
           }
@@ -112,7 +112,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:166s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:166s}"
               ]
             }
           }
@@ -129,8 +129,8 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"qmd:dust\",Count:1b,Damage:2s}",
-                "{id:\"techreborn:dust\",Count:1b,Damage:10s}"
+                "{id:\"qmd:dust\",Count:1,Damage:2s}",
+                "{id:\"techreborn:dust\",Count:1,Damage:10s}"
               ]
             }
           }
@@ -149,7 +149,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"techreborn:ingot\",Count:1b,Damage:3s}"
+                "{id:\"techreborn:ingot\",Count:1,Damage:3s}"
               ]
             }
           }
@@ -166,7 +166,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
+                "{id:\"minecraft:iron_ingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -175,7 +175,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersiveengineering:material\",Count:1b,Damage:6s}"
+                "{id:\"immersiveengineering:material\",Count:1,Damage:6s}"
               ]
             }
           }
@@ -194,7 +194,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:160s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:160s}"
               ]
             }
           }
@@ -211,7 +211,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"jaopca:dust.tungstensteel\",Count:1b,Damage:0s}"
+                "{id:\"jaopca:dust.tungstensteel\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -230,7 +230,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"techreborn:ingot\",Count:1b,Damage:16s}"
+                "{id:\"techreborn:ingot\",Count:1,Damage:16s}"
               ]
             }
           }
@@ -247,7 +247,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"theaurorian:ceruleaningot\",Count:1b,Damage:0s}"
+                "{id:\"theaurorian:ceruleaningot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -256,7 +256,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"theaurorian:aurorianiteingot\",Count:1b,Damage:0s}"
+                "{id:\"theaurorian:aurorianiteingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -265,7 +265,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"theaurorian:crystallineingot\",Count:1b,Damage:0s}"
+                "{id:\"theaurorian:crystallineingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -274,7 +274,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"theaurorian:umbraingot\",Count:1b,Damage:0s}"
+                "{id:\"theaurorian:umbraingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -283,7 +283,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"theaurorian:moonstoneingot\",Count:1b,Damage:0s}"
+                "{id:\"theaurorian:moonstoneingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -292,7 +292,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"theaurorian:crystal\",Count:1b,Damage:0s}"
+                "{id:\"theaurorian:crystal\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -311,7 +311,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"theaurorian:auroriansteel\",Count:1b,Damage:0s}"
+                "{id:\"theaurorian:auroriansteel\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -359,7 +359,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:hot_osmium_ingot\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:hot_osmium_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -376,7 +376,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:101s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:101s}"
               ]
             }
           }
@@ -401,7 +401,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:165s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:165s}"
               ]
             }
           }
@@ -418,7 +418,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:twilight_symbol\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:twilight_symbol\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -427,7 +427,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:knightmetal_ingot\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:knightmetal_ingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -436,7 +436,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:carminite\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:carminite\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -445,7 +445,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:ironwood_ingot\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:ironwood_ingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -454,7 +454,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:fiery_ingot\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:fiery_ingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -463,7 +463,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:naga_scale\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:naga_scale\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -472,7 +472,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:arctic_fur\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:arctic_fur\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -481,7 +481,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:steeleaf_ingot\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:steeleaf_ingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -490,7 +490,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:sub_block_holder_0\",Count:1b,Damage:1s}"
+                "{id:\"contenttweaker:sub_block_holder_0\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -509,7 +509,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:material_part\",Count:1b,Damage:152s}"
+                "{id:\"contenttweaker:material_part\",Count:1,Damage:152s}"
               ]
             }
           }
@@ -538,7 +538,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"redstonearsenal:material\",Count:1b,Damage:0s}"
+                "{id:\"redstonearsenal:material\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -563,7 +563,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"redstonearsenal:material\",Count:1b,Damage:32s}"
+                "{id:\"redstonearsenal:material\",Count:1,Damage:32s}"
               ]
             }
           }
@@ -580,7 +580,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"plustic:mirioningot\",Count:1b,Damage:0s}"
+                "{id:\"plustic:mirioningot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -605,7 +605,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"tconevo:metal\",Count:1b,Damage:15s}"
+                "{id:\"tconevo:metal\",Count:1,Damage:15s}"
               ]
             }
           }
@@ -622,7 +622,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"enderio:item_alloy_endergy_ingot\",Count:1b,Damage:2s}"
+                "{id:\"enderio:item_alloy_endergy_ingot\",Count:1,Damage:2s}"
               ]
             }
           },
@@ -631,7 +631,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"projecte:matter_block\",Count:1b,Damage:1s}"
+                "{id:\"extendedcrafting:material\",Count:1,Damage:24s}"
               ]
             }
           }
@@ -650,7 +650,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"enderio:item_alloy_endergy_ingot\",Count:1b,Damage:3s}"
+                "{id:\"enderio:item_alloy_endergy_ingot\",Count:1,Damage:3s}"
               ]
             }
           }
@@ -684,7 +684,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:hot_tungsten_ingot\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:hot_tungsten_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -718,7 +718,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"techreborn:ingot\",Count:1b,Damage:14s}"
+                "{id:\"techreborn:ingot\",Count:1,Damage:14s}"
               ]
             }
           }
@@ -735,7 +735,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"plustic:mirioningot\",Count:1b,Damage:0s}"
+                "{id:\"plustic:mirioningot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -744,7 +744,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"naturesaura:sky_ingot\",Count:1b,Damage:0s}"
+                "{id:\"naturesaura:sky_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -763,7 +763,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:material_part\",Count:1b,Damage:127s}"
+                "{id:\"contenttweaker:material_part\",Count:1,Damage:127s}"
               ]
             }
           }

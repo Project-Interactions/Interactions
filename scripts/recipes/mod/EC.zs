@@ -26,7 +26,7 @@ recipes.addShaped(<extendedcrafting:material:7>,[[<ore:dustLumium>,<ore:dustLumi
 
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:frame>, [[<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>], [<psicosts:material_glassy>, <ore:plateBlackIron>, <psicosts:material_glassy>], [<extendedcrafting:material>, <psicosts:material_glassy>, <extendedcrafting:material>]]);
-RecipeUtils.recipeTweak(true, <extendedcrafting:interface>, [[<extendedcrafting:material>, <extendedcrafting:material:10>, <extendedcrafting:material>], [<extendedcrafting:material:18>, <extendedcrafting:frame>, <extendedcrafting:material:18>], [<extendedcrafting:material>, <ore:circuitElite>, <extendedcrafting:material>]]);
+RecipeUtils.recipeTweak(true, <extendedcrafting:interface>, [[<extendedcrafting:material>, <extendedcrafting:material:10>, <extendedcrafting:material>], [<extendedcrafting:material:16>, <extendedcrafting:frame>, <extendedcrafting:material:16>], [<extendedcrafting:material>, <ore:circuitElite>, <extendedcrafting:material>]]);
 
 //EnderCrafting
 mods.extendedcrafting.EnderCrafting.remove(<extendedcrafting:material:40>);

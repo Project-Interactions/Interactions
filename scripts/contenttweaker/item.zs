@@ -78,6 +78,7 @@ VanillaFactory.createItem("starlight_circuit_board").register();
 VanillaFactory.createItem("thaumic_circuit_board").register();
 VanillaFactory.createItem("thaumic_suncrystal").register();
 
+VanillaFactory.createItem("blank_ar_chip").register();
 
 //sponser+friend
 VanillaFactory.createItem("oganesson897").register();

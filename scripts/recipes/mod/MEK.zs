@@ -172,4 +172,4 @@ mods.mekanism.compressor.addRecipe(<thaumicrestoration:item_ingot:5>, <gas:liqui
 recipes.addShaped(<mekanism:energycube>, [[<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>],[<thermalfoundation:material:24>, <ore:circuitBasic>, <thermalfoundation:material:24>], [<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>]]);
 
 //ar
-infuser.addRecipe("DIAMONDHARD", 20, <libvulpes:structuremachine>, <contenttweaker:material_part:70>*2);
+infuser.addRecipe("DIAMONDHARD", 20, <contenttweaker:material_part:70>*2, <libvulpes:structuremachine>);
