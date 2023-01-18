@@ -133,6 +133,6 @@ item.contenttweaker.starlight_circuit_board.name=星能电路板基板
 item.contenttweaker.aquamarine_menril_mixture.name=海蓝宝石-门瑞欧结晶碎片混合物
 
 
-ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l!
+ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l！
 ia.custom.anticheat.name=检测到安装了作弊模组，请立即删除，否则将失去技术支持！
-
+ia.custom.warn.name=检测到安装了未经兼容测试的模组，平衡性不受保障。

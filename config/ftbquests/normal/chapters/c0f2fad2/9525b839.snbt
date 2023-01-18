@@ -1,5 +1,6 @@
 {
 	title: "采油机",
+	icon: "immersivepetroleum:metal_multiblock 1 3",
 	x: 0.5d,
 	y: -1.5d,
 	tasks: [{

@@ -2,6 +2,9 @@
 	title: "制作压印模板",
 	x: 0.0d,
 	y: 3.0d,
+	text: [
+		"抽卡！"
+	],
 	dependencies: [
 		"5b2681d2"
 	],

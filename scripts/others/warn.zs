@@ -15,21 +15,13 @@ import mods.zenutils.HexHelper;
 import mods.zenutils.I18n;
 
 var mod as string[]=[
-
-    "projecte",
-    "projectex",
-    "torcherino",
-    "bacterium",
-    "manaita_plus",
-    "lolipickaxe",
-    "xijun",
-    "bacteria",
-    "decon_table",
-    "decomp_table",
-    "deconstriction",
-    "uncraftingtable",
-    "manaita",
-    "xray"
+    "slashblade",
+    "slashbladetic",
+    "exbot",
+    "upsizer",
+    "utimatestack",
+    "utimatestackplugin",
+    "betterbuilderswands"
 ];
 
 for i in mod{
@@ -37,7 +29,7 @@ for i in mod{
         events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
 	    val player as IPlayer = event.player;
 	        if(!player.world.isRemote()) {
-		        player.sendRichTextStatusMessage(ITextComponent.fromTranslation("ia.custom.anticheat.name"), false);
+		        player.sendRichTextStatusMessage(ITextComponent.fromTranslation("ia.custom.warn.name"), false);
 	        }
         });
     }

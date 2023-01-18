@@ -60,6 +60,6 @@ recipes.remove(<calculator:atomicmultiplier>);
 recipes.addShaped(<calculator:sickle>, [[null, <ore:blockUnstable>, <ore:blockUnstable>],[null, <calculator:reinforcedshovel>, <ore:circuitOperation>], [null, <calculator:reinforcedaxe>, null]]);
 
 RecipeUtils.recipeTweak(true, <calculator:algorithmassimilator>, [[null, <calculator:stoneassimilator>, null], [<calculator:material:3>, <calculator:algorithmseparator:*>, <calculator:material:3>], [null, <calculator:material:3>, null]]);
-RecipeUtils.recipeTweak(true, <calculator:dockingstation>, [[null, <ore:circuitOperation>, null], [<calculator:flawlessassembly>, <calculator:powercube:*>, <calculator:flawlessassembly>], [<calculator:flawlessassembly>, <ore:circuitOperation>, <calculator:flawlessassembly>]]);
+RecipeUtils.recipeTweak(true, <calculator:dockingstation>, [[null, <ore:circuitOperation>, null], [<calculator:flawlessassembly>, <calculator:advancedpowercube>, <calculator:flawlessassembly>], [<calculator:flawlessassembly>, <ore:circuitOperation>, <calculator:flawlessassembly>]]);
 
 

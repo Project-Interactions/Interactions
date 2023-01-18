@@ -10,7 +10,6 @@ var jeiremove as string[]=[
 "thermaldynamics.covers",
 "thermalexpansion.furnace_ore",
 "jehc.shippingbin",
-"jei_uncrafting",
 "appliedenergistics2.grinder",
 "jeresources.villager",
 "Painter",

@@ -52,3 +52,5 @@ HellFireForgeTweak.setCraftWithAllWillTypes(true);
 
 //divinity
 AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);
+
+recipes.addShaped(<bloodmagic:decorative_brick:3> * 4, [[<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, null],[<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, null], [null, null, null]]);

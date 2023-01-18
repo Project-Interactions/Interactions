@@ -71,7 +71,7 @@ recipes.remove(<mekanism:controlcircuit:1>);
 recipes.remove(<mekanism:controlcircuit:2>);
 recipes.remove(<mekanism:controlcircuit:3>);
 Assembler.addRecipe(<ore:alloyUltimate>*4,<mekanism:controlcircuit:2>*4,null,null,<mekanism:controlcircuit:3>*2);
-Assembler.addRecipe(<ore:alloyElite>*4,<mekanism:controlcircuit:2>*4,null,null,<mekanism:controlcircuit:2>*2);
+Assembler.addRecipe(<ore:alloyElite>*4,<mekanism:controlcircuit:1>*4,null,null,<mekanism:controlcircuit:2>*2);
 Assembler.addRecipe(<ore:alloyAdvanced>*4,<mekanism:controlcircuit>*4,null,null,<mekanism:controlcircuit:1>*2);
 
 //use factory instead

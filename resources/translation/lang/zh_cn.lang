@@ -523,3 +523,54 @@ psi.piecegroup.elemental_arts_two.desc=你可以以不同的方式使用Psi整�
 
 psi.piecegroup.teleportation=传送
 psi.piecegroup.teleportation.desc=真实和困难的艺术——传送…… 通过使用Psi创造魔力护盾，并转换目标周围的空间，我们可以准确地传送到我们想去的地方。有了它，我们就不会像闪现那样被自己的视野所限制
+//toolprogression
+item.toolprogression.magic_mushroom.name=魔法™蘑菇
+
+modifier.magicmushroom.name=魔法™蘑菇
+modifier.magicmushroom.desc=这种神奇的蘑菇可以神奇地提高你的工具的能力。
+//dynamistics
+dynamistics.category.title.ae2.pattern.crafting_substitute=合成样板
+dynamistics.category.title.ae2.pattern.crafting_nonsubstitute=合成样板
+dynamistics.category.title.ae2.pattern.processing=处理样板
+dynamistics.category.title.pauto.unpackage=解包
+dynamistics.category.title.pauto.package=打包
+dynamistics.category.title.pauto.process=打包处理配方
+dynamistics.category.title.pauto.holder=打包合成配方
+
+dynamistics.recipe.text.package_processing_extra=配方%s：
+dynamistics.recipe.text.show_jei_categories=查看配方
+//package auto addons
+itemGroup.packagedavaritia=无尽贪婪封包合成
+itemGroup.packagedexcrafting=合成拓展封包合成
+//well well well
+//Config
+config.well.data=流体采集数据
+config.well.data.tooltip=根据生物群系处理井内收集的液体种类，以及液体数量
+config.well.onlyOnePerChunk=限制每16个方块只能有一口井
+config.well.onlyOnePerChunk.tooltip=当设置为 "真 "时，该地区的所有井将在超过1个时停止工作。
+config.well.playSound=播放曲柄的声音
+config.well.playSound.tooltip=当有人从井中抽取液体时，播放井的曲柄的声音。
+config.well.tankCapacity=储罐容量
+config.well.tankCapacity.tooltip=井可以容纳多少毫升的液体？设为0以禁用。
+//Block
+tile.well.black_well.name=黑色井
+tile.well.blue_well.name=蓝色井
+tile.well.brown_well.name=棕色井
+tile.well.cyan_well.name=青色井
+tile.well.gray_well.name=灰色井
+tile.well.green_well.name=绿色井
+tile.well.light_blue_well.name=淡蓝色井
+tile.well.lime_well.name=黄绿色井
+tile.well.magenta_well.name=品红色井
+tile.well.orange_well.name=橙色井
+tile.well.pink_well.name=粉红色井
+tile.well.purple_well.name=紫色井
+tile.well.red_well.name=红色井
+tile.well.silver_well.name=淡灰色井
+tile.well.well.name=井
+tile.well.white_well.name=白色井
+tile.well.yellow_well.name=黄色井
+//Misc
+subtitle.block.well.crank=井的曲柄发出吱吱声
+warn.well.onePerChunk=§l§4在这个井的16个方块内已经有一个朝右的井！
+warn.well.onePerChunkFlipped=§l§4在这个井的16个方块内已经有一个朝下的井！

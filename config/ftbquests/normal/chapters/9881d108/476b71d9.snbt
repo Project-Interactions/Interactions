@@ -8,7 +8,7 @@
 		uid: "83dbdf2a",
 		type: "item",
 		items: [{
-			item: "techreborn:machine_frame 1 2"
+			item: "techreborn:machine_casing 1 2"
 		}]
 	}]
 }

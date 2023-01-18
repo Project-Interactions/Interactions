@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -45,8 +45,8 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:right
-attackIndicator:0
-showSubtitles:true
+attackIndicator:1
+showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
 autoJump:true
@@ -246,6 +246,7 @@ key_key.jeiutilities.transferRecipe:17:CONTROL
 key_key.jeiutilities.transferRecipeMax:20:CONTROL
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
+key_打开按键向导:65
 key_key.rotateup:200
 key_key.rotatedown:208
 key_key.rotateright:205
