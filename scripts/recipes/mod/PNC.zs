@@ -63,3 +63,5 @@ recipes.addShapeless(<pneumaticcraft:pressure_chamber_wall>, [<pneumaticcraft:pr
 recipes.addShaped(<pneumaticcraft:pressure_chamber_glass> * 8, [[<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>],[<moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>], [<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>]]);
 
 pressurechamber.addRecipe([<pneumaticcraft:turbine_blade>*2,<jaopca:gear.stainless_steel>], 2, [<libvulpes:productfan:6>]);
+pressurechamber.addRecipe([<mekanism:tierinstaller:1>,<psi:material:1>*2,<jaopca:dense_plate.silicon_carbide>,<libvulpes:structuremachine>], 3.6, [<contenttweaker:blank_ar_chip>]);
+

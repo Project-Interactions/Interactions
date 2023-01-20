@@ -34,6 +34,7 @@ TreeRitual.addRecipe("menril_sapling", <naturesaura:ancient_sapling>, <integrate
 recipes.remove(<naturesaura:calling_spirit> * 3);
 recipes.addShaped(<naturesaura:calling_spirit>, [[null, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), null], [<naturesaura:infused_iron>, <minecraft:diamond>, <naturesaura:infused_iron>], [null, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), null]]);
 
+RecipeUtils.recipeTweak(true,<naturesaura:generator_limit_remover>, [[<naturesaura:infused_stone>, <naturesaura:token_euphoria>, <naturesaura:infused_stone>], [<naturesaura:token_terror>, <ore:ingotSky>, <naturesaura:token_rage>], [<naturesaura:infused_stone>, <naturesaura:token_grief>, <naturesaura:infused_stone>]]);
 
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <auraddons:item_creative_aura_cache>, [

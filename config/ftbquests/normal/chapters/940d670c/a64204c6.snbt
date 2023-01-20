@@ -4,7 +4,8 @@
 	y: 1.5d,
 	text: [
 		"适用于超过16个物品/流体的合成",
-		">9,≤16可使用增广样板终端"
+		">9,≤16可使用增广样板终端",
+		"封包合成现在支持合成拓展和星辉魔法"
 	],
 	dependencies: [
 		"24fd5d31"
@@ -49,6 +50,6 @@
 		uid: "b7b8d00a",
 		type: "item",
 		item: "packagedauto:recipe_holder",
-		count: 64
+		count: 16
 	}]
 }

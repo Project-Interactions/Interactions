@@ -221,3 +221,15 @@ grinder.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:materia
 //
 recipes.remove(<techreborn:iron_furnace>);
 RecipeUtils.recipeTweak(true, <techreborn:iron_alloy_furnace>, [[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>], [<betterfurnacesreforged:iron_furnace>, null, <betterfurnacesreforged:iron_furnace>], [<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>]]);
+
+//ar coils
+var auw = <ore:wireGold>;
+var cuw = <ore:wireCopper>;
+var tiw = <ore:wireTitanium>;
+var alw = <ore:wireAluminum>;
+var irw = <ore:wireIridium>;
+rollingMachine.addShaped(<libvulpes:coil0:2>, [[auw,auw,auw],[auw,null,auw],[auw,auw,auw]]);
+rollingMachine.addShaped(<libvulpes:coil0:4>, [[cuw,cuw,cuw],[cuw,null,cuw],[cuw,cuw,cuw]]);
+rollingMachine.addShaped(<libvulpes:coil0:7>, [[tiw,tiw,tiw],[tiw,null,tiw],[tiw,tiw,tiw]]);
+rollingMachine.addShaped(<libvulpes:coil0:9>, [[alw,alw,alw],[alw,null,alw],[alw,alw,alw]]);
+rollingMachine.addShaped(<libvulpes:coil0:10>, [[irw,irw,irw],[irw,null,irw],[irw,irw,irw]]);

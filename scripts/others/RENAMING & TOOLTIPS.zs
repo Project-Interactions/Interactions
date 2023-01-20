@@ -28,3 +28,5 @@
 
 
 <techreborn:part:13>.displayName = "\u5EB7\u94DC\u52A0\u70ED\u7EBF\u5708";
+
+<naturesaura:generator_limit_remover>.addTooltip("\u6b64\u7269\u54c1\u53ef\u80fd\u5bfc\u81f4tps\u964d\u4f4e\uff0c\u8c28\u614e\u4f7f\u7528");

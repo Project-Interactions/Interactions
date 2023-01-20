@@ -540,8 +540,43 @@ dynamistics.category.title.pauto.holder=打包合成配方
 dynamistics.recipe.text.package_processing_extra=配方%s：
 dynamistics.recipe.text.show_jei_categories=查看配方
 //package auto addons
-itemGroup.packagedavaritia=无尽贪婪封包合成
-itemGroup.packagedexcrafting=合成拓展封包合成
+itemGroup.packagedavaritia=封包无尽贪婪
+itemGroup.packagedexcrafting=封包合成拓展
+itemGroup.packagedastral=封包星辉魔法
+
+tile.packagedastral.discovery_crafter.name=星辉合成台封包合成器
+tile.packagedastral.attunement_crafter.name=星辉祭坛封包合成器
+tile.packagedastral.constellation_crafter.name=天辉祭坛封包合成器
+tile.packagedastral.trait_crafter.name=五彩祭坛封包合成器
+tile.packagedastral.marked_relay.name=标记光波增幅器
+
+item.packagedastral.constellation_focus.name=星座核心
+
+recipe.packagedastral.discovery=星辉合成台
+recipe.packagedastral.discovery.short=星辉
+recipe.packagedastral.attunement=星辉祭坛
+recipe.packagedastral.attunement.short=星辉
+recipe.packagedastral.constellation=天辉祭坛
+recipe.packagedastral.constellation.short=天辉
+recipe.packagedastral.trait=五彩祭坛
+recipe.packagedastral.trait.short=五彩
+//pointer
+item.pointer.name=指针
+tile.remote_control_station.name=远程控制站
+
+pointer.message.acquire=从%s获得的指针数据
+pointer.message.cooldown=指针处于冷却状态
+pointer.message.removal=指针数据已清除
+
+pointer.message.reset=潜行+右击以重置连接
+
+pointer.tooltip.dimension=维度：%s
+pointer.tooltip.position=坐标：%s
+pointer.tooltip.facing=朝向：%s
+pointer.tooltip.hit_vector=点击角度：%s
+
+pointer.config.item_max_durability=指针的最大耐久度，设定为0则物品损坏
+pointer.config.damage_mode=如果指针是有耐久度的，选择其进行损坏的模式
 //well well well
 //Config
 config.well.data=流体采集数据
@@ -574,3 +609,14 @@ tile.well.yellow_well.name=黄色井
 subtitle.block.well.crank=井的曲柄发出吱吱声
 warn.well.onePerChunk=§l§4在这个井的16个方块内已经有一个朝右的井！
 warn.well.onePerChunkFlipped=§l§4在这个井的16个方块内已经有一个朝下的井！
+//universal tweaks
+# OBSOLETE MODS SCREEN
+msg.universaltweaks.obsoletemods.warning1=通用修改已经取代并改进了其他模组的功能。
+msg.universaltweaks.obsoletemods.warning2=因此，以下模组现在与通用修改不兼容：
+msg.universaltweaks.obsoletemods.warning3=请考虑从你的游戏中删除它们，或禁用相应的功能。
+
+# TOGGLE CHEATS
+btn.universaltweaks.cheats.enabled=作弊模式：开启
+btn.universaltweaks.cheats.disabled=作弊模式：关闭
+msg.universaltweaks.cheats.enabled=作弊模式现已§a启用
+msg.universaltweaks.cheats.disabled=作弊模式现已§c禁用

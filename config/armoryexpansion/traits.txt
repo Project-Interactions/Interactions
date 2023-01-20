@@ -2,7 +2,6 @@
   "explosive",
   "psicological",
   "tconevo.aura_siphon",
-  "superfortified",
   "chadthunder",
   "tconevo.slimey_pink",
   "indomitable_armor",
