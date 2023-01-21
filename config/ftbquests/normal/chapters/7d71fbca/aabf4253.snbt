@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"由于你现在还去不了末地，配方在压缩空间进行",
+		"主世界和地狱为正常"
+	],
+	dependencies: [
+		"72369c1a"
+	],
+	tasks: [{
+		uid: "0f079254",
+		type: "item",
+		items: [{
+			item: "interaction:orechid"
+		}]
+	}]
+}

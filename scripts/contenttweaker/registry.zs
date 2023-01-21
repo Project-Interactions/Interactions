@@ -55,7 +55,7 @@ static materials as Material[string] = {
     "Command": MaterialSystem.getMaterialBuilder().setName("Command").setColor(Color.fromHex("FFC022")).build(),
     "SixInOneThaumic": MaterialSystem.getMaterialBuilder().setName("SixInOneThaumic").setColor(Color.fromHex("E8B6F1")).build(),
     "Titanium": MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("FFFFFF")).build(),
-    "Aluminum": MaterialSystem.getMaterialBuilder().setName("Aluminum").setColor(Color.fromHex("FFFFFF")).build(),
+    "Iridium": MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(Color.fromHex("FFFFFF")).build(),
 
 
 };
@@ -80,8 +80,9 @@ materials.TwilghtSteel.registerParts(["block", "ingot","plate","gear","rod","nug
 materials.Gaia.registerParts(["coil","wire"] as string[]);
 materials.Nyx.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","ore"] as string[]);
 materials.Command.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
+materials.SixInOneThaumic.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Titanium.registerParts(["wire"] as string[]);
-materials.Aluminum.registerParts(["wire"] as string[]);
+materials.Iridium.registerParts(["wire"] as string[]);
 
 
 

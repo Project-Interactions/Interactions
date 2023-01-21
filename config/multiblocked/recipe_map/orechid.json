@@ -30,7 +30,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:aurorium_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:aurorium_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -39,7 +39,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:palladium_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:palladium_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -48,7 +48,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:abyssum_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:abyssum_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -57,7 +57,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:end_stone\",Count:1b,Damage:0s}"
+                "{id:\"minecraft:end_stone\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -67,7 +67,7 @@
         {
           "type": "dimension",
           "condition": {
-            "dim": "the_end"
+            "dim": "CompactMachines"
           }
         }
       ]
@@ -99,7 +99,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:tiberium_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:tiberium_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -108,7 +108,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:prometheum_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:prometheum_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -117,7 +117,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:valyrium_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:valyrium_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -126,7 +126,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:osram_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:osram_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -135,7 +135,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:netherrack\",Count:1b,Damage:0s}"
+                "{id:\"minecraft:netherrack\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -177,7 +177,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:vibranium_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:vibranium_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -186,7 +186,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:karmesine_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:karmesine_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -195,7 +195,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:ovium_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:ovium_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -204,7 +204,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:jauxum_ore\",Count:1b,Damage:0s}"
+                "{id:\"taiga:jauxum_ore\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -213,7 +213,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:stone\",Count:1b,Damage:0s}"
+                "{id:\"minecraft:stone\",Count:1,Damage:0s}"
               ]
             }
           }

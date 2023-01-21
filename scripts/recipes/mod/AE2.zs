@@ -174,3 +174,8 @@ RecipeUtils.recipeTweak(true, <aeadditions:storage.component:3>, [[<ore:dustGlow
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:13>, [[<ore:dyeYellow>, <threng:material:14>, <ore:dyeYellow>], [<aeadditions:storage.component:12>, <appliedenergistics2:material:22>, <aeadditions:storage.component:12>], [<ore:dyeYellow>, <aeadditions:storage.component:12>, <ore:dyeYellow>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:6>, [[<ore:dyeBlue>, <threng:material:14>, <ore:dyeBlue>], [<aeadditions:storage.component:5>, <appliedenergistics2:material:22>, <aeadditions:storage.component:5>], [<ore:dyeBlue>, <aeadditions:storage.component:5>, <ore:dyeBlue>]]);
 
+recipes.remove(<aeadditions:fluidfiller>);
+recipes.addShapeless(<aeadditions:fluidfiller>, [<ae2fc:fluid_assembler>, <appliedenergistics2:part:520>]);
+<aeadditions:fluidcrafter>.addTooltip("\u5DF2\u5F03\u7528\uFF0C\u8BF7\u6362\u7528AE2FC\u7684Fluid Assembler");
+recipes.remove(<aeadditions:fluidcrafter>);
+recipes.addShapeless(<ae2fc:fluid_assembler>,[<aeadditions:fluidcrafter>]);

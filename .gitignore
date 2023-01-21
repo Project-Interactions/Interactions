@@ -7,8 +7,6 @@ $ cat .gitignore
 !/resources
 !/scripts
 !/config
-!/bansoukou
-!/fontfiles
 !/groovy
 
 #Files
