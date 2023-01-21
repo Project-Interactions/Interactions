@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"threng:material\",Count:1b,Damage:0s}"
+                "{id:\"threng:material\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -22,7 +22,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"tconevo:part_arcane_focus\",Count:1b,Damage:0s,tag:{Material:\"dragonstone\"}}"
+                "{id:\"tconevo:part_arcane_focus\",Count:1,Damage:0s,tag:{Material:\"dragonstone\"}}"
               ]
             }
           },
@@ -31,7 +31,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:manaresource\",Count:1b,Damage:14s}"
+                "{id:\"botania:manaresource\",Count:1,Damage:14s}"
               ]
             }
           }
@@ -50,7 +50,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botanicadds:gaiasteel_ingot\",Count:1b,Damage:0s}"
+                "{id:\"botanicadds:gaiasteel_ingot\",Count:1,Damage:0s}"
               ]
             }
           }

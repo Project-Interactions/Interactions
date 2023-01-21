@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"pneumaticcraft:creative_compressor\",Count:1b,Damage:0s}"
+                "{id:\"pneumaticcraft:creative_compressor\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -32,7 +32,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"appliedenergistics2:creative_energy_cell\",Count:1b,Damage:0s}"
+                "{id:\"appliedenergistics2:creative_energy_cell\",Count:1,Damage:0s}"
               ]
             }
           }

@@ -1,0 +1,15 @@
+{
+	x: 9.0d,
+	y: 1.5d,
+	dependencies: [
+		"6bb8b0a9",
+		"c475f6a4"
+	],
+	tasks: [{
+		uid: "15811b5c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	}]
+}

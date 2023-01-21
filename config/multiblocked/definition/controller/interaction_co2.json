@@ -34,7 +34,7 @@
     }
   },
   "recipeMap": "CO2",
-  "catalyst": "{id:\"immersiveengineering:tool\",Count:1b,Damage:0s}",
+  "catalyst": "{id:\"immersiveengineering:tool\",Count:1,Damage:0s}",
   "consumeCatalyst": "NOT_CONSUMED",
   "noNeedController": false,
   "basePattern": {

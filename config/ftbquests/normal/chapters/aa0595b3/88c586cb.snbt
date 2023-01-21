@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	text: [
+		"用于压制片"
+	],
+	dependencies: [
+		"ccbdb619"
+	],
+	tasks: [{
+		uid: "bbbaa215",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rollingmachine"
+		}]
+	}]
+}

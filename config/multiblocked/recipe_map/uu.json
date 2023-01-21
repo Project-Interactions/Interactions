@@ -13,7 +13,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"projecte:item.pe_matter\",Count:8b,Damage:0s}"
+                "{id:\"minecraft:air\",Count:8,Damage:0s}"
               ]
             }
           }
@@ -49,8 +49,8 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"qmd:waste_fission\",Count:16b,Damage:0s}",
-                "{id:\"qmd:waste_fission\",Count:16b,Damage:1s}"
+                "{id:\"qmd:waste_fission\",Count:16,Damage:0s}",
+                "{id:\"qmd:waste_fission\",Count:16,Damage:1s}"
               ]
             }
           }
@@ -92,7 +92,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"techreborn:scrapbox\",Count:64b,Damage:0s}"
+                "{id:\"techreborn:scrapbox\",Count:64,Damage:0s}"
               ]
             }
           }

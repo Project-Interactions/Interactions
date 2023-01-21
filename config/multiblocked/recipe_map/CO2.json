@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:coal\",Count:1b,Damage:0s}"
+                "{id:\"minecraft:coal\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -44,7 +44,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:coal\",Count:1b,Damage:1s}"
+                "{id:\"minecraft:coal\",Count:1,Damage:1s}"
               ]
             }
           }

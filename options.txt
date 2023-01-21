@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:12
+renderDistance:8
 guiScale:4
 particles:2
 bobView:true
@@ -279,6 +279,7 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
+key_key.screenshot_viewer.open_screenshots_screen:0
 key_key.taiga.alt_action:56
 key_key.carpet_forward:17
 key_key.carpet_backward:31

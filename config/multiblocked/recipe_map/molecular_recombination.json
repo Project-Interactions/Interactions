@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"taiga:solarium_ingot\",Count:1b,Damage:0s}"
+                "{id:\"taiga:solarium_ingot\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -22,7 +22,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"extrautils2:suncrystal\",Count:1b,Damage:0s}"
+                "{id:\"extrautils2:suncrystal\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -31,7 +31,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"psi:exosuit_sensor\",Count:1b,Damage:0s}"
+                "{id:\"psi:exosuit_sensor\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -56,7 +56,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:sunnarium\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:sunnarium\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -81,7 +81,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:draconium_block\",Count:1b,Damage:0s}"
+                "{id:\"draconicevolution:draconium_block\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -106,7 +106,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:draconium_block\",Count:1b,Damage:1s}"
+                "{id:\"draconicevolution:draconium_block\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -123,7 +123,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"extrautils2:rainbowgenerator\",Count:1b,Damage:2s}"
+                "{id:\"extrautils2:rainbowgenerator\",Count:1,Damage:2s}"
               ]
             }
           },
@@ -132,7 +132,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"extrautils2:rainbowgenerator\",Count:1b,Damage:1s}"
+                "{id:\"extrautils2:rainbowgenerator\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -151,7 +151,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:ultimate_ingot_left_down\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:ultimate_ingot_left_down\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -168,7 +168,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"auraddons:block_rainbow_beacon\",Count:1b,Damage:0s}"
+                "{id:\"auraddons:block_rainbow_beacon\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -187,7 +187,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:ultimate_ingot_right_up\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:ultimate_ingot_right_up\",Count:1,Damage:0s}"
               ]
             }
           }

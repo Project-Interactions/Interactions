@@ -1,14 +1,14 @@
 {
 	x: 7.5d,
-	y: 3.0d,
+	y: 1.5d,
 	dependencies: [
 		"ccbdb619"
 	],
 	tasks: [{
-		uid: "e9bfd731",
+		uid: "84026da8",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:arcfurnace"
+			item: "advancedrocketry:cuttingmachine"
 		}]
 	}]
 }

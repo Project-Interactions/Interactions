@@ -13,7 +13,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"integrateddynamics:crystalized_menril_brick\",Count:4b,Damage:0s}"
+                "{id:\"integrateddynamics:crystalized_menril_brick\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -32,7 +32,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"astralsorcery:blockcustomsandore\",Count:16b,Damage:0s}"
+                "{id:\"astralsorcery:blockcustomsandore\",Count:16,Damage:0s}"
               ]
             }
           }
@@ -49,7 +49,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:0s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -58,7 +58,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:1s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:1s}"
               ]
             }
           },
@@ -67,7 +67,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:2s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:2s}"
               ]
             }
           },
@@ -76,7 +76,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:3s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:3s}"
               ]
             }
           },
@@ -85,7 +85,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:4s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:4s}"
               ]
             }
           },
@@ -94,7 +94,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:5s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:5s}"
               ]
             }
           },
@@ -103,7 +103,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:6s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:6s}"
               ]
             }
           },
@@ -112,7 +112,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"twilightforest:trophy\",Count:1b,Damage:8s}"
+                "{id:\"twilightforest:trophy\",Count:1,Damage:8s}"
               ]
             }
           }
@@ -131,7 +131,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:twilight_symbol\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:twilight_symbol\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -148,7 +148,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"minecraft:iron_ore\",Count:4b,Damage:0s}"
+                "{id:\"minecraft:iron_ore\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -167,7 +167,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1b,Damage:1s}"
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -184,7 +184,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"immersiveengineering:material\",Count:32b,Damage:24s}"
+                "{id:\"immersiveengineering:material\",Count:32,Damage:24s}"
               ]
             }
           },
@@ -193,7 +193,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"thaumcraft:amber_block\",Count:16b,Damage:0s}"
+                "{id:\"thaumcraft:amber_block\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -202,7 +202,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"botania:manaresource\",Count:32b,Damage:23s}"
+                "{id:\"botania:manaresource\",Count:32,Damage:23s}"
               ]
             }
           },
@@ -211,7 +211,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:material_part\",Count:2b,Damage:154s}"
+                "{id:\"contenttweaker:material_part\",Count:2,Damage:154s}"
               ]
             }
           }
@@ -238,7 +238,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:crude_salis_mundus\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:crude_salis_mundus\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -255,7 +255,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"botania:shimmerrock\",Count:4b,Damage:0s}"
+                "{id:\"botania:shimmerrock\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -274,7 +274,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"astralsorcery:blockmarble\",Count:32b,Damage:0s}"
+                "{id:\"astralsorcery:blockmarble\",Count:32,Damage:0s}"
               ]
             }
           }
@@ -291,7 +291,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:nugget\",Count:1b,Damage:9s}"
+                "{id:\"thaumcraft:nugget\",Count:1,Damage:9s}"
               ]
             }
           }
@@ -310,7 +310,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"ordo\",amount:1}]}}"
+                "{id:\"thaumcraft:crystal_essence\",Count:1,Damage:0s,tag:{Aspects:[{key:\"ordo\",amount:1}]}}"
               ]
             }
           },
@@ -319,7 +319,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"terra\",amount:1}]}}"
+                "{id:\"thaumcraft:crystal_essence\",Count:1,Damage:0s,tag:{Aspects:[{key:\"terra\",amount:1}]}}"
               ]
             }
           },
@@ -328,7 +328,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"aqua\",amount:1}]}}"
+                "{id:\"thaumcraft:crystal_essence\",Count:1,Damage:0s,tag:{Aspects:[{key:\"aqua\",amount:1}]}}"
               ]
             }
           },
@@ -337,7 +337,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"perditio\",amount:1}]}}"
+                "{id:\"thaumcraft:crystal_essence\",Count:1,Damage:0s,tag:{Aspects:[{key:\"perditio\",amount:1}]}}"
               ]
             }
           },
@@ -346,7 +346,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"ignis\",amount:1}]}}"
+                "{id:\"thaumcraft:crystal_essence\",Count:1,Damage:0s,tag:{Aspects:[{key:\"ignis\",amount:1}]}}"
               ]
             }
           },
@@ -355,7 +355,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thaumcraft:crystal_essence\",Count:1b,Damage:0s,tag:{Aspects:[{key:\"aer\",amount:1}]}}"
+                "{id:\"thaumcraft:crystal_essence\",Count:1,Damage:0s,tag:{Aspects:[{key:\"aer\",amount:1}]}}"
               ]
             }
           }

@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalexpansion:frame\",Count:1b,Damage:64s}"
+                "{id:\"thermalexpansion:frame\",Count:1,Damage:64s}"
               ]
             }
           },
@@ -29,7 +29,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"environmentaltech:kyronite_crystal\",Count:16b,Damage:0s}"
+                "{id:\"environmentaltech:kyronite_crystal\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -38,7 +38,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"forestry:flexible_casing\",Count:4b,Damage:0s}"
+                "{id:\"forestry:flexible_casing\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -72,7 +72,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalexpansion:frame\",Count:1b,Damage:0s}"
+                "{id:\"thermalexpansion:frame\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -89,7 +89,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:64b,Damage:52s}"
+                "{id:\"appliedenergistics2:material\",Count:64,Damage:52s}"
               ]
             }
           },
@@ -98,7 +98,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"thaumcraft:mechanism_complex\",Count:16b,Damage:0s}"
+                "{id:\"thaumcraft:mechanism_complex\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -139,7 +139,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:1b,Damage:13s}"
+                "{id:\"appliedenergistics2:material\",Count:1,Damage:13s}"
               ]
             }
           },
@@ -148,7 +148,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:1b,Damage:14s}"
+                "{id:\"appliedenergistics2:material\",Count:1,Damage:14s}"
               ]
             }
           },
@@ -157,7 +157,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:1b,Damage:15s}"
+                "{id:\"appliedenergistics2:material\",Count:1,Damage:15s}"
               ]
             }
           },
@@ -166,7 +166,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:1b,Damage:19s}"
+                "{id:\"appliedenergistics2:material\",Count:1,Damage:19s}"
               ]
             }
           },
@@ -175,7 +175,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:1b,Damage:21s,tag:{}}"
+                "{id:\"appliedenergistics2:material\",Count:1,Damage:21s,tag:{}}"
               ]
             }
           }
@@ -192,7 +192,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"techreborn:lapotroncrystal\",Count:8b,Damage:0s,tag:{energy:0}}"
+                "{id:\"techreborn:lapotroncrystal\",Count:8,Damage:0s,tag:{energy:0}}"
               ]
             }
           },
@@ -201,7 +201,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:material_part\",Count:16b,Damage:19s}"
+                "{id:\"contenttweaker:material_part\",Count:16,Damage:19s}"
               ]
             }
           }
@@ -220,7 +220,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"techreborn:lapotronicorb\",Count:1b,Damage:0s,tag:{energy:0}}"
+                "{id:\"techreborn:lapotronicorb\",Count:1,Damage:0s,tag:{energy:0}}"
               ]
             }
           }
@@ -237,7 +237,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:2048s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:2048s}"
               ]
             }
           },
@@ -246,7 +246,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:2050s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:2050s}"
               ]
             }
           },
@@ -255,7 +255,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:2052s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:2052s}"
               ]
             }
           },
@@ -271,7 +271,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"mysticalagriculture:mystical_machine_frame\",Count:1b,Damage:0s}"
+                "{id:\"mysticalagriculture:mystical_machine_frame\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -305,7 +305,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"compactmachines3:fieldprojector\",Count:1b,Damage:0s}"
+                "{id:\"compactmachines3:fieldprojector\",Count:1,Damage:0s}"
               ]
             }
           }

@@ -52,6 +52,8 @@ Assembler.addRecipe(<contenttweaker:blank_ar_chip>,<ore:gearBloodBronze>*2,<thau
 RecipeUtils.recipeTweak(true, <advancedrocketry:arcfurnace>, [[<minecraft:netherbrick>, <advancedrocketry:misc>, <minecraft:netherbrick>], [<advancedrocketry:ic:4>, <qmd:particle_chamber_detector:3>, <advancedrocketry:ic:3>], [<minecraft:netherbrick>, <ore:ingotCopper>, <minecraft:netherbrick>]]);
 recipes.addShaped(<advancedrocketry:blastbrick> * 4, [[<bloodmagic:decorative_brick>, <bloodmagic:decorative_brick>, <bloodmagic:decorative_brick>],[<bloodmagic:decorative_brick>, <forestry:refractory_wax>, <bloodmagic:decorative_brick>], [<bloodmagic:decorative_brick>, <bloodmagic:decorative_brick>, <bloodmagic:decorative_brick>]]);
 
+RecipeUtils.recipeTweak(true, <advancedrocketry:precisionassemblingmachine>, [[<minecraft:repeater>, <advancedrocketry:misc>, <minecraft:diamond>], [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<ore:gearTitaniumAluminide>, <ore:gearSteel>, <ore:gearTitaniumIridium>]]);
+
 ARTweaker.forMachine("ElectricArcFurnace").removeAll();
 ARTweaker.forMachine("ElectricArcFurnace")
 .builder()
@@ -68,13 +70,44 @@ ARTweaker.forMachine("ElectricArcFurnace")
 .timeRequired(200)
 .build();
 
-
-/*
 ARTweaker.forMachine("PrecisionAssembler")
 .remover()
-.addOutputs(<advancedrocketry:itemupgrade:3>)
+.addOutputs(<advancedrocketry:ic:5>)
 .remove();
-*/
+ARTweaker.forMachine("PrecisionAssembler")
+.remover()
+.addOutputs(<advancedrocketry:ic:4>)
+.remove();
+ARTweaker.forMachine("PrecisionAssembler")
+.remover()
+.addOutputs(<advancedrocketry:ic:3>)
+.remove();
+ARTweaker.forMachine("PrecisionAssembler")
+.remover()
+.addOutputs(<advancedrocketry:itemcircuitplate>)
+.remove();
+ARTweaker.forMachine("PrecisionAssembler")
+.remover()
+.addOutputs(<advancedrocketry:itemcircuitplate:1>)
+.remove();
+
+ARTweaker.forMachine("PrecisionAssembler")
+.builder()
+.inputs(<advancedrocketry:wafer>,<ore:sheetTitanium>*3,<calculator:redstoneingot>*4)
+.outputs(<advancedrocketry:itemcircuitplate>)
+.power(1000)
+.timeRequired(50)
+.build();
+ARTweaker.forMachine("PrecisionAssembler")
+.builder()
+.inputs(<advancedrocketry:itemcircuitplate>*3,<ore:sheetTitaniumIridium>*2,<fluxnetworks:flux>*4)
+.outputs(<advancedrocketry:itemcircuitplate:1>)
+.power(2000)
+.timeRequired(100)
+.build();
+
+//这里写一下那三种电路板的便宜方法
+
 /*
 Supported Machines: (used for forMachine method parameter)
 Centrifuge

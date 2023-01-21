@@ -108,7 +108,7 @@
         "states": [
           {
             "id": "projecte:alchemical_chest",
-            "meta": 3
+            "meta": 0
           }
         ],
         "type": "states",

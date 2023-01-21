@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:iron_ingot\",Count:1b,Damage:0s}"
+                "{id:\"minecraft:iron_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -32,7 +32,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersiveintelligence:material_ingot\",Count:1b,Damage:5s}"
+                "{id:\"immersiveintelligence:material_ingot\",Count:1,Damage:5s}"
               ]
             }
           }
@@ -49,7 +49,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"qmd:ingot2\",Count:1b,Damage:1s}"
+                "{id:\"qmd:ingot2\",Count:1,Damage:1s}"
               ]
             }
           },
@@ -58,7 +58,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"nuclearcraft:alloy\",Count:2b,Damage:6s}"
+                "{id:\"nuclearcraft:alloy\",Count:2,Damage:6s}"
               ]
             }
           },
@@ -67,7 +67,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersiveintelligence:material_ingot\",Count:1b,Damage:5s}"
+                "{id:\"immersiveintelligence:material_ingot\",Count:1,Damage:5s}"
               ]
             }
           }
@@ -86,7 +86,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"qmd:part\",Count:1b,Damage:8s}"
+                "{id:\"qmd:part\",Count:1,Damage:8s}"
               ]
             }
           }

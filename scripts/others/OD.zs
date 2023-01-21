@@ -125,3 +125,6 @@
 <ore:ingotDarkChocolate>.add(<tcomplement:edibles:11>);
 <ore:foodChocolatebar>.add(<tcomplement:edibles:10>);
 <ore:ingotChocolate>.add(<tcomplement:edibles:10>);
+
+<ore:circuitNuclear>.add(<advancedrocketry:itemcircuitplate>);
+<ore:circuitUniversal>.add(<advancedrocketry:itemcircuitplate:1>);

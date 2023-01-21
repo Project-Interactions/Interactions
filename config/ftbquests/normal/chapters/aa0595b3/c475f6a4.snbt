@@ -1,0 +1,21 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	dependencies: [
+		"a6baf1cb"
+	],
+	tasks: [{
+		uid: "427f6738",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:productingot"
+		}]
+	},
+	{
+		uid: "32db888e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:productingot 1 1"
+		}]
+	}]
+}

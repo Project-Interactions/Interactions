@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"redstonerepository:material\",Count:1b,Damage:0s}"
+                "{id:\"redstonerepository:material\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -32,7 +32,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"redstonerepository:material\",Count:1b,Damage:1s}"
+                "{id:\"redstonerepository:material\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -75,7 +75,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:hot_osmium_ingot\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:hot_osmium_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -94,7 +94,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"mekanism:ingot\",Count:1b,Damage:1s}"
+                "{id:\"mekanism:ingot\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -111,7 +111,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:hot_tungsten_ingot\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:hot_tungsten_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -136,7 +136,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"qmd:ingot\",Count:1b,Damage:0s}"
+                "{id:\"qmd:ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -153,7 +153,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:hot_irdium_ingot\",Count:1b,Damage:0s}"
+                "{id:\"contenttweaker:hot_irdium_ingot\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -172,7 +172,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:135s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:135s}"
               ]
             }
           }
@@ -189,7 +189,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:103s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:103s}"
               ]
             }
           }
@@ -208,7 +208,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1b,Damage:167s}"
+                "{id:\"thermalfoundation:material\",Count:1,Damage:167s}"
               ]
             }
           }

@@ -107,7 +107,13 @@ val AlloyFurnaceRemove as IItemStack[] =
 <enderio:item_alloy_endergy_ingot:5>,
 <enderio:item_alloy_endergy_ingot:6>,
 <plustic:osmiridiumnugget>*2,
-<plustic:osmiridiumblock>
+<plustic:osmiridiumblock>,
+<advancedrocketry:productingot>*3,
+<advancedrocketry:productingot:1>*2,
+<advancedrocketry:productnugget>*3,
+<advancedrocketry:productnugget:1>*2,
+<advancedrocketry:metal0>*3,
+<advancedrocketry:metal0:1>*2
 ];
 
 for removea in AlloyFurnaceRemove {
