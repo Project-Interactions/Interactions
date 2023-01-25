@@ -1,6 +1,10 @@
-# About FTBQ translation
+## About translation
 
-We are now making FTBQ translation keys,thanks lonelyxiya for his help.
+Custom items are translated.
+
+We are now making FTBQ translation keys,but it may take a long time :(
+
+Thanks lonelyxiya for zh_tw translation.
 
 # Interactions
 
