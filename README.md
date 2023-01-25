@@ -1,8 +1,6 @@
-# We are looking for translators
+# About FTBQ translation
 
-If you know both English and Chinese,you can join this modpack's translation
-
-FTBQ translation key is WIP
+We are now making FTBQ translation keys,thanks lonelyxiya for his help.
 
 # Interactions
 
