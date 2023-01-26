@@ -1,8 +1,8 @@
 {
-	title: "215b43fe.ia.chapter.title",
+	title: "{215b43fe.ia.chapter.title}",
 	icon: "psi:material 1 4",
 	description: [
-		"215b43fe.ia.chapter.description"
+		"{215b43fe.ia.chapter.description}"
 	],
 	always_invisible: false,
 	group: 0,
