@@ -1,9 +1,9 @@
 {
-	title: "热力金属",
+	title: "215b43fe.ia.ec68fd4b.title",
 	x: 6.5d,
 	y: 2.5d,
 	text: [
-		"只能用高炉烧制获得锭"
+		"215b43fe.ia.ec68fd4b"
 	],
 	dependencies: [
 		"5c3f3c0f",

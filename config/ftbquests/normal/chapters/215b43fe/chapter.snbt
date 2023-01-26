@@ -1,8 +1,8 @@
 {
-	title: "《生物、农业在科技领域的应用》",
+	title: "215b43fe.ia.chapter.title",
 	icon: "psi:material 1 4",
 	description: [
-		"阶段六"
+		"215b43fe.ia.chapter.description"
 	],
 	always_invisible: false,
 	group: 0,

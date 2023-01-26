@@ -1,10 +1,10 @@
 {
-	title: "兵工厂金属",
+	title: "215b43fe.ia.c4b95348.title",
 	x: 7.0d,
 	y: 1.5d,
 	text: [
-		"他们都可以被制成匠魂工具",
-		"水晶粉需要通过聚爆制成水晶"
+		"215b43fe.ia.c4b95348",
+		"215b43fe.ia.c4b95348.1"
 	],
 	dependencies: [
 		"5c3f3c0f",
