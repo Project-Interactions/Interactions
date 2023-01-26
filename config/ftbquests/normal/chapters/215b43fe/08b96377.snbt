@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: -6.5d,
 	text: [
-		"215b43fe.ia.08b96377"
+		"{215b43fe.ia.08b96377}"
 	],
 	dependencies: [
 		"62d05659"
