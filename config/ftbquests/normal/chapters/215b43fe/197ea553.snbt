@@ -2,8 +2,8 @@
 	x: 1.5d,
 	y: -2.5d,
 	text: [
-		"215b43fe.ia.197ea553",
-		"215b43fe.ia.197ea553.1"
+		"{215b43fe.ia.197ea553}",
+		"{215b43fe.ia.197ea553.1}"
 	],
 	dependencies: [
 		"7b207a56"
