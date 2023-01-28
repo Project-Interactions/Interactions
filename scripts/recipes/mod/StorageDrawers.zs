@@ -22,22 +22,3 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <storagedrawers:upgrade_creativ
 	[<techreborn:quantum_chest>, <avaritiaddons:avaritiaddons_chest:1>, <avaritiaddons:avaritiaddons_chest:1>, <avaritiaddons:avaritiaddons_chest:1>, <avaritiaddons:avaritiaddons_chest:1>, <avaritiaddons:avaritiaddons_chest:1>, <avaritiaddons:avaritiaddons_chest:1>, <avaritiaddons:avaritiaddons_chest:1>, <techreborn:quantum_chest>], 
 	[<techreborn:quantum_chest>, <techreborn:quantum_chest>, <techreborn:quantum_chest>, <techreborn:quantum_chest>, <techreborn:quantum_chest>, <techreborn:quantum_chest>, <techreborn:quantum_chest>, <techreborn:quantum_chest>, <techreborn:quantum_chest>]
 ]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,9 +7,6 @@ function capitalize(str as string) as string {
 	return str.substring(0, 1).toUpperCase() + str.substring(1);
 }
 
-function ElementAdd(part as string,material as string,element as string) as void{
-    oreDict[part + capitalize(material)].addTooltip(element);
-}
 var parts as string[]=[
 "ingot",
 "plate",
@@ -55,6 +52,6 @@ var materialsAndElement as string[string] ={
 
 for part in parts {
     for material,element in materialsAndElement{
-    ElementAdd(part,material,element);
+    oreDict[part + capitalize(material)].addTooltip(element);
   }
 }
