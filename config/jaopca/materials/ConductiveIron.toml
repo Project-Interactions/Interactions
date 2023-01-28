@@ -15,3 +15,9 @@
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false
 
+[avaritia]
+	#The base amount of blocks required to create one singularity.
+	inputAmount = 300
+	#Should the singularity be added to the Infinity Catalyst recipe.
+	addToCatalyst = true
+

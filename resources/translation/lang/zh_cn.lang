@@ -201,27 +201,6 @@ dynamistics.category.title.pauto.holder=打包合成配方
 
 dynamistics.recipe.text.package_processing_extra=配方%s：
 dynamistics.recipe.text.show_jei_categories=查看配方
-//package auto addons
-itemGroup.packagedavaritia=封包无尽贪婪
-itemGroup.packagedexcrafting=封包合成拓展
-itemGroup.packagedastral=封包星辉魔法
-
-tile.packagedastral.discovery_crafter.name=星辉合成台封包合成器
-tile.packagedastral.attunement_crafter.name=星辉祭坛封包合成器
-tile.packagedastral.constellation_crafter.name=天辉祭坛封包合成器
-tile.packagedastral.trait_crafter.name=五彩祭坛封包合成器
-tile.packagedastral.marked_relay.name=标记光波增幅器
-
-item.packagedastral.constellation_focus.name=星座核心
-
-recipe.packagedastral.discovery=星辉合成台
-recipe.packagedastral.discovery.short=星辉
-recipe.packagedastral.attunement=星辉祭坛
-recipe.packagedastral.attunement.short=星辉
-recipe.packagedastral.constellation=天辉祭坛
-recipe.packagedastral.constellation.short=天辉
-recipe.packagedastral.trait=五彩祭坛
-recipe.packagedastral.trait.short=五彩
 //pointer
 item.pointer.name=指针
 tile.remote_control_station.name=远程控制站

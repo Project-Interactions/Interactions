@@ -1,5 +1,7 @@
 import mods.jei.JEI;
 
+addRegexLogFilter("Failed to hide recipe category");
+
 var jeiremove as string[]=[
 "jehc.market",
 "TechReborn.Compressor",

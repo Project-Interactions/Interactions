@@ -35,7 +35,6 @@ mods.avaritia.ExtremeCrafting.addShaped("neutroncollector", <avaritia:neutron_co
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
-mods.avaritia.ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 
 mods.avaritia.ExtremeCrafting.addShaped("infinityingot", <avaritia:resource:6>, [
 	[null, null, null, null, null, null, null, null, null], 
