@@ -2,7 +2,7 @@
 	x: 13.5d,
 	y: 3.5d,
 	text: [
-		"你可以用它制作压缩空间并使用传送器进入"
+		"{215b43fe.ia.fdc6b25e}"
 	],
 	dependencies: [
 		"49d7f66d"

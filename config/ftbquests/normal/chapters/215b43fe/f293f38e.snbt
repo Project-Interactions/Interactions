@@ -1,9 +1,9 @@
 {
-	title: "三种棒子",
+	title: "{215b43fe.ia.f293f38e.title}",
 	x: 15.0d,
 	y: 1.5d,
 	text: [
-		"先用转置机获得粉，5个在压缩机中压成棒"
+		"{215b43fe.ia.f293f38e}"
 	],
 	dependencies: [
 		"880a0f96"

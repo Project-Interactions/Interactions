@@ -2,7 +2,7 @@
 	x: 20.5d,
 	y: 1.5d,
 	text: [
-		"只能在末地制作"
+		"{215b43fe.ia.093c6725}"
 	],
 	dependencies: [
 		"b162deb7"

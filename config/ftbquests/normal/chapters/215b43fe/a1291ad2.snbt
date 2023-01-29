@@ -1,9 +1,9 @@
 {
-	title: "充能水晶",
+	title: "{215b43fe.ia.a1291ad2.title}",
 	x: 9.0d,
 	y: -4.5d,
 	text: [
-		"充能你的水晶"
+		"{215b43fe.ia.a1291ad2}"
 	],
 	dependencies: [
 		"79da7f46"

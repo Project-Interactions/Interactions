@@ -2,7 +2,7 @@
 	x: 6.5d,
 	y: 3.5d,
 	text: [
-		"你可以将它做成匠魂工具通过打怪获得更多活化水晶碎片"
+		"{215b43fe.ia.df037d25}"
 	],
 	dependencies: [
 		"aaa6df4b"
