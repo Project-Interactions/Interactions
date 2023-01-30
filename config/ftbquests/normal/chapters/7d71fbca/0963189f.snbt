@@ -2,7 +2,7 @@
 	x: 12.0d,
 	y: 1.5d,
 	text: [
-		"需要3级祭坛"
+		"{7d71fbca.ia.0963189f}"
 	],
 	dependencies: [
 		"1d7144a4"

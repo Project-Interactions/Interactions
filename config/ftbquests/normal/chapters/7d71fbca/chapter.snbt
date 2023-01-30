@@ -1,8 +1,8 @@
 {
-	title: "《可能是一个模组大杂烩》",
+	title: "{7d71fbca.ia.title}",
 	icon: "plustic:osgloglasingot",
 	description: [
-		"阶段七"
+		"{7d71fbca.ia.description}"
 	],
 	always_invisible: false,
 	group: 0,

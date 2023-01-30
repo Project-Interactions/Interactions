@@ -16,7 +16,8 @@
 					Damage: 0s
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "2766374d",

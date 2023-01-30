@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: 2.5d,
 	text: [
-		"可以产出一些重要的粉"
+		"{7d71fbca.ia.bb3668d9}"
 	],
 	dependencies: [
 		"e29ace8f",

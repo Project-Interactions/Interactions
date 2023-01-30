@@ -2,20 +2,20 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:1.0
+gamma:0.0
 saturation:0.0
 renderDistance:8
-guiScale:4
-particles:2
+guiScale:0
+particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:3
-fancyGraphics:false
-ao:0
-renderClouds:fast
-resourcePacks:["Modernity-format3-v3.7.1.zip","ModernityExtra-format3-v1.3.2.zip","Minecraft-Mod-Language-Modpack.zip"]
+difficulty:2
+fancyGraphics:true
+ao:2
+renderClouds:true
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -89,7 +89,7 @@ key_of.key.zoom:46
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_Reload Menu | CTRL + ALT + :19
-key_Toggle Customization Overlay | CTRL + ALT + :65548
+key_Toggle Customization Overlay | CTRL + ALT + :0
 key_keybind.baublesinventory:48
 key_psimisc.keybind:0
 key_rpsideas.kb.offhandcast:0
@@ -116,14 +116,14 @@ key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
 key_keybind.hammercorerenderstack:77
-key_ChatFlow:53:SHIFT
+key_ChatFlow:88
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:0
 key_key.togglePotionParticles:66:CONTROL
 key_cos.key.opencosarmorinventory:0
 key_key.custommodel.selectmodel:50:CONTROL
-key_key.findme.search:33:CONTROL
+key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
@@ -271,6 +271,18 @@ key_key.plustic_mots.desc:13:ALT
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
+key_key.neenergistics.crafting.helper.noPreview:56
+key_key.nekeys.push_to_talk:56
+key_key.nekeys.preset_1:79
+key_key.nekeys.preset_2:80
+key_key.nekeys.preset_3:81
+key_key.nekeys.preset_4:75
+key_key.nekeys.preset_5:76
+key_key.nekeys.preset_6:77
+key_key.nekeys.preset_7:71
+key_key.nekeys.preset_8:72
+key_key.nekeys.preset_9:73
+key_key.nekeys.preset_10:82
 key_pi.key.open_pi:23
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
@@ -279,7 +291,7 @@ key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_key.screenshot_viewer.open_screenshots_screen:0
-key_key.taiga.alt_action:56
+key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.craftingGrid:0
@@ -342,11 +354,8 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-key_key.groovyscript.reload:19:CONTROL
-key_rsb.keybind.find_recipe:79
-key_rsb.keybind.find_uses:80
-soundCategory_master:0.0
-soundCategory_music:0.112676054
+soundCategory_master:1.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

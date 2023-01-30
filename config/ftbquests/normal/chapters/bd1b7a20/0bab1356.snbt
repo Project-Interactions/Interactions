@@ -35,7 +35,8 @@
 					Damage: 0s
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "b8c521f9",
@@ -50,7 +51,8 @@
 					Damage: 0s
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "985cb50e",

@@ -1,6 +1,8 @@
 #format chapter.ia.questname=
 
 #215b43fe chapter
+215b43fe.ia.chapter.title=《生物、农业在科技领域的应用》
+215b43fe.ia.chapter.description=阶段六
 215b43fe.ia.093c6725=只能在末地制作
 215b43fe.ia.08b96377=你可以使用压力板来自动充能
 215b43fe.ia.fdc6b25e=你可以用它制作压缩空间并使用传送器进入
@@ -12,8 +14,6 @@
 215b43fe.ia.ec68fd4b.title=热力金属
 215b43fe.ia.ec68fd4b=只能用高炉烧制获得锭
 215b43fe.ia.df037d25=你可以将它做成匠魂工具通过打怪获得更多活化水晶碎片
-215b43fe.ia.chapter.title=《生物、农业在科技领域的应用》
-215b43fe.ia.chapter.description=阶段6
 215b43fe.ia.c4b95348.title=兵工厂金属
 215b43fe.ia.c4b95348=他们都可以被制成匠魂工具
 215b43fe.ia.c4b95348.1=水晶粉需要通过聚爆制成水晶
@@ -28,3 +28,31 @@
 215b43fe.ia.79da7f46.title=各种各样的水晶
 215b43fe.ia.43d94397=使用蒸馏器（林业）或发酵桶制作
 215b43fe.ia.6b42b359.title=灵魂碎片
+
+#6f8f343d chapter
+
+#7d71fbca chapter
+7d71fbca.ia.title=《可能是一个模组大杂烩》
+7d71fbca.ia.description=阶段七
+7d71fbca.ia.1d7144a4=注意，搭建是萤石（如有用到）请替换成萤石灯
+7d71fbca.ia.2b3b124d=注意辐射，合成熔融物
+7d71fbca.ia.4ebb81b9=你可以用它转换各种贵金属，如锇铱钨等
+7d71fbca.ia.6df0179d=两种粉
+7d71fbca.ia.47be9fd3=用神秘领域的秘银锭激活
+7d71fbca.ia.643fba3b=制造硼粒子
+7d71fbca.ia.861b01f0=极光幽境金属
+7d71fbca.ia.909bd413.1=一开始只能用天域锭，恶魔之血，绿宝石雷击获得
+7d71fbca.ia.909bd413.2=也可以在幽冥世界的地牢里找到
+7d71fbca.ia.2964e3e7=将恶魔石摆成地狱门的形状并用幽冥弹点燃
+7d71fbca.ia.0963189f=需要3级祭坛
+7d71fbca.ia.aaa06e8e=升级以提高产生LE的效率
+7d71fbca.ia.aabf4253.1=由于你现在还去不了末地，配方在压缩空间进行
+7d71fbca.ia.aabf4253.2=主世界和地狱配方为正常
+7d71fbca.ia.bb3668d9=可以产出一些重要的粉
+7d71fbca.ia.d2cbcf94.1=在极光幽境合成
+7d71fbca.ia.d2cbcf94.2=原材料都提供了自动化方案
+7d71fbca.ia.d2f4dd6d=在小制造机中处理煤粉获得粉，烧制后得到锭
+7d71fbca.ia.d5579ab2=会在幽冥世界生成，初次需要手动在祭坛召唤
+7d71fbca.ia.e4ccff23=钨
+7d71fbca.ia.ea21c88f=mek的机器现在只能使用工厂升级进行升级
+7d71fbca.ia.fe24bc23=将铁锭，金锭，钻石雷击获得

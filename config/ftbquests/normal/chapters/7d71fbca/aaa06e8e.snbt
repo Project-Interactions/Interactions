@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: -3.0d,
 	text: [
-		"升级以提高产生le的效率"
+		"{7d71fbca.ia.aaa06e8e}"
 	],
 	dependencies: [
 		"fe24bc23"

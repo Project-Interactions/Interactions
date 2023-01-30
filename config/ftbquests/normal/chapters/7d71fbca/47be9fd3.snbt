@@ -2,7 +2,7 @@
 	x: 18.0d,
 	y: 1.5d,
 	text: [
-		"用神秘的秘银锭激活"
+		"{7d71fbca.ia.47be9fd3}"
 	],
 	dependencies: [
 		"dad1fe9a"

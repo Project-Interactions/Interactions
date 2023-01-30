@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -3.0d,
 	text: [
-		"将铁锭，金锭，钻石雷击获得"
+		"{7d71fbca.ia.fe24bc23}"
 	],
 	dependencies: [
 		"b9f56865",

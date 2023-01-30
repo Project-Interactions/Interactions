@@ -2,8 +2,7 @@
 	x: 16.5d,
 	y: 7.5d,
 	text: [
-		"注意辐射",
-		"熔融可合成"
+		"{7d71fbca.ia.2b3b124d}"
 	],
 	dependencies: [
 		"501a360c"

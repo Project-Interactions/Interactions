@@ -246,26 +246,6 @@
 		]
 	},
 	{
-		"item": "oreIridium",
-		"color": 0,
-		"rarity": [
-			{
-				"whitelist": "minecraft:sky",
-				"blacklist": "",
-				"depth_min": 5,
-				"depth_max": 68,
-				"weight": 0
-			},
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 0,
-				"depth_max": 255,
-				"weight": 0
-			}
-		]
-	},
-	{
 		"item": "oreRuby",
 		"color": 14,
 		"rarity": [
@@ -385,45 +365,6 @@
 		]
 	},
 	{
-		"item": "oreSheldonite",
-		"color": 0,
-		"rarity": [
-			{
-				"whitelist": "minecraft:sky",
-				"blacklist": "",
-				"depth_min": 20,
-				"depth_max": 70,
-				"weight": 0
-			}
-		]
-	},
-	{
-		"item": "orePlatinum",
-		"color": 3,
-		"rarity": [
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 5,
-				"depth_max": 16,
-				"weight": 0
-			}
-		]
-	},
-	{
-		"item": "oreTetrahedrite",
-		"color": 14,
-		"rarity": [
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 60,
-				"depth_max": 90,
-				"weight": 4
-			}
-		]
-	},
-	{
 		"item": "oreTin",
 		"color": 8,
 		"rarity": [
@@ -526,59 +467,6 @@
 				"depth_min": 5,
 				"depth_max": 68,
 				"weight": 4
-			}
-		]
-	},
-	{
-		"item": "oreDraconium",
-		"color": 10,
-		"rarity": [
-			{
-				"whitelist": "minecraft:sky",
-				"blacklist": "",
-				"depth_min": 5,
-				"depth_max": 68,
-				"weight": 0
-			},
-			{
-				"whitelist": "minecraft:hell",
-				"blacklist": "",
-				"depth_min": 5,
-				"depth_max": 68,
-				"weight": 0
-			},
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 5,
-				"depth_max": 68,
-				"weight": 0
-			}
-		]
-	},
-	{
-		"item": "oreYellorium",
-		"color": 4,
-		"rarity": [
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 16,
-				"depth_max": 68,
-				"weight": 3
-			}
-		]
-	},
-	{
-		"item": "oreCobalt",
-		"color": 11,
-		"rarity": [
-			{
-				"whitelist": "minecraft:hell",
-				"blacklist": "",
-				"depth_min": 34,
-				"depth_max": 96,
-				"weight": 8
 			}
 		]
 	},

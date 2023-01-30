@@ -13,5 +13,10 @@
 		items: [{
 			item: "tinkersaddons:modifier_item 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "2c4a7d3e",
+		type: "item",
+		item: "tconstruct:materials 1 50"
 	}]
 }

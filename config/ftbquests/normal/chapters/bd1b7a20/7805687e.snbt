@@ -9,18 +9,19 @@
 		"a245f056"
 	],
 	tasks: [{
-		uid: "c4185116",
+		uid: "f6e6fc42",
 		type: "item",
 		items: [{
 			id: "conarm:armorforge",
 			tag: {
 				textureBlock: {
 					id: "minecraft:iron_block",
-					Count: 1b,
+					Count: 1,
 					Damage: 0s
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "f2f72bd9",

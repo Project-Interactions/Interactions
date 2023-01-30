@@ -2,8 +2,8 @@
 	x: 20.0d,
 	y: 0.0d,
 	text: [
-		"在极光幽境合成",
-		"原材料都可以进行复制"
+		"{7d71fbca.ia.d2cbcf94.1}",
+		"{7d71fbca.ia.d2cbcf94.2}"
 	],
 	dependencies: [
 		"861b01f0"
