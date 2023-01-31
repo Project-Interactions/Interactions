@@ -8,6 +8,8 @@ import mod.mekanism.gas.IGasStack;
 import mods.mekanism.thermalevaporation;
 import mods.nuclearcraft.Assembler;
 
+recipes.removeByRecipeName("mekanism:energycube_create");
+
 recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
 recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
