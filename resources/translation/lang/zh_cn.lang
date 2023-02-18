@@ -185,22 +185,6 @@ psi.piecegroup.elemental_arts_two.desc=你可以以不同的方式使用Psi整�
 
 psi.piecegroup.teleportation=传送
 psi.piecegroup.teleportation.desc=真实和困难的艺术——传送…… 通过使用Psi创造魔力护盾，并转换目标周围的空间，我们可以准确地传送到我们想去的地方。有了它，我们就不会像闪现那样被自己的视野所限制
-//toolprogression
-item.toolprogression.magic_mushroom.name=魔法™蘑菇
-
-modifier.magicmushroom.name=魔法™蘑菇
-modifier.magicmushroom.desc=这种神奇的蘑菇可以神奇地提高你的工具的能力。
-//dynamistics
-dynamistics.category.title.ae2.pattern.crafting_substitute=合成样板
-dynamistics.category.title.ae2.pattern.crafting_nonsubstitute=合成样板
-dynamistics.category.title.ae2.pattern.processing=处理样板
-dynamistics.category.title.pauto.unpackage=解包
-dynamistics.category.title.pauto.package=打包
-dynamistics.category.title.pauto.process=打包处理配方
-dynamistics.category.title.pauto.holder=打包合成配方
-
-dynamistics.recipe.text.package_processing_extra=配方%s：
-dynamistics.recipe.text.show_jei_categories=查看配方
 //pointer
 item.pointer.name=指针
 tile.remote_control_station.name=远程控制站
@@ -250,14 +234,3 @@ tile.well.yellow_well.name=黄色井
 subtitle.block.well.crank=井的曲柄发出吱吱声
 warn.well.onePerChunk=§l§4在这个井的16个方块内已经有一个朝右的井！
 warn.well.onePerChunkFlipped=§l§4在这个井的16个方块内已经有一个朝下的井！
-//universal tweaks
-# OBSOLETE MODS SCREEN
-msg.universaltweaks.obsoletemods.warning1=通用修改已经取代并改进了其他模组的功能。
-msg.universaltweaks.obsoletemods.warning2=因此，以下模组现在与通用修改不兼容：
-msg.universaltweaks.obsoletemods.warning3=请考虑从你的游戏中删除它们，或禁用相应的功能。
-
-# TOGGLE CHEATS
-btn.universaltweaks.cheats.enabled=作弊模式：开启
-btn.universaltweaks.cheats.disabled=作弊模式：关闭
-msg.universaltweaks.cheats.enabled=作弊模式现已§a启用
-msg.universaltweaks.cheats.disabled=作弊模式现已§c禁用

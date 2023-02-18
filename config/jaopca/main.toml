@@ -56,7 +56,7 @@
 #Configurations related to material localization.
 [materialLocalization]
 	#Should the mod check for material localization updates.
-	checkL10nUpdates = true
+	checkL10nUpdates = false
 	#The update interval of localization files in days.
 	updateInterval = 3.0
 
