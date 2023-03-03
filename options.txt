@@ -6,7 +6,7 @@ gamma:0.0
 saturation:0.0
 renderDistance:8
 guiScale:4
-particles:0
+particles:2
 bobView:true
 anaglyph3d:false
 maxFps:260
@@ -90,6 +90,7 @@ key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_Reload Menu | CTRL + ALT + :19
 key_Toggle Customization Overlay | CTRL + ALT + :0
+key_key.groovyscript.reload:19:CONTROL
 key_keybind.baublesinventory:48
 key_psimisc.keybind:0
 key_rpsideas.kb.offhandcast:0
@@ -193,7 +194,7 @@ key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.toggle_focus.desc:15
 key_key.open_wireless_terminal.desc:20:SHIFT
-key_key.open_wireless_crafting_terminal.desc:18:SHIFT
+key_key.open_wireless_crafting_terminal.desc:0
 key_key.open_wireless_pattern_terminal.desc:19:SHIFT
 key_key.open_wireless_fluid_terminal.desc:33:SHIFT
 key_mekanism.key.mode:50
@@ -204,6 +205,11 @@ key_key.aether.accessory_menu:23
 key_astraladditions.key.ring_toggle:82
 key_key.infinity_armor.noclip:40
 key_key.bettersigns.nosigntext:56
+key_key.radial_menu:0
+key_key.use_ring:19
+key_key.use_secondary_ring:0
+key_key.open_pouch:34
+key_key.connect_caving_rope:47
 key_key.settings_menu:34
 key_key.range:19
 key_key.undo:22
@@ -254,6 +260,7 @@ key_key.rotateleft:203
 key_key.little.flip:34
 key_key.little.mark:50
 key_key.little.config.item:0
+key_key.little.config:0:CONTROL
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
 key_keybind.simplyjetpacks.gui:44
@@ -271,6 +278,7 @@ key_key.plustic_mots.desc:13:ALT
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
+key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:23
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
@@ -283,6 +291,7 @@ key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.craftingGrid:0
+key_variegated.keybinds.offhand:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -342,10 +351,10 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-key_key.groovyscript.reload:19:CONTROL
+key_key.craftpresence.config_keycode.name:41
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:0.09271523
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

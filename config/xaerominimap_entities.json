@@ -10,6 +10,7 @@
   "protection": true,
   "settingOverrides": {
     "displayed": true,
+    "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
@@ -19,7 +20,6 @@
     "startFadingAt": 0.0,
     "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
-    "displayY": false,
     "icons": 1.0,
     "heightLimit": 20.0,
     "names": 0.0,

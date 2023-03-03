@@ -202,35 +202,4 @@ pointer.tooltip.hit_vector=点击角度：%s
 
 pointer.config.item_max_durability=指针的最大耐久度，设定为0则物品损坏
 pointer.config.damage_mode=如果指针是有耐久度的，选择其进行损坏的模式
-//well well well
-//Config
-config.well.data=流体采集数据
-config.well.data.tooltip=根据生物群系处理井内收集的液体种类，以及液体数量
-config.well.onlyOnePerChunk=限制每16个方块只能有一口井
-config.well.onlyOnePerChunk.tooltip=当设置为 "真 "时，该地区的所有井将在超过1个时停止工作。
-config.well.playSound=播放曲柄的声音
-config.well.playSound.tooltip=当有人从井中抽取液体时，播放井的曲柄的声音。
-config.well.tankCapacity=储罐容量
-config.well.tankCapacity.tooltip=井可以容纳多少毫升的液体？设为0以禁用。
-//Block
-tile.well.black_well.name=黑色井
-tile.well.blue_well.name=蓝色井
-tile.well.brown_well.name=棕色井
-tile.well.cyan_well.name=青色井
-tile.well.gray_well.name=灰色井
-tile.well.green_well.name=绿色井
-tile.well.light_blue_well.name=淡蓝色井
-tile.well.lime_well.name=黄绿色井
-tile.well.magenta_well.name=品红色井
-tile.well.orange_well.name=橙色井
-tile.well.pink_well.name=粉红色井
-tile.well.purple_well.name=紫色井
-tile.well.red_well.name=红色井
-tile.well.silver_well.name=淡灰色井
-tile.well.well.name=井
-tile.well.white_well.name=白色井
-tile.well.yellow_well.name=黄色井
-//Misc
-subtitle.block.well.crank=井的曲柄发出吱吱声
-warn.well.onePerChunk=§l§4在这个井的16个方块内已经有一个朝右的井！
-warn.well.onePerChunkFlipped=§l§4在这个井的16个方块内已经有一个朝下的井！
+
