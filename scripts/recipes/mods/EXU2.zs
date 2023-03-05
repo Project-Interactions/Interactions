@@ -90,3 +90,6 @@ recipes.addShaped(<interaction:gp>, [[<contenttweaker:useful_ingot>, <contenttwe
 mods.extrautils2.Crusher.remove(<thermalfoundation:material:69>);
 mods.extrautils2.Crusher.remove(<immersiveengineering:metal:13>);
 mods.extrautils2.Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:ingotIron>, <extrautils2:machine>, <ore:ingotIron>], [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
