@@ -159,7 +159,6 @@ Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
 recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_interface_tier3>,<appliedenergistics2:part:441>]);
 
 //booster_card
-RecipeUtils.recipeTweak(true, <ae2wtlib:infinity_booster_card>, [[<aeadditions:storage.component:12>,null,<aeadditions:storage.component:12>],[null,<aeadditions:storage.component:3>,null],[<aeadditions:storage.component:5>,null,<aeadditions:storage.component:5>]]);
 
 //
 mods.biggercraftingtables.Giant.addShaped(<appliedenergistics2:creative_storage_cell>.withTag({}), [
@@ -176,7 +175,7 @@ mods.biggercraftingtables.Giant.addShaped(<appliedenergistics2:creative_storage_
 
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:1>, [[<ore:dustGlowstone>, <threng:material:6>, <ore:dustGlowstone>], [<aeadditions:storage.component>, <appliedenergistics2:material:22>, <aeadditions:storage.component>], [<ore:dustGlowstone>, <aeadditions:storage.component>, <ore:dustGlowstone>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:5>, [[<ore:dyeBlue>, <threng:material:6>, <ore:dyeBlue>], [<aeadditions:storage.component:4>, <appliedenergistics2:material:22>, <aeadditions:storage.component:4>], [<ore:dyeBlue>, <aeadditions:storage.component:4>, <ore:dyeBlue>]]);
-RecipeUtils.recipeTweak(true,  <aeadditions:storage.component:12>, [[<ore:dyeYellow>, <threng:material:6>, <ore:dyeYellow>], [<aeadditions:storage.component:11>, <appliedenergistics2:material:22>, <aeadditions:storage.component:11>], [<ore:dyeYellow>, <aeadditions:storage.component:11>, <ore:dyeYellow>]]);
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:12>, [[<ore:dyeYellow>, <threng:material:6>, <ore:dyeYellow>], [<aeadditions:storage.component:11>, <appliedenergistics2:material:22>, <aeadditions:storage.component:11>], [<ore:dyeYellow>, <aeadditions:storage.component:11>, <ore:dyeYellow>]]);
 
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:2>, [[<ore:dustGlowstone>, <threng:material:14>, <ore:dustGlowstone>], [<aeadditions:storage.component:1>, <appliedenergistics2:material:22>, <aeadditions:storage.component:1>], [<ore:dustGlowstone>, <aeadditions:storage.component:1>, <ore:dustGlowstone>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:3>, [[<ore:dustGlowstone>, <threng:material:14>, <ore:dustGlowstone>], [<aeadditions:storage.component:2>, <appliedenergistics2:material:22>, <aeadditions:storage.component:2>], [<ore:dustGlowstone>, <aeadditions:storage.component:2>, <ore:dustGlowstone>]]);
@@ -188,3 +187,10 @@ recipes.addShapeless(<aeadditions:fluidfiller>, [<ae2fc:fluid_assembler>, <appli
 <aeadditions:fluidcrafter>.addTooltip("\u5DF2\u5F03\u7528\uFF0C\u8BF7\u6362\u7528AE2FC\u7684Fluid Assembler");
 recipes.remove(<aeadditions:fluidcrafter>);
 recipes.addShapeless(<ae2fc:fluid_assembler>,[<aeadditions:fluidcrafter>]);
+
+//fix magnet card jei
+Inscriber.removeRecipe(<appliedenergistics2:material:60>);
+Inscriber.addRecipe(<appliedenergistics2:material:60>, <appliedenergistics2:material:26>, false, <minecraft:redstone_block>, <minecraft:lapis_block>);
+
+Inscriber.removeRecipe(<appliedenergistics2:material:59>);
+Inscriber.addRecipe(<appliedenergistics2:material:59>, <aeadditions:storage.component:3>, false, <aeadditions:storage.component:5>, <aeadditions:storage.component:12>);
