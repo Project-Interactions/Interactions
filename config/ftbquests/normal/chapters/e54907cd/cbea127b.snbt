@@ -10,5 +10,18 @@
 		items: [{
 			item: "appliedenergistics2:security_station"
 		}]
+	},
+	{
+		uid: "5832af1a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 41"
+		}]
+	}],
+	rewards: [{
+		uid: "2f802ddf",
+		type: "item",
+		item: "appliedenergistics2:material 1 42",
+		count: 4
 	}]
 }

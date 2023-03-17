@@ -4,6 +4,8 @@
 	alternativeNames = []
 	#The byproducts of this material.
 	extras = []
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 	#The module blacklist of this material.
 	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.
@@ -12,6 +14,4 @@
 	modelType = "metallic"
 	#The color of this material.
 	color = 9803157
-	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
 

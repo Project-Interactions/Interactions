@@ -4,6 +4,8 @@
 	alternativeNames = []
 	#The byproducts of this material.
 	extras = []
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 	#The module blacklist of this material.
 	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.
@@ -12,16 +14,14 @@
 	modelType = "metallic"
 	#The color of this material.
 	color = 2238247
-	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
-
-[mekanism]
-	#The default base to use in Mekanism's Combiner to recreate ores.
-	oreBase = "minecraft:cobblestone"
 
 [avaritia]
 	#The base amount of blocks required to create one singularity.
 	inputAmount = 300
 	#Should the singularity be added to the Infinity Catalyst recipe.
 	addToCatalyst = true
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
 

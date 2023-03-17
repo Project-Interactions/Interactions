@@ -99,7 +99,7 @@ Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource>);
 //botania doppleganger not drop fix
 <entity:botania:doppleganger>.addDrop(<botania:manaresource:5>*4);
 
-Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.hop_graphite>],200000,0xCCFFFF,0x99FFFF,<techreborn:machine_frame>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
+Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.h_o_p_graphite>],200000,0xCCFFFF,0x99FFFF,<techreborn:machine_frame>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
 
 //mana_circuit
 RuneAltar.addRecipe(<contenttweaker:mana_circuit>*3, [<ore:ingotPinkMetal>,<contenttweaker:mana_circuit_board>,<moreplates:pig_iron_plate>,<contenttweaker:material_part:150>], 300000);

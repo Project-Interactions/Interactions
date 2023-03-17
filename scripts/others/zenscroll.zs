@@ -54,9 +54,6 @@ ZenScroll.add(<tinkertoolcasts:tank_creative>.withTag({})
 ,<tinkertoolcasts:cast_creative:1>
 ,<tinkertoolcasts:cast_creative>);
 
-ZenScroll.add(<wct:wct_creative>,<wft:wft_creative>,<wit:wit_creative>,<wpt:wpt_creative>);
-recipes.addShapeless(<ae2wtlib:wut_creative>,[<wct:wct_creative>,<wft:wft_creative>,<wit:wit_creative>,<wpt:wpt_creative>]);
-
 
 ZenScroll.add(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}),<immersiveengineering:blueprint>.withTag({blueprint: "vulcanizer_molds"}),<immersiveengineering:blueprint>.withTag({blueprint: "ammo_molds"}));
 ZenScroll.add(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}),<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}),<immersiveengineering:blueprint>.withTag({blueprint: "bullet_magazines"}));

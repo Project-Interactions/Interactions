@@ -15,10 +15,6 @@
 	#The color of this material.
 	color = 6450334
 
-[molten]
-	#The temperature of this molten fluid.
-	temperature = 1000
-
 [mysticalagriculture]
 	#The crop tier of this material.
 	tier = 3

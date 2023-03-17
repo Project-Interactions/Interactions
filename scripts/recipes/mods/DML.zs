@@ -4,6 +4,7 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 recipes.remove(<deepmoblearning:polymer_clay> * 16);
 recipes.removeShapeless(<deepmoblearning:soot_covered_plate> * 8);
+recipes.remove(<deepmoblearningbm:digital_agonizer>);
 
 recipes.addShaped(<deepmoblearning:polymer_clay> * 32, [[null, <tconstruct:soil>, <ore:dustDiamond>],[<tconstruct:soil>, <botania:specialflower>.withTag({type: "clayconia"}).onlyWithTag({type: "clayconia"}), <tconstruct:soil>], [<ore:dustDiamond>, <tconstruct:soil>, null]]);
 recipes.addShaped(<deepmoblearning:soot_covered_plate> * 4, [[<enderio:block_reinforced_obsidian>, <enderio:block_reinforced_obsidian>, null],[<enderio:block_reinforced_obsidian>, <deepmoblearning:soot_covered_redstone>, null], [null, null, null]]);

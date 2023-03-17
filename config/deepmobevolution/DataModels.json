@@ -682,21 +682,23 @@
     "mod": "tconstruct",
     "displayName": "Blue Slime",
     "livingMatter": "overworldian",
-    "simulationRFCost": 256,
+    "simulationRFCost": 1024,
     "craftingIngredients": [
       "botania:dye,1,11"
     ],
     "associatedMobs": [
       "tconstruct:blue_slime",
       "industrialforegoing:pink_slime",
-      "theaurorian:aurorianslime"
+      "theaurorian:aurorianslime",
+      "aether_legacy:swet"
     ],
     "lootItems": [
-      "tconstruct:edible,18,1",
-      "tconstruct:edible,18,2",
-      "tconstruct:edible,18,4",
+      "tconstruct:edible,8,1",
+      "tconstruct:edible,8,2",
+      "tconstruct:edible,8,4",
       "industrialforegoing:pink_slime,8,0",
-      "theaurorian:aurorianslimeball,8,0"
+      "theaurorian:aurorianslimeball,8,0",
+      "aether_legacy:swetty_ball,8,0"
     ],
     "deepLearnerDisplay": {
       "hearts": 10,

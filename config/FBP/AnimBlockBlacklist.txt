@@ -1,0 +1,1 @@
+minecraft:snow_layer

@@ -15,10 +15,6 @@
 	#The color of this material.
 	color = 10915494
 
-[molten]
-	#The temperature of this molten fluid.
-	temperature = 1000
-
 [avaritia]
 	#The base amount of blocks required to create one singularity.
 	inputAmount = 300

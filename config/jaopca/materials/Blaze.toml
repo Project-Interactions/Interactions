@@ -13,7 +13,7 @@
 	#The model type of the material.
 	modelType = "dust"
 	#The color of this material.
-	color = 12945205
+	color = 13666851
 
 [mysticalagriculture]
 	#The crop tier of this material.

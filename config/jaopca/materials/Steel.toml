@@ -4,6 +4,8 @@
 	alternativeNames = []
 	#The byproducts of this material.
 	extras = []
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 	#The module blacklist of this material.
 	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.
@@ -11,9 +13,7 @@
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 7631988
-	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
+	color = 7237230
 
 [avaritia]
 	#The base amount of blocks required to create one singularity.

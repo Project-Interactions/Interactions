@@ -6,8 +6,7 @@
 	shape: "diamond",
 	text: [
 		"本整合包由mczph制作",
-		"500+mods",
-		"将检测器安装在头盔上获得更多信息"
+		"500+mods"
 	],
 	size: 2.0d,
 	tasks: [{
@@ -419,10 +418,5 @@
 				}
 			}
 		}
-	},
-	{
-		uid: "cf5cbcf6",
-		type: "item",
-		item: "theoneprobe:probe"
 	}]
 }

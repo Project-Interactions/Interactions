@@ -4,6 +4,8 @@
 	alternativeNames = []
 	#The byproducts of this material.
 	extras = []
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 	#The module blacklist of this material.
 	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.
@@ -12,16 +14,6 @@
 	modelType = "dust"
 	#The color of this material.
 	color = 13948116
-	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
-
-[enderio]
-	#The default byproduct material to output in Ender IO's sagmill.
-	byproduct = "minecraft:cobblestone"
-
-[mekanism]
-	#The default base to use in Mekanism's Combiner to recreate ores.
-	oreBase = "minecraft:cobblestone"
 
 [mysticalagriculture]
 	#The crop tier of this material.
@@ -31,6 +23,20 @@
 	#The amount of material obtained by crafting Mystical Agriculture essence.
 	outputCount = 6
 
+[avaritia]
+	#The base amount of blocks required to create one singularity.
+	inputAmount = 300
+	#Should the singularity be added to the Infinity Catalyst recipe.
+	addToCatalyst = true
+
+[enderio]
+	#The default byproduct material to output in Ender IO's sagmill.
+	byproduct = "minecraft:cobblestone"
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
+
 [thermalexpansion_mysticalagriculture]
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Phyto-Gro.
 	basicChance = 100
@@ -38,10 +44,4 @@
 	richChance = 105
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
 	fluxChance = 110
-
-[avaritia]
-	#The base amount of blocks required to create one singularity.
-	inputAmount = 300
-	#Should the singularity be added to the Infinity Catalyst recipe.
-	addToCatalyst = true
 

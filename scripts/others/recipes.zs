@@ -11,7 +11,6 @@ recipes.remove(<extrautils2:angelring:2>);
 recipes.remove(<extrautils2:angelring:1>);
 recipes.remove(<extrautils2:angelring>);
 recipes.remove(<harvestcraft:market>);
-recipes.remove(<computercraft:command_computer>);
 recipes.remove(<extrautils2:angelring>);
 //Don't touch me!
 //#Add

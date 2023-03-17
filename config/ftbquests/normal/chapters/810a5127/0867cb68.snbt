@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: [
+		"d0b2feb1"
+	],
+	tasks: [{
+		uid: "02e35323",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_chorus_chunk"
+		}]
+	}]
+}
