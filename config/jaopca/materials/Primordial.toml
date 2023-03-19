@@ -1,4 +1,5 @@
 
+#Configurations for material Primordial.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
