@@ -21,12 +21,5 @@
 		items: [{
 			item: "integrated_proxy:access_proxy"
 		}]
-	},
-	{
-		uid: "94cedb46",
-		type: "item",
-		items: [{
-			item: "integratedrest:http"
-		}]
 	}]
 }

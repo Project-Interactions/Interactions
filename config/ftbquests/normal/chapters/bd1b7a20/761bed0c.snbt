@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	text: [
+		"有电时砍树消耗5s，30RF/t，没电时砍树消耗100s"
+	],
+	dependencies: [
+		"b76bf2b5"
+	],
+	tasks: [{
+		uid: "31c45f5c",
+		type: "item",
+		items: [{
+			item: "engineersdecor:small_tree_cutter"
+		}]
+	}]
+}

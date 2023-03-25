@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"88c586cb"
+	],
+	tasks: [{
+		uid: "d76963e6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 4L
+	}]
+}

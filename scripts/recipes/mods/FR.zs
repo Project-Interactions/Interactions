@@ -23,5 +23,6 @@ RecipeUtils.recipeTweak(true, <forestry:carpenter>, [[<ore:plankTreatedWood>, <o
 RecipeUtils.recipeTweak(true, <forestry:squeezer>, [[<ore:plateElectricalSteel>, <ore:circuitElite>, <ore:plateElectricalSteel>], [<ore:ingotTin>, <forestry:sturdy_machine:*>,<ore:plateElectricalSteel>], [<ore:plateElectricalSteel>, <ore:circuitElite>, <ore:plateElectricalSteel>]]);
 RecipeUtils.recipeTweak(true, <forestry:fabricator>, [[<ore:plateEnergeticAlloy>, <ore:blockGlass>, <ore:plateEnergeticAlloy>], [<ore:blockGlass>, <forestry:sturdy_machine:*>, <ore:blockGlass>], [<ore:circuitElite>, <ore:chestWood>,<ore:circuitElite>]]);
 
+recipes.addShaped(<forestry:arboretum>, [[<tconstruct:firewood:1>, <ore:circuitAdvanced>, <tconstruct:firewood:1>],[<ore:circuitAdvanced>, <techreborn:machine_frame>, <ore:circuitAdvanced>], [<tconstruct:firewood:1>, <ore:circuitAdvanced>, <tconstruct:firewood:1>]]);
 
 

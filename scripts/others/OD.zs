@@ -128,3 +128,4 @@
 
 <ore:circuitNuclear>.add(<advancedrocketry:itemcircuitplate>);
 <ore:circuitUniversal>.add(<advancedrocketry:itemcircuitplate:1>);
+

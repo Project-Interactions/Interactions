@@ -54,6 +54,12 @@ recipes.addShaped(<advancedrocketry:blastbrick> * 4, [[<bloodmagic:decorative_br
 
 RecipeUtils.recipeTweak(true, <advancedrocketry:precisionassemblingmachine>, [[<minecraft:repeater>, <advancedrocketry:misc>, <minecraft:diamond>], [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<ore:gearTitaniumAluminide>, <ore:gearSteel>, <ore:gearTitaniumIridium>]]);
 
+
+recipes.remove(<advancedrocketry:launchpad>);
+recipes.addShapeless(<advancedrocketry:launchpad>,[<ore:concrete>,<wirelessutils:launch_module>]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:guidancecomputer>, [[<advancedrocketry:ic>, <ore:plateTitanium>, <advancedrocketry:ic>], [<ore:dustRedstone>, <libvulpes:structuremachine>, <ore:dustRedstone>], [<advancedrocketry:ic:1>, <ore:dustRedstone>, <advancedrocketry:ic:1>]]);
+
 ARTweaker.forMachine("ElectricArcFurnace").removeAll();
 ARTweaker.forMachine("ElectricArcFurnace")
 .builder()
@@ -108,17 +114,15 @@ ARTweaker.forMachine("PrecisionAssembler")
 
 //这里写一下那三种电路板的便宜方法
 
-/*
-Supported Machines: (used for forMachine method parameter)
-Centrifuge
-ChemicalReactor
-Crystallizer
-CuttingMachine
-ElectricArcFurnace
-Electrolyser
-Lathe
-PrecisionAssembler
-PrecisionLaserEtcher
-RollingMachine
-SmallPlatePresser
-*/
+ARTweaker.forMachine("CuttingMachine")
+.remover()
+.addOutputs(<advancedrocketry:ic:2>*4)
+.remove();
+
+ARTweaker.forMachine("CuttingMachine")
+.builder()
+.inputs(<advancedrocketry:itemcircuitplate:1>)
+.outputs(<advancedrocketry:ic:2>*2)
+.power(200)
+.timeRequired(300)
+.build();

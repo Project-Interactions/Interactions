@@ -9,6 +9,8 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.AlloyFurnace;
+import mods.nuclearcraft.SaltMixer;
+
 
 
 addRegexLogFilter("At least one NuclearCraft recipe removal method has errored. Check the log for more details");
@@ -149,7 +151,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>,
 	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})]
 ]);
 
-
+SaltMixer.addRecipe(<liquid:rocket_fuel>*1000, <liquid:rocketfuel>*1000, <liquid:mix_rocket_fuel>*1000);
 
 
 

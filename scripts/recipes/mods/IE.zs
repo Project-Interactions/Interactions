@@ -18,6 +18,8 @@ import mods.immersivetweaker.Recycling;
 import mods.immersiveintelligence.ChemicalBath;
 import mods.immersiveintelligence.PrecissionAssembler;
 
+import mods.immersivepetroleum.Distillation;
+
 import mods.immersivetechnology.CoolingTower;
 import mods.immersivetechnology.SteamTurbine;
 import mods.immersivetechnology.GasTurbine;
@@ -32,7 +34,10 @@ import mods.immersivetechnology.PressurizedFluid;
 //
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
+
 BlastFurnace.addRecipe(<techreborn:ingot:19>, <minecraft:iron_ingot>, 100,<immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<techreborn:storage2:10>, <minecraft:iron_block>, 900,<immersiveengineering:material:7>);
+
 BlastFurnace.addRecipe(<thermalfoundation:material:132>, <thermalfoundation:material:68>, 140,<immersiveengineering:material:7>);
 BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
@@ -58,6 +63,7 @@ recipes.remove(<immersiveengineering:material:2> * 4);
 recipes.addShapeless(<tconstruct:throwball:1> * 2, [<minecraft:redstone>,<ore:gunpowder>,<minecraft:redstone>,<ore:gunpowder>,<ore:compressed1xGravel>,<ore:gunpowder>,<minecraft:redstone>,<ore:gunpowder>,<minecraft:redstone>]);
 
 BlastFurnace.addRecipe(<thermalfoundation:material:160>, <enderio:item_alloy_endergy_ingot>, 160,<immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<thermalfoundation:storage_alloy>, <enderio:block_alloy_endergy>, 1440,<immersiveengineering:material:7>);
 
 ArcFurnace.removeRecipe(<qmd:ingot:8>);
 ArcFurnace.removeRecipe(<qmd:ingot:3>);
@@ -180,7 +186,7 @@ MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengine
 ChemicalBath.addRecipe(<contenttweaker:material_part:108>*2, <thermalfoundation:material:70>, <fluid:aqua_regia>*1000, 20000, 200);
 Refinery.addRecipe(<liquid:aqua_regia>*8, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 2048);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.8]);
+Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.8]);
 
 //fix
 PrecissionAssembler.removeRecipe(<immersiveintelligence:material>*2);
@@ -236,11 +242,9 @@ Crusher.removeRecipesForInput(<embers:ore_nickel>);
 
 Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 2048);
 
+Crusher.addRecipe(<thermalfoundation:material:768>*9, <minecraft:coal_block>, 1000);
 
-//steel rework
-ArcFurnace.removeRecipe(<thermalfoundation:material:160>);
 ArcFurnace.addRecipe(<techreborn:ingot:19>*2, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 1024,[<ore:ingotIron>], "Alloying");
-ArcFurnace.addRecipe(<thermalfoundation:material:160>, <techreborn:ingot:19>, <immersiveengineering:material:7>, 160, 1024,[<ore:dustCoke>], "Alloying");
 
 RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveengineering:metal_decoration1>, <immersiveengineering:connector>, <immersiveengineering:metal_decoration1>], [<ore:circuitGood>, <immersiveengineering:wooden_decoration:1>, <ore:circuitGood>], [null, <immersiveengineering:metal_device1:7>, null]]);
 
@@ -249,3 +253,7 @@ ChemicalBath.addRecipe(<botania:quartz:3>*2, <contenttweaker:mana_circuit_board>
 ChemicalBath.addRecipe(<contenttweaker:mana_circuit_board>, <contenttweaker:starlight_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000, 32000, 80);
 
 ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:itemcraftingcomponent>, <immersiveengineering:material:7>, 60, 1024,[<integrateddynamics:crystalized_menril_chunk>], "Alloying");
+
+RecipeUtils.recipeTweak(true,<engineersdecor:small_tree_cutter>, [[<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>], [<ore:gearSteel>, <minecraft:iron_axe>, <minecraft:observer>], [<immersiveengineering:material:9>, <minecraft:redstone_block>, <immersiveengineering:material:9>]]);
+
+

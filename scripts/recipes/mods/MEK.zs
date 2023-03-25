@@ -203,3 +203,5 @@ recipes.addShaped(<mekanism:energycube>, [[<moreplates:redstone_alloy_plate>, <t
 
 //ar
 infuser.addRecipe("DIAMONDHARD", 20, <contenttweaker:material_part:70>*2, <libvulpes:structuremachine>);
+
+recipes.removeByMod("mekanismtools");
