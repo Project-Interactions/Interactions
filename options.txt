@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -88,9 +88,9 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
-key_Reload Menu | CTRL + ALT + :19
-key_Toggle Customization Overlay | CTRL + ALT + :0
 key_key.groovyscript.reload:19:CONTROL
+key_Reload Menu | CTRL + ALT + :19
+key_Toggle Customization Overlay | CTRL + ALT + :52
 key_keybind.baublesinventory:48
 key_psimisc.keybind:0
 key_rpsideas.kb.offhandcast:0
@@ -124,11 +124,6 @@ key_key.togglePotionParticles:66:CONTROL
 key_cos.key.opencosarmorinventory:0
 key_key.custommodel.selectmodel:50:CONTROL
 key_key.findme.search:21
-key_Open Menu:210:ALT
-key_Toggle Freeze Effect:0
-key_Enable/Disable:0
-key_Kill Particles:0
-key_Blacklist Block:48
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
@@ -276,10 +271,10 @@ key_key.plustic_brown_magic.desc:24
 key_key.plustic_toggle_tool.desc:51:ALT
 key_key.plustic_fruit_salad.desc:12:ALT
 key_key.plustic_mots.desc:13:ALT
-key_key.musictriggers.gui:19
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
+key_key.otghud.desc:24
 key_pi.key.open_pi:23
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
