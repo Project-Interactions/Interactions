@@ -189,11 +189,11 @@ Refinery.addRecipe(<liquid:aqua_regia>*8, <liquid:nitric_acid>*4, <liquid:sulfur
 Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.8]);
 
 //fix
-PrecissionAssembler.removeRecipe(<immersiveintelligence:material>*2);
+PrecissionAssembler.removeRecipesForOutput(<immersiveintelligence:material>*2);
 PrecissionAssembler.addRecipe(<immersiveintelligence:material>*2,null,[<ore:plateSteel>*4,<immersiveengineering:material:26>*2,<ore:wireAdvancedElectronicAlloy>], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
 
 //balance
-PrecissionAssembler.removeRecipe(<immersiveintelligence:material:9>);
+PrecissionAssembler.removeRecipesForOutput(<immersiveintelligence:material:9>);
 PrecissionAssembler.addRecipe(<immersiveintelligence:material:9>*2,null,[<immersiveintelligence:material>*2,<immersiveintelligence:material:8>*8], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
 
 //imm slab add oredictionary

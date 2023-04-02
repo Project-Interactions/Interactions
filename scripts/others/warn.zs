@@ -17,7 +17,6 @@ import mods.zenutils.I18n;
 var mod as string[]=[
     "slashblade",
     "slashbladetic",
-    "exbot",
     "upsizer",
     "utimatestack",
     "utimatestackplugin",

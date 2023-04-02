@@ -218,4 +218,3 @@ recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
 recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
 */
 
-Casting.removeTableRecipe(<moretcon:rawsteel>);
