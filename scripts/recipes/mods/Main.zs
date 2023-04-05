@@ -1,5 +1,4 @@
-
-//科技线修复
+//Main
 furnace.remove(<nuclearcraft:ingot:12>);
 furnace.remove(<immersiveintelligence:material_ingot:2>);
 recipes.remove(<enderio:item_material:10>);

@@ -188,12 +188,8 @@ Refinery.addRecipe(<liquid:aqua_regia>*8, <liquid:nitric_acid>*4, <liquid:sulfur
 
 Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.8]);
 
-//fix
-PrecissionAssembler.removeRecipesForOutput(<immersiveintelligence:material>*2);
-PrecissionAssembler.addRecipe(<immersiveintelligence:material>*2,null,[<ore:plateSteel>*4,<immersiveengineering:material:26>*2,<ore:wireAdvancedElectronicAlloy>], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
-
 //balance
-PrecissionAssembler.removeRecipesForOutput(<immersiveintelligence:material:9>);
+//PrecissionAssembler.removeRecipesForOutput(<immersiveintelligence:material:9>);
 PrecissionAssembler.addRecipe(<immersiveintelligence:material:9>*2,null,[<immersiveintelligence:material>*2,<immersiveintelligence:material:8>*8], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
 
 //imm slab add oredictionary
@@ -251,6 +247,7 @@ RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveenginee
 MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 1024, 20);
 ChemicalBath.addRecipe(<botania:quartz:3>*2, <contenttweaker:mana_circuit_board>,<liquid:molten_elfglass>*1000, 16000, 80);
 ChemicalBath.addRecipe(<contenttweaker:mana_circuit_board>, <contenttweaker:starlight_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000, 32000, 80);
+ChemicalBath.removeRecipe(<immersiveintelligence:material_dust:7>);
 
 ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:itemcraftingcomponent>, <immersiveengineering:material:7>, 60, 1024,[<integrateddynamics:crystalized_menril_chunk>], "Alloying");
 

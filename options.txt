@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:8
+renderDistance:2
 guiScale:4
 particles:2
 bobView:true
@@ -152,7 +152,6 @@ key_key.enableView:56
 key_key.openShulker:49
 key_key.toggleView:47
 key_Staff of Travel Teleport:34
-key_key.toastcontrol.clear:36
 key_zenscroll.options.modifier_key:56
 key_nimble.keybind.frontView:62
 key_key.dismount:42
@@ -310,13 +309,15 @@ key_key.immersiveintelligence.manualReload:19
 key_key.immersiveintelligence.mgScope:44
 key_key.immersiveintelligence.motorbikeEngine:19
 key_key.immersiveintelligence.motorbikeTowing:44
+key_key.immersiveintelligence.armorHelmet:47
+key_key.immersiveintelligence.armorExosuit:34
 key_开关喷气背包:45
 key_打开火箭界面:0
-key_切换 RCS:19
-key_向右旋转载具:32
-key_向左旋转载具:30
-key_向上移动载具:44
-key_向下移动载具:45
+key_Toggle RCS:19
+key_Rotate Vehicle Right:32
+key_Rotate Vehicle Left:30
+key_Move Vehicle Up:44
+key_Move Vehicle Down:45
 key_key.sort_config:37
 key_key.sort:-98
 key_key.control:29

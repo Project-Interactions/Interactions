@@ -85,19 +85,19 @@ vanilla.seeds.addSeed(<minecraft:potato>.weight(0.06));
 
 recipes.remove(<minecraft:piston>);
 
-/*
+
 mods.extendedcrafting.TableCrafting.addShaped(4, <minecraft:command_block>, [
 	[<ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>], 
 	[<ore:ingotCommand>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
-	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
-	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
-	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <qmd:accelerator_computer_port>, <techreborn:computer_cube>, <qmd:accelerator_computer_port>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
-	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
-	[<ore:ingotCommand>, <mekanism:cardboardbox>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <computercraft:computer:16384>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <opencomputers:component:17>, <opencomputers:component:17>, <opencomputers:component:17>, <opencomputers:component:17>, <opencomputers:component:17>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <opencomputers:component:17>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <opencomputers:component:17>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <opencomputers:component:17>, <qmd:accelerator_computer_port>, <techreborn:computer_cube>, <qmd:accelerator_computer_port>, <opencomputers:component:17>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <opencomputers:component:17>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <qmd:accelerator_computer_port>, <opencomputers:component:17>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
+	[<ore:ingotCommand>, <mekanism:cardboardbox>, <opencomputers:component:17>, <opencomputers:component:17>, <opencomputers:component:17>, <opencomputers:component:17>, <opencomputers:component:17>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
 	[<ore:ingotCommand>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <mekanism:cardboardbox>, <ore:ingotCommand>], 
 	[<ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>]
 ]);
-*/
+
 recipes.addShapeless(<minecraft:command_block_minecart>,[<minecraft:command_block>,<minecraft:minecart>]);
 recipes.addShapeless(<minecraft:chain_command_block>, [<minecraft:command_block>,<integrateddynamics:part_connector_omni_directional_item>]);
 recipes.addShapeless(<minecraft:repeating_command_block>, [<minecraft:command_block>,<thermalexpansion:machine:11>]);

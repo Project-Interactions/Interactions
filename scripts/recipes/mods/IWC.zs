@@ -34,6 +34,8 @@ FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesau
 FluidToItem.transform(<thaumcraft:sapling_silverwood>, <liquid:astralsorcery.liquidstarlight>, [<ore:ingotSilver>*64], true);
 FluidToItem.transform(<thaumcraft:sapling_greatwood>, <liquid:astralsorcery.liquidstarlight>, [<ore:ingotElectrum>*64], true);
 
+FluidToItem.transform(<immersiveintelligence:material_dust:7>*32, <liquid:distwater>, [<immersiveintelligence:material_dust:8>*32], true);
+
 //boom
 explosioncrafting.addRecipe(<avaritia:neutronium_compressor>,<extendedcrafting:compressor>,50);
 explosioncrafting.addRecipe(<techreborn:part:44>,<techreborn:rubber_sapling> ,0);

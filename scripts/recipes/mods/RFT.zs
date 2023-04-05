@@ -34,5 +34,5 @@ condenser.addRecipe(<liquid:dimensionalshard>*1000, <darkutils:material:1>,<rfto
 
 //contoller
 recipes.remove(<xnet:netcable>*16);
-//recipes.addShaped(<xnet:netcable>*4,[[<computercraft:cable>,<computercraft:cable>,<computercraft:cable>],[<computercraft:cable>,<enderio:item_item_conduit>,<computercraft:cable>],[<computercraft:cable>,<computercraft:cable>,<computercraft:cable>]]);
+recipes.addShaped(<xnet:netcable>*4,[[<opencomputers:material:8>,<opencomputers:material:8>,<opencomputers:material:8>],[<opencomputers:material:8>,<enderio:item_item_conduit>,<opencomputers:material:8>],[<opencomputers:material:8>,<opencomputers:material:8>,<opencomputers:material:8>]]);
 RecipeUtils.recipeTweak(true, <xnet:controller>, [[<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>], [<xnet:netcable>, <xnet:netcable>, <xnet:netcable>], [<minecraft:iron_ingot>, <minecraft:gold_ingot>, <minecraft:iron_ingot>]]);
