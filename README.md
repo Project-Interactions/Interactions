@@ -12,9 +12,7 @@ An 500 mods minecraft modpack
 
 Extensive use of fork mods, more features, more mods' addons
 
-Join our QQ group for more 961054098 and 857875538 (for Chinese)
-
-Discord is in WIP
+[![Discord](https://discordapp.com/api/guilds/901640783331991593/widget.png?style=banner3)](https://discord.gg/mbDZjecH2N)
 # Interactions
 
 500+模组的Minecraft整合包
