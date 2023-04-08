@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "location": "interaction:mana_zoom",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 50,
+        "y": 66,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 99,
+        "y": 67,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "botania:alchemycatalyst",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "mana_zoom",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "  AAA ",
+        "      ",
+        "      ",
+        "      "
+      ],
+      [
+        " ABCBC",
+        "  AAA ",
+        "  AA  ",
+        "      "
+      ],
+      [
+        "AB    ",
+        " A    ",
+        " A    ",
+        "  AA  "
+      ],
+      [
+        "AC  @ ",
+        " A  D ",
+        " A    ",
+        "  A   "
+      ],
+      [
+        "AB    ",
+        " A    ",
+        " A    ",
+        "  AA  "
+      ],
+      [
+        " ABCBC",
+        "  AAA ",
+        "  AA  ",
+        "      "
+      ],
+      [
+        "  AAA ",
+        "      ",
+        "      ",
+        "      "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:bifrostperm",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "1": {
+        "capability": "bot_mana",
+        "type": "capability"
+      },
+      "controller": {
+        "location": "interaction:mana_zoom",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "botania:livingwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:livingwood",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "1"
+      ]
+    }
+  }
+}

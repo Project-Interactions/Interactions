@@ -13,14 +13,19 @@ recipes.addShaped(<multiblocked:entity>, [[<integrateddynamics:part_entity_write
 recipes.addShaped(<interaction:lp>, [[<bloodmagic:decorative_brick>, <bloodarsenal:base_item:4>, <bloodmagic:decorative_brick>],[<bloodarsenal:base_item:4>, <bloodmagic:blood_tank:3>, <bloodarsenal:base_item:4>], [<bloodmagic:decorative_brick>, <bloodarsenal:base_item:4>, <bloodmagic:decorative_brick>]]);
 recipes.addShaped(<interaction:orechid>, [[<botanicadds:rune_tp>, <ore:ingotFluixSteel>, <botanicadds:rune_energy>],[<ore:ingotFluixSteel>, <thaumicwonders:coalescence_matrix_precursor>, <ore:ingotFluixSteel>], [<botanicadds:rune_energy>, <ore:ingotFluixSteel>, <botanicadds:rune_tp>]]);
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:wood_essence>, [
-	[<calculator:tanzanitelog>, <botanicadds:elvenwood_log>, <minecraft:log2:1>, <minecraft:log2>, <minecraft:log:3>, <minecraft:log:2>, <minecraft:log:1>, <minecraft:log>, <calculator:amethystlog>],
-	[<forestry:logs.3:2>, <forestry:logs.3:3>, <forestry:logs.4>, <forestry:logs.4:2>, <forestry:logs.4:3>, <integrateddynamics:menril_log>, <thaumicbases:netherlogs>, <extrautils2:decorativesolidwood:1>, <twilightforest:twilight_log:3>],
-	[<forestry:logs.3>, <forestry:logs.2:3>, <bloodarsenal:blood_infused_wooden_log>, <thaumicbases:goldenlogs>,<thaumicbases:enderlogs>, <tconstruct:firewood:1>, <twilightforest:twilight_log:2>, <forestry:logs.2>, <natura:overworld_logs2:1>],
-	[<twilightforest:magic_log:3>, <forestry:logs.3:1>, <twilightforest:magic_log:1>, <lightningcraft:wood_log>, <forestry:logs.5:3>, <twilightforest:twilight_log:1>, <forestry:logs.6:3>, <forestry:logs.5:1>, <forestry:logs.0>],
-	[<tconstruct:firewood>, <forestry:logs.1:1>, <forestry:logs.7>, <aether_legacy:aether_log>, <ore:ingotUltimate>, <harvestcraft:pamcinnamon>, <thaumcraft:log_greatwood>, <forestry:logs.2:1>, <forestry:logs.4:1>],
-	[<naturesaura:ancient_bark>, <natura:overworld_logs2:2>, <twilightforest:twilight_log>, <natura:nether_logs2>, <natura:redwood_logs:1>, <forestry:logs.6:1>, <harvestcraft:pampaperbark>, <natura:overworld_logs:3>, <natura:nether_logs>],
-	[<natura:overworld_logs2:3>, <forestry:logs.2:2>, <natura:overworld_logs2>, <natura:overworld_logs:2>, <forestry:logs.0:3>, <forestry:logs.1>, <natura:nether_logs:2>, <twilightforest:magic_log:2>, <aether_legacy:aether_log:1>],
-	[<theaurorian:silentwoodlog>, <botania:dreamwood>, <techreborn:rubber_log>, <calculator:pearlog>, <natura:nether_logs:1>, <harvestcraft:pammaple>, <thaumcraft:log_silverwood>, <forestry:logs.0:1>, <forestry:logs.0:2>],
-	[<forestry:logs.6:2>, <botania:livingwood>, <naturesaura:ancient_log>, <natura:overworld_logs:1>,<thaumcraft:taint_log>, <theaurorian:weepingwillowlog>, <forestry:logs.5:2>, <forestry:logs.5>, <calculator:diamondlog>]
-]);
+//addon by Revo
+recipes.addShaped(<interaction:mirion_cloche>, [[null, <plustic:mirionnugget>, null],[<plustic:mirionnugget>, <botania:livingwood:5>, <plustic:mirionnugget>], [null, <plustic:mirionnugget>, null]]);
+recipes.addShapeless(<interaction:hand_of_oney>, [<botania:livingwood:5>,<botania:dye>]);
+recipes.addShapeless(<interaction:naturia>, [<tconstruct:metal:6>,<naturesaura:gold_powder>]);
+recipes.addShaped(<interaction:wind_hole>, [[null, null, null],[null, <immersiveengineering:metal_device1:2>, null], [null, null, null]]);
+recipes.addShaped(<interaction:energy_warpper>, [[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>],[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
+recipes.addShaped(<interaction:nature_destroyer>, [[null, null, null],[null, <auraddons:block_aura_transporter>, null], [null, null, null]]);
+recipes.addShaped(<interaction:washer>, [[<ceramics:unfired_clay:5>, <minecraft:glass>, <ceramics:unfired_clay:5>],[<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <ceramics:clay_bucket>, <ceramics:unfired_clay:5>]]);
+recipes.addShaped(<interaction:mana_zoom>, [[null, <minecraft:glowstone_dust>, null],[<minecraft:glowstone_dust>, <botania:alchemycatalyst>, <minecraft:glowstone_dust>], [null, <minecraft:glowstone_dust>, null]]);
+recipes.addShaped(<interaction:hydraulichine>, [[<immersiveintelligence:metal_decoration:1>, <minecraft:piston>, null],[null, null, null], [null, null, null]]);
+recipes.addShapeless(<interaction:hell_forge>, [<minecraft:furnace>,<minecraft:blaze_powder>]);
+recipes.addShapeless(<interaction:fake_philostone>, [<techreborn:storage2:3>,<thermalfoundation:material:1024>,<thermalfoundation:material:1024>]);
+recipes.addShaped(<interaction:hall_element>, [[<immersiveintelligence:metal_decoration:1>, <mekanism:salt>, null],[null, null, null], [null, null, null]]);
+recipes.addShapeless(<interaction:typewriter>, [<minecraft:writable_book>,<minecraft:enchanting_table>]);
+recipes.addShaped(<interaction:elemtia_flask>, [[null, null, null],[null, <botania:conjurationcatalyst>, null], [null, null, null]]);
+recipes.addShapeless(<interaction:lava_generator>, [<immersiveintelligence:metal_decoration:1>,<minecraft:blaze_powder>]);

@@ -1,0 +1,75 @@
+{
+  "name": "lava_generator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "6c7ef855-de46-4209-93f9-92039f175970",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:magma\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1024
+          }
+        ]
+      }
+    },
+    {
+      "uid": "433eb8a3-2eec-451b-a3a4-b57ea2858e86",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:rune\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:rune\",Count:1,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:magma\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2048
+          }
+        ]
+      }
+    }
+  ]
+}

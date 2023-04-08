@@ -1,0 +1,84 @@
+{
+  "name": "cloud_forge",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "032944a1-d700-484c-8ece-0b4288192c0e",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "aercloud"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"aether_legacy:golden_amber\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.06,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"aether_legacy:victory_medal\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 8192
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1439bb2d-de75-48f7-bd1c-3679e0f542da",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "aercloud"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"aether_legacy:golden_amber\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 4096
+          }
+        ]
+      }
+    }
+  ]
+}

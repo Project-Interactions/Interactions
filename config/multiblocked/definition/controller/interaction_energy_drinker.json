@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "location": "interaction:energy_drinker",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 77,
+        "y": 76,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "botania:livingwood",
+          "meta": 5
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "botania:alfheimportal",
+          "meta": 1
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:block.water.ambient",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "energy_drinker",
+  "catalyst": "{id:\"immersiveengineering:tool\",Count:1,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "A@A",
+        "BBB",
+        " B ",
+        " C "
+      ],
+      [
+        "DED",
+        "B B",
+        "B B",
+        "CFC"
+      ],
+      [
+        "AGA",
+        "BBB",
+        " B ",
+        " C "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:livingwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "1": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "controller": {
+        "location": "interaction:energy_drinker",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "aether_legacy:quicksoil_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "2": {
+        "capability": "forge_energy",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:quartztypemana",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "3": {
+        "states": [
+          {
+            "id": "botania:livingwood",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "botania:livingwood",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller",
+        "3"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "2"
+      ],
+      "G": [
+        "1"
+      ]
+    }
+  }
+}

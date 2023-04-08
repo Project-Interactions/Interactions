@@ -1,0 +1,360 @@
+{
+  "name": "energy_warpper",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "5c22f91e-0566-49f7-8f02-3e680ab6a451",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 50000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4f847e63-bfa7-4391-9555-87c088a29fbf",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 20000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fa71bcd1-4d88-4b16-809f-0ea50ea567ec",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_eye\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 40000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "33bc30e6-5363-41ce-8e78-a53670f57fa5",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"wirelessutils:quenched_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 120000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bdd1952e-dec2-4b63-bbfe-1f53ada9cd79",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 30000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "78d7bca1-d739-41d2-84ac-642ea61896df",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"darkutils:material\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 50000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1a0991c6-bbd2-4a15-9a9c-b3cf2fcd3ac2",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"wirelessutils:charged_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e2293047-5b4c-4f6a-ac24-a8ad7ce519c1",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:endest_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "14b8712d-d565-4fc2-bea2-14622a86d8fb",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"rftools:infused_enderpearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 80000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1341f96e-5d1c-4471-b0be-60a8c1625fd5",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"wirelessutils:fluxed_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 50000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "908a6b68-de87-484a-9fa5-f31c555181e8",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"wirelessutils:scorched_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 120000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0d07a3a6-53cb-4fed-af0f-5254f4f71ced",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:1,Damage:9s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      }
+    }
+  ],
+  "fuelRecipes": [
+    {
+      "uid": "270c2c67-2364-4df9-aac6-e66468c0a73a",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"waystones:warp_stone\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2157bf88-2e3c-43c7-ada2-3ec2e2fdd836",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botanicadds:rune_tp\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b4767391-e7aa-4144-afe5-953bc15a2235",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:lens\",Count:1,Damage:18s,tag:{}}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

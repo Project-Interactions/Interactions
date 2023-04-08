@@ -1,0 +1,179 @@
+{
+  "version": 2,
+  "location": "interaction:refrigerator",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "aether_legacy:freezer",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "refrigerator",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAAA",
+        "B@CD",
+        " CC ",
+        "    "
+      ],
+      [
+        "AEEA",
+        "C  C",
+        "C  C",
+        " CC "
+      ],
+      [
+        "AEEA",
+        "CFFC",
+        "CGGC",
+        " CC "
+      ],
+      [
+        "AAAA",
+        " CC ",
+        " CC ",
+        "    "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "contenttweaker:aether_log_fix",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "1": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "controller": {
+        "location": "interaction:refrigerator",
+        "type": "component"
+      },
+      "2": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "thermalfoundation:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "aether_legacy:icestone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "minecraft:packed_ice",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "2"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "1"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

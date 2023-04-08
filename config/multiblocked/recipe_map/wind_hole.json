@@ -1,0 +1,109 @@
+{
+  "name": "wind_hole",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "945526f0-97a4-41db-bfe4-27e99e20da2e",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:wooden_device1\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"jaopca:gear.valkyrie\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 300
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d5fc61be-6efc-41c1-a690-584b2024bbbe",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:wooden_device1\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:rune\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"jaopca:gear.valkyrie\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 600
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1920fa4a-a6bf-48e7-88ed-602711767d47",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:wooden_device1\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100
+          }
+        ]
+      }
+    }
+  ]
+}

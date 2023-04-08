@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -157,8 +157,6 @@ key_nimble.keybind.frontView:62
 key_key.dismount:42
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
-key_key.quit.fastQuit:16
-key_key.quit.bossKey:48
 key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -196,6 +194,7 @@ key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_key.aether.accessory_menu:23
+key_key.aquaacrobatics.toggle_crawling:0
 key_astraladditions.key.ring_toggle:82
 key_key.infinity_armor.noclip:40
 key_key.bettersigns.nosigntext:56
@@ -208,7 +207,6 @@ key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
 key_key.carry.desc:42
-key_Options Gui:23
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0
@@ -265,12 +263,16 @@ key_key.plustic_brown_magic.desc:24
 key_key.plustic_toggle_tool.desc:51:ALT
 key_key.plustic_fruit_salad.desc:12:ALT
 key_key.plustic_mots.desc:13:ALT
+key_key.musictriggers.gui:19
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
+key_key.neenergistics.crafting.helper.noPreview:56
 key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:23
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
+key_key.quit.fastQuit:16
+key_key.quit.bossKey:48
 key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
@@ -313,11 +315,11 @@ key_key.immersiveintelligence.armorHelmet:47
 key_key.immersiveintelligence.armorExosuit:34
 key_开关喷气背包:45
 key_打开火箭界面:0
-key_Toggle RCS:19
-key_Rotate Vehicle Right:32
-key_Rotate Vehicle Left:30
-key_Move Vehicle Up:44
-key_Move Vehicle Down:45
+key_切换 RCS:19
+key_向右旋转载具:32
+key_向左旋转载具:30
+key_向上移动载具:44
+key_向下移动载具:45
 key_key.sort_config:37
 key_key.sort:-98
 key_key.control:29

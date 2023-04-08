@@ -14,6 +14,19 @@ vaccum_freezer.name=真空冷冻机
 molecular_recombination.name=分子重组仪
 orechid.name=机械凝矿兰
 gaia.name=盖亚凝聚板
+cloud_forge.name=天境炼云仪
+elemtia_flask.name=源底烧瓶
+energy_drinker.name=饮料发电机
+energy_warpper.name=跃迁发电机
+fake_philostone.name=赝品贤者之石
+lava_generator.name=炙热发电机
+mana_zoom.name=聚魔透镜
+nature_destroyer.name=自然沉积机组
+naturia.name=自然的宠幸
+refrigerator.name=冷凝锅炉
+typewriter.name=魔力打字机
+washer.name=陶瓷浸洗瓮
+wind_hole.name=风洞发电舱
 
 #tile
 tile.interaction.magnetizer.name=磁化机
@@ -31,6 +44,19 @@ tile.interaction.vaccum_freezer.name=真空冷冻机
 tile.interaction.molecular_recombination.name=分子重组仪
 tile.interaction.orechid.name=机械凝矿兰
 tile.interaction.gaia.name=盖亚凝聚板
+tile.interaction.cloud_forge.name=天境炼云仪
+tile.interaction.elemtia_flask.name=源底烧瓶
+tile.interaction.energy_drinker.name=饮料发电机
+tile.interaction.energy_warpper.name=跃迁发电机
+tile.interaction.fake_philostone.name=赝品贤者之石
+tile.interaction.lava_generator.name=炙热发电机
+tile.interaction.mana_zoom.name=聚魔透镜
+tile.interaction.nature_destroyer.name=自然沉积机组
+tile.interaction.naturia.name=自然的宠幸
+tile.interaction.refrigerator.name=冷凝锅炉
+tile.interaction.typewriter.name=魔力打字机
+tile.interaction.washer.name=陶瓷浸洗瓮
+tile.interaction.wind_hole.name=风洞发电舱
 
 #recipe map
 multiblocked.recipe_map.uu=UU生成
@@ -48,6 +74,19 @@ multiblocked.recipe_map.chemical_reactor=化学反应
 multiblocked.recipe_map.arcane=辉耀装配
 multiblocked.recipe_map.orechid=机械凝矿兰
 multiblocked.recipe_map.gaia=盖亚凝聚
+multiblocked.recipe_map.nature_destoryer=沉积自然
+multiblocked.recipe_map.naturia=大自然的馈赠
+multiblocked.recipe_map.wine_hole=风压发电
+multiblocked.recipe_map.washer=浸洗
+multiblocked.recipe_map.elemtia_flask=精灵蒸馏
+multiblocked.recipe_map.cloud_forge=境云炼制
+multiblocked.recipe_map.refrigerator=冷凝
+multiblocked.recipe_map.fake_philostone=炼金转化
+multiblocked.recipe_map.mana_zoom=日耀聚焦
+multiblocked.recipe_map.energy_drinker=饮料发电
+multiblocked.recipe_map.typewriter=印刷魔力
+multiblocked.recipe_map.energy_warpper=跃迁发电
+multiblocked.recipe_map.lava_generator=炙热发电
 
 #part
 tile.interaction.starlight.name=星能接口

@@ -1,0 +1,211 @@
+{
+  "name": "日耀聚焦",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "4bde235a-c22d-4931-9d92-c1690c3a1cf4",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:lens\",Count:1,Damage:17s,tag:{}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"solarflux:photovoltaic_cell_2\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 14
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5dce4e21-dc04-4c7c-9107-67e8c4af4bce",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:lens\",Count:1,Damage:17s,tag:{}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"solarflux:photovoltaic_cell_1\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 12
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c1c67a1e-8f80-4e5e-bae5-313196088833",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:lens\",Count:1,Damage:17s,tag:{}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"solarflux:photovoltaic_cell_3\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 16
+          }
+        ]
+      }
+    },
+    {
+      "uid": "73dd622e-ec8d-4ef5-aa66-265e6afe2f30",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:lens\",Count:1,Damage:17s,tag:{}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"solarflux:photovoltaic_cell_5\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 18
+          }
+        ]
+      }
+    },
+    {
+      "uid": "495fa8b9-042e-4e2e-ad0c-23da20a06438",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:lens\",Count:1,Damage:17s,tag:{}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:rune\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 8
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5c97ec77-448a-4ea2-8fcb-847337602efe",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:lens\",Count:1,Damage:17s,tag:{}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"solarflux:photovoltaic_cell_6\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 20
+          }
+        ]
+      }
+    }
+  ]
+}

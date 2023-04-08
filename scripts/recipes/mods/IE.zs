@@ -186,7 +186,8 @@ MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengine
 ChemicalBath.addRecipe(<contenttweaker:material_part:108>*2, <thermalfoundation:material:70>, <fluid:aqua_regia>*1000, 20000, 200);
 Refinery.addRecipe(<liquid:aqua_regia>*8, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 2048);
 
-Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.8]);
+Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.5]);
+Distillation.addRecipe([<liquid:water>*900], [<mekanism:salt>], <liquid:brine>*1000, 1024, 100, [0.8]);
 
 //balance
 //PrecissionAssembler.removeRecipesForOutput(<immersiveintelligence:material:9>);
@@ -245,6 +246,10 @@ ArcFurnace.addRecipe(<techreborn:ingot:19>*2, <ore:ingotIron>, <immersiveenginee
 RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveengineering:metal_decoration1>, <immersiveengineering:connector>, <immersiveengineering:metal_decoration1>], [<ore:circuitGood>, <immersiveengineering:wooden_decoration:1>, <ore:circuitGood>], [null, <immersiveengineering:metal_device1:7>, null]]);
 
 MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 1024, 20);
+MeltingCrucible.addRecipe(<liquid:lava>*1000, <minecraft:netherrack>, 512, 40);
+
+
+
 ChemicalBath.addRecipe(<botania:quartz:3>*2, <contenttweaker:mana_circuit_board>,<liquid:molten_elfglass>*1000, 16000, 80);
 ChemicalBath.addRecipe(<contenttweaker:mana_circuit_board>, <contenttweaker:starlight_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000, 32000, 80);
 ChemicalBath.removeRecipe(<immersiveintelligence:material_dust:7>);

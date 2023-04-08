@@ -1,0 +1,194 @@
+{
+  "version": 2,
+  "location": "interaction:elemtia_flask",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "botania:conjurationcatalyst",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "elemtia_flask",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "     ",
+        " AAA ",
+        " AAA ",
+        " AAA ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        " AAA ",
+        "A   A",
+        "A   A",
+        "A   A",
+        " AAA ",
+        "  A  ",
+        "  A  ",
+        " CCC "
+      ],
+      [
+        " AAA ",
+        "A   A",
+        "B D @",
+        "A   A",
+        " A A ",
+        " A F ",
+        " A A ",
+        " CEC "
+      ],
+      [
+        " AAA ",
+        "A   A",
+        "A   A",
+        "A   A",
+        " AAA ",
+        "  A  ",
+        "  A  ",
+        " CCC "
+      ],
+      [
+        "     ",
+        " AAA ",
+        " AAA ",
+        " AAA ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:elfglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "1": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "controller": {
+        "location": "interaction:elemtia_flask",
+        "type": "component"
+      },
+      "2": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "3": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "botania:pylon",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "2"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "1"
+      ],
+      "F": [
+        "3"
+      ]
+    }
+  }
+}

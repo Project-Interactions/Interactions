@@ -81,7 +81,12 @@ Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>
 ElvenTrade.removeRecipe(<botania:dreamwood>);
 recipes.addShaped(<botania:pool:3>, [[null, null, null],[<botania:storage:4>, null, <botania:storage:3>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
 
+//some mbd stuff
 ElvenTrade.addRecipe([<interaction:mana_converter>], [<botania:alfheimportal>]);
+ElvenTrade.addRecipe([<interaction:energy_drinker>], [<botania:livingwood:5>]);
+ElvenTrade.addRecipe([<interaction:cloud_forge>], [<aether_legacy:enchanter>]);
+ElvenTrade.addRecipe([<interaction:refrigerator>], [<aether_legacy:freezer>]);
+
 RuneAltar.addRecipe(<astralsorcery:blockcollectorcrystal>, [<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>], 500000);
 
 RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:manatablet>, <ore:livingrock>], [<ore:livingrock>, <ore:manaPearl> | <ore:manaDiamond>, <ore:livingrock>]]);
