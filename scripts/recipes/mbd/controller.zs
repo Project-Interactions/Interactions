@@ -14,18 +14,13 @@ recipes.addShaped(<interaction:lp>, [[<bloodmagic:decorative_brick>, <bloodarsen
 recipes.addShaped(<interaction:orechid>, [[<botanicadds:rune_tp>, <ore:ingotFluixSteel>, <botanicadds:rune_energy>],[<ore:ingotFluixSteel>, <thaumicwonders:coalescence_matrix_precursor>, <ore:ingotFluixSteel>], [<botanicadds:rune_energy>, <ore:ingotFluixSteel>, <botanicadds:rune_tp>]]);
 
 //addon by Revo
-recipes.addShaped(<interaction:mirion_cloche>, [[null, <plustic:mirionnugget>, null],[<plustic:mirionnugget>, <botania:livingwood:5>, <plustic:mirionnugget>], [null, <plustic:mirionnugget>, null]]);
-recipes.addShapeless(<interaction:hand_of_oney>, [<botania:livingwood:5>,<botania:dye>]);
 recipes.addShapeless(<interaction:naturia>, [<tconstruct:metal:6>,<naturesaura:gold_powder>]);
 recipes.addShaped(<interaction:wind_hole>, [[null, null, null],[null, <immersiveengineering:metal_device1:2>, null], [null, null, null]]);
 recipes.addShaped(<interaction:energy_warpper>, [[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>],[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
 recipes.addShaped(<interaction:nature_destroyer>, [[null, null, null],[null, <auraddons:block_aura_transporter>, null], [null, null, null]]);
 recipes.addShaped(<interaction:washer>, [[<ceramics:unfired_clay:5>, <minecraft:glass>, <ceramics:unfired_clay:5>],[<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <ceramics:clay_bucket>, <ceramics:unfired_clay:5>]]);
 recipes.addShaped(<interaction:mana_zoom>, [[null, <minecraft:glowstone_dust>, null],[<minecraft:glowstone_dust>, <botania:alchemycatalyst>, <minecraft:glowstone_dust>], [null, <minecraft:glowstone_dust>, null]]);
-recipes.addShaped(<interaction:hydraulichine>, [[<immersiveintelligence:metal_decoration:1>, <minecraft:piston>, null],[null, null, null], [null, null, null]]);
-recipes.addShapeless(<interaction:hell_forge>, [<minecraft:furnace>,<minecraft:blaze_powder>]);
 recipes.addShapeless(<interaction:fake_philostone>, [<techreborn:storage2:3>,<thermalfoundation:material:1024>,<thermalfoundation:material:1024>]);
-recipes.addShaped(<interaction:hall_element>, [[<immersiveintelligence:metal_decoration:1>, <mekanism:salt>, null],[null, null, null], [null, null, null]]);
 recipes.addShapeless(<interaction:typewriter>, [<minecraft:writable_book>,<minecraft:enchanting_table>]);
 recipes.addShaped(<interaction:elemtia_flask>, [[null, null, null],[null, <botania:conjurationcatalyst>, null], [null, null, null]]);
 recipes.addShapeless(<interaction:lava_generator>, [<immersiveintelligence:metal_decoration:1>,<minecraft:blaze_powder>]);

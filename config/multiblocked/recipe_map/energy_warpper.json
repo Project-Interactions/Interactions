@@ -311,7 +311,7 @@
       "inputs": {
         "item": [
           {
-            "chance": 0.0,
+            "chance": 1.0,
             "content": {
               "amount": 1,
               "matches": [
@@ -324,11 +324,11 @@
     },
     {
       "uid": "2157bf88-2e3c-43c7-ada2-3ec2e2fdd836",
-      "duration": 100,
+      "duration": 1000,
       "inputs": {
         "item": [
           {
-            "chance": 0.0,
+            "chance": 1.0,
             "content": {
               "amount": 1,
               "matches": [
@@ -341,11 +341,11 @@
     },
     {
       "uid": "b4767391-e7aa-4144-afe5-953bc15a2235",
-      "duration": 100,
+      "duration": 400,
       "inputs": {
         "item": [
           {
-            "chance": 0.0,
+            "chance": 1.0,
             "content": {
               "amount": 1,
               "matches": [

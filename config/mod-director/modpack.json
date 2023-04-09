@@ -1,0 +1,10 @@
+{
+	"packName": "Interactions",
+	"icon":
+	{
+		"path": "icon.png",
+		"width": 64,
+		"height": 64
+	},
+	"localVersion": "1.42"
+}

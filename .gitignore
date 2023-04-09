@@ -9,6 +9,7 @@ $ cat .gitignore
 !/config
 !/groovy
 !/bansoukou
+!/schematics
 
 #Files
 !/.gitignore
