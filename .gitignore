@@ -10,6 +10,7 @@ $ cat .gitignore
 !/groovy
 !/bansoukou
 !/schematics
+!/oresources
 
 #Files
 !/.gitignore

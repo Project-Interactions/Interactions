@@ -147,9 +147,10 @@ recipes.remove(<tconevo:metal:40>);
 recipes.removeShapeless(<tconevo:metal:40> * 9);
 
 //Melting recipe for cot liquid
-Melting.addRecipe(<liquid:refinediron>*144,<techreborn:ingot:19>,360);
-Melting.addRecipe(<liquid:tic_useful_metal>*144,<contenttweaker:useful_ingot>,700);
-Melting.addRecipe(<liquid:tic_useful_metal>*1296,<contenttweaker:useful_block>,700);
+Melting.addRecipe(<liquid:refinediron>*144,<techreborn:ingot:19>,600);
+Melting.addRecipe(<liquid:refinediron>*1296,<techreborn:storage2:10>,600);
+Melting.addRecipe(<liquid:tic_useful_metal>*144,<contenttweaker:useful_ingot>,900);
+Melting.addRecipe(<liquid:tic_useful_metal>*1296,<contenttweaker:useful_block>,900);
 Melting.addRecipe(<liquid:advancedalloy>*144,<techreborn:ingot:20>,450);
 
 //remove part casting
