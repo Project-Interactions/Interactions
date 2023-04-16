@@ -1,5 +1,5 @@
 {
-  "name": "日耀聚焦",
+  "name": "mana_zoom",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [

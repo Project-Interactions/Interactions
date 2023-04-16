@@ -115,9 +115,12 @@ Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key:
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),2);
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),2);
 
-//ae craft chest will crash
-//I can‘t fix it,just remove :(
+//fix some strange crash when crafting some wooden stuff in ae
 recipes.removeByRecipeName("minecraft:chest");
+recipes.removeByRecipeName("minecraft:jukebox");
+recipes.removeByRecipeName("minecraft:noteblock");
+recipes.addShaped(<minecraft:jukebox>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, <ore:gemDiamond>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.addShaped(<minecraft:noteblock>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, <ore:dustRedstone>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 
 //flopper
