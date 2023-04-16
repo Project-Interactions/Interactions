@@ -156,11 +156,15 @@
         "capability": "qmd_particle",
         "type": "capability"
       },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
       "any": {
         "type": "any"
       },
-      "fluid": {
-        "capability": "fluid",
+      "energy": {
+        "capability": "forge_energy",
         "type": "capability"
       }
     },
@@ -172,7 +176,8 @@
         "any"
       ],
       "A": [
-        "fluid"
+        "fluid",
+        "energy"
       ],
       "B": [
         "B"

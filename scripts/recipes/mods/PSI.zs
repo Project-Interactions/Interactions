@@ -153,13 +153,13 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <psi:cad_assembly:5>, [
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <rpsideas:creative_colorizer>, [
 	[null, null, null, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, null, null, null], 
-	[null, null, <psi:cad_colorizer_:16>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, <forbiddenmagicre:cadcolorizer>, <forbiddenmagicre:cadcolorizer>, <forbiddenmagicre:cadcolorizer>, <psi:cad_colorizer_:16>, null, null], 
 	[null, null, <psi:cad_colorizer_:16>, null, null, null, <psi:cad_colorizer_:16>, null, null], 
 	[null, null, <psi:cad_colorizer_:16>, null, <rpsideas:cyclic_colorizer>, null, <psi:cad_colorizer_:16>, null, null], 
 	[null, null, <psi:cad_colorizer_:16>, null, <rpsideas:cyclic_colorizer>, null, <psi:cad_colorizer_:16>, null, null], 
 	[null, null, <psi:cad_colorizer_:16>, null, <rpsideas:cyclic_colorizer>, null, <psi:cad_colorizer_:16>, null, null], 
 	[null, null, <psi:cad_colorizer_:16>, null, null, null, <psi:cad_colorizer_:16>, null, null], 
-	[null, null, <psi:cad_colorizer_:16>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <rpsideas:empty_colorizer>, <psi:cad_colorizer_:16>, null, null], 
+	[null, null, <psi:cad_colorizer_:16>, <rpsideas:liquid_colorizer>, <rpsideas:liquid_colorizer>, <rpsideas:liquid_colorizer>, <psi:cad_colorizer_:16>, null, null], 
 	[null, null, null, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, <psi:cad_colorizer_:16>, null, null, null]
 ]);
 recipes.remove(<psi:cad_colorizer_:16>);

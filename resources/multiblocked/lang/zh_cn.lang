@@ -27,6 +27,7 @@ refrigerator.name=冷凝锅炉
 typewriter.name=魔力打字机
 washer.name=陶瓷浸洗瓮
 wind_hole.name=风洞发电舱
+aspect_infuser.name=源质注入器
 
 #tile
 tile.interaction.magnetizer.name=磁化机
@@ -57,6 +58,7 @@ tile.interaction.refrigerator.name=冷凝锅炉
 tile.interaction.typewriter.name=魔力打字机
 tile.interaction.washer.name=陶瓷浸洗瓮
 tile.interaction.wind_hole.name=风洞发电舱
+tile.interaction.aspect_infuser.name=源质注入器
 
 #recipe map
 multiblocked.recipe_map.uu=UU生成
@@ -87,6 +89,7 @@ multiblocked.recipe_map.energy_drinker=饮料发电
 multiblocked.recipe_map.typewriter=印刷魔力
 multiblocked.recipe_map.energy_warpper=跃迁发电
 multiblocked.recipe_map.lava_generator=炙热发电
+multiblocked.recipe_map.aspect_infuser=源质注入
 
 #part
 tile.interaction.starlight.name=星能接口
