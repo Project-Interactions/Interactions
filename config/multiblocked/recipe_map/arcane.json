@@ -16,15 +16,12 @@
                 "{id:\"appliedenergistics2:quartz_glass\",Count:64,Damage:0s}"
               ]
             }
-          },
+          }
+        ],
+        "fluid": [
           {
             "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"astralsorcery:itemcraftingcomponent\",Count:2,Damage:1s}"
-              ]
-            }
+            "content": "{FluidName:\"starmetal\",Amount:288}"
           }
         ]
       },
@@ -162,20 +159,17 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"moreplates:osmium_gear\",Count:3,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
               "amount": 1,
               "matches": [
                 "{id:\"arcanearchives:storage_shaped_quartz\",Count:1,Damage:0s}"
               ]
             }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"osmium\",Amount:1728}"
           }
         ]
       },
@@ -187,6 +181,51 @@
               "amount": 1,
               "matches": [
                 "{id:\"aeadditions:storage.casing\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "dccce4ff-26ad-4400-9ce4-ec2f9336f9e8",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"arcanearchives:radiant_dust\",Count:6,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"gold\",Amount:240}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"arcanearchives:scintillating_inlay\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -341,13 +380,58 @@
                 "{id:\"arcanearchives:storage_shaped_quartz\",Count:1,Damage:0s}"
               ]
             }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iron\",Amount:1728}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"aeadditions:storage.casing\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "61f0dabc-3ca3-43cf-8dfb-aab423c54284",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"arcanearchives:scintillating_inlay\",Count:1,Damage:0s}"
+              ]
+            }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 3,
+              "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:3,Damage:24s}"
+                "{id:\"minecraft:gold_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"arcanearchives:shaped_quartz\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -360,7 +444,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"aeadditions:storage.casing\",Count:1,Damage:1s}"
+                "{id:\"arcanearchives:material_interface\",Count:1,Damage:0s}"
               ]
             }
           }

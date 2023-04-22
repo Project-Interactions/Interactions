@@ -1,7 +1,7 @@
 ignoreUpdate:144
 updateNotification:false
 differentiateByServerAddress:true
-netherlikeCaveMapAllowed:true
+caveMapsAllowed:true
 debug:false
 lighting:true
 colours:0
@@ -34,4 +34,11 @@ minimapRadar:true
 renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true
+caveModeDepth:30
+caveModeStart:2147483647
+autoCaveMode:-1
+legibleCaveMaps:false
+displayCaveModeStart:true
+caveModeToggleTimer:1000
+defaultCaveModeType:1
 globalVersion:1

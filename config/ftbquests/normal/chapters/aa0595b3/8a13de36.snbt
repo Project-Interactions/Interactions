@@ -1,0 +1,14 @@
+{
+	title: "一小步",
+	x: 6.0d,
+	y: -4.5d,
+	dependencies: [
+		"c30d4ad4",
+		"18d2945b"
+	],
+	tasks: [{
+		uid: "4ff4838a",
+		type: "dimension",
+		dim: 3
+	}]
+}

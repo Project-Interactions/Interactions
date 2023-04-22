@@ -1,0 +1,41 @@
+{
+	x: 7.5d,
+	y: -3.0d,
+	text: [
+		"你不能使用容器直接装填燃油，必须使用燃料站"
+	],
+	dependencies: [
+		"d70dc7b5"
+	],
+	tasks: [{
+		uid: "f1b36c19",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "adbc78de",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	},
+	{
+		uid: "51a9bcd9",
+		type: "item",
+		items: [{
+			id: "libvulpes:linker",
+			tag: {
+				MasterPos: {
+					MasterX: 0,
+					MasterY: 0,
+					MasterZ: 0,
+					dimId: -1
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

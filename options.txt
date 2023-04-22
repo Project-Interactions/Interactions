@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -45,7 +45,7 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:right
-attackIndicator:0
+attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
@@ -136,6 +136,7 @@ key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_pneumaticcraft.chestplate.launcher:0:CONTROL
 key_neat.keybind.toggle:0
+key_key.openNotes:51
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
 key_schematica.key.load:181
@@ -266,6 +267,7 @@ key_key.plustic_mots.desc:13:ALT
 key_key.musictriggers.gui:19
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
+key_key.neenergistics.crafting.helper.noPreview:56
 key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:23
 key_pi.key.et_gui:23

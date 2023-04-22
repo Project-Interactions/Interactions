@@ -11,7 +11,7 @@ import mods.botania.ElvenTrade;
 import mods.botanicadds.GaiaPlate;
 import mods.immersivetweaker.Recycling;
 
-//大量修改，pylon水晶，spreader发射器
+//main
 recipes.remove(<botania:manaresource:14>);
 recipes.removeShaped(<botania:pool:3>, [[<botania:shimmerrock>, null, <botania:shimmerrock>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
 recipes.removeShaped(<botania:alfheimportal>, [[<ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>], [<ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>], [<ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>]]);
@@ -35,17 +35,17 @@ recipes.addShaped(<botania:pool:2>, [[<botania:petalblock:3>, <botania:petalbloc
 recipes.addShaped(<botania:altar>, [[<botania:petalblock>, <botania:petalblock:7>, <botania:petalblock:15>],[null, <minecraft:cobblestone>, null], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, <moreplates:terrasteel_gear>, <botania:livingwood>],[<botania:livingwood>, <moreplates:terrasteel_gear>, <botania:livingwood>], [<botania:livingwood>, <moreplates:terrasteel_gear>, <botania:livingwood>]]);
 recipes.addShaped(<botania:pylon>, [[null, <ore:plateGold>, null],[<moreplates:manasteel_plate>, <botania:manaresource:2>, <moreplates:manasteel_plate>], [null, <ore:plateGold>, null]]);
-//盖亚水晶
+//gaia crystal
 mods.astralsorcery.LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_1:1>, <botania:pylon:2>, 20);
-//活石
+//livingrock
 PureDaisy.addRecipe(<aether_legacy:icestone>, <botania:livingrock>);
 PureDaisy.addRecipe(<naturesaura:infused_stone>, <botania:livingrock>);
 PureDaisy.removeRecipe(<botania:livingrock>);
-//活木
+//livingwood
 PureDaisy.addRecipe(<contenttweaker:aether_log_fix>, <botania:livingwood>);
 PureDaisy.removeRecipe(<botania:livingwood>);
 PureDaisy.addRecipe(<astralsorcery:blockinfusedwood>, <botania:livingwood>);
-//魔力钢
+//manasteel
 ManaInfusion.removeRecipe(<moreplates:manasteel_plate>);
 ManaInfusion.removeRecipe(<moreplates:manasteel_gear>);
 ManaInfusion.removeRecipe(<botania:storage>);
@@ -56,14 +56,14 @@ ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotRefinedIron>, 2500);
 ManaInfusion.removeRecipe(<botania:managlass>);
 ManaInfusion.addInfusion(<botania:managlass>, <engineersdecor:panzerglass_block>, 2500);
 
-//凝矿兰删除
+//orechids
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
 
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "loonium"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}));
 
-//泰拉凝聚板
+//terra plate
 RecipeUtils.recipeTweak(true, <botania:terraplate>, [[<botanicadds:mana_lapis_block>,<botanicadds:mana_lapis_block>, <botanicadds:mana_lapis_block>], [<ore:runeWaterB>, <botania:storage>, <ore:runeFireB>], [<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
 recipes.remove(<botanicadds:terra_catalyst>);
 recipes.remove(<botanicadds:gaia_plate>);
@@ -79,6 +79,11 @@ Agglomeration.addRecipe(<compactmachines3:machine>,[<thermalfoundation:material:
 Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>],200000,0xCCFFFF,0xFFFFFF,<thermalfoundation:storage_alloy>,<naturesaura:infused_stone>,<thermalfoundation:storage_alloy>,<compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
 
 ElvenTrade.removeRecipe(<botania:dreamwood>);
+ElvenTrade.removeRecipe(<botania_tweaks:basic_extended_crafty_crate>);
+ElvenTrade.removeRecipe(<botania_tweaks:advanced_extended_crafty_crate>);
+ElvenTrade.removeRecipe(<botania_tweaks:elite_extended_crafty_crate>);
+ElvenTrade.removeRecipe(<botania_tweaks:ultimate_extended_crafty_crate>);
+
 recipes.addShaped(<botania:pool:3>, [[null, null, null],[<botania:storage:4>, null, <botania:storage:3>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
 
 //some mbd stuff
@@ -91,7 +96,6 @@ RuneAltar.addRecipe(<astralsorcery:blockcollectorcrystal>, [<contenttweaker:crys
 
 RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:manatablet>, <ore:livingrock>], [<ore:livingrock>, <ore:manaPearl> | <ore:manaDiamond>, <ore:livingrock>]]);
 
-//ManaInfusion.addConjuration(<projecte:item.pe_fuel:2>*2, <projecte:item.pe_fuel:2>, 1000000);
 
 RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamrock>, <botanicadds:dreamrock>, <botanicadds:dreamrock>], [<botanicadds:dreamrock>, <botania:pool:3>, <botanicadds:dreamrock>], [<ore:plateTerrasteel>, <ore:plateTerrasteel>, <ore:plateTerrasteel>]]);
 

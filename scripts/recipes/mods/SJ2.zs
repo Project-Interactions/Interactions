@@ -88,9 +88,9 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:24>
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:25>, [
-	[null, null, <redstonerepository:material:7>, <redstonerepository:armor.plate_gelid>, <redstonerepository:material:7>, null, null], 
-	[null, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:armor.plate_gelid>, <redstonerepository:material:7>, <redstonerepository:material:7>, null], 
-	[<redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:armor.plate_gelid>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>], 
+	[null, null, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, null, null], 
+	[null, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, null], 
+	[<redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>], 
 	[<simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:itemjetpack:23>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>], 
 	[<simplyjetpacks:metaitemmods:24>, null, null, <simplyjetpacks:itemfluxpack:14>, null, null, <simplyjetpacks:metaitemmods:24>], 
 	[null, <conarm:chest_core>.withTag({Material: "gelid_enderium"}), null, <simplyjetpacks:itemfluxpack:14>, null, <conarm:chest_core>.withTag({Material: "gelid_gem"}), null], 

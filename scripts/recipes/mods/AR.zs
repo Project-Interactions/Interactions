@@ -5,6 +5,9 @@ import crafttweaker.item.IIngredient;
 import mods.advancedrocketry.RecipeTweaker as ARTweaker;
 import mods.nuclearcraft.Assembler;
 
+RecipeUtils.recipeTweak(true, <advancedrocketry:solararray>, [[<ore:stickSolarium>, <advancedrocketry:misc>, <ore:stickSolarium>], [<ore:paneGlass>, <libvulpes:structuremachine>, <ore:paneGlass>], [<ore:stickSolarium>, <solarflux:photovoltaic_cell_6>, <ore:stickSolarium>]]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:rocketbuilder>, [[<advancedrocketry:ic>, <advancedrocketry:misc>, <advancedrocketry:ic>], [<advancedrocketry:ic:3>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<ore:gearTitanium>, <advancedrocketry:concrete>, <ore:gearTitanium>]]);
+
 recipes.remove(<libvulpes:structuremachine>*16);
 RecipeUtils.recipeTweak(true, <advancedrocketry:satelliteprimaryfunction>, [[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>], [null, <ore:dustGlowstone>, null], [<ore:gearRefinedGlowstone>, <ore:plateGold>, <ore:gearRefinedGlowstone>]]);
 
@@ -58,7 +61,12 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:precisionassemblingmachine>, [[<
 recipes.remove(<advancedrocketry:launchpad>);
 recipes.addShapeless(<advancedrocketry:launchpad>,[<ore:concrete>,<wirelessutils:launch_module>]);
 
-RecipeUtils.recipeTweak(true, <advancedrocketry:guidancecomputer>, [[<advancedrocketry:ic>, <ore:plateTitanium>, <advancedrocketry:ic>], [<ore:dustRedstone>, <libvulpes:structuremachine>, <ore:dustRedstone>], [<advancedrocketry:ic:1>, <ore:dustRedstone>, <advancedrocketry:ic:1>]]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:guidancecomputer>, [[<advancedrocketry:ic:2>, <ore:plateTitanium>, <advancedrocketry:ic:2>], [<ore:dustRedstone>, <libvulpes:structuremachine>, <ore:dustRedstone>], [<advancedrocketry:ic:1>, <ore:dustRedstone>, <advancedrocketry:ic:1>]]);
+
+//fuel tanks
+RecipeUtils.recipeTweak(true, <advancedrocketry:fueltank>, [[<ore:stickOsmium>, null, <ore:stickOsmium>], [<ore:plateOsmium>, <mekanism:machineblock2:11>.withTag({tier: 1}), <ore:plateOsmium>], [<ore:stickOsmium>, <ore:sheetIron>, <ore:stickOsmium>]]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:bipropellantfueltank>, [[<ore:stickOsmiridium>, null, <ore:stickOsmiridium>], [<ore:plateOsmiridium>, <mekanism:machineblock2:11>.withTag({tier: 2}), <ore:plateOsmiridium>], [<ore:stickOsmiridium>, <ore:sheetSteel>, <ore:stickOsmiridium>]]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:nuclearfueltank>, [[<ore:rodWyvernMetal>, null, <ore:rodWyvernMetal>], [<ore:plateWyvernMetal>, <mekanism:machineblock2:11>.withTag({tier: 3}), <ore:plateWyvernMetal>], [<ore:rodWyvernMetal>, <ore:sheetTitaniumIridium>, <ore:rodWyvernMetal>]]);
 
 ARTweaker.forMachine("ElectricArcFurnace").removeAll();
 ARTweaker.forMachine("ElectricArcFurnace")

@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	text: [
+		"两种火箭燃料混合形成，用作高级火箭的燃料"
+	],
+	dependencies: [
+		"c7f45b4c"
+	],
+	tasks: [{
+		uid: "b66bf157",
+		type: "fluid",
+		fluid: "mix_rocket_fuel"
+	}]
+}

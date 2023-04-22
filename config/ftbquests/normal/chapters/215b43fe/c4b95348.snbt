@@ -35,7 +35,7 @@
 		uid: "eb0c260c",
 		type: "item",
 		items: [{
-			item: "jaopca:dust.gelid"
+			item: "jaopca:dust.gelid_crystal"
 		}]
 	}]
 }

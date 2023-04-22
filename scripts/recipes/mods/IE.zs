@@ -231,6 +231,7 @@ recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {
 
 recipes.removeByRecipeName("immersiveintelligence:blueprints/schemes/processor");
 recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "immersiveintelligence:material", Count: 1, Damage: 9}}), [[<ore:transistor>, <immersiveintelligence:radio_configurator>, <ore:transistor>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "immersiveintelligence:material", Count: 2, Damage: 9 as short}}), [[<immersiveintelligence:material:9>, <immersiveintelligence:radio_configurator>, <immersiveintelligence:material:9>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 
 Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
@@ -258,4 +259,5 @@ ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:
 
 RecipeUtils.recipeTweak(true,<engineersdecor:small_tree_cutter>, [[<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>], [<ore:gearSteel>, <minecraft:iron_axe>, <minecraft:observer>], [<immersiveengineering:material:9>, <minecraft:redstone_block>, <immersiveengineering:material:9>]]);
 
-
+recipes.removeByRecipeName("immersiveintelligence:metals/duraluminium/plate");
+recipes.removeByRecipeName("immersiveintelligence:metals/tungsten/plate");

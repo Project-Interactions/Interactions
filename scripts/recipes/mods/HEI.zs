@@ -23,7 +23,8 @@ var jeiremove as string[]=[
 "botania.orechid_ignem",
 "actuallyadditions.booklet",
 "flux",
-"if_manual_category"
+"if_manual_category",
+"oc.manual"
 ];
 for Remove in jeiremove {
     JEI.hideCategory(Remove);

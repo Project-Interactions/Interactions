@@ -134,7 +134,32 @@ val remove as IItemStack[] =
 <mekanism:machineblock3:7>.withTag({recipeType: 9}),
 <mekanism:machineblock:7>.withTag({recipeType: 9}),
 <mekanism:machineblock:6>.withTag({recipeType: 9}),
-<mekanism:machineblock:5>.withTag({recipeType: 9})
+<mekanism:machineblock:5>.withTag({recipeType: 9}),
+<mekanism:machineblock3:7>.withTag({recipeType: 6}),
+<mekanism:machineblock3:7>.withTag({recipeType: 2}),
+<mekanism:machineblock3:7>.withTag({recipeType: 5}),
+<mekanism:machineblock3:7>.withTag({recipeType: 8}),
+<mekanism:machineblock3:7>.withTag({recipeType: 4}),
+<mekanism:machineblock3:7>.withTag({recipeType: 16}),
+<mekanism:machineblock3:7>.withTag({recipeType: 1}),
+<mekanism:basicblock:6>.withTag({tier: 0}),
+<mekanism:machineblock3:7>.withTag({recipeType: 7}),
+<mekanism:machineblock3:7>.withTag({recipeType: 3}),
+<mekanism:machineblock3:9>,
+<mekanism:machineblock3:10>,
+<mekanism:machineblock3:12>,
+<mekanism:machineblock4:8>,
+<mekanism:machineblock:5>.withTag({recipeType: 16}),
+<mekanism:machineblock:6>.withTag({recipeType: 16}),
+<mekanism:machineblock:7>.withTag({recipeType: 16}),
+<mekanism:machineblock:7>.withTag({recipeType: 13}),
+<mekanism:machineblock:6>.withTag({recipeType: 13}),
+<mekanism:machineblock:5>.withTag({recipeType: 13}),
+<mekanism:basicblock:6>.withTag({tier: 2}),
+<mekanism:basicblock:6>.withTag({tier: 1}),
+<mekanism:machineblock3:7>.withTag({recipeType: 0}),
+<mekanism:basicblock:6>.withTag({tier: 3}),
+<mekanism:machineblock3:7>.withTag({recipeType: 13})
 ];
 
 for Remove in remove {
@@ -205,3 +230,9 @@ recipes.addShaped(<mekanism:energycube>, [[<moreplates:redstone_alloy_plate>, <t
 infuser.addRecipe("DIAMONDHARD", 20, <contenttweaker:material_part:70>*2, <libvulpes:structuremachine>);
 
 recipes.removeByMod("mekanismtools");
+//fix taiga
+mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.dilithium>);
+mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.tiberium>);
+//easier configurator
+recipes.removeByRecipeName("mekanism:configurator");
+recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:dye:4>, null], [<ore:circuitGood>, <ore:gearSteel>, <ore:circuitGood>], [null, <minecraft:stick>, null]]);

@@ -38,7 +38,7 @@ mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>,<liquid:re
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:emerald>,<liquid:cryotheum>*500);
 
 mods.thermalexpansion.Transposer.addFillRecipe(<jaopca:dust.crystal_flux>,<nuclearcraft:gem_dust> , <liquid:redstone>*500,1000 );
-mods.thermalexpansion.Transposer.addFillRecipe(<jaopca:dust.gelid>,<techreborn:dust:18> ,<liquid:cryotheum>*500,1000 );
+mods.thermalexpansion.Transposer.addFillRecipe(<jaopca:dust.gelid_crystal>,<techreborn:dust:18> ,<liquid:cryotheum>*500,1000 );
 
 
 recipes.remove(<thermalexpansion:frame>);
