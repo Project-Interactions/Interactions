@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -6.0d,
+	dependencies: [
+		"8a13de36"
+	],
+	tasks: [{
+		uid: "9a9cab9f",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0"
+		}]
+	}]
+}
