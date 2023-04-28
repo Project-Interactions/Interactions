@@ -261,3 +261,7 @@ RecipeUtils.recipeTweak(true,<engineersdecor:small_tree_cutter>, [[<ore:gearStee
 
 recipes.removeByRecipeName("immersiveintelligence:metals/duraluminium/plate");
 recipes.removeByRecipeName("immersiveintelligence:metals/tungsten/plate");
+
+//Dilithium
+Crusher.removeRecipe(<libvulpes:productgem>);
+Crusher.removeRecipe(<libvulpes:productgem>*2);

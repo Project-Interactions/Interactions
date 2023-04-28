@@ -30,7 +30,7 @@ LightTransmutation.addTransmutation(<twilightforest:wispy_cloud>,<contenttweaker
 
 //种子
 Altar.addDiscoveryAltarRecipe(
-	"interactions:shaped/internal/altar/seedtier1",
+	"interactions:shaped/maseedtier1",
 	<mysticalagriculture:crafting:17>,
 	400,
 	100,

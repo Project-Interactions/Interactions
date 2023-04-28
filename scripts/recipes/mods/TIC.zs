@@ -72,9 +72,9 @@ Alloy.removeRecipe(<liquid:marshmallow>);
 Alloy.removeRecipe(<liquid:dark_steel>);
 
 //alloy add
-Alloy.addRecipe(<liquid:osgloglas>*72,[<liquid:osmium>*72,<liquid:refined_obsidian>*72,<liquid:refined_glowstone>*72]);
-Alloy.addRecipe(<liquid:meteorite_fluid>*72,[<liquid:sky_stone>*72,<liquid:refinediron>*72]);
-Alloy.addRecipe(<liquid:dilithium_fluid>*72,[<liquid:lithium>*144,<liquid:hard_carbon>*72]);
+Alloy.addRecipe(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);
+Alloy.addRecipe(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refinediron>]);
+Alloy.addRecipe(<liquid:dilithium_fluid>,[<liquid:lithium>*2,<liquid:hard_carbon>]);
 
 Alloy.removeRecipe(<liquid:osmiridium>);
 //
@@ -209,6 +209,8 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <tconstruct:materials:50>, [
 
 //fix rail can be smelt into osmium
 Melting.removeRecipe(<liquid:osmium>,<minecraft:rail>);
+
+RecipeUtils.recipeTweak(true, <mctsmelteryio:upgrade>, [[<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>], [<ore:paper>, <ore:circuitAdvanced>, <ore:paper>], [<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>]]);
 
 //Tinkered Hegemony
 /*

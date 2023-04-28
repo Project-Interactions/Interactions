@@ -13,3 +13,4 @@ recipes.addShaped(<projectred-core:resource_item:311>, [[<ore:dustGlowstone>, <o
 recipes.addShaped(<projectred-core:resource_item:312>, [[<ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>], [<ore:dustElectrotine>, <ore:itemSilicon>, <ore:dustElectrotine>], [<ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>]]);
 
 mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotCobalt>, <ore:dustElectrotine>, 100);
+mods.techreborn.alloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotCobalt>,<ore:dustElectrotine> , 100 , 40);

@@ -70,6 +70,5 @@ recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_14");
 recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_15");
 
 //black_hole_controller v1.0
-<industrialforegoing:black_hole_controller>.displayName = "黑洞存储控制器 v1.0";
 recipes.addShapeless(<industrialforegoing:black_hole_controller>,[<industrialforegoing:black_hole_controller_reworked>]);
 recipes.addShapeless(<industrialforegoing:black_hole_controller_reworked>,[<industrialforegoing:black_hole_controller>]);

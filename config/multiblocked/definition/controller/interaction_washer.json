@@ -113,22 +113,14 @@
         "type": "states"
       },
       "D": {
-        "states": [
-          {
-            "id": "tconstruct:wooden_hopper",
-            "meta": 0
-          }
-        ],
-        "type": "states"
+        "capability": "item",
+        "type": "capability",
+        "io": "IN"
       },
       "E": {
-        "states": [
-          {
-            "id": "minecraft:chest",
-            "meta": 3
-          }
-        ],
-        "type": "states"
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
       },
       "any": {
         "type": "any"

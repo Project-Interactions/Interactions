@@ -4,8 +4,6 @@
 
 //<item>.displayName = "name";
 
-<immersiveintelligence:material_wire>.displayName = "\u9AD8\u7EA7\u7535\u5B50\u5408\u91D1\u7EBF";
-
 <ore:wireAdvancedElectronicAlloy>.add(<immersiveintelligence:material_wire>);
 
 <contenttweaker:material_part:152>.addTooltip("\u4F7F\u7528\u95E8\u9510\u6B27\u7EBF\u5708\u5728\u9AD8\u7089\u70E7\u5236");

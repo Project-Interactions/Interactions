@@ -9,4 +9,3 @@ RecipeUtils.recipeTweak(true, <fluxnetworks:gargantuanfluxstorage>, [[<fluxnetwo
 recipes.remove(<fluxnetworks:fluxcore> * 4);
 recipes.addShaped(<fluxnetworks:fluxcore>, [[<fluxnetworks:flux:*>, <minecraft:obsidian:*>, <fluxnetworks:flux:*>], [<minecraft:obsidian:*>, <minecraft:ender_eye:*>, <minecraft:obsidian:*>], [<fluxnetworks:flux:*>, <minecraft:obsidian:*>, <fluxnetworks:flux:*>]]);
 
-RecipeUtils.recipeTweak(true, <mctsmelteryio:upgrade>, [[<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>], [<ore:paper>, <ore:circuitAdvanced>, <ore:paper>], [<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>]]);

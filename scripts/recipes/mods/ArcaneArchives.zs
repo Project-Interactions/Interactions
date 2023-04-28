@@ -8,8 +8,8 @@ RecipeUtils.recipeTweak(true, <arcanearchives:gemcutters_table>, [[null, <indust
 RecipeUtils.recipeTweak(true, <arcanearchives:radiant_resonator>, [[<ore:plateElectrum>, null, <ore:plateElectrum>],[<moreplates:certus_quartz_gear>, <ore:circuitOperation>, <moreplates:certus_quartz_gear>], [<calculator:purifiedobsidian>, <ore:circuitOperation>, <calculator:purifiedobsidian>]]);
 
 
-GCT.addRecipe("ae2_yangban_1",<appliedenergistics2:material:52>*16,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitOperation>]);
-GCT.addRecipe("ae2_yangban_2",<appliedenergistics2:material:52>*32,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitElite>]);
+GCT.addRecipe("ae2_pattern_1",<appliedenergistics2:material:52>*16,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitOperation>]);
+GCT.addRecipe("ae2_pattern_2",<appliedenergistics2:material:52>*32,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitElite>]);
 
 
 GCT.addRecipe("ae2_casing_2",<aeadditions:storage.casing:2>,[<redstonearsenal:material:32>*2,<appliedenergistics2:material:8>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:gastank>*3]);

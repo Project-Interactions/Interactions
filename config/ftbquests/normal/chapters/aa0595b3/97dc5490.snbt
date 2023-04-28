@@ -1,0 +1,28 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	text: [
+		"你有多种方法获取它"
+	],
+	dependencies: [
+		"62a0a54b"
+	],
+	tasks: [{
+		uid: "014cf8de",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemDilithium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemDilithium"
+				}
+			}
+		}]
+	}]
+}

@@ -87,6 +87,7 @@ recipes.removeShapeless(<qmd:ingot> * 2, [<ore:oreTungsten>, <ore:dustPetrotheum
 recipes.removeShapeless(<draconicevolution:draconium_ingot> * 2, [<ore:oreDraconium>, <ore:dustPetrotheum>, <ore:dustPyrotheum>]);
 recipes.removeShapeless(<draconicevolution:draconium_ingot>, [<ore:dustDraconium>, <ore:dustPyrotheum>]);
 recipes.removeShapeless(<draconicevolution:draconium_ingot>, [<ore:oreDraconium>, <ore:dustPyrotheum>]);
+recipes.removeShapeless(<libvulpes:productgem> * 2, [<ore:oreDilithium>, <ore:dustPetrotheum>]);
 furnace.remove(<tconevo:metal:35>);
 furnace.remove(<tconevo:metal:30>);
 furnace.remove(<tconevo:metal:25>);

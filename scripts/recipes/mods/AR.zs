@@ -5,6 +5,8 @@ import crafttweaker.item.IIngredient;
 import mods.advancedrocketry.RecipeTweaker as ARTweaker;
 import mods.nuclearcraft.Assembler;
 
+<ore:gemDilithium>.add(<jaopca:mekanism_crystal.dilithium>);
+
 RecipeUtils.recipeTweak(true, <advancedrocketry:solararray>, [[<ore:stickSolarium>, <advancedrocketry:misc>, <ore:stickSolarium>], [<ore:paneGlass>, <libvulpes:structuremachine>, <ore:paneGlass>], [<ore:stickSolarium>, <solarflux:photovoltaic_cell_6>, <ore:stickSolarium>]]);
 RecipeUtils.recipeTweak(true, <advancedrocketry:rocketbuilder>, [[<advancedrocketry:ic>, <advancedrocketry:misc>, <advancedrocketry:ic>], [<advancedrocketry:ic:3>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<ore:gearTitanium>, <advancedrocketry:concrete>, <ore:gearTitanium>]]);
 
@@ -120,7 +122,7 @@ ARTweaker.forMachine("PrecisionAssembler")
 .timeRequired(100)
 .build();
 
-//这里写一下那三种电路板的便宜方法
+//这里写一下那三种电路板的便宜方法(精密激光蚀刻)
 
 ARTweaker.forMachine("CuttingMachine")
 .remover()
@@ -133,4 +135,17 @@ ARTweaker.forMachine("CuttingMachine")
 .outputs(<advancedrocketry:ic:2>*2)
 .power(200)
 .timeRequired(300)
+.build();
+
+ARTweaker.forMachine("Crystallizer")
+.remover()
+.addOutputs(<libvulpes:productgem>)
+.remove();
+
+ARTweaker.forMachine("Crystallizer")
+.builder()
+.inputs(<libvulpes:ore0>)
+.outputs(<libvulpes:productgem>*2)
+.power(800)
+.timeRequired(50)
 .build();

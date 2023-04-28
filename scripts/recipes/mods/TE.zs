@@ -86,12 +86,19 @@ recipes.addShaped(<thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, nu
 
 addRegexLogFilter("No InductionSmelter recipe exists for.*");
 val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
-val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<immersiveintelligence:ore:2>,<thermalfoundation:ore:7>,<techreborn:dust:55>];
+val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<immersiveintelligence:ore:2>,<thermalfoundation:ore:7>,<techreborn:dust:55>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungstensteel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>];
 for i in a { 
     for j in b {
         InductionSmelter.removeRecipe(i,j);
     }
 }
+InductionSmelter.removeRecipe(<minecraft:ender_pearl>,<minecraft:iron_ingot>);
+InductionSmelter.removeRecipe(<minecraft:ender_pearl>,<thermalfoundation:material>);
+InductionSmelter.removeRecipe(<thermalfoundation:material:770>,<thermalfoundation:material:96>);
+InductionSmelter.removeRecipe(<thermalfoundation:material:770>,<thermalfoundation:material:160>);
+
+InductionSmelter.removeRecipe(<enderio:item_alloy_ingot:1>,<minecraft:ender_pearl>);
+InductionSmelter.removeRecipe(<jaopca:dust.energetic_alloy>,<minecraft:ender_pearl>);
 
 recipes.remove(<thermalexpansion:augment:257>);
 InductionSmelter.removeRecipe(<enderio:item_material>,<enderio:item_material:51>);
@@ -103,3 +110,5 @@ RecipeUtils.recipeTweak(true, <thermalexpansion:augment:416>, [[null, <ore:gearS
 
 
 Factorizer.addRecipeSplit(<deepmoblearning:glitch_infused_ingot>, <extrautils2:unstableingots:1>*3);
+
+Pulverizer.removeRecipe(<libvulpes:ore0>);
