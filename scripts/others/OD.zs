@@ -129,3 +129,5 @@
 <ore:circuitNuclear>.add(<advancedrocketry:itemcircuitplate>);
 <ore:circuitUniversal>.add(<advancedrocketry:itemcircuitplate:1>);
 
+<ore:crystalCrudeOil>.add(<immersivepetroleum:material>);
+<ore:clathrateOil>.add(<immersivepetroleum:material>);

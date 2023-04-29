@@ -265,3 +265,5 @@ recipes.removeByRecipeName("immersiveintelligence:metals/tungsten/plate");
 //Dilithium
 Crusher.removeRecipe(<libvulpes:productgem>);
 Crusher.removeRecipe(<libvulpes:productgem>*2);
+
+<ore:coilCopper>.remove(<immersiveengineering:metal_decoration0>);

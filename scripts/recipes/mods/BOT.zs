@@ -71,7 +71,7 @@ recipes.remove(<botanicadds:gaia_plate>);
 GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
 GaiaPlate.add(<botanicadds:gaiasteel_ingot>,1000000,[<threng:material>,<tconevo:part_arcane_focus>.withTag({Material: "dragonstone"}),<botania:manaresource:14>]);
 //
-Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>,<immersivepetroleum:material>],400000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveintelligence:metal_decoration:2>,<immersiveengineering:storage:5>,null,null,null);
+Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>,<ore:crystalCrudeOil>],400000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveintelligence:metal_decoration:2>,<immersiveengineering:storage:5>,null,null,null);
 //
 RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
 //
