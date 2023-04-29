@@ -107,7 +107,7 @@ Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource>);
 
 
 //botania doppleganger not drop fix
-<entity:botania:doppleganger>.addDrop(<botania:manaresource:5>*4);
+<entity:botania:doppleganger>.addPlayerOnlyDrop(<botania:manaresource:5>,4,8);
 
 Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.h_o_p_graphite>],200000,0xCCFFFF,0x99FFFF,<techreborn:machine_frame>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
 

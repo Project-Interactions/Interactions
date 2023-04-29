@@ -15,20 +15,6 @@ recipes.removeShaped(<minecraft:stick> * 4, [[<ore:plankWood>], [<ore:plankWood>
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>], [<ore:plankWood>]]);
 
-//planks
-recipes.removeShaped(<minecraft:planks> * 4);
-recipes.removeShaped(<minecraft:planks:1> * 4);
-recipes.removeShaped(<minecraft:planks:2> * 4);
-recipes.removeShaped(<minecraft:planks:3> * 4);
-recipes.removeShaped(<minecraft:planks:4> * 4);
-recipes.removeShaped(<minecraft:planks:5> * 4);
-recipes.addShapeless(<minecraft:planks> * 2,[<minecraft:log>]);
-recipes.addShapeless(<minecraft:planks:1> * 2,[<minecraft:log:1>]);
-recipes.addShapeless(<minecraft:planks:2> * 2,[<minecraft:log:2>]);
-recipes.addShapeless(<minecraft:planks:3> * 2,[<minecraft:log:3>]);
-recipes.addShapeless(<minecraft:planks:4> * 2,[<minecraft:log2>]);
-recipes.addShapeless(<minecraft:planks:5> * 2,[<minecraft:log2:1>]);
-
 //end portal uncraftable
 recipes.remove(<minecraft:end_portal_frame>);
 
@@ -82,7 +68,6 @@ vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:reeds>.weight(0.06));
 vanilla.seeds.addSeed(<minecraft:potato>.weight(0.06));
 
-
 recipes.remove(<minecraft:piston>);
 
 
@@ -125,3 +110,12 @@ recipes.addShaped(<minecraft:noteblock>, [[<ore:logWood>, <ore:logWood>, <ore:lo
 
 //flopper
 RecipeUtils.recipeTweak(true,<flopper:flopper>, [[<ore:ingotIron>, <speedyhoppers:speedyhopper_mk1>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
+
+//bars
+recipes.remove(<minecraft:iron_bars> * 16);
+recipes.remove(<enderio:block_dark_iron_bars> * 16);
+recipes.remove(<enderio:block_end_iron_bars> * 16);
+
+recipes.addShaped(<enderio:block_end_iron_bars> * 8, [[null, null, null],[<ore:rodEndSteel>, <ore:rodEndSteel>, <ore:rodEndSteel>], [<ore:rodEndSteel>, <ore:rodEndSteel>, <ore:rodEndSteel>]]);
+recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [[null, null, null],[<ore:rodDarkSteel>, <ore:rodDarkSteel>, <ore:rodDarkSteel>], [<ore:rodDarkSteel>, <ore:rodDarkSteel>, <ore:rodDarkSteel>]]);
+recipes.addShaped(<minecraft:iron_bars> * 8, [[null, null, null],[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);

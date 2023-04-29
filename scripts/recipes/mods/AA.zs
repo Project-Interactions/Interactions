@@ -4,6 +4,8 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.actuallyadditions.Empowerer;
 import mods.actuallyadditions.AtomicReconstructor;
+import mods.actuallyadditions.Crusher;
+
 
 //焦黑石英反向合成
 recipes.addShapeless( <actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
@@ -101,4 +103,4 @@ recipes.addShaped(<actuallyadditions:block_dropper>, [[<ore:gearStone>, <ore:gea
 recipes.addShaped(<actuallyadditions:block_ranged_collector>, [[null, <tconstruct:wooden_hopper>, null],[<extrautils2:endershard>, <embers:vacuum>, <extrautils2:endershard>], [null, <extrautils2:endershard>, null]]);
 recipes.remove(<actuallyadditions:item_mining_lens>);
 
-
+Crusher.removeRecipe(<libvulpes:productgem>*2);
