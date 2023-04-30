@@ -8,7 +8,13 @@
 		uid: "6324d3bd",
 		type: "item",
 		items: [{
-			item: "enderio:block_alloy 1 6"
-		}]
+			item: "enderio:item_alloy_ingot 1 6"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "fb709ffc",
+		type: "item",
+		item: "enderio:block_alloy 1 6"
 	}]
 }

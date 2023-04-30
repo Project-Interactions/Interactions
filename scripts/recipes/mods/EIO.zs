@@ -59,3 +59,5 @@ recipes.remove(<enderio:item_material:15>);
 recipes.remove(<enderio:item_material:14>);
 recipes.remove(<enderio:item_material:18>);
 
+recipes.remove(<enderio:item_material:52> * 6);
+recipes.addShaped(<enderio:item_material:52>, [[<ore:dustSoularium>, <ore:dustNetherQuartz>, <enderio:item_material:49>], [<ore:dustNetherQuartz>, <enderio:item_material:50>, <ore:dustNetherQuartz>], [<enderio:item_material:49>, <ore:dustNetherQuartz>, <ore:dustSoularium>]]);

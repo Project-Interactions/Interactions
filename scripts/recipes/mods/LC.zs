@@ -40,7 +40,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <lightningcraft:golf_club_gold>
 	[<rpsideas:shielded_battery>, null, null, null, null]
 ]);
 recipes.remove(<lightningcraft:stone_block>*4);
-recipes.addShaped(<lightningcraft:stone_block>,[[<compactmachines3:wallbreakable>,<deepmoblearning:soot_covered_plate>,<compactmachines3:wallbreakable>],[<deepmoblearning:soot_covered_plate>,<psi:psi_decorative:7>,<deepmoblearning:soot_covered_plate>],[<compactmachines3:wallbreakable>,<deepmoblearning:soot_covered_plate>,<compactmachines3:wallbreakable>]]);
+recipes.addShaped(<lightningcraft:stone_block>*8,[[<compactmachines3:wallbreakable>,<deepmoblearning:soot_covered_plate>,<compactmachines3:wallbreakable>],[<deepmoblearning:soot_covered_plate>,<psi:psi_decorative:7>,<deepmoblearning:soot_covered_plate>],[<compactmachines3:wallbreakable>,<deepmoblearning:soot_covered_plate>,<compactmachines3:wallbreakable>]]);
 recipes.addShaped(<lightningcraft:stone_block>*32,[[<compactmachines3:wallbreakable>,<deepmoblearning:soot_covered_plate>,<compactmachines3:wallbreakable>],[<deepmoblearning:soot_covered_plate>,<ore:blockAethium>,<deepmoblearning:soot_covered_plate>],[<compactmachines3:wallbreakable>,<deepmoblearning:soot_covered_plate>,<compactmachines3:wallbreakable>]]);
 recipes.remove(<lightningcraft:lightning_infuser>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <lightningcraft:lightning_infuser>, [

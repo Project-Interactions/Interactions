@@ -104,6 +104,7 @@ RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamr
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:4>);
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:7>);
 Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource>);
+Recycling.makeStackInvalidRecyclingOutput(<advancedrocketry:misc:1>);
 
 
 //botania doppleganger not drop fix

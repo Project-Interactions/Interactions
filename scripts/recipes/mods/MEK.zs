@@ -7,6 +7,7 @@ import mods.mekanism.enrichment;
 import mod.mekanism.gas.IGasStack;
 import mods.mekanism.thermalevaporation;
 import mods.nuclearcraft.Assembler;
+import mods.mekanism.combiner;
 
 recipes.removeByRecipeName("mekanism:energycube_create");
 
@@ -233,6 +234,8 @@ recipes.removeByMod("mekanismtools");
 //fix taiga
 mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.dilithium>);
 mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.tiberium>);
+combiner.removeRecipe(<libvulpes:ore0>);
+
 //easier configurator
 recipes.removeByRecipeName("mekanism:configurator");
 recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:dye:4>, null], [<ore:circuitGood>, <ore:gearSteel>, <ore:circuitGood>], [null, <minecraft:stick>, null]]);

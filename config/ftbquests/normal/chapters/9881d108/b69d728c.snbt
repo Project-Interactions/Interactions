@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"你只能使用它来自动化神秘基座"
+	],
+	dependencies: [
+		"9fcbd097"
+	],
+	tasks: [{
+		uid: "1f932023",
+		type: "item",
+		items: [{
+			item: "interaction:aspect_infuser"
+		}]
+	}]
+}

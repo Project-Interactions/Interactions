@@ -1,10 +1,13 @@
 {
-	x: -1.6d,
-	y: 24.8d,
+	x: 1.6d,
+	y: 24.0d,
 	shape: "gear",
 	text: [
 		"在上面放上你想要的计算器就可以实现自动化",
 		"注意输入"
+	],
+	dependencies: [
+		"4ff707f8"
 	],
 	size: 1.6d,
 	tasks: [{

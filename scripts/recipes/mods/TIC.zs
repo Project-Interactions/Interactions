@@ -221,3 +221,4 @@ recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
 recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
 */
 
+//Melting.addEntityMelting(<entity:botania:pink_wither>, <liquid:cryotheum>);

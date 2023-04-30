@@ -1,8 +1,11 @@
 {
-	x: 3.5d,
-	y: 12.0d,
+	x: 2.0d,
+	y: 6.0d,
 	text: [
 		"一些生物可通过其召唤"
+	],
+	dependencies: [
+		"212adc1c"
 	],
 	tasks: [{
 		uid: "db746bbc",

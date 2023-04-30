@@ -58,3 +58,8 @@ mods.avaritia.ExtremeCrafting.addShaped("landia_tp", <dimensionaledibles:custom_
 recipes.remove(<jaopca:block.tanzanite>);
 
 recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
+
+recipes.addShaped(<blahaj:gray_shark>, [[null, <minecraft:wool:8>, null],[<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>], [<minecraft:wool>, <minecraft:wool>, null]]);
+recipes.addShaped(<blahaj:blue_shark>, [[null, <minecraft:wool:3>, null],[<minecraft:wool:3>, <minecraft:wool:3>, <minecraft:wool:3>], [<minecraft:wool>, <minecraft:wool>, null]]);
+
+recipes.addShaped(<contenttweaker:sub_block_holder_0:11>, [[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>],[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>], [<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>]]);

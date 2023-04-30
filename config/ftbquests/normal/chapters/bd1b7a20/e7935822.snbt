@@ -1,9 +1,6 @@
 {
 	x: 0.0d,
 	y: 7.5d,
-	text: [
-		"匠魂浇筑得到"
-	],
 	dependencies: [
 		"de08f26e"
 	],
