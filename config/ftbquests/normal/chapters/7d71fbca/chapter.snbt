@@ -1,6 +1,6 @@
 {
 	title: "{7d71fbca.ia.title}",
-	icon: "plustic:osgloglasingot",
+	icon: "extendedcrafting:material 1 48",
 	description: [
 		"{7d71fbca.ia.description}"
 	],
