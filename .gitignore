@@ -4,13 +4,11 @@ $ cat .gitignore
 
 #Folders
 !/patchouli_books
-!/resources
 !/scripts
 !/config
 !/groovy
 !/bansoukou
 !/schematics
-!/oresources
 
 #Files
 !/.gitignore
