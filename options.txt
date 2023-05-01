@@ -154,10 +154,10 @@ key_key.openShulker:49
 key_key.toggleView:47
 key_Staff of Travel Teleport:34
 key_zenscroll.options.modifier_key:56
-key_nimble.keybind.frontView:62
 key_key.dismount:42
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
+key_key.clipboardPaste:210
 key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -197,8 +197,9 @@ key_mekanism.key.voice:22
 key_key.aether.accessory_menu:23
 key_key.aquaacrobatics.toggle_crawling:0
 key_astraladditions.key.ring_toggle:82
-key_key.infinity_armor.noclip:40
 key_key.bettersigns.nosigntext:56
+key_key.boatoverhaul.leftRudder:75
+key_key.boatoverhaul.rightRudder:77
 key_key.settings_menu:34
 key_key.range:19
 key_key.undo:22
@@ -225,7 +226,6 @@ key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
 key_key.overload:33:SHIFT
 key_key.chaosInjection:34:SHIFT
-key_key.clipboardPaste:210
 key_keys.techreborn.config:25
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
