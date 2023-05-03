@@ -1,0 +1,69 @@
+{
+  "name": "ic2_kiln",
+  "label": "IC2 Kiln",
+  "target-item": "ic2:te",
+  "target-item-meta": 100,
+  "allow-rotate": false,
+  "input-types": {
+    "a": {
+      "id": "ic2:refractory_bricks",
+      "meta": 0
+    },
+    "b": {
+      "id": "ic2:te",
+      "meta": 100,
+      "item": {
+        "id": "ic2:te",
+        "meta": 100,
+        "count": 1
+      }
+    },
+    "c": {
+      "id": "ic2:te",
+      "meta": 102,
+      "item": {
+        "id": "ic2:te",
+        "meta": 102,
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "ic2:te",
+      "meta": 101,
+      "item": {
+        "id": "ic2:te",
+        "meta": 101,
+        "count": 1
+      }
+    }
+  },
+  "input-nbt": {
+    "b:B": {
+      "nbt": "{id:\"ic2:coke_kiln\"}"
+    },
+    "d:D": {
+      "nbt": "{id:\"ic2:coke_kiln_hatch\"}"
+    },
+    "c:C": {
+      "nbt": "{id:\"ic2:coke_kiln_grate\"}"
+    }
+  },
+  "shape": [
+    [
+      ["a","a","a"],
+      ["a","d:D","a"],
+      ["a","a","a"]
+    ],
+    [
+      ["a","a","a"],
+      ["a","_","a"],
+      ["a","b:B","a"]
+    ],
+    [
+      ["a","a","a"],
+      ["a","c:C","a"],
+      ["a","a","a"]
+    ]
+  ]
+
+}

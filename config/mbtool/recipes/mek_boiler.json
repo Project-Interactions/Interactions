@@ -1,0 +1,190 @@
+{
+  "name": "mek_boiler",
+  "label": "Boiler",
+  "target-item": "mekanism:basicblock2",
+  "target-item-meta": 5,
+  "input-types": {
+    "a": {
+      "id": "mekanism:basicblock2",
+      "meta": 7
+    },
+    "b": {
+      "id": "mekanism:basicblock",
+      "meta": 10
+    },
+    "c": {
+      "id": "mekanism:basicblock2",
+      "meta": 8
+    },
+    "d": {
+      "id": "mekanism:basicblock2",
+      "meta": 6
+    },
+    "e": {
+      "id": "mekanism:basicblock2",
+      "meta": 5
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{temperature:0.0d,facing:4,id:\"mekanism:boiler_casing\",redstone:0b}"
+    },
+    "a:B": {
+      "nbt": "{temperature:0.0d,facing:2,id:\"mekanism:boiler_casing\",redstone:0b}"
+    },
+    "a:C": {
+      "nbt": "{temperature:0.0d,facing:3,id:\"mekanism:boiler_casing\",redstone:0b}"
+    },
+    "b:A": {
+      "nbt": "{id:\"mekanism:structural_glass\"}"
+    },
+    "a:D": {
+      "nbt": "{temperature:0.0d,facing:5,id:\"mekanism:boiler_casing\",redstone:0b}"
+    },
+    "c:A": {
+      "nbt": "{temperature:0.0d,facing:3,id:\"mekanism:boiler_valve\",redstone:0b}"
+    },
+    "d:A": {
+      "nbt": "{facing:3,id:\"mekanism:pressure_disperser\",redstone:0b}"
+    },
+    "e:A": {
+      "nbt": "{facing:4,id:\"mekanism:superheating_element\",redstone:0b}"
+    },
+    "c:B": {
+      "nbt": "{temperature:0.0d,facing:2,id:\"mekanism:boiler_valve\",redstone:0b}"
+    },
+    "a:E": {
+      "nbt": "{temperature:0.0d,facing:1,id:\"mekanism:boiler_casing\",redstone:0b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:A", "a:A", "a:B", "a:B", "a:B"
+      ],
+      [
+        "a:A", "b:A", "b:A", "b:A", "a:B"
+      ],
+      [
+        "a:A", "b:A", "b:A", "b:A", "a:B"
+      ],
+      [
+        "a:A", "b:A", "b:A", "b:A", "a:B"
+      ],
+      [
+        "a:A", "a:A", "a:A", "a:A", "a:B"
+      ]
+    ],
+    [
+      [
+        "a:A", "b:A", "c:B", "b:A", "a:B"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "a:C", "b:A", "b:A", "b:A", "a:C"
+      ]
+    ],
+    [
+      [
+        "a:C", "b:A", "b:A", "b:A", "a:A"
+      ],
+      [
+        "b:A", "d:A", "d:A", "d:A", "b:A"
+      ],
+      [
+        "b:A", "d:A", "d:A", "d:A", "b:A"
+      ],
+      [
+        "b:A", "d:A", "d:A", "d:A", "b:A"
+      ],
+      [
+        "a:D", "b:A", "b:A", "b:A", "a:A"
+      ]
+    ],
+    [
+      [
+        "a:E", "b:A", "b:A", "b:A", "a:A"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "a:C", "b:A", "b:A", "b:A", "a:A"
+      ]
+    ],
+    [
+      [
+        "a:E", "b:A", "b:A", "b:A", "a:C"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "b:A", "_", "_", "_", "b:A"
+      ],
+      [
+        "a:C", "b:A", "b:A", "b:A", "a:A"
+      ]
+    ],
+    [
+      [
+        "a:D", "b:A", "c:B", "b:A", "a:C"
+      ],
+      [
+        "b:A", "e:A", "e:A", "e:A", "b:A"
+      ],
+      [
+        "b:A", "e:A", "e:A", "e:A", "b:A"
+      ],
+      [
+        "b:A", "e:A", "e:A", "e:A", "b:A"
+      ],
+      [
+        "a:D", "b:A", "c:A", "b:A", "a:B"
+      ]
+    ],
+    [
+      [
+        "a:D", "a:D", "a:D", "a:D", "a:C"
+      ],
+      [
+        "a:B", "a:C", "a:C", "a:C", "a:D"
+      ],
+      [
+        "a:B", "a:C", "a:C", "a:C", "a:C"
+      ],
+      [
+        "a:B", "a:C", "a:C", "a:C", "a:C"
+      ],
+      [
+        "a:B", "a:B", "a:A", "a:A", "a:C"
+      ]
+    ]
+  ]
+
+
+
+
+}
+
+
+
+
+

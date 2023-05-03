@@ -26,7 +26,8 @@ var jeiremove as string[]=[
 "actuallyadditions.booklet",
 "flux",
 "if_manual_category",
-"oc.manual"
+"oc.manual",
+"ftbquests.quests"
 ];
 for Remove in jeiremove {
     JEI.hideCategory(Remove);

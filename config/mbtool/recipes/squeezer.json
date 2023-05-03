@@ -1,0 +1,78 @@
+{
+  "name": "squeezer",
+  "label": "Squeezer",
+  "target-item": "immersiveengineering:tool",
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:wooden_device0",
+      "meta": 1
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "minecraft:piston",
+      "meta": 0
+    },
+    "e": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "g": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    }
+  },
+  "shape": [
+    [
+      [
+        "_", "a", "a"
+      ],
+      [
+        "_", "d", "a"
+      ],
+      [
+        "_", "_", "_"
+      ]
+    ],
+    [
+      [
+        "_", "b", "b"
+      ],
+      [
+        "_", "b", "b"
+      ],
+      [
+        "f", "_", "_"
+      ]
+    ],
+    [
+      [
+        "g", "c", "c"
+      ],
+      [
+        "c", "e:B", "c"
+      ],
+      [
+        "c", "e", "c"
+      ]
+    ]
+  ]
+
+
+}
+
+
+
+
+

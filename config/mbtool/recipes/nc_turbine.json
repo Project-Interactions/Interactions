@@ -1,0 +1,153 @@
+{
+  "name": "nc_turbine",
+  "label": "NC Turbine",
+  "target-item": "nuclearcraft:turbine_controller",
+  "allow-rotate": false,
+  "input-types": {
+    "a": {
+      "id": "nuclearcraft:turbine_casing",
+      "meta": 0
+    },
+    "b": {
+      "id": "nuclearcraft:turbine_dynamo_coil",
+      "meta": 2
+    },
+    "c": {
+      "id": "nuclearcraft:turbine_dynamo_coil",
+      "meta": 0
+    },
+    "d": {
+      "id": "nuclearcraft:turbine_rotor_bearing",
+      "meta": 0
+    },
+    "e": {
+      "id": "nuclearcraft:turbine_outlet",
+      "meta": 2,
+      "ignore-meta": true
+    },
+    "f": {
+      "id": "nuclearcraft:turbine_glass",
+      "meta": 0
+    },
+    "g": {
+      "id": "nuclearcraft:turbine_rotor_blade_steel",
+      "meta": 2,
+      "ignore-meta": true
+    },
+    "h": {
+      "id": "nuclearcraft:turbine_rotor_blade_steel",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "i": {
+      "id": "nuclearcraft:turbine_rotor_shaft",
+      "meta": 3,
+      "ignore-meta": true
+    },
+    "j": {
+      "id": "nuclearcraft:turbine_controller",
+      "meta": 5,
+      "ignore-meta": true
+    },
+    "k": {
+      "id": "nuclearcraft:turbine_inlet",
+      "meta": 2,
+      "ignore-meta": true
+    }
+  },
+  "shape": [
+    [
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "f", "f", "f", "a"
+      ],
+      [
+        "a", "f", "f", "f", "a"
+      ],
+      [
+        "a", "f", "f", "f", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "c", "b", "a"
+      ],
+      [
+        "f", "_", "g", "_", "f"
+      ],
+      [
+        "f", "_", "g", "_", "f"
+      ],
+      [
+        "f", "_", "g", "_", "f"
+      ],
+      [
+        "a", "b", "c", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "c", "d", "c", "a"
+      ],
+      [
+        "f", "h", "i", "h", "f"
+      ],
+      [
+        "f", "h", "i", "h", "f"
+      ],
+      [
+        "f", "h", "i", "h", "f"
+      ],
+      [
+        "a", "c", "d", "c", "a"
+      ]
+    ],
+    [
+      [
+        "a", "k", "c", "b", "a"
+      ],
+      [
+        "f", "_", "g", "_", "f"
+      ],
+      [
+        "f", "_", "g", "_", "j"
+      ],
+      [
+        "f", "_", "g", "_", "f"
+      ],
+      [
+        "a", "e", "c", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ]
+    ]
+  ]
+
+
+
+}
+
+
+
+
+

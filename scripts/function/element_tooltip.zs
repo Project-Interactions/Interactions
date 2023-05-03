@@ -38,20 +38,22 @@ var parts as string[]=[
 ];
 
 var materialsAndElement as string[string] ={
-  "iron":"Fe",
-  "gold":"Au",
-  "copper":"Cu",
-  "tin":"Sn",
-  "silver":"Ag",
-  "lead":"Pb",
-  "aluminum":"Al",
-  "nickel":"Ni",
-  "plantinum":"Pt",
-  "iridium":"Ir"
+  "Iron":"Fe",
+  "Gold":"Au",
+  "Copper":"Cu",
+  "Tin":"Sn",
+  "Silver":"Ag",
+  "Lead":"Pb",
+  "Aluminum":"Al",
+  "Nickel":"Ni",
+  "Plantinum":"Pt",
+  "Iridium":"Ir",
+  "Osmium":"Os",
+  "Uranium":"U"
 };
 
 for part in parts {
     for material,element in materialsAndElement{
-    oreDict[part + capitalize(material)].addTooltip(element);
+    oreDict[part + material].addTooltip(element);
   }
 }

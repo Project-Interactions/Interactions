@@ -8,21 +8,10 @@
 		"62a0a54b"
 	],
 	tasks: [{
-		uid: "014cf8de",
+		uid: "5c21a901",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gemDilithium"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "gemDilithium"
-				}
-			}
+			item: "libvulpes:productgem"
 		}]
 	}]
 }

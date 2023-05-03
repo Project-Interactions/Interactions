@@ -1,0 +1,121 @@
+{
+  "name": "excavator",
+  "label": "Excavator",
+  "target-item": "immersiveengineering:tool",
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 7
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "f": {
+      "id": "immersiveengineering:storage",
+      "meta": 8
+    },
+    "g": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ],
+      [
+        "_", "_", "_", "f", "_", "_", "_", "_"
+      ],
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ]
+    ],
+    [
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ],
+      [
+        "_", "f", "g", "g", "g", "f", "_", "_"
+      ],
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ]
+    ],
+    [
+      [
+        "_", "_", "b", "b", "b", "b", "e", "b"
+      ],
+      [
+        "_", "g", "g", "g", "g", "g", "_", "b"
+      ],
+      [
+        "_", "_", "e", "e", "e", "d", "d", "a"
+      ]
+    ],
+    [
+      [
+        "_", "_", "a", "a", "a", "b", "e", "b"
+      ],
+      [
+        "f", "g", "g", "f", "g", "g", "f", "a"
+      ],
+      [
+        "_", "_", "e", "e", "e", "b", "b", "c"
+      ]
+    ],
+    [
+      [
+        "_", "_", "g", "g", "g", "b", "e", "b"
+      ],
+      [
+        "_", "g", "g", "g", "g", "g", "_", "b"
+      ],
+      [
+        "_", "_", "g", "g", "g", "b", "b", "d"
+      ]
+    ],
+    [
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ],
+      [
+        "_", "f", "g", "g", "g", "f", "_", "_"
+      ],
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ]
+    ],
+    [
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ],
+      [
+        "_", "_", "_", "f", "_", "_", "_", "_"
+      ],
+      [
+        "_", "_", "_", "_", "_", "_", "_", "_"
+      ]
+    ]
+  ]
+
+}
+
+
+
+
+

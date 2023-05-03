@@ -68,6 +68,7 @@ RecipeUtils.recipeTweak(true,<mekanism:machineblock2:10>, [[<theaurorian:auroria
 RecipeUtils.recipeTweak(true,<mekanism:machineblock:12>, [[null, <thaumcraft:smelter_aux>, null], [<mekanism:enrichedalloy>, <mekanism:basicblock:8>, <mekanism:enrichedalloy>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
 RecipeUtils.recipeTweak(true,<mekanism:electrolyticcore>, [[<mekanism:enrichedalloy>, <ore:dustOsmium>, <mekanism:enrichedalloy>], [<ore:circuitElite>, <mekanism:enrichedalloy>, <ore:circuitElite>], [<mekanism:enrichedalloy>, <ore:dustOsmium>, <mekanism:enrichedalloy>]]);
 RecipeUtils.recipeTweak(true,<mekanism:energytablet>, [[<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>], [<mekanism:enrichedalloy>, <ore:circuitElite>, <mekanism:enrichedalloy>], [<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>]]);
+RecipeUtils.recipeTweak(true,<mekanismgenerators:generator:4>, [[<ore:dustRedstone>, <mekanism:enrichedalloy>, <ore:dustRedstone>], [<mekanism:biofuel>, <mekanism:basicblock:8>, <mekanism:biofuel>], [<ore:ingotIron>, <mekanism:enrichedalloy>, <ore:ingotIron>]]);
 
 //circuits
 recipes.remove(<mekanism:controlcircuit:1>);

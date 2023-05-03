@@ -1,0 +1,104 @@
+{
+  "name": "smeltery",
+  "label": "Smeltery",
+  "target-item": "tconstruct:smeltery_controller",
+
+  "input-types": {
+    "a": {
+      "id": "tconstruct:seared",
+      "meta": 3
+    },
+    "b": {
+      "id": "tconstruct:smeltery_controller",
+      "meta": 3
+    },
+    "c": {
+      "id": "tconstruct:seared_tank",
+      "meta": 1
+    },
+    "d": {
+      "id": "tconstruct:faucet",
+      "meta": 2
+    },
+    "e": {
+      "id": "tconstruct:smeltery_io",
+      "meta": 0
+    },
+    "f": {
+      "id": "tconstruct:casting",
+      "meta": 1
+    },
+    "g": {
+      "id": "tconstruct:faucet",
+      "meta": 5
+    },
+    "h": {
+      "id": "tconstruct:casting",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_", "a", "a", "a", "a", "a"
+      ],
+      [
+        "_", "a", "_", "_", "_", "a"
+      ],
+      [
+        "_", "a", "_", "_", "_", "a"
+      ],
+      [
+        "_", "a", "_", "_", "_", "a"
+      ],
+      [
+        "_", "a", "a", "a", "a", "a"
+      ],
+      [
+        "_", "_", "_", "_", "_", "_"
+      ]
+    ],
+    [
+      [
+        "_", "a", "a", "a", "a", "a"
+      ],
+      [
+        "_", "a", "_", "_", "_", "a"
+      ],
+      [
+        "_", "a", "_", "_", "_", "a"
+      ],
+      [
+        "_", "a", "_", "_", "_", "a"
+      ],
+      [
+        "g", "e", "c", "b", "a", "a"
+      ],
+      [
+        "_", "d", "_", "_", "_", "_"
+      ]
+    ],
+    [
+      [
+        "_", "a", "a", "a", "a", "a"
+      ],
+      [
+        "_", "a", "a", "a", "a", "a"
+      ],
+      [
+        "_", "a", "a", "a", "a", "a"
+      ],
+      [
+        "_", "a", "a", "a", "a", "a"
+      ],
+      [
+        "h", "a", "a", "a", "a", "a"
+      ],
+      [
+        "_", "f", "_", "_", "_", "_"
+      ]
+    ]
+  ]
+
+
+}

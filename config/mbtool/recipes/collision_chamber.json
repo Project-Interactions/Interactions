@@ -1,0 +1,229 @@
+{
+  "name": "collision_chamber",
+  "label": "Collision Chamber",
+  "target-item": "qmd:collision_chamber_controller",
+
+  "input-types": {
+    "a": {
+      "id": "qmd:particle_chamber_casing",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "b": {
+      "id": "qmd:particle_chamber_glass",
+      "meta": 0
+    },
+    "c": {
+      "id": "qmd:particle_chamber_beam_port",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "d": {
+      "id": "qmd:collision_chamber_controller",
+      "meta": 2,
+      "ignore-meta": true
+    },
+    "e": {
+      "id": "qmd:particle_chamber_energy_port",
+      "meta": 0
+    },
+    "f": {
+      "id": "qmd:particle_chamber_detector",
+      "meta": 4
+    },
+    "g": {
+      "id": "qmd:particle_chamber_detector",
+      "meta": 3
+    },
+    "h": {
+      "id": "qmd:particle_chamber_detector",
+      "meta": 2
+    },
+    "i": {
+      "id": "qmd:particle_chamber_beam",
+      "meta": 0
+    },
+    "j": {
+      "id": "qmd:particle_chamber_casing",
+      "meta": 0
+    },
+    "k": {
+      "id": "qmd:particle_chamber_detector",
+      "meta": 1
+    },
+    "l": {
+      "id": "qmd:particle_chamber_beam_port",
+      "meta": 0
+    },
+    "m": {
+      "id": "qmd:particle_chamber",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "b", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "b"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "b", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "b"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "b", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "b"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "b", "h", "g", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "g", "h", "b"
+      ],
+      [
+        "b", "k", "h", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "h", "k", "b"
+      ],
+      [
+        "b", "h", "g", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "g", "h", "b"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "c", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "c", "b", "a"
+      ],
+      [
+        "b", "h", "i", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "i", "h", "b"
+      ],
+      [
+        "b", "k", "i", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "i", "k", "b"
+      ],
+      [
+        "l", "m", "m", "m", "m", "m", "m", "m", "m", "m", "m", "m", "m", "m", "m", "m", "l"
+      ],
+      [
+        "b", "k", "i", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "i", "k", "b"
+      ],
+      [
+        "b", "h", "i", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "i", "h", "b"
+      ],
+      [
+        "a", "b", "c", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "c", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "b", "h", "g", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "g", "h", "b"
+      ],
+      [
+        "b", "k", "h", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "k", "h", "k", "b"
+      ],
+      [
+        "b", "h", "g", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "g", "h", "b"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "e", "b", "d", "b", "a"
+      ],
+      [
+        "b", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "b"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "b", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "b"
+      ],
+      [
+        "b", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "g", "b"
+      ],
+      [
+        "b", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "b"
+      ],
+      [
+        "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "a"
+      ],
+      [
+        "a", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "a"
+      ],
+      [
+        "a", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "a"
+      ],
+      [
+        "a", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "a"
+      ],
+      [
+        "a", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "j", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"
+      ]
+    ]
+  ]
+}
+
+
+

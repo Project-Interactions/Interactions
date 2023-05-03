@@ -1,0 +1,153 @@
+{
+  "name": "diverter",
+  "label": "Beam Diverter",
+  "target-item": "qmd:beam_diverter_controller",
+
+  "input-types": {
+    "a": {
+      "id": "qmd:accelerator_casing",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "b": {
+      "id": "qmd:accelerator_glass",
+      "meta": 0
+    },
+    "c": {
+      "id": "qmd:accelerator_beam_port",
+      "meta": 0
+    },
+    "d": {
+      "id": "qmd:beam_diverter_controller",
+      "meta": 2,
+      "ignore-meta": true
+    },
+    "e": {
+      "id": "qmd:accelerator_yoke",
+      "meta": 0
+    },
+    "f": {
+      "id": "qmd:accelerator_beam",
+      "meta": 0
+    },
+    "g": {
+      "id": "qmd:accelerator_vent",
+      "meta": 4,
+      "ignore-meta": true
+    },
+    "h": {
+      "id": "qmd:accelerator_magnet",
+      "meta": 1
+    },
+    "i": {
+      "id": "qmd:accelerator_beam_port",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "j": {
+      "id": "qmd:accelerator_beam_port",
+      "meta": 2,
+      "ignore-meta": true
+    },
+    "k": {
+      "id": "qmd:accelerator_energy_port",
+      "meta": 0
+    },
+    "l": {
+      "id": "qmd:accelerator_vent",
+      "meta": 12,
+      "ignore-meta": true
+    }
+  },
+
+  "shape": [
+    [
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "b", "b", "a"
+      ],
+      [
+        "b", "e", "e", "e", "b"
+      ],
+      [
+        "b", "e", "h", "e", "b"
+      ],
+      [
+        "b", "e", "e", "e", "b"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "b", "c", "b", "a"
+      ],
+      [
+        "b", "e", "f", "e", "b"
+      ],
+      [
+        "j", "f", "f", "f", "i"
+      ],
+      [
+        "b", "e", "f", "e", "b"
+      ],
+      [
+        "a", "b", "j", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "d", "b", "b", "a"
+      ],
+      [
+        "g", "e", "e", "e", "b"
+      ],
+      [
+        "k", "e", "h", "e", "b"
+      ],
+      [
+        "l", "e", "e", "e", "b"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ]
+    ],
+    [
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ],
+      [
+        "a", "b", "b", "b", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ]
+    ]
+  ]
+
+}
+
+

@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:2
 guiScale:4
@@ -348,7 +348,7 @@ key_enderio.keybind.fovminusfast:0
 key_key.craftpresence.config_keycode.name:41
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:0.0
+soundCategory_master:0.8013245
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

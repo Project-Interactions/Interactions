@@ -1,0 +1,76 @@
+{
+  "name": "fermenter",
+  "label": "Fermenter",
+
+  "target-item": "immersiveengineering:tool",
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "b": {
+      "id": "minecraft:cauldron",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    }
+  },
+  "shape": [
+    [
+      [
+        "_", "a", "a"
+      ],
+      [
+        "_", "a", "a"
+      ],
+      [
+        "_", "_", "_"
+      ]
+    ],
+    [
+      [
+        "f", "b", "b"
+      ],
+      [
+        "_", "b", "b"
+      ],
+      [
+        "e", "_", "_"
+      ]
+    ],
+    [
+      [
+        "f", "c", "c"
+      ],
+      [
+        "c", "d", "c"
+      ],
+      [
+        "c", "d", "c"
+      ]
+    ]
+  ]
+
+
+
+}
+
+
+
+
+

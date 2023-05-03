@@ -1,0 +1,286 @@
+{
+  "name": "mek_turbine",
+  "label": "Turbine",
+
+  "target-item": "mekanismgenerators:turbineblade",
+
+  "input-types": {
+    "a": {
+      "id": "mekanismgenerators:generator",
+      "meta": 10
+    },
+    "b": {
+      "id": "mekanismgenerators:generator",
+      "meta": 12
+    },
+    "c": {
+      "id": "mekanism:basicblock",
+      "meta": 10
+    },
+    "d": {
+      "id": "mekanismgenerators:generator",
+      "meta": 11
+    },
+    "e": {
+      "id": "mekanismgenerators:generator",
+      "meta": 13
+    },
+    "f": {
+      "id": "mekanismgenerators:generator",
+      "meta": 9
+    },
+    "g": {
+      "id": "mekanism:basicblock2",
+      "meta": 6
+    },
+    "h": {
+      "id": "mekanismgenerators:generator",
+      "meta": 8
+    },
+    "i": {
+      "id": "mekanismgenerators:generator",
+      "meta": 7
+    },
+    "j": {
+      "id": "mekanismgenerators:turbineblade",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{facing:4,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_casing\",redstone:0b}"
+    },
+    "a:B": {
+      "nbt": "{facing:3,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_casing\",redstone:0b}"
+    },
+    "a:C": {
+      "nbt": "{facing:5,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_casing\",redstone:0b}"
+    },
+    "b:A": {
+      "nbt": "{facing:3,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_vent\",redstone:0b}"
+    },
+    "a:D": {
+      "nbt": "{facing:2,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_casing\",redstone:0b}"
+    },
+    "c:A": {
+      "nbt": "{id:\"mekanism:structural_glass\"}"
+    },
+    "d:A": {
+      "nbt": "{facing:2,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_valve\",redstone:0b}"
+    },
+    "a:E": {
+      "nbt": "{facing:1,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_casing\",redstone:0b}"
+    },
+    "b:B": {
+      "nbt": "{facing:2,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_vent\",redstone:0b}"
+    },
+    "b:C": {
+      "nbt": "{facing:4,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_vent\",redstone:0b}"
+    },
+    "e:A": {
+      "nbt": "{facing:5,id:\"mekanismgenerators:saturating_condenser\",redstone:0b}"
+    },
+    "e:B": {
+      "nbt": "{facing:2,id:\"mekanismgenerators:saturating_condenser\",redstone:0b}"
+    },
+    "f:A": {
+      "nbt": "{facing:1,id:\"mekanismgenerators:electromagnetic_coil\",redstone:0b}"
+    },
+    "b:D": {
+      "nbt": "{facing:5,electricity:0.0d,dumpMode:0,id:\"mekanismgenerators:turbine_vent\",redstone:0b}"
+    },
+    "g:A": {
+      "nbt": "{facing:4,id:\"mekanism:pressure_disperser\",redstone:0b}"
+    },
+    "g:B": {
+      "nbt": "{facing:3,id:\"mekanism:pressure_disperser\",redstone:0b}"
+    },
+    "e:C": {
+      "nbt": "{facing:1,id:\"mekanismgenerators:saturating_condenser\",redstone:0b}"
+    },
+    "f:B": {
+      "nbt": "{facing:3,id:\"mekanismgenerators:electromagnetic_coil\",redstone:0b}"
+    },
+    "h:A": {
+      "nbt": "{facing:3,id:\"mekanismgenerators:rotational_complex\",redstone:0b}"
+    },
+    "g:C": {
+      "nbt": "{facing:5,id:\"mekanism:pressure_disperser\",redstone:0b}"
+    },
+    "i:A": {
+      "nbt": "{blades:2,facing:4,id:\"mekanismgenerators:turbine_rod\",redstone:0b}"
+    },
+    "i:B": {
+      "nbt": "{blades:2,facing:5,id:\"mekanismgenerators:turbine_rod\",redstone:0b}"
+    },
+    "i:C": {
+      "nbt": "{blades:2,facing:1,id:\"mekanismgenerators:turbine_rod\",redstone:0b}"
+    },
+    "g:D": {
+      "nbt": "{facing:2,id:\"mekanism:pressure_disperser\",redstone:0b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:D", "a:D", "a:D", "a:D", "a:C"
+      ],
+      [
+        "a:A", "b:B", "b:B", "b:B", "a:C"
+      ],
+      [
+        "a:A", "b:B", "b:B", "b:B", "a:C"
+      ],
+      [
+        "a:A", "b:B", "b:B", "b:B", "a:C"
+      ],
+      [
+        "a:A", "a:B", "a:B", "a:B", "a:C"
+      ]
+    ],
+    [
+      [
+        "a:D", "b:B", "b:B", "b:B", "a:D"
+      ],
+      [
+        "b:C", "e:A", "e:A", "e:A", "b:A"
+      ],
+      [
+        "b:C", "e:C", "e:A", "e:A", "b:A"
+      ],
+      [
+        "b:C", "e:A", "e:A", "e:A", "b:A"
+      ],
+      [
+        "a:A", "b:A", "b:A", "b:A", "a:B"
+      ]
+    ],
+    [
+      [
+        "a:D", "b:B", "b:B", "b:B", "a:D"
+      ],
+      [
+        "b:C", "e:A", "f:A", "e:A", "b:D"
+      ],
+      [
+        "b:C", "e:B", "f:B", "e:A", "b:D"
+      ],
+      [
+        "b:C", "e:B", "f:A", "e:B", "b:D"
+      ],
+      [
+        "a:D", "b:A", "b:A", "b:A", "a:B"
+      ]
+    ],
+    [
+      [
+        "a:C", "a:D", "a:D", "a:D", "a:B"
+      ],
+      [
+        "a:A", "g:D", "g:D", "g:D", "a:C"
+      ],
+      [
+        "a:A", "g:A", "h:A", "g:C", "a:C"
+      ],
+      [
+        "a:A", "g:A", "g:B", "g:B", "a:C"
+      ],
+      [
+        "a:B", "a:B", "a:B", "a:B", "a:D"
+      ]
+    ],
+    [
+      [
+        "a:D", "c:A", "c:A", "c:A", "a:C"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "i:A", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "a:D", "c:A", "c:A", "c:A", "a:D"
+      ]
+    ],
+    [
+      [
+        "a:D", "c:A", "c:A", "c:A", "a:C"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "i:A", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "a:D", "c:A", "c:A", "c:A", "a:D"
+      ]
+    ],
+    [
+      [
+        "a:D", "c:A", "c:A", "c:A", "a:C"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "i:B", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "a:D", "c:A", "c:A", "c:A", "a:D"
+      ]
+    ],
+    [
+      [
+        "a:D", "c:A", "c:A", "c:A", "a:C"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "i:C", "_", "c:A"
+      ],
+      [
+        "c:A", "_", "_", "_", "c:A"
+      ],
+      [
+        "a:D", "d:A", "c:A", "d:A", "a:E"
+      ]
+    ],
+    [
+      [
+        "a:D", "a:A", "a:A", "a:A", "a:C"
+      ],
+      [
+        "a:A", "a:A", "a:A", "a:A", "a:B"
+      ],
+      [
+        "a:A", "a:A", "a:A", "a:A", "a:B"
+      ],
+      [
+        "a:A", "a:A", "a:A", "a:A", "a:B"
+      ],
+      [
+        "a:A", "a:A", "a:A", "a:A", "a:A"
+      ]
+    ]
+  ]
+
+
+
+}
+
+
+
+
+

@@ -5,8 +5,6 @@ import crafttweaker.item.IIngredient;
 import mods.advancedrocketry.RecipeTweaker as ARTweaker;
 import mods.nuclearcraft.Assembler;
 
-<ore:gemDilithium>.add(<jaopca:mekanism_crystal.dilithium>);
-
 RecipeUtils.recipeTweak(true, <advancedrocketry:solararray>, [[<ore:stickSolarium>, <advancedrocketry:misc>, <ore:stickSolarium>], [<ore:paneGlass>, <libvulpes:structuremachine>, <ore:paneGlass>], [<ore:stickSolarium>, <solarflux:photovoltaic_cell_6>, <ore:stickSolarium>]]);
 RecipeUtils.recipeTweak(true, <advancedrocketry:rocketbuilder>, [[<advancedrocketry:ic>, <advancedrocketry:misc>, <advancedrocketry:ic>], [<advancedrocketry:ic:3>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<ore:gearTitanium>, <advancedrocketry:concrete>, <ore:gearTitanium>]]);
 
@@ -148,4 +146,11 @@ ARTweaker.forMachine("Crystallizer")
 .outputs(<libvulpes:productgem>*2)
 .power(800)
 .timeRequired(50)
+.build();
+ARTweaker.forMachine("Crystallizer")
+.builder()
+.inputs(<jaopca:mekanism_crystal.dilithium>)
+.outputs(<libvulpes:productgem>)
+.power(800)
+.timeRequired(30)
 .build();

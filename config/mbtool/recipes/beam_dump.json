@@ -1,0 +1,81 @@
+{
+  "name": "beam_dump",
+  "label": "Beam Dump",
+  "target-item": "qmd:beam_splitter_controller",
+
+  "input-types": {
+    "a": {
+      "id": "qmd:particle_chamber_glass",
+      "meta": 0
+    },
+    "b": {
+      "id": "qmd:beam_dump_controller",
+      "meta": 3,
+      "ignore-meta": true
+    },
+    "c": {
+      "id": "qmd:particle_chamber_casing",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "d": {
+      "id": "qmd:particle_chamber_beam_port",
+      "meta": 0
+    },
+    "e": {
+      "id": "qmd:particle_chamber",
+      "meta": 0
+    },
+    "f": {
+      "id": "qmd:particle_chamber_fluid_port",
+      "meta": 13,
+      "ignore-meta": true
+    },
+    "g": {
+      "id": "qmd:particle_chamber_casing",
+      "meta": 0
+    },
+    "h": {
+      "id": "qmd:particle_chamber_energy_port",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a", "a", "a"
+      ],
+      [
+        "a", "a", "a"
+      ],
+      [
+        "a", "a", "a"
+      ]
+    ],
+    [
+      [
+        "a", "h", "a"
+      ],
+      [
+        "d", "e", "f"
+      ],
+      [
+        "a", "b", "a"
+      ]
+    ],
+    [
+      [
+        "c", "c", "c"
+      ],
+      [
+        "c", "g", "c"
+      ],
+      [
+        "c", "c", "c"
+      ]
+    ]
+  ]
+
+}
+
+

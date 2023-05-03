@@ -1,0 +1,150 @@
+{
+  "name": "decay_chamber",
+  "label": "Decay Chamber",
+  "target-item": "qmd:decay_chamber_controller",
+
+  "input-types": {
+    "a": {
+      "id": "qmd:particle_chamber_glass",
+      "meta": 0
+    },
+    "b": {
+      "id": "qmd:particle_chamber_beam_port",
+      "meta": 0
+    },
+    "c": {
+      "id": "qmd:decay_chamber_controller",
+      "meta": 3,
+      "ignore-meta": true
+    },
+    "d": {
+      "id": "qmd:particle_chamber_casing",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "e": {
+      "id": "qmd:particle_chamber_detector",
+      "meta": 3
+    },
+    "f": {
+      "id": "qmd:particle_chamber_detector",
+      "meta": 2
+    },
+    "g": {
+      "id": "qmd:particle_chamber_beam",
+      "meta": 0
+    },
+    "h": {
+      "id": "qmd:particle_chamber_casing",
+      "meta": 0
+    },
+    "i": {
+      "id": "qmd:particle_chamber_detector",
+      "meta": 1
+    },
+    "j": {
+      "id": "qmd:particle_chamber_beam_port",
+      "meta": 1,
+      "ignore-meta": true
+    },
+    "k": {
+      "id": "qmd:particle_chamber",
+      "meta": 0
+    },
+    "l": {
+      "id": "qmd:particle_chamber_energy_port",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ]
+    ],
+    [
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "e", "f", "e", "a"
+      ],
+      [
+        "a", "f", "i", "f", "a"
+      ],
+      [
+        "a", "e", "f", "e", "a"
+      ],
+      [
+        "a", "a", "a", "a", "a"
+      ]
+    ],
+    [
+      [
+        "a", "a", "j", "a", "a"
+      ],
+      [
+        "a", "f", "g", "f", "a"
+      ],
+      [
+        "j", "g", "k", "g", "j"
+      ],
+      [
+        "a", "f", "g", "f", "a"
+      ],
+      [
+        "a", "a", "b", "a", "a"
+      ]
+    ],
+    [
+      [
+        "a", "a", "a", "a", "a"
+      ],
+      [
+        "a", "e", "f", "e", "a"
+      ],
+      [
+        "a", "f", "i", "f", "l"
+      ],
+      [
+        "a", "e", "f", "e", "a"
+      ],
+      [
+        "a", "a", "c", "a", "a"
+      ]
+    ],
+    [
+      [
+        "d", "d", "d", "d", "d"
+      ],
+      [
+        "d", "h", "h", "h", "d"
+      ],
+      [
+        "d", "h", "h", "h", "d"
+      ],
+      [
+        "d", "h", "h", "h", "d"
+      ],
+      [
+        "d", "d", "d", "d", "d"
+      ]
+    ]
+  ]
+
+
+}
+
+

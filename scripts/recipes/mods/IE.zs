@@ -267,3 +267,5 @@ Crusher.removeRecipe(<libvulpes:productgem>);
 Crusher.removeRecipe(<libvulpes:productgem>*2);
 
 <ore:coilCopper>.remove(<immersiveengineering:metal_decoration0>);
+
+Squeezer.addRecipe(<minecraft:blaze_rod>,<liquid:lava>*500,<minecraft:blaze_powder>*5,60);
