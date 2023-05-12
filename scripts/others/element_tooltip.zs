@@ -49,7 +49,8 @@ var materialsAndElement as string[string] ={
   "Plantinum":"Pt",
   "Iridium":"Ir",
   "Osmium":"Os",
-  "Uranium":"U"
+  "Uranium":"U",
+  "Titanium":"Ti"
 };
 
 for part in parts {

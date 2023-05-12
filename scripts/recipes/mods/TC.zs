@@ -110,7 +110,8 @@ val ichorremove as IItemStack[] =
 <ichoriumkit:kami_helm>,
 <ichoriumkit:kami_chest>,
 <ichoriumkit:kami_legs>,
-<ichoriumkit:kami_boots>
+<ichoriumkit:kami_boots>,
+<mia:void_creator>
 ];
 for Remove in ichorremove {
     Infusion.removeRecipe(Remove);

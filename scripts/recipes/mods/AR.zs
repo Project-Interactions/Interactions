@@ -5,6 +5,13 @@ import crafttweaker.item.IIngredient;
 import mods.advancedrocketry.RecipeTweaker as ARTweaker;
 import mods.nuclearcraft.Assembler;
 
+//oredict for geode
+for i in 0 to 6 {
+    <ore:crystalGeode>.add(<advancedrocketry:crystal>.definition.makeStack(i));
+}
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:solarpanel>, [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:dustGlowstone>, <libvulpes:structuremachine>, <ore:dustGlowstone>], [<ore:plateGold>, <actuallyadditions:block_furnace_solar>, <ore:plateGold>]]);
+
 RecipeUtils.recipeTweak(true, <advancedrocketry:solararray>, [[<ore:stickSolarium>, <advancedrocketry:misc>, <ore:stickSolarium>], [<ore:paneGlass>, <libvulpes:structuremachine>, <ore:paneGlass>], [<ore:stickSolarium>, <solarflux:photovoltaic_cell_6>, <ore:stickSolarium>]]);
 RecipeUtils.recipeTweak(true, <advancedrocketry:rocketbuilder>, [[<advancedrocketry:ic>, <advancedrocketry:misc>, <advancedrocketry:ic>], [<advancedrocketry:ic:3>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<ore:gearTitanium>, <advancedrocketry:concrete>, <ore:gearTitanium>]]);
 
@@ -35,7 +42,8 @@ val remove as IItemStack[] =
 <libvulpes:coil0:4>,
 <libvulpes:coil0:7>,
 <libvulpes:coil0:9>,
-<libvulpes:coil0:10>
+<libvulpes:coil0:10>,
+<libvulpes:advstructuremachine>*16
 ];
 
 for Remove in remove {
@@ -61,7 +69,10 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:precisionassemblingmachine>, [[<
 recipes.remove(<advancedrocketry:launchpad>);
 recipes.addShapeless(<advancedrocketry:launchpad>,[<ore:concrete>,<wirelessutils:launch_module>]);
 
+
 RecipeUtils.recipeTweak(true, <advancedrocketry:guidancecomputer>, [[<advancedrocketry:ic:2>, <ore:plateTitanium>, <advancedrocketry:ic:2>], [<ore:dustRedstone>, <libvulpes:structuremachine>, <ore:dustRedstone>], [<advancedrocketry:ic:1>, <ore:dustRedstone>, <advancedrocketry:ic:1>]]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:precisionlaseretcher>, [[<libvulpes:productgem>, <advancedrocketry:misc>, <libvulpes:productgem>], [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<advancedrocketry:ic:2>, <advancedrocketry:ic:2>, <advancedrocketry:ic:2>]]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:vacuumlaser>, [[<libvulpes:productgem>, <advancedrocketry:blocklens>, <libvulpes:productgem>], [<ore:plateDenseSiCSiCCMC>, <advancedrocketry:crystal:3>, <ore:plateDenseSiCSiCCMC>], [<ore:plateDenseOsmiridium>, <libvulpes:structuremachine>, <ore:plateDenseOsmiridium>]]);
 
 //fuel tanks
 RecipeUtils.recipeTweak(true, <advancedrocketry:fueltank>, [[<ore:stickOsmium>, null, <ore:stickOsmium>], [<ore:plateOsmium>, <mekanism:machineblock2:11>.withTag({tier: 1}), <ore:plateOsmium>], [<ore:stickOsmium>, <ore:sheetIron>, <ore:stickOsmium>]]);

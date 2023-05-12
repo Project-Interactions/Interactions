@@ -7,5 +7,5 @@
 
 [oredict]
 	#Should the module register rod oredict for sticks.
-	registerRodOredict = true
+	registerRodOredict = false
 

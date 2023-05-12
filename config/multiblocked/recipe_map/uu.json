@@ -11,9 +11,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 8,
+              "amount": 1,
               "matches": [
-                "{id:\"minecraft:air\",Count:8,Damage:0s}"
+                "{id:\"draconicevolution:chaotic_core\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -34,7 +34,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"neutronium\",Amount:144}"
+            "content": "{FluidName:\"neutronium\",Amount:1000}"
           }
         ]
       }

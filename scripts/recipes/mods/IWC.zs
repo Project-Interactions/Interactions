@@ -14,7 +14,6 @@ FluidToItem.transform(<appliedenergistics2:material:45>*16, <liquid:steel>, [<te
 FluidToItem.transform(<tconstruct:slime_dirt>, <liquid:slime_cot>, [<minecraft:dirt>], true);
 FluidToItem.transform(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), <liquid:napalm>, [<immersiveengineering:blueprint>], true);
 FluidToItem.transform(<contenttweaker:ore_essence>*16, <liquid:ore_water>, [<botania:manaresource:21>*2], true);
-FluidToItem.transform(<contenttweaker:ore_essence>*16, <liquid:ore_water>, [<practicallogistics2:stoneplate>], true);
 FluidToItem.transform(<minecraft:clay>, <liquid:water>, [<extrautils2:compressedsand>], true);
 FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dirt>], true);
 FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:logWood>*64], true);

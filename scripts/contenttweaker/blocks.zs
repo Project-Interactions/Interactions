@@ -1,6 +1,8 @@
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
+
+
 var refined_ore_essence = VanillaFactory.createBlock("refined_ore_essence",<blockmaterial:iron>);
 refined_ore_essence.lightOpacity=255;
 refined_ore_essence.blockHardness=2;

@@ -11,7 +11,7 @@ import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.AlloyFurnace;
 import mods.nuclearcraft.SaltMixer;
 
-
+recipes.remove(<nuclearcraft:glowing_mushroom>);
 
 addRegexLogFilter("At least one NuclearCraft recipe removal method has errored. Check the log for more details");
 

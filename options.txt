@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:8
 guiScale:4
 particles:2
 bobView:true
@@ -252,6 +252,10 @@ key_key.little.config.item:0
 key_key.little.config:0:CONTROL
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
+key_key.music_player_gui:82
+key_key.music_player_toggle:80
+key_key.music_player_next:81
+key_key.music_player_previous:79
 key_keybind.simplyjetpacks.gui:44
 key_keybind.simplyjetpacks.engine:34
 key_keybind.simplyjetpacks.charger:25
@@ -348,12 +352,12 @@ key_enderio.keybind.fovminusfast:0
 key_key.craftpresence.config_keycode.name:41
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:0.8013245
+soundCategory_master:0.5
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
-soundCategory_hostile:1.0
+soundCategory_hostile:0.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0

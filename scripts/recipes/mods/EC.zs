@@ -3,8 +3,10 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.randomtweaker.utils.IInputPattern;
+import mods.extendedcrafting.EnderCrafting;
+import mods.extendedcrafting.TableCrafting;
 
-mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
+TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
 
 recipes.removeShapeless(<extendedcrafting:material:36>);
 recipes.remove(<extendedcrafting:table_advanced>);
@@ -29,15 +31,15 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:frame>, [[<extendedcrafting:mate
 RecipeUtils.recipeTweak(true, <extendedcrafting:interface>, [[<extendedcrafting:material>, <extendedcrafting:material:10>, <extendedcrafting:material>], [<extendedcrafting:material:16>, <extendedcrafting:frame>, <extendedcrafting:material:16>], [<extendedcrafting:material>, <ore:circuitElite>, <extendedcrafting:material>]]);
 
 //EnderCrafting
-mods.extendedcrafting.EnderCrafting.remove(<extendedcrafting:material:40>);
-mods.extendedcrafting.EnderCrafting.addShaped( <extendedcrafting:material:40>, [
+EnderCrafting.remove(<extendedcrafting:material:40>);
+EnderCrafting.addShaped( <extendedcrafting:material:40>, [
 	[null, <ore:pearlEnderEye>, null], 
 	[<ore:pearlEnderEye>, <actuallyadditions:item_misc:19>, <ore:pearlEnderEye>], 
 	[null, <ore:pearlEnderEye>, null]
 ]);
 
 //to origind craftingtable
-mods.extendedcrafting.TableCrafting.addShaped(1, <extendedcrafting:table_basic>, [
+TableCrafting.addShaped(1, <extendedcrafting:table_basic>, [
 	[null, <appliedenergistics2:molecular_assembler>, null], 
 	[<appliedenergistics2:molecular_assembler>, <botania_tweaks:basic_extended_crafty_crate>, <appliedenergistics2:molecular_assembler>], 
 	[null, <appliedenergistics2:molecular_assembler>, null]
@@ -57,7 +59,7 @@ tableAdvancedRecipe.transform({
 	"C" : <botania_tweaks:advanced_extended_crafty_crate>
 });
 
-mods.extendedcrafting.TableCrafting.addShaped(2, <extendedcrafting:table_advanced>, tableAdvancedRecipe.get());
+TableCrafting.addShaped(2, <extendedcrafting:table_advanced>, tableAdvancedRecipe.get());
 
 var tableEliteRecipe as IInputPattern = IInputPattern.create([
 	"AAABAAA",
@@ -75,9 +77,9 @@ tableEliteRecipe.transform({
 	"C" : <botania_tweaks:elite_extended_crafty_crate>
 });
 
-mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_elite>, tableEliteRecipe.get());
+TableCrafting.addShaped(3, <extendedcrafting:table_elite>, tableEliteRecipe.get());
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:table_ultimate>, [
+TableCrafting.addShaped(4, <extendedcrafting:table_ultimate>, [
 	[null, null, null, null, <ore:ingotUltimate>, null, null, null, null], 
 	[null, null, null, <ore:ingotUltimate>, null, <ore:ingotUltimate>, null, null, null], 
 	[null, null, <ore:ingotUltimate>, null, null, null, <ore:ingotUltimate>, null, null], 
@@ -89,7 +91,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:table_ultimat
 	[null, null, null, null, <ore:ingotUltimate>, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:crafting_core>, [
+TableCrafting.addShaped(3, <extendedcrafting:crafting_core>, [
 	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
 	[null, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, null], 
 	[null, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, <ore:blockSentientMetal>, <ore:blockBlackIron>, null], 
@@ -99,8 +101,8 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:crafting_core
 	[<ore:blockBlackIron>, <ore:blockBlackIron>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:blockBlackIron>, <ore:blockBlackIron>]
 ]);
 
-mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
-mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
+TableCrafting.remove(<extendedcrafting:material:24>);
+TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
 	[<avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>], 
 	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
 	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
@@ -111,7 +113,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
 ]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:storage:4>, [
+TableCrafting.addShaped(4, <extendedcrafting:storage:4>, [
 	[<contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>], 
 	[<contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>], 
 	[<contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>], 
@@ -141,7 +143,8 @@ RecipeUtils.recipeTweak(true, <packagedexcrafting:ultimate_crafter>, [[<extended
 RecipeUtils.recipeTweak(true, <packagedexcrafting:elite_crafter>, [[<extendedcrafting:material:16>, <extendedcrafting:interface>, <extendedcrafting:material:16>], [<ore:plateBlackIron>, <extendedcrafting:table_elite>, <ore:plateBlackIron>], [<extendedcrafting:material:16>, <packagedauto:me_package_component>, <extendedcrafting:material:16>]]);
 RecipeUtils.recipeTweak(true, <packagedexcrafting:advanced_crafter>, [[<extendedcrafting:material:15>, <extendedcrafting:interface>, <extendedcrafting:material:15>], [<ore:plateBlackIron>, <extendedcrafting:table_advanced>, <ore:plateBlackIron>], [<extendedcrafting:material:15>, <packagedauto:me_package_component>, <extendedcrafting:material:15>]]);
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:wood_essence>, [
+/*
+TableCrafting.addShaped(4, <contenttweaker:wood_essence>, [
 	[<calculator:tanzanitelog>, <botanicadds:elvenwood_log>, <minecraft:log2:1>, <minecraft:log2>, <minecraft:log:3>, <minecraft:log:2>, <minecraft:log:1>, <minecraft:log>, <calculator:amethystlog>],
 	[<forestry:logs.3:2>, <forestry:logs.3:3>, <forestry:logs.4>, <forestry:logs.4:2>, <forestry:logs.4:3>, <integrateddynamics:menril_log>, <thaumicbases:netherlogs>, <extrautils2:decorativesolidwood:1>, <twilightforest:twilight_log:3>],
 	[<forestry:logs.3>, <forestry:logs.2:3>, <bloodarsenal:blood_infused_wooden_log>, <thaumicbases:goldenlogs>,<thaumicbases:enderlogs>, <tconstruct:firewood:1>, <twilightforest:twilight_log:2>, <forestry:logs.2>, <natura:overworld_logs2:1>],
@@ -152,3 +155,4 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:wood_essence>, 
 	[<theaurorian:silentwoodlog>, <botania:dreamwood>, <techreborn:rubber_log>, <calculator:pearlog>, <natura:nether_logs:1>, <harvestcraft:pammaple>, <thaumcraft:log_silverwood>, <forestry:logs.0:1>, <forestry:logs.0:2>],
 	[<forestry:logs.6:2>, <botania:livingwood>, <naturesaura:ancient_log>, <natura:overworld_logs:1>,<thaumcraft:taint_log>, <theaurorian:weepingwillowlog>, <forestry:logs.5:2>, <forestry:logs.5>, <calculator:diamondlog>]
 ]);
+*/

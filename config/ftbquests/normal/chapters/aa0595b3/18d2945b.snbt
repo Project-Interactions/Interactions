@@ -1,4 +1,6 @@
 {
+	title: "制作火箭",
+	icon: "advancedrocketry:advrocketmotor",
 	x: 7.5d,
 	y: -4.5d,
 	dependencies: [

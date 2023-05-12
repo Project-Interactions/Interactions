@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.extrautils2.Resonator;
+import mods.extrautils2.Crusher;
+
 recipes.remove(<extrautils2:snowglobe>);
 recipes.remove(<extrautils2:quarryproxy>);
 recipes.removeShapeless(<extrautils2:rainbowgenerator>);
@@ -20,14 +23,14 @@ recipes.addShaped(<extrautils2:passivegenerator:3>, [[<extrautils2:decorativesol
 recipes.addShaped(<extrautils2:passivegenerator:2>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>],[<extrautils2:decorativesolid:3>, <techreborn:thermal_generator>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>]]);
 recipes.addShaped(<contenttweaker:useful_block>, [[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>],[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>], [<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>]]);
 recipes.addShaped(<extrautils2:resonator>, [[<ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>],[<extrautils2:ingredients>, <extrautils2:machine>, <extrautils2:ingredients>], [<astralsorcery:itemcraftingcomponent:4>, <contenttweaker:useful_block>, <astralsorcery:itemcraftingcomponent:4>]]);
-mods.extrautils2.Resonator.add(<appliedenergistics2:material>, <minecraft:quartz>, 800);
-mods.extrautils2.Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
-mods.extrautils2.Resonator.add(<techreborn:machine_frame>, <contenttweaker:useful_block>, 1600);
+Resonator.add(<appliedenergistics2:material>, <minecraft:quartz>, 800);
+Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
+Resonator.add(<techreborn:machine_frame>, <contenttweaker:useful_block>, 1600);
 
 recipes.addShaped(<extrautils2:machine> * 2, [[<ore:blockAlchemicalBrass>, <ore:blockTwilghtSteel>, <ore:blockThaumium>],[<immersiveintelligence:metal_decoration:2>, <ore:circuitMana>, <immersiveintelligence:metal_decoration:2>], [<ore:blockThaumium>, <ore:blockTwilghtSteel>, <ore:blockAlchemicalBrass>]]);
 
 
-mods.extrautils2.Resonator.add(<compactmachines3:machine:3>, <compactmachines3:machine:2>, 10000);
+Resonator.add(<compactmachines3:machine:3>, <compactmachines3:machine:2>, 10000);
 
 recipes.removeShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}));
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), [[null, <minecraft:enchanted_book:*>, null], [<ore:circuitMana>, <extrautils2:machine>, <ore:circuitMana>], [<ore:plateThaumiumOrdo>, <ore:circuitMana>, <ore:plateThaumiumOrdo>]]);
@@ -87,9 +90,9 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:passivegenerator:6
 
 recipes.addShaped(<interaction:gp>, [[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>],[<contenttweaker:useful_ingot>, <extrautils2:poweroverload>, <contenttweaker:useful_ingot>], [<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>]]);
 
-mods.extrautils2.Crusher.remove(<thermalfoundation:material:69>);
-mods.extrautils2.Crusher.remove(<immersiveengineering:metal:13>);
-mods.extrautils2.Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
+Crusher.remove(<thermalfoundation:material:69>);
+Crusher.remove(<immersiveengineering:metal:13>);
+Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
 
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}));
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:ingotIron>, <extrautils2:machine>, <ore:ingotIron>], [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
