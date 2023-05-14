@@ -94,15 +94,6 @@
         "location": "interaction:washer",
         "type": "component"
       },
-      "B": {
-        "states": [
-          {
-            "id": "tcomplement:porcelain_tank",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
       "C": {
         "states": [
           {
@@ -122,6 +113,10 @@
         "type": "capability",
         "io": "OUT"
       },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
       "any": {
         "type": "any"
       }
@@ -137,7 +132,7 @@
         "A"
       ],
       "B": [
-        "B"
+        "fluid"
       ],
       "C": [
         "C"

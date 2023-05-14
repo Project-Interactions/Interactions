@@ -54,6 +54,7 @@ recipes.addShaped(<minecraft:piston> * 2, [[<extrautils2:compressedcobblestone>,
 
 
 furnace.remove(<minecraft:coal:1>);
+furnace.remove(<minecraft:coal:1>, <aether_legacy:aether_log>);
 
 RecipeUtils.recipeTweak(true, <minecraft:cauldron>, [
     [<ore:plateIron>, null, <ore:plateIron>], 
@@ -100,14 +101,14 @@ Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key:
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),2);
 Anvil.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), salis_mundus, <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),2);
 
-/*
+
 //fix some strange crash when crafting some wooden stuff in ae
 recipes.removeByRecipeName("minecraft:chest");
 recipes.removeByRecipeName("minecraft:jukebox");
 recipes.removeByRecipeName("minecraft:noteblock");
 recipes.addShaped(<minecraft:jukebox>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, <ore:gemDiamond>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 recipes.addShaped(<minecraft:noteblock>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, <ore:dustRedstone>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
-*/
+
 
 //flopper
 RecipeUtils.recipeTweak(true,<flopper:flopper>, [[<ore:ingotIron>, <speedyhoppers:speedyhopper_mk1>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);

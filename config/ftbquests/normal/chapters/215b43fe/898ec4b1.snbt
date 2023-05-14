@@ -1,0 +1,18 @@
+{
+	x: 21.0d,
+	y: 3.5d,
+	text: [
+		"使用红石信号自动执行术式"
+	],
+	dependencies: [
+		"bfda9376",
+		"3b98c534"
+	],
+	tasks: [{
+		uid: "5e20680d",
+		type: "item",
+		items: [{
+			item: "psicaster:caster"
+		}]
+	}]
+}

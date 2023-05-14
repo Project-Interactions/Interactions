@@ -96,3 +96,16 @@ Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
 
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}));
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:ingotIron>, <extrautils2:machine>, <ore:ingotIron>], [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
+
+//remove enchenter orginal recipes
+static enchanter as extrautilities2.Tweaker.IMachine
+	= extrautilities2.Tweaker.IMachineRegistry.getMachine("extrautils2:enchanter");
+
+enchanter.removeRecipe({"input": <minecraft:iron_ingot>*8,"input_lapis": <minecraft:nether_star>});
+enchanter.removeRecipe({"input": <minecraft:gold_ingot>,"input_lapis": <minecraft:dye:4>});
+enchanter.removeRecipe({"input": <minecraft:iron_block>*8,"input_lapis": <minecraft:nether_star>*9});
+enchanter.removeRecipe({"input": <minecraft:gold_block>,"input_lapis": <minecraft:dye:4>*9});
+
+//input input output energy time
+//enchanter.addRecipe({"input": <minecraft:gold_block>*8,"input_lapis": <minecraft:nether_star>*9},{"output": <minecraft:iron_block>*8},64000,20);
+

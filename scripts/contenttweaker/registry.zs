@@ -11,7 +11,6 @@ import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
 
 //part item
-mods.contenttweaker.MaterialSystem.getPartBuilder().setName("coin").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("coin").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_tiny").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustTiny").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_small").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustSmall").build();
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("plate_dense").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("plateDense").build();

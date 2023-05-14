@@ -138,6 +138,7 @@ recipes.addShapeless(<psicosts:psi_cell:2>.withTag({PsioCharge: 720000}), [<psic
 recipes.addShapeless(<psicosts:psi_cell:3>.withTag({PsioCharge: 2560000}), [<psicosts:psi_cell:3>,<psicosts:creative_cell>.reuse()]);
 
 RecipeUtils.recipeTweak(true, <psicosts:material_glassy> * 4, [[<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>], [<pneumaticcraft:pressure_chamber_glass>, <ore:dustPsi>, <pneumaticcraft:pressure_chamber_glass>], [<ore:nuggetPsioMetal>, <pneumaticcraft:pressure_chamber_glass>, <ore:nuggetPsioMetal>]]);
+RecipeUtils.recipeTweak(true, <psicaster:caster>, [[null, <psi:psi_decorative:7>, null], [<psi:psi_decorative:1>, <psi:cad_colorizer_:16>, <psi:psi_decorative:1>], [<psi:psi_decorative:8>, <psi:psi_decorative:8>, <psi:psi_decorative:8>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <psi:cad_assembly:5>, [
 	[<ore:ingotCommand>, <ore:ingotCommand>, <ore:ingotCommand>, null, null, null, null, null, null], 
