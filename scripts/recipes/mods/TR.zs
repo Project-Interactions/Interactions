@@ -131,7 +131,7 @@ assemblingMachine.removeRecipe(<techreborn:part>);
 assemblingMachine.addRecipe(<techreborn:part:29>,<techreborn:part:40>,<techreborn:cable:5>*3,40,60);
 //ga
 industrialElectrolyzer.removeInputRecipe(<techreborn:dust:50>*2);
-industrialElectrolyzer.addRecipe(<techreborn:dust:59>*2,<techreborn:dust:52>,<contenttweaker:material_part:34>*7,null,null,<techreborn:dust:50>*3,140,250);
+industrialElectrolyzer.addRecipe(<techreborn:dust:59>*2,<techreborn:dust:52>,<contenttweaker:material_part:208>*6,null,null,<techreborn:dust:50>*3,140,250);
 
 //
 industrialGrinder.addRecipe(<enderio:item_material:20>*64,<taiga:eezo_dust>*8,null,null,<enderio:block_infinity:2>,<appliedenergistics2:material:6>,<liquid:petrotheum>*200,160,512);
@@ -233,3 +233,5 @@ rollingMachine.addShaped(<libvulpes:coil0:4>, [[cuw,cuw,cuw],[cuw,null,cuw],[cuw
 rollingMachine.addShaped(<libvulpes:coil0:7>, [[tiw,tiw,tiw],[tiw,null,tiw],[tiw,tiw,tiw]]);
 rollingMachine.addShaped(<libvulpes:coil0:9>, [[alw,alw,alw],[alw,null,alw],[alw,alw,alw]]);
 rollingMachine.addShaped(<libvulpes:coil0:10>, [[irw,irw,irw],[irw,null,irw],[irw,irw,irw]]);
+
+industrialElectrolyzer.addRecipe(<techreborn:dynamiccell>, <actuallyadditions:item_solidified_experience>*4, null, null, null, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "experience", Amount: 1000}}), 40, 400);

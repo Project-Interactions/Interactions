@@ -80,6 +80,8 @@ VanillaFactory.createItem("thaumic_suncrystal").register();
 
 VanillaFactory.createItem("blank_ar_chip").register();
 
+VanillaFactory.createItem("powered_circuit_board").register();
+
 //sponser+friend
 VanillaFactory.createItem("oganesson897").register();
 

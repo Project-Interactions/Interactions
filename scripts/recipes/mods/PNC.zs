@@ -58,10 +58,14 @@ pressurechamber.addRecipe([<pneumaticcraft:plastic:*>*8,<moreplates:pulsating_ir
 
 refinery.addRecipe(<liquid:electrical_steel>*10, [<liquid:hot_blend_caminite>*5,<liquid:steel>*5]);
 
-assembly.addLaserRecipe(<contenttweaker:pneumatic_circuit>*4, <contenttweaker:thermal_pneumatic_circuit>);
+//assembly.addLaserRecipe(<contenttweaker:pneumatic_circuit>*4, <contenttweaker:thermal_pneumatic_circuit>);
+pressurechamber.addRecipe([<contenttweaker:pneumatic_circuit>*3,<embers:crystal_ember>*4,<moreplates:vibrant_alloy_gear>*2,<pneumaticcraft:advanced_pressure_tube>], 3.2, [<contenttweaker:thermal_pneumatic_circuit>]);
+
+
 recipes.addShapeless(<pneumaticcraft:pressure_chamber_wall>, [<pneumaticcraft:pressure_chamber_glass>]);
 recipes.addShaped(<pneumaticcraft:pressure_chamber_glass> * 8, [[<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>],[<moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>], [<appliedenergistics2:quartz_vibrant_glass>, <moreplates:compressed_iron_gear>, <appliedenergistics2:quartz_vibrant_glass>]]);
 
 pressurechamber.addRecipe([<pneumaticcraft:turbine_blade>*2,<jaopca:gear.stainless_steel>], 2, [<libvulpes:productfan:6>]);
 pressurechamber.addRecipe([<mekanism:tierinstaller:1>,<psi:material:1>*2,<jaopca:dense_plate.silicon_carbide>,<libvulpes:structuremachine>], 3.6, [<contenttweaker:blank_ar_chip>]);
 
+pressurechamber.addRecipe([<embers:blend_caminite>], 2, [<embers:brick_caminite>]);

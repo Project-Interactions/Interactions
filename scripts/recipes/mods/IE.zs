@@ -97,7 +97,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>
 Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
 //
 ChemicalBath.removeRecipe(<immersiveintelligence:material:11>);
-ChemicalBath.addRecipe(<immersiveintelligence:material:10>,<immersiveintelligence:material:11>,<liquid:advanced_etching>*4000,160,160);
+ChemicalBath.addRecipe(<immersiveintelligence:material:10>,<immersiveintelligence:material:11>,<liquid:advanced_etching>*4000,3200,160);
 
 //CoolingTower.addRecipe(<liquid:ore_water>*1000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:waste_water>*1000,<liquid:ore_water>*10000,60);
 
@@ -270,3 +270,5 @@ Crusher.removeRecipe(<libvulpes:productgem>*2);
 <ore:coilCopper>.remove(<immersiveengineering:metal_decoration0>);
 
 Squeezer.addRecipe(<minecraft:blaze_rod>,<liquid:lava>*500,<minecraft:blaze_powder>*5,60);
+
+RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:13>, [[<botania:bifrostperm>, <ore:circuitAdvanced>, <botania:bifrostperm>], [<botania:bifrostperm>, null, <botania:bifrostperm>], [<ore:plankTreatedWood>, <ore:circuitAdvanced>, <ore:plankTreatedWood>]]);

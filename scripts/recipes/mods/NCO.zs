@@ -10,6 +10,7 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.AlloyFurnace;
 import mods.nuclearcraft.SaltMixer;
+import mods.nuclearcraft.Crystallizer;
 
 recipes.remove(<nuclearcraft:glowing_mushroom>);
 
@@ -158,5 +159,5 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>,
 
 SaltMixer.addRecipe(<liquid:rocket_fuel>*1000, <liquid:rocketfuel>*1000, <liquid:mix_rocket_fuel>*1000);
 
-
+Crystallizer.addRecipe(<liquid:experience>*250, <actuallyadditions:item_solidified_experience>,0.2);
 

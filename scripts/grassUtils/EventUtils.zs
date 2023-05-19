@@ -5,11 +5,9 @@ import crafttweaker.world.IBlockPos;
 import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IFacing;
-import mods.ctutils.player.Player;
 import scripts.grassUtils.Logger;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.PlayerRespawnEvent;
-import mods.ctutils.utils.Math;
 
 static storageData as IData[string] = {};
 
@@ -41,10 +39,11 @@ function spawnItem(world as IWorld, item as IItemStack, pos as IBlockPos) as boo
     return world.spawnEntity(item.createEntityItem(world, pos));
 }
 
+/* Use PlayerPersisted sub tag instead
 function enablePlayerDataKeeper() {
     events.onPlayerTick(function(event as PlayerTickEvent) {
         val player as IPlayer = event.player;
-        if (!player.world.remote && !Player.isFake(player)) {
+        if (!player.world.remote && player.fake) {
             storageData[player.id] = player.data;
         }
     });
@@ -55,7 +54,7 @@ function enablePlayerDataKeeper() {
             player.update(storageData[player.id]);
         }
     });
-}
+} */
 
 function defaultDataHandler(data as IData, player as IPlayer) as bool {
     val map = data.asMap();

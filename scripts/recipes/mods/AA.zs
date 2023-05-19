@@ -7,13 +7,13 @@ import mods.actuallyadditions.AtomicReconstructor;
 import mods.actuallyadditions.Crusher;
 
 
-//焦黑石英反向合成
+//
 recipes.addShapeless( <actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
-//木质外壳
+//
 recipes.remove(<actuallyadditions:block_misc:4>);
 recipes.addShapedMirrored( <actuallyadditions:block_misc:4> * 2, [[<ore:plankTreatedWood>, <forestry:oak_stick>, <ore:plankTreatedWood>],[<forestry:oak_stick>, <ore:logWood>, <forestry:oak_stick>], [<ore:plankTreatedWood>, <forestry:oak_stick>, <ore:plankTreatedWood>]]);
 recipes.remove(<actuallyadditions:block_misc:9>);
-//原子再构机
+//
 recipes.removeShaped(<actuallyadditions:block_atomic_reconstructor>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:dustRedstone>, <actuallyadditions:block_misc:9>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<moreplates:evil_infused_iron_plate>, <moreplates:iron_alloy_gear>, <moreplates:dark_steel_plate>],[<environmentaltech:laser_lens>, <actuallyadditions:block_misc:9>, <ore:circuitElite>], [<moreplates:evil_infused_iron_plate>, <moreplates:iron_alloy_gear>, <moreplates:dark_steel_plate>]]);
 //Basic Coil
@@ -32,39 +32,77 @@ recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<moreplates:
 	[<techreborn:cable:6>, <actuallyadditions:item_misc:7>, <techreborn:cable:6>], 
 	[<forestry:oak_stick>, <techreborn:cable:6>, null]]);
 
-//移除原水晶和moreplate配方
-Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:0>);
-Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
-Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
-Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:3>);
-Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:4>);
-Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:5>);
-Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:0>);
-Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:1>);
-Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:2>);
-Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:3>);
-Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:4>);
-Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:5>);
-Empowerer.removeRecipe(<moreplates:empowered_enori_plate>);
-Empowerer.removeRecipe(<moreplates:empowered_void_plate>);
-Empowerer.removeRecipe(<moreplates:empowered_enori_gear>);
-Empowerer.removeRecipe(<moreplates:empowered_void_gear>);
-Empowerer.removeRecipe(<moreplates:empowered_diamatine_plate>);
-Empowerer.removeRecipe(<moreplates:empowered_restonia_plate>);
-Empowerer.removeRecipe(<moreplates:empowered_diamatine_gear>);
-Empowerer.removeRecipe(<moreplates:empowered_emeradic_plate>);
-Empowerer.removeRecipe(<moreplates:empowered_palis_plate>);
-Empowerer.removeRecipe(<moreplates:empowered_restonia_gear>);
-Empowerer.removeRecipe(<moreplates:empowered_emeradic_gear>);
-Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
+//remove orginal recipes
+val removeEmpowerer as IItemStack[] = 
+[
+<actuallyadditions:item_crystal_empowered:3>,
+<actuallyadditions:block_crystal_empowered:3>,
+<moreplates:empowered_void_plate>,
+<moreplates:empowered_void_gear>,
+<actuallyadditions:item_crystal_empowered>,
+<actuallyadditions:block_crystal_empowered>,
+<moreplates:empowered_restonia_plate>,
+<moreplates:empowered_restonia_gear>,
+<actuallyadditions:item_crystal_empowered:4>,
+<actuallyadditions:block_crystal_empowered:4>,
+<moreplates:empowered_emeradic_plate>,
+<moreplates:empowered_emeradic_gear>,
+<actuallyadditions:item_crystal_empowered:2>,
+<actuallyadditions:block_crystal_empowered:2>,
+<moreplates:empowered_diamatine_plate>,
+<moreplates:empowered_diamatine_gear>,
+<actuallyadditions:item_crystal_empowered:5>,
+<actuallyadditions:block_crystal_empowered:5>,
+<moreplates:empowered_enori_plate>,
+<moreplates:empowered_enori_gear>,
+<actuallyadditions:item_crystal_empowered:1>,
+<actuallyadditions:block_crystal_empowered:1>,
+<moreplates:empowered_palis_plate>,
+<moreplates:empowered_palis_gear>
+];
 
-//增加新水晶配方
+for remove1 in removeEmpowerer {
+    Empowerer.removeRecipe(remove1);
+}
+
+val removeAtomicReconstructor as IItemStack[] = 
+[
+<actuallyadditions:item_crystal:3>,
+<actuallyadditions:block_crystal:3>,
+<actuallyadditions:item_crystal>,
+<actuallyadditions:block_crystal>,
+<moreplates:restonia_plate>,
+<moreplates:restonia_gear>,
+<actuallyadditions:item_crystal:4>,
+<actuallyadditions:block_crystal:4>,
+<moreplates:emeradic_plate>,
+<moreplates:emeradic_gear>,
+<actuallyadditions:item_crystal:2>,
+<actuallyadditions:block_crystal:2>,
+<moreplates:diamatine_plate>,
+<moreplates:diamatine_gear>,
+<actuallyadditions:item_crystal:5>,
+<actuallyadditions:block_crystal:5>,
+<moreplates:enori_plate>,
+<moreplates:enori_gear>,
+<actuallyadditions:item_crystal:1>,
+<actuallyadditions:block_crystal:1>,
+<moreplates:palis_plate>,
+<moreplates:palis_gear>,
+];
+
+for remove2 in removeAtomicReconstructor {
+    AtomicReconstructor.removeRecipe(remove2);
+}
+
+AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
+//readd
 # Restonia
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <ore:stickArdite>, <moreplates:demon_plate>, 25000, 100, [1.0, 0.0, 0.0]);
 	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <ore:stickArdite>, <moreplates:demon_plate>, 250000, 200, [1.0, 0.0, 0.0]);
 # Palis
-	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <techreborn:lapotroncrystal>, <naturesaura:sky_ingot>, 25000, 100, [0.0, 0.0, 1.0]);
-	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <techreborn:lapotroncrystal>, <naturesaura:sky_ingot>, 250000, 200, [0.0, 0.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <botanicadds:mana_lapis>, <naturesaura:sky_ingot>, 25000, 100, [0.0, 0.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <botanicadds:mana_lapis>, <naturesaura:sky_ingot>, 250000, 200, [0.0, 0.0, 1.0]);
 # Diamantine
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <calculator:enddiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 50000, 200, [0.0, 1.0, 1.0]);
 	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <calculator:enddiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 500000, 400, [0.0, 1.0, 1.0]);
@@ -77,12 +115,18 @@ Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
 # Enori
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 25000, 100, [1.0, 1.0, 1.0]);
 	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 250000, 200, [1.0, 1.0, 1.0]);
-AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
 
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:5>, <techreborn:ingot:19>, 5000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <thermalfoundation:material:802>, 5000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <immersiveengineering:material:6>, 5000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <enderio:item_material:15>, 5000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:2>, <calculator:flawlessdiamond>, 5000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <extrautils2:ingredients:3>, 5000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal>, <calculator:redstoneingot>, 5000);
 
-//盖亚
+//gaia
 Empowerer.addRecipe(<botania:manaresource:14>, <botania:storage:1>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, 500000, 160, [1.0, 1.0, 1.0]);
-//种子
+//seed
 Empowerer.addRecipe(<mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>, 250000, 200, [1.0, 0.0, 0.0]);
 //Empowerer.addRecipe(<libvulpes:advstructuremachine>, <libvulpes:structuremachine>, <tconstruct:ingots:3>,<enderio:item_alloy_endergy_ingot:2>,<tconstruct:ingots:3>,<enderio:item_alloy_endergy_ingot:2>, 250000, 200, [1.0, 0.0, 0.0]);
 
@@ -90,9 +134,10 @@ Empowerer.addRecipe(<mysticalagriculture:crafting:21>, <mysticalagriculture:craf
 RecipeUtils.recipeTweak(true, <actuallyadditions:block_display_stand>, [[<ore:circuitElite>, <actuallyadditions:item_misc:8>, <ore:circuitElite>], [<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_green_wall>], [<actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>]]);
 RecipeUtils.recipeTweak(true, <actuallyadditions:block_empowerer>, [[<ore:circuitElite>, <actuallyadditions:item_crystal>, <ore:circuitElite>], [null, <actuallyadditions:item_battery_double:*>, null], [<actuallyadditions:block_misc:9>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:9>]]);
 
-//电路板
-Empowerer.addRecipe(<contenttweaker:powered_circuit>, <deepmoblearning:machine_casing>, <actuallyadditions:block_crystal_empowered>, <moreplates:gaia_spirit_plate>, <calculator:material:7>, <jaopca:gear.stainless_steel>, 25000, 100, [1.0, 1.0, 1.0]);
+//circuit
+Empowerer.addRecipe(<contenttweaker:powered_circuit>, <contenttweaker:powered_circuit_board>, <actuallyadditions:block_crystal_empowered>, <forestry:flexible_casing>, <calculator:material:7>, <moreplates:diamatine_gear>, 25000, 100, [1.0, 1.0, 1.0]);
 
+AtomicReconstructor.addRecipe(<contenttweaker:powered_circuit_board>, <deepmoblearning:soot_covered_plate>, 10000);
 
 
 

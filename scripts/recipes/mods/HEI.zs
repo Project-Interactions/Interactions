@@ -7,15 +7,24 @@ MoreJei.addDescription(<aeble:obsidian_ring>,[game.localize("ia.jei.obsidian_rin
 MoreJei.addDescription(<aeble:air_ring>,[game.localize("ia.jei.air_ring")]);
 MoreJei.addDescription(<aeble:regeneration_ring>,[game.localize("ia.jei.regeneration_ring")]);
 
-/*
+
 var removeDescriptors as IItemStack[] = [
+    <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
+    <thaumcraft:crystal_essence>,
     <thaumcraft:salis_mundus>,
+    <appliedenergistics2:material:14>,
+    <appliedenergistics2:material:13>,
+    <appliedenergistics2:material:15>,
+    <techreborn:scrapbox>,
+    <mia:void_creator>,
+    <minecraft:diamond>,
+    <minecraft:gold_ingot>
 ];
 
 for remove in removeDescriptors {
     MoreJei.removeDescription(remove);
 }
-*/
+
 addRegexLogFilter("Failed to hide recipe category");
 
 var jeiremove as string[]=[
@@ -26,7 +35,6 @@ var jeiremove as string[]=[
 "tcomplement:high_oven_melting",
 "tcomplement:high_oven_fuel",
 "thermaldynamics.covers",
-//thermalexpansion.furnace_ore",
 "jehc.shippingbin",
 "appliedenergistics2.grinder",
 "Painter",

@@ -13,7 +13,7 @@ RecipeUtils.recipeTweak(true, <embers:alchemy_tablet>, [[null, <ore:plateDawnsto
 RecipeUtils.recipeTweak(true, <embers:alchemy_pedestal>, [[<ore:plateDawnstone>, null, <ore:plateDawnstone>], [<ore:ingotDawnstone>, <embers:mech_core>, <ore:ingotDawnstone>], [<embers:stairs_caminite_brick:*>, <ore:blockCopper>, <embers:stairs_caminite_brick:*>]]);
 RecipeUtils.recipeTweak(true, <embers:beam_cannon>, [[<ore:plateCopper>, <embers:crystal_ember:*>, <ore:plateCopper>], [<ore:plateCopper>, <embers:mech_core>, <ore:plateCopper>], [<ore:ingotDawnstone>, <embers:block_caminite_brick:*>, <ore:ingotDawnstone>]]);
 Alchemy.add(<botania_tweaks:basic_extended_crafty_crate>, [<ore:blockAether>,<extendedcrafting:storage>,<enderio:item_material:1>,<thaumcraft:metal_void>,<ore:circuitElite>], {"dawnstone":20 to 30,"iron":20 to 23,"silver":25 to 40,"copper":10 to 15});
-
+furnace.remove(<embers:brick_caminite>);
 RecipeUtils.recipeTweak(true, <embers:mini_boiler>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotDawnstone>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 Melter.remove(<liquid:aluminum>*288);

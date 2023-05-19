@@ -107,5 +107,9 @@ enchanter.removeRecipe({"input": <minecraft:iron_block>*8,"input_lapis": <minecr
 enchanter.removeRecipe({"input": <minecraft:gold_block>,"input_lapis": <minecraft:dye:4>*9});
 
 //input input output energy time
-//enchanter.addRecipe({"input": <minecraft:gold_block>*8,"input_lapis": <minecraft:nether_star>*9},{"output": <minecraft:iron_block>*8},64000,20);
+function enchanterTweaker(a as IItemStack, b as IItemStack,c as IItemStack,d as int,e as int) as void{
+    enchanter.addRecipe({"input": a,"input_lapis": b},{"output": c},d,e);
+}
 
+enchanterTweaker(<actuallyadditions:item_solidified_experience>,<thaumicrestoration:item_ingot:3>,<extrautils2:ingredients:12>,32000,200);
+enchanterTweaker(<minecraft:nether_star>,<thaumicrestoration:item_ingot:5>,<extrautils2:ingredients:17>,64000,600);

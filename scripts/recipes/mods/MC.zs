@@ -45,16 +45,11 @@ recipes.remove(<minecraft:leather_chestplate>);
 recipes.removeByRecipeName("minecraft:bucket");
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
-//skyroot plank
-recipes.removeShaped(<aether_legacy:skyroot_plank> * 4, [[<aether_legacy:aether_log> | <aether_legacy:aether_log:1>]]);
-recipes.addShaped(<aether_legacy:skyroot_plank> * 2, [[<aether_legacy:aether_log> | <aether_legacy:aether_log:1>]]);
-recipes.remove(<aether_legacy:skyroot_bucket>);
-
 recipes.addShaped(<minecraft:piston> * 2, [[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],[<ore:plankTreatedWood>, <minecraft:redstone_block>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plateIron>, <ore:plankTreatedWood>]]);
 
 
 furnace.remove(<minecraft:coal:1>);
-furnace.remove(<minecraft:coal:1>, <aether_legacy:aether_log>);
+furnace.remove(<minecraft:coal:1>, <ore:logSkyroot>);
 
 RecipeUtils.recipeTweak(true, <minecraft:cauldron>, [
     [<ore:plateIron>, null, <ore:plateIron>], 

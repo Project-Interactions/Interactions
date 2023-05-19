@@ -14,12 +14,11 @@ import crafttweaker.text.ITextComponent;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.Player;
 import mods.contenttweaker.ActionResult;
-import mods.ctutils.utils.Math;
 import mods.zenutils.cotx.Item;
 
 var give = VanillaFactory.createItem("give");
 give.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote && !player.isFake() && world.dimension == 4598) {
+    if (!world.remote && !player.fake && world.dimension == 4598) {
         player.give(<item:contenttweaker:outside_minecraft>);
         stack.shrink(1);
     }
