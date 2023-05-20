@@ -28,19 +28,91 @@
       "outputs": {
         "item": [
           {
-            "chance": 1.0,
+            "chance": 0.1,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:1,Damage:65s}",
-                "{id:\"thermalfoundation:material\",Count:1,Damage:67s}",
-                "{id:\"thermalfoundation:material\",Count:1,Damage:64s}",
-                "{id:\"minecraft:redstone\",Count:1,Damage:0s}",
-                "{id:\"thermalfoundation:material\",Count:1,Damage:66s}",
-                "{id:\"thermalfoundation:material\",Count:1,Damage:768s}",
-                "{id:\"thermalfoundation:material\",Count:1,Damage:69s}",
-                "{id:\"thermalfoundation:material\",Count:1,Damage:68s}",
-                "{id:\"thermalfoundation:material\",Count:1,Damage:1s}",
+                "{id:\"thermalfoundation:material\",Count:1,Damage:65s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:67s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:64s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:66s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:768s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:69s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:68s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
                 "{id:\"thermalfoundation:material\",Count:1,Damage:0s}"
               ]
             }

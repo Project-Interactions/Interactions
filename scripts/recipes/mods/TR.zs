@@ -235,3 +235,6 @@ rollingMachine.addShaped(<libvulpes:coil0:9>, [[alw,alw,alw],[alw,null,alw],[alw
 rollingMachine.addShaped(<libvulpes:coil0:10>, [[irw,irw,irw],[irw,null,irw],[irw,irw,irw]]);
 
 industrialElectrolyzer.addRecipe(<techreborn:dynamiccell>, <actuallyadditions:item_solidified_experience>*4, null, null, null, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "experience", Amount: 1000}}), 40, 400);
+
+grinder.removeRecipe(<minecraft:glowstone_dust>*9);
+grinder.removeInputRecipe(<minecraft:glowstone>);

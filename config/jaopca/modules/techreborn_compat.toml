@@ -5,11 +5,11 @@
 
 [recipes]
 	#The materials that should not have grinder material to dust recipes added.
-	materialToDustMaterialBlacklist = []
+	materialToDustMaterialBlacklist = ["Glowstone"]
 	#The materials that should not have grinder plate to dust recipes added.
-	plateToDustMaterialBlacklist = []
+	plateToDustMaterialBlacklist = ["Glowstone"]
 	#The materials that should not have grinder block to dust recipes added.
-	blockToDustMaterialBlacklist = []
+	blockToDustMaterialBlacklist = ["Glowstone"]
 	#The materials that should not have compressor material to plate recipes added.
 	crystalToPlateMaterialBlacklist = []
 	#The materials that should not have compressor dust to plate recipes added.
