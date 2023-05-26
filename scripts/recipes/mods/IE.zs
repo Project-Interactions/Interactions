@@ -175,7 +175,8 @@ RecipeUtils.recipeTweak(true,<engineersdecor:panzerglass_block> * 4, [[<ore:stic
 
 recipes.remove(<immersiveintelligence:metal_device1>);
 recipes.remove(<immersiveintelligence:material_ingot:5>);
-recipes.addShaped(<immersiveintelligence:metal_decoration:2>, [[<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>],[<ore:circuitAdvanced>, <immersiveintelligence:metal_decoration:1>, <ore:circuitAdvanced>], [<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>]]);
+recipes.remove(<immersiveintelligence:metal_decoration:2>*3);
+recipes.addShaped(<immersiveintelligence:metal_decoration:2>*2, [[<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>],[<ore:circuitAdvanced>, <immersiveintelligence:metal_decoration:1>, <ore:circuitAdvanced>], [<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>]]);
 recipes.addShaped(<immersiveintelligence:material_ingot>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>],[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>], [<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>]]);
 recipes.addShapeless(<immersiveintelligence:material_nugget> * 9, [<immersiveintelligence:material_ingot>]);
 
