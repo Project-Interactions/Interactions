@@ -36,7 +36,7 @@ recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarb
 
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
-ArcaneWorkbench.registerShapedRecipe("tc:mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:rodEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
+ArcaneWorkbench.registerShapedRecipe("tc:mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
 ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>,[[<thaumicrestoration:item_plate:3>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:2>],[<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:4>,<thaumcraft:mechanism_simple>],[<thaumicrestoration:item_plate:1>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate>]]);

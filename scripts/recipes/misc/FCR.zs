@@ -4,7 +4,7 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 
 recipes.remove(<filcabref:material>);
-recipes.addShaped(<filcabref:material>, [[<ore:ingotIron>, <ore:gearIron>], [<ore:gearIron>, <ore:rodIron>]]);
+recipes.addShaped(<filcabref:material>, [[<ore:ingotIron>, <ore:gearIron>], [<ore:gearIron>, <ore:stickIron>]]);
 
 recipes.remove(<filcabref:material:1>);
 

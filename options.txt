@@ -140,7 +140,7 @@ key_key.openNotes:49
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
 key_Toggle Raw Input:0
-key_Rescan Key:0
+key_Rescan Key:43
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -274,6 +274,7 @@ key_key.musictriggers.gui:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
+key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
 key_pi.key.et_world:0
@@ -353,7 +354,7 @@ key_enderio.keybind.fovminusfast:0
 key_key.craftpresence.config_keycode.name:0
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:0.0
+soundCategory_master:0.5
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
