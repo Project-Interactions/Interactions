@@ -1,11 +1,12 @@
 {
-	x: -20.5d,
+	x: -18.0d,
 	y: -3.5d,
 	text: [
 		"寰宇之力"
 	],
 	dependencies: [
-		"02a8ac48"
+		"02a8ac48",
+		"2e83983d"
 	],
 	size: 1.6d,
 	tasks: [{

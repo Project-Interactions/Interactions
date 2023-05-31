@@ -25,22 +25,21 @@ map.recipeMap.start()
 
 map.recipeMap.start()
     .duration(100)
-    .inputItems(<lightningcraft:ingot:2>)
+    .inputItems(<lightningcraft:metal_block:2>)
     .outputItems(<contenttweaker:ultimate_ingot_right_down>)
     .inputLE(100000)
     .buildAndRegister();
 
 map.recipeMap.start()
     .duration(100)    
-    .inputItems(<avaritiaddons:infinity_compressor>)
-    .outputItems(<pneumaticcraft:creative_compressor>)
+    .inputItems(<embers:block_dawnstone>)
+    .outputItems(<contenttweaker:ultimate_ingot_right_up>)
     .inputEmber(1,80000)
     .buildAndRegister();
-/*
+
 map.recipeMap.start()
-    .duration(100)
-    .inputItems(<pneumaticcraft:creative_compressor>)
-    .outputItems(<appliedenergistics2:creative_energy_cell>)
-    .inputPressure(1,30)
+    .duration(100)    
+    .inputItems(<botania:pool:1>,<contenttweaker:mana_matter>*64)
+    .outputItems(<pneumaticcraft:creative_compressor>)
+    .inputMana(1,1000000)
     .buildAndRegister();
-*/

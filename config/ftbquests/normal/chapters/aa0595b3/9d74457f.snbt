@@ -1,6 +1,9 @@
 {
 	x: -9.0d,
 	y: -5.0d,
+	text: [
+		"可以被复制"
+	],
 	dependencies: [
 		"2a1f8b7a"
 	],

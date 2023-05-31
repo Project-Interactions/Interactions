@@ -2,42 +2,42 @@
   "outputs": [
     {
       "target": "black",
-      "weight": 1000,
+      "weight": 500,
       "id": "OD:oreCoal"
     },
     {
       "target": "white",
-      "weight": 750,
+      "weight": 400,
       "id": "OD:oreIron"
     },
     {
       "target": "white",
-      "weight": 560,
+      "weight": 300,
       "id": "OD:oreQuartz"
     },
     {
       "target": "red",
-      "weight": 515,
+      "weight": 250,
       "id": "OD:oreRedstone"
     },
     {
       "target": "blue",
-      "weight": 343,
+      "weight": 250,
       "id": "OD:oreLapis"
     },
     {
       "target": "yellow",
-      "weight": 311,
+      "weight": 250,
       "id": "OD:oreGold"
     },
     {
       "target": "cyan",
-      "weight": 218,
+      "weight": 250,
       "id": "OD:oreDiamond"
     },
     {
       "target": "lime",
-      "weight": 156,
+      "weight": 250,
       "id": "OD:oreEmerald"
     },
     {
@@ -47,27 +47,27 @@
     },
     {
       "target": "orange",
-      "weight": 584,
+      "weight": 400,
       "id": "OD:oreCopper"
     },
     {
       "target": "gray",
-      "weight": 602,
+      "weight": 400,
       "id": "OD:oreTin"
     },
     {
       "target": "silver",
-      "weight": 381,
+      "weight": 400,
       "id": "OD:oreSilver"
     },
     {
       "target": "purple",
-      "weight": 500,
+      "weight": 400,
       "id": "OD:oreLead"
     },
     {
       "target": "white",
-      "weight": 422,
+      "weight": 400,
       "id": "OD:oreAluminum"
     },
     {

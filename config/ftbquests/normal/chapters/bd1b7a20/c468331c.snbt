@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "ca52d7f7",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "62bf37bf",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 64
+	}]
+}

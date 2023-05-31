@@ -11,7 +11,13 @@
 		uid: "f4a877b5",
 		type: "item",
 		items: [{
-			item: "draconicevolution:draconium_block"
-		}]
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3e1afed7",
+		type: "item",
+		item: "draconicevolution:draconium_block"
 	}]
 }

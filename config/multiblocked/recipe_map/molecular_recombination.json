@@ -157,42 +157,6 @@
           }
         ]
       }
-    },
-    {
-      "uid": "36840f50-e07a-4ce8-9a6a-b4c7094f1fcb",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"auraddons:block_rainbow_beacon\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "natures_aura": [
-          {
-            "chance": 1.0,
-            "content": 10000000
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:ultimate_ingot_right_up\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
     }
   ]
 }

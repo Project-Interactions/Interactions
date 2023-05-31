@@ -112,3 +112,5 @@ for i in 0 to 8 {
 for i in 8 to 16 {
     <ore:biomeCobblestone>.add(<botania:biomestonea>.definition.makeStack(i));
 }
+
+ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <plustic:mirionblock>, 1000000);

@@ -1,0 +1,17 @@
+{
+	x: -9.0d,
+	y: -8.0d,
+	text: [
+		"无限的中子素"
+	],
+	dependencies: [
+		"29fddcf7"
+	],
+	tasks: [{
+		uid: "9c351855",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:triple_compressed_neutron_collector"
+		}]
+	}]
+}

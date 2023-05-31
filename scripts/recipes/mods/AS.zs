@@ -68,3 +68,4 @@ StarlightInfusion.addInfusion(<botania:bifrostpermpane>, <astralsorcery:itemcraf
 Lightwell.removeLiquefaction(<astralsorcery:itemcraftingcomponent>, null);
 Lightwell.addLiquefaction(<contenttweaker:aquamarine_menril_mixture>, <liquid:astralsorcery.liquidstarlight>*1000, 1, 0.8, 0);
 
+StarlightInfusion.removeInfusion(<draconicevolution:draconium_ingot>*3);

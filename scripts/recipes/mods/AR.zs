@@ -130,6 +130,13 @@ ARTweaker.forMachine("PrecisionAssembler")
 .power(2000)
 .timeRequired(100)
 .build();
+ARTweaker.forMachine("PrecisionAssembler")
+.builder()
+.inputs(<libvulpes:structuremachine>,<mekanism:atomicalloy>*4,<draconicevolution:draconium_dust>*6)
+.outputs(<libvulpes:advstructuremachine>)
+.power(5000)
+.timeRequired(120)
+.build();
 
 //这里写一下那三种电路板的便宜方法(精密激光蚀刻)
 

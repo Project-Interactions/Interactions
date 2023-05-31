@@ -5,6 +5,9 @@ import crafttweaker.item.IIngredient;
 recipes.remove(<avaritia:extreme_crafting_table>);
 recipes.remove(<avaritia:resource:1>);
 recipes.remove(<avaritia:resource>);
+
+recipes.addShapeless(<denseneutroncollectors:triple_compressed_neutron_collector>*2,[<denseneutroncollectors:triple_compressed_neutron_collector>]);
+
 mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:extreme_crafting_table>, [
 	[<ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>], 
 	[<ore:gearCrystalMatrix>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:gearCrystalMatrix>], 
@@ -17,32 +20,26 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:extreme_crafting_tabl
 	[<ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(2, <avaritia:neutron_collector>, [
+[<qmd:atmosphere_collector>, <qmd:atmosphere_collector>, <actuallyadditions:block_ranged_collector>, <nuclearcraft:nitrogen_collector_dense>, <nuclearcraft:nitrogen_collector_dense>], 
+[<qmd:atmosphere_collector>, <actuallyadditions:block_ranged_collector>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <actuallyadditions:block_ranged_collector>, <nuclearcraft:nitrogen_collector_dense>], 
+[<qmd:atmosphere_collector>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), item('mysticalagradditions:special', 5), <tconstruct:large_plate>.withTag({Material: "neutronium"}), <nuclearcraft:nitrogen_collector_dense>], 
+[<qmd:atmosphere_collector>, <advancedrocketry:intake>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <advancedrocketry:intake>, <nuclearcraft:nitrogen_collector_dense>], 
+[<qmd:atmosphere_collector>, <qmd:atmosphere_collector>, <advancedrocketry:intake>, <nuclearcraft:nitrogen_collector_dense>, <nuclearcraft:nitrogen_collector_dense>]
+]);
+
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
 
-/*
-mods.avaritia.ExtremeCrafting.addShaped("neutroncollector", <avaritia:neutron_collector>, [
-	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <projecte:collector_mk3>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <projecte:collector_mk3>, <ore:blockCrystalMatrix>, <ore:plateCosmicNeutronium>, <ore:blockCrystalMatrix>, <ore:plateCosmicNeutronium>, <ore:blockCrystalMatrix>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <projecte:collector_mk3>, <ore:blockCrystalMatrix>, <ore:plateCosmicNeutronium>, <ore:blockCrystalMatrix>, <ore:plateCosmicNeutronium>, <ore:blockCrystalMatrix>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <projecte:collector_mk3>, <ore:blockCrystalMatrix>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCrystalMatrix>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <projecte:collector_mk3>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <projecte:collector_mk3>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>]
-]);
-*/
 
-//mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
 
 mods.avaritia.ExtremeCrafting.addShaped("infinityingot", <avaritia:resource:6>, [
 	[null, null, null, null, null, null, null, null, null], 
 	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>, <avaritiatweaks:infinitato>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>, <eternalsingularity:eternal_singularity>,<avaritia:resource:5>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <avaritiatweaks:infinitato>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
 	[null, null, null, null, null, null, null, null, null]
@@ -54,5 +51,4 @@ recipes.addShaped(<avaritiaddons:extreme_auto_crafter>, [[null, <avaritia:singul
 
 recipes.addShaped(<avaritiaddons:infinity_glass>, [[<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>], [<theaurorian:aurorianglass>, <ore:blockInfinity>, <theaurorian:aurorianglass>], [<bfr:reactorglass>, <theaurorian:aurorianglass>, <bfr:reactorglass>]]);
 
-//mods.extendedcrafting.CompressionCrafting.addRecipe(<eternalsingularity:eternal_singularity>, <projecte:item.pe_fuel:2>, 4096, <extendedcrafting:material:13>, 10000000, 100000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:give>, <storagedrawers:upgrade_creative:1>, 10000, <storagedrawers:upgrade_creative:1>, 10000000, 100000);

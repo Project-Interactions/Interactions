@@ -10,6 +10,7 @@ val remove as IItemStack[] =
 <rftools:machine_frame>,
 <rftools:infused_diamond>,
 <rftools:infused_enderpearl>,
+<rftools:dimensional_shard>*8
 ];
 
 for Remove in remove {

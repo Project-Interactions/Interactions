@@ -1,0 +1,27 @@
+{
+	x: 9.0d,
+	y: -6.0d,
+	dependencies: [
+		"8fd9596c"
+	],
+	tasks: [{
+		uid: "f4a2f94b",
+		type: "fluid",
+		fluid: "helium_3",
+		amount: 64000
+	}],
+	rewards: [{
+		uid: "41079036",
+		type: "item",
+		item: {
+			id: "qmd:canister",
+			Damage: 4s,
+			tag: {
+				particle_storage: {
+					particle_amount: 10000000,
+					particle_capacity: 10000000
+				}
+			}
+		}
+	}]
+}

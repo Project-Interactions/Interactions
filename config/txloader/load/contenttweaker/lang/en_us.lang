@@ -43,6 +43,8 @@ item.contenttweaker.wood_essence.name=Wooden Essence
 item.contenttweaker.outside_minecraft.name=Outside Minecraft?
 item.contenttweaker.give.name=----
 
+item.contenttweaker.thaumic_suncrystal.name=Thaumic Sun Crystal
+
 fluid.blend_caminite=Liquid Caminite
 fluid.hot_blend_caminite=Hot Liquid Caminite
 fluid.witch_water=Witch Water

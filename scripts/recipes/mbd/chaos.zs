@@ -11,6 +11,6 @@ var map = definition as ControllerDefinition;
 map.recipeMap.start()
     .duration(100)
     .inputItems(<draconicadditions:chaos_container>.withTag({chaos: 1000, Energy: 2000000}))
-    .outputGas(<gas:liquid_chaos>*1000)
+    .outputGas(<gas:liquid_chaos>*500)
     .inputFE(10000000)
     .buildAndRegister();

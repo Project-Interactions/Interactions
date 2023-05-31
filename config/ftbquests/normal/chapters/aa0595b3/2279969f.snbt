@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	dependencies: [
+		"5e20569d"
+	],
+	tasks: [{
+		uid: "ce730ad0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:pladium_crystal"
+		}]
+	}]
+}

@@ -6,8 +6,10 @@
 		"副手拿TNT，主手拿打火石右键即可丢出TNT"
 	],
 	dependencies: [
+		"c468331c",
 		"afd841d2"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "771ef7ac",
 		type: "item",

@@ -34,63 +34,22 @@ recipes.addShaped(<environmentaltech:modifier_null>, [[<pneumaticcraft:ingot_iro
 
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <environmentaltech:void_ore_miner_cont_3>, [
-	[<ore:blockKyronite>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:blockKyronite>], 
+	[<ore:blockKyronite>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:blockKyronite>], 
 	[<ore:blockKyronite>, <extendedcrafting:material:48>, <ore:etLaserLens>, <extendedcrafting:material:48>, <ore:blockKyronite>], 
 	[<ore:blockKyronite>, <extendedcrafting:material:48>, <environmentaltech:void_ore_miner_cont_2>, <extendedcrafting:material:48>, <ore:blockKyronite>], 
 	[<ore:blockKyronite>, <extendedcrafting:material:48>, <ore:etLaserLens>, <extendedcrafting:material:48>, <ore:blockKyronite>], 
-	[<ore:blockKyronite>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:circuitUniversal>, <ore:blockKyronite>]
+	[<ore:blockKyronite>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:circuitNuclear>, <ore:blockKyronite>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <environmentaltech:void_ore_miner_cont_4>, [
-	[<ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>], 
-	[<ore:plateDenseUUMatter>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:plateDenseUUMatter>], 
-	[<ore:plateDenseUUMatter>, <ore:blockPladium>, <ore:craftingSuperconductor>, <ore:craftingSuperconductor>, <ore:craftingSuperconductor>, <ore:blockPladium>, <ore:plateDenseUUMatter>], 
-	[<ore:plateDenseUUMatter>, <ore:blockPladium>, <ore:craftingSuperconductor>, <environmentaltech:void_ore_miner_cont_3>, <ore:craftingSuperconductor>, <ore:blockPladium>, <ore:plateDenseUUMatter>], 
-	[<ore:plateDenseUUMatter>, <ore:blockPladium>, <ore:craftingSuperconductor>, <ore:craftingSuperconductor>, <ore:craftingSuperconductor>, <ore:blockPladium>, <ore:plateDenseUUMatter>], 
-	[<ore:plateDenseUUMatter>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:plateDenseUUMatter>], 
-	[<ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>, <ore:plateDenseUUMatter>]
+	[<ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <libvulpes:advstructuremachine>, <ore:blockDilithium>, <ore:blockDilithium>, <ore:blockDilithium>, <libvulpes:advstructuremachine>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <ore:blockDilithium>, <ore:circuitUniversal>, <libvulpes:advstructuremachine>, <ore:circuitUniversal>, <ore:blockDilithium>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <ore:blockDilithium>, <libvulpes:advstructuremachine>, <environmentaltech:void_ore_miner_cont_3>, <libvulpes:advstructuremachine>, <ore:blockDilithium>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <ore:blockDilithium>, <ore:circuitUniversal>, <libvulpes:advstructuremachine>, <ore:circuitUniversal>, <ore:blockDilithium>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <libvulpes:advstructuremachine>, <ore:blockDilithium>, <ore:blockDilithium>, <ore:blockDilithium>, <libvulpes:advstructuremachine>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(4, <environmentaltech:void_ore_miner_cont_5>, [
-	[<ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <draconicevolution:draconic_core>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconic_core>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <draconicevolution:draconic_core>, <extendedcrafting:material:12>, <theaurorian:aurorianglass>, <environmentaltech:void_ore_miner_cont_4>, <theaurorian:aurorianglass>, <extendedcrafting:material:12>, <draconicevolution:draconic_core>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <draconicevolution:draconic_core>, <extendedcrafting:material:12>, <environmentaltech:void_ore_miner_cont_4>, <environmentaltech:void_ore_miner_cont_4>, <environmentaltech:void_ore_miner_cont_4>, <extendedcrafting:material:12>, <draconicevolution:draconic_core>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <draconicevolution:draconic_core>, <extendedcrafting:material:12>, <theaurorian:aurorianglass>, <environmentaltech:void_ore_miner_cont_4>, <theaurorian:aurorianglass>, <extendedcrafting:material:12>, <draconicevolution:draconic_core>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <draconicevolution:draconic_core>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconic_core>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>]
-]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

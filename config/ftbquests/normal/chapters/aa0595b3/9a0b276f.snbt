@@ -1,11 +1,14 @@
 {
-	x: -13.5d,
-	y: -5.0d,
+	x: -15.0d,
+	y: 3.0d,
 	text: [
 		"看似轻于鸿毛……"
 	],
 	dependencies: [
-		"a6ed8598"
+		"b3d1bfdb",
+		"e09a2546",
+		"72d510b8",
+		"e6f5dea2"
 	],
 	tasks: [{
 		uid: "ae20a0bb",

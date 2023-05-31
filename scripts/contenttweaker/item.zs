@@ -82,6 +82,8 @@ VanillaFactory.createItem("blank_ar_chip").register();
 
 VanillaFactory.createItem("powered_circuit_board").register();
 
+VanillaFactory.createItem("mana_matter").register();
+
 //sponser+friend
 VanillaFactory.createItem("oganesson897").register();
 

@@ -1,6 +1,6 @@
 {
 	x: -6.0d,
-	y: 1.0d,
+	y: 0.5d,
 	text: [
 		"注意：所有爆炸合成均为掉落物"
 	],
@@ -14,6 +14,6 @@
 		uid: "b78f9dec",
 		type: "item",
 		item: "minecraft:gunpowder",
-		count: 128
+		count: 64
 	}]
 }

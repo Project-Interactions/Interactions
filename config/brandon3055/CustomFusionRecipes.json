@@ -18,7 +18,7 @@
         "mode": "ADD",
         "result": "draconicevolution:draconic_block,4",
         "catalyst": "draconicevolution:draconium_block,4,1",
-        "energy": 400000000,
+        "energy": 20000000,
         "tier": 1,
         "ingredients": [
             "draconicevolution:draconic_core",
