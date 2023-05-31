@@ -3,7 +3,7 @@
 	icon: "moreplates:infinity_plate",
 	x: 2.0d,
 	y: -4.0d,
-	shape: "diamond",
+	shape: "square",
 	text: [
 		"本整合包由mczph制作",
 		"500+mods"

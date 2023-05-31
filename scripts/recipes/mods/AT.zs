@@ -23,7 +23,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:extreme_crafting_tabl
 mods.extendedcrafting.TableCrafting.addShaped(2, <avaritia:neutron_collector>, [
 [<qmd:atmosphere_collector>, <qmd:atmosphere_collector>, <actuallyadditions:block_ranged_collector>, <nuclearcraft:nitrogen_collector_dense>, <nuclearcraft:nitrogen_collector_dense>], 
 [<qmd:atmosphere_collector>, <actuallyadditions:block_ranged_collector>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <actuallyadditions:block_ranged_collector>, <nuclearcraft:nitrogen_collector_dense>], 
-[<qmd:atmosphere_collector>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), item('mysticalagradditions:special', 5), <tconstruct:large_plate>.withTag({Material: "neutronium"}), <nuclearcraft:nitrogen_collector_dense>], 
+[<qmd:atmosphere_collector>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <mysticalagradditions:special:5>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <nuclearcraft:nitrogen_collector_dense>], 
 [<qmd:atmosphere_collector>, <advancedrocketry:intake>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <advancedrocketry:intake>, <nuclearcraft:nitrogen_collector_dense>], 
 [<qmd:atmosphere_collector>, <qmd:atmosphere_collector>, <advancedrocketry:intake>, <nuclearcraft:nitrogen_collector_dense>, <nuclearcraft:nitrogen_collector_dense>]
 ]);

@@ -1,6 +1,6 @@
 {
 	title: "《我是自动化狂魔》",
-	icon: "extendedcrafting:material",
+	icon: "enderio:item_alloy_ingot 1 2",
 	description: [
 		"阶段五"
 	],
