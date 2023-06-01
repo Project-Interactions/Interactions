@@ -255,3 +255,4 @@ Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1>, [<ore:wireMenri
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:2>, [<ore:wireNaturium>*8,<ore:itemRubber>*6]);
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:4>, [<ore:wireTwilghtSteel>*8,<ore:itemRubber>*6]);
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:6>, [<ore:wireGaia>*8,<ore:itemRubber>*6]);
+recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Coil"}),[<ore:circuitGood>,<ore:wireElectrum>,<ore:wireAluminum>,<ore:wireCopper>]);

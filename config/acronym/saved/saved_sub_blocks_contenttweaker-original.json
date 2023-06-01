@@ -7,7 +7,7 @@
       "3": "semiconductor_block",
       "4": "heavymetalelements_block",
       "5": "superconduct_block",
-      "6": "duraluminium_coil",
+      "6": "advanced_electronic_alloy_coil",
       "7": "six_in_one_thaumic_block",
       "8": "europium_block",
       "9": "crude_gold_ore",
@@ -27,7 +27,8 @@
       "5": "advanced_electronic_alloy_block",
       "6": "gaia_coil",
       "7": "nyx_ore",
-      "8": "nyx_block"
+      "8": "nyx_block",
+      "9": "gallium_block"
     }
   }
 }

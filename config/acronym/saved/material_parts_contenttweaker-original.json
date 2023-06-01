@@ -116,13 +116,12 @@
     "nyx_rod": 171,
     "u_u_matter_rod": 85,
     "u_u_matter_ingot": 82,
+    "gallium_block": 226,
     "command_nugget": 182,
-    "duraluminium_wire": 135,
     "duplication_plate": 90,
     "magnet_rod": 222,
     "iridium_wire": 200,
     "u_u_matter_plate": 83,
-    "duraluminium_coil": 133,
     "naturium_nugget": 131,
     "gallium_rod": 204,
     "menril_block": 136,
@@ -145,6 +144,7 @@
     "heavymetalelements_gear": 55,
     "six_in_one_thaumic_ingot": 193,
     "energium_dust": 81,
+    "advanced_electronic_alloy_coil": 225,
     "menril_ingot": 137,
     "advanced_electronic_alloy_wire": 217
   }
