@@ -9,7 +9,7 @@ import mods.calculator.scientific;
 import mods.calculator.stoneSeparator;
 
 recipes.removeShaped(<environmentalmaterials:hardened_stone> * 8, [[<ore:stone>, <ore:cobblestone>, <ore:stone>], [<ore:cobblestone>, <ore:stone>, <ore:cobblestone>], [<ore:stone>, <ore:cobblestone>, <ore:stone>]]);
-recipes.addShaped(<calculator:calculator>, [[<ore:calculatorReinforcedStone>, <calculator:calculatorscreen:*>, <ore:calculatorReinforcedStone>], [<minecraft:stone_button:*>, <calculator:calculatorassembly:*>, <minecraft:stone_button:*>], [<ore:calculatorReinforcedStone>,<immersiveintelligence:metal_decoration:2>, <ore:calculatorReinforcedStone>]]);
+recipes.addShaped(<calculator:calculator>, [[<ore:calculatorReinforcedStone>, <calculator:calculatorscreen:*>, <ore:calculatorReinforcedStone>], [<minecraft:stone_button:*>, <calculator:calculatorassembly:*>, <minecraft:stone_button:*>], [<ore:calculatorReinforcedStone>,<immersiveengineering:metal_decoration0:5>, <ore:calculatorReinforcedStone>]]);
 recipes.addShaped(<calculator:calculatorscreen>, [[<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <integrateddynamics:part_display_panel_item>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>, <ore:calculatorReinforcedStone>]]);
 recipes.addShaped(<calculator:calculatorassembly> * 4, [[<ore:calculatorReinforcedStone>, <minecraft:stone_button:*>, <ore:calculatorReinforcedStone>], [<minecraft:stone_button:*>, <ore:calculatorReinforcedStone>, <minecraft:stone_button:*>], [<ore:circuitMana>, <minecraft:stone_button:*>, <ore:circuitMana>]]);
 //

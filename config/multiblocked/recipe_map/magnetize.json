@@ -32,7 +32,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersiveintelligence:material_ingot\",Count:1,Damage:5s}"
+                "{id:\"contenttweaker:material_part\",Count:1,Damage:219s}"
               ]
             }
           }
@@ -67,7 +67,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersiveintelligence:material_ingot\",Count:1,Damage:5s}"
+                "{id:\"contenttweaker:material_part\",Count:1,Damage:219s}"
               ]
             }
           }

@@ -45,6 +45,12 @@ item.contenttweaker.give.name=----
 
 item.contenttweaker.thaumic_suncrystal.name=Thaumic Sun Crystal
 
+item.contenttweaker.printed_copper_plate.name=Printed Copper Plate
+item.contenttweaker.etched_assembled_circuit_plate.name=Etched Assembled Circuit Plate
+item.contenttweaker.pre_rubber.name=Pre-Rubber
+item.contenttweaker.mechanical_circuit_board.name=Mechanical Circuit Board
+item.contenttweaker.processor_circuit_board.name=Processor Circuit Board
+
 fluid.blend_caminite=Liquid Caminite
 fluid.hot_blend_caminite=Hot Liquid Caminite
 fluid.witch_water=Witch Water
@@ -99,7 +105,8 @@ base.material.naturium=Naturium
 base.material.twilght_steel=Twilight Steel
 base.material.refined_iron=Refined Iron
 base.material.six_in_one_thaumic=Six In One Thaumic
-
+base.material.advanced_electronic_alloy=Advanced Electronic Alloy
+base.material.magnet=Magnet
 base.material.crude_gold=Precious Metal
 
 contenttweaker.part.dust_tiny=Tiny %s Dust

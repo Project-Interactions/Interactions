@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"扩展ME接口可放入的样板数量，每个接口可放入4个"
+	],
+	dependencies: [
+		"0e4a00e2"
+	],
+	tasks: [{
+		uid: "0d8b2f47",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 58"
+		}]
+	}],
+	rewards: [{
+		uid: "fdd46f4b",
+		type: "item",
+		item: "appliedenergistics2:material 1 58",
+		count: 3
+	}]
+}

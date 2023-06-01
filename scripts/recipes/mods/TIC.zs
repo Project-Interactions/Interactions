@@ -112,7 +112,7 @@ recipes.removeShaped(<tinkertoolcasts:upgrade_ultimate>, [[<minecraft:emerald_bl
 
 recipes.addShaped(<tinkertoolcasts:upgrade_ultimate>, [[<extendedcrafting:material:33>, <extendedcrafting:material:32>, <extendedcrafting:material:33>],[<tinkertoolcasts:upgrade_iridium>, <extendedcrafting:material:32>, <tinkertoolcasts:upgrade_iridium>], [null, <extendedcrafting:material:32>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget>, <plustic:osmiridiumingot>, <plustic:osmiridiumnugget>],[<tinkertoolcasts:upgrade_reinforced>, <plustic:osmiridiumingot>, <tinkertoolcasts:upgrade_reinforced>], [null, <plustic:osmiridiumingot>, null]]);
-recipes.addShaped(<tinkertoolcasts:upgrade_reinforced>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_ingot>, <immersiveintelligence:material_nugget>],[<tinkertoolcasts:upgrade_advanced>, <immersiveintelligence:material_ingot>, <tinkertoolcasts:upgrade_advanced>], [null, <immersiveintelligence:material_ingot>, null]]);
+recipes.addShaped(<tinkertoolcasts:upgrade_reinforced>, [[<ore:nuggetAdvancedElectronicAlloy>, <ore:ingotAdvancedElectronicAlloy>, <ore:nuggetAdvancedElectronicAlloy>],[<tinkertoolcasts:upgrade_advanced>, <ore:ingotAdvancedElectronicAlloy>, <tinkertoolcasts:upgrade_advanced>], [null, <ore:ingotAdvancedElectronicAlloy>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>],[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>], [null, <techreborn:ingot:19>, null]]);
 
 Casting.addTableRecipe(<immersiveengineering:material:20>, <immersiveengineering:mold:4>, <liquid:copper>,144,false, 80);
@@ -130,11 +130,6 @@ recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruc
 
 Casting.addTableRecipe(<contenttweaker:useful_ingot>, <tconstruct:cast_custom>, <liquid:tic_useful_metal>,144,false, 80);
 Casting.addTableRecipe(<techreborn:plates:35>, <tconstruct:cast_custom:3>, <liquid:refinediron>,144,false, 80);
-
-recipes.addShaped(<tinkertoolcasts:upgrade_ultimate>, [[<extendedcrafting:material:33>, <extendedcrafting:material:32>, <extendedcrafting:material:33>],[<tinkertoolcasts:upgrade_iridium>, <extendedcrafting:material:32>, <tinkertoolcasts:upgrade_iridium>], [null, <extendedcrafting:material:32>, null]]);
-recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget>, <plustic:osmiridiumingot>, <plustic:osmiridiumnugget>],[<tinkertoolcasts:upgrade_reinforced>, <plustic:osmiridiumingot>, <tinkertoolcasts:upgrade_reinforced>], [null, <plustic:osmiridiumingot>, null]]);
-recipes.addShaped(<tinkertoolcasts:upgrade_reinforced>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_ingot>, <immersiveintelligence:material_nugget>],[<tinkertoolcasts:upgrade_advanced>, <immersiveintelligence:material_ingot>, <tinkertoolcasts:upgrade_advanced>], [null, <immersiveintelligence:material_ingot>, null]]);
-recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>],[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>], [null, <techreborn:ingot:19>, null]]);
 
 recipes.remove(<tcomplement:high_oven_controller>);
 

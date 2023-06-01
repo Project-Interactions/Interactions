@@ -1,8 +1,8 @@
 {
 	x: 6.0d,
-	y: 5.0d,
+	y: 4.0d,
 	text: [
-		"手工电路板"
+		"Manual Circuit"
 	],
 	dependencies: [
 		"b76bf2b5"

@@ -54,8 +54,3 @@ ZenScroll.add(<tinkertoolcasts:tank_creative>.withTag({})
 ,<tinkertoolcasts:cast_creative:1>
 ,<tinkertoolcasts:cast_creative>);
 
-
-ZenScroll.add(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}),<immersiveengineering:blueprint>.withTag({blueprint: "vulcanizer_molds"}),<immersiveengineering:blueprint>.withTag({blueprint: "ammo_molds"}));
-ZenScroll.add(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}),<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}),<immersiveengineering:blueprint>.withTag({blueprint: "bullet_magazines"}));
-ZenScroll.add(<immersiveengineering:blueprint>.withTag({blueprint: "processors"}),<immersiveengineering:blueprint>.withTag({blueprint: "processor_functional_circuits"}));
-

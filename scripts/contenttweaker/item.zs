@@ -26,6 +26,14 @@ VanillaFactory.createItem("andesite_pebble").register();
 VanillaFactory.createItem("granite_pebble").register();
 VanillaFactory.createItem("diorite_pebble").register();
 
+VanillaFactory.createItem("printed_copper_plate").register();
+VanillaFactory.createItem("etched_assembled_circuit_plate").register();
+
+VanillaFactory.createItem("pre_rubber").register();
+
+VanillaFactory.createItem("mechanical_circuit_board").register();
+VanillaFactory.createItem("processor_circuit_board").register();
+
 VanillaFactory.createItem("printed_manual_circuit_board_substrate").register();
 VanillaFactory.createItem("manual_circuit").register();
 VanillaFactory.createItem("assembled_manual_circuit").register();

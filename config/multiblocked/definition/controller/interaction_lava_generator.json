@@ -44,8 +44,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "immersiveintelligence:metal_decoration",
-          "meta": 1
+          "id": "chisel:technical",
+          "meta": 11
         },
         "type": "blockstate"
       }
@@ -117,15 +117,6 @@
         "location": "interaction:lava_generator",
         "type": "component"
       },
-      "B": {
-        "states": [
-          {
-            "id": "immersiveintelligence:metal_decoration",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
       "2": {
         "capability": "forge_energy",
         "type": "capability",
@@ -191,7 +182,7 @@
         "A"
       ],
       "B": [
-        "B"
+        "D"
       ],
       "C": [
         "C"

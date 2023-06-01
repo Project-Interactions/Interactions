@@ -27,7 +27,7 @@ Resonator.add(<appliedenergistics2:material>, <minecraft:quartz>, 800);
 Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
 Resonator.add(<techreborn:machine_frame>, <contenttweaker:useful_block>, 1600);
 
-recipes.addShaped(<extrautils2:machine> * 2, [[<ore:blockAlchemicalBrass>, <ore:blockTwilghtSteel>, <ore:blockThaumium>],[<immersiveintelligence:metal_decoration:2>, <ore:circuitMana>, <immersiveintelligence:metal_decoration:2>], [<ore:blockThaumium>, <ore:blockTwilghtSteel>, <ore:blockAlchemicalBrass>]]);
+recipes.addShaped(<extrautils2:machine> * 2, [[<ore:blockAlchemicalBrass>, <ore:blockTwilghtSteel>, <ore:blockThaumium>],[<immersiveengineering:metal_decoration0:5>, <ore:circuitMana>, <immersiveengineering:metal_decoration0:5>], [<ore:blockThaumium>, <ore:blockTwilghtSteel>, <ore:blockAlchemicalBrass>]]);
 
 
 Resonator.add(<compactmachines3:machine:3>, <compactmachines3:machine:2>, 10000);

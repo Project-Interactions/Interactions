@@ -1,6 +1,5 @@
 //Main
 furnace.remove(<nuclearcraft:ingot:12>);
-furnace.remove(<immersiveintelligence:material_ingot:2>);
 recipes.remove(<enderio:item_material:10>);
 recipes.remove(<actuallyadditions:item_pickaxe_quartz>);
 furnace.remove(<thermalfoundation:material:132>);

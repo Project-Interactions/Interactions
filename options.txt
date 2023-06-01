@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:2
 guiScale:0
 particles:2
 bobView:true
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -289,7 +289,6 @@ key_key.taiga.alt_action:0
 key_key.carpet_forward:0
 key_key.carpet_backward:0
 key_key.craftingGrid:0
-key_variegated.keybinds.offhand:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -314,12 +313,6 @@ key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
-key_key.immersiveintelligence.manualReload:0
-key_key.immersiveintelligence.mgScope:0
-key_key.immersiveintelligence.motorbikeEngine:0
-key_key.immersiveintelligence.motorbikeTowing:0
-key_key.immersiveintelligence.armorHelmet:0
-key_key.immersiveintelligence.armorExosuit:0
 key_开关喷气背包:45
 key_打开火箭界面:0
 key_切换 RCS:19

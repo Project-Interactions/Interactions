@@ -11,6 +11,8 @@ import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.AlloyFurnace;
 import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.Crystallizer;
+import mods.nuclearcraft.Electrolyzer;
+
 
 recipes.remove(<nuclearcraft:glowing_mushroom>);
 
@@ -161,3 +163,4 @@ SaltMixer.addRecipe(<liquid:rocket_fuel>*1000, <liquid:rocketfuel>*1000, <liquid
 
 Crystallizer.addRecipe(<liquid:experience>*250, <actuallyadditions:item_solidified_experience>,0.2);
 
+Electrolyzer.addRecipe(<liquid:moltensalt>*2000, <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332, null);

@@ -1,0 +1,13 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"6b706d74",
+		"c565d4de"
+	],
+	tasks: [{
+		uid: "df3d8a1b",
+		type: "fluid",
+		fluid: "advanced_etching"
+	}]
+}

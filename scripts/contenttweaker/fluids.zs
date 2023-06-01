@@ -58,6 +58,14 @@ zsFluid41.register();
 
 var zsFluid42 = VanillaFactory.createFluid("mix_rocket_fuel", Color.fromHex("FFFFFF"));
 zsFluid42.register();
+
+var zsFluid43 = VanillaFactory.createFluid("etching_acid", Color.fromHex("656422"));
+zsFluid43.register();
+
+
+
+
+
 //moltens
 val heavymetalelements = mods.contenttweaker.VanillaFactory.createFluid("heavymetalelements", Color.fromHex("993333").getIntColor());
 heavymetalelements.material = <blockmaterial:lava>;

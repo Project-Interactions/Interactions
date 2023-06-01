@@ -1,5 +1,5 @@
 {
-	x: 0.5d,
+	x: 2.0d,
 	y: 9.0d,
 	dependencies: [
 		"782941fa"
@@ -12,7 +12,7 @@
 		}]
 	},
 	{
-		uid: "b1b9fc73",
+		uid: "a9cd471e",
 		type: "item",
 		items: [{
 			item: "contenttweaker:sub_block_holder_0 1 6"

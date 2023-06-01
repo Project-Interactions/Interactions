@@ -2,18 +2,18 @@
 	x: 5.0d,
 	y: 3.0d,
 	text: [
-		"基础电路板"
+		"Better Circuit"
 	],
 	dependencies: [
 		"b76bf2b5"
 	],
 	tasks: [{
-		uid: "5e4925a0",
+		uid: "9632e574",
 		type: "item",
 		items: [{
 			id: "immersiveengineering:blueprint",
 			tag: {
-				blueprint: "basic_circuits"
+				blueprint: "Better Circuit"
 			}
 		}],
 		ignore_damage: true

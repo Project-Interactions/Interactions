@@ -16,6 +16,7 @@ import mods.techreborn.fusionReactor;
 import mods.techreborn.vacuumFreezer;
 import mods.techreborn.fluidReplicator;
 import mods.techreborn.grinder;
+import mods.techreborn.chemicalReactor;
 
 
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
@@ -238,3 +239,7 @@ industrialElectrolyzer.addRecipe(<techreborn:dynamiccell>, <actuallyadditions:it
 
 grinder.removeRecipe(<minecraft:glowstone_dust>*9);
 grinder.removeInputRecipe(<minecraft:glowstone>);
+
+chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "carbon_dioxide", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}}), <ore:coal>, 80, 200);
+chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "carbon_dioxide", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}}), <ore:charcoal>, 80, 200);
+

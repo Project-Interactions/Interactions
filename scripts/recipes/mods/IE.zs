@@ -8,15 +8,16 @@ import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.MetalPress;
-import mods.immersiveengineering.Refinery;
+import mods.immersiveengineering.Refinery as ChemicalReactor;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Mixer;
-import mods.immersivetweaker.Recycling;
+import mods.immersiveengineering.BottlingMachine;
+import mods.immersiveengineering.CokeOven;
+import mods.immersiveengineering.Fermenter;
 
-import mods.immersiveintelligence.ChemicalBath;
-import mods.immersiveintelligence.PrecissionAssembler;
+import mods.immersivetweaker.Recycling;
 
 import mods.immersivepetroleum.Distillation;
 
@@ -41,13 +42,7 @@ BlastFurnace.addRecipe(<techreborn:storage2:10>, <minecraft:iron_block>, 900,<im
 BlastFurnace.addRecipe(<thermalfoundation:material:132>, <thermalfoundation:material:68>, 140,<immersiveengineering:material:7>);
 BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
-//
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "components"}), [<ore:ingotCopper>, <ore:ingotCrudeSteel>, <ore:ingotRefinedIron>]);
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "basic_circuits"}), [<ore:electronTube>, <immersiveengineering:tool:3>, <ore:electronTube>]);
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "ammo_molds"}), [[null, <ore:saplingRubber>, null], [null, null, null], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-recipes.removeShaped(<immersiveengineering:blueprint>.withTag({blueprint: "basic_circuits"}), [[<ore:chipBasic>, <immersiveengineering:tool:3>, <ore:chipBasic>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
-//
 recipes.remove(<immersiveengineering:material:8>);
 recipes.remove(<immersiveengineering:material:9>);
 recipes.remove(<immersiveengineering:metal_decoration1:1> * 6);
@@ -87,26 +82,14 @@ recipes.removeShapeless(<immersiveengineering:material:20>);
 recipes.removeShapeless(<immersiveengineering:material:21>);
 recipes.removeShapeless(<immersiveengineering:material:22>);
 recipes.removeShapeless(<immersiveengineering:material:23>);
-furnace.remove(<immersiveintelligence:material_ingot:4>);
-recipes.remove(<immersiveintelligence:motor_gear:2>);
-recipes.remove(<immersiveintelligence:motor_gear>);
-recipes.remove(<immersiveintelligence:motor_gear:1>);
 recipes.remove(<immersiveengineering:metal_decoration0:7> * 2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>],[<techreborn:part:36>, <ore:circuitGood>, <techreborn:part:36>], [<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>]]);
 
 Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
-//
-ChemicalBath.removeRecipe(<immersiveintelligence:material:11>);
-ChemicalBath.addRecipe(<immersiveintelligence:material:10>,<immersiveintelligence:material:11>,<liquid:advanced_etching>*4000,3200,160);
 
-//CoolingTower.addRecipe(<liquid:ore_water>*1000,<liquid:waste_water>*500,<liquid:water>*500,<liquid:waste_water>*1000,<liquid:ore_water>*10000,60);
+Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>*2, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<contenttweaker:printed_copper_plate>*3,<ore:ingotRedAlloy>*2]);
 
-//Crusher.removeRecipe(<libvulpes:productgem>);
-
-
-Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<immersiveengineering:material:20>*3,<ore:ingotRedAlloy>*2]);
-
-
+Squeezer.addRecipe(<contenttweaker:pre_rubber>,null,<techreborn:part:31>,1024);
 
 //AlloySmelter
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
@@ -114,45 +97,44 @@ AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blo
 Crusher.addRecipe(<buildinggadgets:constructionblockpowder>, <minecraft:sand>, 2048);
 //blueprint
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Manual Circuit"}),[<immersiveengineering:stone_decoration:8>,<immersiveengineering:stone_decoration:8>,<ore:plateBronze>]);
-//工程块
+//
 recipes.remove(<immersiveengineering:metal_decoration0:3>*2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [[<moreplates:crude_steel_plate>, <ore:circuitBasic>, <moreplates:crude_steel_plate>],[<minecraft:redstone>, <ore:gearCopper>, <minecraft:redstone>], [<moreplates:crude_steel_plate>, <minecraft:redstone>, <moreplates:crude_steel_plate>]]);
 
-recipes.removeShaped(<immersiveengineering:metal_decoration0:4>*2, [[<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]]);
-recipes.addShaped(<immersiveengineering:metal_decoration0:4>*2, [[<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>], [<ore:ingotCopper>, <ore:circuitBasic>, <ore:ingotCopper>], [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]]);
+recipes.removeShaped(<immersiveengineering:metal_decoration0:4>*2);
+recipes.addShaped(<immersiveengineering:metal_decoration0:4>*2, [[<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>], [<ore:wireCopper>, <ore:circuitBasic>, <ore:wireCopper>], [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]]);
 
-recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>]]);
+recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:circuitBasic>, <immersiveengineering:material:9>, <ore:circuitBasic>]]);
 
 Blueprint.removeRecipe(<immersiveengineering:material:27>);
-Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*3,<immersiveintelligence:material:3>,<ore:electronTube>,<ore:ingotMagnet>*2,<ore:ingotRefinedIron>*2]);
-Blueprint.addRecipe("basic_circuits", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*3,<immersiveintelligence:material:3>,<ore:electronTube>,<ore:ingotMagnet>*2,<aether_legacy:quicksoil_glass_pane>*4]);
+Blueprint.addRecipe("Better Circuit", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<ore:ingotRefinedIron>*2]);
+Blueprint.addRecipe("Better Circuit", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<aether_legacy:quicksoil_glass_pane>*4]);
 
-//engine
-RecipeUtils.recipeTweak(true,<immersiveintelligence:material:13>,[[<ore:brushCarbon>, <ore:circuitGood>, <ore:brushCarbon>], [<ore:plateAluminum>, <ore:ingotMagnet>, <ore:plateAluminum>], [<ore:ingotMagnet>, <immersiveengineering:wirecoil:1>, <ore:ingotMagnet>]]);
 Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
-//机械电路板
-PrecissionAssembler.addRecipe(<contenttweaker:mechanical_circuit>*3,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:4>*2, <immersiveintelligence:material:6>,<ore:itemRubber>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
-Blueprint.removeRecipe(<immersiveintelligence:material:7>);
-//mixer
-Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4000);
 
+//chlorine
+Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*1000, [<ore:dustSalt>], 2048);
+ElectrolyticCrucibleBattery.removeRecipe(<liquid:moltensalt>*1000);
+ElectrolyticCrucibleBattery.addRecipe(
+    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332,
+    null,<liquid:moltensalt>*2000,
+    50000, 100
+);
+ElectrolyticCrucibleBattery.addRecipe(
+    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332,
+    null,<liquid:sodium_chloride_solution>*1332,
+    50000, 100
+);
 
+Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*500, [<ore:dustIron>], 2048);
+BottlingMachine.addRecipe(<contenttweaker:etched_assembled_circuit_plate>, <ore:plateLead>, <liquid:etching_acid>*500);
 
-Blueprint.removeRecipe(<immersiveintelligence:material:10>);
-Blueprint.addRecipe("processors", <immersiveintelligence:material:10>, [<immersiveintelligence:material:5>*3,<ore:plateDuraluminium>*2]);
-
-Blueprint.removeRecipe(<immersiveintelligence:material:12>);
-PrecissionAssembler.addRecipe(<contenttweaker:processor_mechanical_circuit>,<immersiveintelligence:material_nugget>,[<immersiveintelligence:material:11>,<immersiveintelligence:material:9>*2,<ore:plateManasteel>*3,<contenttweaker:mechanical_circuit>*3], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
-
+Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4096);
 
 <ore:circuitAdvanced>.add(<contenttweaker:processor_mechanical_circuit>);
 <ore:circuitProcessor>.add(<contenttweaker:processor_mechanical_circuit>);
-
-//coils
-PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_0:6>,null,[<ore:wireDuraluminium>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
-PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_1>,null,[<ore:wireMenril>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
-PrecissionAssembler.addRecipe(<contenttweaker:sub_block_holder_1:2>,null,[<ore:wireNaturium>*8,<ore:itemRubber>*6], ["drill","hammer","inserter"], ["inserter pick first","drill work main","inserter drop main","hammer work main"], 80000, 2);
+recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Better Circuit"}), [<ore:electronTube>,<ore:electronTube>,<ore:circuitBasic>]);
 
 //prevent brass
 ArcFurnace.removeRecipe(<thaumcraft:ingot:2>);
@@ -168,38 +150,18 @@ recipes.addShaped(<thaumcraft:ingot:2>,[[<ore:nuggetAlchemicalBrass>,<ore:nugget
 MetalPress.removeRecipe(<thaumcraft:plate>);
 MetalPress.addRecipe(<thaumcraft:plate>,<thaumcraft:ingot:2>,<immersiveengineering:mold>,1024);
 
-
-
 RecipeUtils.recipeTweak(true,<immersiveengineering:stone_decoration:8> * 2, [[null, <tconstruct:clear_glass>, null], [<ore:dustIron>, <ore:dyeGreen>, <ore:dustIron>], [null, <tconstruct:clear_glass>, null]]);
 RecipeUtils.recipeTweak(true,<engineersdecor:panzerglass_block> * 4, [[<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>], [<immersiveengineering:stone_decoration:8>, <minecraft:diamond>, <immersiveengineering:stone_decoration:8>], [<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>]]);
-
-recipes.remove(<immersiveintelligence:metal_device1>);
-recipes.remove(<immersiveintelligence:material_ingot:5>);
-recipes.remove(<immersiveintelligence:metal_decoration:2>*3);
-recipes.addShaped(<immersiveintelligence:metal_decoration:2>*2, [[<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>],[<ore:circuitAdvanced>, <immersiveintelligence:metal_decoration:1>, <ore:circuitAdvanced>], [<ore:plateAdvancedElectronicAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedElectronicAlloy>]]);
-recipes.addShaped(<immersiveintelligence:material_ingot>, [[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>],[<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>], [<immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>, <immersiveintelligence:material_nugget>]]);
-recipes.addShapeless(<immersiveintelligence:material_nugget> * 9, [<immersiveintelligence:material_ingot>]);
-
 
 //obsidian plate
 MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengineering:mold>,1024);
 
-ChemicalBath.addRecipe(<contenttweaker:material_part:108>*2, <thermalfoundation:material:70>, <fluid:aqua_regia>*1000, 20000, 200);
-Refinery.addRecipe(<liquid:aqua_regia>*8, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 2048);
 
 Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.5]);
 Distillation.addRecipe([<liquid:water>*900], [<mekanism:salt>], <liquid:brine>*1000, 1024, 100, [0.8]);
 
-//balance
-//PrecissionAssembler.removeRecipesForOutput(<immersiveintelligence:material:9>);
-PrecissionAssembler.addRecipe(<immersiveintelligence:material:9>*2,null,[<immersiveintelligence:material>*2,<immersiveintelligence:material:8>*8], ["inserter","solderer","drill"], ["inserter pick first","solderer work second","drill drop second"], 10000, 1);
-
 //imm slab add oredictionary
 recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_slab");
-recipes.removeByRecipeName("immersiveintelligence:metals/platinum/slab");
-recipes.removeByRecipeName("immersiveintelligence:metals/zinc/slab");
-recipes.removeByRecipeName("immersiveintelligence:metals/tungsten/slab");
-recipes.removeByRecipeName("immersiveintelligence:metals/brass/slab");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/copper_slab");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_slab");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/lead_slab");
@@ -210,10 +172,6 @@ recipes.removeByRecipeName("immersiveengineering:metal_storage/constantan_slab")
 recipes.removeByRecipeName("immersiveengineering:metal_storage/uranium_slab");
 
 recipes.addShaped(<immersiveengineering:storage_slab:8> * 6, [[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
-recipes.addShaped(<immersiveintelligence:storage_slab> * 6, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>]]);
-recipes.addShaped(<immersiveintelligence:storage_slab:1> * 6, [[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>]]);
-recipes.addShaped(<immersiveintelligence:storage_slab:2> * 6, [[<ore:blockTungsten>, <ore:blockTungsten>, <ore:blockTungsten>]]);
-recipes.addShaped(<immersiveintelligence:storage_slab:3> * 6, [[<ore:blockBrass>, <ore:blockBrass>, <ore:blockBrass>]]);
 recipes.addShaped(<immersiveengineering:storage_slab> * 6, [[<ore:blockCopper>, <ore:blockCopper>, <ore:blockCopper>]]);
 recipes.addShaped(<immersiveengineering:storage_slab:1> * 6, [[<ore:blockAluminum>, <ore:blockAluminum>, <ore:blockAluminum>]]);
 recipes.addShaped(<immersiveengineering:storage_slab:2> * 6, [[<ore:blockLead>, <ore:blockLead>, <ore:blockLead>]]);
@@ -222,18 +180,6 @@ recipes.addShaped(<immersiveengineering:storage_slab:4> * 6, [[<ore:blockNickel>
 recipes.addShaped(<immersiveengineering:storage_slab:7> * 6, [[<ore:blockElectrum>, <ore:blockElectrum>, <ore:blockElectrum>]]);
 recipes.addShaped(<immersiveengineering:storage_slab:6> * 6, [[<ore:blockConstantan>, <ore:blockConstantan>, <ore:blockConstantan>]]);
 recipes.addShaped(<immersiveengineering:storage_slab:5> * 6, [[<ore:blockUranium>, <ore:blockUranium>, <ore:blockUranium>]]);
-
-//
-recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:processor_mechanical_circuit", Count: 1 as byte, Damage: 0 as short}}), [[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material>, null],[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material>], [<immersiveintelligence:material>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>]]);
-recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:mechanical_circuit", Count: 3 as byte, Damage: 0 as short}}), [[<immersiveintelligence:material_plate:7>, <immersiveengineering:material:26>, null],[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>, <immersiveengineering:material:26>], [<immersiveengineering:material:26>, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>]]);
-recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:sub_block_holder_0", Count: 1 as byte, Damage: 6 as short}}), [[<immersiveintelligence:material_plate:7>, null, null],[<immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>, null], [null, <immersiveintelligence:material_plate:7>, <immersiveintelligence:material_plate:7>]]);
-recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:sub_block_holder_1", Count: 1 as byte, Damage: 0 as short}}), [[<contenttweaker:material_part:138>, null, null],[<contenttweaker:material_part:138>, <contenttweaker:material_part:138>, null], [null, <contenttweaker:material_part:138>, <contenttweaker:material_part:138>]]);
-recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "contenttweaker:sub_block_holder_1", Count: 1 as byte, Damage: 2 as short}}), [[<contenttweaker:material_part:128>, null, null],[<contenttweaker:material_part:128>, <contenttweaker:material_part:128>, null], [null, <contenttweaker:material_part:128>, <contenttweaker:material_part:128>]]);
-
-recipes.removeByRecipeName("immersiveintelligence:blueprints/schemes/processor");
-recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "immersiveintelligence:material", Count: 1, Damage: 9}}), [[<ore:transistor>, <immersiveintelligence:radio_configurator>, <ore:transistor>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-recipes.addShaped(<immersiveintelligence:assembly_scheme>.withTag({recipeItem: {id: "immersiveintelligence:material", Count: 2, Damage: 9 as short}}), [[<immersiveintelligence:material:9>, <immersiveintelligence:radio_configurator>, <immersiveintelligence:material:9>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-
 
 Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
 Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
@@ -250,26 +196,62 @@ RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveenginee
 MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 1024, 20);
 MeltingCrucible.addRecipe(<liquid:lava>*1000, <minecraft:netherrack>, 512, 40);
 
-
-
-ChemicalBath.addRecipe(<botania:quartz:3>*2, <contenttweaker:mana_circuit_board>,<liquid:molten_elfglass>*1000, 16000, 80);
-ChemicalBath.addRecipe(<contenttweaker:mana_circuit_board>, <contenttweaker:starlight_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000, 32000, 80);
-ChemicalBath.removeRecipe(<immersiveintelligence:material_dust:7>);
+BottlingMachine.addRecipe(<contenttweaker:mana_circuit_board>,<botania:quartz:3>*2,<liquid:molten_elfglass>*1000);
+BottlingMachine.addRecipe(<contenttweaker:starlight_circuit_board>,<contenttweaker:mana_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000);
 
 ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:itemcraftingcomponent>, <immersiveengineering:material:7>, 60, 1024,[<integrateddynamics:crystalized_menril_chunk>], "Alloying");
-
+ArcFurnace.addRecipe(<libvulpes:productingot:3>, <ore:dustQuartz>, null, 60, 1024,[<ore:dustQuartz>], "Alloying");
+furnace.remove(<libvulpes:productingot:3>);
 RecipeUtils.recipeTweak(true,<engineersdecor:small_tree_cutter>, [[<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>], [<ore:gearSteel>, <minecraft:iron_axe>, <minecraft:observer>], [<immersiveengineering:material:9>, <minecraft:redstone_block>, <immersiveengineering:material:9>]]);
-
-recipes.removeByRecipeName("immersiveintelligence:metals/duraluminium/plate");
-recipes.removeByRecipeName("immersiveintelligence:metals/tungsten/plate");
 
 //Dilithium
 Crusher.removeRecipe(<libvulpes:productgem>);
 Crusher.removeRecipe(<libvulpes:productgem>*2);
 
-<ore:wireAdvancedElectronicAlloy>.add(<immersiveintelligence:material_wire>);
 <ore:coilCopper>.remove(<immersiveengineering:metal_decoration0>);
 
 Squeezer.addRecipe(<minecraft:blaze_rod>,<liquid:lava>*500,<minecraft:blaze_powder>*5,60);
 
 RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:13>, [[<botania:bifrostperm>, <ore:circuitAdvanced>, <botania:bifrostperm>], [<botania:bifrostperm>, null, <botania:bifrostperm>], [<ore:plankTreatedWood>, <ore:circuitAdvanced>, <ore:plankTreatedWood>]]);
+
+game.setLocalization("zh_cn", "tile.immersiveengineering.metal_multiblock.refinery.name", "炼油厂（化学反应厂）");
+game.setLocalization("zh_cn", "desc.immersiveengineering.info.multiblock.IE:Refinery", "炼油厂（化学反应厂）");
+game.setLocalization("zh_cn", "ie.manual.entry.refinery.name", "炼油厂（化学反应厂）");
+
+game.setLocalization("en_us", "tile.immersiveengineering.metal_multiblock.refinery.name", "Refinery(Chemical Reactor)");
+game.setLocalization("en_us", "desc.immersiveengineering.info.multiblock.IE:Refinery", "Refinery(Chemical Reactor)");
+game.setLocalization("en_us", "ie.manual.entry.refinery.name", "Refinery(Chemical Reactor)");
+
+recipes.addShaped(<qmd:atmosphere_collector>, [[<ore:circuitGood>, <embers:ember_detector>, <ore:circuitGood>],[<ore:plateMagnet>, <ore:scaffoldingSteel>, <ore:plateMagnet>], [<ore:circuitGood>, <ore:plateMagnet>, <ore:circuitGood>]]);
+//ChemicalReactor
+//aqua regia
+ChemicalReactor.addRecipe(<liquid:aqua_regia>*8, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 128);
+//sulfur
+ChemicalReactor.addRecipe(<liquid:sulfuric_acid>*5, <liquid:water>*5, <liquid:sulfur_trioxide>*5, 128);
+ChemicalReactor.addRecipe(<liquid:sulfur_trioxide>*6, <liquid:oxygen>*3, <liquid:sulfur_dioxide>*3, 128);
+Fermenter.addRecipe(null, <liquid:carbon_dioxide>*400, <ore:coal>, 2048);
+Fermenter.addRecipe(null, <liquid:carbon_dioxide>*400, <ore:charcoal>, 4096);
+Fermenter.addRecipe(null, <liquid:sulfur_dioxide>*500, <ore:dustSulfur>, 4096);
+//nitrogen
+ChemicalReactor.addRecipe(<liquid:nitric_acid>*4,<liquid:nitrogen_dioxide>*6, <liquid:water>*2, 128);
+ChemicalReactor.addRecipe(<liquid:nitric_oxide>*4,<liquid:oxygen>*2, <liquid:nitrogen_dioxide>*4, 128);
+ChemicalReactor.addRecipe(<liquid:nitric_oxide>*4,<liquid:nitrogen>*2, <liquid:oxygen>*2, 128);
+//advanced_electronic_alloy
+recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 8, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
+furnace.remove(<contenttweaker:material_part:211>);
+//mech & proc circuit
+Blueprint.addRecipe("Better Circuit", <contenttweaker:mechanical_circuit_board>*3, [<ore:electronTube>*3,<ore:plateAdvancedElectronicAlloy>*2,<ore:wireCopper>*4,<ore:gearSteel>,<ore:ingotHOPGraphite>*2]);
+BottlingMachine.addRecipe(<contenttweaker:mechanical_circuit>, <contenttweaker:mechanical_circuit_board>, <liquid:etching_acid>*1000);
+Blueprint.addRecipe("Best Circuit", <contenttweaker:processor_circuit_board>, [<contenttweaker:mechanical_circuit_board>*3,<ore:itemRubber>*4,<ore:plateTerrasteel>*2]);
+recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Best Circuit"}),[<ore:circuitGood>,<ore:stickManasteel>,<immersiveengineering:conveyor>]);
+BottlingMachine.addRecipe(<contenttweaker:processor_mechanical_circuit>, <contenttweaker:processor_circuit_board>, <liquid:advanced_etching>*1000);
+
+//air
+CoolingTower.addRecipe(<liquid:nitrogen> * 7800, <liquid:oxygen>*2100, null, <liquid:compressed_air>*10000, null, 400);
+
+//coils
+Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_0:6>, [<ore:wireAdvancedElectronicAlloy>*8,<ore:itemRubber>*6]);
+Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1>, [<ore:wireMenril>*8,<ore:itemRubber>*6]);
+Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:2>, [<ore:wireNaturium>*8,<ore:itemRubber>*6]);
+Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:4>, [<ore:wireTwilghtSteel>*8,<ore:itemRubber>*6]);
+Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:6>, [<ore:wireGaia>*8,<ore:itemRubber>*6]);

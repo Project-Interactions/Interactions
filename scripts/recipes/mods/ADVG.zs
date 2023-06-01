@@ -15,9 +15,10 @@ RecipeUtils.recipeTweak(true, <advgenerators:controller>, [
 	[null, <ore:plateSilicon>, null]
 ]);
 
+
 recipes.addShaped(<advgenerators:iron_tubing>*8, [
 	[<ore:stickWood>, <ore:stickIron>, null], 
-	[<ore:stickIron>, <immersiveintelligence:data_wire>, <ore:stickIron>], 
+	[<ore:stickIron>, <ore:wireAdvancedElectronicAlloy>, <ore:stickIron>], 
 	[null, <ore:stickIron>, <ore:stickWood>]
 ]);
 

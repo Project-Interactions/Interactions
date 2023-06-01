@@ -17,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "immersiveintelligence:metal_decoration",
-          "meta": 4
+          "id": "chisel:technicalnew",
+          "meta": 6
         },
         "type": "blockstate"
       }
@@ -79,8 +79,8 @@
       "B": {
         "states": [
           {
-            "id": "immersiveintelligence:metal_decoration",
-            "meta": 1
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 5
           }
         ],
         "type": "states"
@@ -92,7 +92,7 @@
       "C": {
         "states": [
           {
-            "id": "jaopca:block.magnet",
+            "id": "contenttweaker:sub_block_holder_0",
             "meta": 0
           }
         ],
@@ -123,7 +123,7 @@
       "G": {
         "states": [
           {
-            "id": "immersiveintelligence:metal_decoration",
+            "id": "immersiveengineering:metal_decoration0",
             "meta": 4
           }
         ],
@@ -132,8 +132,8 @@
       "H": {
         "states": [
           {
-            "id": "immersiveintelligence:etching_acid",
-            "meta": 0
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 3
           }
         ],
         "type": "states"

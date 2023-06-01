@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	dependencies: [
+		"d7891a48"
+	],
+	tasks: [{
+		uid: "e7788064",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 32"
+		}]
+	}]
+}

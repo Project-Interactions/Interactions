@@ -9,6 +9,7 @@ RecipeUtils.recipeTweak(true, <practicallogistics2:datacable>*2, [[<practicallog
 hammer.addRecipe(<contenttweaker:ore_essence>,<minecraft:redstone>*3);
 hammer.addRecipe(<projectred-core:resource_item>,<contenttweaker:printed_manual_circuit_board_substrate>);
 hammer.addRecipe(<minecraft:cobblestone>,<botania:manaresource:21>*4);
+hammer.addRecipe(<ore:plateCopper>,<contenttweaker:printed_copper_plate>);
 
 //harder base materials
 hammer.removeRecipe(<practicallogistics2:stoneplate>*4);

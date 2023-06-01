@@ -17,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "demagnetize:demagnetizer",
-          "meta": 0
+          "id": "chisel:technicalnew",
+          "meta": 3
         },
         "type": "blockstate"
       }

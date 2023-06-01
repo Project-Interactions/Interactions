@@ -66,6 +66,14 @@ item.contenttweaker.aquamarine_menril_mixture.name=海蓝宝石-门瑞欧结晶�
 
 item.contenttweaker.blank_ar_chip.name=空白高级火箭芯片
 item.contenttweaker.thaumic_suncrystal.name=神阳水晶
+
+item.contenttweaker.printed_copper_plate.name=压印铜板
+item.contenttweaker.etched_assembled_circuit_plate.name=蚀刻的组装电路基板
+item.contenttweaker.pre_rubber.name=半加工橡胶
+item.contenttweaker.mechanical_circuit_board.name=机械电路基板
+item.contenttweaker.processor_circuit_board.name=处理器电路基板
+
+
 //fluid
 fluid.blend_caminite=液态方镁矾
 fluid.hot_blend_caminite=热液态方镁矾
@@ -126,6 +134,8 @@ base.material.twilght_steel=暮色合金
 base.material.refined_iron=精炼铁
 base.material.six_in_one_thaumic=六合一神秘
 base.material.crude_gold=贵金属
+base.material.advanced_electronic_alloy=高级电子合金
+base.material.magnet=磁铁
 
 //part
 contenttweaker.part.dust_tiny=小搓%s粉

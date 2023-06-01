@@ -6,7 +6,7 @@ import mods.threng.Energizer;
 import mods.appliedenergistics2.Inscriber;
 import mods.threng.Etcher;
 import mods.threng.Aggregator;
-//普通修改
+//misc
 recipes.removeShapeless(<appliedenergistics2:part:360>, [<appliedenergistics2:part:380>, <ore:workbench>, <appliedenergistics2:material:23>]);
 recipes.remove(<enderio:item_material>);
 recipes.remove(<appliedenergistics2:grindstone>);
@@ -52,7 +52,7 @@ recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<integrateddynamics:c
 recipes.addShaped(<appliedenergistics2:part:56> * 2, [[<appliedenergistics2:part:16>, <appliedenergistics2:part:16>, <appliedenergistics2:part:16>],[<appliedenergistics2:part:16>, <integrateddynamics:variable>, <appliedenergistics2:part:16>], [<appliedenergistics2:part:16>, <appliedenergistics2:part:16>, <appliedenergistics2:part:16>]]);
 recipes.addShapeless(<appliedenergistics2:part:16> * 2, [<appliedenergistics2:part:140>,<integrateddynamics:crystalized_menril_chunk>,<integrateddynamics:crystalized_menril_chunk>]);
 
-//压印器重写
+//Inscriber
 Inscriber.removeRecipe(<appliedenergistics2:material:17>);
 Inscriber.removeRecipe(<appliedenergistics2:material:18>);
 Inscriber.removeRecipe(<appliedenergistics2:material:20>);
@@ -67,7 +67,7 @@ Inscriber.addRecipe(<appliedenergistics2:material:17>,<calculator:flawlessdiamon
 Inscriber.addRecipe(<appliedenergistics2:material:18>,<moreplates:enriched_gold_plate>,true,<appliedenergistics2:material:15>);
 Inscriber.addRecipe(<appliedenergistics2:material:20>,<ore:plateSilicon>,true,<appliedenergistics2:material:19>);
 
-//外壳
+//casing
 recipes.removeShaped(<appliedenergistics2:material:39>, [[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>], [<ore:dustRedstone>, null, <ore:dustRedstone>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<aeadditions:storage.casing>, [[<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>], [<ore:dustFluix>, null, <ore:dustFluix>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]]);
 recipes.removeShaped(<aeadditions:storage.casing:1>, [[<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>], [<ore:dustFluix>, null, <ore:dustFluix>], [<aeadditions:certustank>, <aeadditions:certustank>, <aeadditions:certustank>]]);
@@ -103,17 +103,6 @@ recipes.remove(<appliedenergistics2:quartz_glass> * 4);
 //
 recipes.removeShapeless(<aeadditions:storage.casing:1>, [<appliedenergistics2:material:39>]);
 recipes.removeShapeless(<appliedenergistics2:material:39>, [<aeadditions:storage.casing:1>]);
-//add
-
-
-//ae2 utils
-recipes.removeShaped(<ae2utilities:enhanced_interface_tier1>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:35>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
-recipes.removeShaped(<ae2utilities:enhanced_interface_tier2>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:36>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
-recipes.removeShaped(<ae2utilities:enhanced_interface_tier3>, [[<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:material:37>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:interface>, <ore:ingotIron>]]);
-
-recipes.addShapeless(<ae2utilities:enhanced_interface_tier1>,[<appliedenergistics2:interface>,<appliedenergistics2:material:58>]);
-recipes.addShapeless(<ae2utilities:enhanced_interface_tier2>,[<ae2utilities:enhanced_interface_tier1>,<appliedenergistics2:material:58>]);
-recipes.addShapeless(<ae2utilities:enhanced_interface_tier3>,[<ae2utilities:enhanced_interface_tier2>,<appliedenergistics2:material:58>]);
 
 Inscriber.addRecipe(<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:18>,false,<mysticalagriculture:storage:2>);
 
@@ -146,17 +135,17 @@ RecipeUtils.recipeTweak(true, <packagedauto:unpackager>, [[<ore:plateVibrantAllo
 //capability adapter
 RecipeUtils.recipeTweak(true, <rf-capability-adapter:aecapabilityadapter>, [[<ore:plateVibrantAlloy>, <ore:circuitElite>, <ore:plateVibrantAlloy>], [<ore:crystalFluix> | <appliedenergistics2:material:12>, <appliedenergistics2:interface>, <ore:crystalFluix> | <appliedenergistics2:material:12>], [<ore:plateVibrantAlloy>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <ore:plateVibrantAlloy>]]);
 //lazyae2
-Etcher.removeRecipe(<appliedenergistics2:material:22>);
-Etcher.removeRecipe(<appliedenergistics2:material:24>);
+//Etcher.removeRecipe(<appliedenergistics2:material:22>);
+//Etcher.removeRecipe(<appliedenergistics2:material:24>);
 
-Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <ore:dustRedstone>, <ore:itemSilicon>);
-Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
+//Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <ore:dustRedstone>, <ore:itemSilicon>);
+//Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
 
-Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
+//Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
 
-Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
+//Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
 
-recipes.addShapeless(<aeadditions:part.base:2>, [<ae2utilities:part_enhanced_interface_tier3>,<appliedenergistics2:part:441>]);
+recipes.addShapeless(<aeadditions:part.base:2>, [<appliedenergistics2:interface>,<appliedenergistics2:part:441>,<appliedenergistics2:material:58>]);
 
 //booster_card
 
@@ -192,5 +181,6 @@ recipes.addShapeless(<ae2fc:fluid_assembler>,[<aeadditions:fluidcrafter>]);
 Inscriber.removeRecipe(<appliedenergistics2:material:60>);
 Inscriber.addRecipe(<appliedenergistics2:material:60>, <appliedenergistics2:material:26>, false, <minecraft:redstone_block>, <minecraft:lapis_block>);
 
+//tweak infinity card
 Inscriber.removeRecipe(<appliedenergistics2:material:59>);
 Inscriber.addRecipe(<appliedenergistics2:material:59>, <aeadditions:storage.component:3>, false, <aeadditions:storage.component:5>, <aeadditions:storage.component:12>);

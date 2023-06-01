@@ -3,6 +3,9 @@
 	icon: "immersivepetroleum:metal_multiblock 1 3",
 	x: 0.5d,
 	y: -1.5d,
+	text: [
+		"拥有独立的JEI界面，且支持气体输出"
+	],
 	tasks: [{
 		uid: "d894cd09",
 		type: "item",

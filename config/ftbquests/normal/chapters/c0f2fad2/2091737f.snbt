@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	dependencies: [
+		"fd01c588"
+	],
+	tasks: [{
+		uid: "9fedb9ea",
+		type: "item",
+		items: [{
+			item: "jaopca:dust.advanced_electronic_alloy"
+		}]
+	}]
+}

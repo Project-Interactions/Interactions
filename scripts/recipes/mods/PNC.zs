@@ -51,14 +51,13 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:refinery>, [[<ore:ingotIronCompres
 pressurechamber.removeRecipe([<pneumaticcraft:transistor>]);
 pressurechamber.removeRecipe([<pneumaticcraft:capacitor>]);
 
-pressurechamber.addRecipe([<pneumaticcraft:plastic>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:8>], 1, [<pneumaticcraft:transistor>]);
-pressurechamber.addRecipe([<pneumaticcraft:plastic:4>,<pneumaticcraft:ingot_iron_compressed>,<immersiveintelligence:material:4>], 1, [<pneumaticcraft:capacitor>]);
+pressurechamber.addRecipe([<pneumaticcraft:plastic>,<pneumaticcraft:ingot_iron_compressed>,<immersiveengineering:material:9>], 1, [<pneumaticcraft:transistor>]);
+pressurechamber.addRecipe([<pneumaticcraft:plastic:4>,<pneumaticcraft:ingot_iron_compressed>,<immersiveengineering:material:8>], 1, [<pneumaticcraft:capacitor>]);
 
 pressurechamber.addRecipe([<pneumaticcraft:plastic:*>*8,<moreplates:pulsating_iron_gear>*2,<appliedenergistics2:material:24>*6], 4.5, [<contenttweaker:pneumatic_circuit>*3]);
 
 refinery.addRecipe(<liquid:electrical_steel>*10, [<liquid:hot_blend_caminite>*5,<liquid:steel>*5]);
 
-//assembly.addLaserRecipe(<contenttweaker:pneumatic_circuit>*4, <contenttweaker:thermal_pneumatic_circuit>);
 pressurechamber.addRecipe([<contenttweaker:pneumatic_circuit>*3,<embers:crystal_ember>*4,<moreplates:vibrant_alloy_gear>*2,<pneumaticcraft:advanced_pressure_tube>], 3.2, [<contenttweaker:thermal_pneumatic_circuit>]);
 
 

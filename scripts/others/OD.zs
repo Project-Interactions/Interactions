@@ -66,8 +66,7 @@
 
 
 <ore:saplingRubber>.add(<techreborn:rubber_sapling>);
-<ore:saplingRubber>.add(<immersiveintelligence:rubber_sapling>);
-<ore:treeSapling>.add(<immersiveintelligence:rubber_sapling>);
+
 
 
 <ore:ingotSunnarium>.add(<contenttweaker:sunnarium>);

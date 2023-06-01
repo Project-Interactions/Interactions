@@ -137,7 +137,7 @@
       "E": {
         "states": [
           {
-            "id": "immersiveintelligence:metal_decoration",
+            "id": "immersiveengineering:metal_decoration0",
             "meta": 4
           }
         ],
@@ -146,8 +146,8 @@
       "G": {
         "states": [
           {
-            "id": "immersiveintelligence:metal_decoration",
-            "meta": 1
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 5
           }
         ],
         "type": "states"

@@ -14,12 +14,6 @@ customization {
 }
 
 customization {
-  path = config/txloader/load/fancymenu/sounds/music.wav
-  loop = true
-  action = addaudio
-}
-
-customization {
   keepaspectratio = false
   action = backgroundoptions
 }

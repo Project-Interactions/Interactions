@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"217d6173"
+	],
+	tasks: [{
+		uid: "61bc3249",
+		type: "item",
+		items: [{
+			item: "contenttweaker:etched_assembled_circuit_plate"
+		}]
+	}]
+}
