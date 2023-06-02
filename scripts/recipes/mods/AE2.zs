@@ -134,20 +134,19 @@ RecipeUtils.recipeTweak(true, <packagedauto:unpackager>, [[<ore:plateVibrantAllo
 
 //capability adapter
 RecipeUtils.recipeTweak(true, <rf-capability-adapter:aecapabilityadapter>, [[<ore:plateVibrantAlloy>, <ore:circuitElite>, <ore:plateVibrantAlloy>], [<ore:crystalFluix> | <appliedenergistics2:material:12>, <appliedenergistics2:interface>, <ore:crystalFluix> | <appliedenergistics2:material:12>], [<ore:plateVibrantAlloy>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <ore:plateVibrantAlloy>]]);
+
 //lazyae2
-//Etcher.removeRecipe(<appliedenergistics2:material:22>);
-//Etcher.removeRecipe(<appliedenergistics2:material:24>);
+Etcher.removeRecipe(<appliedenergistics2:material:22>);
+Etcher.removeRecipe(<appliedenergistics2:material:24>);
 
-//Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <ore:dustRedstone>, <ore:itemSilicon>);
-//Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
+Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <ore:dustRedstone>, <ore:itemSilicon>);
+Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
 
-//Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
+Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
 
-//Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
+Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
 
 recipes.addShapeless(<aeadditions:part.base:2>, [<appliedenergistics2:interface>,<appliedenergistics2:part:441>,<appliedenergistics2:material:58>]);
-
-//booster_card
 
 //
 mods.biggercraftingtables.Giant.addShaped(<appliedenergistics2:creative_storage_cell>.withTag({}), [
@@ -173,7 +172,6 @@ RecipeUtils.recipeTweak(true, <aeadditions:storage.component:6>, [[<ore:dyeBlue>
 
 recipes.remove(<aeadditions:fluidfiller>);
 recipes.addShapeless(<aeadditions:fluidfiller>, [<ae2fc:fluid_assembler>, <appliedenergistics2:part:520>]);
-<aeadditions:fluidcrafter>.addTooltip("\u5DF2\u5F03\u7528\uFF0C\u8BF7\u6362\u7528AE2FC\u7684Fluid Assembler");
 recipes.remove(<aeadditions:fluidcrafter>);
 recipes.addShapeless(<ae2fc:fluid_assembler>,[<aeadditions:fluidcrafter>]);
 
