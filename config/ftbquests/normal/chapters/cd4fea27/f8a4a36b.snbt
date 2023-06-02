@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	dependencies: [
+		"e586cd12"
+	],
+	tasks: [{
+		uid: "c25a58ef",
+		type: "item",
+		items: [{
+			item: "betterfurnacesreforged:extreme_forge"
+		}]
+	}]
+}
