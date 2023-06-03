@@ -1,9 +1,7 @@
 {
+	title: "实用的小机器",
 	x: 5.5d,
 	y: 6.0d,
-	text: [
-		"有电时砍树消耗5s，30RF/t，没电时砍树消耗100s"
-	],
 	dependencies: [
 		"b76bf2b5"
 	],
@@ -12,6 +10,34 @@
 		type: "item",
 		items: [{
 			item: "engineersdecor:small_tree_cutter"
+		}]
+	},
+	{
+		uid: "f6c8f567",
+		type: "item",
+		items: [{
+			item: "engineersdecor:factory_hopper"
+		}]
+	},
+	{
+		uid: "b2daaa80",
+		type: "item",
+		items: [{
+			item: "engineersdecor:factory_placer"
+		}]
+	},
+	{
+		uid: "f8ad4b20",
+		type: "item",
+		items: [{
+			item: "engineersdecor:factory_dropper"
+		}]
+	},
+	{
+		uid: "c2704537",
+		type: "item",
+		items: [{
+			item: "engineersdecor:small_block_breaker"
 		}]
 	}]
 }

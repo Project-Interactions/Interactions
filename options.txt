@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false

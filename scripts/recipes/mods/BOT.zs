@@ -62,7 +62,7 @@ recipes.remove(<botanicadds:gaia_plate>);
 GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
 GaiaPlate.add(<botanicadds:gaiasteel_ingot>,1000000,[<threng:material>,<tconevo:part_arcane_focus>.withTag({Material: "dragonstone"}),<botania:manaresource:14>]);
 //
-Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>,<ore:crystalCrudeOil>],400000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveengineering:metal_decoration0:5>,<immersiveengineering:storage:5>,null,null,null);
+Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>,<ore:crystalCrudeOil>],400000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveengineering:metal_decoration0:5>,<mekanism:basicblock2:10>,null,null,null);
 //
 RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
 //
@@ -114,3 +114,8 @@ for i in 8 to 16 {
 }
 
 ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <plustic:mirionblock>, 1000000);
+
+//cheaper terrasteel
+Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
+Agglomeration.addRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>],200000);
+

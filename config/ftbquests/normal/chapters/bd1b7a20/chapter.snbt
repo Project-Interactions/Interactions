@@ -2,7 +2,7 @@
 	title: "《关于我来到了交汇空岛这件事》",
 	icon: "nuclearcraft:alloy 1 5",
 	description: [
-		"阶段1"
+		"阶段一"
 	],
 	always_invisible: false,
 	group: 0,

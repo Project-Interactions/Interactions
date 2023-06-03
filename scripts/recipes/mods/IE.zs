@@ -118,7 +118,7 @@ Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*1000, [<or
 ElectrolyticCrucibleBattery.removeRecipe(<liquid:moltensalt>*1000);
 ElectrolyticCrucibleBattery.addRecipe(
     <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332,
-    null,<liquid:moltensalt>*2000,
+    null,<liquid:moltensalt>*200,
     50000, 100
 );
 ElectrolyticCrucibleBattery.addRecipe(
@@ -127,7 +127,7 @@ ElectrolyticCrucibleBattery.addRecipe(
     50000, 100
 );
 
-Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*500, [<ore:dustIron>], 2048);
+Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*1000, [<ore:dustIron>], 2048);
 BottlingMachine.addRecipe(<contenttweaker:etched_assembled_circuit_plate>, <ore:plateLead>, <liquid:etching_acid>*500);
 
 Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4096);
@@ -235,14 +235,14 @@ Fermenter.addRecipe(null, <liquid:sulfur_dioxide>*500, <ore:dustSulfur>, 4096);
 //nitrogen
 ChemicalReactor.addRecipe(<liquid:nitric_acid>*4,<liquid:nitrogen_dioxide>*6, <liquid:water>*2, 128);
 ChemicalReactor.addRecipe(<liquid:nitric_oxide>*4,<liquid:oxygen>*2, <liquid:nitrogen_dioxide>*4, 128);
-ChemicalReactor.addRecipe(<liquid:nitric_oxide>*4,<liquid:nitrogen>*2, <liquid:oxygen>*2, 128);
+ChemicalReactor.addRecipe(<liquid:oxygen>*2,<liquid:nitrogen>*2,<liquid:nitric_oxide>*4, 128);
 //advanced_electronic_alloy
 recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 8, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
 furnace.remove(<contenttweaker:material_part:211>);
 //mech & proc circuit
 Blueprint.addRecipe("Better Circuit", <contenttweaker:mechanical_circuit_board>*3, [<ore:electronTube>*3,<ore:plateAdvancedElectronicAlloy>*2,<ore:wireCopper>*4,<ore:gearSteel>,<ore:ingotHOPGraphite>*2]);
 BottlingMachine.addRecipe(<contenttweaker:mechanical_circuit>, <contenttweaker:mechanical_circuit_board>, <liquid:etching_acid>*1000);
-Blueprint.addRecipe("Best Circuit", <contenttweaker:processor_circuit_board>, [<contenttweaker:mechanical_circuit_board>*3,<ore:itemRubber>*4,<ore:plateTerrasteel>*2]);
+Blueprint.addRecipe("Best Circuit", <contenttweaker:processor_circuit_board>, [<contenttweaker:mechanical_circuit_board>*3,<ore:itemRubber>*8,<ore:plateTerrasteel>*2]);
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Best Circuit"}),[<ore:circuitGood>,<ore:stickManasteel>,<immersiveengineering:conveyor>]);
 BottlingMachine.addRecipe(<contenttweaker:processor_mechanical_circuit>, <contenttweaker:processor_circuit_board>, <liquid:advanced_etching>*1000);
 

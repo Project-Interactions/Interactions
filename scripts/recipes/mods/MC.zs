@@ -82,8 +82,6 @@ recipes.addShapeless(<minecraft:command_block_minecart>,[<minecraft:command_bloc
 recipes.addShapeless(<minecraft:chain_command_block>, [<minecraft:command_block>,<integrateddynamics:part_connector_omni_directional_item>]);
 recipes.addShapeless(<minecraft:repeating_command_block>, [<minecraft:command_block>,<thermalexpansion:machine:11>]);
 
-recipes.addShaped(<nuclearcraft:water_source>, [[<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000})],[<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000}), <cookingforblockheads:sink>, <forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000})], [<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}).onlyWithTag({FluidName: "hot_water", Amount: 1000})]]);
-
 
 //anvil
 val salis_mundus = <thaumcraft:salis_mundus>;

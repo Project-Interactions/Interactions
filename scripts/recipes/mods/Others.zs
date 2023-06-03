@@ -23,7 +23,8 @@ recipes.removeShapeless(<theaurorian:aurorianstone> * 4);
 recipes.remove(<nuclearcraft:compound:1> * 2);
 recipes.remove(<bloodmagic:soul_snare> * 4);
 recipes.remove(<immersiveengineering:stone_decoration:5> * 8);
-recipes.remove(<nuclearcraft:water_source>);
+RecipeUtils.recipeTweak(true, <nuclearcraft:water_source>, [[<forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000})],[<forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <cookingforblockheads:sink>, <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000})], [<forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000})]]);
+
 recipes.remove(<nuclearcraft:cobblestone_generator>);
 
 recipes.addShaped(<enderio:item_material:22> * 4, [[<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>],[<engineersdecor:rebar_concrete>, <minecraft:sand>, <engineersdecor:rebar_concrete>], [<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>]]);
@@ -58,6 +59,8 @@ mods.avaritia.ExtremeCrafting.addShaped("landia_tp", <dimensionaledibles:custom_
 recipes.remove(<jaopca:block.tanzanite>);
 
 recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
+recipes.removeByRecipeName("harvestcraft:freshwateritem_minecraft_water_bucket");
+RecipeUtils.recipeTweak(true, <harvestcraft:waterfilter>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <nuclearcraft:water_source>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
 
 recipes.addShaped(<blahaj:gray_shark>, [[null, <minecraft:wool:8>, null],[<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>], [<minecraft:wool>, <minecraft:wool>, null]]);
 recipes.addShaped(<blahaj:blue_shark>, [[null, <minecraft:wool:3>, null],[<minecraft:wool:3>, <minecraft:wool:3>, <minecraft:wool:3>], [<minecraft:wool>, <minecraft:wool>, null]]);
