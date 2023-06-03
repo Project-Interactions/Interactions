@@ -234,8 +234,8 @@ Fermenter.addRecipe(null, <liquid:carbon_dioxide>*400, <ore:charcoal>, 4096);
 Fermenter.addRecipe(null, <liquid:sulfur_dioxide>*500, <ore:dustSulfur>, 4096);
 //nitrogen
 ChemicalReactor.addRecipe(<liquid:nitric_acid>*4,<liquid:nitrogen_dioxide>*6, <liquid:water>*2, 128);
-ChemicalReactor.addRecipe(<liquid:nitric_oxide>*4,<liquid:oxygen>*2, <liquid:nitrogen_dioxide>*4, 128);
-ChemicalReactor.addRecipe(<liquid:oxygen>*2,<liquid:nitrogen>*2,<liquid:nitric_oxide>*4, 128);
+ChemicalReactor.addRecipe(<liquid:nitrogen_dioxide>*4,<liquid:oxygen>*2, <liquid:nitric_oxide>*4, 128);
+ChemicalReactor.addRecipe(<liquid:nitric_oxide>*4,<liquid:oxygen>*2,<liquid:nitrogen>*2, 128);
 //advanced_electronic_alloy
 recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 8, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
 furnace.remove(<contenttweaker:material_part:211>);
