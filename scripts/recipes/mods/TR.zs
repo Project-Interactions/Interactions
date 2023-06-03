@@ -111,18 +111,12 @@ recipes.remove(<techreborn:energycrystal>);
 recipes.addShaped(<techreborn:plate_bending_machine>, [[<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>],[<ore:circuitBasic>, <techreborn:machine_frame>, <ore:circuitBasic>], [<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>]]);
 recipes.addShaped(<techreborn:machine_casing:1>*2, [[<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>],[<techreborn:part:13>, <techreborn:machine_frame:1>, <techreborn:part:13>], [<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>]]);
 
-
-
 recipes.remove(<techreborn:part:2>*4);
-
-
 
 rollingMachine.addShapeless(<advgenerators:iron_frame>, [<ore:plateCobalt>]);
 
-
 recipes.remove(<techreborn:part>*4);
 recipes.remove(<techreborn:lapotronicorb>);
-
 
 // 
 assemblingMachine.removeRecipe(<techreborn:part:29>);
@@ -161,7 +155,6 @@ fluidReplicator.addRecipe(64,<liquid:duplication>*1000,50,100);
 blastFurnace.removeAll();
 vacuumFreezer.removeAll();
 scrapbox.removeAll();
-
 
 RecipeUtils.recipeTweak(true, <techreborn:machine_frame:1>, [[<ore:circuitMana>, <ore:plateCarbon>, <ore:circuitMana>], [<ore:plateAdvancedAlloy>, <ore:machineBlockBasic>, <ore:plateAdvancedAlloy>], [<ore:circuitMana>, <ore:plateCarbon>, <ore:circuitMana>]]);
 RecipeUtils.recipeTweak(true, <techreborn:machine_frame:2>, [[<ore:circuitThaumic>, <ore:circuitThaumic>,<ore:circuitThaumic>], [<ore:plateTitanium>, <ore:machineBlockAdvanced>, <ore:plateTitanium>], [<ore:plateChrome>, <ore:plateTitanium>, <ore:plateChrome>]]);
@@ -243,3 +236,5 @@ grinder.removeInputRecipe(<minecraft:glowstone>);
 chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "carbon_dioxide", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}}), <ore:coal>, 80, 200);
 chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "carbon_dioxide", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}}), <ore:charcoal>, 80, 200);
 
+recipes.remove(<techreborn:dynamiccell>*16);
+recipes.addShaped(<techreborn:dynamiccell> * 4, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <botania:managlasspane>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
