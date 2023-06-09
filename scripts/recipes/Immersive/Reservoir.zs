@@ -19,6 +19,8 @@ import mods.TweakedPetroleum.TweakedGasReservoir;
     TweakedReservoir.registerReservoir("iodine_oil", <liquid:rich_iodine_oil>, 2000000, 10000000, 6, 25, 20, powerTier,
         [1], [], [], []);
     
+    TweakedReservoir.registerReservoir("brine", <liquid:brine>, 5000000, 10000000, 6, 25, 20, powerTier,
+        [1], [], [], []);
 
 
 //Method Syntax

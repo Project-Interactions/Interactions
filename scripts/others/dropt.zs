@@ -24,13 +24,6 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<techreborn:dust:48>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<techreborn:dust:45>])
       )
       .addDrop(
@@ -66,13 +59,6 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<nuclearcraft:compound:7>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<nuclearcraft:dust:3>])
       )
       .addDrop(
@@ -94,21 +80,7 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<nuclearcraft:dust:8>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<techreborn:dust:59>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<nuclearcraft:dust:9>])
       )
       .addDrop(
         Dropt.drop()
@@ -137,13 +109,6 @@ Dropt.list("refined_ore_essence")
         Dropt.weight(60)
         )
         .items([<techreborn:dust:5>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:8>])
       )
       .addDrop(
         Dropt.drop()

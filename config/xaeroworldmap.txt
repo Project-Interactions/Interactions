@@ -43,3 +43,29 @@ caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true
 globalVersion:1
+[XP] Fast Mapping:true
+[XP] Fast Mapping Delay:50.0
+[XP] Fast Mapping Rate Limit:50.0
+[XP] Persist WM Dim Switch:false
+[XP] Transparent Obsidian Roof:true
+[XP] Roof Obsidian Opacity:150.0
+[XP] Min WorldMap Zoom:0.1
+[XP] Skip Background Render:false
+[XP] NewChunks Highlighting:true
+[XP] Save/Load NewChunks to Disk:true
+[XP] New Chunks Opacity:100.0
+[XP] New Chunks Color:0
+[XP] PortalSkip Detection:false
+[XP] PortalSkip Opacity:100.0
+[XP] PortalSkip Color:6
+[XP] PortalSkip Search Delay:10.0
+[XP] WDL Highlight:true
+[XP] WDL Opacity:100.0
+[XP] WDL Color:1
+[XP] Prefer Overworld Waypoints:true
+[XP] Show Waypoint Distances:true
+[XP] null OW Dim Dir:true
+[XP] Data Dir Mode:0
+[XP] Nether Cave Fix:true
+[XP] MC Light Limiter:false
+[XP] MC Light Crash Limit Num:1000000.0

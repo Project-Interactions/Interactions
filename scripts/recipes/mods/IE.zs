@@ -75,8 +75,6 @@ Excavator.removeMineral("Wolframite");
 Excavator.removeMineral("Ferberite");
 Excavator.removeMineral("Bauxite");
 Excavator.removeMineral("Nickel");
-Excavator.addMineral("Precious", 50, 0.005, ["oreCrudeGold", "oreNickel", "oreIron"], [0.005, 0.01, 0.01], [0]);
-
 
 recipes.removeShapeless(<immersiveengineering:material:20>);
 recipes.removeShapeless(<immersiveengineering:material:21>);
@@ -196,7 +194,7 @@ RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveenginee
 MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 1024, 20);
 MeltingCrucible.addRecipe(<liquid:lava>*1000, <minecraft:netherrack>, 512, 40);
 
-BottlingMachine.addRecipe(<contenttweaker:mana_circuit_board>,<botania:quartz:3>*2,<liquid:molten_elfglass>*1000);
+BottlingMachine.addRecipe(<contenttweaker:mana_circuit_board>,<botania:quartz:3>,<liquid:molten_elfglass>*1000);
 BottlingMachine.addRecipe(<contenttweaker:starlight_circuit_board>,<contenttweaker:mana_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000);
 
 ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:itemcraftingcomponent>, <immersiveengineering:material:7>, 60, 1024,[<integrateddynamics:crystalized_menril_chunk>], "Alloying");
@@ -247,7 +245,7 @@ recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Best 
 BottlingMachine.addRecipe(<contenttweaker:processor_mechanical_circuit>, <contenttweaker:processor_circuit_board>, <liquid:advanced_etching>*1000);
 
 //air
-CoolingTower.addRecipe(<liquid:nitrogen> * 7800, <liquid:oxygen>*2100, null, <liquid:compressed_air>*10000, null, 400);
+CoolingTower.addRecipe(<liquid:nitrogen> * 7800, <liquid:oxygen>*2100, null, <liquid:compressed_air>*10000, <liquid:distwater>*2000, 200);
 
 //coils
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_0:6>, [<ore:wireAdvancedElectronicAlloy>*8,<ore:itemRubber>*6]);

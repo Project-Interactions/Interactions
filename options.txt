@@ -140,7 +140,7 @@ key_key.openNotes:49
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
 key_Toggle Raw Input:0
-key_Rescan Key:40
+key_Rescan Key:43
 key_schematica.key.load:0
 key_schematica.key.save:0
 key_schematica.key.control:0
@@ -160,7 +160,7 @@ key_key.dismount:42
 key_key.narrator:0
 key_smoothfont.key.guiOpen:199
 key_key.clipboardPaste:210
-key_key.cofh.multimode:0
+key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:0
 key_key.jei.focusSearch:0
 key_key.jei.toggleCheatMode:0
@@ -308,6 +308,28 @@ key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
 key_gui.xaero_minimap_settings:21
+key_Fast Mapping:0
+key_Persist WM Dim Switch:0
+key_Transparent Obsidian Roof:0
+key_Skip Background Render:0
+key_NewChunks Highlighting:0
+key_Save/Load NewChunks to Disk:0
+key_PortalSkip Detection:0
+key_WDL Highlight:0
+key_Prefer Overworld Waypoints:0
+key_Show Waypoint Distances:0
+key_null OW Dim Dir:0
+key_Nether Cave Fix:0
+key_MC Light Limiter:0
+key_Show Render Distance:0
+key_Show Render Distance WorldMap:0
+key_Always Render Player Name:0
+key_Always Render Player Icon:0
+key_Fix Main Entity Dot:0
+key_Transparent Background:0
+key_Switch to Nether:0
+key_Switch to Overworld:0
+key_Switch to End:0
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:45
 key_gui.xaero_map_zoom_in:13

@@ -54,19 +54,6 @@
 			item: "qmd:accelerator_beam"
 		}],
 		count: 8L
-	},
-	{
-		uid: "cab9cbe1",
-		type: "item",
-		items: [{
-			id: "qmd:canister",
-			Damage: 6s,
-			tag: {
-				storage: {
-					amount: 6000
-				}
-			}
-		}]
 	}],
 	rewards: [{
 		uid: "8d240cac",

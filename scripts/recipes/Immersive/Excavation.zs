@@ -6,6 +6,7 @@ import mods.TweakedExcavation.TweakedMineral;
 
 
     var powerTier = TweakedPowerTier.registerPowerTier(640000, 4096);
-    //TweakedExcavator.addMineral("Test1", 2000000, 0.0,["minecraft:oreIron", "minecraft:wool:14", "immersiveengineering:connector:0"] ,[1.0,1.0,1.0], powerTier);
+    TweakedExcavator.addMineral("Precious",50, 0.005, ["oreCrudeGold", "oreNickel", "oreIron"], [0.005, 0.01, 0.01], powerTier,[0]);
+
 
 

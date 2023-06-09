@@ -3,7 +3,7 @@
 	icon: "immersiveengineering:metal_multiblock 1 11",
 	x: 8.0d,
 	y: 1.0d,
-	shape: "diamond",
+	shape: "square",
 	text: [
 		"拥有独立的JEI界面"
 	],

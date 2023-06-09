@@ -68,4 +68,4 @@ recipes.addShaped(<blahaj:blue_shark>, [[null, <minecraft:wool:3>, null],[<minec
 recipes.addShaped(<contenttweaker:sub_block_holder_0:11>, [[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>],[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>], [<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>]]);
 
 recipes.removeByRecipeName("mbtool:mbtool");
-recipes.addShapeless(<mbtool:mbtool:10000>.withTag({electricity: 0.0 as float}),[<multiblocked:multiblock_builder>,<ore:gearElectrum>]);
+recipes.addShapeless(<mbtool:mbtool:10000>,[<multiblocked:multiblock_builder>,<ore:gearElectrum>]);
