@@ -255,3 +255,9 @@ Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:2>, [<ore:wireNat
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:4>, [<ore:wireTwilghtSteel>*8,<ore:itemRubber>*6]);
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:6>, [<ore:wireGaia>*8,<ore:itemRubber>*6]);
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Coil"}),[<ore:circuitGood>,<ore:wireElectrum>,<ore:wireAluminum>,<ore:wireCopper>]);
+
+//
+Recycling.makeStackInvalidRecyclingOutput(<nuclearcraft:alloy:1>);
+Recycling.makeStackInvalidRecyclingOutput(<nuclearcraft:alloy:2>);
+Recycling.makeStackInvalidRecyclingOutput(<psi:material:1>);
+

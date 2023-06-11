@@ -146,11 +146,6 @@ import mods.armoreablemobs.ArmorGroup;
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:intermedium_leggings>, 5, 0.1));
 	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:intermedium_boots>, 5, 0.1));
 
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:superium_helmet>, 2, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:superium_chestplate>, 2, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:superium_leggings>, 2, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:superium_boots>, 2, 0.1));
-
 	mysticalGroup.addEntity(zombie);
 	mysticalGroup.addEntity(zombieStrong);
 	mysticalGroup.addEntity(zombieBoss);
