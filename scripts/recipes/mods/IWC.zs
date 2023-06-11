@@ -19,7 +19,6 @@ FluidToItem.transform(<minecraft:dirt>*2, <liquid:living_water>, [<minecraft:dir
 FluidToItem.transform(<techreborn:part:44>, <liquid:living_water>, [<ore:logWood>*64], true);
 FluidToItem.transform(<contenttweaker:sub_block_holder_0:10>, <liquid:mana>, [<thaumadditions:mithrillium_block>], true);
 FluidToItem.transform(<tconevo:edible>, <liquid:meat>, [<ceramics:unfired_clay:8>], true);
-FluidToItem.transform(<industrialforegoing:pink_slime_ingot>, <liquid:if.pink_slime>, [<tconevo:material:1>], true);
 FluidToItem.transform(<compactmachines3:machine:5>, <liquid:aetherworks.aetherium_gas>, [<compactmachines3:machine:4>*2], true);
 FluidToItem.transform(<integrateddynamics:crystalized_chorus_chunk>, <liquid:if.pink_slime>, [<integrateddynamics:crystalized_menril_block>], true);
 FluidToItem.transform(<thermalfoundation:material:1>*3, <liquid:sulfuric_acid>, [<contenttweaker:material_part:108>], true);

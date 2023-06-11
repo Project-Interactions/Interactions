@@ -32,6 +32,7 @@ import mods.immersivetechnology.Radiator;
 import mods.immersivetechnology.ElectrolyticCrucibleBattery;
 import mods.immersivetechnology.MeltingCrucible;
 import mods.immersivetechnology.PressurizedFluid;
+import mods.immersivetechnology.HighPressureSteamTurbine;
 //
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
@@ -191,8 +192,8 @@ ArcFurnace.addRecipe(<techreborn:ingot:19>*2, <ore:ingotIron>, <immersiveenginee
 
 RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveengineering:metal_decoration1>, <immersiveengineering:connector>, <immersiveengineering:metal_decoration1>], [<ore:circuitGood>, <immersiveengineering:wooden_decoration:1>, <ore:circuitGood>], [null, <immersiveengineering:metal_device1:7>, null]]);
 
-MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 1024, 20);
-MeltingCrucible.addRecipe(<liquid:lava>*1000, <minecraft:netherrack>, 512, 40);
+MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 20480, 40);
+MeltingCrucible.addRecipe(<liquid:lava>*1000, <minecraft:netherrack>, 20480, 20);
 
 BottlingMachine.addRecipe(<contenttweaker:mana_circuit_board>,<botania:quartz:3>,<liquid:molten_elfglass>*1000);
 BottlingMachine.addRecipe(<contenttweaker:starlight_circuit_board>,<contenttweaker:mana_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000);

@@ -1,6 +1,6 @@
 {
 	x: 6.0d,
-	y: 0.0d,
+	y: 0.5d,
 	dependencies: [
 		"d0b2feb1"
 	],
@@ -9,6 +9,13 @@
 		type: "item",
 		items: [{
 			item: "industrialforegoing:pink_slime_ingot"
+		}]
+	},
+	{
+		uid: "372cb3cd",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_sieve"
 		}]
 	}]
 }

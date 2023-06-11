@@ -47,12 +47,12 @@ globalVersion:1
 [XP] Fast Mapping Delay:50.0
 [XP] Fast Mapping Rate Limit:50.0
 [XP] Persist WM Dim Switch:false
-[XP] Transparent Obsidian Roof:true
+[XP] Transparent Obsidian Roof:false
 [XP] Roof Obsidian Opacity:150.0
 [XP] Min WorldMap Zoom:0.1
 [XP] Skip Background Render:false
-[XP] NewChunks Highlighting:true
-[XP] Save/Load NewChunks to Disk:true
+[XP] NewChunks Highlighting:false
+[XP] Save/Load NewChunks to Disk:false
 [XP] New Chunks Opacity:100.0
 [XP] New Chunks Color:0
 [XP] PortalSkip Detection:false

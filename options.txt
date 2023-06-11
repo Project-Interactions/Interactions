@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -274,7 +274,6 @@ key_key.musictriggers.gui:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
-key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
 key_pi.key.et_world:0
@@ -298,12 +297,12 @@ key_gui.xaero_toggle_map_waypoints:0
 key_gui.xaero_toggle_map:0
 key_gui.xaero_enlarge_map:44
 key_gui.xaero_waypoints_key:22
-key_gui.xaero_zoom_in:0
-key_gui.xaero_zoom_out:0
+key_gui.xaero_zoom_in:13
+key_gui.xaero_zoom_out:12
 key_gui.xaero_new_waypoint:48
 key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
-key_gui.xaero_toggle_entity_radar:0
+key_gui.xaero_toggle_entity_radar:51
 key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
@@ -374,7 +373,7 @@ soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
-soundCategory_hostile:0.0
+soundCategory_hostile:0.5070422
 soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0

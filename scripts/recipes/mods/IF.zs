@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.industrialforegoing.FluidSievingMachine;
 
 recipes.addShaped(<teslacorelib:speed_tier2> * 2, [[null, <ore:gearDiamond>, null],[<teslacorelib:speed_tier1>, <ore:circuitAdvanced>, <teslacorelib:speed_tier1>], [null, <ore:gearDiamond>, null]]);
 recipes.addShaped(<teslacorelib:speed_tier1> * 2, [[null, <ore:circuitBasic>, null],[<teslacorelib:base_addon>, <ore:gearGold>, <teslacorelib:base_addon>], [null, <ore:circuitBasic>, null]]);
@@ -35,6 +36,11 @@ RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<in
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:plastic>, <liquid:sulfuric_acid>, [<industrialforegoing:tinydryrubber>*8], true);
 
 recipes.addShaped( <industrialforegoing:laser_lens_inverted>, [[null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null],[<tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), <industrialforegoing:pink_slime>, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"})], [null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null]]);
+
+RecipeUtils.recipeTweak(true, <industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <minecraft:iron_sword>, <industrialforegoing:plastic>], [<minecraft:book>, <teslacorelib:machine_case>, <minecraft:book>], [<ore:gearGold>, <wirelessutils:slaughter_module>, <ore:gearGold>]]);
+
+
+
 
 recipes.removeByRecipeName("industrialforegoing:laser_lens_0");
 recipes.removeByRecipeName("industrialforegoing:laser_lens_1");
@@ -72,3 +78,7 @@ recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_15");
 //black_hole_controller v1.0
 recipes.addShapeless(<industrialforegoing:black_hole_controller>,[<industrialforegoing:black_hole_controller_reworked>]);
 recipes.addShapeless(<industrialforegoing:black_hole_controller_reworked>,[<industrialforegoing:black_hole_controller>]);
+
+//harder
+FluidSievingMachine.remove(<industrialforegoing:pink_slime_ingot>);
+FluidSievingMachine.add(<liquid:if.pink_slime>*1000, <industrialforegoing:pink_slime_ingot>, <integrateddynamics:crystalized_chorus_chunk>);

@@ -571,48 +571,6 @@
       }
     },
     {
-      "uid": "4f59fe3c-47dc-4504-9b6a-8341cff51be3",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"plustic:mirioningot\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"experience\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 100000
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"tconevo:metal\",Count:1,Damage:15s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "1c045e4a-ec4b-4bb2-a9a4-4877b034ad65",
       "duration": 100,
       "inputs": {

@@ -1,0 +1,22 @@
+{
+	title: "3倍矿物",
+	x: 7.5d,
+	y: 0.5d,
+	dependencies: [
+		"99050e65"
+	],
+	tasks: [{
+		uid: "9f56f84e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_fermenter"
+		}]
+	},
+	{
+		uid: "f5943cf0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_washer"
+		}]
+	}]
+}
