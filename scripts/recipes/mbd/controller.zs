@@ -12,7 +12,6 @@ recipes.addShaped(<interaction:lp>, [[<bloodmagic:decorative_brick>, <bloodarsen
 recipes.addShaped(<interaction:orechid>, [[<botanicadds:rune_tp>, <ore:ingotFluixSteel>, <botanicadds:rune_energy>],[<ore:ingotFluixSteel>, <thaumicwonders:coalescence_matrix_precursor>, <ore:ingotFluixSteel>], [<botanicadds:rune_energy>, <ore:ingotFluixSteel>, <botanicadds:rune_tp>]]);
 
 //addon by Revo
-recipes.addShapeless(<interaction:naturia>, [<tconstruct:metal:6>,<naturesaura:gold_powder>]);
 recipes.addShaped(<interaction:wind_hole>, [[null, null, null],[null, <immersiveengineering:metal_device1:2>, null], [null, null, null]]);
 recipes.addShaped(<interaction:energy_warpper>, [[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>],[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
 recipes.addShaped(<interaction:nature_destroyer>, [[null, null, null],[null, <auraddons:block_aura_transporter>, null], [null, null, null]]);

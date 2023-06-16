@@ -68,7 +68,6 @@ VanillaFactory.createItem("ultimate_ingot_left_down").register();
 VanillaFactory.createItem("ultimate_ingot_right_up").register();
 VanillaFactory.createItem("ultimate_ingot_right_down").register();
 
-VanillaFactory.createItem("inverse_entropy_alloy").register();
 VanillaFactory.createItem("inverse_entropy_circuit").register();
 
 VanillaFactory.createItem("wood_essence").register();

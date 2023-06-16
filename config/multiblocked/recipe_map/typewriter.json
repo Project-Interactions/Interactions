@@ -5,7 +5,7 @@
   "recipes": [
     {
       "uid": "a0bd3397-6961-4d67-87ee-be05d586a160",
-      "duration": 1200,
+      "duration": 200,
       "inputs": {
         "item": [
           {
@@ -20,23 +20,17 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 2,
               "matches": [
-                "{id:\"botanicadds:mana_lapis\",Count:1,Damage:0s}"
+                "{id:\"botanicadds:mana_lapis\",Count:2,Damage:0s}"
               ]
             }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"ink\",Amount:100}"
           }
         ],
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 2000
+            "content": 20000
           }
         ]
       },

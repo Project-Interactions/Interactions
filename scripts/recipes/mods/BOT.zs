@@ -9,7 +9,6 @@ import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
 import mods.botania.ElvenTrade;
 import mods.botanicadds.GaiaPlate;
-import mods.immersivetweaker.Recycling;
 
 //main
 recipes.remove(<botania:manaresource:14>);
@@ -88,13 +87,6 @@ RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:
 
 
 RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamrock>, <botanicadds:dreamrock>, <botanicadds:dreamrock>], [<botanicadds:dreamrock>, <botania:pool:3>, <botanicadds:dreamrock>], [<ore:plateTerrasteel>, <ore:plateTerrasteel>, <ore:plateTerrasteel>]]);
-
-
-//
-Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:4>);
-Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource:7>);
-Recycling.makeStackInvalidRecyclingOutput(<botania:manaresource>);
-Recycling.makeStackInvalidRecyclingOutput(<advancedrocketry:misc:1>);
 
 
 //botania doppleganger not drop fix

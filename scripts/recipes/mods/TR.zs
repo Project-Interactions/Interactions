@@ -237,4 +237,5 @@ chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "
 chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "carbon_dioxide", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}}), <ore:charcoal>, 80, 200);
 
 recipes.remove(<techreborn:dynamiccell>*16);
-recipes.addShaped(<techreborn:dynamiccell> * 4, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <botania:managlasspane>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
+recipes.addShaped(<techreborn:dynamiccell> * 64, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <botania:managlasspane>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
+recipes.addShaped(<techreborn:dynamiccell> * 8, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <ore:paneGlass>, <ore:plateTin>], [null, <ore:plateTin>, null]]);

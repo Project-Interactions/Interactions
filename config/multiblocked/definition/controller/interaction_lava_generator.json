@@ -1,34 +1,7 @@
 {
   "version": 2,
   "location": "interaction:lava_generator",
-  "traits": {
-    "item": [
-      {
-        "cIO": 2,
-        "gIO": 2,
-        "mIO": 2,
-        "x": 116,
-        "y": 85,
-        "autoIO": false
-      },
-      {
-        "cIO": 2,
-        "gIO": 2,
-        "mIO": 2,
-        "x": 76,
-        "y": 84,
-        "autoIO": false
-      },
-      {
-        "cIO": 2,
-        "gIO": 2,
-        "mIO": 2,
-        "x": 35,
-        "y": 86,
-        "autoIO": false
-      }
-    ]
-  },
+  "traits": {},
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,
@@ -44,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "chisel:technical",
-          "meta": 11
+          "id": "ceramics:clay_hard",
+          "meta": 5
         },
         "type": "blockstate"
       }
@@ -109,7 +82,7 @@
         "type": "states"
       },
       "1": {
-        "capability": "fluid",
+        "capability": "item",
         "type": "capability",
         "io": "IN"
       },

@@ -32,7 +32,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 300
+            "content": 400
           }
         ]
       }
@@ -59,15 +59,6 @@
                 "{id:\"botania:rune\",Count:1,Damage:3s}"
               ]
             }
-          },
-          {
-            "chance": 0.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"jaopca:gear.valkyrie\",Count:1,Damage:0s}"
-              ]
-            }
           }
         ]
       },
@@ -75,7 +66,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 600
+            "content": 200
           }
         ]
       }

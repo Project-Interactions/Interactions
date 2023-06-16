@@ -32,7 +32,7 @@ infuser.addRecipe("DIAMONDHARD", 10, <ore:dustDiamond>, <mekanism:otherdust:5>);
 
 infuser.addRecipe("ENDERIUM", 20, <naturesaura:infused_iron>, <extendedcrafting:material:36>);
 
-infuser.addRecipe("ENTROPY", 20, <mekanism:atomicalloy>, <contenttweaker:inverse_entropy_alloy>);
+infuser.addRecipe("ENTROPY", 20, <mekanism:atomicalloy>, <mekanism:cosmicalloy>);
 
 //enricher
 enrichment.removeRecipe(<minecraft:redstone>);
@@ -212,13 +212,13 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <mekanism:teleportationcore>*4,
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy_circuit>*64, [
 	[null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null], 
-	[<ore:nuggetCosmicNeutronium>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, <ore:nuggetCosmicNeutronium>], 
-	[<ore:nuggetCosmicNeutronium>, null, null, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, <ore:nuggetCosmicNeutronium>], 
-	[<ore:nuggetCosmicNeutronium>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <ore:nuggetCosmicNeutronium>], 
+	[<ore:nuggetCosmicNeutronium>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, <ore:nuggetCosmicNeutronium>], 
+	[<ore:nuggetCosmicNeutronium>, null, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, <ore:nuggetCosmicNeutronium>], 
+	[<ore:nuggetCosmicNeutronium>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <ore:nuggetCosmicNeutronium>], 
 	[null, null, null, null, null, null, null, null, null], 
-	[<ore:nuggetCosmicNeutronium>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <ore:nuggetCosmicNeutronium>], 
-	[<ore:nuggetCosmicNeutronium>, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, null, null, <ore:nuggetCosmicNeutronium>], 
-	[<ore:nuggetCosmicNeutronium>, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, null, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <contenttweaker:inverse_entropy_alloy>, <ore:nuggetCosmicNeutronium>], 
+	[<ore:nuggetCosmicNeutronium>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <ore:nuggetCosmicNeutronium>], 
+	[<ore:nuggetCosmicNeutronium>, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null, null, <ore:nuggetCosmicNeutronium>], 
+	[<ore:nuggetCosmicNeutronium>, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <ore:nuggetCosmicNeutronium>], 
 	[null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null]
 ]);
 

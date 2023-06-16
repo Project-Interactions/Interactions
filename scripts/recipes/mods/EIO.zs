@@ -3,8 +3,8 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 //misc
-recipes.addShaped(<enderio:item_item_conduit> * 16, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<botania:manaresource:4>, <botania:manaresource:4>, <botania:manaresource:4>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
-recipes.addShaped(<enderio:item_item_conduit> * 4, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped(<enderio:item_item_conduit> * 12, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<botania:manaresource:4>, <botania:manaresource:4>, <botania:manaresource:4>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped(<enderio:item_item_conduit> * 6, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.remove(<enderio:item_item_conduit> * 8);
 recipes.remove(<enderio:item_material:12>);
 recipes.addShaped(<enderio:item_item_conduit> * 9, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:2>, <enderio:item_alloy_nugget:2>, <enderio:item_alloy_ingot:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
@@ -24,10 +24,10 @@ recipes.removeShaped(<enderio:item_liquid_conduit:2> * 8, [[<ore:itemConduitBind
 recipes.removeShaped(<enderio:item_fluid_conduit> * 16, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotStellarAlloy>, <ore:blockGlassHardened>, <ore:ingotStellarAlloy>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 
 recipes.addShaped(<enderio:item_liquid_conduit> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<tconstruct:clear_glass>, <tconstruct:clear_glass>, <tconstruct:clear_glass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-recipes.addShaped(<enderio:item_liquid_conduit:1>*2, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:fusedQuartz>, <enderio:item_liquid_conduit>, <ore:fusedQuartz>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-recipes.addShaped(<enderio:item_liquid_conduit:1>*2, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<botania:elfglass>, <enderio:item_liquid_conduit>, <botania:elfglass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-recipes.addShaped(<enderio:item_liquid_conduit:2>*2, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:nuggetVibrantAlloy>, <enderio:item_liquid_conduit:1>, <ore:nuggetVibrantAlloy>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-recipes.addShaped(<enderio:item_liquid_conduit:2>*2, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<botania:bifrostperm>, <enderio:item_liquid_conduit:1>, <botania:bifrostperm>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:1>*4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:fusedQuartz>, <enderio:item_liquid_conduit>, <ore:fusedQuartz>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:1>*4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<botania:elfglass>, <enderio:item_liquid_conduit>, <botania:elfglass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:2>*4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:nuggetVibrantAlloy>, <enderio:item_liquid_conduit:1>, <ore:nuggetVibrantAlloy>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:2>*4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<botania:bifrostperm>, <enderio:item_liquid_conduit:1>, <botania:bifrostperm>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 recipes.addShaped(<enderio:item_fluid_conduit> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<calculator:flawlessglass>, <enderio:item_liquid_conduit:2>, <calculator:flawlessglass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 
 //capacitors

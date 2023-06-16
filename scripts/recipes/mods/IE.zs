@@ -17,8 +17,6 @@ import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Fermenter;
 
-import mods.immersivetweaker.Recycling;
-
 import mods.immersivepetroleum.Distillation;
 
 import mods.immersivetechnology.CoolingTower;
@@ -86,7 +84,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>
 
 Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
 
-Blueprint.addRecipe("Manual Circuit", <contenttweaker:manual_circuit>*2, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<contenttweaker:printed_copper_plate>*3,<ore:ingotRedAlloy>*2]);
+Blueprint.addRecipe("components", <contenttweaker:manual_circuit>*2, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<contenttweaker:printed_copper_plate>*3,<ore:ingotRedAlloy>*2]);
 
 Squeezer.addRecipe(<contenttweaker:pre_rubber>,null,<techreborn:part:31>,1024);
 
@@ -94,9 +92,7 @@ Squeezer.addRecipe(<contenttweaker:pre_rubber>,null,<techreborn:part:31>,1024);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
 //Crusher
 Crusher.addRecipe(<buildinggadgets:constructionblockpowder>, <minecraft:sand>, 2048);
-//blueprint
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Manual Circuit"}),[<immersiveengineering:stone_decoration:8>,<immersiveengineering:stone_decoration:8>,<ore:plateBronze>]);
-//
+
 recipes.remove(<immersiveengineering:metal_decoration0:3>*2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [[<moreplates:crude_steel_plate>, <ore:circuitBasic>, <moreplates:crude_steel_plate>],[<minecraft:redstone>, <ore:gearCopper>, <minecraft:redstone>], [<moreplates:crude_steel_plate>, <minecraft:redstone>, <moreplates:crude_steel_plate>]]);
 
@@ -107,8 +103,8 @@ recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:circuitBasic>, <immersiveengineering:material:9>, <ore:circuitBasic>]]);
 
 Blueprint.removeRecipe(<immersiveengineering:material:27>);
-Blueprint.addRecipe("Better Circuit", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<ore:ingotRefinedIron>*2]);
-Blueprint.addRecipe("Better Circuit", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<aether_legacy:quicksoil_glass_pane>*4]);
+Blueprint.addRecipe("components", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<ore:ingotRefinedIron>*2]);
+Blueprint.addRecipe("components", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<aether_legacy:quicksoil_glass_pane>*4]);
 
 Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
@@ -133,14 +129,11 @@ Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:
 
 <ore:circuitAdvanced>.add(<contenttweaker:processor_mechanical_circuit>);
 <ore:circuitProcessor>.add(<contenttweaker:processor_mechanical_circuit>);
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Better Circuit"}), [<ore:electronTube>,<ore:electronTube>,<ore:circuitBasic>]);
 
 //prevent brass
 ArcFurnace.removeRecipe(<thaumcraft:ingot:2>);
 ArcFurnace.removeRecipe(<thaumcraft:ingot:2>*4);
 AlloySmelter.removeRecipe(<thaumcraft:ingot:2>*4);
-Recycling.makeStackInvalidRecyclingOutput(<thaumcraft:ingot:2>);
-Recycling.makeStackInvalidRecyclingOutput(<thaumcraft:nugget:8>);
 recipes.remove(<thaumcraft:ingot:2>*4);
 recipes.addShaped(<techreborn:ingot:1> * 4, [[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>],[<mysticalagriculture:brass_essence>, null, <mysticalagriculture:brass_essence>], [<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>]]);
 mods.forestry.Carpenter.removeRecipe(<thaumcraft:ingot:2>*9);
@@ -185,6 +178,7 @@ Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
 Crusher.removeRecipesForInput(<embers:ore_nickel>);
 
 Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 2048);
+Crusher.add(<thermalfoundation:material:69>*2, <ore:oreNickel>,2048);
 
 Crusher.addRecipe(<thermalfoundation:material:768>*9, <minecraft:coal_block>, 1000);
 
@@ -224,25 +218,25 @@ game.setLocalization("en_us", "ie.manual.entry.refinery.name", "Refinery(Chemica
 recipes.addShaped(<qmd:atmosphere_collector>, [[<ore:circuitGood>, <embers:ember_detector>, <ore:circuitGood>],[<ore:plateMagnet>, <ore:scaffoldingSteel>, <ore:plateMagnet>], [<ore:circuitGood>, <ore:plateMagnet>, <ore:circuitGood>]]);
 //ChemicalReactor
 //aqua regia
-ChemicalReactor.addRecipe(<liquid:aqua_regia>*8, <liquid:nitric_acid>*4, <liquid:sulfuric_acid>*6, 128);
+ChemicalReactor.addRecipe(<liquid:aqua_regia>*12, <liquid:nitric_acid>*6, <liquid:sulfuric_acid>*9, 128);
 //sulfur
-ChemicalReactor.addRecipe(<liquid:sulfuric_acid>*5, <liquid:water>*5, <liquid:sulfur_trioxide>*5, 128);
-ChemicalReactor.addRecipe(<liquid:sulfur_trioxide>*6, <liquid:oxygen>*3, <liquid:sulfur_dioxide>*3, 128);
+ChemicalReactor.addRecipe(<liquid:sulfuric_acid>*10, <liquid:water>*10, <liquid:sulfur_trioxide>*10, 128);
+ChemicalReactor.addRecipe(<liquid:sulfur_trioxide>*12, <liquid:oxygen>*6, <liquid:sulfur_dioxide>*6, 128);
 Fermenter.addRecipe(null, <liquid:carbon_dioxide>*400, <ore:coal>, 2048);
 Fermenter.addRecipe(null, <liquid:carbon_dioxide>*400, <ore:charcoal>, 4096);
 Fermenter.addRecipe(null, <liquid:sulfur_dioxide>*500, <ore:dustSulfur>, 4096);
 //nitrogen
-ChemicalReactor.addRecipe(<liquid:nitric_acid>*4,<liquid:nitrogen_dioxide>*6, <liquid:water>*2, 128);
-ChemicalReactor.addRecipe(<liquid:nitrogen_dioxide>*4,<liquid:oxygen>*2, <liquid:nitric_oxide>*4, 128);
-ChemicalReactor.addRecipe(<liquid:nitric_oxide>*4,<liquid:oxygen>*2,<liquid:nitrogen>*2, 128);
+ChemicalReactor.addRecipe(<liquid:nitric_acid>*8,<liquid:nitrogen_dioxide>*12, <liquid:water>*4, 128);
+ChemicalReactor.addRecipe(<liquid:nitrogen_dioxide>*8,<liquid:oxygen>*4, <liquid:nitric_oxide>*8, 128);
+ChemicalReactor.addRecipe(<liquid:nitric_oxide>*8,<liquid:oxygen>*4,<liquid:nitrogen>*4, 128);
 //advanced_electronic_alloy
 recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 8, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
 furnace.remove(<contenttweaker:material_part:211>);
 //mech & proc circuit
-Blueprint.addRecipe("Better Circuit", <contenttweaker:mechanical_circuit_board>*3, [<ore:electronTube>*3,<ore:plateAdvancedElectronicAlloy>*2,<ore:wireCopper>*4,<ore:gearSteel>,<ore:ingotHOPGraphite>*2]);
+Blueprint.addRecipe("electrode", <contenttweaker:mechanical_circuit_board>*3, [<ore:electronTube>*3,<ore:plateAdvancedElectronicAlloy>*2,<ore:wireCopper>*4,<ore:gearSteel>,<ore:ingotHOPGraphite>*2]);
 BottlingMachine.addRecipe(<contenttweaker:mechanical_circuit>, <contenttweaker:mechanical_circuit_board>, <liquid:etching_acid>*1000);
-Blueprint.addRecipe("Best Circuit", <contenttweaker:processor_circuit_board>, [<contenttweaker:mechanical_circuit_board>*3,<ore:itemRubber>*8,<ore:plateTerrasteel>*2]);
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Best Circuit"}),[<ore:circuitGood>,<ore:stickManasteel>,<immersiveengineering:conveyor>]);
+Blueprint.addRecipe("Circuits", <contenttweaker:processor_circuit_board>, [<contenttweaker:mechanical_circuit_board>*3,<ore:itemRubber>*8,<ore:plateTerrasteel>*2]);
+recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Circuits"}),[<ore:circuitGood>,<ore:stickManasteel>,<immersiveengineering:conveyor>]);
 BottlingMachine.addRecipe(<contenttweaker:processor_mechanical_circuit>, <contenttweaker:processor_circuit_board>, <liquid:advanced_etching>*1000);
 
 //air
@@ -256,8 +250,4 @@ Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:4>, [<ore:wireTwi
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:6>, [<ore:wireGaia>*8,<ore:itemRubber>*6]);
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Coil"}),[<ore:circuitGood>,<ore:wireElectrum>,<ore:wireAluminum>,<ore:wireCopper>]);
 
-//
-Recycling.makeStackInvalidRecyclingOutput(<nuclearcraft:alloy:1>);
-Recycling.makeStackInvalidRecyclingOutput(<nuclearcraft:alloy:2>);
-Recycling.makeStackInvalidRecyclingOutput(<psi:material:1>);
 

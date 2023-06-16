@@ -13,3 +13,5 @@ RecipeUtils.recipeTweak(true, <unstabletools:unstable_helmet>, [[<ore:blockUnsta
 RecipeUtils.recipeTweak(true, <unstabletools:unstable_boots>, [[<ore:blockUnstable>, null, <ore:blockUnstable>], [<ore:blockUnstable>, null, <ore:blockUnstable>]]);
 RecipeUtils.recipeTweak(true, <unstabletools:unstable_chestplate>, [[<ore:blockUnstable>, null, <ore:blockUnstable>], [<ore:blockUnstable>, <ore:blockUnstable>, <ore:blockUnstable>], [<ore:blockUnstable>, <ore:blockUnstable>, <ore:blockUnstable>]]);
 RecipeUtils.recipeTweak(true, <unstabletools:unstable_leggings>, [[<ore:blockUnstable>, <ore:blockUnstable>, <ore:blockUnstable>], [<ore:blockUnstable>, null, <ore:blockUnstable>], [<ore:blockUnstable>, null, <ore:blockUnstable>]]);
+
+recipes.remove(<unstabletools:unstable_shears>);

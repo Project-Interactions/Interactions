@@ -207,13 +207,17 @@ Melting.removeRecipe(<liquid:osmium>,<minecraft:rail>);
 
 RecipeUtils.recipeTweak(true, <mctsmelteryio:upgrade>, [[<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>], [<ore:paper>, <ore:circuitAdvanced>, <ore:paper>], [<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>]]);
 
-//Tinkered Hegemony
-/*
-recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
-recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
-recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
-recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
-recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
-*/
+//tinker toolcast fix
+Casting.addTableRecipe(<minecraft:diamond>, <tinkertoolcasts:cast_advanced:2>, <liquid:diamond>,666,false, 304);
+Casting.addTableRecipe(<minecraft:diamond>, <tinkertoolcasts:cast_reinforced:2>, <liquid:diamond>,666,false, 228);
+Casting.addTableRecipe(<minecraft:diamond>, <tinkertoolcasts:cast_iridium:2>, <liquid:diamond>,666,false, 152);
+Casting.addTableRecipe(<minecraft:diamond>, <tinkertoolcasts:cast_ultimate:2>, <liquid:diamond>,666,false, 76);
+Casting.addTableRecipe(<minecraft:diamond>, <tinkertoolcasts:cast_creative:2>, <liquid:diamond>,666,false, 1);
+
+Casting.addTableRecipe(<techreborn:plates:35>, <tinkertoolcasts:cast_advanced:3>, <liquid:refinediron>,144,false, 64);
+Casting.addTableRecipe(<techreborn:plates:35>, <tinkertoolcasts:cast_reinforced:3>, <liquid:refinediron>,144,false, 48);
+Casting.addTableRecipe(<techreborn:plates:35>, <tinkertoolcasts:cast_iridium:3>, <liquid:refinediron>,144,false, 32);
+Casting.addTableRecipe(<techreborn:plates:35>, <tinkertoolcasts:cast_ultimate:3>, <liquid:refinediron>,144,false, 16);
+Casting.addTableRecipe(<techreborn:plates:35>, <tinkertoolcasts:cast_creative:3>, <liquid:refinediron>,144,false, 1);
 
 //Melting.addEntityMelting(<entity:botania:pink_wither>, <liquid:cryotheum>);

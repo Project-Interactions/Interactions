@@ -39,7 +39,7 @@ recipes.removeShaped(<extrautils2:unstableingots:1>, [[<ore:nuggetIron>], [<ore:
 recipes.removeByRecipeName("extrautils2:drum_256");
 recipes.removeByRecipeName("extrautils2:drum_4096");
 recipes.removeByRecipeName("extrautils2:drum_65536");
-
+recipes.remove(<flyringbaublemod:flyingring>);
 recipes.addShaped(<extrautils2:drum:1>, [[<ore:gearIron>, <minecraft:heavy_weighted_pressure_plate:*>, <ore:gearIron>], [<ore:gearIron>, <minecraft:cauldron:*>, <ore:gearIron>], [<ore:gearIron>, <minecraft:heavy_weighted_pressure_plate:*>, <ore:gearIron>]]);
 recipes.addShaped(<extrautils2:drum:2>, [[<ore:gearDiamond>, <minecraft:light_weighted_pressure_plate:*>, <ore:gearDiamond>], [<ore:gearDiamond>, <extrautils2:drum:1>, <ore:gearDiamond>], [<ore:gearDiamond>, <minecraft:light_weighted_pressure_plate:*>, <ore:gearDiamond>]]);
 recipes.addShaped(<extrautils2:drum:3>, [[<ore:ingotUltimate>, <extrautils2:klein>, <ore:ingotUltimate>], [<ore:ingotUltimate>, <extrautils2:drum:2>, <ore:ingotUltimate>], [<ore:ingotUltimate>, <extrautils2:klein>, <ore:ingotUltimate>]]);

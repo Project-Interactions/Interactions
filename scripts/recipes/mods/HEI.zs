@@ -41,7 +41,6 @@ var jeiremove as string[]=[
 "botania.orechid",
 "botania.orechid_ignem",
 "actuallyadditions.booklet",
-"flux",
 "if_manual_category",
 "oc.manual",
 "ftbquests.quests"

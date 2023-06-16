@@ -27,4 +27,6 @@ RecipeUtils.recipeTweak(true, <forestry:fabricator>, [[<ore:plateEnergeticAlloy>
 
 recipes.addShaped(<forestry:arboretum>, [[<tconstruct:firewood:1>, <ore:circuitAdvanced>, <tconstruct:firewood:1>],[<ore:circuitAdvanced>, <techreborn:machine_frame>, <ore:circuitAdvanced>], [<tconstruct:firewood:1>, <ore:circuitAdvanced>, <tconstruct:firewood:1>]]);
 
+recipes.remove(<forestry:can> * 12);
+recipes.addShaped(<forestry:can> * 12, [[null, <ore:plateTin>, null], [<ore:plateTin>, null, <ore:plateTin>]]);
 
