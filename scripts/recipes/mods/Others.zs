@@ -69,3 +69,7 @@ recipes.addShaped(<contenttweaker:sub_block_holder_0:11>, [[<contenttweaker:mate
 
 recipes.removeByRecipeName("mbtool:mbtool");
 recipes.addShapeless(<mbtool:mbtool:10000>,[<multiblocked:multiblock_builder>,<ore:gearElectrum>]);
+
+RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [[null, <ore:plateElectrum>, null], [<botania:elfglass>, <immersiveengineering:metal_decoration2:4>, <botania:elfglass>], [null, <ore:plateElectrum>, null]]);
+RecipeUtils.recipeTweak(true, <torchmaster:mega_torch>, [[<torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>], [<minecraft:diamond>, <botania:bifrostperm>, <minecraft:diamond>], [<minecraft:gold_block>, <botania:bifrostperm>, <minecraft:gold_block>]]);
+

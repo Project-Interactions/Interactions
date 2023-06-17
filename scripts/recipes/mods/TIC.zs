@@ -43,6 +43,15 @@ Melting.removeRecipe(<liquid:iridium>,<techreborn:smalldust:66>);
 Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:ore:7>);
 Melting.removeRecipe(<liquid:iridium>,<techreborn:ore:1>);
 
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_axe>);
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_boots>);
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_chestplate>);
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_helmet>);
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_lance>);
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_leggings>);
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_pickaxe>);
+Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_shovel>);
+
 //
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:glowstone", Count: 1 as byte, Damage: 0 as short}}));
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:redstone_block", Count: 1 as byte, Damage: 0 as short}}));

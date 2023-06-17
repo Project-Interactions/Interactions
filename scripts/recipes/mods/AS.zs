@@ -56,7 +56,7 @@ Altar.addDiscoveryAltarRecipe(
 	<contenttweaker:infused_mana_circuit>,
 	400,
 	100,
-	[null, <ore:plateAstralStarmetal>, null, <contenttweaker:mana_circuit>, <contenttweaker:starlight_circuit_board>, <contenttweaker:mana_circuit>, <astralsorcery:blockinfusedwood>, <contenttweaker:mana_circuit>, <astralsorcery:blockinfusedwood>]
+	[<astralsorcery:blockinfusedwood>, <ore:plateAstralStarmetal>, <astralsorcery:blockinfusedwood>, <contenttweaker:mana_circuit>, <contenttweaker:starlight_circuit_board>, <contenttweaker:mana_circuit>, <astralsorcery:blockinfusedwood>, <contenttweaker:mana_circuit>, <astralsorcery:blockinfusedwood>]
 );
 
 Grindstone.addRecipe(<botania:dice>, <botania:manaresource:5>*4);

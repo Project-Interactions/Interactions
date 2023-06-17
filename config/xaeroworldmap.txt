@@ -50,7 +50,7 @@ globalVersion:1
 [XP] Transparent Obsidian Roof:false
 [XP] Roof Obsidian Opacity:150.0
 [XP] Min WorldMap Zoom:0.1
-[XP] Skip Background Render:false
+[XP] Skip Background Render:true
 [XP] NewChunks Highlighting:false
 [XP] Save/Load NewChunks to Disk:false
 [XP] New Chunks Opacity:100.0
@@ -62,7 +62,7 @@ globalVersion:1
 [XP] WDL Highlight:true
 [XP] WDL Opacity:100.0
 [XP] WDL Color:1
-[XP] Prefer Overworld Waypoints:true
+[XP] Prefer Overworld Waypoints:false
 [XP] Show Waypoint Distances:true
 [XP] null OW Dim Dir:true
 [XP] Data Dir Mode:0

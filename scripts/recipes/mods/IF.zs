@@ -3,6 +3,7 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.industrialforegoing.FluidSievingMachine;
+import mods.industrialforegoing.FluidDictionary;
 
 recipes.addShaped(<teslacorelib:speed_tier2> * 2, [[null, <ore:gearDiamond>, null],[<teslacorelib:speed_tier1>, <ore:circuitAdvanced>, <teslacorelib:speed_tier1>], [null, <ore:gearDiamond>, null]]);
 recipes.addShaped(<teslacorelib:speed_tier1> * 2, [[null, <ore:circuitBasic>, null],[<teslacorelib:base_addon>, <ore:gearGold>, <teslacorelib:base_addon>], [null, <ore:circuitBasic>, null]]);
@@ -82,3 +83,5 @@ recipes.addShapeless(<industrialforegoing:black_hole_controller_reworked>,[<indu
 //harder
 FluidSievingMachine.remove(<industrialforegoing:pink_slime_ingot>);
 FluidSievingMachine.add(<liquid:if.pink_slime>*1000, <industrialforegoing:pink_slime_ingot>, <integrateddynamics:crystalized_chorus_chunk>);
+
+//FluidDictionary

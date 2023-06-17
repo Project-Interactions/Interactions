@@ -2,20 +2,21 @@
 	x: 6.0d,
 	y: 4.0d,
 	text: [
-		"Manual Circuit"
+		"制作组件"
 	],
 	dependencies: [
 		"b76bf2b5"
 	],
 	tasks: [{
-		uid: "03dd5019",
+		uid: "5908c7e8",
 		type: "item",
 		items: [{
 			id: "immersiveengineering:blueprint",
 			tag: {
-				blueprint: "Manual Circuit"
+				blueprint: "components"
 			}
 		}],
-		ignore_damage: true
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

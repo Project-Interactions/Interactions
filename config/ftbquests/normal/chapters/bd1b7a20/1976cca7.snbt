@@ -5,9 +5,16 @@
 		"3027c9cb"
 	],
 	tasks: [{
-		uid: "d3a908e1",
-		type: "fluid",
-		fluid: "sodium_chloride_solution",
-		amount: 666
+		uid: "cfe7001a",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sodium_chloride_solution",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

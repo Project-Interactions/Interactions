@@ -8,7 +8,7 @@ import mods.actuallyadditions.Crusher;
 
 
 //
-recipes.addShapeless( <actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
+recipes.addShapeless(<actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
 //
 recipes.remove(<actuallyadditions:block_misc:4>);
 recipes.addShapedMirrored( <actuallyadditions:block_misc:4> * 2, [[<ore:plankTreatedWood>, <forestry:oak_stick>, <ore:plankTreatedWood>],[<forestry:oak_stick>, <ore:logWood>, <forestry:oak_stick>], [<ore:plankTreatedWood>, <forestry:oak_stick>, <ore:plankTreatedWood>]]);
@@ -128,11 +128,10 @@ AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal>, <calculator:reds
 Empowerer.addRecipe(<botania:manaresource:14>, <botania:storage:1>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, 500000, 160, [1.0, 1.0, 1.0]);
 //seed
 Empowerer.addRecipe(<mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:4>, 250000, 200, [1.0, 0.0, 0.0]);
-//Empowerer.addRecipe(<libvulpes:advstructuremachine>, <libvulpes:structuremachine>, <tconstruct:ingots:3>,<enderio:item_alloy_endergy_ingot:2>,<tconstruct:ingots:3>,<enderio:item_alloy_endergy_ingot:2>, 250000, 200, [1.0, 0.0, 0.0]);
 
 //machine
 RecipeUtils.recipeTweak(true, <actuallyadditions:block_display_stand>, [[<ore:circuitElite>, <actuallyadditions:item_misc:8>, <ore:circuitElite>], [<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_green_wall>], [<actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>]]);
-RecipeUtils.recipeTweak(true, <actuallyadditions:block_empowerer>, [[<ore:circuitElite>, <actuallyadditions:item_crystal>, <ore:circuitElite>], [null, <actuallyadditions:item_battery_double:*>, null], [<actuallyadditions:block_misc:9>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:9>]]);
+RecipeUtils.recipeTweak(true, <actuallyadditions:block_empowerer>, [[null, <actuallyadditions:item_crystal>, null], [<ore:circuitElite>, <actuallyadditions:item_battery_double:*>, <ore:circuitElite>], [<actuallyadditions:block_misc:9>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:9>]]);
 
 //circuit
 Empowerer.addRecipe(<contenttweaker:powered_circuit>, <contenttweaker:powered_circuit_board>, <actuallyadditions:block_crystal_empowered>, <forestry:flexible_casing>, <calculator:material:7>, <moreplates:diamatine_gear>, 25000, 100, [1.0, 1.0, 1.0]);

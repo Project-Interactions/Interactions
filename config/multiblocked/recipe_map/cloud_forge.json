@@ -5,16 +5,9 @@
   "recipes": [
     {
       "uid": "032944a1-d700-484c-8ece-0b4288192c0e",
-      "duration": 1,
+      "duration": 10,
       "inputs": {
         "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "ore": "aercloud"
-            }
-          },
           {
             "chance": 1.0,
             "content": {
@@ -29,7 +22,7 @@
       "outputs": {
         "item": [
           {
-            "chance": 0.06,
+            "chance": 0.01,
             "content": {
               "amount": 1,
               "matches": [
@@ -41,14 +34,14 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 8192
+            "content": 5120
           }
         ]
       }
     },
     {
       "uid": "1439bb2d-de75-48f7-bd1c-3679e0f542da",
-      "duration": 1,
+      "duration": 10,
       "inputs": {
         "item": [
           {
@@ -75,7 +68,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 4096
+            "content": 2560
           }
         ]
       }

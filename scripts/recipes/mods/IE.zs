@@ -102,7 +102,6 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:4>*2, [[<ore:ingotIron
 recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:circuitBasic>, <immersiveengineering:material:9>, <ore:circuitBasic>]]);
 
-Blueprint.removeRecipe(<immersiveengineering:material:27>);
 Blueprint.addRecipe("components", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<ore:ingotRefinedIron>*2]);
 Blueprint.addRecipe("components", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<aether_legacy:quicksoil_glass_pane>*4]);
 
@@ -112,18 +111,18 @@ Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <the
 Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*1000, [<ore:dustSalt>], 2048);
 ElectrolyticCrucibleBattery.removeRecipe(<liquid:moltensalt>*1000);
 ElectrolyticCrucibleBattery.addRecipe(
-    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332,
+    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:moltensodium>*200,
     null,<liquid:moltensalt>*200,
     50000, 100
 );
 ElectrolyticCrucibleBattery.addRecipe(
-    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332,
+    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:moltensodium>*200,
     null,<liquid:sodium_chloride_solution>*1332,
     50000, 100
 );
 
 Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*1000, [<ore:dustIron>], 2048);
-BottlingMachine.addRecipe(<contenttweaker:etched_assembled_circuit_plate>, <ore:plateLead>, <liquid:etching_acid>*500);
+BottlingMachine.addRecipe(<contenttweaker:etched_assembled_circuit_plate>, <ore:plateLead>, <liquid:etching_acid>*1000);
 
 Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4096);
 
@@ -178,7 +177,7 @@ Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
 Crusher.removeRecipesForInput(<embers:ore_nickel>);
 
 Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 2048);
-Crusher.add(<thermalfoundation:material:69>*2, <ore:oreNickel>,2048);
+Crusher.addRecipe(<thermalfoundation:material:69>*2, <ore:oreNickel>,2048);
 
 Crusher.addRecipe(<thermalfoundation:material:768>*9, <minecraft:coal_block>, 1000);
 
@@ -196,6 +195,8 @@ ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:
 ArcFurnace.addRecipe(<libvulpes:productingot:3>, <ore:dustQuartz>, null, 60, 1024,[<ore:dustQuartz>], "Alloying");
 furnace.remove(<libvulpes:productingot:3>);
 RecipeUtils.recipeTweak(true,<engineersdecor:small_tree_cutter>, [[<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>], [<ore:gearSteel>, <minecraft:iron_axe>, <minecraft:observer>], [<immersiveengineering:material:9>, <minecraft:redstone_block>, <immersiveengineering:material:9>]]);
+
+RecipeUtils.recipeTweak(true,<immersivetech:valve:2> * 2, [[<ore:plateIron>, <immersiveengineering:connector:12>, <ore:plateIron>], [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), <immersiveengineering:material:8>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})], [<ore:plateIron>, <immersiveengineering:material:27>, <ore:plateIron>]]);
 
 //Dilithium
 Crusher.removeRecipe(<libvulpes:productgem>);
@@ -236,7 +237,7 @@ furnace.remove(<contenttweaker:material_part:211>);
 Blueprint.addRecipe("electrode", <contenttweaker:mechanical_circuit_board>*3, [<ore:electronTube>*3,<ore:plateAdvancedElectronicAlloy>*2,<ore:wireCopper>*4,<ore:gearSteel>,<ore:ingotHOPGraphite>*2]);
 BottlingMachine.addRecipe(<contenttweaker:mechanical_circuit>, <contenttweaker:mechanical_circuit_board>, <liquid:etching_acid>*1000);
 Blueprint.addRecipe("Circuits", <contenttweaker:processor_circuit_board>, [<contenttweaker:mechanical_circuit_board>*3,<ore:itemRubber>*8,<ore:plateTerrasteel>*2]);
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Circuits"}),[<ore:circuitGood>,<ore:stickManasteel>,<immersiveengineering:conveyor>]);
+recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Circuits"}),[<ore:circuitGood>,<ore:stickManasteel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})]);
 BottlingMachine.addRecipe(<contenttweaker:processor_mechanical_circuit>, <contenttweaker:processor_circuit_board>, <liquid:advanced_etching>*1000);
 
 //air
@@ -250,4 +251,50 @@ Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:4>, [<ore:wireTwi
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:6>, [<ore:wireGaia>*8,<ore:itemRubber>*6]);
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Coil"}),[<ore:circuitGood>,<ore:wireElectrum>,<ore:wireAluminum>,<ore:wireCopper>]);
 
+Boiler.removeFuel(<liquid:biodiesel>); # 10
+Boiler.removeFuel(<liquid:diesel>);    # 50
+Boiler.removeFuel(<liquid:gasoline>);  # 7
 
+//default 0.25/t
+Boiler.addFuel(<liquid:biodiesel> * 10, 1, 20);
+Boiler.addFuel(<liquid:diesel>    * 50, 1, 20);
+Boiler.addFuel(<liquid:gasoline>  *  7, 1, 20);
+
+Boiler.removeRecipe(<liquid:water>);
+Boiler.removeRecipe(<liquid:distwater>);
+
+Boiler.addRecipe(<liquid:steam> * 4000, <liquid:water>     * 2000, 10);
+Boiler.addRecipe(<liquid:steam> * 6000, <liquid:distwater> * 2000, 10);
+
+SolarTower.removeRecipe(<liquid:water>);
+SolarTower.removeRecipe(<liquid:distwater>);
+
+SolarTower.addRecipe(<liquid:steam> * 2500, <liquid:water>     * 1000, 20);
+SolarTower.addRecipe(<liquid:steam> * 4000, <liquid:distwater> * 1000, 20);
+
+HighPressureSteamTurbine.removeFuel(<liquid:highpressuresteam>);
+HighPressureSteamTurbine.addFuel(<liquid:exhaust_steam> * 40, <liquid:high_pressure_steam> * 40, 1);
+
+SteamTurbine.removeFuel(<liquid:steam>);
+SteamTurbine.addFuel(<liquid:exhauststeam> * 300, <liquid:steam> * 300, 1);
+
+HeatExchanger.removeRecipe(<liquid:water>       , <liquid:fluegas>);
+HeatExchanger.removeRecipe(<liquid:distwater>   , <liquid:fluegas>);
+HeatExchanger.removeRecipe(<liquid:water>       , <liquid:superheatedmoltensodium>);
+HeatExchanger.removeRecipe(<liquid:distwater>   , <liquid:superheatedmoltensodium>);
+HeatExchanger.removeRecipe(<liquid:exhauststeam>, <liquid:water>);
+HeatExchanger.addRecipe(<liquid:steam>     * 2250, null                            , <liquid:fluegas>                 * 1000, <liquid:water>        * 1250, 64, 4);
+HeatExchanger.addRecipe(<liquid:steam>     * 2500, null                            , <liquid:fluegas>                 * 1000, <liquid:distwater>    * 1250, 64, 4);
+HeatExchanger.addRecipe(<liquid:steam>     * 2250, <liquid:moltensodium>     *   80, <liquid:superheatedmoltensodium> *   80, <liquid:water>        * 1250, 64, 4);
+HeatExchanger.addRecipe(<liquid:steam>     * 2500, <liquid:moltensodium>     *   80, <liquid:superheatedmoltensodium> *   80, <liquid:distwater>    * 1250, 64, 4);
+HeatExchanger.addRecipe(<liquid:distwater> * 1250, <liquid:hot_water>        * 4500, <liquid:water>                   * 4500, <liquid:exhauststeam> * 2500, 32, 4);
+
+GasTurbine.removeFuel(<liquid:biodiesel>);
+GasTurbine.removeFuel(<liquid:gasoline>);
+GasTurbine.removeFuel(<liquid:diesel>);
+GasTurbine.addFuel(<liquid:fluegas> * 2000, <liquid:biodiesel> * 160, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 2000, <liquid:gasoline>  * 800, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 2000, <liquid:diesel>    * 114, 10);
+
+Radiator.removeRecipe(<liquid:exhauststeam>);
+Radiator.addRecipe(<liquid:exhauststeam> * 500, <liquid:steam> * 250, 13);
