@@ -42,7 +42,6 @@ import mods.armoreablemobs.ArmorGroup;
 	<botania:elementiumsword>,
 	<thermalfoundation:tool.sword_invar>,
 	<thermalfoundation:tool.sword_platinum>,
-	<twilightforest:fiery_sword>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}),
 	<redstonearsenal:tool.sword_flux>.withTag({Energy: 320000})
 	] as IItemStack[];
 
@@ -190,37 +189,6 @@ import mods.armoreablemobs.ArmorGroup;
 	magicalGroup.addEntity(witherSkeleton);
 	magicalGroup.addEntity(zombiePigman);
 	magicalGroup.addEntity(zombieVillager);
-
-# *======= NuclearCraft Armor =======*
-
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_boron>, 10, 0.2));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_boron>, 10, 0.2));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_boron>, 10, 0.2));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_boron>, 10, 0.2));
-
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_tough>, 8, 0.04));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_tough>, 8, 0.04));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_tough>, 8, 0.04));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_tough>, 8, 0.04));
-
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_hard_carbon>, 4, 0.01));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_hard_carbon>, 4, 0.01));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_hard_carbon>, 4, 0.01));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_hard_carbon>, 4, 0.01));
-
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_boron_nitride>, 3, 0.001));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_boron_nitride>, 3, 0.001));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_boron_nitride>, 3, 0.001));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_boron_nitride>, 3, 0.001));
-
-	nuclearGroup.addEntity(zombie);
-	nuclearGroup.addEntity(zombieStrong);
-	nuclearGroup.addEntity(zombieBoss);
-	nuclearGroup.addEntity(knight);
-	nuclearGroup.addEntity(husk);
-	nuclearGroup.addEntity(witherSkeleton);
-	nuclearGroup.addEntity(zombiePigman);
-	nuclearGroup.addEntity(zombieVillager);
 
 # *======= Vanilla Armor =======*
 

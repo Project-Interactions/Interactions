@@ -52,6 +52,15 @@ Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_leggings>);
 Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_pickaxe>);
 Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_shovel>);
 
+Melting.removeRecipe(<liquid:fierymetal>,<twilightforest:fiery_helmet>);
+Melting.removeRecipe(<liquid:fierymetal>,<twilightforest:fiery_chestplate>);
+Melting.removeRecipe(<liquid:fierymetal>,<twilightforest:fiery_leggings>);
+Melting.removeRecipe(<liquid:fierymetal>,<twilightforest:fiery_boots>);
+
+Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelhelm>);
+Melting.removeRecipe(<liquid:manasteel>,<botania:manasteellegs>);
+Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelchest>);
+Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelboots>);
 //
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:glowstone", Count: 1 as byte, Damage: 0 as short}}));
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:redstone_block", Count: 1 as byte, Damage: 0 as short}}));
