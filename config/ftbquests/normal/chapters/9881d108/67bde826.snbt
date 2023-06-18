@@ -2,10 +2,10 @@
 	x: -2.5d,
 	y: -0.5d,
 	text: [
-		"世界盐的配方已经被修改"
+		"世界盐右键工作台和炼药锅获得"
 	],
 	dependencies: [
-		"46fa16e7"
+		"dbcbf805"
 	],
 	tasks: [{
 		uid: "2d51935d",
@@ -30,11 +30,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "d3205445",
-		type: "item",
-		item: "thaumcraft:thaumonomicon"
-	},
-	{
 		uid: "b583aef8",
 		type: "item",
 		item: "thaumcraft:nugget 1 9",

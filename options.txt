@@ -5,7 +5,7 @@ fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:0
+guiScale:9
 particles:2
 bobView:true
 anaglyph3d:false
@@ -136,7 +136,6 @@ key_pneumaticcraft.helmet.debugging.drone:0
 key_pneumaticcraft.boots.kick:0
 key_pneumaticcraft.chestplate.launcher:0
 key_neat.keybind.toggle:0
-key_key.openNotes:49
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
 key_Toggle Raw Input:0
@@ -368,7 +367,7 @@ key_enderio.keybind.fovminusfast:0
 key_key.craftpresence.config_keycode.name:0
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:0.0
+soundCategory_master:0.5
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

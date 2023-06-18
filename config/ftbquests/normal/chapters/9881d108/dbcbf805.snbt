@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"世界盐右键书架获得"
+	],
+	dependencies: [
+		"46fa16e7"
+	],
+	tasks: [{
+		uid: "aec4d5d5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}]
+}

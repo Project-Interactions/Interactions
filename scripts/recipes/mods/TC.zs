@@ -51,8 +51,11 @@ ArcaneWorkbench.registerShapedRecipe("tc:mmorphic_resonator","BASEARTIFICE",50, 
 
 ArcaneWorkbench.registerShapedRecipe("tc:aspect_infuser","",80, [<aspect:aer>, <aspect:ignis>],<interaction:aspect_infuser>,[[<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>],[<extendedcrafting:storage:2>, <thaumcraft:essentia_output>, <extendedcrafting:storage:2>], [<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>]]);
 
-
-
+//try to fix no show
+Crucible.removeRecipe(<minecraft:web>);
+Crucible.removeRecipe(<minecraft:string>);
+Crucible.registerRecipe("hedge_web"      , "HEDGEALCHEMY@3", <minecraft:web>, <minecraft:string>, [<aspect:vinculum>*2]);
+Crucible.registerRecipe("hedge_string"   , "HEDGEALCHEMY@3", <minecraft:string>, <minecraft:wheat>, [<aspect:bestia>*2]);
 
 
 

@@ -17,3 +17,4 @@
 
 //tweak
 <embers:mixer>.displayName = game.localize("ia.display.mixer");
+<thaumcraft:amber>.displayName = game.localize("ia.display.amber");

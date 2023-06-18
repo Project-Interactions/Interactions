@@ -111,3 +111,4 @@ ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <plustic:mirionblock>, 10
 Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
 Agglomeration.addRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>],200000);
 
+ManaInfusion.addAlchemy(<minecraft:ghast_tear>, <botania:blazeblock>, 10000);

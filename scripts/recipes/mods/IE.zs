@@ -16,6 +16,7 @@ import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Fermenter;
+import mods.immersiveengineering.Thermoelectric;
 
 import mods.immersivepetroleum.Distillation;
 
@@ -251,6 +252,7 @@ Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:4>, [<ore:wireTwi
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:6>, [<ore:wireGaia>*8,<ore:itemRubber>*6]);
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Coil"}),[<ore:circuitGood>,<ore:wireElectrum>,<ore:wireAluminum>,<ore:wireCopper>]);
 
+//buff mctit
 Boiler.removeFuel(<liquid:biodiesel>); # 10
 Boiler.removeFuel(<liquid:diesel>);    # 50
 Boiler.removeFuel(<liquid:gasoline>);  # 7
@@ -298,3 +300,13 @@ GasTurbine.addFuel(<liquid:fluegas> * 2000, <liquid:diesel>    * 114, 10);
 
 Radiator.removeRecipe(<liquid:exhauststeam>);
 Radiator.addRecipe(<liquid:exhauststeam> * 500, <liquid:steam> * 250, 13);
+
+//more expensive thermoelectric_generator
+RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:3>, [[<ore:ingotSteel>, <ore:plateConstantan>, <ore:ingotSteel>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateSteel, <ore:gearConstantan>, <ore:plateSteel>]]);
+
+//thermoelectric_generator more support
+Thermoelectric.addTemperatureSource(<nuclearcraft:supercold_ice>,50);
+Thermoelectric.addTemperatureSource(<ore:blockFiery>,5000);
+Thermoelectric.addTemperatureSource(<ore:blockSolarium>,8000);
+Thermoelectric.addTemperatureSource(<ore:blockNucleum>,8000);
+Thermoelectric.addTemperatureSource(<ore:blockLumix>,8000);

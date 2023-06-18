@@ -43,6 +43,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:security_station>, [[<ore:cir
 RecipeUtils.recipeTweak(true, <appliedenergistics2:condenser>, [[<ore:circuitOperation>, <appliedenergistics2:quartz_vibrant_glass>, <ore:circuitOperation>], [<appliedenergistics2:quartz_vibrant_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_vibrant_glass>], [<ore:circuitOperation>, <appliedenergistics2:quartz_vibrant_glass>, <ore:circuitOperation>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:inscriber>,[[<moreplates:fluix_gear>,<minecraft:piston>,<ore:ingotRefinedIron>],[<moreplates:fluix_gear>,<ore:circuitOperation>,<ore:ingotRefinedIron>],[<ore:ingotRefinedIron>,<minecraft:piston>,<ore:ingotRefinedIron>]]);
 
+//unlock ae t3
 recipes.addShapeless(<appliedenergistics2:part:221>, [<appliedenergistics2:part:380>,<integrateddynamics:part_block_reader_item>,<integrateddynamics:part_fluid_reader_item>]);
 recipes.addShapeless(<appliedenergistics2:part:220>, [<appliedenergistics2:part:380>,<integrateddynamics:part_block_reader_item>]);
 recipes.addShapeless(<appliedenergistics2:part:520>, [<appliedenergistics2:part:380>,<integrateddynamics:part_fluid_reader_item>]);
@@ -51,6 +52,10 @@ recipes.addShapeless(<appliedenergistics2:part:380>, [<integrateddynamics:part_d
 recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<integrateddynamics:crystalized_menril_block>, <appliedenergistics2:part:16>, <integrateddynamics:crystalized_menril_block>],[<appliedenergistics2:part:16>, <integrateddynamics:energy_battery>, <appliedenergistics2:part:16>], [<integrateddynamics:crystalized_menril_block>, <appliedenergistics2:part:16>, <integrateddynamics:crystalized_menril_block>]]);
 recipes.addShaped(<appliedenergistics2:part:56> * 2, [[<appliedenergistics2:part:16>, <appliedenergistics2:part:16>, <appliedenergistics2:part:16>],[<appliedenergistics2:part:16>, <integrateddynamics:variable>, <appliedenergistics2:part:16>], [<appliedenergistics2:part:16>, <appliedenergistics2:part:16>, <appliedenergistics2:part:16>]]);
 recipes.addShapeless(<appliedenergistics2:part:16> * 2, [<appliedenergistics2:part:140>,<integrateddynamics:crystalized_menril_chunk>,<integrateddynamics:crystalized_menril_chunk>]);
+recipes.addShaped(<appliedenergistics2:part:241> * 2, [[<appliedenergistics2:part:380>, <enderio:item_liquid_conduit:2>, <ore:plateIron>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<appliedenergistics2:part:261> * 2, [[<appliedenergistics2:part:380>, <enderio:item_liquid_conduit:2>, <ore:plateElectrum>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<appliedenergistics2:part:260> * 2, [[<appliedenergistics2:part:380>, <enderio:item_item_conduit>, <ore:plateElectrum>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<appliedenergistics2:part:240> * 2, [[<appliedenergistics2:part:380>, <enderio:item_item_conduit>, <ore:plateIron>],[null, null, null], [null, null, null]]);
 
 //Inscriber
 Inscriber.removeRecipe(<appliedenergistics2:material:17>);
