@@ -1,0 +1,26 @@
+{
+	"dependencies": "advancedrocketry",
+	"populate": {
+		"dilithium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": { 					 					
+					"name": "libvulpes:ore0", 					 					
+					"metadata": 0				 				
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 8,
+			"min-height": 25,
+			"max-height": 40,
+			"retrogen": "false",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		}
+	}
+}

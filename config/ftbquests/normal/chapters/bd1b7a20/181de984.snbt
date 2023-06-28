@@ -1,7 +1,7 @@
 {
 	title: "金属冲压机",
 	icon: "immersiveengineering:metal_multiblock",
-	x: 4.0d,
+	x: 5.0d,
 	y: 3.0d,
 	text: [
 		"现在你可以以低廉的成本制作金属板和齿轮了"

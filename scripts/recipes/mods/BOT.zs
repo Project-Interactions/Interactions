@@ -63,7 +63,7 @@ GaiaPlate.add(<botanicadds:gaiasteel_ingot>,1000000,[<threng:material>,<tconevo:
 //
 Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>,<ore:crystalCrudeOil>],400000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveengineering:metal_decoration0:5>,<mekanism:basicblock2:10>,null,null,null);
 //
-RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
+RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5000);
 //
 Agglomeration.addRecipe(<compactmachines3:machine>,[<thermalfoundation:material:261>,<ore:circuitGood>],100000,0xCCFFFF,0x99FFFF,<extrautils2:decorativesolidwood:1>,<immersiveengineering:metal_decoration0:5>,<enderio:block_alloy_endergy>,<compactmachines3:wallbreakable>,<techreborn:storage2:10>,<compactmachines3:wallbreakable>);
 Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>],200000,0xCCFFFF,0xFFFFFF,<thermalfoundation:storage_alloy>,<naturesaura:infused_stone>,<thermalfoundation:storage_alloy>,<compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
@@ -88,7 +88,6 @@ RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:
 
 RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamrock>, <botanicadds:dreamrock>, <botanicadds:dreamrock>], [<botanicadds:dreamrock>, <botania:pool:3>, <botanicadds:dreamrock>], [<ore:plateTerrasteel>, <ore:plateTerrasteel>, <ore:plateTerrasteel>]]);
 
-
 //botania doppleganger not drop fix
 <entity:botania:doppleganger>.addPlayerOnlyDrop(<botania:manaresource:5>,4,8);
 
@@ -112,3 +111,8 @@ Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<b
 Agglomeration.addRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>],200000);
 
 ManaInfusion.addAlchemy(<minecraft:ghast_tear>, <botania:blazeblock>, 10000);
+
+RuneAltar.removeRecipe(<botanicadds:mana_tesseract>);
+RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<ore:circuitAdvanced>,<ore:gearTerrasteel>,<botanicadds:dreamrock>,<botania:manaresource:12>,<botanicadds:rune_tp>], 150000);
+
+RuneAltar.removeRecipe(<botania:specialflower>.withTag({type: "soarleander"}));

@@ -11,7 +11,7 @@ import mods.actuallyadditions.Crusher;
 recipes.addShapeless(<actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
 //
 recipes.remove(<actuallyadditions:block_misc:4>);
-recipes.addShapedMirrored( <actuallyadditions:block_misc:4> * 2, [[<ore:plankTreatedWood>, <forestry:oak_stick>, <ore:plankTreatedWood>],[<forestry:oak_stick>, <ore:logWood>, <forestry:oak_stick>], [<ore:plankTreatedWood>, <forestry:oak_stick>, <ore:plankTreatedWood>]]);
+recipes.addShapedMirrored(<actuallyadditions:block_misc:4>, [[<ore:plankTreatedWood>, <ore:stickTreatedWood>, <ore:plankTreatedWood>],[<ore:stickTreatedWood>, <ore:logWood>, <ore:stickTreatedWood>], [<ore:plankTreatedWood>, <ore:stickTreatedWood>, <ore:plankTreatedWood>]]);
 recipes.remove(<actuallyadditions:block_misc:9>);
 //
 recipes.removeShaped(<actuallyadditions:block_atomic_reconstructor>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:dustRedstone>, <actuallyadditions:block_misc:9>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);

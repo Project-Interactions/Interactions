@@ -17,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "chisel:technicalnew",
-          "meta": 6
+          "id": "techreborn:storage2",
+          "meta": 1
         },
         "type": "blockstate"
       }

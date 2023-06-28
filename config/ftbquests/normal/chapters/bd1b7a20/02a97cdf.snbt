@@ -1,0 +1,15 @@
+{
+	x: 9.5d,
+	y: -4.0d,
+	text: [
+		"当你看到一个物品需要解锁时，不妨来看看这里"
+	],
+	size: 1.6d,
+	tasks: [{
+		uid: "18d7c582",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}]
+}

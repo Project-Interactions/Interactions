@@ -24,8 +24,8 @@
             "content": {
               "particle": "neutron",
               "amount": 10000,
-              "focus": 0.0,
-              "energy": 0
+              "focus": 1.0,
+              "energy": 4000
             }
           }
         ]
@@ -61,8 +61,8 @@
             "content": {
               "particle": "neutron",
               "amount": 1000,
-              "focus": 0.0,
-              "energy": 0
+              "focus": 1.0,
+              "energy": 8000
             }
           }
         ],
@@ -103,8 +103,8 @@
             "content": {
               "particle": "neutron",
               "amount": 1000,
-              "focus": 0.0,
-              "energy": 0
+              "focus": 1.0,
+              "energy": 8000
             }
           }
         ],

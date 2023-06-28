@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	dependencies: [
+		"b76bf2b5"
+	],
+	tasks: [{
+		uid: "b6edf2c8",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workstation 1 6"
+		}]
+	}]
+}

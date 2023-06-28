@@ -22,7 +22,7 @@
       "veinsPerChunk": 3,
       "minYHeight": 5,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn.ore",

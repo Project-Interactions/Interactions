@@ -85,8 +85,6 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>
 
 Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
 
-Blueprint.addRecipe("components", <contenttweaker:manual_circuit>*2, [<moreplates:crude_steel_plate>*2, <contenttweaker:printed_manual_circuit_board_substrate>*4,<contenttweaker:printed_copper_plate>*3,<ore:ingotRedAlloy>*2]);
-
 Squeezer.addRecipe(<contenttweaker:pre_rubber>,null,<techreborn:part:31>,1024);
 
 //AlloySmelter
@@ -102,9 +100,6 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:4>*2, [[<ore:ingotIron
 
 recipes.removeShaped(<immersiveengineering:metal_decoration0:5>*2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:circuitBasic>, <immersiveengineering:material:9>, <ore:circuitBasic>]]);
-
-Blueprint.addRecipe("components", <contenttweaker:assembled_manual_circuit>, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<ore:ingotRefinedIron>*2]);
-Blueprint.addRecipe("components", <contenttweaker:assembled_manual_circuit>*2, [<contenttweaker:manual_circuit>*3,<contenttweaker:etched_assembled_circuit_plate>,<ore:electronTube>,<ore:ingotMagnet>*2,<aether_legacy:quicksoil_glass_pane>*4]);
 
 Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
@@ -235,10 +230,7 @@ ChemicalReactor.addRecipe(<liquid:nitric_oxide>*8,<liquid:oxygen>*4,<liquid:nitr
 recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 8, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
 furnace.remove(<contenttweaker:material_part:211>);
 //mech & proc circuit
-Blueprint.addRecipe("electrode", <contenttweaker:mechanical_circuit_board>*3, [<ore:electronTube>*3,<ore:plateAdvancedElectronicAlloy>*2,<ore:wireCopper>*4,<ore:gearSteel>,<ore:ingotHOPGraphite>*2]);
 BottlingMachine.addRecipe(<contenttweaker:mechanical_circuit>, <contenttweaker:mechanical_circuit_board>, <liquid:etching_acid>*1000);
-Blueprint.addRecipe("Circuits", <contenttweaker:processor_circuit_board>, [<contenttweaker:mechanical_circuit_board>*3,<ore:itemRubber>*8,<ore:plateTerrasteel>*2]);
-recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Circuits"}),[<ore:circuitGood>,<ore:stickManasteel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})]);
 BottlingMachine.addRecipe(<contenttweaker:processor_mechanical_circuit>, <contenttweaker:processor_circuit_board>, <liquid:advanced_etching>*1000);
 
 //air
@@ -302,7 +294,7 @@ Radiator.removeRecipe(<liquid:exhauststeam>);
 Radiator.addRecipe(<liquid:exhauststeam> * 500, <liquid:steam> * 250, 13);
 
 //more expensive thermoelectric_generator
-RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:3>, [[<ore:ingotSteel>, <ore:plateConstantan>, <ore:ingotSteel>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateSteel, <ore:gearConstantan>, <ore:plateSteel>]]);
+RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:3>, [[<ore:ingotSteel>, <ore:plateConstantan>, <ore:ingotSteel>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateSteel>, <ore:gearConstantan>, <ore:plateSteel>]]);
 
 //thermoelectric_generator more support
 Thermoelectric.addTemperatureSource(<nuclearcraft:supercold_ice>,50);

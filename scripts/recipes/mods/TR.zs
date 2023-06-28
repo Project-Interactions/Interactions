@@ -17,6 +17,7 @@ import mods.techreborn.vacuumFreezer;
 import mods.techreborn.fluidReplicator;
 import mods.techreborn.grinder;
 import mods.techreborn.chemicalReactor;
+import mods.techreborn.fluidGen;
 
 
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
@@ -211,6 +212,8 @@ recipes.addShaped(<techreborn:lapotroncrystal>, [[<ore:energyCrystal>, <ore:plat
 
 grinder.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 300, 8);
 
+recipes.remove(<techreborn:solid_fuel_generator>);
+recipes.addShapeless(<techreborn:solid_fuel_generator>, [<ore:reBattery>, <techreborn:storage2:10>, <minecraft:furnace>]);
 
 //
 recipes.remove(<techreborn:iron_furnace>);
@@ -239,3 +242,86 @@ chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "
 recipes.remove(<techreborn:dynamiccell>*16);
 recipes.addShaped(<techreborn:dynamiccell> * 64, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <botania:managlasspane>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
 recipes.addShaped(<techreborn:dynamiccell> * 8, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <ore:paneGlass>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
+
+//buff fluid gen
+//remove orginal
+fluidGen.removeThermalFluid(<liquid:lava>);
+
+fluidGen.removeGasFluid(<liquid:fluidhydrogen>);
+fluidGen.removeGasFluid(<liquid:fluidmethane>);
+
+fluidGen.removeSemiFluid(<liquid:fluidbiofuel>);
+fluidGen.removeSemiFluid(<liquid:fluidlithium>);
+fluidGen.removeSemiFluid(<liquid:fluidoil>);
+fluidGen.removeSemiFluid(<liquid:fluidsodium>);
+fluidGen.removeSemiFluid(<liquid:biomass>);
+fluidGen.removeSemiFluid(<liquid:creosote>);
+fluidGen.removeSemiFluid(<liquid:oil>);
+fluidGen.removeSemiFluid(<liquid:crude_oil>);
+fluidGen.removeSemiFluid(<liquid:coal>);
+fluidGen.removeSemiFluid(<liquid:refined_oil>);
+fluidGen.removeSemiFluid(<liquid:seed_oil>);
+fluidGen.removeSemiFluid(<liquid:tree_oil>);
+
+fluidGen.removeDieselFluid(<liquid:fluiddiesel>);
+fluidGen.removeDieselFluid(<liquid:fluidnitrocoalfuel>);
+fluidGen.removeDieselFluid(<liquid:fluidnitrodiesel>);
+fluidGen.removeDieselFluid(<liquid:bio.ethanol>);
+fluidGen.removeDieselFluid(<liquid:diesel>);
+fluidGen.removeDieselFluid(<liquid:gasoline>);
+fluidGen.removeDieselFluid(<liquid:napalm>);
+fluidGen.removeDieselFluid(<liquid:biofuel>);
+fluidGen.removeDieselFluid(<liquid:refined_biofuel>);
+fluidGen.removeDieselFluid(<liquid:refined_oil>);
+fluidGen.removeDieselFluid(<liquid:fluidnitrofuel>);
+
+fluidGen.removePlasmaFluid(<liquid:fluidheliumplasma>);
+//readd
+fluidGen.addThermalFluid(<liquid:lava>,100);
+
+fluidGen.addGasFluid(<liquid:fluidhydrogen>,256);
+fluidGen.addGasFluid(<liquid:fluidmethane>,256);
+
+fluidGen.addSemiFluid(<liquid:fluidbiofuel>,256);
+fluidGen.addSemiFluid(<liquid:fluidlithium>,256);
+fluidGen.addSemiFluid(<liquid:fluidoil>,256);
+fluidGen.addSemiFluid(<liquid:fluidsodium>,256);
+fluidGen.addSemiFluid(<liquid:biomass>,256);
+fluidGen.addSemiFluid(<liquid:creosote>,256);
+fluidGen.addSemiFluid(<liquid:oil>,256);
+fluidGen.addSemiFluid(<liquid:crude_oil>,256);
+fluidGen.addSemiFluid(<liquid:coal>,256);
+fluidGen.addSemiFluid(<liquid:refined_oil>,256);
+fluidGen.addSemiFluid(<liquid:seed_oil>,256);
+fluidGen.addSemiFluid(<liquid:tree_oil>,256);
+
+fluidGen.addDieselFluid(<liquid:fluiddiesel>,256);
+fluidGen.addDieselFluid(<liquid:fluidnitrocoalfuel>,256);
+fluidGen.addDieselFluid(<liquid:fluidnitrodiesel>,256);
+fluidGen.addDieselFluid(<liquid:bio.ethanol>,256);
+fluidGen.addDieselFluid(<liquid:diesel>,256);
+fluidGen.addDieselFluid(<liquid:gasoline>,256);
+fluidGen.addDieselFluid(<liquid:napalm>,256);
+fluidGen.addDieselFluid(<liquid:biofuel>,256);
+fluidGen.addDieselFluid(<liquid:refined_biofuel>,256);
+fluidGen.addDieselFluid(<liquid:refined_oil>,256);
+fluidGen.addDieselFluid(<liquid:fluidnitrofuel>,256);
+
+fluidGen.addPlasmaFluid(<liquid:fluidheliumplasma>,10000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

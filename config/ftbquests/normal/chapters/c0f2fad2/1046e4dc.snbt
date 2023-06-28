@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"跨维度传送魔力",
+		"合成方式已经被修改，使用2个魔力超立方体与一个物品在工作台一并合成"
+	],
+	dependencies: [
+		"7afbff36",
+		"782941fa"
+	],
+	tasks: [{
+		uid: "519e2260",
+		type: "item",
+		items: [{
+			item: "botanicadds:mana_tesseract"
+		}]
+	}],
+	rewards: [{
+		uid: "b066f81d",
+		type: "item",
+		item: "botanicadds:mana_tesseract"
+	}]
+}

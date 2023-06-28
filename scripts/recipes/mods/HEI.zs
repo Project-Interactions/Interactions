@@ -38,8 +38,6 @@ var jeiremove as string[]=[
 "jehc.shippingbin",
 "appliedenergistics2.grinder",
 "Painter",
-"botania.orechid",
-"botania.orechid_ignem",
 "actuallyadditions.booklet",
 "if_manual_category",
 "oc.manual",

@@ -5,7 +5,7 @@ fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:9
+guiScale:0
 particles:2
 bobView:true
 anaglyph3d:false
@@ -122,7 +122,6 @@ key_key.reloadSoundSystem:0
 key_key.toggleTimeOfDayOverlay:0
 key_key.togglePotionParticles:0
 key_cos.key.opencosarmorinventory:0
-key_key.custommodel.selectmodel:0
 key_key.findme.search:21
 key_key.ftbutilities.nbt:0
 key_key.ftbutilities.trash:211
@@ -150,9 +149,6 @@ key_schematica.key.renderToggle:0
 key_schematica.key.printerToggle:0
 key_schematica.key.moveHere:0
 key_schematica.key.pickBlock:0
-key_key.enableView:0
-key_key.openShulker:0
-key_key.toggleView:0
 key_Staff of Travel Teleport:34
 key_zenscroll.options.modifier_key:56
 key_key.dismount:42
@@ -197,19 +193,6 @@ key_mekanism.key.feetMode:0
 key_mekanism.key.voice:0
 key_key.aether.accessory_menu:0
 key_key.aquaacrobatics.toggle_crawling:0
-key_astraladditions.key.ring_toggle:0
-key_key.bettersigns.nosigntext:0
-key_key.boatoverhaul.leftRudder:75
-key_key.boatoverhaul.rightRudder:77
-key_key.settings_menu:34
-key_key.range:19
-key_key.undo:22
-key_key.anchor:35
-key_key.fuzzy:0
-key_key.connected_area:0
-key_key.rotate_mirror:0
-key_key.material_list:50
-key_key.carry.desc:42
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0
@@ -225,6 +208,19 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
+key_astraladditions.key.ring_toggle:0
+key_key.bettersigns.nosigntext:0
+key_key.boatoverhaul.leftRudder:75
+key_key.boatoverhaul.rightRudder:77
+key_key.settings_menu:34
+key_key.range:19
+key_key.undo:22
+key_key.anchor:35
+key_key.fuzzy:0
+key_key.connected_area:0
+key_key.rotate_mirror:0
+key_key.material_list:50
+key_key.carry.desc:42
 key_key.overload:0
 key_key.chaosInjection:0
 key_keys.techreborn.config:0
@@ -282,7 +278,6 @@ key_pi.key.et_gui:0
 key_pi.key.et_world:0
 key_key.quit.fastQuit:0
 key_key.quit.bossKey:0
-key_key.screenshot_viewer.open_screenshots_screen:0
 key_key.taiga.alt_action:0
 key_key.carpet_forward:0
 key_key.carpet_backward:0
@@ -367,7 +362,7 @@ key_enderio.keybind.fovminusfast:0
 key_key.craftpresence.config_keycode.name:0
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:0.5
+soundCategory_master:0.5033113
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

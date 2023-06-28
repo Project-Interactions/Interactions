@@ -56,6 +56,7 @@ recipes.addShaped(<appliedenergistics2:part:241> * 2, [[<appliedenergistics2:par
 recipes.addShaped(<appliedenergistics2:part:261> * 2, [[<appliedenergistics2:part:380>, <enderio:item_liquid_conduit:2>, <ore:plateElectrum>],[null, null, null], [null, null, null]]);
 recipes.addShaped(<appliedenergistics2:part:260> * 2, [[<appliedenergistics2:part:380>, <enderio:item_item_conduit>, <ore:plateElectrum>],[null, null, null], [null, null, null]]);
 recipes.addShaped(<appliedenergistics2:part:240> * 2, [[<appliedenergistics2:part:380>, <enderio:item_item_conduit>, <ore:plateIron>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<appliedenergistics2:controller>, [[<integrated_proxy:access_proxy>, <appliedenergistics2:energy_acceptor>, <integrated_proxy:access_proxy>],[<appliedenergistics2:energy_acceptor>, <integrated_proxy:access_proxy>, <appliedenergistics2:energy_acceptor>], [<integrated_proxy:access_proxy>, <appliedenergistics2:energy_acceptor>, <integrated_proxy:access_proxy>]]);
 
 //Inscriber
 Inscriber.removeRecipe(<appliedenergistics2:material:17>);
