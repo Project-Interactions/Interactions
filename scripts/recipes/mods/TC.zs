@@ -39,7 +39,7 @@ ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
 ArcaneWorkbench.registerShapedRecipe("tc:mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
-ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>,[[<thaumicrestoration:item_plate:3>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:2>],[<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:4>,<thaumcraft:mechanism_simple>],[<thaumicrestoration:item_plate:1>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate>]]);
+ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>*2,[[<thaumicrestoration:item_plate:3>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:2>],[<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:4>,<thaumcraft:mechanism_simple>],[<thaumicrestoration:item_plate:1>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate>]]);
 
 ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
 ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<botania:managlass>,<botania:managlass>,<botania:managlass>],[<botania:managlass>,<thaumicaugmentation:material:1>,<botania:managlass>],[<botania:managlass>,<botania:managlass>,<botania:managlass>]]);
@@ -57,6 +57,10 @@ Crucible.removeRecipe(<minecraft:string>);
 Crucible.registerRecipe("hedge_web"      , "HEDGEALCHEMY@3", <minecraft:web>, <minecraft:string>, [<aspect:vinculum>*2]);
 Crucible.registerRecipe("hedge_string"   , "HEDGEALCHEMY@3", <minecraft:string>, <minecraft:wheat>, [<aspect:bestia>*2]);
 
+Crucible.removeRecipe(<thaumcraft:ingot:2>);
+Crucible.removeRecipe(<thaumcraft:ingot>);
+Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum>*5]);
+Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
 
 
 var aspectMap as CTAspectStack[][IIngredient] = {

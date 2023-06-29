@@ -38,7 +38,11 @@ flawless.removeRecipe(<minecraft:ghast_tear>);
 flawless.removeRecipe(<minecraft:blaze_rod>);
 flawless.removeRecipe(<calculator:flawlessglass>*4);
 flawless.addRecipe(<techreborn:reinforced_glass>, <techreborn:reinforced_glass>, <techreborn:reinforced_glass>, <techreborn:reinforced_glass>,<calculator:flawlessglass>*3);
-flawless.addRecipe(<ore:calculatorCircuit>, <contenttweaker:operation_circuit>, <contenttweaker:operation_circuit>, <ore:calculatorCircuit>,<contenttweaker:applicated_operation_circuit>);
+
+val ccs = <ore:calculatorCircuit>;
+flawless.addRecipe(<contenttweaker:circuit_stack>, <contenttweaker:operation_circuit>, <contenttweaker:operation_circuit>, <contenttweaker:circuit_stack>,<contenttweaker:applicated_operation_circuit>);
+flawless.addRecipe(ccs,ccs,ccs,ccs,<contenttweaker:circuit_stack>);
+
 flawless.addRecipe(<integrateddynamics:crystalized_menril_chunk>, <ore:crystalFluix>, <calculator:firediamond>, <calculator:flawlessdiamond>,<environmentaltech:litherite_crystal>);
 //basic
 basic.removeRecipe(<calculator:sickle>);
@@ -51,7 +55,8 @@ atomic.removeRecipe(<calculator:flawlessdiamond>);
 atomic.addRecipe(<mysticalagriculture:crafting:17>,<mysticalagriculture:storage:1>,<calculator:enddiamond>,<mysticalagriculture:crafting:18>);
 atomic.addRecipe(<calculator:material:5>,<calculator:material:5>,<compactmachines3:machine:3>,<compactmachines3:machine:4>);
 
-atomic.addRecipe(<calculator:firediamond>,<calculator:largetanzanite>,<calculator:largeamethyst>,<contenttweaker:operation_circuit>);
+atomic.addRecipe(<calculator:firediamond>,<calculator:largetanzanite>,<calculator:largeamethyst>,<contenttweaker:operation_circuit_board>);
+atomic.addRecipe(<ore:plateEnrichedGold>,<contenttweaker:operation_circuit_board>,<ore:plateReinforcedIron>,<contenttweaker:operation_circuit>);
 
 //scientific
 //scientific.addRecipe(<calculator:largetanzanite>, <calculator:largeamethyst>, <contenttweaker:operation_circuit>*3);
@@ -63,4 +68,7 @@ recipes.addShaped(<calculator:sickle>, [[null, <ore:blockUnstable>, <ore:blockUn
 RecipeUtils.recipeTweak(true, <calculator:algorithmassimilator>, [[null, <calculator:stoneassimilator>, null], [<calculator:material:3>, <calculator:algorithmseparator:*>, <calculator:material:3>], [null, <calculator:material:3>, null]]);
 RecipeUtils.recipeTweak(true, <calculator:dockingstation>, [[null, <ore:circuitOperation>, null], [<calculator:flawlessassembly>, <calculator:advancedpowercube>, <calculator:flawlessassembly>], [<calculator:flawlessassembly>, <ore:circuitOperation>, <calculator:flawlessassembly>]]);
 
+RecipeUtils.recipeTweak(true, <calculator:basicgreenhouse>, [[<ore:calculatorReinforcedStone>, <ore:circuitThaumic>, <ore:calculatorReinforcedStone>], [<calculator:enrichedgoldingot:*>, <calculator:material:3>, <calculator:enrichedgoldingot:*>], [<ore:calculatorReinforcedStone>, <ore:circuitThaumic>, <ore:calculatorReinforcedStone>]]);
+RecipeUtils.recipeTweak(true, <calculator:advancedgreenhouse>, [[<calculator:weakeneddiamond:*>, <ore:circuitOperation>, <calculator:weakeneddiamond:*>], [<calculator:largetanzanite:*>, <calculator:basicgreenhouse:*>, <calculator:largetanzanite:*>], [<calculator:weakeneddiamond:*>, <ore:circuitOperation>, <calculator:weakeneddiamond:*>]]);
+RecipeUtils.recipeTweak(true, <calculator:flawlessgreenhouse>, [[<calculator:flawlessglass:*>, <ore:circuitElite>, <calculator:flawlessglass:*>], [<calculator:advancedgreenhouse:*>, <calculator:atomicassembly:*>, <calculator:advancedgreenhouse:*>], [<calculator:flawlessglass:*>, <ore:circuitElite>, <calculator:flawlessglass:*>]]);
 

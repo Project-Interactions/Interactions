@@ -28,14 +28,14 @@
 				"blacklist" : "minecraft:hell, minecraft:sky",
 				"depth_min": 5,
 				"depth_max": 68,
-				"weight" : 20
+				"weight" : 40
 			},
 			{
 				"whitelist": "",
 				"blacklist": "minecraft:hell, minecraft:sky",
 				"depth_min": 0,
 				"depth_max": 255,
-				"weight": 2
+				"weight": 4
 			}
 		]
 	},

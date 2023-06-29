@@ -227,13 +227,6 @@ Dropt.list("basic_refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<minecraft:redstone>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<thermalfoundation:material:67>])
       )
       .addDrop(

@@ -87,25 +87,25 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 64,
+              "amount": 32,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:64,Damage:52s}"
+                "{id:\"appliedenergistics2:material\",Count:32,Damage:52s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 16,
+              "amount": 8,
               "matches": [
-                "{id:\"thaumcraft:mechanism_complex\",Count:16,Damage:0s}"
+                "{id:\"thaumcraft:mechanism_complex\",Count:8,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 8,
               "ore": "circuitOperation"
             }
           }
@@ -113,16 +113,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"thaumium\",Amount:10000}"
-          }
-        ],
-        "tc6_aspect": [
-          {
-            "chance": 1.0,
-            "content": {
-              "aspect": "machina",
-              "amount": 100
-            }
+            "content": "{FluidName:\"thaumium\",Amount:4000}"
           }
         ],
         "forge_energy": [
@@ -130,12 +121,21 @@
             "chance": 1.0,
             "content": 100000
           }
+        ],
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "machina",
+              "amount": 80
+            }
+          }
         ]
       },
       "outputs": {
         "item": [
           {
-            "chance": 0.1,
+            "chance": 0.2,
             "content": {
               "amount": 1,
               "matches": [
@@ -144,7 +144,7 @@
             }
           },
           {
-            "chance": 0.1,
+            "chance": 0.2,
             "content": {
               "amount": 1,
               "matches": [
@@ -153,7 +153,7 @@
             }
           },
           {
-            "chance": 0.1,
+            "chance": 0.2,
             "content": {
               "amount": 1,
               "matches": [
@@ -162,7 +162,7 @@
             }
           },
           {
-            "chance": 0.1,
+            "chance": 0.2,
             "content": {
               "amount": 1,
               "matches": [
@@ -171,7 +171,7 @@
             }
           },
           {
-            "chance": 0.1,
+            "chance": 0.2,
             "content": {
               "amount": 1,
               "matches": [

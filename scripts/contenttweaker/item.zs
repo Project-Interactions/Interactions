@@ -58,6 +58,9 @@ VanillaFactory.createItem("thermal_pneumatic_circuit").register();
 VanillaFactory.createItem("powered_circuit").register();
 VanillaFactory.createItem("psio_powered_circuit").register();
 
+VanillaFactory.createItem("operation_circuit_board").register();
+VanillaFactory.createItem("circuit_stack").register();
+
 
 VanillaFactory.createItem("compressedredstone").register();
 VanillaFactory.createItem("compresseddiamond").register();
