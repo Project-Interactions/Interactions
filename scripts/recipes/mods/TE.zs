@@ -6,6 +6,7 @@ import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Factorizer;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.InductionSmelter;
+import mods.thermalexpansion.Transposer;
 
 recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <minecraft:bucket>, <ore:ingotCopper>], [null, <ore:blockRedstone>, null]]);
 
@@ -21,24 +22,37 @@ recipes.removeShapeless(<thermalfoundation:material:101> * 4, [<ore:dustCopper>,
 recipes.removeShapeless(<thermalfoundation:material:102> * 4, [<ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000})]);
 recipes.removeShapeless(<thermalfoundation:material:103> * 4, [<ore:dustLead>, <ore:dustLead>, <ore:dustLead>, <ore:dustPlatinum>, <forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000})]);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:101>, <jaopca:dust.shibuichi>, <liquid:redstone> * 250,1000 );
-mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:102>, <jaopca:dust.tin_silver>, <liquid:glowstone> * 250,1000 );
-mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:103>, <jaopca:dust.lead_platinum>, <liquid:ender> * 250,1000 );
+Transposer.addFillRecipe(<thermalfoundation:material:101>, <jaopca:dust.shibuichi>, <liquid:redstone> * 250,1000 );
+Transposer.addFillRecipe(<thermalfoundation:material:102>, <jaopca:dust.tin_silver>, <liquid:glowstone> * 250,1000 );
+Transposer.addFillRecipe(<thermalfoundation:material:103>, <jaopca:dust.lead_platinum>, <liquid:ender> * 250,1000 );
 
 recipes.removeShapeless(<redstonearsenal:material> * 2, [<ore:dustGold>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 recipes.removeShapeless(<redstonearsenal:material> * 2, [<ore:dustElectrum>, <ore:dustElectrum>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 
 
+val remove as IItemStack[] = 
+[
+<thermalfoundation:ore:6>,
+<thermalfoundation:material:71>,
+<thermalfoundation:material:70>,
+<thermalfoundation:ore:7>,
+<thermalfoundation:material:103>,
+<thermalfoundation:material:102>,
+<thermalfoundation:material:101>
+];
 
-Crucible.removeRecipe(<minecraft:magma>);
+for Remove in remove {
+    Crucible.removeRecipe(Remove);
+}
+
 recipes.removeShaped(<thermalexpansion:frame:64>, [[<ore:ingotTin>, <ore:blockGlass>, <ore:ingotTin>], [<ore:blockGlass>, <ore:gearCopper>, <ore:blockGlass>], [<ore:ingotTin>, <ore:blockGlass>, <ore:ingotTin>]]);
 
-mods.thermalexpansion.Transposer.removeFillRecipe(<techreborn:ingot:16>,<liquid:cryotheum>*200);
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>,<liquid:redstone>*500);
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:emerald>,<liquid:cryotheum>*500);
+Transposer.removeFillRecipe(<techreborn:ingot:16>,<liquid:cryotheum>*200);
+Transposer.removeFillRecipe(<minecraft:diamond>,<liquid:redstone>*500);
+Transposer.removeFillRecipe(<minecraft:emerald>,<liquid:cryotheum>*500);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<jaopca:dust.crystal_flux>,<nuclearcraft:gem_dust> , <liquid:redstone>*500,1000 );
-mods.thermalexpansion.Transposer.addFillRecipe(<jaopca:dust.gelid_crystal>,<techreborn:dust:18> ,<liquid:cryotheum>*500,1000 );
+Transposer.addFillRecipe(<jaopca:dust.crystal_flux>,<nuclearcraft:gem_dust> , <liquid:redstone>*500,1000 );
+Transposer.addFillRecipe(<jaopca:dust.gelid_crystal>,<techreborn:dust:18> ,<liquid:cryotheum>*500,1000 );
 
 
 recipes.remove(<thermalexpansion:frame>);
@@ -54,10 +68,10 @@ recipes.removeShaped(<thermalfoundation:material:515>, [[<ore:dustRedstone>, nul
 
 recipes.removeShapeless(<redstonearsenal:material:160> * 2, [<ore:gemDiamond>, <ore:gemDiamond>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:material_part:82>,<extendedcrafting:material:48> , <liquid:uu>*144,12000 );
+Transposer.addFillRecipe(<contenttweaker:material_part:82>,<extendedcrafting:material:48> , <liquid:uu>*144,12000 );
 
 
-mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:1028>,<taiga:adamant_dust> , <liquid:will_alloy>*1000,4800);
+Transposer.addFillRecipe(<thermalfoundation:material:1028>,<taiga:adamant_dust> , <liquid:will_alloy>*1000,4800);
 
 Factorizer.removeRecipeCombine(<thermalfoundation:storage:8>);
 Factorizer.removeRecipeSplit(<thermalfoundation:storage:8>);
@@ -68,13 +82,13 @@ Factorizer.removeRecipeSplit(<thermalfoundation:material:136>*9);
 
 mods.thermalexpansion.Infuser.removeRecipe(<wirelessutils:fluxed_pearl>);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_aer>, <liquid:aerotheum> * 100,1200 );
-mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_ignis>, <liquid:aerotheum> * 100,1200 );
-mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_aqua>, <liquid:aerotheum> * 100,1200 );
-mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_terra>, <liquid:aerotheum> * 100,1200 );
-mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_ordo>, <liquid:aerotheum> * 100,1200 );
-mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_perditio>, <liquid:aerotheum> * 100,1200 );
-mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_vitium>, <liquid:aerotheum> * 100,1200 );
+Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_aer>, <liquid:aerotheum> * 100,1200 );
+Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_ignis>, <liquid:aerotheum> * 100,1200 );
+Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_aqua>, <liquid:aerotheum> * 100,1200 );
+Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_terra>, <liquid:aerotheum> * 100,1200 );
+Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_ordo>, <liquid:aerotheum> * 100,1200 );
+Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_perditio>, <liquid:aerotheum> * 100,1200 );
+Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_vitium>, <liquid:aerotheum> * 100,1200 );
 
 recipes.addShaped(<thermalexpansion:device>, [[null, <minecraft:bucket:*>, null], [<ore:blockGlass>, <teslacorelib:machine_case>, <ore:blockGlass>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
 recipes.addShaped(<thermalexpansion:device:1>, [[null, <minecraft:lava_bucket>, null], [<minecraft:brick_block:*>, <teslacorelib:machine_case>, <minecraft:brick_block:*>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);

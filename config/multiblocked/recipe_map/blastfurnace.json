@@ -507,9 +507,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:material_part\",Count:1,Damage:152s}"
+                "{id:\"contenttweaker:material_part\",Count:2,Damage:152s}"
               ]
             }
           }

@@ -84,4 +84,7 @@ recipes.addShapeless(<industrialforegoing:black_hole_controller_reworked>,[<indu
 FluidSievingMachine.remove(<industrialforegoing:pink_slime_ingot>);
 FluidSievingMachine.add(<liquid:if.pink_slime>*1000, <industrialforegoing:pink_slime_ingot>, <integrateddynamics:crystalized_chorus_chunk>);
 
+//tf automation recipe
+FluidSievingMachine.add(<liquid:blood>*1000, <twilightforest:fiery_blood>, <botania:vial>);
+
 //FluidDictionary

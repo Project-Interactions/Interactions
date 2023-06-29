@@ -63,6 +63,9 @@ Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY", <thaumcraft:ingot:2>,
 Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
 
 
+Crucible.removeRecipe(<thaumadditions:vis_seeds/twilight>);
+Crucible.removeRecipe(<thaumadditions:vis_seeds/creative>);
+
 var aspectMap as CTAspectStack[][IIngredient] = {
     <contenttweaker:material_part:152> : [<aspect:metallum> * 10, <aspect:twilight> * 20],
     <twilightforest:maze_stone> : [<aspect:vinculum> * 1, <aspect:twilight> * 2,<aspect:terra> * 5],
@@ -118,7 +121,8 @@ val ichorremove as IItemStack[] =
 <ichoriumkit:kami_chest>,
 <ichoriumkit:kami_legs>,
 <ichoriumkit:kami_boots>,
-<mia:void_creator>
+<mia:void_creator>,
+<thaumicbases:herobrinesscythe>
 ];
 for Remove in ichorremove {
     Infusion.removeRecipe(Remove);
@@ -179,6 +183,17 @@ Infusion.registerRecipe(
     <ichoriumkit:ichor_boots>, //core item
     [<ichoriumkit:resourcekami:3>,<ichoriumkit:resourcekami:3>,<mysticalagriculture:supremium_boots>]//items
 );
+
+Infusion.registerRecipe(
+    "herobrinesscythe", //id
+    "TB.TOOLS", //research CAPITAL
+    <thaumicbases:herobrinesscythe>, //output
+    20, //instability
+    [<aspect:potentia>*115,<aspect:aversio>*40,<aspect:alienis>*25,<aspect:mortuus>*25], //aspect
+    <thaumadditions:mithminite_scythe>, //core item
+    [<thaumcraft:metal_void>,<ichoriumkit:resourcekami:2>,<thaumcraft:metal_void>,<ichoriumkit:resourcekami:2>]//items
+);
+
 
 ArcaneWorkbench.removeRecipe(<ichoriumkit:resourcekami:3>);
 ArcaneWorkbench.registerShapedRecipe("harder_kami","ICHOR",300, [<aspect:aer>,<aspect:aqua>,<aspect:ordo>,<aspect:terra>,<aspect:ignis>,<aspect:perditio>],<ichoriumkit:resourcekami:3>*3,[[<thaumadditions:mithminite_ingot>,<thaumadditions:mithminite_ingot>,<thaumadditions:mithminite_ingot>],[<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>],[<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>]]);

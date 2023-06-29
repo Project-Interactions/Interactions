@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import mods.integrateddynamics.DryingBasin;
 import mods.integrateddynamics.MechanicalDryingBasin;
 import mods.integrateddynamics.Squeezer;
+import mods.integrateddynamics.MechanicalSqueezer;
 
 
 recipes.remove(<integrateddynamics:cable> * 3);
@@ -24,7 +25,6 @@ recipes.addShaped(<integrateddynamics:variable>*8, [[<integrateddynamics:crystal
 
 Squeezer.removeRecipesWithOutput(<contenttweaker:material_part:108>);
 
-
-
+MechanicalDryingBasin.addRecipe(<twilightforest:borer_essence>, <liquid:essence> * 2000, <twilightforest:borer_essence>*2, null, 30);
 
 

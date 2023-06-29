@@ -69,3 +69,11 @@ Lightwell.removeLiquefaction(<astralsorcery:itemcraftingcomponent>, null);
 Lightwell.addLiquefaction(<contenttweaker:aquamarine_menril_mixture>, <liquid:astralsorcery.liquidstarlight>*1000, 1, 0.8, 0);
 
 StarlightInfusion.removeInfusion(<draconicevolution:draconium_ingot>*3);
+
+
+Grindstone.addRecipe(<twilightforest:knightmetal_ingot>, <twilightforest:armor_shard_cluster>);
+Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "iron"}), <twilightforest:armor_shard>);
+Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "copper"}), <twilightforest:armor_shard>);
+Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "silver"}), <twilightforest:armor_shard>);
+Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "lead"}), <twilightforest:armor_shard>);
+

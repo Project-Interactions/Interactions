@@ -4,7 +4,8 @@ import ResearchTable.Builder;
 
 recipes.addShaped(<researchtable:table>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<ore:stickIron>, <immersiveengineering:wooden_device0:2>, <ore:plateSteel>], [<ore:stickIron>, <ore:stickIron>, null]]);
 
-var tic = ResearchTable.addCategory(<tconstruct:toolforge>.withTag({textureBlock: {id: "tconevo:metal_block", Count: 1, Damage: 4 as short}}), "Tinker's Plus"); //category icon and title (optional)
+var tic = ResearchTable.addCategory(<tconstruct:toolforge>.withTag({textureBlock: {id: "tconevo:metal_block", Count: 1, Damage: 4 as short}}), game.localize("ia.rt.tic_plus"));
+var tc = ResearchTable.addCategory(<thaumadditions:mithminite_ingot>, game.localize("ia.rt.tc_plus")); 
 
 ResearchTable.builder("laser_gun", tic)
   .setIcons(<plustic:laser_gun>)
@@ -19,4 +20,11 @@ ResearchTable.builder("dart_shooter", tic)
   .setTitle(game.localize("ia.rt.dart_shooter"))
   .addCondition(<tinkersaether:valkyrie_ingot>*8,<lost_aether:platinum_key>)
   .setRewardStages("dart_shooter")
+  .build();
+
+ResearchTable.builder("vis_seeds", tc)
+  .setIcons(<thaumadditions:vis_seeds/creative>)
+  .setTitle(game.localize("ia.rt.vis_seeds"))
+  .addCondition(<thaumadditions:adaminite_fabric>*2,<thaumadditions:mithrillium_resonator>)
+  .setRewardStages("vis_seeds")
   .build();
