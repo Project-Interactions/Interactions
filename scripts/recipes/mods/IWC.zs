@@ -50,3 +50,9 @@ explosioncrafting.addRecipe(<ore:dustPeridot>,<techreborn:gem:2>,40);
 
 explosioncrafting.addRecipe(<minecraft:gravel>,<minecraft:sand>,20);
 explosioncrafting.addRecipe(<minecraft:cobblestone>,<minecraft:gravel>,20);
+
+explosioncrafting.addRecipe(<extrautils2:compressedgravel>,<extrautils2:compressedsand>,20);
+explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<extrautils2:compressedgravel>,20);
+
+explosioncrafting.addRecipe(<extrautils2:compressedgravel:1>,<extrautils2:compressedsand:1>,20);
+explosioncrafting.addRecipe(<extrautils2:compressedcobblestone:1>,<extrautils2:compressedgravel:1>,20);

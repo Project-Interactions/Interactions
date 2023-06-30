@@ -28,7 +28,7 @@ val tcseeds as IItemStack[] =
 <thaumadditions:vis_seeds/praecantatio>,
 <thaumadditions:vis_seeds/potentia>,
 <thaumadditions:vis_seeds/fabrico>,
-<thaumadditions:vis_seeds/mortuus>
+<thaumadditions:vis_seeds/mortuus>,
 <thaumadditions:vis_seeds/herba>,
 <thaumadditions:vis_seeds/gelum>,
 <thaumadditions:vis_seeds/tenebrae>,

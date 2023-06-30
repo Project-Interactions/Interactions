@@ -1,3 +1,5 @@
+#priority 200
+
 import mods.mekatweaker.GasFactory;
 import mods.mekatweaker.Gas;
 

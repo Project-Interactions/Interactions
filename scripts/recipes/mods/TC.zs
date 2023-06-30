@@ -62,6 +62,12 @@ Crucible.removeRecipe(<thaumcraft:ingot>);
 Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum>*5]);
 Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
 
+Crucible.removeRecipe(<minecraft:ender_pearl>*2);
+Crucible.removeRecipe(<minecraft:chorus_fruit>);
+Crucible.registerRecipe("ender_pearl_dupe"   , "TWOND_END_HEDGE", <minecraft:ender_pearl>*2, <minecraft:ender_pearl>, [<aspect:alienis>*10,<aspect:motus>*15]);
+Crucible.registerRecipe("chorus_fruit"   , "TWOND_END_HEDGE", <minecraft:chorus_fruit>, <minecraft:apple>, [<aspect:alienis>*5,<aspect:sensus>*5,<aspect:herba>*5]);
+
+
 
 Crucible.removeRecipe(<thaumadditions:vis_seeds/twilight>);
 Crucible.removeRecipe(<thaumadditions:vis_seeds/creative>);

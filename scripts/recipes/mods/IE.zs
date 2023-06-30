@@ -174,8 +174,9 @@ Crusher.removeRecipesForInput(<embers:ore_nickel>);
 
 Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 2048);
 Crusher.addRecipe(<thermalfoundation:material:69>*2, <ore:oreNickel>,2048);
-
 Crusher.addRecipe(<thermalfoundation:material:768>*9, <minecraft:coal_block>, 1000);
+
+Crusher.addRecipe(<minecraft:magma_cream>*3, <minecraft:magma>, 2048);
 
 ArcFurnace.addRecipe(<techreborn:ingot:19>*2, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 1024,[<ore:ingotIron>], "Alloying");
 

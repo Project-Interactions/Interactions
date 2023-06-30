@@ -1,4 +1,5 @@
-#loader mekatweaker
+#priority 201
+
 import crafttweaker.oredict.IOreDictEntry;
 import mods.mekatweaker.InfuserType;
 
