@@ -42,11 +42,11 @@ val tcseeds as IItemStack[] =
 <thaumadditions:vis_seeds/sonus>,
 <thaumadditions:vis_seeds/lux>,
 <thaumadditions:vis_seeds/ignis>,
-<thaumadditions:vis_seeds/vacuos>
+<thaumadditions:vis_seeds/vacuos>,
 <thaumadditions:vis_seeds/auram>,
 <thaumadditions:vis_seeds/machina>,
-<thaumadditions:vis_seeds/imperium>,,
-<thaumadditions:vis_seeds/metallum>
+<thaumadditions:vis_seeds/imperium>,
+<thaumadditions:vis_seeds/metallum>,
 <thaumadditions:vis_seeds/caeles>,
 <thaumadditions:vis_seeds/vinculum>,
 <thaumadditions:vis_seeds/spiritus>,

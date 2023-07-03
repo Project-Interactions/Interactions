@@ -14,3 +14,7 @@ val remove as IItemStack[] =
 for Remove in remove {
     ItemStages.addItemStage("ban", Remove);
 }
+/*
+ItemStages.stageEnchantByLevel("ban", <enchantment:minecraft:sharpness>.makeEnchantment(5));
+ItemStages.stageEnchantByLevel("ban", <enchantment:minecraft:efficiency>.makeEnchantment(5));
+*/

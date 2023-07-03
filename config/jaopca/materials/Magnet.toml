@@ -18,7 +18,7 @@
 
 [mysticalagriculture]
 	#The crop tier of this material.
-	tier = 4
+	tier = 3
 	#The amount of Mystical Agriculture essence required to craft materials.
 	inputCount = 8
 	#The amount of material obtained by crafting Mystical Agriculture essence.

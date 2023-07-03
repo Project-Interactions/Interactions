@@ -23,6 +23,8 @@
 	inputCount = 8
 	#The amount of material obtained by crafting Mystical Agriculture essence.
 	outputCount = 4
+	#The special item required to craft Mystical Agriculture cruxes.
+	cruxSpecial = "#ingotInfinity"
 
 [thermalexpansion_mysticalagriculture]
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Phyto-Gro.

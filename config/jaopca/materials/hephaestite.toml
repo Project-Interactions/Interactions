@@ -1,5 +1,5 @@
 
-#Configurations for material CrimsonMiddleGem.
+#Configurations for material Hephaestite.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
@@ -14,11 +14,11 @@
 	#The model type of the material.
 	modelType = "crystal"
 	#The color of this material.
-	color = 10379883
+	color = 9776640
 
 [mysticalagriculture]
 	#The crop tier of this material.
-	tier = 3
+	tier = 5
 	#The amount of Mystical Agriculture essence required to craft materials.
 	inputCount = 8
 	#The amount of material obtained by crafting Mystical Agriculture essence.
