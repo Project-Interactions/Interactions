@@ -5,7 +5,7 @@ fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:0
+guiScale:4
 particles:2
 bobView:true
 anaglyph3d:false
@@ -253,10 +253,6 @@ key_key.little.config.item:0
 key_key.little.config:0:CONTROL
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
-key_key.music_player_gui:0
-key_key.music_player_toggle:0
-key_key.music_player_next:0
-key_key.music_player_previous:0
 key_keybind.simplyjetpacks.gui:0
 key_keybind.simplyjetpacks.engine:0
 key_keybind.simplyjetpacks.charger:0
@@ -272,6 +268,7 @@ key_key.plustic_mots.desc:0
 key_key.musictriggers.gui:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
+key_key.neenergistics.crafting.helper.noPreview:56
 key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
@@ -301,28 +298,6 @@ key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
 key_gui.xaero_minimap_settings:21
-key_Fast Mapping:0
-key_Persist WM Dim Switch:0
-key_Transparent Obsidian Roof:0
-key_Skip Background Render:0
-key_NewChunks Highlighting:0
-key_Save/Load NewChunks to Disk:0
-key_PortalSkip Detection:0
-key_WDL Highlight:0
-key_Prefer Overworld Waypoints:0
-key_Show Waypoint Distances:0
-key_null OW Dim Dir:0
-key_Nether Cave Fix:0
-key_MC Light Limiter:0
-key_Show Render Distance:0
-key_Show Render Distance WorldMap:0
-key_Always Render Player Name:0
-key_Always Render Player Icon:0
-key_Fix Main Entity Dot:0
-key_Transparent Background:0
-key_Switch to Nether:0
-key_Switch to Overworld:0
-key_Switch to End:0
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:45
 key_gui.xaero_map_zoom_in:13

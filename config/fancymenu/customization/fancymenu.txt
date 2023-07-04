@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = config/txloader/load/fancymenu/images/menu.png
+  path = resources/fancymenu/images/menu.png
   action = texturizebackground
 }
 
@@ -38,19 +38,19 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/txloader/load\fancymenu\images\multiplayer.png
-  backgroundnormal = config/txloader/load\fancymenu\images\singleplayera.png
+  backgroundhovered = resources/fancymenu/images/multiplayer.png
+  backgroundnormal = resources/fancymenu/images/singleplayera.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  path = config/txloader/load\fancymenu\sounds\join.wav
+  path = resources/fancymenu/sounds/join.wav
   action = addhoversound
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  path = config/txloader/load/fancymenu/sounds/choose.wav
+  path = resources/fancymenu/sounds/choose.wav
   action = setbuttonclicksound
 }
 
@@ -86,13 +86,13 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/txloader/load\fancymenu\images\settings.png
-  backgroundnormal = config/txloader/load\fancymenu\images\settingsandmods.png
+  backgroundhovered = resources/fancymenu/images/settings.png
+  backgroundnormal = resources/fancymenu/images/settingsandmods.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  path = config/txloader/load\fancymenu\sounds\keyboarda.wav
+  path = resources/fancymenu/sounds/keyboarda.wav
   action = addhoversound
 }
 
@@ -104,7 +104,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  path = config/txloader/load/fancymenu/sounds/keyboardc.wav
+  path = resources/fancymenu/sounds/keyboardc.wav
   action = setbuttonclicksound
 }
 
@@ -140,13 +140,13 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/txloader/load\fancymenu\images\quitb.png
-  backgroundnormal = config/txloader/load\fancymenu\images\quita.png
+  backgroundhovered = resources/fancymenu/images/quitb.png
+  backgroundnormal = resources/fancymenu/images/quita.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  path = config/txloader/load\fancymenu\sounds\keyboardb.wav
+  path = resources/fancymenu/sounds/keyboardb.wav
   action = addhoversound
 }
 
@@ -158,7 +158,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  path = config/txloader/load/fancymenu/sounds/keyboardc.wav
+  path = resources/fancymenu/sounds/keyboardc.wav
   action = setbuttonclicksound
 }
 
@@ -188,19 +188,19 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/txloader/load\fancymenu\images\languageb.png
-  backgroundnormal = config/txloader/load\fancymenu\images\languagea.png
+  backgroundhovered = resources/fancymenu/images/languageb.png
+  backgroundnormal = resources/fancymenu/images/languagea.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  path = config/txloader/load\fancymenu\sounds\papera.wav
+  path = resources/fancymenu/sounds/papera.wav
   action = addhoversound
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  path = config/txloader/load/fancymenu/sounds/paperb.wav
+  path = resources/fancymenu/sounds/paperb.wav
   action = setbuttonclicksound
 }
 
@@ -230,13 +230,13 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/txloader/load\fancymenu\images\singleplayerb.png
-  backgroundnormal = config/txloader/load\fancymenu\images\singleplayera.png
+  backgroundhovered = resources/fancymenu/images/singleplayerb.png
+  backgroundnormal = resources/fancymenu/images/singleplayera.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  path = config/txloader/load\fancymenu\sounds\join.wav
+  path = resources/fancymenu/sounds/join.wav
   action = addhoversound
 }
 
@@ -248,7 +248,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  path = config/txloader/load/fancymenu/sounds/choose.wav
+  path = resources/fancymenu/sounds/choose.wav
   action = setbuttonclicksound
 }
 
@@ -278,19 +278,19 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/txloader/load\fancymenu\images\mods.png
-  backgroundnormal = config/txloader/load\fancymenu\images\settingsandmods.png
+  backgroundhovered = resources/fancymenu/images/mods.png
+  backgroundnormal = resources/fancymenu/images/settingsandmods.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  path = config/txloader/load\fancymenu\sounds\keyboarda.wav
+  path = resources/fancymenu/sounds/keyboarda.wav
   action = addhoversound
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  path = config/txloader/load/fancymenu/sounds/keyboardc.wav
+  path = resources/fancymenu/sounds/keyboardc.wav
   action = setbuttonclicksound
 }
 
@@ -374,7 +374,7 @@ customization {
 }
 
 customization {
-  path = config/txloader/load/fancymenu/images/logo.png
+  path = resources/fancymenu/images/logo.png
   orientation = top-left
   x = 7
   width = 259
@@ -412,7 +412,7 @@ customization {
   orientation = top-left
   basecolor = #d3a300
   shadow = true
-  splashfilepath = config/txloader/load\fancymenu\splash.txt
+  splashfilepath = resources/fancymenu/splash.txt
   rotation = -15.0
   x = 231
   actionid = ade5f768-ced1-487a-9d8d-c2d9d58831991628555509847
@@ -472,67 +472,67 @@ customization {
 }
 
 customization {
-  hoversound = config/txloader/load/fancymenu/sounds/keyboardd.wav
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
   orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/txloader/load\fancymenu\images\links\afdian.png
+  backgroundhovered = resources/fancymenu/images/links/afdian.png
   description = 支持我们?
   label = 
-  clicksound = config/txloader/load/fancymenu/sounds/keyboarde.wav
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
   x = 147
   width = 36
   actionid = 307abdf2-8d41-4967-aa91-252a87ff87d91631435630544
   action = addbutton
   y = 28
-  backgroundnormal = config/txloader/load\fancymenu\images\links\afdian.png
+  backgroundnormal = resources/fancymenu/images/links/afdian.png
   value = https://afdian.net/@mczph
   height = 36
 }
 
 customization {
-  hoversound = config/txloader/load/fancymenu/sounds/keyboardd.wav
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
   orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/txloader/load\fancymenu\images\links\mcbbs.png
+  backgroundhovered = resources/fancymenu/images/links/mcbbs.png
   description = 查看整合包MCBBS帖子?
   label = 
-  clicksound = config/txloader/load/fancymenu/sounds/keyboarde.wav
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
   x = 17
   width = 87
   actionid = da9d6b9a-7726-4b6e-beaa-2c5c490ab84d1631435630544
   action = addbutton
   y = 28
-  backgroundnormal = config/txloader/load\fancymenu\images\links\mcbbs.png
+  backgroundnormal = resources/fancymenu/images/links/mcbbs.png
   value = https://www.mcbbs.net/thread-1172950-1-1.html
   height = 35
 }
 
 customization {
-  hoversound = config/txloader/load/fancymenu/sounds/keyboardd.wav
+  hoversound = resources/fancymenu/sounds/keyboardd.wav
   orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/txloader/load\fancymenu\images\links\github.png
+  backgroundhovered = resources/fancymenu/images/links/github.png
   description = 翻阅源码?
   label = 
-  clicksound = config/txloader/load/fancymenu/sounds/keyboarde.wav
+  clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
   x = 243
   width = 30
   actionid = b42d218d-fa96-46b3-b2aa-cf20fc345be41631435630545
   action = addbutton
   y = 30
-  backgroundnormal = config/txloader/load\fancymenu\images\links\github.png
+  backgroundnormal = resources/fancymenu/images/links/github.png
   value = https://github.com/Project-Interactions/Interactions
   height = 30
 }
 
 customization {
-  path = config/txloader/load/fancymenu/images/info.png
+  path = resources/fancymenu/images/info.png
   orientation = mid-left
   x = 7
   width = 281

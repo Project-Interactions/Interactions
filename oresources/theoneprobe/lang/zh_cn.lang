@@ -1,0 +1,68 @@
+top.notification=§6使用/topcfg以配置TOP样式
+
+# Suffix
+top.fluid=mB
+top.energy=FE
+
+# Block Providers
+top.block.tool=工具：%s
+top.block.no_tool=无需工具
+top.block.level=(挖掘等级 %s)
+top.block.harvestable=可挖掘
+top.block.not_harvestable=不可挖掘
+
+top.block.power=能量：%s
+
+top.debug.block.registry_name=注册名：%s
+top.debug.block.translation_key=本地化键名：%s
+top.debug.block.meta=元数据：%s
+top.debug.block.class=类名：%s
+top.debug.block.hardness=硬度：%s
+top.debug.block.weak_power=弱充能：%s
+top.debug.block.strong_power=强充能：%s
+top.debug.block.light_level=亮度：%s
+top.debug.block.tile_entity=方块实体：%s
+
+top.block.lever.state=状态：%s
+top.block.lever.mode=模式：%s
+top.block.lever.delay=延迟：%s
+top.block.lever.locked=锁定
+
+top.block.fully_grown=完全成熟
+top.block.growth=生长状态：%s
+
+top.block.brewer.fuel=燃料：%s
+top.block.brewer.time=剩余时间：%s Ticks
+
+top.block.spawner.mob=生物：%s
+
+top.block.liquid=液体：%s
+
+# Entity Providers
+top.entity.health=生命值：%s
+
+top.debug.entity.armor=总护甲值：%s
+top.debug.entity.age=年龄：%s
+top.debug.entity.absorption=吸收：%s
+top.debug.entity.move_speed=移动速度：%s
+top.debug.entity.revenge_timer=复仇计时：%s
+top.debug.entity.growing_age=生长年龄:%s
+
+top.entity.owner=属于：%s
+top.entity.owner.unknown=未知所有者
+top.entity.tameable=可驯服的
+
+top.entity.growing_time=成长时间：%s
+
+top.entity.horse.jump_height=跳跃高度：%s
+top.entity.horse.speed=速度：%s
+
+top.entity.wolf.collar=项圈颜色：%s
+
+top.entity.item_frame.rotation=旋转角度：%s
+top.entity.item_frame.empty=空
+
+# Keys
+key.toggleLiquids=液体信息显示开关
+key.toggleVisible=信息显示开关
+key.categories.theoneprobe=The One Probe

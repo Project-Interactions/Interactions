@@ -8,9 +8,6 @@ We are now making FTBQ translation keys,but it may take a long time.
 
 Thanks lonelyxiya for part of zh_tw translation.
 
-## About resources
-
-This modpack uses [TX Loader](https://www.curseforge.com/minecraft/mc-mods/tx-loader) to load resources,you can find it [here](https://github.com/Project-Interactions/Interactions/tree/main/config/txloader).
 # Interactions
 
 An 500 mods minecraft modpack

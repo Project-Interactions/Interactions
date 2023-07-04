@@ -117,6 +117,7 @@ function maSeedTweak(name as string, tier as int,type as string,output as IItemS
 function jaopcaSeedTweak(name as string, tier as int,type as string) as void{
     val block = oreDict["block"+name];
     recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material."+toSnakeCase(name));
+    recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds."+toSnakeCase(name));
     if(tier == 1){
         ArcaneWorkbench.registerShapedRecipe("seedt1_"+name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
         oreDict["mysticalSeeds"+name].firstItem,

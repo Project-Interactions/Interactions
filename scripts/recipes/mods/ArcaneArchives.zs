@@ -7,6 +7,7 @@ import mods.arcanearchives.GCT;
 RecipeUtils.recipeTweak(true, <arcanearchives:gemcutters_table>, [[null, <industrialforegoing:laser_lens:4>, null],[<ironchest:iron_chest:4>, <arcanearchives:storage_raw_quartz>, <ironchest:iron_chest:4>], [<ore:stoneMarble>, <thaumcraft:arcane_workbench>, <ore:stoneMarble>]]);
 RecipeUtils.recipeTweak(true, <arcanearchives:radiant_resonator>, [[<ore:plateElectrum>, null, <ore:plateElectrum>],[<moreplates:certus_quartz_gear>, <ore:circuitOperation>, <moreplates:certus_quartz_gear>], [<calculator:purifiedobsidian>, <ore:circuitOperation>, <calculator:purifiedobsidian>]]);
 
+recipes.removeByRecipeName("arcanearchives:radiant_chest1");
 
 GCT.addRecipe("ae2_pattern_1",<appliedenergistics2:material:52>*16,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitOperation>]);
 GCT.addRecipe("ae2_pattern_2",<appliedenergistics2:material:52>*32,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitElite>]);

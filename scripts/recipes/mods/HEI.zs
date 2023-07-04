@@ -16,7 +16,6 @@ var removeDescriptors as IItemStack[] = [
     <appliedenergistics2:material:13>,
     <appliedenergistics2:material:15>,
     <techreborn:scrapbox>,
-    <mia:void_creator>,
     <minecraft:diamond>,
     <minecraft:gold_ingot>
 ];
