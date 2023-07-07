@@ -17,7 +17,6 @@ recipes.remove(<teslacorelib:energy_tier1>);
 recipes.remove(<teslacorelib:base_addon>);
 RecipeUtils.recipeTweak(true, <industrialforegoing:laser_base>, [[<industrialforegoing:plastic>, <moreplates:pig_iron_gear>, <industrialforegoing:plastic>],[<ore:plateNaturium>, <botanicadds:rune_energy>, <ore:plateNaturium>], [<ore:runeGreedB>, <teslacorelib:machine_case>, <ore:runeGreedB>]]);
 RecipeUtils.recipeTweak(true, <industrialforegoing:laser_drill>, [[<industrialforegoing:plastic>, <industrialforegoing:laser_lens>, <industrialforegoing:plastic>],[<industrialforegoing:plastic>, <ore:blockUranium>, <industrialforegoing:plastic>], [<ore:plateNaturium>, <teslacorelib:machine_case>, <ore:plateNaturium>]]);
-recipes.addShaped(<industrialforegoing:laser_lens>, [[null, <industrialforegoing:pink_slime>, null],[<industrialforegoing:pink_slime>, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), <industrialforegoing:pink_slime>], [null, <industrialforegoing:pink_slime>, null]]);
 furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:dust:11>, 1.0);
 recipes.addShaped(<industrialforegoing:mob_imprisonment_tool>, [[null, <industrialforegoing:plastic>, null],[<industrialforegoing:plastic>, <techreborn:plates:35>, <industrialforegoing:plastic>], [null, <industrialforegoing:plastic>, null]]);
 
@@ -36,45 +35,29 @@ RecipeUtils.recipeTweak(true, <wirelessutils:base_module>, [[<ore:gemEmerald>, <
 RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>], [<minecraft:iron_sword>, <teslacorelib:machine_case>, <minecraft:iron_sword>], [<minecraft:iron_axe>, <wirelessutils:slaughter_module>, <minecraft:iron_axe>]]);
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:plastic>, <liquid:sulfuric_acid>, [<industrialforegoing:tinydryrubber>*8], true);
 
-recipes.addShaped( <industrialforegoing:laser_lens_inverted>, [[null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null],[<tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), <industrialforegoing:pink_slime>, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"})], [null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null]]);
 
 RecipeUtils.recipeTweak(true, <industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <minecraft:iron_sword>, <industrialforegoing:plastic>], [<minecraft:book>, <teslacorelib:machine_case>, <minecraft:book>], [<ore:gearGold>, <wirelessutils:slaughter_module>, <ore:gearGold>]]);
 
+//range addon
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:11>, [[<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>], [<minecraft:emerald>, <industrialforegoing:range_addon:10>, <minecraft:emerald>], [<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:10>, [[<ore:ingotPlatinum>, <industrialforegoing:plastic>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, <industrialforegoing:range_addon:9>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, <industrialforegoing:plastic>, <ore:ingotPlatinum>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:9>, [[<minecraft:diamond>, <industrialforegoing:plastic>, <minecraft:diamond>], [<minecraft:diamond>, <industrialforegoing:range_addon:8>, <minecraft:diamond>], [<minecraft:diamond>, <industrialforegoing:plastic>, <minecraft:diamond>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:8>, [[<minecraft:quartz>, <industrialforegoing:plastic>, <minecraft:quartz>], [<minecraft:quartz>, <industrialforegoing:range_addon:7>, <minecraft:quartz>], [<minecraft:quartz>, <industrialforegoing:plastic>, <minecraft:quartz>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:7>, [[<ore:ingotGold>, <industrialforegoing:plastic>, <ore:ingotGold>], [<ore:ingotGold>, <industrialforegoing:range_addon:6>, <ore:ingotGold>], [<ore:ingotGold>, <industrialforegoing:plastic>, <ore:ingotGold>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:6>, [[<ore:ingotSilver>, <industrialforegoing:plastic>, <ore:ingotSilver>], [<ore:ingotSilver>, <industrialforegoing:range_addon:5>, <ore:ingotSilver>], [<ore:ingotSilver>, <industrialforegoing:plastic>, <ore:ingotSilver>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:5>, [[<ore:ingotBronze>, <industrialforegoing:plastic>, <ore:ingotBronze>], [<ore:ingotBronze>, <industrialforegoing:range_addon:4>, <ore:ingotBronze>], [<ore:ingotBronze>, <industrialforegoing:plastic>, <ore:ingotBronze>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:4>, [[<ore:ingotCopper>, <industrialforegoing:plastic>, <ore:ingotCopper>], [<ore:ingotCopper>, <industrialforegoing:range_addon:3>, <ore:ingotCopper>], [<ore:ingotCopper>, <industrialforegoing:plastic>, <ore:ingotCopper>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:3>, [[<ore:ingotTin>, <industrialforegoing:plastic>, <ore:ingotTin>], [<ore:ingotTin>, <industrialforegoing:range_addon:2>, <ore:ingotTin>], [<ore:ingotTin>, <industrialforegoing:plastic>, <ore:ingotTin>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:2>, [[<ore:ingotIron>, <industrialforegoing:plastic>, <ore:ingotIron>], [<ore:ingotIron>, <industrialforegoing:range_addon:1>, <ore:ingotIron>], [<ore:ingotIron>, <industrialforegoing:plastic>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:1>, [[<minecraft:dye:4>, <industrialforegoing:plastic>, <minecraft:dye:4>], [<minecraft:dye:4>, <industrialforegoing:range_addon>, <minecraft:dye:4>], [<minecraft:dye:4>, <industrialforegoing:plastic>, <minecraft:dye:4>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon>, [[<minecraft:cobblestone>, <industrialforegoing:plastic>, <minecraft:cobblestone>], [<minecraft:cobblestone>, <mysticalagriculture:soul_glass_pane>, <minecraft:cobblestone>], [<minecraft:cobblestone>, <industrialforegoing:plastic>, <minecraft:cobblestone>]]);
 
 
-
-recipes.removeByRecipeName("industrialforegoing:laser_lens_0");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_1");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_2");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_3");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_4");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_5");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_6");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_7");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_8");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_9");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_10");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_11");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_12");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_13");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_14");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_15");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_0");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_1");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_2");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_3");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_4");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_5");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_6");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_7");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_8");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_9");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_10");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_11");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_12");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_13");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_14");
-recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_15");
+//laser lens
+recipes.removeByRegex("^industrialforegoing:laser_lens_[0-9]*$");
+recipes.removeByRegex("^industrialforegoing:laser_lens_inverted_[0-9]*$");
+recipes.addShaped(<industrialforegoing:laser_lens>, [[null, <industrialforegoing:pink_slime>, null],[<industrialforegoing:pink_slime>, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), <industrialforegoing:pink_slime>], [null, <industrialforegoing:pink_slime>, null]]);
+recipes.addShaped(<industrialforegoing:laser_lens_inverted>, [[null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null],[<tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), <industrialforegoing:pink_slime>, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"})], [null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null]]);
 
 //black_hole_controller v1.0
 recipes.addShapeless(<industrialforegoing:black_hole_controller>,[<industrialforegoing:black_hole_controller_reworked>]);

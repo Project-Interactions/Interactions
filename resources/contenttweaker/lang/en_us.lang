@@ -1,0 +1,154 @@
+item.contenttweaker.crystal_useless.name=Semi-finished Crystal Plate
+item.contenttweaker.useful_ingot.name=Useful Alloy Ingot
+tile.contenttweaker.useful_block.name=Useful Alloy Block
+
+item.contenttweaker.ore_essence.name=Ore Essence
+item.contenttweaker.gem_essence.name=Gem Essence
+
+item.contenttweaker.twilight_symbol.name=Twilight Symbol
+
+item.contenttweaker.andesite_pebble.name=Andesite Pebble
+item.contenttweaker.granite_pebble.name=Granite Pebble
+item.contenttweaker.diorite_pebble.name=Diorite Pebble
+item.contenttweaker.printed_manual_circuit_board_substrate.name=Printed Handmade Circuit Board
+item.contenttweaker.manual_circuit.name=Handmade Circuit Board
+item.contenttweaker.assembled_manual_circuit.name=Assembled Handmade Circuit Board
+item.contenttweaker.mechanical_circuit.name=Mechanical Circuit
+item.contenttweaker.processor_mechanical_circuit.name=Processor Mechanical Circuit
+item.contenttweaker.mana_circuit.name=Mana Circuit
+item.contenttweaker.infused_mana_circuit.name=Astral Circuit
+item.contenttweaker.thaumic_circuit.name=Thaumic Circuit
+item.contenttweaker.arcane_thaumic_circuit.name=Arcane Thaumic Circuit
+item.contenttweaker.operation_circuit.name=Operation Circuit
+item.contenttweaker.applicated_operation_circuit.name=Applicated Circuit
+item.contenttweaker.pneumatic_circuit.name=Pneumatic Circuit
+item.contenttweaker.thermal_pneumatic_circuit.name=Thermal Circuit
+item.contenttweaker.powered_circuit.name=Empowered Circuit
+item.contenttweaker.psio_powered_circuit.name=Psi Empowered Circuit
+
+item.contenttweaker.compressedredstone.name=Compressed Empowered Redstone Crystal
+item.contenttweaker.compresseddiamond.name=Compressed Empowered Diamond Crystal
+item.contenttweaker.compressedobsidian.name=Compressed Refined Obsidian
+
+item.contenttweaker.ultimate_ingot_left_up.name=Ultimate Ingot(Left Up)
+item.contenttweaker.ultimate_ingot_left_down.name=Ultimate Ingot(Left Down)
+item.contenttweaker.ultimate_ingot_right_up.name=Ultimate Ingot(Right Up)
+item.contenttweaker.ultimate_ingot_right_down.name=Ultimate Ingot(Right Down)
+
+item.contenttweaker.inverse_entropy_alloy.name=Inverse Entropy Alloy
+item.contenttweaker.inverse_entropy_circuit.name=Inverse Entropy Controll Circuit
+
+item.contenttweaker.wood_essence.name=Wooden Essence
+
+item.contenttweaker.outside_minecraft.name=Outside Minecraft?
+item.contenttweaker.give.name=----
+
+item.contenttweaker.thaumic_suncrystal.name=Thaumic Sun Crystal
+
+item.contenttweaker.printed_copper_plate.name=Printed Copper Plate
+item.contenttweaker.etched_assembled_circuit_plate.name=Etched Assembled Circuit Plate
+item.contenttweaker.pre_rubber.name=Pre-Rubber
+item.contenttweaker.mechanical_circuit_board.name=Mechanical Circuit Board
+item.contenttweaker.processor_circuit_board.name=Processor Circuit Board
+
+fluid.blend_caminite=Liquid Caminite
+fluid.hot_blend_caminite=Hot Liquid Caminite
+fluid.witch_water=Witch Water
+fluid.ore_water=Ore Slurry
+fluid.living_water=Biomass Water
+fluid.gem_water=Gem Slurry
+fluid.advanced_etching=Advanced Etching Acid
+fluid.slime_cot=Liquid Slime
+fluid.waste_water=Sluice Juice
+fluid.semiconductor=Molten Semiconductor
+fluid.heavymetalelements=Molten Heavy Metal Element
+fluid.will_alloy=Five Will In One Liquid
+fluid.europium=Molten Europium
+fluid.uu=UU Matter
+fluid.liquid_chaos=Liquid Chaos
+fluid.superconduct=Molten Superconductor
+item.contenttweaker.twilight_crystal.name=Twilight Crystal
+fluid.aqua_regia=Aqua Regia
+fluid.rich_iodine_oil=Rich Iodine Oil
+fluid.molten_mana=Molten Mana
+fluid.rich_lithium_water=Rich Lithium Water
+fluid.dimensionalshard=Molten Dimensional Shard
+fluid.everlasting=Molten Eternal
+fluid.advancedalloy=Molten Advanced Alloy
+fluid.refinediron=Molten Refined Iron
+fluid.tic_useful_metal=Molten Useful Alloy
+fluid.duplication=Molten Duplication Alloy
+fluid.ytinifni=ytinifnI
+fluid.molten_elfglass=Molten Elfglass
+
+tile.contenttweaker.frost_proof_machine_casing.name=Freeze Machine Casing
+tile.contenttweaker.refined_ore_essence.name=Refined Ore Essence Block
+tile.contenttweaker.basic_refined_ore_essence.name=Ore Essence Block
+tile.contenttweaker.singularity_block.name=Singularity Block
+tile.contenttweaker.locked_drawer.name=Locked Drawer
+
+tile.contenttweaker.aether_log_fix.name=Etcher Aether Log
+base.material.kanthal=Kanthal
+base.material.gold=Gold
+base.material.europium=Europium
+base.material.gallium=Gallium
+base.material.tough=Tough
+base.material.heavymetalelements=Heavy Metal Element
+base.material.mithril=Mithril
+base.material.semiconductor=Semiconductor
+base.material.energium=Energium
+base.material.uumatter=UU Matter
+base.material.duplication=Duplication Alloy
+base.material.superconduct=Superconductor
+base.material.cloudium=Light Cloudium
+base.material.naturium=Naturium
+base.material.twilght_steel=Twilight Steel
+base.material.refined_iron=Refined Iron
+base.material.six_in_one_thaumic=Six In One Thaumic
+base.material.advanced_electronic_alloy=Advanced Electronic Alloy
+base.material.magnet=Magnet
+base.material.crude_gold=Precious Metal
+
+contenttweaker.part.dust_tiny=Tiny %s Dust
+contenttweaker.part.coin=%s Coin
+contenttweaker.part.dust_small=Small %s Dust
+contenttweaker.part.plate_dense=Dense %s Plate
+contenttweaker.part.sheet=%s Plate
+contenttweaker.part.casing=%s Casing
+contenttweaker.part.scaffolding=%s Frame
+contenttweaker.part.sheetmetal=%s Sheetmetal
+contenttweaker.part.machine_frame=%s Machine Frame
+contenttweaker.part.coil=%s Coil
+contenttweaker.part.wire=%s Wire
+contenttweaker.part.dustore=%s Ore Dust
+
+item.contenttweaker.crystal_colorful.name=Colorful Crystal
+item.contenttweaker.cold_ingot.name=Freeze Ingot
+
+item.contenttweaker.hot_osmium_ingot.name=Hot Osmium Ingot
+item.contenttweaker.hot_irdium_ingot.name=Hot Iridium Ingot
+item.contenttweaker.hot_niob_ingot.name=Hot Niobium Ingot
+item.contenttweaker.hot_palladium_ingot.name=Hot Palladium Ingot
+item.contenttweaker.hot_tungsten_ingot.name=Hot Tungsten Ingot
+
+item.contenttweaker.enrichedsunnarium.name=Enriched Sunnarium
+item.contenttweaker.sunnariumalloy.name=Sunnarium Alloy
+item.contenttweaker.sunnarium.name=Sunnarium
+
+item.contenttweaker.crude_salis_mundus.name=Crude Salis Mundus
+item.contenttweaker.mana_circuit_board.name=Mana Circuit Board
+item.contenttweaker.starlight_circuit_board.name=Astral Circuit Board
+item.contenttweaker.aquamarine_menril_mixture.name=Aquamarine-Menril Mixture
+
+
+ia.custom.welcome.name=§o§lWelcome to§c§o§lInteractions Modpack§r§c§l!
+ia.custom.anticheat.name=Scan the Cheat Mods,Delete it please!Otherwise, fix support will be lost!
+ia.custom.warn.name=Detects the installation of mods that have not been tested for compatibility and balance is not guaranteed.
+
+ia.display.mixer=Mixer Centrifuge
+
+ia.rt.laser_gun=Laser Gun
+ia.rt.dart_shooter=Dart Shooter
+ia.rt.tic_plus=Tinkers' Plus
+ia.rt.tc_plus=Thaumcraft Plus
+ia.rt.vis_seeds=Vis Seeds

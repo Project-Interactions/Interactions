@@ -7,6 +7,7 @@ import mods.thermalexpansion.Factorizer;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Transposer;
+import mods.thermalexpansion.Compactor;
 
 recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <minecraft:bucket>, <ore:ingotCopper>], [null, <ore:blockRedstone>, null]]);
 
@@ -125,4 +126,5 @@ RecipeUtils.recipeTweak(true, <thermalexpansion:augment:416>, [[null, <ore:gearS
 
 Factorizer.addRecipeSplit(<deepmoblearning:glitch_infused_ingot>, <extrautils2:unstableingots:1>*3);
 
+Compactor.removeStorageRecipe(<techreborn:ingot:22>);
 Pulverizer.removeRecipe(<libvulpes:ore0>);

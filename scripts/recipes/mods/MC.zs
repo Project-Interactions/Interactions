@@ -8,6 +8,7 @@ recipes.removeByRecipeName("minecraft:hopper");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");
 recipes.removeByRecipeName("uppers:upper");
+recipes.removeByRecipeName("betternether:stalagnate_planks_chest");
 
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateIron>, null, <ore:plateIron>],[<ore:plateIron>, <tconstruct:wooden_hopper>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
@@ -37,10 +38,18 @@ recipes.remove(<minecraft:diamond_boots>);
 recipes.remove(<minecraft:diamond_helmet>);
 recipes.remove(<minecraft:diamond_leggings>);
 
-recipes.remove(<minecraft:leather_leggings>);
-recipes.remove(<minecraft:leather_boots>);
-recipes.remove(<minecraft:leather_helmet>);
-recipes.remove(<minecraft:leather_chestplate>);
+recipes.addShaped(<minecraft:diamond_boots>, [[null, null, null],[<ore:plateDiamond>, null, <ore:plateDiamond>], [<ore:plateDiamond>, <minecraft:golden_boots>, <ore:plateDiamond>]]);
+recipes.addShaped(<minecraft:diamond_leggings>, [[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],[<ore:plateDiamond>, <minecraft:golden_leggings>, <ore:plateDiamond>], [<ore:plateDiamond>, null, <ore:plateDiamond>]]);
+recipes.addShaped(<minecraft:diamond_chestplate>, [[<ore:plateDiamond>, <minecraft:golden_chestplate>, <ore:plateDiamond>],[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>], [<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
+recipes.addShaped(<minecraft:diamond_helmet>, [[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],[<ore:plateDiamond>, <minecraft:golden_helmet>, <ore:plateDiamond>], [null, null, null]]);
+recipes.addShaped(<minecraft:golden_boots>, [[null, null, null],[<ore:plateGold>, null, <ore:plateGold>], [<ore:plateGold>, <minecraft:iron_boots>, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:iron_leggings>, <ore:plateGold>], [<ore:plateGold>, null, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:iron_chestplate>, <ore:plateGold>],[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_helmet>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:iron_helmet>, <ore:plateGold>], [null, null, null]]);
+recipes.addShapeless(<minecraft:iron_boots>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:boots_core>.withTag({Material: "iron"})]);
+recipes.addShapeless(<minecraft:iron_leggings>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:leggings_core>.withTag({Material: "iron"})]);
+recipes.addShapeless(<minecraft:iron_chestplate>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:chest_core>.withTag({Material: "iron"})]);
+recipes.addShapeless(<minecraft:iron_helmet>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:helmet_core>.withTag({Material: "iron"})]);
 
 recipes.removeByRecipeName("minecraft:bucket");
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);

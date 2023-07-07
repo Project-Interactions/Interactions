@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+recipes.remove(<patchouli:guide_book>.withTag({"patchouli:book": "theaurorian:the_aurorian_guide"}));
+recipes.remove(<patchouli:guide_book>.withTag({"patchouli:book": "twilightforest:guide"}));
 
 recipes.remove(<darkutils:material:1>);
 recipes.addShapeless(<darkutils:material:1>, [<darkutils:material>, <wirelessutils:stabilized_ender_pearl>]);
@@ -61,9 +63,6 @@ recipes.remove(<jaopca:block.tanzanite>);
 recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 recipes.removeByRecipeName("harvestcraft:freshwateritem_minecraft_water_bucket");
 RecipeUtils.recipeTweak(true, <harvestcraft:waterfilter>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <nuclearcraft:water_source>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
-
-recipes.addShaped(<blahaj:gray_shark>, [[null, <minecraft:wool:8>, null],[<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>], [<minecraft:wool>, <minecraft:wool>, null]]);
-recipes.addShaped(<blahaj:blue_shark>, [[null, <minecraft:wool:3>, null],[<minecraft:wool:3>, <minecraft:wool:3>, <minecraft:wool:3>], [<minecraft:wool>, <minecraft:wool>, null]]);
 
 recipes.addShaped(<contenttweaker:sub_block_holder_0:11>, [[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>],[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>], [<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>]]);
 

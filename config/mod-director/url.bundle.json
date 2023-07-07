@@ -11,8 +11,10 @@
 			"url": "https://github.com/IAmNotGEM/TimeInABottle/releases/download/1.0.1/timeinabottle-1.0.1.jar"
 		},
 		{
-			"url": "https://cdn.modrinth.com/data/ELcBwwt4/versions/iwWchf82/Blahaj-Forge-1.12.2-1.0_NoMixin.jar"
+			"url": "https://cdn.modrinth.com/data/65qOM4nb/versions/n4yD1Zje/Nether-API-v1.0.1-mc1.12.2.jar"
+		},
+		{
+			"url": "https://cdn.modrinth.com/data/vVXPbodS/versions/EE5muOAl/Fluidlogged-API-v2.2.5-mc1.12.2.jar"
 		}
-        
 	]
 }

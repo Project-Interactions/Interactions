@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:2
 guiScale:4
 particles:2
 bobView:true
@@ -12,9 +12,9 @@ anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:true
-ao:2
-renderClouds:true
+fancyGraphics:false
+ao:0
+renderClouds:fast
 resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -269,7 +269,6 @@ key_key.musictriggers.gui:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
-key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
 key_pi.key.et_world:0
@@ -337,7 +336,7 @@ key_enderio.keybind.fovminusfast:0
 key_key.craftpresence.config_keycode.name:0
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:0.5033113
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

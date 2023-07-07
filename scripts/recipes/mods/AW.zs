@@ -48,3 +48,33 @@ RecipeBuilder.get("engineer")
     [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]])
   .addOutput(<contenttweaker:processor_circuit_board>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<botania:quartz:3>,<botania:quartz:3>])
+  .setFluid(<liquid:molten_elfglass>*1000)
+  .addOutput(<contenttweaker:mana_circuit_board>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<contenttweaker:mana_circuit_board>])
+  .setFluid(<liquid:astralsorcery.liquidstarlight>*1000)
+  .addOutput(<contenttweaker:starlight_circuit_board>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<contenttweaker:mechanical_circuit_board>])
+  .setFluid(<liquid:etching_acid>*1000)
+  .addOutput(<contenttweaker:mechanical_circuit>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<contenttweaker:processor_circuit_board>])
+  .setFluid(<liquid:advanced_etching>*1000)
+  .addOutput(<contenttweaker:processor_mechanical_circuit>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<ore:plateLead>,<ore:plateLead>,<ore:plateLead>])
+  .setFluid(<liquid:etching_acid>*1000)
+  .addOutput(<contenttweaker:etched_assembled_circuit_plate>)
+  .create();

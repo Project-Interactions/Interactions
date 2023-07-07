@@ -26,26 +26,19 @@
 <ore:slimeball>.remove(<tconstruct:edible:3>);
 <ore:slimeball>.remove(<tconstruct:edible:4>);
 
-
-
 <ore:oreArdite>.remove(<tconstruct:ore>);
 
 <ore:ingotSky>.add(<naturesaura:sky_ingot>);
 
-
 <ore:ingotCold>.add(<contenttweaker:cold_ingot>);
 <ore:ingotAggregationMatrix>.add(<tconevo:material>);
-
-
 
 <ore:oreMithril>.remove(<thermalfoundation:ore:8>);
 <ore:blockMithril>.remove(<thermalfoundation:storage:8>);
 
-
-
 <ore:blockAstralStarmetal>.add(<astraladditions:block_starmetal>);
 
-<ore:ingotIridiumAlloy>.remove(<techreborn:ingot:22>);
+//<ore:ingotIridiumAlloy>.remove(<techreborn:ingot:22>);
 <ore:gemVoid>.remove(<actuallyadditions:item_crystal:3>);
 
 
@@ -66,8 +59,6 @@
 
 
 <ore:saplingRubber>.add(<techreborn:rubber_sapling>);
-
-
 
 <ore:ingotSunnarium>.add(<contenttweaker:sunnarium>);
 <ore:plateSunnarium>.add(<contenttweaker:sunnariumalloy>);
@@ -116,12 +107,6 @@
 <ore:ingotGlitch>.add(<deepmoblearning:glitch_infused_ingot>);
 <ore:blockGlitch>.add(<deepmoblearning:infused_ingot_block>);
 
-<ore:ingotReinforcedRedstone>.add(<calculator:redstoneingot>);
-<ore:blockReinforcedRedstone>.add(<calculator:material:9>);
-
-<ore:ingotReinforcedIron>.add(<calculator:reinforcedironingot>);
-<ore:blockReinforcedIron>.add(<calculator:material:3>);
-
 <ore:ingotDarkChocolate>.add(<tcomplement:edibles:11>);
 <ore:foodChocolatebar>.add(<tcomplement:edibles:10>);
 <ore:ingotChocolate>.add(<tcomplement:edibles:10>);
@@ -131,3 +116,29 @@
 
 <ore:crystalCrudeOil>.add(<immersivepetroleum:material>);
 <ore:clathrateOil>.add(<immersivepetroleum:material>);
+
+<ore:blockRefinedIron>.add(<techreborn:storage2:10>);
+//cc +
+<ore:ingotReinforcedRedstone>.add(<calculator:redstoneingot>);
+<ore:blockReinforcedRedstone>.add(<calculator:material:9>);
+
+<ore:ingotReinforcedIron>.add(<calculator:reinforcedironingot>);
+<ore:blockReinforcedIron>.add(<calculator:material:3>);
+
+<ore:blockEnrichedGold>.add(<calculator:material:2>);
+<ore:blockFoolsGold>.add(<calculator:material:2>);
+<ore:blockDiamondFake>.add(<calculator:material:4>);
+<ore:blockAmethyst>.add(<calculator:largeamethyst>);
+<ore:blockTanzanite>.add(<calculator:largetanzanite>);
+
+<ore:gemFlawlessDiamond>.add(<calculator:flawlessdiamond>);
+<ore:blockFlawlessDiamond>.add(<calculator:material:5>);
+
+<ore:gemFireDiamond>.add(<calculator:firediamond>);
+<ore:blockFireDiamond>.add(<calculator:material:6>);
+
+<ore:gemElectricDiamond>.add(<calculator:electricdiamond>);
+<ore:blockElectricDiamond>.add(<calculator:material:7>);
+
+<ore:gemEndDiamond>.add(<calculator:enddiamond>);
+<ore:blockEndDiamond>.add(<calculator:material:8>);

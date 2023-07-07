@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"方便的小工具，可以用于大批量对样板进行扩倍操作"
+	],
+	dependencies: [
+		"fe807585"
+	],
+	tasks: [{
+		uid: "5608897c",
+		type: "item",
+		items: [{
+			id: "nae2:pattern_multiplier",
+			tag: {
+				inv: {
+					Items: [],
+					Size: 27
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

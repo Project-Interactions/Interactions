@@ -1,3 +1,4 @@
+#loader mekatweaker
 #priority 201
 
 import crafttweaker.oredict.IOreDictEntry;

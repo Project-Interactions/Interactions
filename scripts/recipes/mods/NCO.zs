@@ -13,7 +13,7 @@ import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.Crystallizer;
 import mods.nuclearcraft.Electrolyzer;
 import mods.nuclearcraft.Centrifuge;
-
+import mods.nuclearcraft.Pressurizer;
 
 recipes.remove(<nuclearcraft:glowing_mushroom>);
 
@@ -167,3 +167,5 @@ Crystallizer.addRecipe(<liquid:experience>*250, <actuallyadditions:item_solidifi
 Electrolyzer.addRecipe(<liquid:moltensalt>*200, <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332, null);
 
 Centrifuge.addRecipe(<liquid:neutronium>*100, <liquid:red_matter>*100, <liquid:dark_matter>*400, null, null, null, null);
+
+Pressurizer.removeRecipeWithOutput(<techreborn:plates:38>);

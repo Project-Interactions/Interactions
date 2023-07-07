@@ -8,13 +8,10 @@ val remove as IItemStack[] =
 [
 <botania:specialflower>.withTag({type: "entropinnyum"}),
 <botania:floatingspecialflower>.withTag({type: "entropinnyum"}),
-<unstabletools:unstable_shears>
+<unstabletools:unstable_shears>,
+<botania:enchanter>
 ];
 
 for Remove in remove {
     ItemStages.addItemStage("ban", Remove);
 }
-/*
-ItemStages.stageEnchantByLevel("ban", <enchantment:minecraft:sharpness>.makeEnchantment(5));
-ItemStages.stageEnchantByLevel("ban", <enchantment:minecraft:efficiency>.makeEnchantment(5));
-*/

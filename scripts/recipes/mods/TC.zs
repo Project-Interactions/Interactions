@@ -67,6 +67,8 @@ Crucible.removeRecipe(<minecraft:chorus_fruit>);
 Crucible.registerRecipe("ender_pearl_dupe"   , "TWOND_END_HEDGE", <minecraft:ender_pearl>*2, <minecraft:ender_pearl>, [<aspect:alienis>*10,<aspect:motus>*15]);
 Crucible.registerRecipe("chorus_fruit"   , "TWOND_END_HEDGE", <minecraft:chorus_fruit>, <minecraft:apple>, [<aspect:alienis>*5,<aspect:sensus>*5,<aspect:herba>*5]);
 
+Crucible.removeRecipe(<thaumicbases:metalleatseed>);
+Crucible.registerRecipe("hard_metalleatseed"   , "TB.PLANT1", <thaumicbases:metalleatseed>, <mysticalagriculture:iron_seeds>, [<aspect:ordo>*25,<aspect:metallum>*25,<aspect:victus>*25]);
 
 
 Crucible.removeRecipe(<thaumadditions:vis_seeds/twilight>);
@@ -127,7 +129,8 @@ val ichorremove as IItemStack[] =
 <ichoriumkit:kami_chest>,
 <ichoriumkit:kami_legs>,
 <ichoriumkit:kami_boots>,
-<thaumicbases:herobrinesscythe>
+<thaumicbases:herobrinesscythe>,
+<thaumcraft:elemental_hoe>
 ];
 for Remove in ichorremove {
     Infusion.removeRecipe(Remove);
@@ -199,6 +202,14 @@ Infusion.registerRecipe(
     [<thaumcraft:metal_void>,<ichoriumkit:resourcekami:2>,<thaumcraft:metal_void>,<ichoriumkit:resourcekami:2>]//items
 );
 
-
+Infusion.registerRecipe(
+    "elemental_hoe_hard", //id
+    "ELEMENTALTOOLS", //research CAPITAL
+    <thaumcraft:elemental_hoe>, //output
+    2, //instability
+    [<aspect:herba>*60,<aspect:ordo>*30], //aspect
+    <thaumcraft:void_hoe>, //core item
+    [<thaumcraft:plank_greatwood>,<thaumcraft:nugget:10>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})]//items
+);
 ArcaneWorkbench.removeRecipe(<ichoriumkit:resourcekami:3>);
-ArcaneWorkbench.registerShapedRecipe("harder_kami","ICHOR",300, [<aspect:aer>,<aspect:aqua>,<aspect:ordo>,<aspect:terra>,<aspect:ignis>,<aspect:perditio>],<ichoriumkit:resourcekami:3>*3,[[<thaumadditions:mithminite_ingot>,<thaumadditions:mithminite_ingot>,<thaumadditions:mithminite_ingot>],[<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>],[<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>]]);
+ArcaneWorkbench.registerShapedRecipe("harder_kami","ICHOR",300, [<aspect:aer>,<aspect:aqua>,<aspect:ordo>,<aspect:terra>,<aspect:ignis>,<aspect:perditio>],<ichoriumkit:resourcekami:3>*3,[[<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>],[<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>],[<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>]]);

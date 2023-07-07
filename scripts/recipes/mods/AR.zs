@@ -5,6 +5,8 @@ import crafttweaker.item.IIngredient;
 import mods.advancedrocketry.RecipeTweaker as ARTweaker;
 import mods.nuclearcraft.Assembler;
 
+recipes.remove(<advancedrocketry:platepress>);
+
 //oredict for geode
 for i in 0 to 6 {
     <ore:crystalGeode>.add(<advancedrocketry:crystal>.definition.makeStack(i));
@@ -172,3 +174,10 @@ ARTweaker.forMachine("Crystallizer")
 .power(800)
 .timeRequired(30)
 .build();
+
+ARTweaker.forMachine("SmallPlatePresser").removeAll();
+
+ARTweaker.forMachine("RollingMachine")
+.remover()
+.addOutputs(<techreborn:plates:38>)
+.remove();

@@ -9,7 +9,7 @@ import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
 import mods.botania.ElvenTrade;
 import mods.botanicadds.GaiaPlate;
-
+import mods.astralsorcery.LightTransmutation;
 //main
 recipes.remove(<botania:manaresource:14>);
 recipes.remove(<botania:pylon:2>);
@@ -26,7 +26,7 @@ RecipeUtils.recipeTweak(true, <botania:pylon>, [[null, <ore:plateGold>, null],[<
 RecipeUtils.recipeTweak(true, <botania:pool:3>, [[null, null, null],[<botania:storage:4>, null, <botania:storage:3>], [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]]);
 
 //gaia crystal
-mods.astralsorcery.LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_1:1>, <botania:pylon:2>, 20);
+LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_1:1>, <botania:pylon:2>, 20);
 //livingrock
 PureDaisy.addRecipe(<aether_legacy:icestone>, <botania:livingrock>);
 PureDaisy.addRecipe(<naturesaura:infused_stone>, <botania:livingrock>);

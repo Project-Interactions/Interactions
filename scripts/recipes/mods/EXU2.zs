@@ -62,21 +62,6 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extrautils2:rainbowgenerator>,
 	[<extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:quarryproxy>, [
-	[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>], 
-	[<extrautils2:decorativesolid:3>, <twilightforest:aurora_block>, <deepmoblearning:infused_ingot_block>, <twilightforest:aurora_block>, <extrautils2:decorativesolid:3>], 
-	[<extrautils2:decorativesolid:3>, <deepmoblearning:infused_ingot_block>, <botanicadds:mana_lapis_block>, <deepmoblearning:infused_ingot_block>, <extrautils2:decorativesolid:3>], 
-	[<extrautils2:decorativesolid:3>, <twilightforest:aurora_block>, <deepmoblearning:infused_ingot_block>, <twilightforest:aurora_block>, <extrautils2:decorativesolid:3>], 
-	[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:snowglobe>, [
-	[<twilightforest:auroralized_glass>, <minecraft:grass>, <botania:altgrass:3>, <botania:altgrass>, <twilightforest:auroralized_glass>], 
-	[<botania:altgrass:1>, <ore:pearlFluix>, <wirelessutils:scorched_pearl>, <ore:manaPearl>, <botania:altgrass:4>], 
-	[<botania:altgrass:5>, <wirelessutils:quenched_pearl>, <thaumcraft:primordial_pearl>, <wirelessutils:fluxed_pearl>, <tconstruct:slime_grass:10>], 
-	[<botania:altgrass:2>, <projectred-expansion:infused_ender_pearl>, <wirelessutils:scorched_pearl>, <darkutils:shulker_pearl>, <tconstruct:slime_grass:5>], 
-	[<twilightforest:auroralized_glass>, <aether_legacy:aether_grass>, <aether_legacy:enchanted_aether_grass>, <tconstruct:slime_grass>, <twilightforest:auroralized_glass>]
-]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:passivegenerator:6>, [
 	[<extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>], 

@@ -7,7 +7,7 @@ top.energy=FE
 # Block Providers
 top.block.tool=工具：%s
 top.block.no_tool=无需工具
-top.block.level=(挖掘等级 %s)
+top.block.level=(挖掘等级：%s)
 top.block.harvestable=可挖掘
 top.block.not_harvestable=不可挖掘
 

@@ -31,24 +31,31 @@ recipes.addShaped(<enderio:item_liquid_conduit:2>*4, [[<ore:itemConduitBinder>, 
 recipes.addShaped(<enderio:item_fluid_conduit> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<calculator:flawlessglass>, <enderio:item_liquid_conduit:2>, <calculator:flawlessglass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 
 //capacitors
+//0
+recipes.remove(<enderio:item_capacitor_silver>);
+recipes.remove(<enderio:item_basic_capacitor>);
+recipes.addShaped(<enderio:item_capacitor_silver>, [[null, <ore:ingotSilver>, <ore:dustBedrock>], [<ore:ncircuitAdvanced>, <enderio:item_capacitor_grainy>, <ore:circuitAdvanced>], [<ore:dustBedrock>, <ore:ingotSilver>, null]]);
+recipes.addShaped(<enderio:item_basic_capacitor>, [[null, <ore:ingotGold>, <ore:dustBedrock>], [<ore:circuitAdvanced>, <ore:gearCopper>, <ore:circuitAdvanced>], [<ore:dustBedrock>, <ore:ingotGold>, null]]);
 //1
-recipes.removeShaped(<enderio:item_capacitor_energetic_silver>, [[null, <ore:ingotEnergeticSilver>, null], [<enderio:item_capacitor_silver>, <ore:dustCoal>, <enderio:item_capacitor_silver>], [null, <ore:ingotEnergeticSilver>, null]]);
+recipes.remove(<enderio:item_capacitor_energetic_silver>);
+recipes.remove(<enderio:item_basic_capacitor:1>);
 recipes.addShaped(<enderio:item_capacitor_energetic_silver>, [[null, <ore:ingotEnergeticSilver>, null], [<enderio:item_capacitor_silver>, <ore:circuitMana>, <enderio:item_capacitor_silver>], [null, <ore:ingotEnergeticSilver>, null]]);
-recipes.removeShaped(<enderio:item_basic_capacitor:1>, [[null, <ore:ingotEnergeticAlloy>, null], [<enderio:item_basic_capacitor>, <ore:dustCoal>, <enderio:item_basic_capacitor>], [null, <ore:ingotEnergeticAlloy>, null]]);
 recipes.addShaped(<enderio:item_basic_capacitor:1>, [[null, <ore:ingotEnergeticAlloy>, null], [<enderio:item_basic_capacitor>, <ore:circuitMana>, <enderio:item_basic_capacitor>], [null, <ore:ingotEnergeticAlloy>, null]]);
 //2
-recipes.removeShaped(<enderio:item_basic_capacitor:2>, [[null, <ore:ingotVibrantAlloy>, null], [<enderio:item_basic_capacitor:1>, <ore:glowstone>, <enderio:item_basic_capacitor:1>], [null, <ore:ingotVibrantAlloy>, null]]);
+recipes.remove(<enderio:item_basic_capacitor:2>);
+recipes.remove(<enderio:item_capacitor_vivid>);
 recipes.addShaped(<enderio:item_basic_capacitor:2>, [[null, <ore:ingotVibrantAlloy>, null], [<enderio:item_basic_capacitor:1>, <ore:circuitThaumic>, <enderio:item_basic_capacitor:1>], [null, <ore:ingotVibrantAlloy>, null]]);
-recipes.removeShaped( <enderio:item_capacitor_vivid>, [[null, <ore:ingotVividAlloy>, null], [<enderio:item_capacitor_energetic_silver>, <ore:glowstone>, <enderio:item_capacitor_energetic_silver>], [null, <ore:ingotVividAlloy>, null]]);
-recipes.addShaped( <enderio:item_capacitor_vivid>, [[null, <ore:ingotVividAlloy>, null], [<enderio:item_capacitor_energetic_silver>, <ore:circuitThaumic>, <enderio:item_capacitor_energetic_silver>], [null, <ore:ingotVividAlloy>, null]]);
+recipes.addShaped(<enderio:item_capacitor_vivid>, [[null, <ore:ingotVividAlloy>, null], [<enderio:item_capacitor_energetic_silver>, <ore:circuitThaumic>, <enderio:item_capacitor_energetic_silver>], [null, <ore:ingotVividAlloy>, null]]);
 //3
-recipes.removeShaped(<enderio:item_capacitor_crystalline>, [[null, <ore:ingotCrystallineAlloy>, null], [<enderio:item_capacitor_vivid>, <ore:dustPrismarine>, <enderio:item_capacitor_vivid>], [null, <ore:ingotCrystallineAlloy>, null]]);
-recipes.removeShaped(<enderio:item_capacitor_crystalline>, [[null, <ore:ingotCrystallineAlloy>, null], [<enderio:item_basic_capacitor:2> | <enderio:item_capacitor_vivid>, <ore:dustPrismarine>, <enderio:item_basic_capacitor:2> | <enderio:item_capacitor_vivid>], [null, <ore:ingotCrystallineAlloy>, null]]);
+recipes.remove(<enderio:item_capacitor_crystalline>);
 recipes.addShaped(<enderio:item_capacitor_crystalline>, [[null, <ore:ingotCrystallineAlloy>, null], [<enderio:item_capacitor_vivid>, <ore:circuitOperation>, <enderio:item_capacitor_vivid>], [null, <ore:ingotCrystallineAlloy>, null]]);
-recipes.addShaped(<enderio:item_capacitor_crystalline>, [[null, <ore:ingotCrystallineAlloy>, null], [<enderio:item_basic_capacitor:2> | <enderio:item_capacitor_vivid>, <ore:circuitOperation>, <enderio:item_basic_capacitor:2> | <enderio:item_capacitor_vivid>], [null, <ore:ingotCrystallineAlloy>, null]]);
 //4
-recipes.removeShaped(<enderio:item_capacitor_stellar>, [[null, <ore:ingotStellarAlloy>, null], [<enderio:item_capacitor_melodic>, <minecraft:shulker_shell>, <enderio:item_capacitor_melodic>], [null, <ore:ingotStellarAlloy>, null]]);
+recipes.remove(<enderio:item_capacitor_stellar>);
 recipes.addShaped(<enderio:item_capacitor_stellar>, [[null, <ore:ingotStellarAlloy>, null], [<enderio:item_capacitor_melodic>, <ore:circuitElite>, <enderio:item_capacitor_melodic>], [null, <ore:ingotStellarAlloy>, null]]);
+
+RecipeUtils.recipeTweak(true, <enderio:block_cap_bank:1>, [[<ore:plateConductiveIron>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <ore:plateConductiveIron>], [<enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <ore:blockRedstoneAlloy>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>], [<ore:plateConductiveIron>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <ore:plateConductiveIron>]]);
+RecipeUtils.recipeTweak(true, <enderio:block_cap_bank:2>, [[<ore:plateEnergeticAlloy>, <ore:plateEnergeticAlloy>, <ore:plateEnergeticAlloy>], [<enderio:block_cap_bank:1>, <enderio:item_basic_capacitor:1>, <enderio:block_cap_bank:1>], [<ore:plateEnergeticAlloy>, <ore:plateEnergeticAlloy>, <ore:plateEnergeticAlloy>]]);
+RecipeUtils.recipeTweak(true, <enderio:block_cap_bank:3>, [[<ore:plateVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:plateVibrantAlloy>], [<enderio:block_cap_bank:2>, <ore:itemVibrantCrystal>, <enderio:block_cap_bank:2>], [<ore:plateVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:plateVibrantAlloy>]]);
 
 //machine frame
 RecipeUtils.recipeTweak(true, <enderio:item_material:66>, [[<enderio:block_end_iron_bars>, <ore:plateEndSteel>, <enderio:block_end_iron_bars>], [<ore:plateEndSteel>,<enderio:item_material:1>, <ore:plateEndSteel>], [<enderio:block_end_iron_bars>, <ore:plateEndSteel>, <enderio:block_end_iron_bars>]]);

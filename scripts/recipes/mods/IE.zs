@@ -13,7 +13,6 @@ import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Mixer;
-import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Fermenter;
 import mods.immersiveengineering.Thermoelectric;
@@ -118,7 +117,6 @@ ElectrolyticCrucibleBattery.addRecipe(
 );
 
 Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*1000, [<ore:dustIron>], 2048);
-BottlingMachine.addRecipe(<contenttweaker:etched_assembled_circuit_plate>, <ore:plateLead>, <liquid:etching_acid>*1000);
 
 Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4096);
 
@@ -185,8 +183,6 @@ RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveenginee
 MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 20480, 40);
 MeltingCrucible.addRecipe(<liquid:lava>*1000, <minecraft:netherrack>, 20480, 20);
 
-BottlingMachine.addRecipe(<contenttweaker:mana_circuit_board>,<botania:quartz:3>,<liquid:molten_elfglass>*1000);
-BottlingMachine.addRecipe(<contenttweaker:starlight_circuit_board>,<contenttweaker:mana_circuit_board>,<liquid:astralsorcery.liquidstarlight>*1000);
 
 ArcFurnace.addRecipe(<contenttweaker:aquamarine_menril_mixture>, <astralsorcery:itemcraftingcomponent>, <immersiveengineering:material:7>, 60, 1024,[<integrateddynamics:crystalized_menril_chunk>], "Alloying");
 ArcFurnace.addRecipe(<libvulpes:productingot:3>, <ore:dustQuartz>, null, 60, 1024,[<ore:dustQuartz>], "Alloying");
@@ -194,6 +190,8 @@ furnace.remove(<libvulpes:productingot:3>);
 RecipeUtils.recipeTweak(true,<engineersdecor:small_tree_cutter>, [[<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>], [<ore:gearSteel>, <minecraft:iron_axe>, <minecraft:observer>], [<immersiveengineering:material:9>, <minecraft:redstone_block>, <immersiveengineering:material:9>]]);
 
 RecipeUtils.recipeTweak(true,<immersivetech:valve:2> * 2, [[<ore:plateIron>, <immersiveengineering:connector:12>, <ore:plateIron>], [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), <immersiveengineering:material:8>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})], [<ore:plateIron>, <immersiveengineering:material:27>, <ore:plateIron>]]);
+
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:4>, <ore:redstone>, null, 40, 1024,[<techreborn:ingot:19>], "Alloying");
 
 //Dilithium
 Crusher.removeRecipe(<libvulpes:productgem>);
@@ -230,9 +228,6 @@ ChemicalReactor.addRecipe(<liquid:nitric_oxide>*8,<liquid:oxygen>*4,<liquid:nitr
 //advanced_electronic_alloy
 recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 8, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
 furnace.remove(<contenttweaker:material_part:211>);
-//mech & proc circuit
-BottlingMachine.addRecipe(<contenttweaker:mechanical_circuit>, <contenttweaker:mechanical_circuit_board>, <liquid:etching_acid>*1000);
-BottlingMachine.addRecipe(<contenttweaker:processor_mechanical_circuit>, <contenttweaker:processor_circuit_board>, <liquid:advanced_etching>*1000);
 
 //air
 CoolingTower.addRecipe(<liquid:nitrogen> * 7800, <liquid:oxygen>*2100, null, <liquid:compressed_air>*10000, <liquid:distwater>*2000, 200);
