@@ -4,9 +4,17 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-recipes.addShaped(<artisanworktables:workstation:6>, [[<ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>],[<ore:logWood>, <immersiveengineering:wooden_device0:2>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.addShaped(<artisanworktables:workstation:6>, [[<ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>],[<ore:plankTreatedWood>, <immersiveengineering:wooden_device0:2>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<artisanautomation:automator_power_rf>, [[<ore:blockBronze>, <ore:blockBronze>, <ore:blockBronze>],[<ore:stickLead>, <immersiveengineering:metal_device0:2>, <ore:stickLead>], [<ore:blockSheetmetalLead>, <ore:stickLead>, <ore:blockSheetmetalLead>]]);
 recipes.addShaped(<artisanautomation:automator>, [[<mysticalagriculture:soul_glass_pane>, <mysticalagriculture:soul_glass_pane>, <mysticalagriculture:soul_glass_pane>],[<mysticalagriculture:soul_glass_pane>, <artisanworktables:workstation:6>, <mysticalagriculture:soul_glass_pane>], [<ore:blockSheetmetalLead>, <ore:blockSheetmetalLead>, <ore:blockSheetmetalLead>]]);
+recipes.addShapeless(<artisanautomation:upgrade_auto_import_export_items>, [<artisanautomation:upgrade_auto_import_items>,<artisanautomation:upgrade_auto_export_items>]);
+recipes.addShaped(<artisanautomation:upgrade_auto_import_fluids>, [[<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>],[<ore:plateadvancedAlloy>, <ore:circuitGood>, <ore:plateadvancedAlloy>], [<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_tool_repair>, [[<ore:plateSteel>, <tconstruct:materials:19>, <ore:plateSteel>],[<tconstruct:materials:19>, <ore:circuitGood>, <tconstruct:materials:19>], [<ore:plateSteel>, <tconstruct:materials:19>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_import_items>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateadvancedAlloy>, <ore:circuitGood>, <ore:plateadvancedAlloy>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_export_items>, [[<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>],[null, <ore:circuitGood>, null], [<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_energy_capacity>, [[<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>],[<ore:plateAlubrass>, <ore:circuitGood>, <ore:plateAlubrass>], [<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_fluid_capacity>, [[<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>],[<ore:stickAlubrass>, <ore:circuitGood>, <ore:stickAlubrass>], [<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_speed>, [[<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>],[<ore:gearBronze>, <ore:circuitGood>, <ore:gearBronze>], [<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>]]);
 
 RecipeBuilder.get("engineer")
   .setShaped([

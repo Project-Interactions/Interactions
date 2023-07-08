@@ -7,6 +7,8 @@ import mods.astralsorcery.StarlightInfusion;
 import mods.astralsorcery.LightTransmutation;
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.Lightwell;
+import mods.randomtweaker.astralsorcery.AttunementAltar;
+
 //空岛适配
 recipes.remove(<astralsorcery:itemcraftingcomponent:1> * 4);
 recipes.remove(<astralsorcery:blockblackmarble> * 8);
@@ -77,3 +79,4 @@ Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "copper"}), <twiligh
 Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "silver"}), <twilightforest:armor_shard>);
 Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "lead"}), <twilightforest:armor_shard>);
 
+//AttunementAltar.addRecipe(input, output, "astralsorcery.constellation.discidia");

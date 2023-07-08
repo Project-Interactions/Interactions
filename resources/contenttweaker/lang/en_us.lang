@@ -145,7 +145,6 @@ ia.custom.welcome.name=§o§lWelcome to§c§o§lInteractions Modpack§r§c§l!
 ia.custom.anticheat.name=Scan the Cheat Mods,Delete it please!Otherwise, fix support will be lost!
 ia.custom.warn.name=Detects the installation of mods that have not been tested for compatibility and balance is not guaranteed.
 
-ia.display.mixer=Mixer Centrifuge
 
 ia.rt.laser_gun=Laser Gun
 ia.rt.dart_shooter=Dart Shooter

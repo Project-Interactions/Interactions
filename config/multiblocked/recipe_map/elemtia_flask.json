@@ -5,7 +5,7 @@
   "recipes": [
     {
       "uid": "b704a69c-8903-4ddf-9a76-0fe10b4c03a4",
-      "duration": 100,
+      "duration": 80,
       "inputs": {
         "item": [
           {
@@ -13,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:grassseeds\",Count:1,Damage:0s}"
+                "{id:\"minecraft:dirt\",Count:128,Damage:0s}"
               ]
             }
           }
@@ -28,26 +28,20 @@
       "outputs": {
         "item": [
           {
-            "chance": 0.114,
+            "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 16,
               "matches": [
-                "{id:\"botania:manaresource\",Count:1,Damage:18s}"
+                "{id:\"minecraft:dirt\",Count:128,Damage:0s}"
               ]
             }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"steam\",Amount:1000}"
           }
         ]
       }
     },
     {
       "uid": "214359d7-2556-4580-9bfd-d46f27f358c9",
-      "duration": 100,
+      "duration": 80,
       "inputs": {
         "item": [
           {
@@ -64,7 +58,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"living_water\",Amount:1000}"
+            "content": "{FluidName:\"water\",Amount:1000}"
           }
         ]
       },
@@ -79,12 +73,6 @@
               ]
             }
           }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"steam\",Amount:1000}"
-          }
         ]
       }
     },
@@ -92,25 +80,6 @@
       "uid": "d75a6d92-e407-4f8f-9861-9311ae9e0057",
       "duration": 1600,
       "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:worldseed\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"living_water\",Amount:16000}"
-          }
-        ]
-      },
-      "outputs": {
         "item": [
           {
             "chance": 1.0,
@@ -125,7 +94,20 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"steam\",Amount:16000}"
+            "content": "{FluidName:\"living_water\",Amount:4000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"minecraft:dirt\",Count:128,Damage:0s}"
+              ]
+            }
           }
         ]
       }

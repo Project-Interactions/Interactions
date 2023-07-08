@@ -171,9 +171,8 @@ ia.tooltip.7=使用门锐欧线圈在高炉烧制
 ia.tooltip.8=使用Duraluminium线圈在高炉烧制
 ia.tooltip.9=使用任意一种源质结晶都能制作
 ia.tooltip.10=将构建方块粉末放置在水旁静置一段时间
-ia.tooltip.11=请务必浏览所有的配方
+ia.tooltip.11=目前无法正常渲染，请不要使用（后续会尝试修复）
 
-ia.display.mixer=混合离心器
 
 ia.rt.laser_gun=镭射枪
 ia.rt.dart_shooter=吹箭筒

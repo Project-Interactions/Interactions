@@ -1,5 +1,12 @@
 top.notification=§6使用/topcfg以配置TOP样式
+#CE
+top.toolclass.Pickaxe=镐§e
+top.toolclass.Shovel=锹§e
+top.toolclass.Axe=斧§e
+top.toolclass.Sword=剑§e
 
+top.NoTool=无需工具§e
+top.level=挖掘等级：
 # Suffix
 top.fluid=mB
 top.energy=FE

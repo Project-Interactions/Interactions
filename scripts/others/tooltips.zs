@@ -9,12 +9,9 @@
 <contenttweaker:material_part:127>.addTooltip(game.localize("ia.tooltip.8"));
 <thermalfoundation:geode>.addTooltip(game.localize("ia.tooltip.9"));
 <buildinggadgets:constructionblock_dense>.addTooltip(game.localize("ia.tooltip.10"));
-<immersiveengineering:blueprint>.addTooltip(game.localize("ia.tooltip.11"));
+<astralsorcery:itemsextant>.addTooltip(game.localize("ia.tooltip.11"));
+
 
 //don't need localize
 <biggercraftingtables:biggercraftingtable:2>.addTooltip("https://imgse.com/i/vz2GYF");
 <biggercraftingtables:biggercraftingtable:2>.addTooltip("Welcome to the end!");
-
-//tweak
-<embers:mixer>.displayName = game.localize("ia.display.mixer");
-<thaumcraft:amber>.displayName = game.localize("ia.display.amber");

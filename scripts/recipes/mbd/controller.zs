@@ -14,8 +14,6 @@ recipes.addShaped(<interaction:orechid>, [[<botanicadds:rune_tp>, <ore:ingotFlui
 //addon by Revo
 recipes.addShaped(<interaction:wind_hole>, [[null, null, null],[null, <immersiveengineering:metal_device1:2>, null], [null, null, null]]);
 recipes.addShaped(<interaction:energy_warpper>, [[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>],[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
-recipes.addShaped(<interaction:nature_destroyer>, [[null, null, null],[null, <auraddons:block_aura_transporter>, null], [null, null, null]]);
-recipes.addShaped(<interaction:washer>, [[<ceramics:unfired_clay:5>, <minecraft:glass>, <ceramics:unfired_clay:5>],[<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <ceramics:clay_bucket>, <ceramics:unfired_clay:5>]]);
 recipes.addShaped(<interaction:mana_zoom>, [[null, <minecraft:glowstone_dust>, null],[<minecraft:glowstone_dust>, <botania:alchemycatalyst>, <minecraft:glowstone_dust>], [null, <minecraft:glowstone_dust>, null]]);
 recipes.addShapeless(<interaction:fake_philostone>, [<techreborn:storage2:3>,<thermalfoundation:material:1024>,<thermalfoundation:material:1024>]);
 recipes.addShapeless(<interaction:typewriter>, [<minecraft:writable_book>,<minecraft:enchanting_table>]);

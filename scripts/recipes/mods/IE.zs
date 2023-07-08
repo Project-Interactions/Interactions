@@ -203,14 +203,6 @@ Squeezer.addRecipe(<minecraft:blaze_rod>,<liquid:lava>*500,<minecraft:blaze_powd
 
 RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:13>, [[<botania:bifrostperm>, <ore:circuitAdvanced>, <botania:bifrostperm>], [<botania:bifrostperm>, null, <botania:bifrostperm>], [<ore:plankTreatedWood>, <ore:circuitAdvanced>, <ore:plankTreatedWood>]]);
 
-game.setLocalization("zh_cn", "tile.immersiveengineering.metal_multiblock.refinery.name", "炼油厂（化学反应厂）");
-game.setLocalization("zh_cn", "desc.immersiveengineering.info.multiblock.IE:Refinery", "炼油厂（化学反应厂）");
-game.setLocalization("zh_cn", "ie.manual.entry.refinery.name", "炼油厂（化学反应厂）");
-
-game.setLocalization("en_us", "tile.immersiveengineering.metal_multiblock.refinery.name", "Refinery(Chemical Reactor)");
-game.setLocalization("en_us", "desc.immersiveengineering.info.multiblock.IE:Refinery", "Refinery(Chemical Reactor)");
-game.setLocalization("en_us", "ie.manual.entry.refinery.name", "Refinery(Chemical Reactor)");
-
 recipes.addShaped(<qmd:atmosphere_collector>, [[<ore:circuitGood>, <embers:ember_detector>, <ore:circuitGood>],[<ore:plateMagnet>, <ore:scaffoldingSteel>, <ore:plateMagnet>], [<ore:circuitGood>, <ore:plateMagnet>, <ore:circuitGood>]]);
 //ChemicalReactor
 //aqua regia
@@ -226,7 +218,7 @@ ChemicalReactor.addRecipe(<liquid:nitric_acid>*8,<liquid:nitrogen_dioxide>*12, <
 ChemicalReactor.addRecipe(<liquid:nitrogen_dioxide>*8,<liquid:oxygen>*4, <liquid:nitric_oxide>*8, 128);
 ChemicalReactor.addRecipe(<liquid:nitric_oxide>*8,<liquid:oxygen>*4,<liquid:nitrogen>*4, 128);
 //advanced_electronic_alloy
-recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 8, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
+recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 4, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
 furnace.remove(<contenttweaker:material_part:211>);
 
 //air

@@ -122,3 +122,5 @@ recipes.remove(<enderio:block_end_iron_bars> * 16);
 recipes.addShaped(<enderio:block_end_iron_bars> * 8, [[null, null, null],[<ore:stickEndSteel>, <ore:stickEndSteel>, <ore:stickEndSteel>], [<ore:stickEndSteel>, <ore:stickEndSteel>, <ore:stickEndSteel>]]);
 recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [[null, null, null],[<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>], [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>]]);
 recipes.addShaped(<minecraft:iron_bars> * 8, [[null, null, null],[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
+
+RecipeUtils.recipeTweak(true,<minecraft:beacon>, [[<botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>], [<botania:bifrostperm>, <ore:netherStar>, <botania:bifrostperm>], [<darkutils:sneaky_obsidian>, <darkutils:sneaky_obsidian>, <darkutils:sneaky_obsidian>]]);

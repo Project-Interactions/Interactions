@@ -9,10 +9,10 @@ import mods.TweakedPetroleum.TweakedGasReservoir;
 //    TweakedReservoir.registerReservoir(String name, ILiquidStack fluid, int minSize, int maxSize, int replenishRate, int pumpSpeed, int weight, int powerTier,
 //                                        @Optional int[] dimBlacklist, @Optional int[] dimWhitelist, @Optional String[] biomeBlacklist, @Optional String[] biomeWhitelist)
 //    
- //   TweakedPowerTier.registerPowerTier(int capacity, int rft)
+//   TweakedPowerTier.registerPowerTier(int capacity, int rft)
 
 
-    var powerTier = TweakedPowerTier.registerPowerTier(160000, 1024);
+    var powerTier = TweakedPowerTier.registerPowerTier(640000, 2048);
 
 
 
@@ -32,4 +32,3 @@ import mods.TweakedPetroleum.TweakedGasReservoir;
         [], [0]);
     
 
-    
