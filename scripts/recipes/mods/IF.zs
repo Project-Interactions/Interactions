@@ -29,14 +29,11 @@ recipes.remove(<teslacorelib:machine_case>);
 RecipeUtils.recipeTweak(true, <industrialforegoing:tree_fluid_extractor>, [[<ore:plateMagnesium>, <minecraft:redstone>, <ore:plateMagnesium>], [<ore:runeWaterB>, <teslacorelib:machine_case>, <ore:runeFireB>], [<minecraft:stone>, <ore:gearIron>, <minecraft:stone>]]);
 RecipeUtils.recipeTweak(true, <industrialforegoing:latex_processing_unit>, [[<ore:plateMagnesium>, <minecraft:redstone>, <ore:plateMagnesium>], [<ore:runeEarthB>, <teslacorelib:machine_case>, <ore:runeAirB>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>]]);
 
-RecipeUtils.recipeTweak(true, <wirelessutils:slaughter_module>, [[null, <actuallyadditions:block_misc:6>, null], [<minecraft:diamond_sword>, <wirelessutils:base_module>, <minecraft:diamond_sword>], [null, <actuallyadditions:block_misc:6>, null]]);
-RecipeUtils.recipeTweak(true, <wirelessutils:base_module>, [[<ore:gemEmerald>, <ore:gemQuartz>, <ore:gemEmerald>], [<ore:gemQuartz>, <ore:circuitAdvanced>, <ore:gemQuartz>], [<ore:gemEmerald>, <ore:gemQuartz>, <ore:gemEmerald>]]);
-
-RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>], [<minecraft:iron_sword>, <teslacorelib:machine_case>, <minecraft:iron_sword>], [<minecraft:iron_axe>, <wirelessutils:slaughter_module>, <minecraft:iron_axe>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>], [<minecraft:iron_sword>, <teslacorelib:machine_case>, <minecraft:iron_sword>], [<minecraft:iron_axe>, <actuallyadditions:block_misc:6>, <minecraft:iron_axe>]]);
 mods.inworldcrafting.FluidToItem.transform(<industrialforegoing:plastic>, <liquid:sulfuric_acid>, [<industrialforegoing:tinydryrubber>*8], true);
 
 
-RecipeUtils.recipeTweak(true, <industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <minecraft:iron_sword>, <industrialforegoing:plastic>], [<minecraft:book>, <teslacorelib:machine_case>, <minecraft:book>], [<ore:gearGold>, <wirelessutils:slaughter_module>, <ore:gearGold>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <minecraft:iron_sword>, <industrialforegoing:plastic>], [<minecraft:book>, <teslacorelib:machine_case>, <minecraft:book>], [<ore:gearGold>, <actuallyadditions:block_misc:6>, <ore:gearGold>]]);
 
 //range addon
 RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:11>, [[<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>], [<minecraft:emerald>, <industrialforegoing:range_addon:10>, <minecraft:emerald>], [<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>]]);
@@ -59,9 +56,6 @@ recipes.removeByRegex("^industrialforegoing:laser_lens_inverted_[0-9]*$");
 recipes.addShaped(<industrialforegoing:laser_lens>, [[null, <industrialforegoing:pink_slime>, null],[<industrialforegoing:pink_slime>, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), <industrialforegoing:pink_slime>], [null, <industrialforegoing:pink_slime>, null]]);
 recipes.addShaped(<industrialforegoing:laser_lens_inverted>, [[null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null],[<tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), <industrialforegoing:pink_slime>, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"})], [null, <tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}), null]]);
 
-//black_hole_controller v1.0
-recipes.addShapeless(<industrialforegoing:black_hole_controller>,[<industrialforegoing:black_hole_controller_reworked>]);
-recipes.addShapeless(<industrialforegoing:black_hole_controller_reworked>,[<industrialforegoing:black_hole_controller>]);
 
 //harder
 FluidSievingMachine.remove(<industrialforegoing:pink_slime_ingot>);

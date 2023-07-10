@@ -11,6 +11,7 @@ RecipeUtils.recipeTweak(true, <wirelessutils:relative_positional_card>, [[<ore:i
 RecipeUtils.recipeTweak(true, <wirelessutils:positional_card>, [[<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>],[<ore:ingotEnderium>, <wirelessutils:ender_coil>, <ore:ingotEnderium>], [<ore:ingotEnderium>,<ore:ingotEnderium>, <ore:ingotEnderium>]]);
 RecipeUtils.recipeTweak(true, <wirelessutils:player_positional_card>, [[<ore:paper>, <ore:paper>, <ore:paper>], [<wirelessutils:ender_coil>, <ore:gemLapis>, <ore:dustRedstone>], [<ore:paper>, null, null]]);
 RecipeUtils.recipeTweak(true, <wirelessutils:base_augment>, [[null, <ore:paper>, null], [<ore:gemQuartz>, <wirelessutils:ender_coil>, <ore:gemQuartz>], [<ore:ingotIron>, <ore:gemQuartz>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <wirelessutils:base_module>, [[<ore:gemEmerald>, <ore:gemQuartz>, <ore:gemEmerald>], [<ore:gemQuartz>, <wirelessutils:ender_coil>, <ore:gemQuartz>], [<ore:gemEmerald>, <ore:gemQuartz>, <ore:gemEmerald>]]);
 
 recipes.remove(<wirelessutils:conversion_upgrade:4>);
 recipes.remove(<wirelessutils:conversion_upgrade:3>);

@@ -432,6 +432,8 @@ jaopcaSeedTweak(4,"Zircaloy");
 jaopcaSeedTweak(5,"ZirconiumMolybdenum");
 jaopcaSeedTweak(4,"Zirconium");
 
+jaopcaSeedTweak(3,"Ambrosium");
+
 
 
 //读不到配方，上硬办法吧（

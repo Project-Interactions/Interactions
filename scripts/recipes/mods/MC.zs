@@ -23,34 +23,6 @@ recipes.remove(<minecraft:end_portal_frame>);
 furnace.addRecipe(<minecraft:coal>, <ore:dustCoal>);
 
 
-recipes.remove(<minecraft:golden_chestplate>);
-recipes.remove(<minecraft:golden_boots>);
-recipes.remove(<minecraft:golden_helmet>);
-recipes.remove(<minecraft:golden_leggings>);
-
-recipes.remove(<minecraft:iron_chestplate>);
-recipes.remove(<minecraft:iron_boots>);
-recipes.remove(<minecraft:iron_helmet>);
-recipes.remove(<minecraft:iron_leggings>);
-
-recipes.remove(<minecraft:diamond_chestplate>);
-recipes.remove(<minecraft:diamond_boots>);
-recipes.remove(<minecraft:diamond_helmet>);
-recipes.remove(<minecraft:diamond_leggings>);
-
-recipes.addShaped(<minecraft:diamond_boots>, [[null, null, null],[<ore:plateDiamond>, null, <ore:plateDiamond>], [<ore:plateDiamond>, <minecraft:golden_boots>, <ore:plateDiamond>]]);
-recipes.addShaped(<minecraft:diamond_leggings>, [[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],[<ore:plateDiamond>, <minecraft:golden_leggings>, <ore:plateDiamond>], [<ore:plateDiamond>, null, <ore:plateDiamond>]]);
-recipes.addShaped(<minecraft:diamond_chestplate>, [[<ore:plateDiamond>, <minecraft:golden_chestplate>, <ore:plateDiamond>],[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>], [<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
-recipes.addShaped(<minecraft:diamond_helmet>, [[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],[<ore:plateDiamond>, <minecraft:golden_helmet>, <ore:plateDiamond>], [null, null, null]]);
-recipes.addShaped(<minecraft:golden_boots>, [[null, null, null],[<ore:plateGold>, null, <ore:plateGold>], [<ore:plateGold>, <minecraft:iron_boots>, <ore:plateGold>]]);
-recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:iron_leggings>, <ore:plateGold>], [<ore:plateGold>, null, <ore:plateGold>]]);
-recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:iron_chestplate>, <ore:plateGold>],[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
-recipes.addShaped(<minecraft:golden_helmet>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:iron_helmet>, <ore:plateGold>], [null, null, null]]);
-recipes.addShapeless(<minecraft:iron_boots>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:boots_core>.withTag({Material: "iron"})]);
-recipes.addShapeless(<minecraft:iron_leggings>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:leggings_core>.withTag({Material: "iron"})]);
-recipes.addShapeless(<minecraft:iron_chestplate>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:chest_core>.withTag({Material: "iron"})]);
-recipes.addShapeless(<minecraft:iron_helmet>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:helmet_core>.withTag({Material: "iron"})]);
-
 recipes.removeByRecipeName("minecraft:bucket");
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
@@ -124,3 +96,121 @@ recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [[null, null, null],[<ore:
 recipes.addShaped(<minecraft:iron_bars> * 8, [[null, null, null],[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
 
 RecipeUtils.recipeTweak(true,<minecraft:beacon>, [[<botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>], [<botania:bifrostperm>, <ore:netherStar>, <botania:bifrostperm>], [<darkutils:sneaky_obsidian>, <darkutils:sneaky_obsidian>, <darkutils:sneaky_obsidian>]]);
+
+//vanilla-ish tools & armor tweaks
+//minecraft
+recipes.remove(<minecraft:golden_chestplate>);
+recipes.remove(<minecraft:golden_boots>);
+recipes.remove(<minecraft:golden_helmet>);
+recipes.remove(<minecraft:golden_leggings>);
+
+recipes.remove(<minecraft:iron_chestplate>);
+recipes.remove(<minecraft:iron_boots>);
+recipes.remove(<minecraft:iron_helmet>);
+recipes.remove(<minecraft:iron_leggings>);
+
+recipes.remove(<minecraft:diamond_chestplate>);
+recipes.remove(<minecraft:diamond_boots>);
+recipes.remove(<minecraft:diamond_helmet>);
+recipes.remove(<minecraft:diamond_leggings>);
+
+recipes.addShaped(<minecraft:diamond_boots>, [[null, null, null],[<ore:plateDiamond>, null, <ore:plateDiamond>], [<ore:plateDiamond>, <minecraft:golden_boots>, <ore:plateDiamond>]]);
+recipes.addShaped(<minecraft:diamond_leggings>, [[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],[<ore:plateDiamond>, <minecraft:golden_leggings>, <ore:plateDiamond>], [<ore:plateDiamond>, null, <ore:plateDiamond>]]);
+recipes.addShaped(<minecraft:diamond_chestplate>, [[<ore:plateDiamond>, <minecraft:golden_chestplate>, <ore:plateDiamond>],[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>], [<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
+recipes.addShaped(<minecraft:diamond_helmet>, [[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],[<ore:plateDiamond>, <minecraft:golden_helmet>, <ore:plateDiamond>], [null, null, null]]);
+recipes.addShaped(<minecraft:golden_boots>, [[null, null, null],[<ore:plateGold>, null, <ore:plateGold>], [<ore:plateGold>, <minecraft:iron_boots>, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:iron_leggings>, <ore:plateGold>], [<ore:plateGold>, null, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:iron_chestplate>, <ore:plateGold>],[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_helmet>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:iron_helmet>, <ore:plateGold>], [null, null, null]]);
+recipes.addShapeless(<minecraft:iron_boots>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:boots_core>.withTag({Material: "iron"})]);
+recipes.addShapeless(<minecraft:iron_leggings>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:leggings_core>.withTag({Material: "iron"})]);
+recipes.addShapeless(<minecraft:iron_chestplate>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:chest_core>.withTag({Material: "iron"})]);
+recipes.addShapeless(<minecraft:iron_helmet>, [<conarm:armor_trim>.withTag({Material: "iron"}),<conarm:armor_plate>.withTag({Material: "iron"}),<conarm:helmet_core>.withTag({Material: "iron"})]);
+
+recipes.remove(<minecraft:iron_shovel>);
+recipes.remove(<minecraft:iron_pickaxe>);
+recipes.remove(<minecraft:iron_axe>);
+recipes.remove(<minecraft:iron_sword>);
+recipes.remove(<minecraft:wooden_sword>);
+recipes.remove(<minecraft:wooden_shovel>);
+recipes.remove(<minecraft:wooden_pickaxe>);
+recipes.remove(<minecraft:wooden_axe>);
+recipes.remove(<minecraft:stone_sword>);
+recipes.remove(<minecraft:golden_hoe>);
+recipes.remove(<minecraft:diamond_hoe>);
+recipes.remove(<minecraft:iron_hoe>);
+recipes.remove(<minecraft:stone_hoe>);
+recipes.remove(<minecraft:wooden_hoe>);
+recipes.remove(<minecraft:golden_axe>);
+recipes.remove(<minecraft:golden_pickaxe>);
+recipes.remove(<minecraft:golden_shovel>);
+recipes.remove(<minecraft:golden_sword>);
+recipes.remove(<minecraft:diamond_axe>);
+recipes.remove(<minecraft:diamond_pickaxe>);
+recipes.remove(<minecraft:diamond_shovel>);
+recipes.remove(<minecraft:stone_axe>);
+recipes.remove(<minecraft:stone_pickaxe>);
+recipes.remove(<minecraft:stone_shovel>);
+
+recipes.addShapeless(<minecraft:diamond_hoe>, [<tconstruct:scythe_head>.withTag({Material: "cobalt"}), <tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:diamond_axe>, [<tconstruct:axe_head>.withTag({Material: "cobalt"}), <tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:diamond_shovel>, [<tconstruct:shovel_head>.withTag({Material: "cobalt"}), <tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:diamond_sword>, [<tconstruct:sword_blade>.withTag({Material: "cobalt"}), <tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:diamond_pickaxe>, [<tconstruct:pick_head>.withTag({Material: "cobalt"}), <tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:golden_shovel>, [<tconstruct:shovel_head>.withTag({Material: "electrum"}),<tconstruct:binding>.withTag({Material: "iron"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:golden_sword>, [<tconstruct:sword_blade>.withTag({Material: "electrum"}),<tconstruct:binding>.withTag({Material: "iron"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:golden_hoe>, [<tconstruct:scythe_head>.withTag({Material: "electrum"}),<tconstruct:binding>.withTag({Material: "iron"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:golden_axe>, [<tconstruct:axe_head>.withTag({Material: "electrum"}),<tconstruct:binding>.withTag({Material: "iron"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:golden_pickaxe>, [<tconstruct:pick_head>.withTag({Material: "electrum"}),<tconstruct:binding>.withTag({Material: "iron"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:stone_hoe>, [<tconstruct:scythe_head>.withTag({Material: "stone"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:stone_axe>, [<tconstruct:axe_head>.withTag({Material: "stone"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:stone_sword>, [<tconstruct:sword_blade>.withTag({Material: "stone"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:stone_shovel>, [<tconstruct:shovel_head>.withTag({Material: "stone"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:stone_pickaxe>, [<tconstruct:pick_head>.withTag({Material: "stone"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:iron_shovel>, [<tconstruct:shovel_head>.withTag({Material: "iron"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:iron_axe>, [<tconstruct:axe_head>.withTag({Material: "iron"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:iron_sword>, [<tconstruct:sword_blade>.withTag({Material: "iron"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:iron_pickaxe>, [<tconstruct:pick_head>.withTag({Material: "iron"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:iron_hoe>, [<tconstruct:scythe_head>.withTag({Material: "iron"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:wooden_hoe>, [<tconstruct:scythe_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:wooden_shovel>, [<tconstruct:shovel_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:wooden_sword>, [<tconstruct:sword_blade>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:wooden_axe>, [<tconstruct:axe_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<minecraft:wooden_pickaxe>, [<tconstruct:pick_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+//thermal foundation
+
+//ae2
+
+//actu addon
+
+//embers & aether workd
+
+//techreborn
+
+//botania
+
+//enderio
+
+//mekanism
+
+//lightningcraft
+
+//blood arensal
+
+//as
+
+//psi
+
+//calculator
+
+//nuclearcraft & qmd
+
+//de
+
+//avartia
+
+//aether
+
+//thaumcraft
+
+//tf & ta

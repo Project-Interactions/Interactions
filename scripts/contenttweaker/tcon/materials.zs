@@ -233,7 +233,7 @@ vivid_alloy.addExtraMaterialStats(200);
 vivid_alloy.addBowMaterialStats(getDrawSpeed(2.75) as float, 1.5, 6);
 vivid_alloy.addProjectileMaterialStats();
 vivid_alloy.addCoreMaterialStats(30,17);
-vivid_alloy.addPlatesMaterialStats(4,20,1);
+vivid_alloy.addPlatesMaterialStats(1.4,20,1);
 vivid_alloy.addTrimMaterialStats(20);
 vivid_alloy.register();
 
@@ -250,6 +250,6 @@ gelid_gem.addExtraMaterialStats(135);
 gelid_gem.addBowMaterialStats(getDrawSpeed(1.5) as float, 1.1, 0);
 gelid_gem.addProjectileMaterialStats();
 gelid_gem.addCoreMaterialStats(23,19);
-gelid_gem.addPlatesMaterialStats(7,14,1);
+gelid_gem.addPlatesMaterialStats(1.7,14,1);
 gelid_gem.addTrimMaterialStats(16.5);
 gelid_gem.register();

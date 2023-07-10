@@ -1,3 +1,8 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
+import mods.zenutils.StaticString;
 
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.remove(<theaurorian:aurorianportalframebricks> * 4);
@@ -33,21 +38,48 @@ recipes.addShaped(tool, [[null, <minecraft:dye:2>, <minecraft:dye:4>], [null, <m
 
 recipes.addShapeless(<contenttweaker:material_part:206>, [<contenttweaker:material_part:208>,<contenttweaker:material_part:208>,<contenttweaker:material_part:208>,<contenttweaker:material_part:208>]);
 
-//nuggets
-recipes.addShaped(<contenttweaker:material_part:223> * 9, [[<contenttweaker:material_part:219>, null, null],[null, null, null], [null, null, null]]);
-recipes.addShaped(<contenttweaker:material_part:215> * 9, [[<contenttweaker:material_part:211>, null, null],[null, null, null], [null, null, null]]);
-recipes.addShaped(<contenttweaker:material_part:205> * 9, [[<contenttweaker:material_part:201>, null, null],[null, null, null], [null, null, null]]);
-recipes.addShapeless(<contenttweaker:material_part:197> * 9, [<contenttweaker:material_part:193>]);
-recipes.addShapeless(<contenttweaker:material_part:182> * 9, [<contenttweaker:material_part:178>]);
-recipes.addShapeless(<contenttweaker:material_part:172> * 9, [<contenttweaker:material_part:168>]);
-recipes.addShapeless(<contenttweaker:material_part:141> * 9, [<contenttweaker:material_part:137>]);
-recipes.addShapeless(<contenttweaker:material_part:131> * 9, [<contenttweaker:material_part:127>]);
-recipes.addShapeless(<contenttweaker:material_part:93> * 9, [<contenttweaker:material_part:89>]);
-recipes.addShapeless(<contenttweaker:material_part:86> * 9, [<contenttweaker:material_part:82>]);
-recipes.addShapeless(<contenttweaker:material_part:80> * 9, [<contenttweaker:material_part:76>]);
-recipes.addShapeless(<contenttweaker:material_part:72> * 9, [<contenttweaker:material_part:68>]);
-recipes.addShapeless(<contenttweaker:material_part:57> * 9, [<contenttweaker:material_part:53>]);
-recipes.addShapeless(<contenttweaker:material_part:40> * 9, [<contenttweaker:material_part:36>]);
-recipes.addShapeless(<contenttweaker:material_part:22> * 9, [<contenttweaker:material_part:18>]);
-recipes.addShapeless(<contenttweaker:material_part:5> * 9, [<contenttweaker:material_part:1>]);
 
+function materialSplit(input as string[]) as void{
+    var material as string = null;
+    if (input.length == 2){
+        material = input[1];
+    }
+    if (input.length == 3){
+        material = input[1]+input[2];
+    }
+    if (input.length == 4){
+        material = input[1]+input[2]+input[3];
+    }
+    if (input.length == 5){
+        material = input[1]+input[2]+input[3]+input[4];
+    }
+    if (input.length == 6){
+        material = input[1]+input[2]+input[3]+input[4]+input[5];
+    }
+    if (input.length == 7){
+        material = input[1]+input[2]+input[3]+input[4]+input[5]+input[6];
+    }
+    val nugget as IOreDictEntry = oreDict["nugget"+material];
+    val ingot as IOreDictEntry = oreDict["ingot"+material];
+    val block as IOreDictEntry = oreDict["block"+material];
+    recipes.addShapeless(nugget.firstItem*9,[ingot]);
+    recipes.addShapeless(ingot.firstItem*9,[block]);
+    recipes.addShaped(ingot.firstItem,[
+        [nugget,nugget,nugget],
+        [nugget,nugget,nugget],
+        [nugget,nugget,nugget]
+    ]);
+    recipes.addShaped(block.firstItem,[
+        [ingot,ingot,ingot],
+        [ingot,ingot,ingot],
+        [ingot,ingot,ingot]
+    ]);
+}
+for cotItems in loadedMods["contenttweaker"].items {
+    if (cotItems.name == "item.contenttweaker.material_part") {
+        if (cotItems.ores[0].name.startsWith("ingot")) {
+            val splits as string[] = StaticString.splitByCharacterTypeCamelCase(cotItems.ores[0].name);
+            materialSplit(splits);
+        }
+    }
+}

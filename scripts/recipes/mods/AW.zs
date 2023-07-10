@@ -15,6 +15,8 @@ recipes.addShaped(<artisanautomation:upgrade_auto_export_items>, [[<ore:plateSte
 recipes.addShaped(<artisanautomation:upgrade_energy_capacity>, [[<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>],[<ore:plateAlubrass>, <ore:circuitGood>, <ore:plateAlubrass>], [<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>]]);
 recipes.addShaped(<artisanautomation:upgrade_fluid_capacity>, [[<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>],[<ore:stickAlubrass>, <ore:circuitGood>, <ore:stickAlubrass>], [<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>]]);
 recipes.addShaped(<artisanautomation:upgrade_speed>, [[<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>],[<ore:gearBronze>, <ore:circuitGood>, <ore:gearBronze>], [<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>]]);
+recipes.addShapeless(<artisanworktables:design_pattern>, [<immersiveengineering:blueprint>,<ore:dustLapis>]);
+recipes.addShaped(<artisanworktables:workstation:12>, [[<ore:string>, <ore:blockLapis>, <ore:string>],[<ore:string>, <immersiveengineering:wooden_device0:2>, <ore:string>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 RecipeBuilder.get("engineer")
   .setShaped([

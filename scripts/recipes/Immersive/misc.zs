@@ -104,3 +104,6 @@ MetalPress.addRecipe(<thermalfoundation:material:27>,<minecraft:emerald>*4,<imme
 
 MetalPress.addRecipe(<moreplates:diamond_plate>,<minecraft:diamond>,<immersiveengineering:mold>,1024);
 MetalPress.addRecipe(<moreplates:emerald_plate>,<minecraft:emerald>,<immersiveengineering:mold>,1024);
+
+MetalPress.addRecipe(<moreplates:reinforced_iron_plate>,<calculator:reinforcedironingot>,<immersiveengineering:mold>,1024);
+MetalPress.addRecipe(<moreplates:reinforced_iron_gear>,<calculator:reinforcedironingot>*4,<immersiveengineering:mold:1>,1024);

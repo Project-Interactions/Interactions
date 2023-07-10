@@ -116,3 +116,9 @@ RuneAltar.removeRecipe(<botanicadds:mana_tesseract>);
 RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<ore:circuitAdvanced>,<ore:gearTerrasteel>,<botanicadds:dreamrock>,<botania:manaresource:12>,<botanicadds:rune_tp>], 150000);
 
 RuneAltar.removeRecipe(<botania:specialflower>.withTag({type: "soarleander"}));
+
+recipes.addShaped(<botania:manaresource:15>,[
+    [null,<astralsorcery:itemusabledust>,null],
+    [<astralsorcery:itemusabledust>,<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}),<astralsorcery:itemusabledust>],
+    [null,<astralsorcery:itemusabledust>,null]
+]);

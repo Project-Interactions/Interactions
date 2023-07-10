@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:8
 guiScale:4
 particles:2
 bobView:true
@@ -12,9 +12,9 @@ anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:false
-ao:0
-renderClouds:fast
+fancyGraphics:true
+ao:2
+renderClouds:true
 resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -137,6 +137,11 @@ key_pneumaticcraft.chestplate.launcher:0
 key_neat.keybind.toggle:0
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
+key_key.ping:47
+key_ping.key.alert:75
+key_ping.key.mine:76
+key_ping.key.look:77
+key_ping.key.goto:72
 key_Toggle Raw Input:0
 key_Rescan Key:43
 key_schematica.key.load:0
@@ -268,6 +273,7 @@ key_key.plustic_mots.desc:0
 key_key.musictriggers.gui:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
+key_key.neenergistics.crafting.helper.noPreview:56
 key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
