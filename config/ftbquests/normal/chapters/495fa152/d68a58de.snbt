@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"限制能量的传输"
+	],
+	tasks: [{
+		uid: "95115898",
+		type: "item",
+		items: [{
+			item: "energymeters:meter"
+		}]
+	}]
+}

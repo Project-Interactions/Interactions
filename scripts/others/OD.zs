@@ -38,7 +38,7 @@
 
 <ore:blockAstralStarmetal>.add(<astraladditions:block_starmetal>);
 
-//<ore:ingotIridiumAlloy>.remove(<techreborn:ingot:22>);
+<ore:craftingIndustrialDiamond>.remove(<minecraft:diamond>);
 <ore:gemVoid>.remove(<actuallyadditions:item_crystal:3>);
 
 

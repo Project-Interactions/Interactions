@@ -19,6 +19,7 @@ recipes.addShapeless(<artisanworktables:design_pattern>, [<immersiveengineering:
 recipes.addShaped(<artisanworktables:workstation:12>, [[<ore:string>, <ore:blockLapis>, <ore:string>],[<ore:string>, <immersiveengineering:wooden_device0:2>, <ore:string>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 RecipeBuilder.get("engineer")
+  .setName("mechanical_circuit_board")
   .setShaped([
     [<ore:ingotHOPGraphite>, <ore:wireCopper>, <ore:wireCopper>],
     [<ore:wireCopper>, <ore:gearSteel>, <ore:plateAdvancedElectronicAlloy>],
@@ -27,6 +28,7 @@ RecipeBuilder.get("engineer")
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("manual_circuit")
   .setShaped([
     [<ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>],
     [<contenttweaker:printed_copper_plate>, <contenttweaker:printed_copper_plate>, <contenttweaker:printed_manual_circuit_board_substrate>],
@@ -35,6 +37,7 @@ RecipeBuilder.get("engineer")
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("assembled_manual_circuit_1")
   .setShaped([
     [<contenttweaker:manual_circuit>, <contenttweaker:manual_circuit>, <contenttweaker:manual_circuit>],
     [<contenttweaker:etched_assembled_circuit_plate>, <ore:electronTube>, <ore:ingotMagnet>],
@@ -43,6 +46,7 @@ RecipeBuilder.get("engineer")
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("assembled_manual_circuit_2")
   .setShaped([
     [<contenttweaker:manual_circuit>, <contenttweaker:manual_circuit>, <contenttweaker:manual_circuit>],
     [<contenttweaker:etched_assembled_circuit_plate>, <ore:electronTube>, <ore:ingotMagnet>],
@@ -52,6 +56,7 @@ RecipeBuilder.get("engineer")
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("processor_circuit_board")
   .setShaped([
     [<contenttweaker:mechanical_circuit_board>, <contenttweaker:mechanical_circuit_board>, <contenttweaker:mechanical_circuit_board>],
     [<ore:plateTerrasteel>, <ore:plateTerrasteel>, <ore:itemRubber>],
@@ -60,30 +65,35 @@ RecipeBuilder.get("engineer")
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("mana_circuit_board")
   .setShapeless([<botania:quartz:3>,<botania:quartz:3>])
   .setFluid(<liquid:molten_elfglass>*1000)
   .addOutput(<contenttweaker:mana_circuit_board>)
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName(":starlight_circuit_board")
   .setShapeless([<contenttweaker:mana_circuit_board>])
   .setFluid(<liquid:astralsorcery.liquidstarlight>*1000)
   .addOutput(<contenttweaker:starlight_circuit_board>)
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("mechanical_circuit")
   .setShapeless([<contenttweaker:mechanical_circuit_board>])
   .setFluid(<liquid:etching_acid>*1000)
   .addOutput(<contenttweaker:mechanical_circuit>)
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("processor_mechanical_circuit")
   .setShapeless([<contenttweaker:processor_circuit_board>])
   .setFluid(<liquid:advanced_etching>*1000)
   .addOutput(<contenttweaker:processor_mechanical_circuit>)
   .create();
 
 RecipeBuilder.get("engineer")
+  .setName("etched_assembled_circuit_plate")
   .setShapeless([<ore:plateLead>,<ore:plateLead>,<ore:plateLead>])
   .setFluid(<liquid:etching_acid>*1000)
   .addOutput(<contenttweaker:etched_assembled_circuit_plate>)

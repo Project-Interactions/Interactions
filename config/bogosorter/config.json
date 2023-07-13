@@ -6,7 +6,11 @@
   },
   "ItemSortRules": [
     {
-      "name": "display_name",
+      "name": "mod",
+      "inverted": false
+    },
+    {
+      "name": "registry_order",
       "inverted": false
     },
     {
@@ -15,22 +19,6 @@
     },
     {
       "name": "material",
-      "inverted": false
-    },
-    {
-      "name": "mod",
-      "inverted": false
-    },
-    {
-      "name": "id",
-      "inverted": false
-    },
-    {
-      "name": "meta",
-      "inverted": false
-    },
-    {
-      "name": "nbt_has",
       "inverted": false
     },
     {

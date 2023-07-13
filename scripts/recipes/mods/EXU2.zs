@@ -5,7 +5,6 @@ import crafttweaker.item.IIngredient;
 import mods.extrautils2.Resonator;
 import mods.extrautils2.Crusher;
 
-recipes.remove(<extrautils2:snowglobe>);
 recipes.remove(<extrautils2:quarryproxy>);
 recipes.removeShapeless(<extrautils2:rainbowgenerator>);
 recipes.remove(<extrautils2:teleporter:1>);
@@ -23,7 +22,6 @@ recipes.addShaped(<extrautils2:passivegenerator:3>, [[<extrautils2:decorativesol
 recipes.addShaped(<extrautils2:passivegenerator:2>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>],[<extrautils2:decorativesolid:3>, <techreborn:thermal_generator>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>]]);
 recipes.addShaped(<contenttweaker:useful_block>, [[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>],[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>], [<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>]]);
 recipes.addShaped(<extrautils2:resonator>, [[<ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>],[<extrautils2:ingredients>, <extrautils2:machine>, <extrautils2:ingredients>], [<astralsorcery:itemcraftingcomponent:4>, <contenttweaker:useful_block>, <astralsorcery:itemcraftingcomponent:4>]]);
-Resonator.add(<appliedenergistics2:material>, <minecraft:quartz>, 800);
 Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
 Resonator.add(<techreborn:machine_frame>, <contenttweaker:useful_block>, 1600);
 

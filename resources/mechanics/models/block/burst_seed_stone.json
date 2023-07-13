@@ -1,0 +1,7 @@
+{
+    "parent": "mechanics:block/burst_seed_base",
+    "textures": {
+        "particle": "mechanics:blocks/burst_seed_stone",
+        "all": "mechanics:blocks/burst_seed_stone"
+    }
+}

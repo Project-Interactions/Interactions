@@ -177,12 +177,191 @@ recipes.addShapeless(<minecraft:wooden_shovel>, [<tconstruct:shovel_head>.withTa
 recipes.addShapeless(<minecraft:wooden_sword>, [<tconstruct:sword_blade>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
 recipes.addShapeless(<minecraft:wooden_axe>, [<tconstruct:axe_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
 recipes.addShapeless(<minecraft:wooden_pickaxe>, [<tconstruct:pick_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
-//thermal foundation
-
 //ae2
-
+recipes.remove(<appliedenergistics2:certus_quartz_sword>);
+recipes.remove(<appliedenergistics2:certus_quartz_pickaxe>);
+recipes.remove(<appliedenergistics2:certus_quartz_spade>);
+recipes.remove(<appliedenergistics2:certus_quartz_axe>);
+recipes.remove(<appliedenergistics2:nether_quartz_sword>);
+recipes.remove(<appliedenergistics2:nether_quartz_pickaxe>);
+recipes.remove(<appliedenergistics2:nether_quartz_spade>);
+recipes.remove(<appliedenergistics2:nether_quartz_hoe>);
+recipes.remove(<appliedenergistics2:nether_quartz_axe>);
+recipes.addShapeless(<appliedenergistics2:certus_quartz_axe>, [<tconstruct:axe_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
+recipes.addShapeless(<appliedenergistics2:certus_quartz_hoe>, [<tconstruct:scythe_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
+recipes.addShapeless(<appliedenergistics2:certus_quartz_spade>, [<tconstruct:shovel_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
+recipes.addShapeless(<appliedenergistics2:certus_quartz_sword>, [<tconstruct:pick_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
+recipes.addShapeless(<appliedenergistics2:certus_quartz_sword>, [<tconstruct:sword_blade>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
 //actu addon
+val remove as IItemStack[] = 
+[
+<actuallyadditions:item_pants_crystal_red>,
+<actuallyadditions:item_helm_crystal_red>,
+<actuallyadditions:item_sword_crystal_red>,
+<actuallyadditions:item_pickaxe_quartz>,
+<actuallyadditions:item_shovel_quartz>,
+<actuallyadditions:item_hoe_quartz>,
+<actuallyadditions:item_axe_quartz>,
+<actuallyadditions:item_sword_quartz>,
+<actuallyadditions:item_axe_crystal_light_blue>,
+<actuallyadditions:item_pickaxe_crystal_light_blue>,
+<actuallyadditions:item_pickaxe_obsidian>,
+<actuallyadditions:item_shovel_obsidian>,
+<actuallyadditions:item_hoe_obsidian>,
+<actuallyadditions:item_axe_obsidian>,
+<actuallyadditions:item_sword_obsidian>,
+<actuallyadditions:item_boots_crystal_blue>,
+<actuallyadditions:item_pickaxe_crystal_blue>,
+<actuallyadditions:item_shovel_crystal_blue>,
+<actuallyadditions:item_hoe_crystal_blue>,
+<actuallyadditions:item_chest_crystal_blue>,
+<actuallyadditions:item_axe_crystal_blue>,
+<actuallyadditions:item_pants_crystal_blue>,
+<actuallyadditions:item_helm_crystal_blue>,
+<actuallyadditions:item_sword_crystal_blue>,
+<actuallyadditions:item_pickaxe_emerald>,
+<actuallyadditions:item_shovel_emerald>,
+<actuallyadditions:item_hoe_emerald>,
+<actuallyadditions:item_axe_emerald>,
+<actuallyadditions:item_sword_emerald>,
+<actuallyadditions:item_boots_crystal_red>,
+<actuallyadditions:item_pickaxe_crystal_red>,
+<actuallyadditions:item_shovel_crystal_red>,
+<actuallyadditions:item_hoe_crystal_red>,
+<actuallyadditions:item_chest_crystal_red>,
+<actuallyadditions:item_axe_crystal_red>,
+<actuallyadditions:item_chest_crystal_white>,
+<actuallyadditions:item_pants_crystal_white>,
+<actuallyadditions:item_boots_crystal_light_blue>,
+<actuallyadditions:item_pants_crystal_light_blue>,
+<actuallyadditions:item_chest_crystal_light_blue>,
+<actuallyadditions:item_helm_crystal_light_blue>,
+<actuallyadditions:item_hoe_crystal_light_blue>,
+<actuallyadditions:item_sword_crystal_light_blue>,
+<actuallyadditions:item_shovel_crystal_light_blue>,
+<actuallyadditions:item_boots_crystal_white>,
+<actuallyadditions:item_pickaxe_crystal_black>,
+<actuallyadditions:item_axe_crystal_black>,
+<actuallyadditions:item_shovel_crystal_black>,
+<actuallyadditions:item_sword_crystal_black>,
+<actuallyadditions:item_hoe_crystal_black>,
+<actuallyadditions:item_helm_crystal_black>,
+<actuallyadditions:item_chest_crystal_black>,
+<actuallyadditions:item_pants_crystal_black>,
+<actuallyadditions:item_pants_crystal_green>,
+<actuallyadditions:item_chest_crystal_green>,
+<actuallyadditions:item_helm_crystal_green>,
+<actuallyadditions:item_hoe_crystal_green>,
+<actuallyadditions:item_sword_crystal_green>,
+<actuallyadditions:item_shovel_crystal_green>,
+<actuallyadditions:item_axe_crystal_green>,
+<actuallyadditions:item_pickaxe_crystal_green>,
+<actuallyadditions:item_boots_crystal_black>,
+<actuallyadditions:item_boots_crystal_green>,
+<actuallyadditions:item_pickaxe_crystal_white>,
+<actuallyadditions:item_axe_crystal_white>,
+<actuallyadditions:item_shovel_crystal_white>,
+<actuallyadditions:item_sword_crystal_white>,
+<actuallyadditions:item_hoe_crystal_white>,
+<actuallyadditions:item_helm_crystal_white>,
+<actuallyadditions:item_helm_emerald>,
+<actuallyadditions:item_chest_emerald>,
+<actuallyadditions:item_pants_emerald>,
+<actuallyadditions:item_boots_emerald>,
+<actuallyadditions:item_helm_obsidian>,
+<actuallyadditions:item_chest_obsidian>,
+<actuallyadditions:item_pants_obsidian>,
+<actuallyadditions:item_boots_obsidian>,
+<actuallyadditions:item_helm_quartz>,
+<actuallyadditions:item_chest_quartz>,
+<actuallyadditions:item_pants_quartz>,
+<actuallyadditions:item_boots_quartz>
+];
 
+for Remove in remove {
+    recipes.remove(Remove);
+}
+recipes.addShapeless(<actuallyadditions:item_boots_quartz>, [<conarm:boots_core>.withTag({Material: "black_quartz"}),<conarm:armor_trim>.withTag({Material: "black_quartz"}),<conarm:armor_plate>.withTag({Material: "black_quartz"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_quartz>, [<conarm:leggings_core>.withTag({Material: "black_quartz"}),<conarm:armor_trim>.withTag({Material: "black_quartz"}),<conarm:armor_plate>.withTag({Material: "black_quartz"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_quartz>, [<conarm:chest_core>.withTag({Material: "black_quartz"}),<conarm:armor_trim>.withTag({Material: "black_quartz"}),<conarm:armor_plate>.withTag({Material: "black_quartz"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_quartz>, [<conarm:helmet_core>.withTag({Material: "black_quartz"}),<conarm:armor_trim>.withTag({Material: "black_quartz"}),<conarm:armor_plate>.withTag({Material: "black_quartz"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_obsidian>, [<conarm:boots_core>.withTag({Material: "obsidian"}),<conarm:armor_trim>.withTag({Material: "obsidian"}),<conarm:armor_plate>.withTag({Material: "obsidian"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_obsidian>, [<conarm:leggings_core>.withTag({Material: "obsidian"}),<conarm:armor_trim>.withTag({Material: "obsidian"}),<conarm:armor_plate>.withTag({Material: "obsidian"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_obsidian>, [<conarm:chest_core>.withTag({Material: "obsidian"}),<conarm:armor_trim>.withTag({Material: "obsidian"}),<conarm:armor_plate>.withTag({Material: "obsidian"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_obsidian>, [<conarm:helmet_core>.withTag({Material: "obsidian"}),<conarm:armor_trim>.withTag({Material: "obsidian"}),<conarm:armor_plate>.withTag({Material: "obsidian"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_emerald>, [<conarm:boots_core>.withTag({Material: "emerald_plustic"}),<conarm:armor_trim>.withTag({Material: "emerald_plustic"}),<conarm:armor_plate>.withTag({Material: "emerald_plustic"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_emerald>, [<conarm:leggings_core>.withTag({Material: "emerald_plustic"}),<conarm:armor_trim>.withTag({Material: "emerald_plustic"}),<conarm:armor_plate>.withTag({Material: "emerald_plustic"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_emerald>, [<conarm:helmet_core>.withTag({Material: "emerald_plustic"}),<conarm:armor_trim>.withTag({Material: "emerald_plustic"}),<conarm:armor_plate>.withTag({Material: "emerald_plustic"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_emerald>, [<conarm:chest_core>.withTag({Material: "emerald_plustic"}),<conarm:armor_trim>.withTag({Material: "emerald_plustic"}),<conarm:armor_plate>.withTag({Material: "emerald_plustic"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_quartz>, [<tconstruct:scythe_head>.withTag({Material: "black_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_quartz>, [<tconstruct:sword_blade>.withTag({Material: "black_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_quartz>, [<tconstruct:axe_head>.withTag({Material: "black_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_quartz>, [<tconstruct:shovel_head>.withTag({Material: "black_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_quartz>, [<tconstruct:pick_head>.withTag({Material: "black_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_obsidian>, [<tconstruct:scythe_head>.withTag({Material: "obsidian"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_obsidian>, [<tconstruct:sword_blade>.withTag({Material: "obsidian"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_obsidian>, [<tconstruct:shovel_head>.withTag({Material: "obsidian"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_obsidian>, [<tconstruct:axe_head>.withTag({Material: "obsidian"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_obsidian>, [<tconstruct:pick_head>.withTag({Material: "obsidian"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_emerald>, [<tconstruct:pick_head>.withTag({Material: "emerald_plustic"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_emerald>, [<tconstruct:axe_head>.withTag({Material: "emerald_plustic"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_emerald>, [<tconstruct:shovel_head>.withTag({Material: "emerald_plustic"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_emerald>, [<tconstruct:sword_blade>.withTag({Material: "emerald_plustic"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_emerald>, [<tconstruct:scythe_head>.withTag({Material: "emerald_plustic"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_crystal_green>, [<tconstruct:scythe_head>.withTag({Material: "emeraldic_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_crystal_green>, [<tconstruct:sword_blade>.withTag({Material: "emeraldic_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_crystal_green>, [<tconstruct:axe_head>.withTag({Material: "emeraldic_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_crystal_green>, [<tconstruct:shovel_head>.withTag({Material: "emeraldic_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_crystal_green>, [<tconstruct:pick_head>.withTag({Material: "emeraldic_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_crystal_white>, [<tconstruct:scythe_head>.withTag({Material: "enori_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_crystal_white>, [<tconstruct:sword_blade>.withTag({Material: "enori_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_crystal_white>, [<tconstruct:axe_head>.withTag({Material: "enori_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_crystal_white>, [<tconstruct:shovel_head>.withTag({Material: "enori_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_crystal_white>, [<tconstruct:pick_head>.withTag({Material: "enori_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_crystal_black>, [<tconstruct:scythe_head>.withTag({Material: "void_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_crystal_black>, [<tconstruct:sword_blade>.withTag({Material: "void_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_crystal_black>, [<tconstruct:axe_head>.withTag({Material: "void_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_crystal_black>, [<tconstruct:shovel_head>.withTag({Material: "void_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_crystal_black>, [<tconstruct:pick_head>.withTag({Material: "void_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_crystal_blue>, [<tconstruct:scythe_head>.withTag({Material: "palis_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_crystal_blue>, [<tconstruct:sword_blade>.withTag({Material: "palis_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_crystal_blue>, [<tconstruct:axe_head>.withTag({Material: "palis_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_crystal_blue>, [<tconstruct:shovel_head>.withTag({Material: "palis_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_crystal_blue>, [<tconstruct:pick_head>.withTag({Material: "palis_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_crystal_light_blue>, [<tconstruct:scythe_head>.withTag({Material: "diamantine_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_crystal_light_blue>, [<tconstruct:sword_blade>.withTag({Material: "diamantine_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_crystal_light_blue>, [<tconstruct:axe_head>.withTag({Material: "diamantine_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_crystal_light_blue>, [<tconstruct:shovel_head>.withTag({Material: "diamantine_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_crystal_light_blue>, [<tconstruct:pick_head>.withTag({Material: "diamantine_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_hoe_crystal_red>, [<tconstruct:scythe_head>.withTag({Material: "restonia_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_sword_crystal_red>, [<tconstruct:sword_blade>.withTag({Material: "restonia_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_axe_crystal_red>, [<tconstruct:axe_head>.withTag({Material: "restonia_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_shovel_crystal_red>, [<tconstruct:shovel_head>.withTag({Material: "restonia_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_pickaxe_crystal_red>, [<tconstruct:pick_head>.withTag({Material: "restonia_crystal"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_crystal_green>, [<conarm:boots_core>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_trim>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_plate>.withTag({Material: "emeraldic_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_crystal_green>, [<conarm:leggings_core>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_trim>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_plate>.withTag({Material: "emeraldic_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_crystal_green>, [<conarm:chest_core>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_trim>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_plate>.withTag({Material: "emeraldic_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_crystal_green>, [<conarm:helmet_core>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_trim>.withTag({Material: "emeraldic_crystal"}),<conarm:armor_plate>.withTag({Material: "emeraldic_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_crystal_white>, [<conarm:boots_core>.withTag({Material: "enori_crystal"}),<conarm:armor_trim>.withTag({Material: "enori_crystal"}),<conarm:armor_plate>.withTag({Material: "enori_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_crystal_white>, [<conarm:leggings_core>.withTag({Material: "enori_crystal"}),<conarm:armor_trim>.withTag({Material: "enori_crystal"}),<conarm:armor_plate>.withTag({Material: "enori_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_crystal_white>, [<conarm:chest_core>.withTag({Material: "enori_crystal"}),<conarm:armor_trim>.withTag({Material: "enori_crystal"}),<conarm:armor_plate>.withTag({Material: "enori_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_crystal_white>, [<conarm:helmet_core>.withTag({Material: "enori_crystal"}),<conarm:armor_trim>.withTag({Material: "enori_crystal"}),<conarm:armor_plate>.withTag({Material: "enori_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_crystal_black>, [<conarm:boots_core>.withTag({Material: "void_crystal"}),<conarm:armor_trim>.withTag({Material: "void_crystal"}),<conarm:armor_plate>.withTag({Material: "void_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_crystal_black>, [<conarm:leggings_core>.withTag({Material: "void_crystal"}),<conarm:armor_trim>.withTag({Material: "void_crystal"}),<conarm:armor_plate>.withTag({Material: "void_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_crystal_black>, [<conarm:chest_core>.withTag({Material: "void_crystal"}),<conarm:armor_trim>.withTag({Material: "void_crystal"}),<conarm:armor_plate>.withTag({Material: "void_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_crystal_black>, [<conarm:helmet_core>.withTag({Material: "void_crystal"}),<conarm:armor_trim>.withTag({Material: "void_crystal"}),<conarm:armor_plate>.withTag({Material: "void_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_crystal_light_blue>, [<conarm:boots_core>.withTag({Material: "diamantine_crystal"}),<conarm:armor_trim>.withTag({Material: "diamantine_crystal"}),<conarm:armor_plate>.withTag({Material: "diamantine_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_crystal_light_blue>, [<conarm:leggings_core>.withTag({Material: "diamantine_crystal"}),<conarm:armor_trim>.withTag({Material: "diamantine_crystal"}),<conarm:armor_plate>.withTag({Material: "diamantine_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_crystal_light_blue>, [<conarm:chest_core>.withTag({Material: "diamantine_crystal"}),<conarm:armor_trim>.withTag({Material: "diamantine_crystal"}),<conarm:armor_plate>.withTag({Material: "diamantine_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_crystal_light_blue>, [<conarm:helmet_core>.withTag({Material: "diamantine_crystal"}),<conarm:armor_trim>.withTag({Material: "diamantine_crystal"}),<conarm:armor_plate>.withTag({Material: "diamantine_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_crystal_blue>, [<conarm:boots_core>.withTag({Material: "palis_crystal"}),<conarm:armor_trim>.withTag({Material: "palis_crystal"}),<conarm:armor_plate>.withTag({Material: "palis_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_crystal_blue>, [<conarm:leggings_core>.withTag({Material: "palis_crystal"}),<conarm:armor_trim>.withTag({Material: "palis_crystal"}),<conarm:armor_plate>.withTag({Material: "palis_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_crystal_blue>, [<conarm:chest_core>.withTag({Material: "palis_crystal"}),<conarm:armor_trim>.withTag({Material: "palis_crystal"}),<conarm:armor_plate>.withTag({Material: "palis_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_crystal_blue>, [<conarm:helmet_core>.withTag({Material: "palis_crystal"}),<conarm:armor_trim>.withTag({Material: "palis_crystal"}),<conarm:armor_plate>.withTag({Material: "palis_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_boots_crystal_red>, [<conarm:boots_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_pants_crystal_red>, [<conarm:leggings_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_chest_crystal_red>, [<conarm:chest_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
+recipes.addShapeless(<actuallyadditions:item_helm_crystal_red>, [<conarm:helmet_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
 //embers & aether workd
 
 //techreborn

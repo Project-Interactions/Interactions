@@ -1,0 +1,15 @@
+{
+	title: "早期物品栏管理",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"合成用材料"
+	],
+	tasks: [{
+		uid: "51438780",
+		type: "item",
+		items: [{
+			item: "vaultopic:vault_searcher"
+		}]
+	}]
+}

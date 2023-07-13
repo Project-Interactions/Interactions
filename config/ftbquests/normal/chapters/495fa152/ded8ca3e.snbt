@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"可直接进行合成操作"
+	],
+	dependencies: [
+		"c2d8da51"
+	],
+	tasks: [{
+		uid: "d147cd9b",
+		type: "item",
+		items: [{
+			item: "vaultopic:vice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

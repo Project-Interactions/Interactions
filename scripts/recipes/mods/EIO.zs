@@ -34,7 +34,7 @@ recipes.addShaped(<enderio:item_fluid_conduit> * 4, [[<ore:itemConduitBinder>, <
 //0
 recipes.remove(<enderio:item_capacitor_silver>);
 recipes.remove(<enderio:item_basic_capacitor>);
-recipes.addShaped(<enderio:item_capacitor_silver>, [[null, <ore:ingotSilver>, <ore:dustBedrock>], [<ore:ncircuitAdvanced>, <enderio:item_capacitor_grainy>, <ore:circuitAdvanced>], [<ore:dustBedrock>, <ore:ingotSilver>, null]]);
+recipes.addShaped(<enderio:item_capacitor_silver>, [[null, <ore:ingotSilver>, <ore:dustBedrock>], [<ore:circuitAdvanced>, <enderio:item_capacitor_grainy>, <ore:circuitAdvanced>], [<ore:dustBedrock>, <ore:ingotSilver>, null]]);
 recipes.addShaped(<enderio:item_basic_capacitor>, [[null, <ore:ingotGold>, <ore:dustBedrock>], [<ore:circuitAdvanced>, <ore:gearCopper>, <ore:circuitAdvanced>], [<ore:dustBedrock>, <ore:ingotGold>, null]]);
 //1
 recipes.remove(<enderio:item_capacitor_energetic_silver>);

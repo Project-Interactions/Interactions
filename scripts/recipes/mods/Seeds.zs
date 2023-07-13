@@ -39,13 +39,13 @@ static essi4 as IIngredient = <ore:ingotSuperium>;
 static essi5 as IIngredient = <ore:ingotSupremium>;
 static essi6 as IIngredient = <ore:ingotInsanium>;
 
-function seedAltarRecipe(name as string,output as IItemStack,item as IIngredient) as void{
+function seedT2(name as string,output as IItemStack,item as IIngredient) as void{
     mods.astralsorcery.Altar.addAttunementAltarRecipe("ia:seed/"+name, output, 500, 300, [
 		item,essi2,item,essi2,ess2,essi2,item,essi2,item,item,item,item,item
     ]);
 }
 
-function seedTableRecipe(output as IItemStack,item as IIngredient) as void{
+function seedT4(output as IItemStack,item as IIngredient) as void{
     TableCrafting.addShaped(2, output, [
 	[item,item,item,item,item],
     [item,essi4,essi4,essi4,item],
@@ -55,7 +55,7 @@ function seedTableRecipe(output as IItemStack,item as IIngredient) as void{
 ]);
 }
 
-function seedTCInfusionRecipe(name as string,output as IItemStack,item as IIngredient) as void{
+function seedT3(name as string,output as IItemStack,item as IIngredient) as void{
     Infusion.registerRecipe(
         "seed_"+name, //id
         "TAR_VIS_SEEDS", //research CAPITAL
@@ -67,7 +67,7 @@ function seedTCInfusionRecipe(name as string,output as IItemStack,item as IIngre
     );
 }
 
-function seedDEInfusionRecipe(output as IItemStack,item as IIngredient) as void{
+function seedT5(output as IItemStack,item as IIngredient) as void{
     FusionCrafting.add(output, ess5, FusionCrafting.WYVERN, 5000000, [item,item,item,item,item,essi5,essi5,essi5,essi5,essi5]);
 }
 
@@ -86,39 +86,6 @@ function toSnakeCase(arg as string) as string {
     }
 }
 
-/*
-function maSeedTweak(name as string, tier as int,type as string,output as IItemStack) as void{
-    val block = oreDict["block"+name];
-    recipes.removeByRecipeName("mysticalagriculture:"+toSnakeCase(name)+"_seeds");
-    recipes.remove(output);
-    if(tier == 1){
-        ArcaneWorkbench.registerShapedRecipe("seedt1_"+name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
-        itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_seeds"),
-        [[block,essi1,block],
-        [essi1,ess1,essi1],
-        [block,essi1,block]]);
-        ManaInfusion.addInfusion(output, itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence"), 50);
-    }
-    if(tier == 2){
-        seedAltarRecipe(name,itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_seeds"),block);
-        FluidToItem.transform(output*24, <liquid:essence>, [itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence")*32], true);
-    }
-    if(tier == 3){
-        seedTCInfusionRecipe(name,itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_seeds"),block);
-        Crucible.registerRecipe("essence_to_material"+name, "METALPURIFICATION", output, itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence")*2, [<aspect:herba>]);
-    }
-    if(tier == 4){
-        seedTableRecipe(itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_seeds"),block);
-        Empowerer.addRecipe(output*2, <mysticalagriculture:crafting:28>,itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence"),itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence"),itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence"),itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence"), 5000, 10);
-    }
-    if(tier == 5){
-        seedDEInfusionRecipe(itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_seeds"),block);
-        infuser.addRecipe("BIO", 10, itemUtils.getItem("mysticalagriculture:"+toSnakeCase(name)+"_essence")*3, output);
-    }
-    if(tier == 6){
-    }
-}
-*/
 function jaopcaSeedTweak(tier as int,name as string) as void{
     val block = oreDict["block"+name];
     var type as string = null;
@@ -143,27 +110,31 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
     recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material."+toSnakeCase(name));
     recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds."+toSnakeCase(name));
     if(tier == 1){
-        ArcaneWorkbench.registerShapedRecipe("seedt1_"+name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
+        ArcaneWorkbench.registerShapedRecipe("seedt1_"+name,"FIRSTSTEPS",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
         oreDict["mysticalSeeds"+name].firstItem,
         [[block,essi1,block],
         [essi1,ess1,essi1],
         [block,essi1,block]]);
         ManaInfusion.addInfusion(oreDict[type+name].firstItem, oreDict["essence"+name].firstItem, 50);
+        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem, oreDict[type+name].firstItem);
     }
     if(tier == 2){
-        seedAltarRecipe(name,oreDict["mysticalSeeds"+name].firstItem,block);
-        FluidToItem.transform(oreDict[type+name].firstItem*24, <liquid:essence>, [oreDict["essence"+name].firstItem*32], true);
+        seedT2(name,oreDict["mysticalSeeds"+name].firstItem,block);
+        FluidToItem.transform(oreDict[type+name].firstItem*16, <liquid:essence>, [oreDict["essence"+name].firstItem*32], true);
+        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*2, oreDict[type+name].firstItem);
     }
     if(tier == 3){
-        seedTCInfusionRecipe(name,oreDict["mysticalSeeds"+name].firstItem,block);
+        seedT3(name,oreDict["mysticalSeeds"+name].firstItem,block);
         Crucible.registerRecipe("essence_to_material"+name, "METALPURIFICATION", oreDict[type+name].firstItem, oreDict["essence"+name].firstItem*2, [<aspect:herba>]);
+        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*2, oreDict[type+name].firstItem);
     }
     if(tier == 4){
-        seedTableRecipe(oreDict["mysticalSeeds"+name].firstItem,block);
+        seedT4(oreDict["mysticalSeeds"+name].firstItem,block);
         Empowerer.addRecipe(oreDict[type+name].firstItem*2, <mysticalagriculture:crafting:28>,oreDict["essence"+name].firstItem,oreDict["essence"+name].firstItem,oreDict["essence"+name].firstItem,oreDict["essence"+name].firstItem, 5000, 10);
+        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*2, oreDict[type+name].firstItem);
     }
     if(tier == 5){
-        seedDEInfusionRecipe(oreDict["mysticalSeeds"+name].firstItem,block);
+        seedT5(oreDict["mysticalSeeds"+name].firstItem,block);
         infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*3, oreDict[type+name].firstItem);
     }
     if(tier == 6){
@@ -434,7 +405,171 @@ jaopcaSeedTweak(4,"Zirconium");
 
 jaopcaSeedTweak(3,"Ambrosium");
 
+for seeds in loadedMods["mysticalagriculture"].items {
+    if (seeds.ores[0].name.matches("seedsTier[1-5]")) {
+        recipes.remove(seeds);
+    }
+}
+function seedMAT1(output as IItemStack,block as IIngredient) as void{
+    ArcaneWorkbench.registerShapedRecipe(output.name,"FIRSTSTEPS",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
+        output,
+        [[block,essi1,block],
+        [essi1,ess1,essi1],
+        [block,essi1,block]]);
+}
+function seedMAT2(output as IItemStack,block as IIngredient) as void{
+    mods.astralsorcery.Altar.addAttunementAltarRecipe("ia:seed/"+output.name, output, 500, 300, [
+		block,essi2,block,essi2,ess2,essi2,block,essi2,block,block,block,block,block
+    ]);
+}
+function seedMAT3(output as IItemStack,item as IIngredient) as void{
+    Infusion.registerRecipe(
+        "seed_"+output.name, //id
+        "TAR_VIS_SEEDS", //research CAPITAL
+        output, //output
+        8, //instability
+        [<aspect:terra>*20,<aspect:alkimia>*20,<aspect:praecantatio>*20], //aspect
+        ess3, //core item
+        [essi3,item,item,item,essi3,item,item,item,essi3,item,item,item,essi3]//items
+    );
+}
 
+function getSymbol(output as IItemStack) as IItemStack {
+    val recipe as ICraftingRecipe = recipes.getRecipesFor(output)[0];
+    val leftup as IItemStack = recipe.ingredients1D[0];
+    return leftup;
+}
+seedMAT1(<mysticalagriculture:stone_seeds>,<extrautils2:compressedcobblestone:3>);
+seedMAT1(<mysticalagriculture:dirt_seeds>,<extrautils2:compresseddirt:3>);
+seedMAT1(<mysticalagriculture:nature_seeds>,getSymbol(<mysticalagriculture:nature_seeds>));
+seedMAT1(<mysticalagriculture:wood_seeds>,<twilightforest:giant_log>);
+seedMAT1(<mysticalagriculture:water_seeds>,<nuclearcraft:water_source_dense>);
+seedMAT1(<mysticalagriculture:ice_seeds>,<nuclearcraft:supercold_ice>);
+
+seedMAT2(<mysticalagriculture:fire_seeds>,<forge:bucketfilled>.withTag({FluidName: "magma_fluid", Amount: 1000}));
+seedMAT2(<mysticalagriculture:dye_seeds>,getSymbol(<mysticalagriculture:dye_seeds>));
+seedMAT2(<mysticalagriculture:nether_seeds>,getSymbol(<mysticalagriculture:nether_seeds>));
+seedMAT2(<mysticalagriculture:coal_seeds>,<minecraft:coal_block>);
+
+seedMAT3(<mysticalagriculture:iron_seeds>,<minecraft:iron_block>);
+seedMAT3(<mysticalagriculture:nether_quartz_seeds>,<minecraft:quartz_block>);
+seedMAT3(<mysticalagriculture:glowstone_seeds>,<minecraft:glowstone>);
+seedMAT3(<mysticalagriculture:redstone_seeds>,<minecraft:redstone_block>);
+seedMAT3(<mysticalagriculture:obsidian_seeds>,<twilightforest:giant_obsidian>);
+
+seedT4(<mysticalagriculture:gold_seeds>,<ore:blockGold>);
+seedT4(<mysticalagriculture:lapis_lazuli_seeds>,<ore:blockLapis>);
+seedT4(<mysticalagriculture:end_seeds>,<ore:oc:stoneEndstone>);
+seedT4(<mysticalagriculture:experience_seeds>,<actuallyadditions:item_solidified_experience>);
+seedT4(<mysticalagriculture:diamond_seeds>,<ore:blockDiamond>);
+seedT4(<mysticalagriculture:emerald_seeds>,<ore:blockEmerald>);
+
+seedMAT1(<mysticalagriculture:zombie_seeds>,getSymbol(<mysticalagriculture:zombie_seeds>));
+
+seedMAT2(<mysticalagriculture:pig_seeds>,getSymbol(<mysticalagriculture:pig_seeds>));
+seedMAT2(<mysticalagriculture:chicken_seeds>,getSymbol(<mysticalagriculture:chicken_seeds>));
+seedMAT2(<mysticalagriculture:cow_seeds>,getSymbol(<mysticalagriculture:cow_seeds>));
+seedMAT2(<mysticalagriculture:sheep_seeds>,getSymbol(<mysticalagriculture:sheep_seeds>));
+seedMAT2(<mysticalagriculture:slime_seeds>,getSymbol(<mysticalagriculture:slime_seeds>));
+
+seedMAT3(<mysticalagriculture:skeleton_seeds>,getSymbol(<mysticalagriculture:skeleton_seeds>));
+seedMAT3(<mysticalagriculture:creeper_seeds>,getSymbol(<mysticalagriculture:creeper_seeds>));
+seedMAT3(<mysticalagriculture:spider_seeds>,getSymbol(<mysticalagriculture:spider_seeds>));
+seedMAT3(<mysticalagriculture:rabbit_seeds>,getSymbol(<mysticalagriculture:rabbit_seeds>));
+seedMAT3(<mysticalagriculture:guardian_seeds>,getSymbol(<mysticalagriculture:guardian_seeds>));
+
+seedT4(<mysticalagriculture:blaze_seeds>,getSymbol(<mysticalagriculture:blaze_seeds>));
+seedT4(<mysticalagriculture:ghast_seeds>,getSymbol(<mysticalagriculture:ghast_seeds>));
+seedT4(<mysticalagriculture:enderman_seeds>,getSymbol(<mysticalagriculture:enderman_seeds>));
+
+seedT5(<mysticalagriculture:wither_skeleton_seeds>,getSymbol(<mysticalagriculture:wither_skeleton_seeds>));
+
+seedMAT2(<mysticalagriculture:rubber_seeds>,<ore:itemRubber>);
+seedMAT2(<mysticalagriculture:sulfur_seeds>,<ore:blockSulfur>);
+seedMAT2(<mysticalagriculture:aluminum_seeds>,<ore:blockAluminum>);
+seedMAT2(<mysticalagriculture:copper_seeds>,<ore:blockCopper>);
+seedMAT3(<mysticalagriculture:saltpeter_seeds>,<ore:blockSaltpeter>);
+seedMAT3(<mysticalagriculture:tin_seeds>,<ore:blockTin>);
+seedMAT3(<mysticalagriculture:bronze_seeds>,<ore:blockBronze>);
+seedMAT3(<mysticalagriculture:zinc_seeds>,<ore:blockZinc>);
+seedMAT3(<mysticalagriculture:brass_seeds>,<ore:blockBrass>);
+seedMAT3(<mysticalagriculture:silver_seeds>,<ore:blockSilver>);
+seedMAT3(<mysticalagriculture:lead_seeds>,<ore:blockLead>);
+seedMAT3(<mysticalagriculture:graphite_seeds>,<ore:blockGraphite>);
+seedT4(<mysticalagriculture:steel_seeds>,<ore:blockSteel>);
+seedT4(<mysticalagriculture:nickel_seeds>,<ore:blockNickel>);
+seedT4(<mysticalagriculture:constantan_seeds>,<ore:blockConstantan>);
+seedT4(<mysticalagriculture:electrum_seeds>,<ore:blockElectrum>);
+seedT4(<mysticalagriculture:invar_seeds>,<ore:blockInvar>);
+seedT5(<mysticalagriculture:mithril_seeds>,<ore:blockMithril>);
+seedT5(<mysticalagriculture:tungsten_seeds>,<ore:blockTungsten>);
+seedT5(<mysticalagriculture:titanium_seeds>,<ore:blockTitanium>);
+seedT5(<mysticalagriculture:uranium_seeds>,<ore:blockUranium>);
+seedT5(<mysticalagriculture:chrome_seeds>,<ore:blockChrome>);
+seedT5(<mysticalagriculture:platinum_seeds>,<ore:blockPlatinum>);
+seedT5(<mysticalagriculture:iridium_seeds>,<ore:blockIridium>);
+seedT4(<mysticalagriculture:basalz_seeds>,getSymbol(<mysticalagriculture:basalz_seeds>));
+seedT4(<mysticalagriculture:blitz_seeds>,getSymbol(<mysticalagriculture:blitz_seeds>));
+seedT4(<mysticalagriculture:blizz_seeds>,getSymbol(<mysticalagriculture:blizz_seeds>));
+seedT4(<mysticalagriculture:amber_seeds>,<ore:blockAmber>);
+seedT4(<mysticalagriculture:peridot_seeds>,<ore:blockPeridot>);
+seedT4(<mysticalagriculture:sapphire_seeds>,<ore:blockSapphire>);
+seedT4(<mysticalagriculture:ruby_seeds>,<ore:blockRuby>);
+seedT5(<mysticalagriculture:terrasteel_seeds>,<ore:blockTerrasteel>);
+seedT5(<mysticalagriculture:refined_obsidian_seeds>,<ore:blockRefinedObsidian>);
+seedT5(<mysticalagriculture:end_steel_seeds>,<ore:blockEndSteel>);
+seedT5(<mysticalagriculture:vibrant_alloy_seeds>,<ore:blockVibrantAlloy>);
+seedT5(<mysticalagriculture:manyullyn_seeds>,<ore:blockManyullyn>);
+seedT5(<mysticalagriculture:fluxed_electrum_seeds>,<ore:blockElectrumFlux>);
+seedT5(<mysticalagriculture:enderium_seeds>,<ore:blockEnderium>);
+seedT5(<mysticalagriculture:lumium_seeds>,<ore:blockLumium>);
+seedT5(<mysticalagriculture:signalum_seeds>,<ore:blockSignalum>);
+seedT5(<mysticalagriculture:starmetal_seeds>,<ore:blockStarmetal>);
+seedT5(<mysticalagriculture:rock_crystal_seeds>,getSymbol(<mysticalagriculture:rock_crystal_seeds>));
+seedT5(<mysticalagriculture:draconium_seeds>,<ore:blockDraconium>);
+seedT5(<mysticalagriculture:knightmetal_seeds>,<ore:blockKnightmetal>);
+seedT5(<mysticalagriculture:void_metal_seeds>,<ore:blockVoid>);
+seedT4(<mysticalagriculture:thaumium_seeds>,<ore:blockThaumium>);
+seedT4(<mysticalagriculture:elementium_seeds>,<ore:blockElementium>);
+seedT4(<mysticalagriculture:energetic_alloy_seeds>,<ore:blockEnergeticAlloy>);
+seedT4(<mysticalagriculture:pulsating_iron_seeds>,<ore:blockPulsatingIron>);
+seedT4(<mysticalagriculture:dark_steel_seeds>,<ore:blockDarkSteel>);
+seedT4(<mysticalagriculture:soularium_seeds>,<ore:blockSoularium>);
+seedT4(<mysticalagriculture:cobalt_seeds>,<ore:blockCobalt>);
+seedT4(<mysticalagriculture:knightslime_seeds>,<ore:blockKnightslime>);
+seedT4(<mysticalagriculture:hop_graphite_seeds>,<ore:blockHOPGraphite>);
+seedT4(<mysticalagriculture:glowstone_ingot_seeds>,<ore:blockRefinedGlowstone>);
+seedT4(<mysticalagriculture:dawnstone_seeds>,<ore:blockDawnstone>);
+seedT4(<mysticalagriculture:osmium_seeds>,<ore:blockOsmium>);
+seedT4(<mysticalagriculture:alumite_seeds>,<ore:blockAlumite>);
+seedT4(<mysticalagriculture:fiery_ingot_seeds>,<ore:blockFiery>);
+seedT4(<mysticalagriculture:thorium_seeds>,<ore:blockThorium>);
+seedT4(<mysticalagriculture:boron_seeds>,<ore:blockBoron>);
+seedT4(<mysticalagriculture:lithium_seeds>,<ore:blockLithium>);
+seedT4(<mysticalagriculture:magnesium_seeds>,<ore:blockMagnesium>);
+seedT4(<mysticalagriculture:compressed_iron_seeds>,<ore:blockIronCompressed>);
+seedT4(<mysticalagriculture:fluix_seeds>,<appliedenergistics2:fluix_block>);
+seedMAT3(<mysticalagriculture:ironwood_seeds>,<ore:blockIronwood>);
+seedMAT3(<mysticalagriculture:steeleaf_seeds>,<ore:blockSteelleaf>);
+seedMAT3(<mysticalagriculture:electrotine_seeds>,<ore:blockElectrotine>);
+seedMAT3(<mysticalagriculture:quicksilver_seeds>,<thaumicbases:quicksilverblock>);
+seedMAT3(<mysticalagriculture:manasteel_seeds>,<ore:blockManasteel>);
+seedMAT3(<mysticalagriculture:conductive_iron_seeds>,<ore:blockConductiveIron>);
+seedMAT3(<mysticalagriculture:redstone_alloy_seeds>,<ore:blockRedstoneAlloy>);
+seedMAT3(<mysticalagriculture:electrical_steel_seeds>,<ore:blockElectricalSteel>);
+seedMAT3(<mysticalagriculture:ardite_seeds>,<ore:blockArdite>);
+seedMAT3(<mysticalagriculture:certus_quartz_seeds>,<appliedenergistics2:quartz_block>);
+seedMAT3(<mysticalagriculture:sky_stone_seeds>,<ore:blockSkyStone>);
+seedMAT3(<mysticalagriculture:aquamarine_seeds>,<ore:blockAquamarine>);
+seedMAT3(<mysticalagriculture:black_quartz_seeds>,<ore:blockQuartzBlack>);
+seedMAT2(<mysticalagriculture:menril_seeds>,<integrateddynamics:crystalized_menril_block>);
+seedMAT2(<mysticalagriculture:basalt_seeds>,<ore:stoneBasalt>);
+seedMAT2(<mysticalagriculture:limestone_seeds>,<ore:stoneLimestone>);
+seedMAT2(<mysticalagriculture:marble_seeds>,<ore:stoneMarble>);
+seedMAT2(<mysticalagriculture:mystical_flower_seeds>,getSymbol(<mysticalagriculture:mystical_flower_seeds>));
+seedMAT2(<mysticalagriculture:grains_of_infinity_seeds>,<enderio:block_infinity:2>);
+seedMAT2(<mysticalagriculture:aluminum_brass_seeds>,<ore:blockAlubrass>);
+seedMAT2(<mysticalagriculture:apatite_seeds>,<ore:blockApatite>);
 
 //读不到配方，上硬办法吧（
 /*

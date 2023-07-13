@@ -237,6 +237,9 @@ mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.dilithium>)
 mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.tiberium>);
 combiner.removeRecipe(<libvulpes:ore0>);
 
-//easier configurator
+//easier configurator and gaugedropper
 recipes.removeByRecipeName("mekanism:configurator");
 recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:dye:4>, null], [<ore:circuitGood>, <ore:gearSteel>, <ore:circuitGood>], [null, <minecraft:stick>, null]]);
+
+recipes.removeByRecipeName("mekanism:gaugedropper");
+recipes.addShaped(<mekanism:gaugedropper>, [[null, <ore:ingotAdvancedElectronicAlloy>, null], [<ore:paneGlass>, null, <ore:paneGlass>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);

@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"强大的路由器，使用各种升级"
+	],
+	tasks: [{
+		uid: "2191be83",
+		type: "item",
+		items: [{
+			item: "modularrouters:item_router"
+		}]
+	}]
+}

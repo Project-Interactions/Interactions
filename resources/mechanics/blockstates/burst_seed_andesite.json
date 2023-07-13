@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [
+            {
+                "model": "mechanics:burst_seed_andesite"
+            }
+        ]
+    }
+}

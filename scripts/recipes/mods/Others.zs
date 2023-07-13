@@ -66,9 +66,7 @@ RecipeUtils.recipeTweak(true, <harvestcraft:waterfilter>, [[<minecraft:iron_bars
 
 recipes.addShaped(<contenttweaker:sub_block_holder_0:11>, [[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>],[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>], [<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>]]);
 
-recipes.removeByRecipeName("mbtool:mbtool");
-recipes.addShapeless(<mbtool:mbtool:10000>,[<multiblocked:multiblock_builder>,<ore:gearElectrum>]);
-
 RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [[null, <ore:plateElectrum>, null], [<botania:elfglass>, <immersiveengineering:metal_decoration2:4>, <botania:elfglass>], [null, <ore:plateElectrum>, null]]);
 RecipeUtils.recipeTweak(true, <torchmaster:mega_torch>, [[<torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>], [<minecraft:diamond>, <botania:bifrostperm>, <minecraft:diamond>], [<minecraft:gold_block>, <botania:bifrostperm>, <minecraft:gold_block>]]);
 
+RecipeUtils.recipeTweak(true, <energymeters:meter>, [[<minecraft:cobblestone>, <ore:blockGlass>, <minecraft:cobblestone>], [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>], [<minecraft:cobblestone>, <ore:circuitBasic>, <minecraft:cobblestone>]]);

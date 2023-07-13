@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"无线短距传输物品"
+	],
+	tasks: [{
+		uid: "9a3fe134",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_phantomface"
+		}]
+	}]
+}

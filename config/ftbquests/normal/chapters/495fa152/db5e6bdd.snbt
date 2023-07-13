@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"d9393b25"
+	],
+	tasks: [{
+		uid: "8f246f16",
+		type: "item",
+		items: [{
+			item: "vaultopic:view_small"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

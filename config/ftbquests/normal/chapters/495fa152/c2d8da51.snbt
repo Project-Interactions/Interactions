@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"拥有更大的范围"
+	],
+	dependencies: [
+		"db5e6bdd"
+	],
+	tasks: [{
+		uid: "be2176ad",
+		type: "item",
+		items: [{
+			item: "vaultopic:view_big"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

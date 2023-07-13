@@ -23,10 +23,16 @@
             "chance": 1.0,
             "content": {
               "particle": "neutron",
-              "amount": 10000,
-              "focus": 1.0,
-              "energy": 4000
+              "amount": 10000000,
+              "focus": 0.0,
+              "energy": 5000
             }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 10000000
           }
         ]
       },
@@ -60,9 +66,9 @@
             "chance": 1.0,
             "content": {
               "particle": "neutron",
-              "amount": 1000,
-              "focus": 1.0,
-              "energy": 8000
+              "amount": 2000000,
+              "focus": 0.0,
+              "energy": 5000
             }
           }
         ],
@@ -102,9 +108,9 @@
             "chance": 1.0,
             "content": {
               "particle": "neutron",
-              "amount": 1000,
-              "focus": 1.0,
-              "energy": 8000
+              "amount": 1000000,
+              "focus": 0.0,
+              "energy": 5000
             }
           }
         ],

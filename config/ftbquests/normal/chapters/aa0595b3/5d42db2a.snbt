@@ -8,7 +8,7 @@
 		uid: "53b33199",
 		type: "item",
 		items: [{
-			item: "contenttweaker:inverse_entropy_alloy"
+			item: "mekanism:cosmicalloy"
 		}]
 	},
 	{

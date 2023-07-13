@@ -1,0 +1,15 @@
+{
+	title: "电脑",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"在MC中编程，自动化的终极实现"
+	],
+	tasks: [{
+		uid: "ada4d633",
+		type: "item",
+		items: [{
+			item: "opencomputers:case1"
+		}]
+	}]
+}
