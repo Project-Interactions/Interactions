@@ -91,14 +91,6 @@ Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_o
 Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_perditio>, <liquid:aerotheum> * 100,1200 );
 Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_vitium>, <liquid:aerotheum> * 100,1200 );
 
-recipes.addShaped(<thermalexpansion:device>, [[null, <minecraft:bucket:*>, null], [<ore:blockGlass>, <teslacorelib:machine_case>, <ore:blockGlass>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-recipes.addShaped(<thermalexpansion:device:1>, [[null, <minecraft:lava_bucket>, null], [<minecraft:brick_block:*>, <teslacorelib:machine_case>, <minecraft:brick_block:*>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-recipes.addShaped(<thermalexpansion:device:2>, [[null, <ore:ingotCopper>, null], [<ore:ingotInvar>, <teslacorelib:machine_case>, <ore:ingotInvar>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-recipes.addShaped(<thermalexpansion:device:5>, [[null, <ore:chestWood>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-recipes.addShaped(<thermalexpansion:device:7>, [[null, <thermalfoundation:tome_lexicon>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-recipes.addShaped(<thermalexpansion:device:10>, [[null, <ore:workbench>, null], [<ore:ingotLead>, <teslacorelib:machine_case>, <ore:ingotLead>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-recipes.addShaped(<thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <teslacorelib:machine_case>, <ore:ingotTin>], [<ore:gearIron>, <ore:ingotPinkMetal>, <ore:gearIron>]]);
-
 addRegexLogFilter("No InductionSmelter recipe exists for.*");
 val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
 val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<thermalfoundation:ore:7>,<techreborn:dust:55>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungstensteel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>];
@@ -128,3 +120,69 @@ Factorizer.addRecipeSplit(<deepmoblearning:glitch_infused_ingot>, <extrautils2:u
 
 Compactor.removeStorageRecipe(<techreborn:ingot:22>);
 Pulverizer.removeRecipe(<libvulpes:ore0>);
+
+RecipeUtils.recipeTweak(true, <thermallogistics:terminal_item>, [[null, <thermallogistics:manager:*>, null], [<thermaldynamics:duct_32>, <thermalexpansion:frame:64>, <thermaldynamics:duct_32>], [<ore:gearCopper>, <ore:circuitAdvanced>, <ore:gearCopper>]]);
+
+recipes.removeByRegex("thermalexpansion:device");
+recipes.addShaped(<thermalexpansion:device>, [[null, <minecraft:bucket:*>, null], [<ore:blockGlass>, <thermalexpansion:frame:64>, <ore:blockGlass>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:1>, [[null, <minecraft:lava_bucket>, null], [<minecraft:brick_block:*>, <thermalexpansion:frame:64>, <minecraft:brick_block:*>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:2>, [[null, <ore:ingotCopper>, null], [<ore:ingotInvar>, <thermalexpansion:frame:64>, <ore:ingotInvar>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:3>, [[null, <ore:ingotCopper>, null], [<ore:plankWood>, <thermalexpansion:frame:64>, <ore:plankWood>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:4>, [[null, <minecraft:fishing_rod:*>, null], [<minecraft:iron_bars:*>, <thermalexpansion:frame:64>, <minecraft:iron_bars:*>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:5>, [[null, <ore:chestWood>, null], [<ore:ingotTin>, <thermalexpansion:frame:64>, <ore:ingotTin>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:6>, [[null, <ore:blockGlass>, null], [<ore:ingotCopper>, <thermalexpansion:frame:64>, <ore:ingotCopper>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:7>, [[null, <thermalfoundation:tome_lexicon>, null], [<ore:ingotLead>, <thermalexpansion:frame:64>, <ore:ingotLead>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:8>, [[null, <thermalfoundation:tome_experience>.withTag({}), null], [<ore:ingotGold>, <thermalexpansion:frame:64>, <ore:ingotGold>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:9>, [[null, <ore:blockGlassHardened>, null], [<ore:ingotSilver>, <thermalexpansion:frame:64>, <ore:ingotSilver>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:10>, [[null, <ore:workbench>, null], [<ore:ingotLead>, <thermalexpansion:frame:64>, <ore:ingotLead>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:11>, [[null, <minecraft:dispenser:*>, null], [<ore:ingotConstantan>, <thermalexpansion:frame:64>, <ore:ingotConstantan>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+recipes.addShaped(<thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <thermalexpansion:frame:64>, <ore:ingotTin>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
+
+//harder upgrades
+val id as string[] = 
+[
+"2","4","5","7","8","9","11","12","13","14"
+];
+
+for ids in id {
+    recipes.removeByRecipeName("thermallogistics:requester_"+ids);
+    recipes.removeByRecipeName("thermallogistics:crafter_"+ids);
+    recipes.removeByRecipeName("thermallogistics:distributor_"+ids);
+}
+recipes.remove(<thermaldynamics:servo>);
+recipes.remove(<thermaldynamics:servo:1>);
+recipes.remove(<thermaldynamics:servo:2>);
+recipes.remove(<thermaldynamics:servo:3>);
+recipes.remove(<thermaldynamics:servo:4>);
+recipes.addShaped(<thermaldynamics:servo>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped(<thermaldynamics:servo:1>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotInvar>, <thermaldynamics:servo>, <ore:ingotInvar>]]);
+recipes.addShaped(<thermaldynamics:servo:2>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotElectrum>, <thermaldynamics:servo:1>, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermaldynamics:servo:3>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotSignalum>, <thermaldynamics:servo:2>, <ore:ingotSignalum>]]);
+recipes.addShaped(<thermaldynamics:servo:4>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotEnderium>, <thermaldynamics:servo:3>, <ore:ingotEnderium>]]);
+
+recipes.remove(<thermaldynamics:filter>);
+recipes.remove(<thermaldynamics:filter:1>);
+recipes.remove(<thermaldynamics:filter:2>);
+recipes.remove(<thermaldynamics:filter:3>);
+recipes.remove(<thermaldynamics:filter:4>);
+recipes.addShaped(<thermaldynamics:filter>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotIron>, <minecraft:paper:*>, <ore:ingotIron>]]);
+recipes.addShaped(<thermaldynamics:filter:1>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotInvar>, <thermaldynamics:filter>, <ore:ingotInvar>]]);
+recipes.addShaped(<thermaldynamics:filter:2>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotElectrum>, <thermaldynamics:filter:1>, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermaldynamics:filter:3>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotSignalum>, <thermaldynamics:filter:2>, <ore:ingotSignalum>]]);
+recipes.addShaped(<thermaldynamics:filter:4>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotEnderium>, <thermaldynamics:filter:3>, <ore:ingotEnderium>]]);
+
+recipes.remove(<thermaldynamics:retriever>);
+recipes.remove(<thermaldynamics:retriever:1>);
+recipes.remove(<thermaldynamics:retriever:2>);
+recipes.remove(<thermaldynamics:retriever:3>);
+recipes.remove(<thermaldynamics:retriever:4>);
+recipes.addShaped(<thermaldynamics:retriever>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotIron>, <minecraft:ender_eye>, <ore:ingotIron>]]);
+recipes.addShaped(<thermaldynamics:retriever:1>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotInvar>, <thermaldynamics:retriever>, <ore:ingotInvar>]]);
+recipes.addShaped(<thermaldynamics:retriever:2>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotElectrum>, <thermaldynamics:retriever:1>, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermaldynamics:retriever:3>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotSignalum>, <thermaldynamics:retriever:2>, <ore:ingotSignalum>]]);
+recipes.addShaped(<thermaldynamics:retriever:4>, [[<ore:nuggetSilver>, <ore:blockGlass>, <ore:nuggetSilver>], [<ore:ingotEnderium>, <thermaldynamics:retriever:3>, <ore:ingotEnderium>]]);
+
+RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade>, [[null, <ore:ingotInvar>, null], [<ore:ingotInvar>, <ore:gearBronze>, <ore:ingotInvar>], [<ore:dustRedstone>, <ore:circuitThaumic>, <ore:dustRedstone>]]);
+RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:1>, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <ore:gearSilver>, <ore:ingotElectrum>], [<ore:blockGlassHardened>, <ore:circuitOperation>, <ore:blockGlassHardened>]]);
+RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:2>, [[null, <ore:ingotSignalum>, null], [<ore:ingotSignalum>, <ore:gearElectrum>, <ore:ingotSignalum>], [<ore:dustCryotheum>, <ore:circuitElite>, <ore:dustCryotheum>]]);
+RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:3>, [[null, <ore:ingotEnderium>, null], [<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>], [<ore:dustPyrotheum>, <ore:circuitMaster>, <ore:dustPyrotheum>]]);

@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "571d4673",
+		type: "item",
+		items: [{
+			item: "regexfilters:regexfilter"
+		}]
+	}]
+}

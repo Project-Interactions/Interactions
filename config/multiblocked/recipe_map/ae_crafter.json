@@ -41,6 +41,22 @@
                 "{id:\"forestry:flexible_casing\",Count:4,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 14,
+              "ore": "circuitElite"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"moreplates:empowered_diamatine_gear\",Count:3,Damage:0s}"
+              ]
+            }
           }
         ],
         "fluid": [
@@ -49,19 +65,19 @@
             "content": "{FluidName:\"empoweredoil\",Amount:4000}"
           }
         ],
-        "tc6_aspect": [
-          {
-            "chance": 1.0,
-            "content": {
-              "aspect": "infernum",
-              "amount": 20
-            }
-          }
-        ],
         "forge_energy": [
           {
             "chance": 1.0,
             "content": 200000
+          }
+        ],
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "machina",
+              "amount": 50
+            }
           }
         ]
       },
@@ -70,9 +86,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 2,
               "matches": [
-                "{id:\"thermalexpansion:frame\",Count:1,Damage:0s}"
+                "{id:\"thermalexpansion:frame\",Count:2,Damage:0s}"
               ]
             }
           }

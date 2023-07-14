@@ -61,7 +61,9 @@ recipes.remove(<botanicadds:gaia_plate>);
 GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
 GaiaPlate.add(<botanicadds:gaiasteel_ingot>,1000000,[<threng:material>,<tconevo:part_arcane_focus>.withTag({Material: "dragonstone"}),<botania:manaresource:14>]);
 //
-Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>,<ore:crystalCrudeOil>],400000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveengineering:metal_decoration0:5>,<mekanism:basicblock2:10>,null,null,null);
+Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:circuitAdvanced>,<ore:crystalCrudeOil>],200000,0xCCFFFF,0x99FFFF,<plustic:mirionblock>,<immersiveengineering:metal_decoration0:5>,<mekanism:basicblock2:10>,null,null,null);
+Agglomeration.addRecipe(<thermalexpansion:frame:64>,[<ore:gearTin>,<ore:gearLead>,<ore:circuitAdvanced>,<teslacorelib:machine_case>],400000,0xCCFFFF,0x99FFFF,<thermalfoundation:storage:1>,<immersiveengineering:metal_decoration0:5>,<thermalfoundation:storage:3>,null,null,null);
+
 //
 RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5000);
 //
@@ -122,3 +124,4 @@ recipes.addShaped(<botania:manaresource:15>,[
     [<astralsorcery:itemusabledust>,<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}),<astralsorcery:itemusabledust>],
     [null,<astralsorcery:itemusabledust>,null]
 ]);
+

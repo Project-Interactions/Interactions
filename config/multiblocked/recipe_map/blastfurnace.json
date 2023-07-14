@@ -5,7 +5,7 @@
   "recipes": [
     {
       "uid": "3868fd61-38f1-4f14-810e-93ea099560f1",
-      "duration": 400,
+      "duration": 40,
       "inputs": {
         "item": [
           {
@@ -121,7 +121,7 @@
     },
     {
       "uid": "0fb41f18-8dec-4d74-8a1b-6b8b64c4912b",
-      "duration": 800,
+      "duration": 80,
       "inputs": {
         "item": [
           {

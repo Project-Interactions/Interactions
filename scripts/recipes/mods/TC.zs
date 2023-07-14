@@ -59,8 +59,8 @@ Crucible.registerRecipe("hedge_string"   , "HEDGEALCHEMY@3", <minecraft:string>,
 
 Crucible.removeRecipe(<thaumcraft:ingot:2>);
 Crucible.removeRecipe(<thaumcraft:ingot>);
-Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum>*5]);
-Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
+Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum>*5]);
+Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY@2", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
 
 Crucible.removeRecipe(<minecraft:ender_pearl>*2);
 Crucible.removeRecipe(<minecraft:chorus_fruit>);

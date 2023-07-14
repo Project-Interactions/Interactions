@@ -1,4 +1,5 @@
 //
+<ore:blockIronwood>.add(<twilightforest:block_storage>);
 
 <ore:ingotNiobium>.add(<taiga:niob_ingot>);
 <ore:dustNiobium>.add(<taiga:niob_dust>);

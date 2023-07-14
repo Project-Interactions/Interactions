@@ -406,8 +406,10 @@ jaopcaSeedTweak(4,"Zirconium");
 jaopcaSeedTweak(3,"Ambrosium");
 
 for seeds in loadedMods["mysticalagriculture"].items {
-    if (seeds.ores[0].name.matches("seedsTier[1-5]")) {
-        recipes.remove(seeds);
+    if (seeds.ores.length != 0) {
+        if (seeds.ores[0].name.matches("seedsTier[1-5]")) {
+            recipes.remove(seeds);
+        }
     }
 }
 function seedMAT1(output as IItemStack,block as IIngredient) as void{
@@ -550,7 +552,7 @@ seedT4(<mysticalagriculture:magnesium_seeds>,<ore:blockMagnesium>);
 seedT4(<mysticalagriculture:compressed_iron_seeds>,<ore:blockIronCompressed>);
 seedT4(<mysticalagriculture:fluix_seeds>,<appliedenergistics2:fluix_block>);
 seedMAT3(<mysticalagriculture:ironwood_seeds>,<ore:blockIronwood>);
-seedMAT3(<mysticalagriculture:steeleaf_seeds>,<ore:blockSteelleaf>);
+seedMAT3(<mysticalagriculture:steeleaf_seeds>,<ore:blockSteeleaf>);
 seedMAT3(<mysticalagriculture:electrotine_seeds>,<ore:blockElectrotine>);
 seedMAT3(<mysticalagriculture:quicksilver_seeds>,<thaumicbases:quicksilverblock>);
 seedMAT3(<mysticalagriculture:manasteel_seeds>,<ore:blockManasteel>);

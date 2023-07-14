@@ -1,0 +1,50 @@
+{
+	title: "充能的水晶",
+	x: 9.0d,
+	y: -2.5d,
+	dependencies: [
+		"a1291ad2"
+	],
+	tasks: [{
+		uid: "a675bae3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered"
+		}]
+	},
+	{
+		uid: "5195c2cf",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 1"
+		}]
+	},
+	{
+		uid: "e197da72",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 2"
+		}]
+	},
+	{
+		uid: "a992ea07",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 3"
+		}]
+	},
+	{
+		uid: "2e0a2040",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 4"
+		}]
+	},
+	{
+		uid: "5ba69eb8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 5"
+		}]
+	}]
+}

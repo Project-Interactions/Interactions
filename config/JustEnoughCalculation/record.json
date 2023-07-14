@@ -4,7 +4,10 @@
         "amount": "",
         "recents": []
     },
-    "player": {"recipes": {}},
+    "player": {
+        "last": "",
+        "recipes": {}
+    },
     "math": {
         "current": "",
         "last": "0",
