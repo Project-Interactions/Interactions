@@ -7,7 +7,6 @@ $ cat .gitignore
 !/scripts
 !/config
 !/groovy
-!/bansoukou
 !/schematics
 !/resources
 !/oresources

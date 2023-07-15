@@ -123,7 +123,8 @@ Pulverizer.removeRecipe(<libvulpes:ore0>);
 
 RecipeUtils.recipeTweak(true, <thermallogistics:terminal_item>, [[null, <thermallogistics:manager:*>, null], [<thermaldynamics:duct_32>, <thermalexpansion:frame:64>, <thermaldynamics:duct_32>], [<ore:gearCopper>, <ore:circuitAdvanced>, <ore:gearCopper>]]);
 
-recipes.removeByRegex("thermalexpansion:device");
+recipes.removeByRecipeName("thermalexpansion:device");
+recipes.removeByRegex("thermalexpansion:device_[0-9]*");
 recipes.addShaped(<thermalexpansion:device>, [[null, <minecraft:bucket:*>, null], [<ore:blockGlass>, <thermalexpansion:frame:64>, <ore:blockGlass>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
 recipes.addShaped(<thermalexpansion:device:1>, [[null, <minecraft:lava_bucket>, null], [<minecraft:brick_block:*>, <thermalexpansion:frame:64>, <minecraft:brick_block:*>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
 recipes.addShaped(<thermalexpansion:device:2>, [[null, <ore:ingotCopper>, null], [<ore:ingotInvar>, <thermalexpansion:frame:64>, <ore:ingotInvar>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);

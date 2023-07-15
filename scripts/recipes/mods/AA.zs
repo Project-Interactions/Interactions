@@ -8,7 +8,7 @@ import mods.actuallyadditions.Crusher;
 
 
 //
-recipes.addShapeless(<actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
+recipes.addShapeless(<actuallyadditions:item_misc:5> * 4, [<ore:blockQuartzBlack>]);
 //
 recipes.remove(<actuallyadditions:block_misc:4>);
 recipes.addShapedMirrored(<actuallyadditions:block_misc:4>, [[<ore:plankTreatedWood>, <ore:stickTreatedWood>, <ore:plankTreatedWood>],[<ore:stickTreatedWood>, <ore:logWood>, <ore:stickTreatedWood>], [<ore:plankTreatedWood>, <ore:stickTreatedWood>, <ore:plankTreatedWood>]]);

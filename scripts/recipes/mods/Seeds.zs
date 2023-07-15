@@ -403,7 +403,6 @@ jaopcaSeedTweak(4,"Zircaloy");
 jaopcaSeedTweak(5,"ZirconiumMolybdenum");
 jaopcaSeedTweak(4,"Zirconium");
 
-jaopcaSeedTweak(3,"Ambrosium");
 
 for seeds in loadedMods["mysticalagriculture"].items {
     if (seeds.ores.length != 0) {
@@ -573,6 +572,35 @@ seedMAT2(<mysticalagriculture:grains_of_infinity_seeds>,<enderio:block_infinity:
 seedMAT2(<mysticalagriculture:aluminum_brass_seeds>,<ore:blockAlubrass>);
 seedMAT2(<mysticalagriculture:apatite_seeds>,<ore:blockApatite>);
 
+function essenceTweak(output as IItemStack,tier as int) as void {
+    var essence as IItemStack = null;
+    for rec in recipes.getRecipesFor(output) {
+        if (rec.resourceDomain == "mysticalagriculture"){
+            recipes.removeByRecipeName(rec.name);
+            essence = rec.ingredients1D[0];
+        }
+    }
+    if (tier == 1){
+        ManaInfusion.addInfusion(output, essence, 50);
+        infuser.addRecipe("BIO", 2, essence, output);
+    }
+    if (tier == 2){
+        FluidToItem.transform(output*16, <liquid:essence>, [essence*32], true);
+        infuser.addRecipe("BIO", 2, essence*2, output);
+    }
+    if (tier == 3){
+        Crucible.registerRecipe("essence_to_material"+output.name, "METALPURIFICATION", output, essence*2, [<aspect:herba>]);
+        infuser.addRecipe("BIO", 2, essence*2, output);
+    }
+    if (tier == 4){
+        Empowerer.addRecipe(output*2, <mysticalagriculture:crafting:28>,essence,essence,essence,essence, 5000, 10);
+        infuser.addRecipe("BIO", 2, essence*2, output);
+    }
+    if (tier == 5){
+        infuser.addRecipe("BIO", 2, essence*3, output);
+    }
+}
+essenceTweak(<thermalfoundation:material:128>,2);
 //读不到配方，上硬办法吧（
 /*
 function finalTweak(input as string[],tier as int) as void{

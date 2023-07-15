@@ -18,6 +18,7 @@ import mods.techreborn.fluidReplicator;
 import mods.techreborn.grinder;
 import mods.techreborn.chemicalReactor;
 import mods.techreborn.fluidGen;
+import mods.techreborn.centrifuge;
 
 
 recipes.removeShaped(<techreborn:upgrades> * 2, [[null, <techreborn:part:8>, null], [<techreborn:cable:5>, <ore:circuitBasic>, <techreborn:cable:5>]]);
