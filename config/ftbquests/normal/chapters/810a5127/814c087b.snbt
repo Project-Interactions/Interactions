@@ -16,22 +16,20 @@
 		}]
 	}],
 	rewards: [{
-		uid: "4718456d",
+		uid: "85fbcc50",
 		type: "item",
 		item: {
 			id: "simple_trophies:trophy",
 			tag: {
-				TrophyItem: {
-					id: "twilightforest:lamp_of_cinders",
-					Count: 1b,
-					Damage: 0s
-				},
-				TrophyName: "暮色奖杯",
-				TrophyColorRed: 65,
-				TrophyColorGreen: 205,
-				TrophyColorBlue: 52,
+				TrophyName: "Tier 3",
 				TrophyVariant: "classic",
-				TrophyShowsTooltip: 1b
+				TrophyItem: {
+					id: "contenttweaker:infused_mana_circuit",
+					Count: 1
+				},
+				TrophyColorRed: 0,
+				TrophyColorGreen: 20,
+				TrophyColorBlue: 164
 			}
 		}
 	}]

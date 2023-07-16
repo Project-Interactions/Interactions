@@ -15,6 +15,9 @@
 		},
 		{
 			"url": "https://github.com/Project-Interactions/The-One-Probe-Community-Edition/releases/download/1.1.5-server/TheOneProbe-CE-1.12-1.1.5-server.jar"
+		},
+		{
+			"url":"https://cdn.modrinth.com/data/vVXPbodS/versions/EE5muOAl/Fluidlogged-API-v2.2.5-mc1.12.2.jar"
 		}
 	]
 }

@@ -1,14 +1,33 @@
 {
-	x: 10.5d,
+	x: 9.5d,
 	y: 5.5d,
 	dependencies: [
 		"220d510b"
 	],
+	size: 1.6d,
 	tasks: [{
 		uid: "67772c08",
 		type: "item",
 		items: [{
 			item: "botanicadds:gaia_shard"
 		}]
+	}],
+	rewards: [{
+		uid: "7b5a3dc3",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyName: "Tier 6",
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:psio_powered_circuit",
+					Count: 1
+				},
+				TrophyColorRed: 55,
+				TrophyColorGreen: 133,
+				TrophyColorBlue: 216
+			}
+		}
 	}]
 }

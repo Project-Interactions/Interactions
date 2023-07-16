@@ -576,7 +576,7 @@ function essenceTweak(output as IItemStack,tier as int) as void {
     var essence as IItemStack = null;
     for rec in recipes.getRecipesFor(output) {
         if (rec.resourceDomain == "mysticalagriculture"){
-            recipes.removeByRecipeName(rec.name);
+            recipes.removeShaped(output, rec.ingredients2D);
             essence = rec.ingredients1D[0];
         }
     }
@@ -601,6 +601,7 @@ function essenceTweak(output as IItemStack,tier as int) as void {
     }
 }
 essenceTweak(<thermalfoundation:material:128>,2);
+essenceTweak(<draconicevolution:draconium_ingot>,5);
 //读不到配方，上硬办法吧（
 /*
 function finalTweak(input as string[],tier as int) as void{

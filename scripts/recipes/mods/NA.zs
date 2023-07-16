@@ -48,5 +48,3 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <auraddons:item_creative_aura_c
 	[null, <naturesaura:field_creator>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:aura_detector>, <naturesaura:field_creator>, null], 
 	[null, null, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, null, null]
 ]);
-
-Altar.addRecipe("nagastone", <naturesaura:infused_stone>, <twilightforest:naga_stone:1>, null, 20, 50);

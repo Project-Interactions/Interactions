@@ -16,6 +16,7 @@
 	rewards: [{
 		uid: "0cc5db24",
 		type: "item",
-		item: "extendedcrafting:storage"
+		item: "extendedcrafting:storage",
+		count: 2
 	}]
 }

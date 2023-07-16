@@ -13,9 +13,9 @@
 		count: 4L
 	}],
 	rewards: [{
-		uid: "7ed95c6b",
+		uid: "1145aa34",
 		type: "item",
-		item: "minecraft:gold_ingot",
-		count: 16
+		item: "thaumicrestoration:item_ingot 1 1",
+		count: 8
 	}]
 }

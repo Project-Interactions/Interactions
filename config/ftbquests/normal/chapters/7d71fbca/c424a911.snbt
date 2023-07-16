@@ -27,5 +27,24 @@
 		type: "item",
 		item: "extendedcrafting:storage 1 5",
 		count: 8
+	},
+	{
+		uid: "62882820",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyName: "Tier 7",
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "qmd:semiconductor",
+					Count: 1,
+					Damage: 6s
+				},
+				TrophyColorRed: 0,
+				TrophyColorGreen: 0,
+				TrophyColorBlue: 128
+			}
+		}
 	}]
 }

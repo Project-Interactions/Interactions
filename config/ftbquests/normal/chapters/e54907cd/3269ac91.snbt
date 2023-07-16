@@ -13,6 +13,7 @@
 		"44eddade",
 		"3e22678e"
 	],
+	size: 1.6d,
 	tasks: [{
 		uid: "91bfc3f2",
 		type: "item",
@@ -21,9 +22,21 @@
 		}]
 	}],
 	rewards: [{
-		uid: "fb60ba2d",
+		uid: "b7aa0c16",
 		type: "item",
-		item: "extendedcrafting:storage",
-		count: 2
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyName: "Tier 5",
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:thermal_pneumatic_circuit",
+					Count: 1
+				},
+				TrophyColorRed: 70,
+				TrophyColorGreen: 185,
+				TrophyColorBlue: 1
+			}
+		}
 	}]
 }

@@ -29,5 +29,23 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ede248ff",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyName: "Tier 4",
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:operation_circuit",
+					Count: 1
+				},
+				TrophyColorRed: 236,
+				TrophyColorGreen: 0,
+				TrophyColorBlue: 0
+			}
+		}
 	}]
 }

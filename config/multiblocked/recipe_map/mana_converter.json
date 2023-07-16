@@ -139,6 +139,42 @@
       }
     },
     {
+      "uid": "08c6d186-b61b-446e-824d-122caf11b899",
+      "duration": 30,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "stone"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"twilightforest:naga_stone\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "twilight_forest"
+          }
+        }
+      ]
+    },
+    {
       "uid": "539f987e-596d-4d90-9713-e4b59195c7a0",
       "duration": 400,
       "inputs": {

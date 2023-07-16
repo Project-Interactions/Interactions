@@ -72,5 +72,23 @@
 			}
 		}],
 		count: 9L
+	}],
+	rewards: [{
+		uid: "3c64cdb7",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyName: "Tier 1",
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:assembled_manual_circuit",
+					Count: 1
+				},
+				TrophyColorRed: 154,
+				TrophyColorGreen: 154,
+				TrophyColorBlue: 154
+			}
+		}
 	}]
 }

@@ -13,5 +13,23 @@
 		items: [{
 			item: "contenttweaker:material_part 1 127"
 		}]
+	}],
+	rewards: [{
+		uid: "d1649dab",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyName: "Tier 2",
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:processor_mechanical_circuit",
+					Count: 1
+				},
+				TrophyColorRed: 162,
+				TrophyColorGreen: 205,
+				TrophyColorBlue: 3
+			}
+		}
 	}]
 }

@@ -103,12 +103,7 @@ CrystalInfusion.addRecipe(fs,<contenttweaker:thaumic_suncrystal>,"alkimia",<extr
 
 ArcaneWorkbench.registerShapedRecipe("thaumic_circuit",fs,20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>],<contenttweaker:thaumic_circuit>*3,[[<thaumcraft:morphic_resonator>,<thaumcraft:mechanism_simple>,<thaumcraft:filter>],[<thaumcraft:mechanism_simple>,<contenttweaker:thaumic_suncrystal>,<thaumcraft:mechanism_simple>],[<thaumcraft:filter>,<thaumcraft:mechanism_simple>,<thaumcraft:morphic_resonator>]]);
 
-
-
-
-
-
-
+Crucible.registerRecipe("demonic_metal", fs, <extrautils2:ingredients:11>, <thaumicrestoration:item_ingot:1>, [<aspect:infernus>*10,<aspect:infernum>*5]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <thaumicenergistics:essentia_cell_creative>, [
 	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>], 

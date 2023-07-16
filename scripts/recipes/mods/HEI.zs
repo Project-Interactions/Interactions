@@ -2,11 +2,6 @@ import mods.jei.JEI;
 import moretweaker.jei.MoreJei;
 import crafttweaker.item.IItemStack;
 
-MoreJei.addDescription(<aeble:bubble_ring>,[game.localize("ia.jei.bubble_ring")]);
-MoreJei.addDescription(<aeble:obsidian_ring>,[game.localize("ia.jei.obsidian_ring")]);
-MoreJei.addDescription(<aeble:air_ring>,[game.localize("ia.jei.air_ring")]);
-MoreJei.addDescription(<aeble:regeneration_ring>,[game.localize("ia.jei.regeneration_ring")]);
-
 
 var removeDescriptors as IItemStack[] = [
     <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
@@ -17,7 +12,10 @@ var removeDescriptors as IItemStack[] = [
     <appliedenergistics2:material:15>,
     <techreborn:scrapbox>,
     <minecraft:diamond>,
-    <minecraft:gold_ingot>
+    <minecraft:gold_ingot>,
+    <lightningcraft:material:11>,
+    <lightningcraft:ingot>,
+    <extrautils2:ingredients:11>
 ];
 
 for remove in removeDescriptors {
