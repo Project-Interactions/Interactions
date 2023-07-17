@@ -485,6 +485,7 @@ seedT4(<mysticalagriculture:enderman_seeds>,getSymbol(<mysticalagriculture:ender
 
 seedT5(<mysticalagriculture:wither_skeleton_seeds>,getSymbol(<mysticalagriculture:wither_skeleton_seeds>));
 
+seedMAT2(<mysticalagriculture:silicon_seeds>,<ore:blockSilicon>);
 seedMAT2(<mysticalagriculture:rubber_seeds>,<ore:itemRubber>);
 seedMAT2(<mysticalagriculture:sulfur_seeds>,<ore:blockSulfur>);
 seedMAT2(<mysticalagriculture:aluminum_seeds>,<ore:blockAluminum>);
@@ -531,7 +532,7 @@ seedT5(<mysticalagriculture:draconium_seeds>,<ore:blockDraconium>);
 seedT5(<mysticalagriculture:knightmetal_seeds>,<ore:blockKnightmetal>);
 seedT5(<mysticalagriculture:void_metal_seeds>,<ore:blockVoid>);
 seedT4(<mysticalagriculture:thaumium_seeds>,<ore:blockThaumium>);
-seedT4(<mysticalagriculture:elementium_seeds>,<ore:blockElementium>);
+seedT4(<mysticalagriculture:elementium_seeds>,<ore:blockElvenElementium>);
 seedT4(<mysticalagriculture:energetic_alloy_seeds>,<ore:blockEnergeticAlloy>);
 seedT4(<mysticalagriculture:pulsating_iron_seeds>,<ore:blockPulsatingIron>);
 seedT4(<mysticalagriculture:dark_steel_seeds>,<ore:blockDarkSteel>);
@@ -600,8 +601,140 @@ function essenceTweak(output as IItemStack,tier as int) as void {
         infuser.addRecipe("BIO", 2, essence*3, output);
     }
 }
+essenceTweak(<nuclearcraft:gem:6>,2);
 essenceTweak(<thermalfoundation:material:128>,2);
+essenceTweak(<minecraft:coal>,2);
+essenceTweak(<techreborn:part:32>,2);
+essenceTweak(<thermalfoundation:material:771>,2);
+essenceTweak(<thermalfoundation:material:132>,2);
+essenceTweak(<tconstruct:ingots:5>,2);
+essenceTweak(<forestry:apatite>,2);
+essenceTweak(<minecraft:quartz>,3);
+essenceTweak(<minecraft:glowstone_dust>,3);
+essenceTweak(<minecraft:redstone>,3);
+essenceTweak(<minecraft:obsidian>,3);
+essenceTweak(<thermalfoundation:material:772>,3);
+essenceTweak(<thermalfoundation:material:129>,3);
+essenceTweak(<thermalfoundation:material:163>,3);
+essenceTweak(<thermalfoundation:material:130>,3);
+essenceTweak(<thermalfoundation:material:131>,3);
+essenceTweak(<nuclearcraft:ingot:8>,3);
+essenceTweak(<tconstruct:ingots:1>,3);
+essenceTweak(<enderio:item_alloy_ingot>,3);
+essenceTweak(<enderio:item_alloy_ingot:3>,3);
+essenceTweak(<enderio:item_alloy_ingot:4>,3);
+essenceTweak(<botania:manaresource>,3);
+essenceTweak(<thaumcraft:quicksilver>,3);
+essenceTweak(<projectred-core:resource_item:105>,3);
+essenceTweak(<twilightforest:steeleaf_ingot>,3);
+essenceTweak(<twilightforest:ironwood_ingot>,3);
+essenceTweak(<actuallyadditions:item_misc:5>,3);
+essenceTweak(<appliedenergistics2:sky_stone_block>,3);
+essenceTweak(<appliedenergistics2:material>,3);
+essenceTweak(<minecraft:dye:4>,4);
+essenceTweak(<minecraft:diamond>,4);
+essenceTweak(<minecraft:emerald>,4);
+essenceTweak(<thermalfoundation:material:160>,4);
+essenceTweak(<thermalfoundation:material:133>,4);
+essenceTweak(<thermalfoundation:material:164>,4);
+essenceTweak(<thermalfoundation:material:161>,4);
+essenceTweak(<thermalfoundation:material:162>,4);
+essenceTweak(<projectred-core:resource_item:200>,4);
+essenceTweak(<projectred-core:resource_item:201>,4);
+essenceTweak(<projectred-core:resource_item:202>,4);
+essenceTweak(<thaumcraft:amber>,4);
+essenceTweak(<immersiveengineering:material:19>,4);
+essenceTweak(<tconstruct:ingots:3>,4);
+essenceTweak(<tconstruct:ingots>,4);
+essenceTweak(<enderio:item_alloy_ingot:7>,4);
+essenceTweak(<enderio:item_alloy_ingot:6>,4);
+essenceTweak(<enderio:item_alloy_ingot:5>,4);
+essenceTweak(<enderio:item_alloy_ingot:1>,4);
+essenceTweak(<botania:manaresource:7>,4);
+essenceTweak(<thaumcraft:ingot>,4);
+essenceTweak(<embers:ingot_dawnstone>,4);
+essenceTweak(<mekanism:ingot:3>,4);
+essenceTweak(<plustic:alumiteingot>,4);
+essenceTweak(<twilightforest:fiery_ingot>,4);
+essenceTweak(<nuclearcraft:ingot:3>,4);
+essenceTweak(<nuclearcraft:ingot:5>,4);
+essenceTweak(<nuclearcraft:ingot:6>,4);
+essenceTweak(<nuclearcraft:ingot:7>,4);
+essenceTweak(<appliedenergistics2:material:7>,4);
+essenceTweak(<astralsorcery:itemcraftingcomponent:1>,5);
+essenceTweak(<twilightforest:knightmetal_ingot>,5);
+essenceTweak(<mekanism:ingot>,5);
+essenceTweak(<thaumcraft:ingot:1>,5);
+essenceTweak(<botania:manaresource:4>,5);
+essenceTweak(<enderio:item_alloy_ingot:8>,5);
+essenceTweak(<enderio:item_alloy_ingot:2>,5);
+essenceTweak(<tconstruct:ingots:2>,5);
+essenceTweak(<redstonearsenal:material:32>,5);
+essenceTweak(<thermalfoundation:material:167>,5);
+essenceTweak(<thermalfoundation:material:166>,5);
+essenceTweak(<thermalfoundation:material:165>,5);
+essenceTweak(<thermalfoundation:material:135>,5);
+essenceTweak(<thermalfoundation:material:134>,5);
+essenceTweak(<techreborn:ingot:3>,5);
+essenceTweak(<thermalfoundation:material:136>,5);
 essenceTweak(<draconicevolution:draconium_ingot>,5);
+//specials
+Crucible.registerRecipe("essence_to_material"+"iron", "METALPURIFICATION", <minecraft:iron_ingot>, <mysticalagriculture:iron_essence>*2, [<aspect:herba>]);
+infuser.addRecipe("BIO", 2, <mysticalagriculture:iron_essence>*2, <minecraft:iron_ingot>);
+Empowerer.addRecipe(<minecraft:gold_ingot>*2, <mysticalagriculture:crafting:28>,<mysticalagriculture:gold_essence>,<mysticalagriculture:gold_essence>,<mysticalagriculture:gold_essence>,<mysticalagriculture:gold_essence>, 5000, 10);
+infuser.addRecipe("BIO", 2, <mysticalagriculture:gold_essence>*2, <minecraft:gold_ingot>);
+Crucible.registerRecipe("essence_to_material"+"brass", "METALPURIFICATION", <techreborn:ingot:1>, <mysticalagriculture:brass_essence>*2, [<aspect:herba>]);
+Crucible.registerRecipe("essence_to_material"+"alchemical_brass", "METALPURIFICATION", <thaumcraft:ingot:2>, <mysticalagriculture:brass_essence>*4, [<aspect:instrumentum>]);
+infuser.addRecipe("BIO", 2, <mysticalagriculture:brass_essence>*2, <techreborn:ingot:1>);
+
+recipes.removeByRecipeName("mysticalagriculture:itemcraftingcomponent");
+Crucible.registerRecipe("essence_to_material"+"aquamarine", "METALPURIFICATION", <astralsorcery:itemcraftingcomponent>, <mysticalagriculture:aquamarine_essence>*2, [<aspect:herba>]);
+infuser.addRecipe("BIO", 2, <mysticalagriculture:aquamarine_essence>*2, <astralsorcery:itemcraftingcomponent>);
+
+recipes.removeByRecipeName("mysticalagriculture:dustbedrock");
+FluidToItem.transform(<enderio:item_material:20>*16, <liquid:essence>, [<mysticalagriculture:grains_of_infinity_essence>*32], true);
+infuser.addRecipe("BIO", 2, <mysticalagriculture:grains_of_infinity_essence>*2, <enderio:item_material:20>);
+
+recipes.remove(<astralsorcery:blockcustomore>);
+infuser.addRecipe("BIO", 2, <mysticalagriculture:rock_crystal_essence>*16, <astralsorcery:blockcustomore>);
+
+recipes.removeByRecipeName("mysticalagriculture:ingotironcompressed");
+Empowerer.addRecipe(<pneumaticcraft:ingot_iron_compressed>*2, <mysticalagriculture:crafting:28>,<mysticalagriculture:compressed_iron_essence>,<mysticalagriculture:compressed_iron_essence>,<mysticalagriculture:compressed_iron_essence>,<mysticalagriculture:compressed_iron_essence>, 5000, 10);
+infuser.addRecipe("BIO", 2, <mysticalagriculture:compressed_iron_essence>*2, <pneumaticcraft:ingot_iron_compressed>);
+
+function essenceTweakSpecial(output as IItemStack,tier as int,realoutput as IItemStack) as void {
+    var essence as IItemStack = null;
+    for rec in recipes.getRecipesFor(output) {
+        if (rec.resourceDomain == "mysticalagriculture"){
+            recipes.removeShaped(output, rec.ingredients2D);
+            essence = rec.ingredients1D[0];
+        }
+    }
+    if (tier == 1){
+        ManaInfusion.addInfusion(realoutput, essence, 50);
+        infuser.addRecipe("BIO", 2, essence, realoutput);
+    }
+    if (tier == 2){
+        FluidToItem.transform(realoutput*16, <liquid:essence>, [essence*32], true);
+        infuser.addRecipe("BIO", 2, essence*2, realoutput);
+    }
+    if (tier == 3){
+        Crucible.registerRecipe("essence_to_material"+realoutput.name, "METALPURIFICATION", realoutput, essence*2, [<aspect:herba>]);
+        infuser.addRecipe("BIO", 2, essence*2, realoutput);
+    }
+    if (tier == 4){
+        Empowerer.addRecipe(realoutput*2, <mysticalagriculture:crafting:28>,essence,essence,essence,essence, 5000, 10);
+        infuser.addRecipe("BIO", 2, essence*2, realoutput);
+    }
+    if (tier == 5){
+        infuser.addRecipe("BIO", 2, essence*3, realoutput);
+    }
+}
+essenceTweakSpecial(<qmd:ingot:8>,4,<mekanism:ingot:1>);
+essenceTweakSpecial(<qmd:ingot>,5,<techreborn:ingot:15>);
+essenceTweakSpecial(<qmd:ingot:3>,5,<techreborn:ingot:14>);
+essenceTweakSpecial(<nuclearcraft:ingot:4>,5,<mekanism:ingot:8>);
+essenceTweakSpecial(<qmd:ingot:7>,3,<techreborn:ingot:18>);
 //读不到配方，上硬办法吧（
 /*
 function finalTweak(input as string[],tier as int) as void{

@@ -15,7 +15,7 @@
 	rewards: [{
 		uid: "1145aa34",
 		type: "item",
-		item: "thaumicrestoration:item_ingot 1 1",
+		item: "minecraft:gold_ingot",
 		count: 8
 	}]
 }

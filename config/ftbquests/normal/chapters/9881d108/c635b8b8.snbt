@@ -1,5 +1,5 @@
 {
-	x: 1.6d,
+	x: 1.5d,
 	y: 24.0d,
 	shape: "gear",
 	text: [
@@ -9,7 +9,7 @@
 	dependencies: [
 		"4ff707f8"
 	],
-	size: 1.6d,
+	size: 1.5d,
 	tasks: [{
 		uid: "b9084d79",
 		type: "item",

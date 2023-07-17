@@ -18,5 +18,23 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f3c772d",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyName: "Finally",
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "appliedenergistics2:creative_storage_cell",
+					Count: 1
+				},
+				TrophyColorRed: 255,
+				TrophyColorGreen: 255,
+				TrophyColorBlue: 255
+			}
+		}
 	}]
 }

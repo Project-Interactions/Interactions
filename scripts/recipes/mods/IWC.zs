@@ -34,6 +34,10 @@ FluidToItem.transform(<thaumcraft:sapling_greatwood>, <liquid:astralsorcery.liqu
 FluidToItem.transform(<thermalfoundation:material:70>, <liquid:aqua_regia>, [<contenttweaker:material_part:108>*3], true);
 FluidToItem.transform(<techreborn:part:32>*2, <liquid:distwater>, [<contenttweaker:pre_rubber>*3], true);
 
+FluidToItem.transform(<tconstruct:edible:1>, <liquid:witch_water>, [<ore:slimeball>,<ore:dyeLightBlue>], true);
+FluidToItem.transform(<tconstruct:edible:2>, <liquid:witch_water>, [<ore:slimeball>,<ore:dyePurple>], true);
+FluidToItem.transform(<tconstruct:edible:4>, <liquid:witch_water>, [<ore:slimeball>,<ore:dyeOrange>], true);
+
 //boom
 explosioncrafting.addRecipe(<avaritia:neutronium_compressor>,<extendedcrafting:compressor>,50);
 explosioncrafting.addRecipe(<techreborn:part:44>,<techreborn:rubber_sapling> ,0);

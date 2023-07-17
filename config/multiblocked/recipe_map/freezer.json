@@ -136,7 +136,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"qmd:ingot\",Count:1,Damage:0s}"
+                "{id:\"techreborn:ingot\",Count:1,Damage:15s}"
               ]
             }
           }

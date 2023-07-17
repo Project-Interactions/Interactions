@@ -39,7 +39,7 @@ ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
 ArcaneWorkbench.registerShapedRecipe("tc:mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
-ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>*2,[[<thaumicrestoration:item_plate:3>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:2>],[<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate:4>,<thaumcraft:mechanism_simple>],[<thaumicrestoration:item_plate:1>,<thaumcraft:mechanism_simple>,<thaumicrestoration:item_plate>]]);
+ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>*2,[[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>],[<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>],[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>]]);
 
 ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
 ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<botania:managlass>,<botania:managlass>,<botania:managlass>],[<botania:managlass>,<thaumicaugmentation:material:1>,<botania:managlass>],[<botania:managlass>,<botania:managlass>,<botania:managlass>]]);
@@ -103,7 +103,7 @@ CrystalInfusion.addRecipe(fs,<contenttweaker:thaumic_suncrystal>,"alkimia",<extr
 
 ArcaneWorkbench.registerShapedRecipe("thaumic_circuit",fs,20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>],<contenttweaker:thaumic_circuit>*3,[[<thaumcraft:morphic_resonator>,<thaumcraft:mechanism_simple>,<thaumcraft:filter>],[<thaumcraft:mechanism_simple>,<contenttweaker:thaumic_suncrystal>,<thaumcraft:mechanism_simple>],[<thaumcraft:filter>,<thaumcraft:mechanism_simple>,<thaumcraft:morphic_resonator>]]);
 
-Crucible.registerRecipe("demonic_metal", fs, <extrautils2:ingredients:11>, <thaumicrestoration:item_ingot:1>, [<aspect:infernus>*10,<aspect:infernum>*5]);
+Crucible.registerRecipe("demonic_metal", "METALLURGY@2", <extrautils2:ingredients:11>, <minecraft:gold_ingot>, [<aspect:infernum>*5]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <thaumicenergistics:essentia_cell_creative>, [
 	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>], 

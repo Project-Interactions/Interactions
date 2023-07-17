@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: -3.5d,
+	x: 0.0d,
+	y: -2.0d,
 	text: [
 		"在之后的研究中，你可以解锁复制世界盐",
 		"神秘时代6的开始",
@@ -9,7 +9,7 @@
 	dependencies: [
 		"814c087b"
 	],
-	size: 1.5d,
+	size: 1.6d,
 	tasks: [{
 		uid: "7babafc2",
 		type: "item",

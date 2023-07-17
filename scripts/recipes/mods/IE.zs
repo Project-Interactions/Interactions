@@ -128,7 +128,6 @@ ArcFurnace.removeRecipe(<thaumcraft:ingot:2>);
 ArcFurnace.removeRecipe(<thaumcraft:ingot:2>*4);
 AlloySmelter.removeRecipe(<thaumcraft:ingot:2>*4);
 recipes.remove(<thaumcraft:ingot:2>*4);
-recipes.addShaped(<techreborn:ingot:1> * 4, [[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>],[<mysticalagriculture:brass_essence>, null, <mysticalagriculture:brass_essence>], [<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>]]);
 mods.forestry.Carpenter.removeRecipe(<thaumcraft:ingot:2>*9);
 recipes.remove(<thaumcraft:ingot:2>);
 recipes.addShaped(<thaumcraft:ingot:2>,[[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>]]);

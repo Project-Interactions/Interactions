@@ -4,6 +4,7 @@
   "disabled": false,
 
   "target-item": "draconicevolution:fusion_crafting_core",
+  "target-count": 2,
 
   "duration": 480,
   "symmetrical": true,

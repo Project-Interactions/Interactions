@@ -143,3 +143,7 @@
 
 <ore:gemEndDiamond>.add(<calculator:enddiamond>);
 <ore:blockEndDiamond>.add(<calculator:material:8>);
+
+<ore:blockManasteel>.add(<botania:storage>);
+<ore:blockElvenElementium>.add(<botania:storage:2>);
+<ore:blockTerrasteel>.add(<botania:storage:1>);

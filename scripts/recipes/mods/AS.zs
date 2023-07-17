@@ -70,8 +70,6 @@ StarlightInfusion.addInfusion(<botania:bifrostpermpane>, <astralsorcery:itemcraf
 Lightwell.removeLiquefaction(<astralsorcery:itemcraftingcomponent>, null);
 Lightwell.addLiquefaction(<contenttweaker:aquamarine_menril_mixture>, <liquid:astralsorcery.liquidstarlight>*1000, 1, 0.8, 0);
 
-StarlightInfusion.removeInfusion(<draconicevolution:draconium_ingot>*3);
-
 
 Grindstone.addRecipe(<twilightforest:knightmetal_ingot>, <twilightforest:armor_shard_cluster>);
 Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "iron"}), <twilightforest:armor_shard>);

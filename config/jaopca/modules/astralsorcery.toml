@@ -1,5 +1,5 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = []
+	materialBlacklist = ["Abyssum", "Aurorium", "Dilithium", "Draconium", "Duranite", "Eezo", "Jauxum", "Iridium", "Karmesine", "Osram", "Ovium", "Osmium", "Palladium", "Platinum", "Prometheum", "Tiberium", "Titanium", "Tungsten", "Valyrium", "Uru", "Vibranium"]
 
