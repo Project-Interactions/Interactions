@@ -289,3 +289,19 @@ Thermoelectric.addTemperatureSource(<ore:blockFiery>,5000);
 Thermoelectric.addTemperatureSource(<ore:blockSolarium>,8000);
 Thermoelectric.addTemperatureSource(<ore:blockNucleum>,8000);
 Thermoelectric.addTemperatureSource(<ore:blockLumix>,8000);
+
+//harder ie ae cables
+RecipeUtils.recipeTweak(true,<immersivecables:coil_block>, [[<immersivecables:wire_coil>, <immersivecables:wire_coil>, <immersivecables:wire_coil>], [<immersivecables:wire_coil>, <appliedenergistics2:part:36>, <immersivecables:wire_coil>], [<immersivecables:wire_coil>, <immersivecables:wire_coil>, <immersivecables:wire_coil>]]);
+RecipeUtils.recipeTweak(true,<immersivecables:coil_block:1>, [[<immersivecables:wire_coil:1>, <immersivecables:wire_coil:1>, <immersivecables:wire_coil:1>], [<immersivecables:wire_coil:1>, <appliedenergistics2:part:516>, <immersivecables:wire_coil:1>], [<immersivecables:wire_coil:1>, <immersivecables:wire_coil:1>, <immersivecables:wire_coil:1>]]);
+recipes.remove(<immersivecables:relay_fluix> * 8);
+recipes.remove( <immersivecables:relay_fluix:1> * 8);
+recipes.remove(<immersivecables:connector_quartz> * 4);
+recipes.addShaped(<immersivecables:relay_fluix>, [[null, <appliedenergistics2:material:12>, null], [<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:12>, <appliedenergistics2:smooth_sky_stone_block>]]);
+recipes.addShaped(<immersivecables:relay_fluix:1>, [[null, <appliedenergistics2:material:7>, null], [<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:7>, <appliedenergistics2:smooth_sky_stone_block>], [<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:7>, <appliedenergistics2:smooth_sky_stone_block>]]);
+recipes.addShaped(<immersivecables:connector_quartz>, [[null, <appliedenergistics2:material:11>, null], [<ore:blockGlass>, <appliedenergistics2:material:11>, <ore:blockGlass>]]);
+
+//af
+recipes.remove(<alternatingflux:material>);
+recipes.remove(<alternatingflux:wirecoil> * 4);
+recipes.addShaped(<alternatingflux:wirecoil>, [[<ore:dustHOPGraphite>, <ore:wireConstantan>, null], [<ore:wireConstantan>, <ore:stickWood> | <ore:stickTreatedWood>, <ore:wireConstantan>], [null, <ore:wireConstantan>, <ore:dustHOPGraphite>]]);
+recipes.addShaped(<alternatingflux:wirecoil>, [[null, <ore:wireConstantan>, <ore:dustHOPGraphite>], [<ore:wireConstantan>, <ore:stickWood> | <ore:stickTreatedWood>, <ore:wireConstantan>], [<ore:dustHOPGraphite>, <ore:wireConstantan>, null]]);

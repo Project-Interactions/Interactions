@@ -9,7 +9,7 @@
     "detectMultiMCManifest": true,
     "detectMCUpdaterInstance": true,
     "detectTechnicPack": true,
-    "detectBiomeData": true,
+    "detectBiomeData": false,
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "1079269093657546752",
@@ -21,7 +21,7 @@
     "autoRegister": false
   },
   "biomeSettings": {
-    "fallbackBiomeIcon": "modpack_logo",
+    "fallbackBiomeIcon": "unknown",
     "biomeData": {
       "default": {
         "textOverride": "Playing in {biome.name}",
@@ -47,7 +47,7 @@
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "modpack_logo",
+    "fallbackDimensionIcon": "unknown",
     "dimensionData": {
       "default": {
         "textOverride": "In the {dimension.name}",
@@ -73,9 +73,9 @@
     }
   },
   "serverSettings": {
-    "fallbackServerIcon": "modpack_logo",
-    "fallbackServerName": "Minecraft Server",
-    "fallbackServerMotd": "A Minecraft Server",
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Interactions Server",
+    "fallbackServerMotd": "Interactions",
     "serverData": {
       "default": {
         "textOverride": "Playing on {server.motd.raw}",
@@ -103,7 +103,6 @@
   "statusMessages": {
     "mainMenuData": {
       "textOverride": "In the Main Menu",
-      "iconOverride": "modpack_logo",
       "data": {
         "enabled": true,
         "useAsMain": false,
@@ -125,7 +124,6 @@
     },
     "loadingData": {
       "textOverride": "Loading...",
-      "iconOverride": "modpack_logo",
       "data": {
         "enabled": true,
         "useAsMain": false,
@@ -168,7 +166,6 @@
     },
     "singleplayerData": {
       "textOverride": "Playing Singleplayer",
-      "iconOverride": "modpack_logo",
       "data": {
         "enabled": true,
         "useAsMain": false,
@@ -278,7 +275,7 @@
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10
   },
@@ -348,18 +345,18 @@
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
-      "details": "{menu.message != null ? menu.message : (dimension.message != null ? dimension.message : '')}",
-      "gameState": "{server.message != null ? server.message : ''} {pack.name != null ? pack.name : ''}",
-      "largeImageKey": "{menu.icon != null ? menu.icon : (dimension.icon != null ? dimension.icon : '')}",
-      "largeImageText": "{menu.message != null ? menu.message : (dimension.message != null ? dimension.message : '')}",
-      "smallImageKey": "{server.icon != null ? server.icon : (pack.name != null ? pack.name : '')}",
-      "smallImageText": "{server.message != null ? server.message : ''} {pack.name != null ? pack.name : ''}",
+      "details": "{getOrDefault(menu.message, dimension.message)}",
+      "gameState": "{server.message} {custom.pack}",
+      "largeImageKey": "{getOrDefault(menu.icon, dimension.icon)}",
+      "largeImageText": "{getOrDefault(menu.message, dimension.message)}",
+      "smallImageKey": "{getOrDefault(server.icon, pack.icon)}",
+      "smallImageText": "{server.message} {custom.pack}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
         "default": {
-          "label": "Download Our Pack",
-          "url": "https://www.curseforge.com/minecraft/modpacks/interactions"
+          "label": "Example Text",
+          "url": "https://google.com"
         }
       }
     },
@@ -370,10 +367,10 @@
     },
     "dynamicVariables": {
       "default": "Example Text",
-      "mods": "{general.mods} Mod(s)",
+      "mods": "{general.mods} Mods",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",
-      "player_info_in": "({custom.player_info.health})",
+      "player_info_in": "({custom.player_info_health})",
       "player_info_items": "Items: {item.main_hand.message}",
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",

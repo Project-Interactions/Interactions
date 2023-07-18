@@ -38,7 +38,24 @@ recipes.removeShaped(<thaumcraft:plate:2> * 3, [[<ore:ingotThaumium>, <ore:ingot
 recipes.removeShaped(<thaumcraft:plate:1> * 3, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<thaumcraft:plate> * 3, [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>]]);
 
-
+recipes.remove(<lightningcraft:rod:7>);
+recipes.remove(<lightningcraft:rod:6>);
+recipes.remove(<lightningcraft:rod:5>);
+recipes.remove(<lightningcraft:rod:4>);
+recipes.remove(<lightningcraft:rod:3>);
+recipes.remove(<lightningcraft:rod:2>);
+recipes.remove(<lightningcraft:rod:1>);
+recipes.remove(<lightningcraft:rod>);
+recipes.remove(<lightningcraft:rod:9>);
+recipes.remove(<lightningcraft:rod:8>);
+recipes.remove(<moreplates:gold_stick> * 4);
+recipes.remove(<moreplates:silver_stick> * 4);
+recipes.remove(<moreplates:nickel_stick> * 4);
+recipes.remove(<moreplates:lead_stick> * 4);
+recipes.remove(<moreplates:electrum_stick> * 4);
+recipes.remove(<moreplates:constantan_stick> * 4);
+recipes.remove(<libvulpes:productrod:4> * 4);
+recipes.remove(<immersiveposts:metal_rods:7> * 4);
 
 
 furnace.remove(<qmd:ingot>);

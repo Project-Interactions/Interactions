@@ -71,7 +71,7 @@ Radiation.setRadiationLevel(<liquid:heavymetalelements>,2.1);
 
 mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
 
-
+recipes.addShaped(<nuclearcraft:cobblestone_generator>, [[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],[<extrautils2:compressedcobblestone:1>, <ore:blockRefinedIron>, <extrautils2:compressedcobblestone:1>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
 
 mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
 

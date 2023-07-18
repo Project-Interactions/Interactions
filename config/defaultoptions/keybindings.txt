@@ -254,12 +254,5 @@ key_gui.xaero_open_settings:27:NONE
 key_gui.xaero_map_zoom_in:0:NONE
 key_gui.xaero_map_zoom_out:0:NONE
 key_gui.xaero_quick_confirm:54:NONE
-key_开关喷气背包:45:NONE
-key_打开火箭界面:46:NONE
-key_切换 RCS:19:NONE
-key_向右旋转载具:32:NONE
-key_向左旋转载具:30:NONE
-key_向上移动载具:44:NONE
-key_向下移动载具:45:NONE
 key_key.sort_config:37:NONE
 key_key.sort:-98:NONE

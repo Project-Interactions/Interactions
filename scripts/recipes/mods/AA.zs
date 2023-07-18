@@ -138,6 +138,9 @@ Empowerer.addRecipe(<contenttweaker:powered_circuit>, <contenttweaker:powered_ci
 
 AtomicReconstructor.addRecipe(<contenttweaker:powered_circuit_board>, <deepmoblearning:soot_covered_plate>, 10000);
 
+recipes.addShaped(<actuallyadditions:block_placer>, [[<ore:gearStone>, <ore:gearStone>, <ore:gearStone>],[<ore:gearStone>, <integratedtunnels:part_exporter_world_block_item>, <extrautils2:endershard>], [<ore:gearStone>, <ore:gearStone>, <ore:gearStone>]]);
+recipes.addShaped(<actuallyadditions:block_breaker>, [[<ore:gearStone>, <ore:gearStone>, <ore:gearStone>],[<ore:gearStone>, null, <extrautils2:endershard>], [<ore:gearStone>, <ore:gearStone>, <ore:gearStone>]]);
+recipes.addShaped(<actuallyadditions:block_dropper>, [[<ore:gearStone>, <ore:gearStone>, <ore:gearStone>],[<ore:gearStone>, <minecraft:dropper>, <extrautils2:endershard>], [<ore:gearStone>, <ore:gearStone>, <ore:gearStone>]]);
 recipes.addShaped(<actuallyadditions:block_ranged_collector>, [[null, <tconstruct:wooden_hopper>, null],[<extrautils2:endershard>, <embers:vacuum>, <extrautils2:endershard>], [null, <extrautils2:endershard>, null]]);
 recipes.remove(<actuallyadditions:item_mining_lens>);
 

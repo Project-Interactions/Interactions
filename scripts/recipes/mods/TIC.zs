@@ -239,3 +239,8 @@ Casting.addTableRecipe(<techreborn:plates:35>, <tinkertoolcasts:cast_ultimate:3>
 Casting.addTableRecipe(<techreborn:plates:35>, <tinkertoolcasts:cast_creative:3>, <liquid:refinediron>,144,false, 1);
 
 //Melting.addEntityMelting(<entity:botania:pink_wither>, <liquid:cryotheum>);
+
+RecipeUtils.recipeTweak(true, <mctsmelteryio:machine>, [[<tconstruct:seared:3>, <ore:circuitGood>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <speedyhoppers:speedyhopper_mk2>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <betterfurnacesreforged:gold_furnace>, <tconstruct:seared:3>]]);
+RecipeUtils.recipeTweak(true, <simplesmelteryaccelerator:smeltery_accelerator>, [[<tconstruct:seared:3>, <ore:gearManyullyn>, <tconstruct:seared:3>], [<ore:gearManyullyn>, <mctsmelteryio:machine>, <ore:gearManyullyn>], [<tconstruct:seared:3>, <ore:gearManyullyn>, <tconstruct:seared:3>]]);
+recipes.remove(<mctsmelteryio:powdered_fuel> * 3);
+recipes.addShaped(<mctsmelteryio:powdered_fuel> * 2, [[<ore:dustCoal>, <ore:gunpowder>, <ore:dustCoal>], [<ore:dustCoal>, <ore:dustGold>, <ore:dustCoal>], [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>]]);
