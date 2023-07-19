@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 4.0d,
+	dependencies: [
+		"366c4404"
+	],
+	tasks: [{
+		uid: "bf712122",
+		type: "item",
+		items: [{
+			item: "deepmoblearningbm:digital_agonizer"
+		}]
+	}]
+}

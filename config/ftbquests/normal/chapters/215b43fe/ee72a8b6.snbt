@@ -1,25 +1,27 @@
 {
 	title: "{215b43fe.ia.ee72a8b6.title}",
-	x: 1.5d,
+	x: 3.0d,
 	y: 0.0d,
 	dependencies: [
 		"197ea553",
 		"b851c207"
 	],
 	tasks: [{
-		uid: "6a61d2ca",
+		uid: "3c1fab6f",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:living_matter_overworldian"
-		},
-		{
-			item: "deepmoblearning:living_matter_hellish"
-		},
-		{
-			item: "deepmoblearning:living_matter_extraterrestrial"
-		},
-		{
-			item: "deepmoblearning:living_matter_twilight"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any LivingMatter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "LivingMatter"
+				}
+			}
 		}],
 		count: 4L
 	}]

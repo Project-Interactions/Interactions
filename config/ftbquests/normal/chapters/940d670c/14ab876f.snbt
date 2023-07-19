@@ -22,5 +22,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7982ae8f",
+		type: "item",
+		item: "thaumicenergistics:essentia_component_1k"
 	}]
 }

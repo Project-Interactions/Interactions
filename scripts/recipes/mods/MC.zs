@@ -275,7 +275,27 @@ val remove as IItemStack[] =
 <actuallyadditions:item_helm_quartz>,
 <actuallyadditions:item_chest_quartz>,
 <actuallyadditions:item_pants_quartz>,
-<actuallyadditions:item_boots_quartz>
+<actuallyadditions:item_boots_quartz>,
+<lightningcraft:sky_hammer>,
+<lightningcraft:sky_sword>,
+<lightningcraft:sky_pick>,
+<lightningcraft:sky_axe>,
+<lightningcraft:sky_shovel>,
+<lightningcraft:sky_hoe>,
+<lightningcraft:sky_helm>,
+<lightningcraft:sky_chest>,
+<lightningcraft:sky_legs>,
+<lightningcraft:sky_boots>,
+<lightningcraft:elec_hammer>,
+<lightningcraft:elec_sword>,
+<lightningcraft:elec_pick>,
+<lightningcraft:elec_axe>,
+<lightningcraft:elec_shovel>,
+<lightningcraft:elec_hoe>,
+<lightningcraft:elec_helm>,
+<lightningcraft:elec_chest>,
+<lightningcraft:elec_legs>,
+<lightningcraft:elec_boots>
 ];
 
 for Remove in remove {
@@ -362,6 +382,8 @@ recipes.addShapeless(<actuallyadditions:item_boots_crystal_red>, [<conarm:boots_
 recipes.addShapeless(<actuallyadditions:item_pants_crystal_red>, [<conarm:leggings_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
 recipes.addShapeless(<actuallyadditions:item_chest_crystal_red>, [<conarm:chest_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
 recipes.addShapeless(<actuallyadditions:item_helm_crystal_red>, [<conarm:helmet_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
+//thermal f
+
 //embers & aether workd
 
 //techreborn
@@ -373,6 +395,26 @@ recipes.addShapeless(<actuallyadditions:item_helm_crystal_red>, [<conarm:helmet_
 //mekanism
 
 //lightningcraft
+recipes.addShapeless(<lightningcraft:sky_boots>, [<conarm:boots_core>.withTag({Material: "skyfather"}),<conarm:armor_trim>.withTag({Material: "skyfather"}),<conarm:armor_plate>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_legs>, [<conarm:leggings_core>.withTag({Material: "skyfather"}),<conarm:armor_trim>.withTag({Material: "skyfather"}),<conarm:armor_plate>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_chest>, [<conarm:chest_core>.withTag({Material: "skyfather"}),<conarm:armor_trim>.withTag({Material: "skyfather"}),<conarm:armor_plate>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_helm>, [<conarm:helmet_core>.withTag({Material: "skyfather"}),<conarm:armor_trim>.withTag({Material: "skyfather"}),<conarm:armor_plate>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_hoe>, [<tconstruct:scythe_head>.withTag({Material: "skyfather"}),<tconstruct:binding>.withTag({Material: "skyfather"}),<tconstruct:tool_rod>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_shovel>, [<tconstruct:shovel_head>.withTag({Material: "skyfather"}),<tconstruct:binding>.withTag({Material: "skyfather"}),<tconstruct:tool_rod>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_axe>, [<tconstruct:axe_head>.withTag({Material: "skyfather"}),<tconstruct:binding>.withTag({Material: "skyfather"}),<tconstruct:tool_rod>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_pick>, [<tconstruct:pick_head>.withTag({Material: "skyfather"}),<tconstruct:binding>.withTag({Material: "skyfather"}),<tconstruct:tool_rod>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_sword>, [<tconstruct:sword_blade>.withTag({Material: "skyfather"}),<tconstruct:binding>.withTag({Material: "skyfather"}),<tconstruct:tool_rod>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:sky_hammer>, [<tconstruct:hammer_head>.withTag({Material: "skyfather"}),<tconstruct:tough_binding>.withTag({Material: "skyfather"}),<tconstruct:tough_tool_rod>.withTag({Material: "skyfather"})]);
+recipes.addShapeless(<lightningcraft:elec_boots>, [<conarm:boots_core>.withTag({Material: "electricium"}), <conarm:armor_trim>.withTag({Material: "electricium"}), <conarm:armor_plate>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_legs>, [<conarm:leggings_core>.withTag({Material: "electricium"}), <conarm:armor_trim>.withTag({Material: "electricium"}), <conarm:armor_plate>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_chest>, [<conarm:chest_core>.withTag({Material: "electricium"}), <conarm:armor_trim>.withTag({Material: "electricium"}), <conarm:armor_plate>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_helm>, [<conarm:helmet_core>.withTag({Material: "electricium"}), <conarm:armor_trim>.withTag({Material: "electricium"}), <conarm:armor_plate>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_hoe>, [<tconstruct:scythe_head>.withTag({Material: "electricium"}),<tconstruct:binding>.withTag({Material: "electricium"}),<tconstruct:tool_rod>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_axe>, [<tconstruct:axe_head>.withTag({Material: "electricium"}),<tconstruct:binding>.withTag({Material: "electricium"}),<tconstruct:tool_rod>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_shovel>, [<tconstruct:shovel_head>.withTag({Material: "electricium"}),<tconstruct:binding>.withTag({Material: "electricium"}),<tconstruct:tool_rod>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_pick>, [<tconstruct:pick_head>.withTag({Material: "electricium"}),<tconstruct:binding>.withTag({Material: "electricium"}),<tconstruct:tool_rod>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_sword>, [<tconstruct:sword_blade>.withTag({Material: "electricium"}),<tconstruct:binding>.withTag({Material: "electricium"}),<tconstruct:tool_rod>.withTag({Material: "electricium"})]);
+recipes.addShapeless(<lightningcraft:elec_hammer>, [<tconstruct:hammer_head>.withTag({Material: "electricium"}),<tconstruct:tough_binding>.withTag({Material: "electricium"}),<tconstruct:tough_tool_rod>.withTag({Material: "electricium"})]);
 
 //blood arensal
 

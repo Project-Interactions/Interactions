@@ -1,11 +1,10 @@
 {
-	x: -1.5d,
-	y: -3.0d,
+	x: 0.0d,
+	y: -2.0d,
 	text: [
 		"{7d71fbca.ia.fe24bc23}"
 	],
 	dependencies: [
-		"b9f56865",
 		"38612ee1"
 	],
 	dependency_requirement: "one_completed",

@@ -11,13 +11,10 @@
 			"url": "https://github.com/IAmNotGEM/TimeInABottle/releases/download/1.0.1/timeinabottle-1.0.1.jar"
 		},
 		{
-			"url": "https://cdn.modrinth.com/data/65qOM4nb/versions/KEeaPDgW/Nether-API-v1.1.0-mc1.12.2.jar"
+			"url": "https://cdn.modrinth.com/data/65qOM4nb/versions/OCOZgjI3/Nether-API-v1.2.0-mc1.12.2.jar"
 		},
 		{
 			"url": "https://github.com/Project-Interactions/The-One-Probe-Community-Edition/releases/download/1.1.5-server/TheOneProbe-CE-1.12-1.1.5-server.jar"
-		},
-		{
-			"url":"https://github.com/Project-Interactions/LightningCraftRecipeRemover/releases/download/1.0/ltrr-1.0.jar"
 		}
 	]
 }

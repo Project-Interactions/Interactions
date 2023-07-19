@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -4.5d,
+	dependencies: [
+		"fb077472"
+	],
+	tasks: [{
+		uid: "16015a2a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:powered_circuit"
+		}]
+	}]
+}

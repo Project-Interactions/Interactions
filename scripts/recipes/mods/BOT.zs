@@ -49,6 +49,7 @@ ManaInfusion.addInfusion(<botania:managlass>, <engineersdecor:panzerglass_block>
 //orechids
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidEndium"}));
 
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "loonium"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}));

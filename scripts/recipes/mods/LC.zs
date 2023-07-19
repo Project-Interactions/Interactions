@@ -52,9 +52,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <lightningcraft:lightning_infus
 	[<ore:gearElectricium>, <ore:rodBlitz>, <lightningcraft:stone_block>, <lightningcraft:stone_block>, <ore:gearElectricium>]
 ]);
 
-//terminal
-//RecipeUtils.recipeTweak(true
-
+//terminal rework
 RecipeUtils.recipeTweak(true, <lightningcraft:air_terminal>, [[null, <ore:ingotIron>, null], [null, <ore:stickIron>, null], [<ore:plateIron>, <ore:circuitMaster>, <ore:plateIron>]]);
 RecipeUtils.recipeTweak(true, <lightningcraft:air_terminal:1>, [[null, <ore:ingotSteel>, null], [null, <ore:stickSteel>, null], [<ore:plateSteel>, <lightningcraft:air_terminal>, <ore:plateSteel>]]);
 RecipeUtils.recipeTweak(true, <lightningcraft:air_terminal:2>, [[null, <ore:ingotLead>, null], [null, <ore:stickLead>, null], [<ore:plateLead>, <lightningcraft:air_terminal:1>, <ore:plateLead>]]);
@@ -65,4 +63,12 @@ RecipeUtils.recipeTweak(true, <lightningcraft:air_terminal:6>, [[null, <ore:ingo
 RecipeUtils.recipeTweak(true, <lightningcraft:air_terminal:7>, [[null, <ore:ingotElectricium>, null], [null, <ore:stickElectricium>, null], [<ore:plateElectricium>, <lightningcraft:air_terminal:6>, <ore:plateElectricium>]]);
 RecipeUtils.recipeTweak(true, <lightningcraft:air_terminal:8>, [[null, <ore:ingotSkyfather>, null], [null, <ore:stickSkyfather>, null], [<ore:plateSkyfather>, <lightningcraft:air_terminal:7>, <ore:plateSkyfather>]]);
 RecipeUtils.recipeTweak(true, <lightningcraft:air_terminal:9>, [[null, <ore:ingotMystic>, null], [null, <ore:stickMystic>, null], [<ore:plateMystic>, <lightningcraft:air_terminal:8>, <ore:plateMystic>]]);
-
+//rod -> stick
+RecipeUtils.recipeTweak(true,  <lightningcraft:lightning_cannon:1>, [[<ore:stickElectricium>, <minecraft:comparator:*>, <ore:stickElectricium>], [<ore:stickIron>, <lightningcraft:material:10>, <ore:stickIron>], [<ore:stickElectricium>, <minecraft:tnt:*>, <ore:stickElectricium>]]);
+RecipeUtils.recipeTweak(true, <lightningcraft:wireless_block:1>, [[null, <lightningcraft:air_terminal:8>, null], [<ore:stickIron>, <lightningcraft:wireless_block>, <ore:stickIron>], [<ore:stickIron>, <minecraft:comparator:*>, <ore:stickIron>]]);
+RecipeUtils.recipeTweak(true, <lightningcraft:battery>, [[<ore:stickIron>, <minecraft:comparator:*>, <ore:stickIron>], [<ore:stickIron>, <ore:plateElectricium>, <ore:stickIron>], [<ore:stickIron>, <ore:dustRedstone>, <ore:stickIron>]]);
+RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cell:1>, [[<ore:stickGold>, <minecraft:comparator:*>, <ore:stickGold>], [<ore:plateSkyfather>, <lightningcraft:lightning_cell>, <ore:plateSkyfather>], [<ore:stickGold>, <minecraft:comparator:*>, <ore:stickGold>]]);
+RecipeUtils.recipeTweak(true, <lightningcraft:wireless_block:4>, [[null, <lightningcraft:air_terminal:8>, null], [<ore:stickGold>, <lightningcraft:wireless_block:3>, <ore:stickGold>], [<ore:stickGold>, <minecraft:comparator:*>, <ore:stickGold>]]);
+RecipeUtils.recipeTweak(true, <lightningcraft:battery:1>, [[<ore:dustRedstone>, <lightningcraft:material:4>, <ore:dustRedstone>], [<ore:dustRedstone>, <lightningcraft:battery>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:stickElectricium>, <ore:dustRedstone>]]);
+RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cell:2>, [[<ore:stickSkyfather>, <ore:plateElectricium>, <ore:stickSkyfather>], [<ore:plateMystic>, <lightningcraft:lightning_cell:1>, <ore:plateMystic>], [<ore:stickSkyfather>, <ore:plateElectricium>, <ore:stickSkyfather>]]);
+RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cannon:2>, [[<ore:stickSkyfather>, <lightningcraft:material:4>, <ore:stickSkyfather>], [<ore:stickMystic>, <lightningcraft:lightning_cannon:1>, <ore:stickMystic>], [<ore:stickSkyfather>, <ore:dustMystic>, <ore:stickSkyfather>]]);

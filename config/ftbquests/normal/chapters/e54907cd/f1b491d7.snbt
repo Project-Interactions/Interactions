@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: 16.5d,
+	dependencies: [
+		"78cfc429"
+	],
+	tasks: [{
+		uid: "f2630f9e",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_ingot"
+		}]
+	}]
+}

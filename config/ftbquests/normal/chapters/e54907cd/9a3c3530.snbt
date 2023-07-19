@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 12.0d,
+	dependencies: [
+		"d5ee5f35"
+	],
+	tasks: [{
+		uid: "0abab882",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_smelter"
+		}]
+	}]
+}

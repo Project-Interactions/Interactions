@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"d10c18e8",
+		"710e8f6d"
+	],
+	tasks: [{
+		uid: "e8bd9a33",
+		type: "kill",
+		entity: "deepmoblearning:glitch",
+		value: 5L
+	},
+	{
+		uid: "d753d170",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_heart"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "285f2b87",
+		type: "item",
+		item: "deepmoblearning:glitch_heart",
+		count: 4
+	}]
+}

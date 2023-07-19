@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 recipes.remove(<deepmoblearning:polymer_clay> * 16);
 recipes.removeShapeless(<deepmoblearning:soot_covered_plate> * 8);
 recipes.remove(<deepmoblearningbm:digital_agonizer>);
-
+recipes.remove(<deepmoblearningbm:digital_will_injector>);
 recipes.addShaped(<deepmoblearning:polymer_clay> * 32, [[null, <tconstruct:soil>, <ore:dustDiamond>],[<tconstruct:soil>, <botania:specialflower>.withTag({type: "clayconia"}).onlyWithTag({type: "clayconia"}), <tconstruct:soil>], [<ore:dustDiamond>, <tconstruct:soil>, null]]);
 recipes.addShaped(<deepmoblearning:soot_covered_plate> * 4, [[<enderio:block_reinforced_obsidian>, <enderio:block_reinforced_obsidian>, null],[<enderio:block_reinforced_obsidian>, <deepmoblearning:soot_covered_redstone>, null], [null, null, null]]);
 
@@ -23,6 +23,8 @@ recipes.addShaped(<deepmoblearning:glitch_infused_leggings>, [[<deepmoblearning:
 recipes.addShaped(<deepmoblearning:glitch_infused_chestplate>, [[<deepmoblearning:glitch_infused_ingot>, <unstabletools:unstable_chestplate>, <deepmoblearning:glitch_infused_ingot>],[<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>], [<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>]]);
 recipes.addShaped(<deepmoblearning:glitch_infused_helmet>, [[<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>],[<deepmoblearning:glitch_infused_ingot>, <unstabletools:unstable_helmet>, <deepmoblearning:glitch_infused_ingot>], [null, null, null]]);
 
+RecipeUtils.recipeTweak(true, <deepmoblearning:trial_key>, [[null, null, null], [<ore:enderpearl>, <ore:stickEnderium>, <ore:stickEnderium>], [null, <ore:nuggetEnderium>, <ore:nuggetEnderium>]]);
+RecipeUtils.recipeTweak(true, <deepmoblearning:trial_keystone>, [[<ore:crystalKyronite>, <ore:LivingMatter>, <ore:crystalKyronite>], [<ore:blockKyronite>, <deepmoblearning:machine_casing>, <ore:blockKyronite>], [<ore:blockKyronite>, <ore:blockKyronite>, <ore:blockKyronite>]]);
 
 
 

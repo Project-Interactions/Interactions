@@ -1,0 +1,51 @@
+{
+	title: "故障灌注套装",
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"全套可以飞行"
+	],
+	dependencies: [
+		"83b615f6"
+	],
+	tasks: [{
+		uid: "6634b2dc",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:glitch_infused_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12d363d7",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:glitch_infused_chestplate",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b058860",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:glitch_infused_leggings",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4cab4097",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:glitch_infused_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

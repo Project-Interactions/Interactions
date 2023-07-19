@@ -10,6 +10,7 @@
 		"72d510b8",
 		"e6f5dea2"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "ae20a0bb",
 		type: "item",

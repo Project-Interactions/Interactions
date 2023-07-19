@@ -20,7 +20,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:extreme_crafting_tabl
 	[<ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(2, <avaritia:neutron_collector>, [
+mods.extendedcrafting.TableCrafting.addShaped(2, <avaritia:neutron_collector>*2, [
 [<qmd:atmosphere_collector>, <qmd:atmosphere_collector>, <actuallyadditions:block_ranged_collector>, <nuclearcraft:nitrogen_collector_dense>, <nuclearcraft:nitrogen_collector_dense>], 
 [<qmd:atmosphere_collector>, <actuallyadditions:block_ranged_collector>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <actuallyadditions:block_ranged_collector>, <nuclearcraft:nitrogen_collector_dense>], 
 [<qmd:atmosphere_collector>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <mysticalagradditions:special:5>, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <nuclearcraft:nitrogen_collector_dense>], 

@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 12.0d,
+	dependencies: [
+		"4dea85fb"
+	],
+	tasks: [{
+		uid: "d021669a",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_smelter"
+		}]
+	}]
+}

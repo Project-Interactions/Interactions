@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 15.0d,
+	dependencies: [
+		"3e22678e"
+	],
+	tasks: [{
+		uid: "8a766978",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_ingot"
+		}]
+	}]
+}

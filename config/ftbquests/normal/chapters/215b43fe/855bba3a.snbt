@@ -1,7 +1,7 @@
 {
 	title: "{215b43fe.ia.855bba3a.title}",
-	x: 15.0d,
-	y: 4.0d,
+	x: 14.0d,
+	y: 1.5d,
 	dependencies: [
 		"6b42b359"
 	],

@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: 2.5d,
+	dependencies: [
+		"ec68fd4b"
+	],
+	tasks: [{
+		uid: "5bf8dad5",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

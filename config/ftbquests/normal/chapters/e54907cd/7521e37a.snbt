@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 16.5d,
+	text: [
+		"“神秘研究太难玩了”，来试试这个吧！"
+	],
+	dependencies: [
+		"f1b491d7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "01598531",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

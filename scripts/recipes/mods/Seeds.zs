@@ -542,7 +542,7 @@ seedT4(<mysticalagriculture:knightslime_seeds>,<ore:blockKnightslime>);
 seedT4(<mysticalagriculture:hop_graphite_seeds>,<ore:blockHOPGraphite>);
 seedT4(<mysticalagriculture:glowstone_ingot_seeds>,<ore:blockRefinedGlowstone>);
 seedT4(<mysticalagriculture:dawnstone_seeds>,<ore:blockDawnstone>);
-seedT4(<mysticalagriculture:osmium_seeds>,<ore:blockOsmium>);
+seedT5(<mysticalagriculture:osmium_seeds>,<ore:blockOsmium>);
 seedT4(<mysticalagriculture:alumite_seeds>,<ore:blockAlumite>);
 seedT4(<mysticalagriculture:fiery_ingot_seeds>,<ore:blockFiery>);
 seedT4(<mysticalagriculture:thorium_seeds>,<ore:blockThorium>);
@@ -730,7 +730,7 @@ function essenceTweakSpecial(output as IItemStack,tier as int,realoutput as IIte
         infuser.addRecipe("BIO", 2, essence*3, realoutput);
     }
 }
-essenceTweakSpecial(<qmd:ingot:8>,4,<mekanism:ingot:1>);
+essenceTweakSpecial(<qmd:ingot:8>,5,<mekanism:ingot:1>);
 essenceTweakSpecial(<qmd:ingot>,5,<techreborn:ingot:15>);
 essenceTweakSpecial(<qmd:ingot:3>,5,<techreborn:ingot:14>);
 essenceTweakSpecial(<nuclearcraft:ingot:4>,5,<mekanism:ingot:8>);

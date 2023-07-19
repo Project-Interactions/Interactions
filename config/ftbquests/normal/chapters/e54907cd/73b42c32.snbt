@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: 13.5d,
+	dependencies: [
+		"98f2aa5e"
+	],
+	tasks: [{
+		uid: "e441a43a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

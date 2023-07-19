@@ -147,3 +147,5 @@
 <ore:blockManasteel>.add(<botania:storage>);
 <ore:blockElvenElementium>.add(<botania:storage:2>);
 <ore:blockTerrasteel>.add(<botania:storage:1>);
+
+<ore:stickNdYAG>.add(<qmd:part:5>);

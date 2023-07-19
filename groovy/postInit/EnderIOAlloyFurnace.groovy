@@ -99,7 +99,7 @@ mods.enderio.AlloySmelter.recipeBuilder()
         .register()
 //other mods' ingot
 mods.enderio.AlloySmelter.recipeBuilder()
-        .input(item('pneumaticcraft:ingot_iron_compressed'), item('immersiveengineering:material:19'),item('calculator:purifiedobsidian'))
+        .input(item('pneumaticcraft:ingot_iron_compressed'), item('immersiveengineering:material:19'),item('enderio:item_alloy_ingot:6'))
         .output(item('extendedcrafting:material'))
         //.tierNormal()       // recipes requires normal or enhanced tier
         .energy(20000)

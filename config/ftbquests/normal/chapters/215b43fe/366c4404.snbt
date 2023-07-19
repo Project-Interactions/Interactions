@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 3.0d,
+	dependencies: [
+		"83b615f6"
+	],
+	tasks: [{
+		uid: "cab5b70d",
+		type: "item",
+		items: [{
+			item: "deepmoblearningbm:blood_infused_glitch_ingot"
+		}]
+	}]
+}
