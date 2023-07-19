@@ -7,16 +7,78 @@ import mods.artisanworktables.builder.RecipeBuilder;
 recipes.addShaped(<artisanworktables:workstation:6>, [[<ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>],[<ore:plankTreatedWood>, <immersiveengineering:wooden_device0:2>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<artisanautomation:automator_power_rf>, [[<ore:blockBronze>, <ore:blockBronze>, <ore:blockBronze>],[<ore:stickLead>, <immersiveengineering:metal_device0:2>, <ore:stickLead>], [<ore:blockSheetmetalLead>, <ore:stickLead>, <ore:blockSheetmetalLead>]]);
 recipes.addShaped(<artisanautomation:automator>, [[<mysticalagriculture:soul_glass_pane>, <mysticalagriculture:soul_glass_pane>, <mysticalagriculture:soul_glass_pane>],[<mysticalagriculture:soul_glass_pane>, <artisanworktables:workstation:6>, <mysticalagriculture:soul_glass_pane>], [<ore:blockSheetmetalLead>, <ore:blockSheetmetalLead>, <ore:blockSheetmetalLead>]]);
-recipes.addShapeless(<artisanautomation:upgrade_auto_import_export_items>, [<artisanautomation:upgrade_auto_import_items>,<artisanautomation:upgrade_auto_export_items>]);
-recipes.addShaped(<artisanautomation:upgrade_auto_import_fluids>, [[<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>],[<ore:plateadvancedAlloy>, <ore:circuitGood>, <ore:plateadvancedAlloy>], [<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>]]);
-recipes.addShaped(<artisanautomation:upgrade_tool_repair>, [[<ore:plateSteel>, <tconstruct:materials:19>, <ore:plateSteel>],[<tconstruct:materials:19>, <ore:circuitGood>, <tconstruct:materials:19>], [<ore:plateSteel>, <tconstruct:materials:19>, <ore:plateSteel>]]);
-recipes.addShaped(<artisanautomation:upgrade_auto_import_items>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateadvancedAlloy>, <ore:circuitGood>, <ore:plateadvancedAlloy>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
-recipes.addShaped(<artisanautomation:upgrade_auto_export_items>, [[<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>],[null, <ore:circuitGood>, null], [<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>]]);
-recipes.addShaped(<artisanautomation:upgrade_energy_capacity>, [[<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>],[<ore:plateAlubrass>, <ore:circuitGood>, <ore:plateAlubrass>], [<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>]]);
-recipes.addShaped(<artisanautomation:upgrade_fluid_capacity>, [[<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>],[<ore:stickAlubrass>, <ore:circuitGood>, <ore:stickAlubrass>], [<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>]]);
-recipes.addShaped(<artisanautomation:upgrade_speed>, [[<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>],[<ore:gearBronze>, <ore:circuitGood>, <ore:gearBronze>], [<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>]]);
 recipes.addShapeless(<artisanworktables:design_pattern>, [<immersiveengineering:blueprint>,<ore:dustLapis>]);
 recipes.addShaped(<artisanworktables:workstation:12>, [[<ore:string>, <ore:blockLapis>, <ore:string>],[<ore:string>, <immersiveengineering:wooden_device0:2>, <ore:string>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
+
+//upgrades
+recipes.addShapeless(<artisanautomation:upgrade_auto_import_export_items>.withTag({
+    ArtisanWorktables: {
+        Upgrade: {
+            AutoImportItems: true,
+            AutoExportItems: true
+        }
+    }
+}), 
+[<artisanautomation:upgrade_auto_import_items>,<artisanautomation:upgrade_auto_export_items>]);
+recipes.addShaped(<artisanautomation:upgrade_auto_import_fluids>.withTag({
+    ArtisanWorktables: {
+        Upgrade: {
+            AutoImportFluids: true
+        }
+    }
+}), 
+[[<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>],[<ore:plateadvancedAlloy>, <ore:circuitGood>, <ore:plateadvancedAlloy>], [<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_tool_repair>.withTag({
+    ArtisanWorktables: {
+        ToolUpgrade: {
+            DurabilityRepaired: 0.5, 
+            EnergyUsage: 0.5
+        }
+    }
+}), 
+[[<ore:plateSteel>, <tconstruct:materials:19>, <ore:plateSteel>],[<tconstruct:materials:19>, <ore:circuitGood>, <tconstruct:materials:19>], [<ore:plateSteel>, <tconstruct:materials:19>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_import_items>.withTag({
+    ArtisanWorktables: {
+        Upgrade: {
+            AutoImportItems: true
+        }
+    }
+}), 
+[[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateadvancedAlloy>, <ore:circuitGood>, <ore:plateadvancedAlloy>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_export_items>.withTag({
+    ArtisanWorktables: {
+        Upgrade: {
+            AutoExportItems: true
+        }
+    }
+}), 
+[[<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>],[null, <ore:circuitGood>, null], [<ore:plateSteel>, <ore:plateadvancedAlloy>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_energy_capacity>.withTag({
+    ArtisanWorktables: {
+        Upgrade: {
+            EnergyCapacity: 1
+        }
+    }
+}), 
+[[<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>],[<ore:plateAlubrass>, <ore:circuitGood>, <ore:plateAlubrass>], [<ore:plateSteel>, <ore:plateAlubrass>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_fluid_capacity>.withTag({
+    ArtisanWorktables: {
+        Upgrade: {
+            FluidCapacity: 1
+        }
+    }
+}), 
+[[<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>],[<ore:stickAlubrass>, <ore:circuitGood>, <ore:stickAlubrass>], [<ore:plateSteel>, <ore:stickAlubrass>, <ore:plateSteel>]]);
+recipes.addShaped(<artisanautomation:upgrade_speed>.withTag({
+    ArtisanWorktables: {
+        Upgrade: {
+            Speed: 0.5,
+            EnergyUsage: 0.5
+        }
+    }
+}), 
+[[<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>],[<ore:gearBronze>, <ore:circuitGood>, <ore:gearBronze>], [<ore:plateSteel>, <ore:gearBronze>, <ore:plateSteel>]]);
+
 
 RecipeBuilder.get("engineer")
   .setName("mechanical_circuit_board")
