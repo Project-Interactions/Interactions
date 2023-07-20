@@ -16,3 +16,7 @@ $ cat .gitignore
 !/README.md
 !/icon.png
 !/LICENSE
+config/jei/worldSettings.cfg
+config/tconstruct_oredictcache.dat
+config/thaumicjei_itemstack_aspects.json
+config/time.history

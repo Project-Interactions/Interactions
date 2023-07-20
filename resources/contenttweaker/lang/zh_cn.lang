@@ -25,7 +25,7 @@ item.contenttweaker.applicated_operation_circuit.name=软件电路板
 item.contenttweaker.pneumatic_circuit.name=气动电路板
 item.contenttweaker.thermal_pneumatic_circuit.name=热力电路板
 item.contenttweaker.powered_circuit.name=充能电路板
-item.contenttweaker.psio_powered_circuit.name=Psi充能电路板
+item.contenttweaker.psio_powered_circuit.name=ψ充能电路板ψ
 
 item.contenttweaker.compressedredstone.name=压缩充能红石水晶
 item.contenttweaker.compresseddiamond.name=压缩充能钻石水晶
@@ -73,7 +73,10 @@ item.contenttweaker.pre_rubber.name=半加工橡胶
 item.contenttweaker.mechanical_circuit_board.name=机械电路基板
 item.contenttweaker.processor_circuit_board.name=处理器电路基板
 
-
+item.contenttweaker.circuit_stack.name=电路板堆
+item.contenttweaker.operation_circuit_board.name=运算电路板基板
+item.contenttweaker.mana_matter.name=魔力物质
+item.contenttweaker.powered_circuit_board.name=充能电路板基板
 //fluid
 fluid.blend_caminite=液态方镁矾
 fluid.hot_blend_caminite=热液态方镁矾

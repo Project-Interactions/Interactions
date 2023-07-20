@@ -6,8 +6,8 @@
     "useAltWhenFlying": true
   },
   "rendering": {
-    "hideVBOWarning": false,
-    "hideMipmapWarning": false,
+    "hideVBOWarning": true,
+    "hideMipmapWarning": true,
     "useQuadCache": false,
     "useCubeCache": true,
     "renderingThreadCount": 2,
