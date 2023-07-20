@@ -1,0 +1,29 @@
+fm.welcome=欢迎游玩 §9Interactions 交汇§f整合包。
+fm.500mods=本整合包有超过500个模组！
+fm.thank=祝您游戏愉快！
+
+fm.mcbbs=查看整合包MCBBS帖子？
+fm.sponser=赞助我们？
+fm.github=翻阅源码/贡献整合包？
+
+fm.mcver=Minecraft 游戏版本：
+fm.forgever=Forge 版本：
+fm.totalmods=总模组数：
+fm.activemods=加载模组数：
+
+fm.options=选项
+fm.options.choose=选项
+fm.options.desc=游戏的基本设置
+
+fm.quitgame=退出游戏
+fm.quitgame.choose=你确定？
+fm.quitgame.desc=别担心误触
+
+fm.mod.desc=各个模组的基本设置
+
+fm.mp.desc=加入服务器或者和你的好友联机
+
+fm.lang.desc=切换语言（你也可以贡献翻译）
+
+fm.sp.choose=孤身一人
+fm.sp.desc=开始游戏！

@@ -1,0 +1,29 @@
+fm.welcome=Welcome to §9Interactions§f Modpack.
+fm.500mods=This modpack has over 500 mods!
+fm.thank=Happy gaming!
+
+fm.mcbbs=Check out the modpack MCBBS post?
+fm.sponser=Sponsor us?
+fm.github=Browse the source code/contribute to this pack?
+
+fm.mcver=Minecraft Version:
+fm.forgever=Forge Version:
+fm.totalmods=Total Mods:
+fm.activemods=Active Mods:
+
+fm.options=Options
+fm.options.choose=Options
+fm.options.desc=Basic settings of the game
+
+fm.quitgame=Quit Game
+fm.quitgame.choose=You sure?
+fm.quitgame.desc=Don't worry about touching by mistake
+
+fm.mod.desc=Basic settings for each mod
+
+fm.mp.desc=Join a server or play with your friends
+
+fm.lang.desc=Switch language (You can also contribute)
+
+fm.sp.choose=Alone
+fm.sp.desc=Game Start!

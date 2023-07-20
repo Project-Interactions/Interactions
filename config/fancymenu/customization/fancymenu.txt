@@ -57,7 +57,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttondescription
-  description = Multiplayer
+  description = {"placeholder":"local","values":{"key":"fm.mp.desc"}}
 }
 
 customization {
@@ -78,7 +78,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
-  value = 选项
+  value = {"placeholder":"local","values":{"key":"fm.options"}}
 }
 
 customization {
@@ -99,7 +99,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = sethoverlabel
-  label = §eSettings
+  label = §e{"placeholder":"local","values":{"key":"fm.options.choose"}}
 }
 
 customization {
@@ -111,7 +111,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttondescription
-  description = Game Settings
+  description = {"placeholder":"local","values":{"key":"fm.options.desc"}}
 }
 
 customization {
@@ -132,7 +132,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
-  value = §c退出游戏
+  value = §c{"placeholder":"local","values":{"key":"fm.quitgame"}}
 }
 
 customization {
@@ -153,7 +153,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = sethoverlabel
-  label = §4Really ?
+  label = §4{"placeholder":"local","values":{"key":"fm.quitgame.choose"}}
 }
 
 customization {
@@ -165,7 +165,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttondescription
-  description = Quit Game
+  description = {"placeholder":"local","values":{"key":"fm.quitgame.desc"}}
 }
 
 customization {
@@ -207,7 +207,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = setbuttondescription
-  description = Game Language
+  description = {"placeholder":"local","values":{"key":"fm.lang.desc"}}
 }
 
 customization {
@@ -243,7 +243,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = sethoverlabel
-  label = 孤独之旅
+  label = {"placeholder":"local","values":{"key":"fm.sp.choose"}}
 }
 
 customization {
@@ -255,7 +255,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttondescription
-  description = Singleplayer
+  description = {"placeholder":"local","values":{"key":"fm.sp.desc"}}
 }
 
 customization {
@@ -297,7 +297,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttondescription
-  description = Game Mods
+  description = {"placeholder":"local","values":{"key":"fm.mod.desc"}}
 }
 
 customization {
@@ -432,7 +432,7 @@ customization {
   y = -45
   scale = 1.0
   alignment = left
-  value = Minecraft Version : §7%mcversion%
+  value = {"placeholder":"local","values":{"key":"fm.mcver"}}§7%mcversion%
 }
 
 customization {
@@ -444,7 +444,7 @@ customization {
   y = -18
   scale = 1.0
   alignment = left
-  value = Active Mods : §a%loadedmods%
+  value = {"placeholder":"local","values":{"key":"fm.activemods"}}§a%loadedmods%
 }
 
 customization {
@@ -456,7 +456,7 @@ customization {
   y = -27
   scale = 1.0
   alignment = left
-  value = Total Mods : §d%totalmods%
+  value = {"placeholder":"local","values":{"key":"fm.totalmods"}}§d%totalmods%
 }
 
 customization {
@@ -468,7 +468,7 @@ customization {
   y = -36
   scale = 1.0
   alignment = left
-  value = Forge Version : §b%version:forge%
+  value = {"placeholder":"local","values":{"key":"fm.forgever"}}§b%version:forge%
 }
 
 customization {
@@ -477,7 +477,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymenu/images/links/afdian.png
-  description = 支持我们?
+  description = {"placeholder":"local","values":{"key":"fm.sponser"}}
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
@@ -497,7 +497,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymenu/images/links/mcbbs.png
-  description = 查看整合包MCBBS帖子?
+  description = {"placeholder":"local","values":{"key":"fm.mcbbs"}}
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
@@ -517,7 +517,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymenu/images/links/github.png
-  description = 翻阅源码?
+  description = {"placeholder":"local","values":{"key":"fm.github"}}
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
@@ -551,7 +551,7 @@ customization {
   y = -6
   scale = 1.0
   alignment = left
-  value = 欢迎游玩 §9Interaction 交汇§f整合包.
+  value = {"placeholder":"local","values":{"key":"fm.welcome"}}
 }
 
 customization {
@@ -563,7 +563,7 @@ customization {
   y = 5
   scale = 1.0
   alignment = left
-  value = §a本整合包有超过500模组!
+  value = §a{"placeholder":"local","values":{"key":"fm.500mods"}}
 }
 
 customization {
@@ -575,6 +575,6 @@ customization {
   y = 16
   scale = 1.0
   alignment = left
-  value = §e祝您游戏愉快!
+  value = §e{"placeholder":"local","values":{"key":"fm.thank"}}
 }
 

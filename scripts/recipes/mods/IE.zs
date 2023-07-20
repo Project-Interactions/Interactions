@@ -305,3 +305,5 @@ recipes.remove(<alternatingflux:material>);
 recipes.remove(<alternatingflux:wirecoil> * 4);
 recipes.addShaped(<alternatingflux:wirecoil>, [[<ore:dustHOPGraphite>, <ore:wireConstantan>, null], [<ore:wireConstantan>, <ore:stickWood> | <ore:stickTreatedWood>, <ore:wireConstantan>], [null, <ore:wireConstantan>, <ore:dustHOPGraphite>]]);
 recipes.addShaped(<alternatingflux:wirecoil>, [[null, <ore:wireConstantan>, <ore:dustHOPGraphite>], [<ore:wireConstantan>, <ore:stickWood> | <ore:stickTreatedWood>, <ore:wireConstantan>], [<ore:dustHOPGraphite>, <ore:wireConstantan>, null]]);
+
+MetalPress.addRecipe(<botania:manaresource:21>*4,<minecraft:cobblestone>,<immersiveengineering:mold:7>,256);
