@@ -44,7 +44,7 @@ explosioncrafting.addRecipe(<techreborn:part:44>,<techreborn:rubber_sapling> ,0)
 explosioncrafting.addRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:refined_ore_essence>,40);
 explosioncrafting.addRecipe(<contenttweaker:ore_essence>,<contenttweaker:basic_refined_ore_essence>,20);
 explosioncrafting.addRecipe(<thermalfoundation:material:768>,<techreborn:dust:16> ,90);
-explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<mysticalagriculture:fire_essence> ,40);
+explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<mysticalagriculture:fire_essence>,80);
 //gems
 explosioncrafting.addRecipe(<ore:dustSapphire>,<techreborn:gem:1>,40);
 explosioncrafting.addRecipe(<ore:dustEmerald>,<minecraft:emerald>,40);
@@ -56,7 +56,7 @@ explosioncrafting.addRecipe(<minecraft:gravel>,<minecraft:sand>,20);
 explosioncrafting.addRecipe(<minecraft:cobblestone>,<minecraft:gravel>,20);
 
 explosioncrafting.addRecipe(<extrautils2:compressedgravel>,<extrautils2:compressedsand>,20);
-explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<extrautils2:compressedgravel>,20);
+//explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<extrautils2:compressedgravel>,20);
 
 explosioncrafting.addRecipe(<extrautils2:compressedgravel:1>,<extrautils2:compressedsand:1>,20);
 explosioncrafting.addRecipe(<extrautils2:compressedcobblestone:1>,<extrautils2:compressedgravel:1>,20);

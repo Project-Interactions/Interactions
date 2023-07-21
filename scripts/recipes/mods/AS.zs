@@ -13,8 +13,6 @@ import mods.randomtweaker.astralsorcery.AttunementAltar;
 recipes.remove(<astralsorcery:itemcraftingcomponent:1> * 4);
 recipes.remove(<astralsorcery:blockblackmarble> * 8);
 recipes.addShaped(<astralsorcery:blockblackmarble> * 4, [[<astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>],[<astralsorcery:blockmarble>, <tconstruct:seared:3>, <astralsorcery:blockmarble>], [<astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>]]);
-recipes.addShaped(<astralsorcery:blockaltar>, [[<astralsorcery:blockmarble>, <tconstruct:seared:3>, <astralsorcery:blockmarble>],[<astralsorcery:blockmarble>, <avaritia:compressed_crafting_table>, <astralsorcery:blockmarble>], [<astralsorcery:blockmarble>, null, <astralsorcery:blockmarble>]]);
-recipes.addShaped(<astralsorcery:itemwand>, [[null, <ore:blockAquamarine>, <minecraft:ender_pearl>],[null, <astralsorcery:blockmarble>, <ore:blockAquamarine>], [<astralsorcery:blockmarble>, null, null]]);
 
 //暮色宝石
 Altar.addConstellationAltarRecipe("interactions:shaped/twilight_crystal", <contenttweaker:twilight_crystal>, 1600, 300, [

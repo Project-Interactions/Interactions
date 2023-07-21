@@ -6,10 +6,10 @@ fm.mcbbs=Check out the modpack MCBBS post?
 fm.sponser=Sponsor us?
 fm.github=Browse the source code/contribute to this pack?
 
-fm.mcver=Minecraft Version:
-fm.forgever=Forge Version:
-fm.totalmods=Total Mods:
-fm.activemods=Active Mods:
+fm.mcver=Minecraft Version : 
+fm.forgever=Forge Version : 
+fm.totalmods=Total Mods : 
+fm.activemods=Active Mods : 
 
 fm.options=Options
 fm.options.choose=Options
