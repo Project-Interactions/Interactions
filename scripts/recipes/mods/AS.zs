@@ -9,6 +9,8 @@ import mods.astralsorcery.Altar;
 import mods.astralsorcery.Lightwell;
 import mods.randomtweaker.astralsorcery.AttunementAltar;
 
+recipes.addShaped(<astralsorcery:blockaltar>, [[<astralsorcery:blockmarble>, <tconstruct:seared:3>, <astralsorcery:blockmarble>],[<astralsorcery:blockmarble>, <avaritia:compressed_crafting_table>, <astralsorcery:blockmarble>], [<astralsorcery:blockmarble>, null, <astralsorcery:blockmarble>]]);
+recipes.addShaped(<astralsorcery:itemwand>, [[null, <ore:blockAquamarine>, <minecraft:ender_pearl>],[null, <astralsorcery:blockmarble>, <ore:blockAquamarine>], [<astralsorcery:blockmarble>, null, null]]);
 //空岛适配
 recipes.remove(<astralsorcery:itemcraftingcomponent:1> * 4);
 recipes.remove(<astralsorcery:blockblackmarble> * 8);

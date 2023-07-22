@@ -148,6 +148,7 @@ recipes.remove(<minecraft:golden_sword>);
 recipes.remove(<minecraft:diamond_axe>);
 recipes.remove(<minecraft:diamond_pickaxe>);
 recipes.remove(<minecraft:diamond_shovel>);
+recipes.remove(<minecraft:diamond_sword>);
 recipes.remove(<minecraft:stone_axe>);
 recipes.remove(<minecraft:stone_pickaxe>);
 recipes.remove(<minecraft:stone_shovel>);

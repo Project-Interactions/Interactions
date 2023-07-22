@@ -44,9 +44,11 @@ defaultCaveModeType:1
 biomeBlending:true
 globalVersion:1
 [XP] Fast Mapping:true
-[XP] Fast Mapping Delay:250.0
-[XP] Fast Mapping Rate Limit:50.0
+[XP] Fast Mapping Delay:400.0
+[XP] Fast Mapping Rate Limit:20.0
 [XP] Baritone Goal Waypoint:true
+[XP] Waystones Waypoint Sync:true
+[XP] Waystones Dimension Sync:true
 [XP] Persist WM Dim Switch:false
 [XP] Transparent Obsidian Roof:false
 [XP] Roof Obsidian Opacity:150.0
@@ -68,3 +70,4 @@ globalVersion:1
 [XP] null OW Dim Dir:true
 [XP] Data Dir Mode:0
 [XP] Nether Cave Fix:true
+[XP] Cross Dimension Teleport:true
