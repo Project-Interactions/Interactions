@@ -15,11 +15,11 @@ storagedrawers.msg.cannotAddUpgrade=That upgrade cannot be installed in this dra
 
 # Items
 item.storagedrawers.upgradeTemplate.name=Upgrade Template
-item.storagedrawers.upgradeStorage.obsidian.name=Storage Upgrade (I)
-item.storagedrawers.upgradeStorage.iron.name=Storage Upgrade (II)
-item.storagedrawers.upgradeStorage.gold.name=Storage Upgrade (III)
-item.storagedrawers.upgradeStorage.diamond.name=Storage Upgrade (IV)
-item.storagedrawers.upgradeStorage.emerald.name=Storage Upgrade (V)
+item.storagedrawers.upgradeStorage.obsidian.name=Storage Upgrade ¹⁰²⁴
+item.storagedrawers.upgradeStorage.iron.name=Storage Upgrade ⁴
+item.storagedrawers.upgradeStorage.gold.name=Storage Upgrade ⁸
+item.storagedrawers.upgradeStorage.diamond.name=Storage Upgrade ¹⁶
+item.storagedrawers.upgradeStorage.emerald.name=Storage Upgrade ³²
 item.storagedrawers.upgradeOneStack.name=Storage Downgrade
 item.storagedrawers.upgradeOneStack.description=Reduces base storage to a single stack
 item.storagedrawers.upgradeStatus.level1.name=Status Upgrade (I)

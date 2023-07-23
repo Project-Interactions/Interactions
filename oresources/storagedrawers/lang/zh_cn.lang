@@ -18,11 +18,11 @@ storagedrawers.msg.cannotAddUpgrade=这个升级无法装入这个抽屉中。
 
 # Items
 item.storagedrawers.upgradeTemplate.name=升级模板
-item.storagedrawers.upgradeStorage.obsidian.name=抽屉容量升级（I）
-item.storagedrawers.upgradeStorage.iron.name=抽屉容量升级（II）
-item.storagedrawers.upgradeStorage.gold.name=抽屉容量升级（III）
-item.storagedrawers.upgradeStorage.diamond.name=抽屉容量升级（IV）
-item.storagedrawers.upgradeStorage.emerald.name=抽屉容量升级（V）
+item.storagedrawers.upgradeStorage.obsidian.name=抽屉容量升级 ¹⁰²⁴
+item.storagedrawers.upgradeStorage.iron.name=抽屉容量升级 ⁴
+item.storagedrawers.upgradeStorage.gold.name=抽屉容量升级 ⁸
+item.storagedrawers.upgradeStorage.diamond.name=抽屉容量升级 ¹⁶
+item.storagedrawers.upgradeStorage.emerald.name=抽屉容量升级 ³²
 item.storagedrawers.upgradeOneStack.name=存储降级
 item.storagedrawers.upgradeOneStack.description=将基础存储降至一组
 item.storagedrawers.upgradeStatus.level1.name=状态显示升级（I）

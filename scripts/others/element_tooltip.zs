@@ -55,7 +55,7 @@ var materialsAndElement as string[string] ={
 
 for part in parts {
     for material,element in materialsAndElement{
-      val item as string = part + material;
+      val item as string = part ~ material;
       if (oreDict has item) {
         oreDict[item].addTooltip(element);
     }

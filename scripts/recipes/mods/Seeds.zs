@@ -40,7 +40,7 @@ static essi5 as IIngredient = <ore:ingotSupremium>;
 static essi6 as IIngredient = <ore:ingotInsanium>;
 
 function seedT2(name as string,output as IItemStack,item as IIngredient) as void{
-    mods.astralsorcery.Altar.addAttunementAltarRecipe("ia:seed/"+name, output, 500, 300, [
+    mods.astralsorcery.Altar.addAttunementAltarRecipe("ia:seed/" ~ name, output, 500, 300, [
 		item,essi2,item,essi2,ess2,essi2,item,essi2,item,item,item,item,item
     ]);
 }
@@ -57,7 +57,7 @@ function seedT4(output as IItemStack,item as IIngredient) as void{
 
 function seedT3(name as string,output as IItemStack,item as IIngredient) as void{
     Infusion.registerRecipe(
-        "seed_"+name, //id
+        "seed_" ~ name, //id
         "TAR_VIS_SEEDS", //research CAPITAL
         output, //output
         8, //instability
@@ -87,18 +87,18 @@ function toSnakeCase(arg as string) as string {
 }
 
 function jaopcaSeedTweak(tier as int,name as string) as void{
-    val block = oreDict["block"+name];
+    val block = oreDict["block" ~ name];
     var type as string = null;
-    if(oreDict has "ingot"+name){
+    if(oreDict has "ingot" ~ name){
         type = "ingot";
     }
-    else if(oreDict has "gem"+name){
+    else if(oreDict has "gem" ~ name){
         type = "gem";
     }
-    else if(oreDict has "crystal"+name){
+    else if(oreDict has "crystal" ~ name){
         type = "crystal";
     }
-    else if(oreDict has "dust"+name){
+    else if(oreDict has "dust" ~ name){
         type = "dust";
     }
     else{
@@ -107,35 +107,35 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
     if (name == "Polonium"){
         type = "dust";
     }
-    recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material."+toSnakeCase(name));
-    recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds."+toSnakeCase(name));
+    recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material." ~ toSnakeCase(name));
+    recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds." ~ toSnakeCase(name));
     if(tier == 1){
-        ArcaneWorkbench.registerShapedRecipe("seedt1_"+name,"FIRSTSTEPS",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
-        oreDict["mysticalSeeds"+name].firstItem,
+        ArcaneWorkbench.registerShapedRecipe("seedt1_" ~ name,"FIRSTSTEPS",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
+        oreDict["mysticalSeeds" ~ name].firstItem,
         [[block,essi1,block],
         [essi1,ess1,essi1],
         [block,essi1,block]]);
-        ManaInfusion.addInfusion(oreDict[type+name].firstItem, oreDict["essence"+name].firstItem, 50);
-        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem, oreDict[type+name].firstItem);
+        ManaInfusion.addInfusion(oreDict[type ~ name].firstItem, oreDict["essence" ~ name].firstItem, 50);
+        infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem, oreDict[type ~ name].firstItem);
     }
     if(tier == 2){
-        seedT2(name,oreDict["mysticalSeeds"+name].firstItem,block);
-        FluidToItem.transform(oreDict[type+name].firstItem*16, <liquid:essence>, [oreDict["essence"+name].firstItem*32], true);
-        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*2, oreDict[type+name].firstItem);
+        seedT2(name,oreDict["mysticalSeeds" ~ name].firstItem,block);
+        FluidToItem.transform(oreDict[type ~ name].firstItem*16, <liquid:essence>, [oreDict["essence" ~ name].firstItem*32], true);
+        infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem*2, oreDict[type ~ name].firstItem);
     }
     if(tier == 3){
-        seedT3(name,oreDict["mysticalSeeds"+name].firstItem,block);
-        Crucible.registerRecipe("essence_to_material"+name, "METALPURIFICATION", oreDict[type+name].firstItem, oreDict["essence"+name].firstItem*2, [<aspect:herba>]);
-        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*2, oreDict[type+name].firstItem);
+        seedT3(name,oreDict["mysticalSeeds" ~ name].firstItem,block);
+        Crucible.registerRecipe("essence_to_material" ~ name, "METALPURIFICATION", oreDict[type ~ name].firstItem, oreDict["essence" ~ name].firstItem*2, [<aspect:herba>]);
+        infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem*2, oreDict[type ~ name].firstItem);
     }
     if(tier == 4){
-        seedT4(oreDict["mysticalSeeds"+name].firstItem,block);
-        Empowerer.addRecipe(oreDict[type+name].firstItem*2, <mysticalagriculture:crafting:28>,oreDict["essence"+name].firstItem,oreDict["essence"+name].firstItem,oreDict["essence"+name].firstItem,oreDict["essence"+name].firstItem, 5000, 10);
-        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*2, oreDict[type+name].firstItem);
+        seedT4(oreDict["mysticalSeeds" ~ name].firstItem,block);
+        Empowerer.addRecipe(oreDict[type ~ name].firstItem*2, <mysticalagriculture:crafting:28>,oreDict["essence" ~ name].firstItem,oreDict["essence" ~ name].firstItem,oreDict["essence" ~ name].firstItem,oreDict["essence" ~ name].firstItem, 5000, 10);
+        infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem*2, oreDict[type ~ name].firstItem);
     }
     if(tier == 5){
-        seedT5(oreDict["mysticalSeeds"+name].firstItem,block);
-        infuser.addRecipe("BIO", 2, oreDict["essence"+name].firstItem*3, oreDict[type+name].firstItem);
+        seedT5(oreDict["mysticalSeeds" ~ name].firstItem,block);
+        infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem*3, oreDict[type ~ name].firstItem);
     }
     if(tier == 6){
     }
@@ -419,13 +419,13 @@ function seedMAT1(output as IItemStack,block as IIngredient) as void{
         [block,essi1,block]]);
 }
 function seedMAT2(output as IItemStack,block as IIngredient) as void{
-    mods.astralsorcery.Altar.addAttunementAltarRecipe("ia:seed/"+output.name, output, 500, 300, [
+    mods.astralsorcery.Altar.addAttunementAltarRecipe("ia:seed/" ~ output.name, output, 500, 300, [
 		block,essi2,block,essi2,ess2,essi2,block,essi2,block,block,block,block,block
     ]);
 }
 function seedMAT3(output as IItemStack,item as IIngredient) as void{
     Infusion.registerRecipe(
-        "seed_"+output.name, //id
+        "seed_" ~ output.name, //id
         "TAR_VIS_SEEDS", //research CAPITAL
         output, //output
         8, //instability
@@ -590,7 +590,7 @@ function essenceTweak(output as IItemStack,tier as int) as void {
         infuser.addRecipe("BIO", 2, essence*2, output);
     }
     if (tier == 3){
-        Crucible.registerRecipe("essence_to_material"+output.name, "METALPURIFICATION", output, essence*2, [<aspect:herba>]);
+        Crucible.registerRecipe("essence_to_material" ~ output.name, "METALPURIFICATION", output, essence*2, [<aspect:herba>]);
         infuser.addRecipe("BIO", 2, essence*2, output);
     }
     if (tier == 4){
@@ -679,16 +679,16 @@ essenceTweak(<techreborn:ingot:3>,5);
 essenceTweak(<thermalfoundation:material:136>,5);
 essenceTweak(<draconicevolution:draconium_ingot>,5);
 //specials
-Crucible.registerRecipe("essence_to_material"+"iron", "METALPURIFICATION", <minecraft:iron_ingot>, <mysticalagriculture:iron_essence>*2, [<aspect:herba>]);
+Crucible.registerRecipe("essence_to_material" ~ "iron", "METALPURIFICATION", <minecraft:iron_ingot>, <mysticalagriculture:iron_essence>*2, [<aspect:herba>]);
 infuser.addRecipe("BIO", 2, <mysticalagriculture:iron_essence>*2, <minecraft:iron_ingot>);
 Empowerer.addRecipe(<minecraft:gold_ingot>*2, <mysticalagriculture:crafting:28>,<mysticalagriculture:gold_essence>,<mysticalagriculture:gold_essence>,<mysticalagriculture:gold_essence>,<mysticalagriculture:gold_essence>, 5000, 10);
 infuser.addRecipe("BIO", 2, <mysticalagriculture:gold_essence>*2, <minecraft:gold_ingot>);
-Crucible.registerRecipe("essence_to_material"+"brass", "METALPURIFICATION", <techreborn:ingot:1>, <mysticalagriculture:brass_essence>*2, [<aspect:herba>]);
-Crucible.registerRecipe("essence_to_material"+"alchemical_brass", "METALPURIFICATION", <thaumcraft:ingot:2>, <mysticalagriculture:brass_essence>*4, [<aspect:instrumentum>]);
+Crucible.registerRecipe("essence_to_material" ~ "brass", "METALPURIFICATION", <techreborn:ingot:1>, <mysticalagriculture:brass_essence>*2, [<aspect:herba>]);
+Crucible.registerRecipe("essence_to_material" ~ "alchemical_brass", "METALPURIFICATION", <thaumcraft:ingot:2>, <mysticalagriculture:brass_essence>*4, [<aspect:instrumentum>]);
 infuser.addRecipe("BIO", 2, <mysticalagriculture:brass_essence>*2, <techreborn:ingot:1>);
 
 recipes.removeByRecipeName("mysticalagriculture:itemcraftingcomponent");
-Crucible.registerRecipe("essence_to_material"+"aquamarine", "METALPURIFICATION", <astralsorcery:itemcraftingcomponent>, <mysticalagriculture:aquamarine_essence>*2, [<aspect:herba>]);
+Crucible.registerRecipe("essence_to_material" ~ "aquamarine", "METALPURIFICATION", <astralsorcery:itemcraftingcomponent>, <mysticalagriculture:aquamarine_essence>*2, [<aspect:herba>]);
 infuser.addRecipe("BIO", 2, <mysticalagriculture:aquamarine_essence>*2, <astralsorcery:itemcraftingcomponent>);
 
 recipes.removeByRecipeName("mysticalagriculture:dustbedrock");
@@ -719,7 +719,7 @@ function essenceTweakSpecial(output as IItemStack,tier as int,realoutput as IIte
         infuser.addRecipe("BIO", 2, essence*2, realoutput);
     }
     if (tier == 3){
-        Crucible.registerRecipe("essence_to_material"+realoutput.name, "METALPURIFICATION", realoutput, essence*2, [<aspect:herba>]);
+        Crucible.registerRecipe("essence_to_material" ~ realoutput.name, "METALPURIFICATION", realoutput, essence*2, [<aspect:herba>]);
         infuser.addRecipe("BIO", 2, essence*2, realoutput);
     }
     if (tier == 4){
@@ -742,19 +742,19 @@ function finalTweak(input as string[],tier as int) as void{
         jaopcaSeedTweak(input[1],tier,input[0]);
     }
     if (input.length == 3){
-        jaopcaSeedTweak(input[1]+input[2],tier,input[0]);
+        jaopcaSeedTweak(input[1] ~ input[2],tier,input[0]);
     }
     if (input.length == 4){
-        jaopcaSeedTweak(input[1]+input[2]+input[3],tier,input[0]);
+        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3],tier,input[0]);
     }
     if (input.length == 5){
-        jaopcaSeedTweak(input[1]+input[2]+input[3]+input[4],tier,input[0]);
+        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3] ~ input[4],tier,input[0]);
     }
     if (input.length == 6){
-        jaopcaSeedTweak(input[1]+input[2]+input[3]+input[4]+input[5],tier,input[0]);
+        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3] ~ input[4] ~ input[5],tier,input[0]);
     }
     if (input.length == 7){
-        jaopcaSeedTweak(input[1]+input[2]+input[3]+input[4]+input[5]+input[6],tier,input[0]);
+        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3] ~ input[4] ~ input[5] ~ input[6],tier,input[0]);
     }
 }
 for seeds in loadedMods["jaopca"].items {

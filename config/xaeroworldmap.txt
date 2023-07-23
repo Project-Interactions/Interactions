@@ -42,6 +42,7 @@ displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true
+trackedPlayers:true
 globalVersion:1
 [XP] Fast Mapping:true
 [XP] Fast Mapping Delay:400.0

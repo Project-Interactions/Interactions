@@ -148,6 +148,8 @@ recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruc
 
 Casting.addTableRecipe(<contenttweaker:useful_ingot>, <tconstruct:cast_custom>, <liquid:tic_useful_metal>,144,false, 80);
 Casting.addTableRecipe(<techreborn:plates:35>, <tconstruct:cast_custom:3>, <liquid:refinediron>,144,false, 80);
+Casting.addBasinRecipe(<contenttweaker:useful_block>, null, <liquid:tic_useful_metal>, 1296, false, 640);
+
 
 recipes.remove(<tcomplement:high_oven_controller>);
 

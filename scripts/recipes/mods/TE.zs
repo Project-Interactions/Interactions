@@ -146,9 +146,9 @@ val id as string[] =
 ];
 
 for ids in id {
-    recipes.removeByRecipeName("thermallogistics:requester_"+ids);
-    recipes.removeByRecipeName("thermallogistics:crafter_"+ids);
-    recipes.removeByRecipeName("thermallogistics:distributor_"+ids);
+    recipes.removeByRecipeName("thermallogistics:requester_" ~ ids);
+    recipes.removeByRecipeName("thermallogistics:crafter_" ~ ids);
+    recipes.removeByRecipeName("thermallogistics:distributor_" ~ ids);
 }
 recipes.remove(<thermaldynamics:servo>);
 recipes.remove(<thermaldynamics:servo:1>);

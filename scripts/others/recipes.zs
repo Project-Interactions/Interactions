@@ -45,23 +45,23 @@ function materialSplit(input as string[]) as void{
         material = input[1];
     }
     if (input.length == 3){
-        material = input[1]+input[2];
+        material = input[1] ~ input[2];
     }
     if (input.length == 4){
-        material = input[1]+input[2]+input[3];
+        material = input[1] ~ input[2] ~ input[3];
     }
     if (input.length == 5){
-        material = input[1]+input[2]+input[3]+input[4];
+        material = input[1] ~ input[2] ~ input[3] ~ input[4];
     }
     if (input.length == 6){
-        material = input[1]+input[2]+input[3]+input[4]+input[5];
+        material = input[1] ~ input[2] ~ input[3] ~ input[4] ~ input[5];
     }
     if (input.length == 7){
-        material = input[1]+input[2]+input[3]+input[4]+input[5]+input[6];
+        material = input[1] ~ input[2] ~ input[3] ~ input[4] ~ input[5] ~ input[6];
     }
-    val nugget as IOreDictEntry = oreDict["nugget"+material];
-    val ingot as IOreDictEntry = oreDict["ingot"+material];
-    val block as IOreDictEntry = oreDict["block"+material];
+    val nugget as IOreDictEntry = oreDict["nugget" ~ material];
+    val ingot as IOreDictEntry = oreDict["ingot" ~ material];
+    val block as IOreDictEntry = oreDict["block" ~ material];
     recipes.addShapeless(nugget.firstItem*9,[ingot]);
     recipes.addShapeless(ingot.firstItem*9,[block]);
     recipes.addShaped(ingot.firstItem,[

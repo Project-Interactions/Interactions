@@ -115,7 +115,6 @@ recipes.addShaped(<techreborn:machine_casing:1>*2, [[<ore:plateSteel>, <ore:circ
 
 recipes.remove(<techreborn:part:2>*4);
 
-rollingMachine.addShapeless(<advgenerators:iron_frame>, [<ore:plateCobalt>]);
 
 recipes.remove(<techreborn:part>*4);
 recipes.remove(<techreborn:lapotronicorb>);
