@@ -126,3 +126,4 @@ recipes.addShaped(<botania:manaresource:15>,[
     [null,<astralsorcery:itemusabledust>,null]
 ]);
 
+RecipeUtils.recipeTweak(true, <botania:felpumpkin>, [[null, <minecraft:string>, null], [<minecraft:bone>, <minecraft:pumpkin>, <minecraft:rotten_flesh>], [null, <minecraft:magma_cream>, null]]);

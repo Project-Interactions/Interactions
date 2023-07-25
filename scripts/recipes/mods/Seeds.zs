@@ -155,7 +155,6 @@ jaopcaSeedTweak(1,"Andesite");
 jaopcaSeedTweak(2,"Andradite");
 jaopcaSeedTweak(4,"Arsenic");
 jaopcaSeedTweak(1,"Ash");
-jaopcaSeedTweak(1,"Ashes");
 jaopcaSeedTweak(5,"Astrium");
 jaopcaSeedTweak(5,"Aurorium");
 jaopcaSeedTweak(5,"BSCCO");

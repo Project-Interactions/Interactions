@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -0.5d,
 	text: [
-		"shift加右键草地"
+		"潜行右击草方块"
 	],
 	tasks: [{
 		uid: "efdf112a",

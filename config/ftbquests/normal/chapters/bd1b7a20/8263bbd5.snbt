@@ -1,6 +1,9 @@
 {
 	x: -7.5d,
 	y: 4.0d,
+	text: [
+		"造石机需要耗电进行工作"
+	],
 	dependencies: [
 		"ad9c2e04"
 	],

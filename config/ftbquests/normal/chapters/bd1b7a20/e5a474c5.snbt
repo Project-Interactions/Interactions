@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -2.5d,
+	text: [
+		"抽屉，但是可以存储流体"
+	],
+	dependencies: [
+		"b08d6b10"
+	],
+	tasks: [{
+		uid: "e1df6ff6",
+		type: "item",
+		items: [{
+			item: "fluiddrawers:tank"
+		}]
+	}]
+}

@@ -4,7 +4,6 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 import mods.zenutils.StaticString;
 
-recipes.remove(<harvestcraft:shippingbin>);
 recipes.remove(<theaurorian:aurorianportalframebricks> * 4);
 recipes.remove(<extrautils2:angelring:5>);
 recipes.remove(<extrautils2:angelring:4>);
@@ -12,7 +11,6 @@ recipes.remove(<extrautils2:angelring:3>);
 recipes.remove(<extrautils2:angelring:2>);
 recipes.remove(<extrautils2:angelring:1>);
 recipes.remove(<extrautils2:angelring>);
-recipes.remove(<harvestcraft:market>);
 recipes.remove(<extrautils2:angelring>);
 
 recipes.addShaped(<interaction:chaos>, [[<tconevo:metal:13>, <tconevo:metal:13>, <tconevo:metal:13>],[<tconevo:metal:13>, <draconicevolution:fusion_crafting_core>, <tconevo:metal:13>], [<tconevo:metal:13>, <tconevo:metal:13>, <tconevo:metal:13>]]);

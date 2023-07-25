@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 4.5d,
+	text: [
+		"需要量子环"
+	],
+	dependencies: [
+		"febd38a7"
+	],
+	tasks: [{
+		uid: "c14ac74a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 59"
+		}]
+	}]
+}

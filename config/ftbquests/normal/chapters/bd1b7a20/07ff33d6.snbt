@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"集中管理抽屉，可使用传动方块和桥接方块进行连接"
+	],
+	dependencies: [
+		"b08d6b10"
+	],
+	tasks: [{
+		uid: "b718c015",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "a16c5cbe",
+		type: "item",
+		item: "storagedrawers:controllerslave",
+		count: 2
+	},
+	{
+		uid: "3368f77a",
+		type: "item",
+		item: "storagedrawers:trim",
+		count: 4
+	}]
+}

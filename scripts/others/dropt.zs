@@ -45,13 +45,6 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<enderio:item_material:31>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<immersiveengineering:metal:14>])
       )
       .addDrop(

@@ -6,6 +6,9 @@ import mods.embers.Melter;
 import mods.embers.Alchemy;
 import mods.aetherworks.MetalFormer;
 import mods.aetherworks.Anvil;
+
+furnace.remove(<embers:ingot_aluminum>);
+
 recipes.removeShapeless(<embers:blend_caminite> * 8);
 recipes.remove(<embers:gear_dawnstone>);
 RecipeUtils.recipeTweak(true, <embers:mech_core>, [[<ore:plateIronCompressed>, <minecraft:compass>, <ore:plateIronCompressed>], [<minecraft:compass>, <ore:circuitOperation>, <minecraft:compass>], [<ore:plateIronCompressed>, <minecraft:compass>, <ore:plateIronCompressed>]]);
@@ -15,27 +18,25 @@ RecipeUtils.recipeTweak(true, <embers:beam_cannon>, [[<ore:plateCopper>, <embers
 Alchemy.add(<botania_tweaks:basic_extended_crafty_crate>, [<ore:blockAether>,<extendedcrafting:storage>,<enderio:item_material:1>,<thaumcraft:metal_void>,<ore:circuitElite>], {"dawnstone":20 to 30,"iron":20 to 23,"silver":25 to 40,"copper":10 to 15});
 furnace.remove(<embers:brick_caminite>);
 RecipeUtils.recipeTweak(true, <embers:mini_boiler>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotDawnstone>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.remove(<embers:geo_separator>);
 
+//melter
 Melter.remove(<liquid:aluminum>*288);
 Melter.remove(<liquid:osmium>*288);
 Melter.remove(<liquid:iridium>*288);
 Melter.remove(<liquid:platinum>*288);
 Melter.remove(<liquid:tungsten>*288);
 Melter.remove(<liquid:titanium>*288);
-furnace.remove(<embers:ingot_aluminum>);
-//熔炼炉
 Melter.remove(<liquid:tungsten>*288);
 Melter.remove(<liquid:tungsten>*144);
 Melter.remove(<liquid:tungsten>*16);
-recipes.remove(<embers:geo_separator>);
-
 Melter.remove(<liquid:draconium>*288);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <mysticalmechanics:creative_mech_source>, [
 	[<embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
-	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:ingotInfinity>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
+	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <minecraft:command_block>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:plateWyvernMetal>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <ore:gearDawnstone>, <embers:aspectus_dawnstone>], 
 	[<embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>]
@@ -50,7 +51,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <embers:creative_ember_source>,
 	[<embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>]
 ]);
 
-//fix aetherwork metalformer don't receive tf's bronze
+//fix aetherwork metalformer don't receive unidict bronze
 MetalFormer.removeRecipesByInput(<embers:ingot_bronze>);
 MetalFormer.removeRecipesByInput(<embers:plate_bronze>);
 

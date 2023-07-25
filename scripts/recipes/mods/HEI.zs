@@ -25,14 +25,12 @@ for remove in removeDescriptors {
 addRegexLogFilter("Failed to hide recipe category");
 
 var jeiremove as string[]=[
-"jehc.market",
 "TechReborn.Compressor",
 "tcomplement:high_oven_mix",
 "tcomplement:high_oven_heat",
 "tcomplement:high_oven_melting",
 "tcomplement:high_oven_fuel",
 "thermaldynamics.covers",
-"jehc.shippingbin",
 "appliedenergistics2.grinder",
 "Painter",
 "actuallyadditions.booklet",

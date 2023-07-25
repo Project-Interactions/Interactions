@@ -159,9 +159,6 @@ contenttweaker.part.dustore=%s矿粉
 
 //crt
 ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l！
-ia.custom.anticheat.name=检测到安装了作弊模组，请立即删除，否则将失去技术支持！
-ia.custom.warn.name=检测到安装了未经兼容测试的模组，平衡性不受保障。
-
 
 ia.tooltip.1=此物品可能导致tps降低，谨慎使用
 ia.tooltip.2=配方在相应的维度工作，在实体仓丢入石头/地狱岩/末地石的掉落物

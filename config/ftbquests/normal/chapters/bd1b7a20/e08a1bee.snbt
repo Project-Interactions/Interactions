@@ -4,6 +4,9 @@
 	text: [
 		"mek的能量立方需要调整输出"
 	],
+	dependencies: [
+		"95c5f46d"
+	],
 	tasks: [{
 		uid: "09ad6470",
 		type: "item",

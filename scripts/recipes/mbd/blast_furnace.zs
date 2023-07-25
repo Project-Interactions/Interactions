@@ -20,7 +20,7 @@ map.recipeMap.start()
     .duration(100)
     .inputItems(<lightningcraft:lightning_cell:2>*64,<minecraft:command_block>)
     .outputItems(<lightningcraft:lightning_cell:3>)
-    .inputLE(20000)
+    .inputLE(15000)
     .buildAndRegister();
 
 map.recipeMap.start()

@@ -59,6 +59,9 @@ globalVersion:1
 [XP] Save/Load NewChunks to Disk:false
 [XP] New Chunks Opacity:100.0
 [XP] New Chunks Color:0
+[XP] Portal Highlights:false
+[XP] Portal Highlights Opacity:100.0
+[XP] Portal Highlights Color:5
 [XP] PortalSkip Detection:false
 [XP] PortalSkip Opacity:100.0
 [XP] PortalSkip Color:6

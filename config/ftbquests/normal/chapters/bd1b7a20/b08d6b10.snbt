@@ -1,6 +1,10 @@
 {
+	title: "抽屉",
 	x: -4.5d,
 	y: -3.0d,
+	text: [
+		"抽屉升级的配方已被修改"
+	],
 	dependencies: [
 		"b7fd7f76"
 	],
