@@ -1,0 +1,9 @@
+//conflict fix
+tile.mixer.name=混合离心器
+item.amber.name=琥珀
+
+//correct
+item.thermalfoundation.material.crystalEnder.name=谐振笼合物
+item.thermalfoundation.material.crystalGlowstone.name=充能笼合物
+item.thermalfoundation.material.crystalRedstone.name=不稳定笼合物
+tile.thermalfoundation.ore.ender.name=谐振末地石

@@ -162,7 +162,7 @@ tooltip.ec.unlimited_input=无限输入
 
 tooltip.ec.tier=等级：%s
 tooltip.ec.output=输出：%sx %s
-tooltip.ec.crafting=合成: %sx %s
+tooltip.ec.crafting=合成：%sx %s
 tooltip.ec.mode=模式：%s
 tooltip.ec.num_items=%s 物品
 tooltip.ec.requires_table=需要 %s 级工作台
