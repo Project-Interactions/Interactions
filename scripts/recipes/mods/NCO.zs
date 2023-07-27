@@ -144,20 +144,32 @@ val MelterRemove as IIngredient[] =
 <ore:ingotInfinity>,
 <ore:dustInfinity>,
 <ore:nuggetInfinity>,
-<ore:blockInfinity>
+<ore:blockInfinity>,
+<ore:dustTitanium>,
+<ore:dustTungsten>,
+<ore:dustChromium>
 ];
 
 for removeb in MelterRemove {
     Melter.removeRecipeWithInput(removeb);
 }
+Melter.removeRecipeWithOutput(<liquid:brass>*144);
+Melter.removeRecipeWithOutput(<liquid:refinedobsidian>*16);
+Melter.removeRecipeWithOutput(<liquid:refinedobsidian>*144);
+Melter.removeRecipeWithOutput(<liquid:refinedobsidian>*1296);
+Melter.removeRecipeWithOutput(<liquid:refinedglowstone>*16);
+Melter.removeRecipeWithOutput(<liquid:refinedglowstone>*144);
+Melter.removeRecipeWithOutput(<liquid:refinedglowstone>*1296);
 
 mods.qmd.target_chamber.addRecipe(<techreborn:quantum_tank>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
+
+val cb = <thaumadditions:crystal_block>.withTag({Aspect: "superbia"});
 mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>, [
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:cell:1>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:9>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:9>.withTag({particle_storage: {particle_amount: 100000}}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:cell:2>.withTag({particle_storage: {particle_amount: 100000}}),<thaumicenergistics:essentia_cell_creative>, <qmd:cell:6>.withTag({particle_storage: {particle_amount: 100000}}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <qmd:cell:3>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:5>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:8>.withTag({particle_storage: {particle_amount: 100000}}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})], 
-	[<thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"}), <thaumadditions:crystal_block>.withTag({Aspect: "creative"})]
+	[cb, cb, cb, cb, cb], 
+	[cb, <qmd:cell:1>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:9>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:9>.withTag({particle_storage: {particle_amount: 100000}}), cb], 
+	[cb, <qmd:cell:2>.withTag({particle_storage: {particle_amount: 100000}}),<thaumicenergistics:essentia_cell_creative>, <qmd:cell:6>.withTag({particle_storage: {particle_amount: 100000}}), cb], 
+	[cb, <qmd:cell:3>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:5>.withTag({particle_storage: {particle_amount: 100000}}), <qmd:cell:8>.withTag({particle_storage: {particle_amount: 100000}}), cb], 
+	[cb, cb, cb, cb, cb]
 ]);
 
 SaltMixer.addRecipe(<liquid:rocket_fuel>*1000, <liquid:rocketfuel>*1000, <liquid:mix_rocket_fuel>*1000);

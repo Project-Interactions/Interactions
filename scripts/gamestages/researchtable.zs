@@ -23,7 +23,7 @@ ResearchTable.builder("dart_shooter", tic)
   .build();
 
 ResearchTable.builder("vis_seeds", tc)
-  .setIcons(<thaumadditions:vis_seeds/creative>)
+  .setIcons(<thaumadditions:vis_seeds/terra>)
   .setTitle(game.localize("ia.rt.vis_seeds"))
   .addCondition(<thaumadditions:adaminite_fabric>*2,<thaumadditions:mithrillium_resonator>)
   .setRewardStages("vis_seeds")

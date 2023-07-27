@@ -53,3 +53,15 @@ SummoningDirector.addSummonInfo(
 		.setCount(8)
 	)
 );
+
+//pech
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+	.setCatalyst(<minecraft:golden_apple:1>)
+	.setConsumeCatalyst(true)
+	.setReagents([<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>])
+	.addMob(MobInfo.create()
+	.setMob("thaumcraft:pech")
+		.setCount(1)
+	)
+);

@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -117,10 +117,6 @@ key_key.conarm.toggle_chest.desc:0
 key_key.conarm.toggle_leg.desc:0
 key_keybind.hammercorerenderstack:0
 key_ChatFlow:88
-key_key.toggleFoVChanges:0
-key_key.reloadSoundSystem:0
-key_key.toggleTimeOfDayOverlay:0
-key_key.togglePotionParticles:0
 key_cos.key.opencosarmorinventory:0
 key_key.findme.search:21
 key_key.ftbutilities.nbt:0
@@ -162,8 +158,6 @@ key_key.openglasses.nightvision:49
 key_key.openglasses.thermalvision:48
 key_key.openglasses.config:0:SHIFT
 key_key.xtones.scroll:42
-key_key.dismount:42
-key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
 key_key.clipboardPaste:210
 key_key.cofh.multimode:47
@@ -277,7 +271,6 @@ key_key.plustic_mots.desc:0
 key_key.musictriggers.gui:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
-key_key.neenergistics.crafting.helper.noPreview:56
 key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0

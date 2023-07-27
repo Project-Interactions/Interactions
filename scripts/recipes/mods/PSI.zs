@@ -115,11 +115,7 @@ recipes.remove(<psi:cad_assembler>);
 
 //tricks
 //remove
-Trick.remove(<psi:material>);
-Trick.remove(<psi:material:1>);
-Trick.remove(<psi:material:2>);
-Trick.remove(<psi:material:5>);
-Trick.remove(<psi:material:6>);
+Trick.removeAll();
 
 //add
 Trick.addRecipe("trickEbonyIvory", <contenttweaker:powered_circuit>, <contenttweaker:psio_powered_circuit>, <psi:cad_assembly:3>);

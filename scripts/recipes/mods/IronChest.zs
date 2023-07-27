@@ -35,7 +35,7 @@ RecipeUtils.recipeTweak(true,
 
 recipes.remove(<ironchest:silver_gold_chest_upgrade>);
 recipes.remove(<ironchest:copper_iron_chest_upgrade>);
-RecipeUtils.recipeTweak(true, <ironchest:gold_diamond_chest_upgrade>, [[<ore:blockGlassColorless>, <ore:gearDiamond>, <ore:blockGlassColorless>],[<ore:craftingIndustrialDiamond>, <tconstruct:clear_glass>, <ore:craftingIndustrialDiamond>], [<ore:blockGlassColorless>, <ore:gearDiamond>, <ore:blockGlassColorless>]]);
+RecipeUtils.recipeTweak(true, <ironchest:gold_diamond_chest_upgrade>, [[<ore:blockGlassColorless>, <ore:gearDiamond>, <ore:blockGlassColorless>],[<ore:gemDiamond>, <tconstruct:clear_glass>, <ore:gemDiamond>], [<ore:blockGlassColorless>, <ore:gearDiamond>, <ore:blockGlassColorless>]]);
 RecipeUtils.recipeTweak(true, <ironchest:diamond_crystal_chest_upgrade>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <tconstruct:clear_glass>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>]]);
 RecipeUtils.recipeTweak(true, <ironchest:diamond_obsidian_chest_upgrade>, [[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],[<ore:obsidian>, <tconstruct:clear_glass>, <ore:obsidian>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
 RecipeUtils.recipeTweak(true, <ironchest:iron_gold_chest_upgrade>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <tconstruct:clear_glass>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);

@@ -31,7 +31,7 @@ Infusion.registerRecipe("gaia_plate", "", <botanicadds:gaia_plate>, 6.5, [<aspec
 Infusion.registerRecipe("arcane_thaumic_circuit", "", <contenttweaker:arcane_thaumic_circuit>, 2, [<aspect:aer>*20,<aspect:herba>*20,<aspect:alkimia>*30,<aspect:auram>*30], <contenttweaker:thaumic_circuit>, [<contenttweaker:thaumic_circuit>, <contenttweaker:thaumic_circuit>,<thaumcraft:mechanism_complex>,<thaumcraft:mechanism_complex>,<jaopca:gear.thaumium>]);
 
 recipes.removeShaped(<thaumcraft:stone_arcane> * 9, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <thaumcraft:crystal_essence>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
-recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "twilight"}]}), <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
+recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <ore:ingotTwilghtSteel>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
 
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
@@ -70,21 +70,8 @@ Crucible.removeRecipe(<thaumicbases:metalleatseed>);
 Crucible.registerRecipe("hard_metalleatseed"   , "TB.PLANT1", <thaumicbases:metalleatseed>, <mysticalagriculture:iron_seeds>, [<aspect:ordo>*25,<aspect:metallum>*25,<aspect:victus>*25]);
 
 
-Crucible.removeRecipe(<thaumadditions:vis_seeds/twilight>);
-Crucible.removeRecipe(<thaumadditions:vis_seeds/creative>);
 
 var aspectMap as CTAspectStack[][IIngredient] = {
-    <contenttweaker:material_part:152> : [<aspect:metallum> * 10, <aspect:twilight> * 20],
-    <twilightforest:maze_stone> : [<aspect:vinculum> * 1, <aspect:twilight> * 2,<aspect:terra> * 5],
-    <twilightforest:torchberries> : [<aspect:herba> * 3, <aspect:twilight> * 4,<aspect:lux> * 3],
-    <twilightforest:twilight_log> : [<aspect:herba> * 20, <aspect:twilight> * 5],
-    <twilightforest:borer_essence> : [<aspect:alkimia> * 10, <aspect:twilight> * 4],
-    <twilightforest:naga_scale> : [<aspect:praemunio> * 5, <aspect:motus> * 2, <aspect:twilight> * 4],
-    <twilightforest:maze_map_focus> : [<aspect:vinculum> * 10, <aspect:machina> * 10, <aspect:twilight> * 20],
-    <twilightforest:steeleaf_ingot> : [<aspect:herba> * 12, <aspect:twilight> * 6, <aspect:metallum> * 4],
-    <twilightforest:knightmetal_ingot> : [<aspect:metallum> * 18, <aspect:fabrico> * 6, <aspect:twilight> * 6],
-    <twilightforest:fiery_ingot> : [<aspect:metallum> * 10, <aspect:ignis> * 20, <aspect:auram> * 20, <aspect:twilight> * 8],
-    <avaritia:resource:6> : [<aspect:creative>],
 };
 
 for ingredient in aspectMap {
@@ -93,16 +80,12 @@ for ingredient in aspectMap {
         item.setAspects(aspects);
     }
 }
-//Crucible
-//Crucible.registerRecipe("infinity", "", <minecraft:diamond>, <minecraft:stick>, [<aspect:aer>]);
 
 //thaumicrestoration
 // String Research, IItemStack output, String Aspect, IItemStack input 
 CrystalInfusion.addRecipe("",<contenttweaker:thaumic_suncrystal>,"alkimia",<extrautils2:suncrystal>);
 
 ArcaneWorkbench.registerShapedRecipe("thaumic_circuit","",20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>],<contenttweaker:thaumic_circuit>*3,[[<thaumcraft:morphic_resonator>,<thaumcraft:mechanism_simple>,<thaumcraft:filter>],[<thaumcraft:mechanism_simple>,<contenttweaker:thaumic_suncrystal>,<thaumcraft:mechanism_simple>],[<thaumcraft:filter>,<thaumcraft:mechanism_simple>,<thaumcraft:morphic_resonator>]]);
-
-Crucible.registerRecipe("demonic_metal", "METALLURGY@2", <extrautils2:ingredients:11>, <minecraft:gold_ingot>, [<aspect:infernum>*5]);
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <thaumicenergistics:essentia_cell_creative>, [
 	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>], 
