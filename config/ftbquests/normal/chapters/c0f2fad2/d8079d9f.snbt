@@ -5,10 +5,7 @@
 		"使用魔力发射器"
 	],
 	dependencies: [
-		"8cf4d250",
-		"8cc83eed",
-		"60486926",
-		"591be34d"
+		"8cf4d250"
 	],
 	tasks: [{
 		uid: "2ea29eb2",

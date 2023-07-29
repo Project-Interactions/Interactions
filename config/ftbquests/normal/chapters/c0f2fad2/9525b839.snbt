@@ -6,6 +6,9 @@
 	text: [
 		"拥有独立的JEI界面，且支持气体输出"
 	],
+	dependencies: [
+		"95c5f46d"
+	],
 	tasks: [{
 		uid: "d894cd09",
 		type: "item",

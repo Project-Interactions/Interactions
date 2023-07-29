@@ -4,6 +4,9 @@
 	text: [
 		"旁边要有动物才会工作"
 	],
+	dependencies: [
+		"c5146ead"
+	],
 	tasks: [{
 		uid: "3578ada7",
 		type: "item",

@@ -5,6 +5,9 @@
 		"加入燃料将物品转化成要素",
 		"升级可以提高效率"
 	],
+	dependencies: [
+		"67bde826"
+	],
 	tasks: [{
 		uid: "40c4a3e3",
 		type: "item",

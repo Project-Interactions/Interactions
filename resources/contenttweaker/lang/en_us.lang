@@ -1,3 +1,4 @@
+//items
 item.contenttweaker.crystal_useless.name=Semi-finished Crystal Plate
 item.contenttweaker.useful_ingot.name=Useful Alloy Ingot
 tile.contenttweaker.useful_block.name=Useful Alloy Block
@@ -42,85 +43,8 @@ item.contenttweaker.wood_essence.name=Wooden Essence
 
 item.contenttweaker.outside_minecraft.name=Outside Minecraft?
 item.contenttweaker.give.name=----
-
-item.contenttweaker.thaumic_suncrystal.name=Thaumic Sun Crystal
-
-item.contenttweaker.printed_copper_plate.name=Printed Copper Plate
-item.contenttweaker.etched_assembled_circuit_plate.name=Etched Assembled Circuit Plate
-item.contenttweaker.pre_rubber.name=Pre-Rubber
-item.contenttweaker.mechanical_circuit_board.name=Mechanical Circuit Board
-item.contenttweaker.processor_circuit_board.name=Processor Circuit Board
-
-fluid.blend_caminite=Liquid Caminite
-fluid.hot_blend_caminite=Hot Liquid Caminite
-fluid.witch_water=Witch Water
-fluid.ore_water=Ore Slurry
-fluid.living_water=Biomass Water
-fluid.gem_water=Gem Slurry
-fluid.advanced_etching=Advanced Etching Acid
-fluid.slime_cot=Liquid Slime
-fluid.waste_water=Sluice Juice
-fluid.semiconductor=Molten Semiconductor
-fluid.heavymetalelements=Molten Heavy Metal Element
-fluid.will_alloy=Five Will In One Liquid
-fluid.europium=Molten Europium
-fluid.uu=UU Matter
-fluid.liquid_chaos=Liquid Chaos
-fluid.superconduct=Molten Superconductor
 item.contenttweaker.twilight_crystal.name=Twilight Crystal
-fluid.aqua_regia=Aqua Regia
-fluid.rich_iodine_oil=Rich Iodine Oil
-fluid.molten_mana=Molten Mana
-fluid.rich_lithium_water=Rich Lithium Water
-fluid.dimensionalshard=Molten Dimensional Shard
-fluid.everlasting=Molten Eternal
-fluid.advancedalloy=Molten Advanced Alloy
-fluid.refinediron=Molten Refined Iron
-fluid.tic_useful_metal=Molten Useful Alloy
-fluid.duplication=Molten Duplication Alloy
-fluid.ytinifni=ytinifnI
-fluid.molten_elfglass=Molten Elfglass
 
-tile.contenttweaker.frost_proof_machine_casing.name=Freeze Machine Casing
-tile.contenttweaker.refined_ore_essence.name=Refined Ore Essence Block
-tile.contenttweaker.basic_refined_ore_essence.name=Ore Essence Block
-tile.contenttweaker.singularity_block.name=Singularity Block
-tile.contenttweaker.locked_drawer.name=Locked Drawer
-
-tile.contenttweaker.aether_log_fix.name=Etcher Aether Log
-base.material.kanthal=Kanthal
-base.material.gold=Gold
-base.material.europium=Europium
-base.material.gallium=Gallium
-base.material.tough=Tough
-base.material.heavymetalelements=Heavy Metal Element
-base.material.mithril=Mithril
-base.material.semiconductor=Semiconductor
-base.material.energium=Energium
-base.material.uumatter=UU Matter
-base.material.duplication=Duplication Alloy
-base.material.superconduct=Superconductor
-base.material.cloudium=Light Cloudium
-base.material.naturium=Naturium
-base.material.twilght_steel=Twilight Steel
-base.material.refined_iron=Refined Iron
-base.material.six_in_one_thaumic=Six In One Thaumic
-base.material.advanced_electronic_alloy=Advanced Electronic Alloy
-base.material.magnet=Magnet
-base.material.crude_gold=Precious Metal
-
-contenttweaker.part.dust_tiny=Tiny %s Dust
-contenttweaker.part.coin=%s Coin
-contenttweaker.part.dust_small=Small %s Dust
-contenttweaker.part.plate_dense=Dense %s Plate
-contenttweaker.part.sheet=%s Plate
-contenttweaker.part.casing=%s Casing
-contenttweaker.part.scaffolding=%s Frame
-contenttweaker.part.sheetmetal=%s Sheetmetal
-contenttweaker.part.machine_frame=%s Machine Frame
-contenttweaker.part.coil=%s Coil
-contenttweaker.part.wire=%s Wire
-contenttweaker.part.dustore=%s Ore Dust
 
 item.contenttweaker.crystal_colorful.name=Colorful Crystal
 item.contenttweaker.cold_ingot.name=Freeze Ingot
@@ -140,8 +64,114 @@ item.contenttweaker.mana_circuit_board.name=Mana Circuit Board
 item.contenttweaker.starlight_circuit_board.name=Astral Circuit Board
 item.contenttweaker.aquamarine_menril_mixture.name=Aquamarine-Menril Mixture
 
+item.contenttweaker.blank_ar_chip.name=Blank Advanced Rocketry Chip
+item.contenttweaker.thaumic_suncrystal.name=Thaumic Sun Crystal
 
+item.contenttweaker.printed_copper_plate.name=Printed Copper Plate
+item.contenttweaker.etched_assembled_circuit_plate.name=Etched Assembled Circuit Plate
+item.contenttweaker.pre_rubber.name=Pre-Rubber
+item.contenttweaker.mechanical_circuit_board.name=Mechanical Circuit Board
+item.contenttweaker.processor_circuit_board.name=Processor Circuit Board
+
+item.contenttweaker.circuit_stack.name=Circuit Stack
+item.contenttweaker.operation_circuit_board.name=Operation Circuit Board
+item.contenttweaker.mana_matter.name=Mana Matter
+item.contenttweaker.powered_circuit_board.name=Powered Circuit Board
+
+item.contenttweaker.super_mana_tablet.name=Super Mana Tablet
+item.contenttweaker.infinity_mana_tablet.name=Infinity Mana Tablet
+//fluid
+fluid.blend_caminite=Liquid Caminite
+fluid.hot_blend_caminite=Hot Liquid Caminite
+fluid.witch_water=Witch Water
+fluid.ore_water=Ore Slurry
+fluid.living_water=Biomass Water
+fluid.gem_water=Gem Slurry
+fluid.advanced_etching=Advanced Etching Acid
+fluid.slime_cot=Liquid Slime
+fluid.waste_water=Sluice Juice
+fluid.semiconductor=Molten Semiconductor
+fluid.heavymetalelements=Molten Heavy Metal Element
+fluid.will_alloy=Five Will In One Liquid
+fluid.europium=Molten Europium
+fluid.uu=UU Matter
+fluid.liquid_chaos=Liquid Chaos
+fluid.superconduct=Molten Superconductor
+
+fluid.aqua_regia=Aqua Regia
+fluid.rich_iodine_oil=Rich Iodine Oil
+fluid.molten_mana=Molten Mana
+fluid.rich_lithium_water=Rich Lithium Water
+fluid.dimensionalshard=Molten Dimensional Shard
+fluid.everlasting=Molten Eternal
+fluid.advancedalloy=Molten Advanced Alloy
+fluid.refinediron=Molten Refined Iron
+fluid.tic_useful_metal=Molten Useful Alloy
+fluid.duplication=Molten Duplication Alloy
+fluid.ytinifni=ytinifnI
+fluid.molten_elfglass=Molten Elfglass
+fluid.mix_rocket_fuel=Mixed Rocket Fuel
+
+
+//block
+tile.contenttweaker.frost_proof_machine_casing.name=Freeze Machine Casing
+tile.contenttweaker.refined_ore_essence.name=Refined Ore Essence Block
+tile.contenttweaker.basic_refined_ore_essence.name=Ore Essence Block
+tile.contenttweaker.singularity_block.name=Singularity Block
+tile.contenttweaker.locked_drawer.name=Locked Drawer
+tile.contenttweaker.aether_log_fix.name=Etcher Aether Log
+
+//material
+base.material.kanthal=Kanthal
+base.material.gold=Gold
+base.material.europium=Europium
+base.material.gallium=Gallium
+base.material.tough=Tough
+base.material.heavymetalelements=Heavy Metal Element
+base.material.mithril=Mithril
+base.material.semiconductor=Semiconductor
+base.material.energium=Energium
+base.material.uumatter=UU Matter
+base.material.duplication=Duplication Alloy
+base.material.superconduct=Superconductor
+base.material.cloudium=Light Cloudium
+base.material.naturium=Naturium
+base.material.twilght_steel=Twilight Steel
+base.material.refined_iron=Refined Iron
+base.material.six_in_one_thaumic=Six In One Thaumic
+base.material.crude_gold=Precious Metal
+base.material.advanced_electronic_alloy=Advanced Electronic Alloy
+base.material.magnet=Magnet
+
+//part
+contenttweaker.part.dust_tiny=Tiny %s Dust
+contenttweaker.part.coin=%s Coin
+contenttweaker.part.dust_small=Small %s Dust
+contenttweaker.part.plate_dense=Dense %s Plate
+contenttweaker.part.sheet=%s Plate
+contenttweaker.part.casing=%s Casing
+contenttweaker.part.scaffolding=%s Frame
+contenttweaker.part.sheetmetal=%s Sheetmetal
+contenttweaker.part.machine_frame=%s Machine Frame
+contenttweaker.part.coil=%s Coil
+contenttweaker.part.wire=%s Wire
+contenttweaker.part.dustore=%s Ore Dust
+
+//crt
 ia.custom.welcome.name=§o§lWelcome to§c§o§lInteractions Modpack§r§c§l!
+
+ia.tooltip.1=May reduce tps, use with caution
+ia.tooltip.2=The recipe works in the corresponding dimension, throwing stone/netherrack/end stone drops in the entity hatch
+ia.tooltip.3=Select the book you want to throw and Shift-right click to throw
+//ia.tooltip.4=需要使用无尽要素的水晶块合成
+ia.tooltip.5=Right click on the wasteland world
+ia.tooltip.6=The water tank can no longer be used for infinite water
+ia.tooltip.7=Fire in blast furnace with Menril coil
+ia.tooltip.8=Fire in a blast furnace with Advanced Electronic Alloy coils
+//ia.tooltip.9=Using any kind of source quality crystal can be crafted
+ia.tooltip.10=Place the building block powder next to water and let it sit for a while
+ia.tooltip.11=Currently it cannot render normally, please do not use it (we will try to fix it later)
+
 
 ia.rt.laser_gun=Laser Gun
 ia.rt.dart_shooter=Dart Shooter

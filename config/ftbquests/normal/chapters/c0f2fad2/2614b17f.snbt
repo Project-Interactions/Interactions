@@ -6,6 +6,9 @@
 	text: [
 		"有时会出现成品在JEI中显示丢失的问题，仍可制作"
 	],
+	dependencies: [
+		"95c5f46d"
+	],
 	tasks: [{
 		uid: "1e188e56",
 		type: "item",

@@ -7,11 +7,7 @@
 	],
 	dependencies: [
 		"afd841d2",
-		"c468331c",
-		"c7a6337a",
-		"8cc83eed",
-		"60486926",
-		"591be34d"
+		"c468331c"
 	],
 	dependency_requirement: "one_completed",
 	tasks: [{

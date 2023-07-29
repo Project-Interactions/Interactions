@@ -1,9 +1,9 @@
 {
-	title: "故障灌注套装",
+	title: "{215b43fe.ia.b95c6f14.title}",
 	x: 2.5d,
 	y: 2.0d,
 	text: [
-		"全套可以飞行"
+		"{215b43fe.ia.b95c6f14}"
 	],
 	dependencies: [
 		"83b615f6"

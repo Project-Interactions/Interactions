@@ -1,4 +1,28 @@
 #format chapter.ia.questname=
+#bd1b7a20
+bd1b7a20.ia.title=《关于我来到了交汇空岛这回事》
+bd1b7a20.ia.desc=阶段一
+bd1b7a20.ia.1d4dedef.1=天境也存在矿物
+bd1b7a20.ia.1d4dedef.2=大陆可能具体生成的传送门位置较远
+bd1b7a20.ia.1d4dedef.3=冰石一般存在于岛屿的内部，可用于制作活石
+bd1b7a20.ia.1d4dedef.a=天境
+bd1b7a20.ia.0bab1356.title=匠魂一套
+bd1b7a20.ia.0bab1356=制作你的匠魂工具和武器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #215b43fe chapter
 215b43fe.ia.chapter.title=《生物、农业在科技领域的应用》
@@ -28,8 +52,10 @@
 215b43fe.ia.79da7f46.title=各种各样的水晶
 215b43fe.ia.43d94397=使用蒸馏器（林业）或发酵桶制作
 215b43fe.ia.6b42b359.title=灵魂碎片
-
-#6f8f343d chapter
+215b43fe.ia.898ec4b1=使用红石信号自动执行术式
+215b43fe.ia.b95c6f14.title=故障灌注套装
+215b43fe.ia.b95c6f14=全套可以飞行
+215b43fe.ia.e02c5b0f.title=充能的水晶
 
 #7d71fbca chapter
 7d71fbca.ia.title=《可能是一个模组大杂烩》
@@ -56,3 +82,16 @@
 7d71fbca.ia.e4ccff23=钨
 7d71fbca.ia.ea21c88f=mek的机器现在只能使用工厂升级进行升级
 7d71fbca.ia.fe24bc23=配方已被修改，请参考LE聚合器的配方雷击制作
+
+#495fa152
+495fa152.ia.title=其他章节：传输与物流
+495fa152.ia.1f1b8880=无线短距离传输物品
+495fa152.ia.a34bb873=强大的路由器，可以使用各种升级
+495fa152.ia.aec01dea.title=电脑
+495fa152.ia.aec01dea=在MC里编程，自动化的终极实现（拥有众多模组支持）
+495fa152.ia.c2d8da51=拥有更大的范围
+495fa152.ia.d68a58de=限制能量的传输
+495fa152.ia.d9393b25.title=早期物品栏管理
+495fa152.ia.d9393b25=合成用材料
+495fa152.ia.ded8ca3e=可直接进行合成操作
+495fa152.ia.e32f76de=无线传输能量
