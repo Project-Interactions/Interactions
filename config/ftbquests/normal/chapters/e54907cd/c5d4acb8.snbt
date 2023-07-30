@@ -5,9 +5,6 @@
 		"在基岩上打火获得",
 		"之后也可以使用火焰水"
 	],
-	dependencies: [
-		"2df20be2"
-	],
 	tasks: [{
 		uid: "d4cfefe8",
 		type: "item",

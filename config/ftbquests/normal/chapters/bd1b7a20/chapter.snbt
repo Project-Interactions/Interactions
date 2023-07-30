@@ -1,8 +1,8 @@
 {
-	title: "{bd1b7a20.ia.title}",
+	title: "《关于我来到了交汇空岛这件事》",
 	icon: "thermalfoundation:material 1 160",
 	description: [
-		"{bd1b7a20.ia.desc}"
+		"阶段一"
 	],
 	always_invisible: false,
 	group: 0,

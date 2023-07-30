@@ -45,8 +45,7 @@ biomeBlending:true
 trackedPlayers:true
 globalVersion:1
 [XP] Fast Mapping:true
-[XP] Fast Mapping Delay:400.0
-[XP] Fast Mapping Rate Limit:20.0
+[XP] Fast Mapping Chunk Limit:80.0
 [XP] Baritone Goal Waypoint:true
 [XP] Waystones Waypoint Sync:true
 [XP] Waystones Dimension Sync:true

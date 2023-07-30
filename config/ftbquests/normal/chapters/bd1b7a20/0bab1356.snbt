@@ -1,9 +1,9 @@
 {
-	title: "{bd1b7a20.ia.0bab1356.title}",
+	title: "匠魂一套",
 	x: -4.5d,
 	y: -0.5d,
 	text: [
-		"{bd1b7a20.ia.0bab1356}"
+		"制作你自己的匠魂工具"
 	],
 	dependencies: [
 		"b7fd7f76"

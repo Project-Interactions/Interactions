@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: -1.5d,
 	text: [
-		"{495fa152.ia.c2d8da51}"
+		"拥有更大的范围"
 	],
 	dependencies: [
 		"db5e6bdd"

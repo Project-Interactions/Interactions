@@ -4,9 +4,6 @@
 	text: [
 		"收割作物获得污泥"
 	],
-	dependencies: [
-		"c5146ead"
-	],
 	tasks: [{
 		uid: "1a229967",
 		type: "item",

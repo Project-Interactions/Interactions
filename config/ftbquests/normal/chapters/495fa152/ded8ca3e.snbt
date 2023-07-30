@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: -1.5d,
 	text: [
-		"{495fa152.ia.ded8ca3e}"
+		"可直接进行合成操作"
 	],
 	dependencies: [
 		"c2d8da51"

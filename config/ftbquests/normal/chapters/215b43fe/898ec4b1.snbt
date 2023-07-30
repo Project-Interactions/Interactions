@@ -2,7 +2,7 @@
 	x: 16.5d,
 	y: -5.0d,
 	text: [
-		"{215b43fe.ia.898ec4b1}"
+		"使用红石信号自动执行术式"
 	],
 	dependencies: [
 		"bfda9376",
