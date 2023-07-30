@@ -1,10 +1,10 @@
 {
-	title: "匠魂冶炼炉",
+	title: "{bd1b7a20.ia.de08f26e.title}",
 	x: -1.5d,
 	y: 5.0d,
 	text: [
-		"本任务要求3x3大小的冶炼炉",
-		"你可以融化矿物粉（铁,镍,锡,银,铅,铜,金）"
+		"{bd1b7a20.ia.de08f26e.1}",
+		"{bd1b7a20.ia.de08f26e.2}"
 	],
 	dependencies: [
 		"052d850b",

@@ -3,7 +3,7 @@
 	x: -6.0d,
 	y: 2.5d,
 	text: [
-		"用于制作基础合金"
+		"{bd1b7a20.ia.8c340d1a}"
 	],
 	dependencies: [
 		"633a444a"

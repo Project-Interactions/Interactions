@@ -2,8 +2,8 @@
 	x: -3.0d,
 	y: 6.0d,
 	text: [
-		"板子使用匠魂铸模",
-		"板铸模使用黏土板浇筑"
+		"{bd1b7a20.ia.da7ff8e1.1}",
+		"{bd1b7a20.ia.da7ff8e1.2}"
 	],
 	dependencies: [
 		"1eb5f5f0"

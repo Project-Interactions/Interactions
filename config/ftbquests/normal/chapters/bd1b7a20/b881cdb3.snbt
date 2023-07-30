@@ -2,7 +2,7 @@
 	x: -7.5d,
 	y: -0.5d,
 	text: [
-		"其还可以被继续升级"
+		"{bd1b7a20.ia.b881cdb3}"
 	],
 	dependencies: [
 		"cb1d1a0f"

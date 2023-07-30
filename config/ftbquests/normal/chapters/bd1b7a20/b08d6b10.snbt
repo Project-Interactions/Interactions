@@ -1,9 +1,9 @@
 {
-	title: "抽屉",
+	title: "{bd1b7a20.ia.b08d6b10.title}",
 	x: -4.5d,
 	y: -3.0d,
 	text: [
-		"抽屉升级的配方已被修改"
+		"{bd1b7a20.ia.b08d6b10}"
 	],
 	dependencies: [
 		"b7fd7f76"

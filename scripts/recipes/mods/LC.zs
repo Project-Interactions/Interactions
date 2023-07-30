@@ -72,3 +72,14 @@ RecipeUtils.recipeTweak(true, <lightningcraft:wireless_block:4>, [[null, <lightn
 RecipeUtils.recipeTweak(true, <lightningcraft:battery:1>, [[<ore:dustRedstone>, <lightningcraft:material:4>, <ore:dustRedstone>], [<ore:dustRedstone>, <lightningcraft:battery>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:stickElectricium>, <ore:dustRedstone>]]);
 RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cell:2>, [[<ore:stickSkyfather>, <ore:plateElectricium>, <ore:stickSkyfather>], [<ore:plateMystic>, <lightningcraft:lightning_cell:1>, <ore:plateMystic>], [<ore:stickSkyfather>, <ore:plateElectricium>, <ore:stickSkyfather>]]);
 RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cannon:2>, [[<ore:stickSkyfather>, <lightningcraft:material:4>, <ore:stickSkyfather>], [<ore:stickMystic>, <lightningcraft:lightning_cannon:1>, <ore:stickMystic>], [<ore:stickSkyfather>, <ore:dustMystic>, <ore:stickSkyfather>]]);
+
+<ore:rodIron>.remove(<lightningcraft:rod>);
+<ore:rodSteel>.remove(<lightningcraft:rod:1>);
+<ore:rodLead>.remove(<lightningcraft:rod:2>);
+<ore:rodTin>.remove(<lightningcraft:rod:3>);
+<ore:rodAluminum>.remove(<lightningcraft:rod:4>);
+<ore:rodGold>.remove(<lightningcraft:rod:5>);
+<ore:rodCopper>.remove(<lightningcraft:rod:6>);
+<ore:rodElectricium>.remove(<lightningcraft:rod:7>);
+<ore:rodSkyfather>.remove(<lightningcraft:rod:8>);
+<ore:rodMystic>.remove(<lightningcraft:rod:9>);

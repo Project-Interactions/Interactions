@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 2.0d,
 	text: [
-		"在世界中倒出凝固后成为混凝土"
+		"{bd1b7a20.ia.209e28e2}"
 	],
 	dependencies: [
 		"3027c9cb"

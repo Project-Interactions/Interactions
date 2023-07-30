@@ -1,12 +1,12 @@
 {
-	title: "介绍",
+	title: "{bd1b7a20.ia.5744b015.title}",
 	icon: "moreplates:infinity_plate",
 	x: 2.0d,
 	y: -4.0d,
 	shape: "square",
 	text: [
-		"本整合包由mczph制作",
-		"500+mods"
+		"{bd1b7a20.ia.5744b015.1}",
+		"{bd1b7a20.ia.5744b015.2}"
 	],
 	size: 2.0d,
 	tasks: [{

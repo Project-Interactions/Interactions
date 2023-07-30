@@ -1,9 +1,9 @@
 {
-	title: "召唤生物",
+	title: "{bd1b7a20.ia.2cde29c1}",
 	x: 7.2d,
 	y: -4.0d,
 	text: [
-		"需要指定生物时不妨看看祭坛是否能召唤"
+		"{bd1b7a20.ia.2cde29c1.desc}"
 	],
 	size: 1.6d,
 	tasks: [{

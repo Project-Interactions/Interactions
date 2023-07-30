@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 2.5d,
 	text: [
-		"压缩沙子丢入水中获取"
+		"{bd1b7a20.ia.633a444a}"
 	],
 	dependencies: [
 		"0820f0ab"

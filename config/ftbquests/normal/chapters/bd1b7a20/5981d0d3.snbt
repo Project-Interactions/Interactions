@@ -2,7 +2,7 @@
 	x: 6.0d,
 	y: 4.0d,
 	text: [
-		"制作组件"
+		"{bd1b7a20.ia.5981d0d3}"
 	],
 	dependencies: [
 		"b76bf2b5"

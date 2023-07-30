@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 1.0d,
 	text: [
-		"用TNT炸掉落物的形式的物品"
+		"{bd1b7a20.ia.0820f0ab}"
 	],
 	dependencies: [
 		"7072836d"

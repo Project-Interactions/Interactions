@@ -77,7 +77,7 @@
 			<oreDict>ingotAluminum</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;4</itemStack>
+			<itemStack>immersiveengineering:material;2;3</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -245,7 +245,7 @@
 			<oreDict>ingotSkyfather</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;8</itemStack>
+			<itemStack>jaopca:stick.skyfather;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -565,7 +565,7 @@
 			<oreDict>ingotTin</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;3</itemStack>
+			<itemStack>moreplates:tin_stick;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -693,7 +693,7 @@
 			<oreDict>ingotGold</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;5</itemStack>
+			<itemStack>moreplates:gold_stick;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -845,7 +845,7 @@
 			<oreDict>ingotIron</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2</itemStack>
+			<itemStack>libvulpes:productrod;2;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -981,7 +981,7 @@
 			<oreDict>ingotElectricium</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;7</itemStack>
+			<itemStack>jaopca:stick.electricium;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1357,7 +1357,7 @@
 			<oreDict>ingotMystic</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;9</itemStack>
+			<itemStack>jaopca:stick.mystic;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1405,7 +1405,7 @@
 			<oreDict>ingotLead</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;2</itemStack>
+			<itemStack>moreplates:lead_stick;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1477,7 +1477,7 @@
 			<oreDict>ingotSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;1</itemStack>
+			<itemStack>libvulpes:productrod;2;6</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1717,7 +1717,7 @@
 			<oreDict>ingotCopper</oreDict>
 		</input>
 		<output>
-			<itemStack>lightningcraft:rod;2;6</itemStack>
+			<itemStack>libvulpes:productrod;2;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">

@@ -1,10 +1,10 @@
 {
-	title: "金属冲压机",
+	title: "{bd1b7a20.ia.181de984.title}",
 	icon: "immersiveengineering:metal_multiblock",
 	x: 5.0d,
 	y: 3.0d,
 	text: [
-		"现在你可以以低廉的成本制作金属板和齿轮了"
+		"{bd1b7a20.ia.181de984}"
 	],
 	dependencies: [
 		"95c5f46d"

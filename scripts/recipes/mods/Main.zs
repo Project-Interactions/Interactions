@@ -48,13 +48,6 @@ recipes.remove(<lightningcraft:rod:1>);
 recipes.remove(<lightningcraft:rod>);
 recipes.remove(<lightningcraft:rod:9>);
 recipes.remove(<lightningcraft:rod:8>);
-recipes.remove(<moreplates:gold_stick> * 4);
-recipes.remove(<moreplates:silver_stick> * 4);
-recipes.remove(<moreplates:nickel_stick> * 4);
-recipes.remove(<moreplates:lead_stick> * 4);
-recipes.remove(<moreplates:electrum_stick> * 4);
-recipes.remove(<moreplates:constantan_stick> * 4);
-recipes.remove(<libvulpes:productrod:4> * 4);
 recipes.remove(<immersiveposts:metal_rods:7> * 4);
 
 

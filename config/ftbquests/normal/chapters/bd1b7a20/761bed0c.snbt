@@ -1,9 +1,9 @@
 {
-	title: "实用的小机器",
+	title: "{bd1b7a20.ia.761bed0c.title}",
 	x: 6.0d,
 	y: 6.0d,
 	text: [
-		"来自工程师的装饰，其中破坏器和砍树机需要消耗电量"
+		"{bd1b7a20.ia.761bed0c}"
 	],
 	dependencies: [
 		"b76bf2b5"

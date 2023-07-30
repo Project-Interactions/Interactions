@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: 6.0d,
 	text: [
-		"利用两边流体或方块的温度差发电"
+		"{bd1b7a20.ia.829130b0}"
 	],
 	dependencies: [
 		"c416c6ce"

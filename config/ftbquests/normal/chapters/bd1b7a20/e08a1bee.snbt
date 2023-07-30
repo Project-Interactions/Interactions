@@ -2,7 +2,7 @@
 	x: 6.0d,
 	y: 3.0d,
 	text: [
-		"mek的能量立方需要调整输出"
+		"{bd1b7a20.ia.e08a1bee}"
 	],
 	dependencies: [
 		"95c5f46d"

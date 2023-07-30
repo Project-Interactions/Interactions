@@ -2,7 +2,7 @@
 	x: -6.0d,
 	y: -2.5d,
 	text: [
-		"抽屉，但是可以存储流体"
+		"{bd1b7a20.ia.e5a474c5}"
 	],
 	dependencies: [
 		"b08d6b10"

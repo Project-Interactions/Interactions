@@ -1,11 +1,10 @@
 {
-	title: "背包整理",
+	title: "{bd1b7a20.ia.50e0a9b9.title}",
 	x: -0.8d,
 	y: -4.0d,
 	text: [
-		"本整合包使用Bogo Sorter，而非R键整理",
-		"默认为鼠标中键，按键可能会冲突，请在控制里修改",
-		"搜索Bogo"
+		"{bd1b7a20.ia.50e0a9b9.1}",
+		"{bd1b7a20.ia.50e0a9b9.2}"
 	],
 	size: 1.6d,
 	tasks: [{

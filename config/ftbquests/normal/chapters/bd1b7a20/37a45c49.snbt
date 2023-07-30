@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: 6.0d,
 	text: [
-		"用于精炼铁锭"
+		"{bd1b7a20.ia.37a45c49}"
 	],
 	dependencies: [
 		"17643e90",
