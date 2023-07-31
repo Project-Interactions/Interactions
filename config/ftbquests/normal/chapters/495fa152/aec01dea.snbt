@@ -1,9 +1,9 @@
 {
-	title: "电脑",
+	title: "{495fa152.ia.aec01dea.title}",
 	x: 0.0d,
 	y: 1.5d,
 	text: [
-		"在MC中编程，自动化的终极实现"
+		"{495fa152.ia.aec01dea}"
 	],
 	tasks: [{
 		uid: "ada4d633",

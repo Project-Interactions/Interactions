@@ -5,8 +5,8 @@
 		"{bd1b7a20.ia.95c5f46d}"
 	],
 	dependencies: [
-		"5981d0d3",
-		"4eb53a81"
+		"4eb53a81",
+		"5981d0d3"
 	],
 	tasks: [{
 		uid: "c3c90db9",

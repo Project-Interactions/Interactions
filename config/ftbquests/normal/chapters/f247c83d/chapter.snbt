@@ -1,12 +1,9 @@
 {
-	title: "万物归一目前重写中",
+	title: "万物归一",
 	icon: {
 		id: "appliedenergistics2:creative_storage_cell",
 		tag: {}
 	},
-	description: [
-		"你可能需要一点点的智慧"
-	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

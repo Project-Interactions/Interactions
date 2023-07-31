@@ -110,7 +110,6 @@ bd1b7a20.ia.ec0c34c5.4=享受游玩吧 :)
 215b43fe.ia.b95c6f14.title=故障灌注套装
 215b43fe.ia.b95c6f14=全套可以飞行
 215b43fe.ia.e02c5b0f.title=充能的水晶
-
 #7d71fbca chapter
 7d71fbca.ia.title=《可能是一个模组大杂烩》
 7d71fbca.ia.description=阶段七
@@ -136,13 +135,13 @@ bd1b7a20.ia.ec0c34c5.4=享受游玩吧 :)
 7d71fbca.ia.e4ccff23=钨
 7d71fbca.ia.ea21c88f=mek的机器现在只能使用工厂升级进行升级
 7d71fbca.ia.fe24bc23=配方已被修改，请参考LE聚合器的配方雷击制作
-
 #495fa152
 495fa152.ia.title=其他章节：传输与物流
 495fa152.ia.1f1b8880=无线短距离传输物品
 495fa152.ia.a34bb873=强大的路由器，可以使用各种升级
 495fa152.ia.aec01dea.title=电脑
-495fa152.ia.aec01dea=在MC里编程，自动化的终极实现（拥有众多模组支持）
+495fa152.ia.aec01dea=在MC里编程，自动化的终极实现，拥有众多模组支持
+495fa152.ia.b7b92afc=非常实用的远距离传输工具
 495fa152.ia.c2d8da51=拥有更大的范围
 495fa152.ia.d68a58de=限制能量的传输
 495fa152.ia.d9393b25.title=早期物品栏管理
