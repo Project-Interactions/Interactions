@@ -7,8 +7,9 @@ import mods.armoreablemobs.ArmorGroup;
 
 # *======= Variables =======*
 
-	var draconicGroup = ArmorHandler.createArmorGroup("draconic", 0.0001);
-	var wyvernGroup = ArmorHandler.createArmorGroup("wyvern", 0.0002);
+    var chaosGroup = ArmorHandler.createArmorGroup("chaos", 0.000001);
+	var draconicGroup = ArmorHandler.createArmorGroup("draconic", 0.000005);
+	var wyvernGroup = ArmorHandler.createArmorGroup("wyvern", 0.00002);
 	var nuclearGroup = ArmorHandler.createArmorGroup("nuclear", 0.05);
 	var mysticalGroup = ArmorHandler.createArmorGroup("mystical", 0.05);
 	var twilightGroup = ArmorHandler.createArmorGroup("twilight", 0.05);
@@ -56,12 +57,12 @@ import mods.armoreablemobs.ArmorGroup;
 
 # *======= Draconic =======*
 
-	draconicGroup.addArmor(ArmorHandler.createArmorSlot("head", <draconicevolution:draconic_helm>.withTag({Energy: 20000}), 1, 0.0002));
-	draconicGroup.addArmor(ArmorHandler.createArmorSlot("chest", <draconicevolution:draconic_chest>.withTag({Energy: 20000}), 1, 0.002));
-	draconicGroup.addArmor(ArmorHandler.createArmorSlot("legs", <draconicevolution:draconic_legs>.withTag({Energy: 20000}), 1, 0.002));
-	draconicGroup.addArmor(ArmorHandler.createArmorSlot("feet", <draconicevolution:draconic_boots>.withTag({Energy: 20000}), 1, 0.002));
+	draconicGroup.addArmor(ArmorHandler.createArmorSlot("head", <draconicevolution:draconic_helm>.withTag({Energy: 20000}), 1, 0.1));
+	draconicGroup.addArmor(ArmorHandler.createArmorSlot("chest", <draconicevolution:draconic_chest>.withTag({Energy: 20000}), 1, 0.1));
+	draconicGroup.addArmor(ArmorHandler.createArmorSlot("legs", <draconicevolution:draconic_legs>.withTag({Energy: 20000}), 1, 0.1));
+	draconicGroup.addArmor(ArmorHandler.createArmorSlot("feet", <draconicevolution:draconic_boots>.withTag({Energy: 20000}), 1, 0.1));
 
-	draconicGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <draconicevolution:draconic_sword>.withTag({Energy: 20000}), 1, 0.0002));
+	draconicGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <draconicevolution:draconic_sword>.withTag({Energy: 20000}), 1, 0.1));
 
 	draconicGroup.addEntity(zombie);
 	draconicGroup.addEntity(zombieStrong);
@@ -72,14 +73,30 @@ import mods.armoreablemobs.ArmorGroup;
 	draconicGroup.addEntity(zombiePigman);
 	draconicGroup.addEntity(zombieVillager);
 
+# *======= Chaos =======*
+
+	chaosGroup.addArmor(ArmorHandler.createArmorSlot("head", <draconicadditions:chaotic_helm>.withTag({Energy: 200000}), 1, 0.01));
+	chaosGroup.addArmor(ArmorHandler.createArmorSlot("chest", <draconicadditions:chaotic_chest>.withTag({Energy: 200000}), 1, 0.01));
+	chaosGroup.addArmor(ArmorHandler.createArmorSlot("legs", <draconicadditions:chaotic_legs>.withTag({Energy: 200000}), 1, 0.01));
+	chaosGroup.addArmor(ArmorHandler.createArmorSlot("feet", <draconicadditions:chaotic_boots>.withTag({Energy: 200000}), 1, 0.01));
+
+	chaosGroup.addEntity(zombie);
+	chaosGroup.addEntity(zombieStrong);
+	chaosGroup.addEntity(zombieBoss);
+	chaosGroup.addEntity(knight);
+	chaosGroup.addEntity(husk);
+	chaosGroup.addEntity(witherSkeleton);
+	chaosGroup.addEntity(zombiePigman);
+	chaosGroup.addEntity(zombieVillager);
+
 # *======= Wyvern =======*
 
-	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("head", <draconicevolution:wyvern_helm>.withTag({Energy: 20000}), 1, 0.004));
-	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("chest", <draconicevolution:wyvern_chest>.withTag({Energy: 20000}), 1, 0.004));
-	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("legs", <draconicevolution:wyvern_legs>.withTag({Energy: 20000}), 1, 0.004));
-	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("feet", <draconicevolution:wyvern_boots>.withTag({Energy: 20000}), 1, 0.004));
+	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("head", <draconicevolution:wyvern_helm>.withTag({Energy: 2000}), 1, 0.1));
+	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("chest", <draconicevolution:wyvern_chest>.withTag({Energy: 2000}), 1, 0.1));
+	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("legs", <draconicevolution:wyvern_legs>.withTag({Energy: 2000}), 1, 0.1));
+	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("feet", <draconicevolution:wyvern_boots>.withTag({Energy: 2000}), 1, 0.1));
 
-	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <draconicevolution:wyvern_sword>.withTag({Energy: 20000}), 1, 0.0004));
+	wyvernGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <draconicevolution:wyvern_sword>.withTag({Energy: 2000}), 1, 0.1));
 
 	wyvernGroup.addEntity(zombie);
 	wyvernGroup.addEntity(zombieStrong);

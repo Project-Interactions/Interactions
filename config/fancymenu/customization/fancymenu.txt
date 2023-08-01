@@ -477,7 +477,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymenu/images/links/afdian.png
-  description = {"placeholder":"local","values":{"key":"fm.sponser"}}
+  description = {"placeholder":"local","values":{"key":"fm.afadian"}}
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
@@ -496,8 +496,8 @@ customization {
   orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = resources/fancymenu/images/links/mcbbs.png
-  description = {"placeholder":"local","values":{"key":"fm.mcbbs"}}
+  backgroundhovered = resources/fancymenu/images/links/patreon.png
+  description = {"placeholder":"local","values":{"key":"fm.patreon"}}
   label = 
   clicksound = resources/fancymenu/sounds/keyboarde.wav
   loopbackgroundanimations = true
@@ -506,8 +506,8 @@ customization {
   actionid = da9d6b9a-7726-4b6e-beaa-2c5c490ab84d1631435630544
   action = addbutton
   y = 28
-  backgroundnormal = resources/fancymenu/images/links/mcbbs.png
-  value = https://www.mcbbs.net/thread-1172950-1-1.html
+  backgroundnormal = resources/fancymenu/images/links/patreon.png
+  value = https://www.patreon.com/mczph
   height = 35
 }
 
