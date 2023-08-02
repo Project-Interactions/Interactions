@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: 3.0d,
 	text: [
-		"现在你知道HOP是什么意思了吧"
+		"{c0f2fad2.ia.6b706d74}"
 	],
 	dependencies: [
 		"2614b17f"

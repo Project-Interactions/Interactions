@@ -1,10 +1,10 @@
 {
-	title: "工业挤压机",
+	title: "{c0f2fad2.ia.2614b17f.title}",
 	icon: "immersiveengineering:metal_multiblock 1 7",
 	x: 2.0d,
 	y: 1.5d,
 	text: [
-		"有时会出现成品在JEI中显示丢失的问题，仍可制作"
+		"{c0f2fad2.ia.2614b17f}"
 	],
 	tasks: [{
 		uid: "1e188e56",

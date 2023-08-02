@@ -2,8 +2,8 @@
 	x: 8.5d,
 	y: 3.0d,
 	text: [
-		"放在树叶上将其变为闪耀树",
-		"完全转化后打掉即可获得金叶"
+		"{c0f2fad2.ia.cf25c69f.1}",
+		"{c0f2fad2.ia.cf25c69f.2}"
 	],
 	dependencies: [
 		"c529af56"

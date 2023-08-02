@@ -2,7 +2,7 @@
 	x: 7.0d,
 	y: 4.0d,
 	text: [
-		"主世界"
+		"{c0f2fad2.ia.c529af56}"
 	],
 	dependencies: [
 		"7e5fc65b"

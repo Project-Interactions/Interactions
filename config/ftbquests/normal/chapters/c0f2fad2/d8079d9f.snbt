@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 1.5d,
 	text: [
-		"使用魔力发射器"
+		"{c0f2fad2.ia.d8079d9f}"
 	],
 	dependencies: [
 		"8cf4d250"

@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 7.5d,
 	text: [
-		"匠魂合金制作"
+		"{ia.tic}"
 	],
 	dependencies: [
 		"7afbff36",

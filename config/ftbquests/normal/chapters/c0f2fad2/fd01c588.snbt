@@ -2,7 +2,7 @@
 	x: -1.0d,
 	y: 1.5d,
 	text: [
-		"需要经过非常复杂的处理"
+		"{c0f2fad2.ia.fd01c588}"
 	],
 	dependencies: [
 		"a3c4de26"

@@ -1,10 +1,10 @@
 {
-	title: "采油机",
+	title: "{c0f2fad2.ia.9525b839}",
 	icon: "immersivepetroleum:metal_multiblock 1 3",
 	x: 0.5d,
 	y: -1.5d,
 	text: [
-		"拥有独立的JEI界面，且支持气体输出"
+		"{ia.jei}"
 	],
 	tasks: [{
 		uid: "d894cd09",

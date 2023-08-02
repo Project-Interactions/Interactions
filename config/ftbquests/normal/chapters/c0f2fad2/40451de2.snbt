@@ -2,7 +2,7 @@
 	x: 7.0d,
 	y: 2.0d,
 	text: [
-		"在末地向空气右键，也可以通过丢入流体来合成"
+		"{c0f2fad2.ia.40451de2}"
 	],
 	dependencies: [
 		"7e5fc65b"

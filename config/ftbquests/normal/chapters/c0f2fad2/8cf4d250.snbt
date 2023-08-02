@@ -2,8 +2,8 @@
 	x: 4.0d,
 	y: 0.0d,
 	text: [
-		"开始任务线：植物魔法",
-		"两种材料都可在天境找到"
+		"{c0f2fad2.ia.8cf4d250.1}",
+		"{c0f2fad2.ia.8cf4d250.2}"
 	],
 	dependencies: [
 		"1d4dedef"

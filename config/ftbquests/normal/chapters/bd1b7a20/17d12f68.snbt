@@ -2,7 +2,7 @@
 	x: -6.0d,
 	y: 5.0d,
 	text: [
-		"{bd1b7a20.ia.17d12f68}"
+		"{ia.tic}"
 	],
 	dependencies: [
 		"052d850b"
