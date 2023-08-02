@@ -244,22 +244,18 @@
             </round>
             <str>G$7)</str>
         </line>
-
         <line>
             <if>
                 <var>invisible</var>
-                <str>$7当前处于隐身状态 </str>
+                <str>$7 is invisible</str>
             </if>
         </line>
-
         <line>
             <str> </str>
         </line>
-
     </lines>
     <lines at="topcenter">
     </lines>
-
     <lines at="middleleft">
         <line>
             <str>$f</str>
@@ -821,8 +817,7 @@
             </max>
         </line>
     </lines>
-
-    <lines at="bottomleft">
+    <lines at="bottomright">
         <line>
             <if>
                 <greater>
@@ -864,113 +859,6 @@
                 </concat>
                 <str />
             </if>
-        </line>
-    </lines>
-    <lines at="bottomright">
-    <line>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>helmetdamageleft</var>
-                    <var>helmetmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>helmetdamageleft</var>
-                <num>0</num>
-                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>helmetlargeicon</var>
-        </line>
-        <line>
-        <str> </str>
-        </line>
-        <line>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>chestplatedamageleft</var>
-                    <var>chestplatemaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>chestplatedamageleft</var>
-                <num>0</num>
-                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>chestplatelargeicon</var>
-        </line>
-        <line>
-        <str> </str>
-        </line>
-        <line>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>leggingsdamageleft</var>
-                    <var>leggingsmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>leggingsdamageleft</var>
-                <num>0</num>
-                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>leggingslargeicon</var>
-        </line>
-        <line>
-        <str> </str>
-        </line>
-        <line>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>bootsdamageleft</var>
-                    <var>bootsmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>bootsdamageleft</var>
-                <num>0</num>
-                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>bootslargeicon</var>
         </line>
     </lines>
 </config>
