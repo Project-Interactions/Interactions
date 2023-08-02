@@ -77,9 +77,6 @@ item.contenttweaker.circuit_stack.name=Circuit Stack
 item.contenttweaker.operation_circuit_board.name=Operation Circuit Board
 item.contenttweaker.mana_matter.name=Mana Matter
 item.contenttweaker.powered_circuit_board.name=Powered Circuit Board
-
-item.contenttweaker.super_mana_tablet.name=Super Mana Tablet
-item.contenttweaker.infinity_mana_tablet.name=Infinity Mana Tablet
 //fluid
 fluid.blend_caminite=Liquid Caminite
 fluid.hot_blend_caminite=Hot Liquid Caminite

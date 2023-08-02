@@ -2,7 +2,6 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
-import mods.randomtweaker.utils.IInputPattern;
 import mods.extendedcrafting.EnderCrafting;
 import mods.extendedcrafting.TableCrafting;
 
@@ -45,39 +44,23 @@ TableCrafting.addShaped(1, <extendedcrafting:table_basic>, [
 	[null, <appliedenergistics2:molecular_assembler>, null]
 ]);
 
-var tableAdvancedRecipe as IInputPattern = IInputPattern.create([
-	"AABAA",
-	"ABABA",
-	"BACAB",
-	"ABABA",
-	"AABAA"
+TableCrafting.addShaped(2, <extendedcrafting:table_advanced>, [
+	[null, null, <enderio:block_crafter>, null, null], 
+	[null, <enderio:block_crafter>, null, <enderio:block_crafter>, null], 
+	[<enderio:block_crafter>, null, <botania_tweaks:advanced_extended_crafty_crate>, null, <enderio:block_crafter>], 
+	[null, <enderio:block_crafter>, null, <enderio:block_crafter>, null], 
+	[null, null, <enderio:block_crafter>, null, null]
 ]);
 
-tableAdvancedRecipe.transform({
-	"A" : null,
-	"B" : <enderio:block_crafter>,
-	"C" : <botania_tweaks:advanced_extended_crafty_crate>
-});
-
-TableCrafting.addShaped(2, <extendedcrafting:table_advanced>, tableAdvancedRecipe.get());
-
-var tableEliteRecipe as IInputPattern = IInputPattern.create([
-	"AAABAAA",
-	"AABABAA",
-	"ABAAABA",
-	"BAACAAB",
-	"ABAAABA",
-	"AABABAA",
-	"AAABAAA"
+TableCrafting.addShaped(3, <extendedcrafting:table_elite>, [
+	[null, null, null, <mekanism:machineblock3:5>, null, null, null], 
+	[null, null, <mekanism:machineblock3:5>, null, <mekanism:machineblock3:5>, null, null], 
+	[null, <mekanism:machineblock3:5>, null, null, null, <mekanism:machineblock3:5>, null], 
+	[<mekanism:machineblock3:5>, null, null, <botania_tweaks:elite_extended_crafty_crate>, null, null, <mekanism:machineblock3:5>], 
+	[null, <mekanism:machineblock3:5>, null, null, null, <mekanism:machineblock3:5>, null], 
+	[null, null, <mekanism:machineblock3:5>, null, <mekanism:machineblock3:5>, null, null], 
+	[null, null, null, <mekanism:machineblock3:5>, null, null, null]
 ]);
-
-tableEliteRecipe.transform({
-	"A" : null,
-	"B" : <mekanism:machineblock3:5>,
-	"C" : <botania_tweaks:elite_extended_crafty_crate>
-});
-
-TableCrafting.addShaped(3, <extendedcrafting:table_elite>, tableEliteRecipe.get());
 
 TableCrafting.addShaped(4, <extendedcrafting:table_ultimate>, [
 	[null, null, null, null, <ore:ingotUltimate>, null, null, null, null], 

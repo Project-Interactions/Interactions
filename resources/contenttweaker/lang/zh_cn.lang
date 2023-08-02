@@ -77,9 +77,6 @@ item.contenttweaker.circuit_stack.name=电路板堆
 item.contenttweaker.operation_circuit_board.name=运算电路板基板
 item.contenttweaker.mana_matter.name=魔力物质
 item.contenttweaker.powered_circuit_board.name=充能电路板基板
-
-item.contenttweaker.super_mana_tablet.name=超级魔力石板
-item.contenttweaker.infinity_mana_tablet.name=无尽魔力石板
 //fluid
 fluid.blend_caminite=液态方镁矾
 fluid.hot_blend_caminite=热液态方镁矾

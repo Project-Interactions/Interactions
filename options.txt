@@ -76,21 +76,21 @@ key_key.swapHands:33
 key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:0
 key_key.advancements:38
-key_key.hotbar.1:2
-key_key.hotbar.2:3
-key_key.hotbar.3:4
-key_key.hotbar.4:5
-key_key.hotbar.5:6
-key_key.hotbar.6:7
-key_key.hotbar.7:8
-key_key.hotbar.8:9
-key_key.hotbar.9:10
-key_of.key.zoom:46
+key_key.hotbar.1:0
+key_key.hotbar.2:0
+key_key.hotbar.3:0
+key_key.hotbar.4:0
+key_key.hotbar.5:0
+key_key.hotbar.6:0
+key_key.hotbar.7:0
+key_key.hotbar.8:0
+key_key.hotbar.9:0
+key_of.key.zoom:44
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
-key_key.groovyscript.reload:19:CONTROL
+key_key.groovyscript.reload:0
 key_Reload Menu | CTRL + ALT + :19
-key_Toggle Customization Overlay | CTRL + ALT + :23
+key_Toggle Customization Overlay | CTRL + ALT + :46
 key_keybind.baublesinventory:48
 key_psimisc.keybind:0
 key_rpsideas.kb.offhandcast:0
@@ -121,7 +121,7 @@ key_cos.key.opencosarmorinventory:0
 key_key.findme.search:21
 key_key.ftbutilities.nbt:0
 key_key.ftbutilities.trash:211
-key_key.ftbquests.quests:38
+key_key.ftbquests.quests:0
 key_ingameinfoxml.key.toggle:0
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
@@ -132,8 +132,8 @@ key_pneumaticcraft.boots.kick:0
 key_pneumaticcraft.chestplate.launcher:0
 key_neat.keybind.toggle:0
 key_oreexcavation.key.excavate:41
-key_oreexcavation.key.shape:47
-key_key.ping:47
+key_oreexcavation.key.shape:0
+key_key.ping:25:SHIFT
 key_ping.key.alert:75
 key_ping.key.mine:76
 key_ping.key.look:77
@@ -150,13 +150,13 @@ key_schematica.key.renderToggle:0
 key_schematica.key.printerToggle:0
 key_schematica.key.moveHere:0
 key_schematica.key.pickBlock:0
-key_Staff of Travel Teleport:34
-key_zenscroll.options.modifier_key:56
+key_Staff of Travel Teleport:20
+key_zenscroll.options.modifier_key:42
 key_key.openglasses.interact:0
-key_key.openglasses.stable_interact:0:ALT
-key_key.openglasses.nightvision:49
-key_key.openglasses.thermalvision:48
-key_key.openglasses.config:0:SHIFT
+key_key.openglasses.stable_interact:0
+key_key.openglasses.nightvision:0
+key_key.openglasses.thermalvision:0
+key_key.openglasses.config:0
 key_key.xtones.scroll:42
 key_smoothfont.key.guiOpen:199
 key_key.clipboardPaste:210
@@ -173,7 +173,7 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.draconicevolution.placeItem:25
-key_key.draconicevolution.toolConfig:0
+key_key.draconicevolution.toolConfig:30:SHIFT
 key_key.draconicevolution.toolProfileChange:0
 key_key.draconicevolution.armorProfileChange:0
 key_key.draconicevolution.toggleFlight:0
@@ -181,7 +181,7 @@ key_key.draconicevolution.toggleDislocator:0
 key_key.draconicevolution.cycleDigAOE:0
 key_key.draconicevolution.cycleAttackAOE:0
 key_key.draconicevolution.toggleShields:0
-key_tombstone.message.knowledge_of_death:0
+key_tombstone.message.knowledge_of_death:32:SHIFT
 key_nei.options.keys.gui.botania_corporea_request:0
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
@@ -197,7 +197,7 @@ key_mekanism.key.armorMode:0
 key_mekanism.key.feetMode:0
 key_mekanism.key.voice:0
 key_key.aether.accessory_menu:0
-key_key.aquaacrobatics.toggle_crawling:0
+key_key.aquaacrobatics.toggle_crawling:36
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0
@@ -208,9 +208,9 @@ key_key.craftingtweaks.toggleButtons:0
 key_key.craftingtweaks.compressOne:37:CONTROL
 key_key.craftingtweaks.compressStack:37
 key_key.craftingtweaks.compressAll:37:SHIFT
-key_key.craftingtweaks.decompressOne:0
-key_key.craftingtweaks.decompressStack:0
-key_key.craftingtweaks.decompressAll:0
+key_key.craftingtweaks.decompressOne:38
+key_key.craftingtweaks.decompressStack:38:SHIFT
+key_key.craftingtweaks.decompressAll:38:CONTROL
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
 key_astraladditions.key.ring_toggle:0
@@ -224,8 +224,8 @@ key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
 key_key.carry.desc:42
-key_key.overload:0
-key_key.chaosInjection:0
+key_key.overload:33:SHIFT
+key_key.chaosInjection:34:SHIFT
 key_keys.techreborn.config:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
@@ -235,7 +235,7 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.itemzoom.toggle:44:SHIFT
+key_key.itemzoom.toggle:0:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
@@ -250,16 +250,16 @@ key_key.rotateup:200
 key_key.rotatedown:208
 key_key.rotateright:205
 key_key.rotateleft:203
-key_key.little.flip:34
-key_key.little.mark:50
-key_key.little.config.item:0
-key_key.little.config:0:CONTROL
-key_key.little.undo:44:CONTROL
+key_key.little.flip:34:CONTROL
+key_key.little.mark:50:CONTROL
+key_key.little.config.item:23
+key_key.little.config:23:CONTROL
+key_key.little.undo:0:CONTROL
 key_key.little.redo:21:CONTROL
 key_keybind.simplyjetpacks.gui:0
-key_keybind.simplyjetpacks.engine:0
-key_keybind.simplyjetpacks.charger:0
-key_keybind.simplyjetpacks.hover:0
+key_keybind.simplyjetpacks.engine:34
+key_keybind.simplyjetpacks.charger:25
+key_keybind.simplyjetpacks.hover:38
 key_keybind.simplyjetpacks.emergency_hover:0
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:0
@@ -281,8 +281,8 @@ key_key.taiga.alt_action:0
 key_key.carpet_forward:0
 key_key.carpet_backward:0
 key_key.craftingGrid:0
-key_key.vaultopic.view:34
-key_key.vaultopic.vice:47
+key_key.vaultopic.view:31:SHIFT
+key_key.vaultopic.vice:46:SHIFT
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -290,7 +290,7 @@ key_gui.xaero_toggle_grid:0
 key_gui.xaero_toggle_waypoints:0
 key_gui.xaero_toggle_map_waypoints:0
 key_gui.xaero_toggle_map:0
-key_gui.xaero_enlarge_map:44
+key_gui.xaero_enlarge_map:0
 key_gui.xaero_waypoints_key:22
 key_gui.xaero_zoom_in:13
 key_gui.xaero_zoom_out:12
@@ -356,7 +356,7 @@ key_enderio.keybind.speed:0
 key_enderio.keybind.jump:0
 key_enderio.keybind.top:0
 key_enderio.keybind.tnt:0
-key_enderio.keybind.yetawrenchmode:0
+key_enderio.keybind.yetawrenchmode:21
 key_enderio.keybind.magnet:0
 key_enderio.keybind.fovreset:0
 key_enderio.keybind.fovunreset:0

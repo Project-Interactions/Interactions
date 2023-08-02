@@ -7,7 +7,6 @@ import mods.astralsorcery.StarlightInfusion;
 import mods.astralsorcery.LightTransmutation;
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.Lightwell;
-import mods.randomtweaker.astralsorcery.AttunementAltar;
 
 recipes.addShaped(<astralsorcery:blockaltar>, [[<astralsorcery:blockmarble>, <tconstruct:seared:3>, <astralsorcery:blockmarble>],[<astralsorcery:blockmarble>, <avaritia:compressed_crafting_table>, <astralsorcery:blockmarble>], [<astralsorcery:blockmarble>, null, <astralsorcery:blockmarble>]]);
 recipes.addShaped(<astralsorcery:itemwand>, [[null, <ore:blockAquamarine>, <minecraft:ender_pearl>],[null, <astralsorcery:blockmarble>, <ore:blockAquamarine>], [<astralsorcery:blockmarble>, null, null]]);
@@ -77,4 +76,3 @@ Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "copper"}), <twiligh
 Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "silver"}), <twilightforest:armor_shard>);
 Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "lead"}), <twilightforest:armor_shard>);
 
-//AttunementAltar.addRecipe(input, output, "astralsorcery.constellation.discidia");
