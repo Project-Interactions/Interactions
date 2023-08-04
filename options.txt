@@ -6,7 +6,7 @@ gamma:1.0
 saturation:0.0
 renderDistance:8
 guiScale:4
-particles:2
+particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
@@ -268,9 +268,9 @@ key_key.plustic_brown_magic.desc:24
 key_key.plustic_toggle_tool.desc:0
 key_key.plustic_fruit_salad.desc:0
 key_key.plustic_mots.desc:0
-key_key.musictriggers.gui:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
+key_key.neenergistics.crafting.helper.noPreview:56
 key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0

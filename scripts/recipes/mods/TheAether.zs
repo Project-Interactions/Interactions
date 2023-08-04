@@ -11,3 +11,6 @@ recipes.addShapeless(<aether_legacy:skyroot_plank>*2,[<ore:logSkyroot>]);
 
 recipes.remove(<aether_legacy:chest_mimic>*4);
 RecipeUtils.recipeTweak(true, <aether_legacy:enchanter>, [[<aether_legacy:holystone>, <plustic:pipe_piece>.withTag({Material: "zanite"}), <aether_legacy:holystone>], [<plustic:pipe_piece>.withTag({Material: "zanite"}), <forge:bucketfilled>.withTag({FluidName: "obsidian", Amount: 1000}), <plustic:pipe_piece>.withTag({Material: "zanite"})], [<aether_legacy:holystone>, <plustic:pipe_piece>.withTag({Material: "zanite"}), <aether_legacy:holystone>]]);
+
+recipes.remove(<aether_legacy:skyroot_stick>);
+recipes.addShaped(<aether_legacy:skyroot_stick> * 2, [[<aether_legacy:skyroot_plank>], [<aether_legacy:skyroot_plank>]]);

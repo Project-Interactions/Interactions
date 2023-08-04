@@ -17,5 +17,6 @@ MoonlightForge.addRecipe(<taiga:aurorium_ingot>, <theaurorian:crystal>, <theauro
 Scrapper.addRecipe(<environmentaltech:lonsdaleite_crystal>, <theaurorian:crystal>*2);
 Scrapper.addRecipe(<thaumcraft:ingot:1>, <theaurorian:scrapumbra>);
 
-
+recipes.remove(<theaurorian:silentwoodstick> * 4);
+recipes.addShaped(<theaurorian:silentwoodstick> * 2, [[<theaurorian:silentwoodplanks>], [<theaurorian:silentwoodplanks>]]);
 
