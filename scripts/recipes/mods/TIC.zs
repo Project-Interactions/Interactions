@@ -225,7 +225,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <tconstruct:materials:50>, [
 //fix rail can be smelt into osmium
 Melting.removeRecipe(<liquid:osmium>,<minecraft:rail>);
 
-RecipeUtils.recipeTweak(true, <mctsmelteryio:upgrade>, [[<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>], [<ore:paper>, <ore:circuitAdvanced>, <ore:paper>], [<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>]]);
+RecipeUtils.recipeTweak(true, <mctsmelteryio:upgrade>*2, [[<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>], [<ore:paper>, <ore:circuitGood>, <ore:paper>], [<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>]]);
 
 //tinker toolcast fix
 Casting.addTableRecipe(<minecraft:diamond>, <tinkertoolcasts:cast_advanced:2>, <liquid:diamond>,666,false, 304);

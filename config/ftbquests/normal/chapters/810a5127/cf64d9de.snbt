@@ -1,9 +1,9 @@
 {
-	title: "共鸣水晶石",
+	title: "{810a5127.ia.cf64d9de.title}",
 	x: 4.5d,
 	y: 7.5d,
 	text: [
-		"这里将所有星座列了出来"
+		"{810a5127.ia.cf64d9de}"
 	],
 	dependencies: [
 		"1c69191a"
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "d0bb56f5",
 		type: "item",
-		title: "共鸣水晶石",
+		title: "{810a5127.ia.cf64d9de.title}",
 		items: [{
 			id: "astralsorcery:itemtunedrockcrystal",
 			tag: {

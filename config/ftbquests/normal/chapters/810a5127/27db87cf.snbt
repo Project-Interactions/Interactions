@@ -2,9 +2,9 @@
 	x: 3.0d,
 	y: 6.0d,
 	text: [
-		"所有星座都可提交",
-		"真正的浮动水晶",
-		"在天辉祭坛中合成"
+		"{810a5127.ia.27db87cf.1}",
+		"{810a5127.ia.27db87cf.2}",
+		"{810a5127.ia.27db87cf.3}"
 	],
 	dependencies: [
 		"f88a3dea",
@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "fa4931ed",
 		type: "item",
-		title: "浮动水晶",
+		title: "{810a5127.ia.27db87cf.2}",
 		items: [{
 			id: "astralsorcery:blockcollectorcrystal",
 			tag: {

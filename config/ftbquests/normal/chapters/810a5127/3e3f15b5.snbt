@@ -2,7 +2,7 @@
 	x: 4.5d,
 	y: 1.5d,
 	text: [
-		"也可用于制作活木"
+		"{810a5127.ia.3e3f15b5}"
 	],
 	dependencies: [
 		"fe5e7201"

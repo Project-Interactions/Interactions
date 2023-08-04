@@ -1,9 +1,9 @@
 {
-	title: "集成动力之高级运用",
+	title: "{810a5127.ia.3ed5ad2a.title}",
 	x: 9.0d,
 	y: -1.0d,
 	text: [
-		"集成代理器的严重bug已被修复，可放心使用"
+		"{810a5127.ia.3ed5ad2a}"
 	],
 	dependencies: [
 		"33485b33"

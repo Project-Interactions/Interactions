@@ -2,7 +2,7 @@
 	x: 10.5d,
 	y: 3.0d,
 	text: [
-		"使用多方块结构制作"
+		"{810a5127.ia.8b1a96f3}"
 	],
 	dependencies: [
 		"fa56a2f3"

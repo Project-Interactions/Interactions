@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: 6.0d,
 	text: [
-		"假浮动水晶，放在地上会消失"
+		"{810a5127.ia.fdb8c9bb}"
 	],
 	dependencies: [
 		"69f1b055"

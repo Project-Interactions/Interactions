@@ -2,7 +2,7 @@
 	x: 9.0d,
 	y: 3.0d,
 	text: [
-		"不需要星光来合成"
+		"{810a5127.ia.d5e674a6}"
 	],
 	dependencies: [
 		"8b1a96f3"

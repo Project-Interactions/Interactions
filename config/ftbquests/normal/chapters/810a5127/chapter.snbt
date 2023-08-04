@@ -1,8 +1,8 @@
 {
-	title: "《用门瑞欧和星能力开启暮色的大门》",
+	title: "{810a5127.ia}",
 	icon: "astralsorcery:itemcraftingcomponent 1 1",
 	description: [
-		"阶段三"
+		"{810a5127.ia.desc}"
 	],
 	always_invisible: false,
 	group: 0,
