@@ -271,7 +271,6 @@ key_key.plustic_mots.desc:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
-key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
 key_pi.key.et_world:0

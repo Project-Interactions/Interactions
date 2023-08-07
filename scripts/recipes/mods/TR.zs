@@ -119,12 +119,6 @@ recipes.remove(<techreborn:part:2>*4);
 recipes.remove(<techreborn:part>*4);
 recipes.remove(<techreborn:lapotronicorb>);
 
-// 
-assemblingMachine.removeRecipe(<techreborn:part:29>);
-assemblingMachine.removeRecipe(<techreborn:part:1>);
-
-assemblingMachine.removeRecipe(<techreborn:part>);
-assemblingMachine.addRecipe(<techreborn:part:29>,<techreborn:part:40>,<techreborn:cable:5>*3,40,60);
 //ga
 industrialElectrolyzer.removeInputRecipe(<techreborn:dust:50>*2);
 industrialElectrolyzer.addRecipe(<techreborn:dust:59>*2,<techreborn:dust:52>,<contenttweaker:material_part:208>*6,null,null,<techreborn:dust:50>*3,140,250);
@@ -242,5 +236,21 @@ chemicalReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "
 recipes.remove(<techreborn:dynamiccell>*16);
 recipes.addShaped(<techreborn:dynamiccell> * 64, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <botania:managlasspane>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
 recipes.addShaped(<techreborn:dynamiccell> * 8, [[null, <ore:plateTin>, null],[<thermalfoundation:material:321>, <ore:paneGlass>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
+
+recipes.remove(<techreborn:cable:8>);
+recipes.addShaped(<techreborn:cable:8> * 8, [[<techreborn:machine_frame:1>, <ore:circuitMaster>, <techreborn:machine_frame:1>], [<techreborn:part:39>, <techreborn:part:39>, <techreborn:part:39>], [<techreborn:machine_frame:1>, <ore:circuitMaster>, <techreborn:machine_frame:1>]]);
+recipes.addShaped(<techreborn:cable:8>, [[<techreborn:machine_frame:1>, <ore:circuitMaster>, <techreborn:machine_frame:1>], [<ore:craftingSuperconductor>, <ore:craftingSuperconductor>, <ore:craftingSuperconductor>], [<techreborn:machine_frame:1>, <ore:circuitMaster>, <techreborn:machine_frame:1>]]);
+
+//easy circuit
+assemblingMachine.removeAll();
+assemblingMachine.addRecipe(<techreborn:wind_mill>, <ore:plateMagnalium>*4, <techreborn:machine_frame>, 800, 250);
+assemblingMachine.addRecipe(<techreborn:part:40>*4, <ore:ingotEnchantedMetal>, <ore:plateAlchemicalBrass>, 400, 300);
+assemblingMachine.addRecipe(<techreborn:part:29>, <techreborn:part:40>, <ore:wireRefinedIron>*4, 200, 200);
+assemblingMachine.addRecipe(<techreborn:part:41>*2, <techreborn:part:40>*4, <ore:gearDemonicMetal>, 400, 300);
+assemblingMachine.addRecipe(<techreborn:part:42>*4, <ore:itemRubber>*4, <ore:dustLunar>*2, 400, 250);
+assemblingMachine.addRecipe(<techreborn:part:30>, <techreborn:part:42>*4, <techreborn:part:41>, 400, 400);
+assemblingMachine.addRecipe(<techreborn:part:43>*2, <ore:platePlatinum>, <industrialforegoing:plastic>*2, 200, 400);
+assemblingMachine.addRecipe(<techreborn:part>, <techreborn:part:43>, <ore:plateMenril>*2, 400, 600);
+assemblingMachine.addRecipe(<techreborn:part:1>, <techreborn:part:3>, <actuallyadditions:item_crystal_empowered:4>*8, 400, 800);
 
 

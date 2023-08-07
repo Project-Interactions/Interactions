@@ -4,9 +4,7 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.rockytweaks.Anvil;
 
-for vi in loadedMods["minecraft"].items {
-    <ore:vanillaItems>.add(vi);
-}
+
 recipes.removeByRecipeName("minecraft:hopper");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");
@@ -25,6 +23,12 @@ recipes.remove(<minecraft:end_portal_frame>);
 //C dust to coal
 furnace.addRecipe(<minecraft:coal>, <ore:dustCoal>);
 
+//snad
+recipes.remove(<snad:snad:1>);
+recipes.remove(<snad:snad>);
+recipes.addShaped(<snad:snad>, [[<extrautils2:compressedsand>], [<extrautils2:compressedsand>]]);
+val rs = <minecraft:sand:1>;
+recipes.addShaped(<snad:snad:1>,[[rs,rs,rs],[rs,rs,rs],[rs,rs,rs]]);
 
 recipes.removeByRecipeName("minecraft:bucket");
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);

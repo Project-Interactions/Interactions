@@ -10,6 +10,8 @@ import mods.thaumcraft.Crucible;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Infusion;
 
+furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:ore:6>);
+
 //salis_mundus
 recipes.remove(<thaumcraft:salis_mundus>);
 recipes.addShapeless(<thaumcraft:salis_mundus>,[<contenttweaker:crude_salis_mundus>,<naturesaura:chunk_loader>]);
