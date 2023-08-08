@@ -1,9 +1,9 @@
 {
-	title: "神秘能源",
+	title: "{940d670c.ia.eae802b2.title}",
 	x: -1.0d,
 	y: 1.0d,
 	text: [
-		"魔法数字化！"
+		"{940d670c.ia.eae802b2}"
 	],
 	dependencies: [
 		"fbebc148"

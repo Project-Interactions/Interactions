@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 9.0d,
 	text: [
-		"等待5分钟"
+		"{e54907cd.ia.74bfb03d}"
 	],
 	dependencies: [
 		"fdd67043"

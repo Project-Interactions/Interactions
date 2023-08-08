@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 3.0d,
 	text: [
-		"最初级的元件存储"
+		"{e54907cd.ia.c44cc405}"
 	],
 	dependencies: [
 		"95f4bc67"

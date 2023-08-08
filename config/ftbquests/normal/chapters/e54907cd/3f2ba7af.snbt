@@ -2,7 +2,7 @@
 	x: -6.0d,
 	y: 4.5d,
 	text: [
-		"需要量子环"
+		"{e54907cd.ia.3f2ba7af}"
 	],
 	dependencies: [
 		"febd38a7"

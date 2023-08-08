@@ -2,7 +2,7 @@
 	x: 9.0d,
 	y: 9.0d,
 	text: [
-		"看看他的化学式？"
+		"{e54907cd.ia.e0df5556}"
 	],
 	dependencies: [
 		"9e5c37fb"

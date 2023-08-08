@@ -2,7 +2,7 @@
 	x: -2.5d,
 	y: 1.0d,
 	text: [
-		"自动化奥术工作台"
+		"{940d670c.ia.14ab876f}"
 	],
 	dependencies: [
 		"eae802b2"

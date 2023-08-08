@@ -2,7 +2,7 @@
 	x: -4.5d,
 	y: 3.0d,
 	text: [
-		"可放置10个元件"
+		"{e54907cd.ia.1eed8691}"
 	],
 	dependencies: [
 		"c44cc405",

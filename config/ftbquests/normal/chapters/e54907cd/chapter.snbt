@@ -1,8 +1,8 @@
 {
-	title: "《我是自动化狂魔》",
+	title: "{e54907cd.ia.title}",
 	icon: "enderio:item_alloy_ingot 1 2",
 	description: [
-		"阶段五"
+		"{e54907cd.ia.desc}"
 	],
 	always_invisible: false,
 	group: 0,

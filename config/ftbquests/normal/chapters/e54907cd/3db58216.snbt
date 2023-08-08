@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: 0.0d,
 	text: [
-		"环境科技的基本材料"
+		"{e54907cd.ia.3db58216}"
 	],
 	dependencies: [
 		"ef280612"

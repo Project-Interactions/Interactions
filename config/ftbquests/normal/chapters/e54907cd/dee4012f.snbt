@@ -2,8 +2,8 @@
 	x: 9.5d,
 	y: 4.5d,
 	text: [
-		"在末影接口的合金炉中烧制",
-		"合成拓展的基础材料"
+		"{e54907cd.ia.dee4012f.1}",
+		"{e54907cd.ia.dee4012f.2}"
 	],
 	dependencies: [
 		"dac98e8a"

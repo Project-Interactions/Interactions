@@ -2,7 +2,7 @@
 	x: 5.0d,
 	y: 0.0d,
 	text: [
-		"拥有更多槽位和容量"
+		"{940d670c.ia.f7c7ff72}"
 	],
 	dependencies: [
 		"01d1e670"

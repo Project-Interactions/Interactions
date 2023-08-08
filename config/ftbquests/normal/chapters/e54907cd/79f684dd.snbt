@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: 7.5d,
 	text: [
-		"合金制作"
+		"{e54907cd.ia.79f684dd}"
 	],
 	dependencies: [
 		"b537cdf5",

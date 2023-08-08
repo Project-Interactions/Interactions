@@ -2,7 +2,7 @@
 	x: -7.5d,
 	y: 10.5d,
 	text: [
-		"坩埚自动化"
+		"{e54907cd.ia.8163d547}"
 	],
 	dependencies: [
 		"60c2a4b0",

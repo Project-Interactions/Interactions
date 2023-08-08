@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: 1.5d,
 	text: [
-		"拥有三个物品槽的合金炉"
+		"{e54907cd.ia.7aac3fe6}"
 	],
 	dependencies: [
 		"46b23c72"

@@ -1,9 +1,9 @@
 {
-	title: "制作压印模板",
+	title: "{e54907cd.ia.2c0e7fab.title}",
 	x: 0.0d,
 	y: 3.0d,
 	text: [
-		"抽卡！"
+		"{e54907cd.ia.2c0e7fab}"
 	],
 	dependencies: [
 		"5b2681d2"

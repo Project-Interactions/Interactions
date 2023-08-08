@@ -2,7 +2,7 @@
 	x: 4.5d,
 	y: 3.0d,
 	text: [
-		"建网配电"
+		"{e54907cd.ia.24fd5d31}"
 	],
 	dependencies: [
 		"2cfc55e1"

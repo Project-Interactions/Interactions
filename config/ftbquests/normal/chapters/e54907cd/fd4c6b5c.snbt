@@ -2,7 +2,7 @@
 	x: 6.0d,
 	y: 6.0d,
 	text: [
-		"放在基岩层使用管道加入煤炭可挖掘晶体"
+		"{e54907cd.ia.fd4c6b5c}"
 	],
 	dependencies: [
 		"a9a569ba"

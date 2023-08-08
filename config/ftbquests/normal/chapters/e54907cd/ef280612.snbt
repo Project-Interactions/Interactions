@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: 1.5d,
 	text: [
-		"合成方式请查看JETIF"
+		"{e54907cd.ia.ef280612}"
 	],
 	dependencies: [
 		"b304dfce"

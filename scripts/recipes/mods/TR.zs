@@ -244,7 +244,7 @@ recipes.addShaped(<techreborn:cable:8>, [[<techreborn:machine_frame:1>, <ore:cir
 //easy circuit
 assemblingMachine.removeAll();
 assemblingMachine.addRecipe(<techreborn:wind_mill>, <ore:plateMagnalium>*4, <techreborn:machine_frame>, 800, 250);
-assemblingMachine.addRecipe(<techreborn:part:40>*4, <ore:ingotEnchantedMetal>, <ore:plateAlchemicalBrass>, 400, 300);
+assemblingMachine.addRecipe(<techreborn:part:40>*4, <ore:ingotEnchantedMetal>, <thaumcraft:plate>, 400, 300);
 assemblingMachine.addRecipe(<techreborn:part:29>, <techreborn:part:40>, <ore:wireRefinedIron>*4, 200, 200);
 assemblingMachine.addRecipe(<techreborn:part:41>*2, <techreborn:part:40>*4, <ore:gearDemonicMetal>, 400, 300);
 assemblingMachine.addRecipe(<techreborn:part:42>*4, <ore:itemRubber>*4, <ore:dustLunar>*2, 400, 250);

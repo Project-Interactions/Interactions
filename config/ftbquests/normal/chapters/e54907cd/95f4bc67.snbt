@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 1.5d,
 	text: [
-		"可合成的ME终端"
+		"{e54907cd.ia.95f4bc67}"
 	],
 	dependencies: [
 		"fbebc148"

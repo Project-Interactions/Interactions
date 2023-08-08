@@ -2,8 +2,8 @@
 	x: 6.0d,
 	y: -1.5d,
 	text: [
-		"在基岩上打火获得",
-		"之后也可以使用火焰水"
+		"{e54907cd.ia.c5d4acb8.1}",
+		"{e54907cd.ia.c5d4acb8.2}"
 	],
 	tasks: [{
 		uid: "d4cfefe8",
