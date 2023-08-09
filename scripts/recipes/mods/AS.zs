@@ -48,7 +48,7 @@ Altar.addConstellationAltarRecipe("as:compactmachines", <compactmachines3:machin
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>]);
 
-//门锐欧
+//门瑞欧
 StarlightInfusion.addInfusion(<integrateddynamics:crystalized_menril_brick>, <contenttweaker:material_part:137>, false, 0.7, 200);
 
 //电路板
