@@ -10,12 +10,12 @@ import mods.astralsorcery.Lightwell;
 
 recipes.addShaped(<astralsorcery:blockaltar>, [[<astralsorcery:blockmarble>, <tconstruct:seared:3>, <astralsorcery:blockmarble>],[<astralsorcery:blockmarble>, <avaritia:compressed_crafting_table>, <astralsorcery:blockmarble>], [<astralsorcery:blockmarble>, null, <astralsorcery:blockmarble>]]);
 recipes.addShaped(<astralsorcery:itemwand>, [[null, <ore:blockAquamarine>, <minecraft:ender_pearl>],[null, <astralsorcery:blockmarble>, <ore:blockAquamarine>], [<astralsorcery:blockmarble>, null, null]]);
-//空岛适配
+//marble
 recipes.remove(<astralsorcery:itemcraftingcomponent:1> * 4);
 recipes.remove(<astralsorcery:blockblackmarble> * 8);
 recipes.addShaped(<astralsorcery:blockblackmarble> * 4, [[<astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>],[<astralsorcery:blockmarble>, <tconstruct:seared:3>, <astralsorcery:blockmarble>], [<astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>]]);
 
-//暮色宝石
+//twilight crystal
 Altar.addConstellationAltarRecipe("interactions:shaped/twilight_crystal", <contenttweaker:twilight_crystal>, 1600, 300, [
 <astralsorcery:itemcraftingcomponent:3>, <ore:gearMenril>, <astralsorcery:itemcraftingcomponent:3>,
 <ore:gearMenril>, <astralsorcery:blockcollectorcrystal>, <ore:gearMenril>,
@@ -26,10 +26,10 @@ null, null,
 null, null,
 <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>]);
 
-//薄云合金
+//
 LightTransmutation.addTransmutation(<twilightforest:wispy_cloud>,<contenttweaker:sub_block_holder_0:1> , 80);
 
-//种子
+//seeds
 Altar.addDiscoveryAltarRecipe(
 	"interactions:shaped/maseedtier1",
 	<mysticalagriculture:crafting:17>,
@@ -48,10 +48,10 @@ Altar.addConstellationAltarRecipe("as:compactmachines", <compactmachines3:machin
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
 <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>]);
 
-//门瑞欧
+//menril
 StarlightInfusion.addInfusion(<integrateddynamics:crystalized_menril_brick>, <contenttweaker:material_part:137>, false, 0.7, 200);
 
-//电路板
+//circuit
 Altar.addDiscoveryAltarRecipe(
 	"interactions:shaped/internal/altar/contenttweaker:mana_circuit",
 	<contenttweaker:infused_mana_circuit>,
