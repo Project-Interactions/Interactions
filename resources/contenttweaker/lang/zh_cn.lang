@@ -50,7 +50,7 @@ item.contenttweaker.crystal_colorful.name=五彩水晶
 item.contenttweaker.cold_ingot.name=冷冻锭
 
 item.contenttweaker.hot_osmium_ingot.name=热锇锭
-item.contenttweaker.hot_irdium_ingot.name=热铱锭
+item.contenttweaker.hot_iridium_ingot.name=热铱锭
 item.contenttweaker.hot_niob_ingot.name=热铌锭
 item.contenttweaker.hot_palladium_ingot.name=热钯锭
 item.contenttweaker.hot_tungsten_ingot.name=热钨锭
@@ -167,7 +167,7 @@ ia.tooltip.7=使用门瑞欧线圈在高炉烧制
 ia.tooltip.8=使用高级电子合金线圈在高炉烧制
 //ia.tooltip.9=使用任意一种源质结晶都能制作
 ia.tooltip.10=将构建方块粉末放置在水旁静置一段时间
-ia.tooltip.11=目前无法正常渲染，请不要使用（后续会尝试修复）
+ia.tooltip.11=目前无法正常渲染，请不要使用其进行结构预览（后续会尝试修复）
 
 
 ia.rt.laser_gun=镭射枪

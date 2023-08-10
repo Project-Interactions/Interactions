@@ -1,5 +1,5 @@
 #priority 70000
-#loader crafttweaker reloadable
+#reloadable
 
 import crafttweaker.block.IBlock;
 import crafttweaker.data.IData;

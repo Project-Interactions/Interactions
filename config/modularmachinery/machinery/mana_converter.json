@@ -1,7 +1,7 @@
 {
     "registryname": "mana_converter", 
-    "localizedname": "魔能转换器", 
-    "requires-blueprint": true, 
+    "localizedname": "ia.machine.mana_converter.name", 
+    "requires-blueprint": false, 
     "color": "31B22D", 
     "parts": [
         {
@@ -281,7 +281,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "botania:shimmerrock@0"
+                "modularmagic:blockstarlightproviderinput"
             ]
         },
         {

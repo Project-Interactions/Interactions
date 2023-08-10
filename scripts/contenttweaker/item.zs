@@ -15,7 +15,7 @@ var regItem as string[]=[
 "cold_ingot",
 "crystal_colorful",
 "crystal_useless",
-"hot_irdium_ingot",
+"hot_iridium_ingot",
 "ore_essence",
 "hot_osmium_ingot",
 "twilight_crystal",

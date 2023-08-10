@@ -1,7 +1,7 @@
 {
     "registryname": "aspect_infuser", 
-    "localizedname": "源质注入器", 
-    "requires-blueprint": true, 
+    "localizedname": "ia.machine.aspect_infuser.name", 
+    "requires-blueprint": false, 
     "color": "53117C", 
     "parts": [
         {
@@ -9,7 +9,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockupgradebus"
+                "thaumicrestoration:block_infuser@0"
             ]
         },
         {

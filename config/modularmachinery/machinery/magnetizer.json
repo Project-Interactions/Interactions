@@ -1,7 +1,7 @@
 {
     "registryname": "magnetizer", 
-    "localizedname": "磁化机", 
-    "requires-blueprint": true, 
+    "localizedname": "ia.machine.magnetizer.name", 
+    "requires-blueprint": false, 
     "color": "828889", 
     "parts": [
         {

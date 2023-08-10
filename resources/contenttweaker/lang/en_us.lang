@@ -50,7 +50,7 @@ item.contenttweaker.crystal_colorful.name=Colorful Crystal
 item.contenttweaker.cold_ingot.name=Freeze Ingot
 
 item.contenttweaker.hot_osmium_ingot.name=Hot Osmium Ingot
-item.contenttweaker.hot_irdium_ingot.name=Hot Iridium Ingot
+item.contenttweaker.hot_iridium_ingot.name=Hot Iridium Ingot
 item.contenttweaker.hot_niob_ingot.name=Hot Niobium Ingot
 item.contenttweaker.hot_palladium_ingot.name=Hot Palladium Ingot
 item.contenttweaker.hot_tungsten_ingot.name=Hot Tungsten Ingot
@@ -167,7 +167,7 @@ ia.tooltip.7=Fire in blast furnace with Menril coil
 ia.tooltip.8=Fire in a blast furnace with Advanced Electronic Alloy coils
 //ia.tooltip.9=Using any kind of source quality crystal can be crafted
 ia.tooltip.10=Place the building block powder next to water and let it sit for a while
-ia.tooltip.11=Currently it cannot render normally, please do not use it (we will try to fix it later)
+ia.tooltip.11=Currently it cannot render normally, please do not use it to preview structures (we will try to fix it later)
 
 
 ia.rt.laser_gun=Laser Gun

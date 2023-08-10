@@ -50,7 +50,7 @@ recipes.addShapeless(<thaumcraft:thaumonomicon>,[<minecraft:writable_book>,<thau
 ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
 ArcaneWorkbench.registerShapedRecipe("tc:mmorphic_resonator","BASEARTIFICE",50, [<aspect:aer>, <aspect:ignis>],<thaumcraft:morphic_resonator>,[[null,<astralsorcery:itemcraftingcomponent:3>,null],[<ore:plateThaumium>,<thaumcraft:nugget:10>,<ore:plateThaumium>],[null,<astralsorcery:itemcraftingcomponent:3>,null]]);
 
-ArcaneWorkbench.registerShapedRecipe("tc:aspect_infuser","",80, [<aspect:aer>, <aspect:ignis>],<interaction:aspect_infuser>,[[<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>],[<extendedcrafting:storage:2>, <thaumcraft:essentia_output>, <extendedcrafting:storage:2>], [<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>]]);
+ArcaneWorkbench.registerShapedRecipe("tc:aspect_infuser","",80, [<aspect:aer>, <aspect:ignis>],<modularmachinery:aspect_infuser_controller>,[[<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>],[<extendedcrafting:storage:2>, <thaumcraft:essentia_output>, <extendedcrafting:storage:2>], [<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>]]);
 
 //try to fix no show
 Crucible.removeRecipe(<minecraft:web>);

@@ -1,14 +1,18 @@
+#mmce
+modularmachinery.aspect_infuser=源质注入器
+modularmachinery.mana_converter=魔能转换器
+modularmachinery.ebf=电力高炉
+modularmachinery.freezer=真空冷冻机
+modularmachinery.magnetizer=磁化机
+modularmachinery.mixer=混合机
+ia.aspect_infuser.speed=加快30%的制作速度，可叠加
+
 #controller
-magnetizer.name=磁化机
-blastfurnace.name=电力高炉
-mana_converter.name=魔能转换器
 ae_crafter.name=应用能源合成器
 advanced_pnc.name=创造气动压缩机
 arcane_crafter.name=辉耀装配室
 chaos.name=混沌聚合器
-mixer.name=混合机
 uu_crafter.name=UU物质生成器
-vaccum_freezer.name=真空冷冻机
 molecular_recombination.name=分子重组仪
 orechid.name=机械凝矿兰
 gaia.name=盖亚凝聚板
@@ -22,19 +26,13 @@ mana_zoom.name=聚魔透镜
 refrigerator.name=冷凝锅炉
 typewriter.name=魔力打字机
 wind_hole.name=风洞发电舱
-aspect_infuser.name=源质注入器
 
 #tile
-tile.interaction.magnetizer.name=磁化机
-tile.interaction.blastfurnace.name=电力高炉
-tile.interaction.mana_converter.name=魔能转换器
 tile.interaction.ae_crafter.name=应用能源合成器
 tile.interaction.advanced_pnc.name=创造气动压缩机
 tile.interaction.arcane_crafter.name=辉耀装配室
 tile.interaction.chaos.name=混沌聚合器
-tile.interaction.mixer.name=混合机
 tile.interaction.uu_crafter.name=UU物质生成器
-tile.interaction.vaccum_freezer.name=真空冷冻机
 tile.interaction.molecular_recombination.name=分子重组仪
 tile.interaction.orechid.name=机械凝矿兰
 tile.interaction.gaia.name=盖亚凝聚板
@@ -48,19 +46,13 @@ tile.interaction.mana_zoom.name=聚魔透镜
 tile.interaction.refrigerator.name=冷凝锅炉
 tile.interaction.typewriter.name=魔力打字机
 tile.interaction.wind_hole.name=风洞发电舱
-tile.interaction.aspect_infuser.name=源质注入器
 
 #recipe map
 multiblocked.recipe_map.uu=UU生成
 multiblocked.recipe_map.chaos=混沌聚合
 multiblocked.recipe_map.pnc=创造压力
 multiblocked.recipe_map.ae_crafter=应用装配
-multiblocked.recipe_map.magnetize=磁化
-multiblocked.recipe_map.mana_converter=魔能转换
 multiblocked.recipe_map.molecular_recombination=分子重组仪
-multiblocked.recipe_map.blastfurnace=高炉煅烧
-multiblocked.recipe_map.freezer=真空冷冻
-multiblocked.recipe_map.mixer=混合
 multiblocked.recipe_map.arcane=辉耀装配
 multiblocked.recipe_map.orechid=机械凝矿兰
 multiblocked.recipe_map.gaia=盖亚凝聚
@@ -74,7 +66,6 @@ multiblocked.recipe_map.energy_drinker=饮料发电
 multiblocked.recipe_map.typewriter=印刷魔力
 multiblocked.recipe_map.energy_warpper=跃迁发电
 multiblocked.recipe_map.lava_generator=炙热发电
-multiblocked.recipe_map.aspect_infuser=源质注入
 
 #part
 tile.interaction.starlight.name=星能接口

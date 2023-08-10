@@ -101,5 +101,3 @@ recipes.addShaped(<modularmachinery:blockinputbus:2>, [[null, <modularmachinery:
 recipes.addShaped(<modularmachinery:blockinputbus:1>, [[null, <modularmachinery:blockinputbus>, null],[null, <ore:gearRefinedIron>, null], [null, <ironchest:iron_chest>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus>, [[null, <ore:chest>, null],[null, <ore:gearIron>, null], [null, <tconstruct:wooden_hopper>, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus>, [[null, <tconstruct:wooden_hopper>, null],[null, <ore:gearIron>, null], [null, <ore:chest>, null]]);
-recipes.addShaped(<modularmachinery:blockcontroller>, [[<ore:circuitBasic>, <ore:plateLead>, <ore:circuitBasic>],[<ore:plateLead>, <ore:blockConstantan>, <ore:plateLead>], [<ore:circuitBasic>, <ore:plateLead>, <ore:circuitBasic>]]);
-//File End

@@ -1,8 +1,8 @@
 {
     "registryname": "mixer", 
-    "localizedname": "混合器", 
-    "requires-blueprint": true, 
-    "color": "254B22", 
+    "localizedname": "ia.machine.mixer.name", 
+    "requires-blueprint": false, 
+    "color": "537756", 
     "parts": [
         {
             "x": -1,
@@ -210,7 +210,8 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@5"
+                "immersiveengineering:sheetmetal@5",
+                "modularmagic:blocklifeessenceproviderinput"
             ]
         },
         {

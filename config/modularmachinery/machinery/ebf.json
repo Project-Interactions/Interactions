@@ -1,7 +1,7 @@
 {
     "registryname": "ebf", 
-    "localizedname": "电力高炉", 
-    "requires-blueprint": true, 
+    "localizedname": "ia.machine.ebf.name", 
+    "requires-blueprint": false, 
     "color": "828889", 
     "parts": [
         {

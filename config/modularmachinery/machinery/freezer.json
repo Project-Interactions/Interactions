@@ -1,8 +1,8 @@
 {
     "registryname": "freezer", 
-    "localizedname": "真空冷冻机", 
-    "requires-blueprint": true, 
-    "color": "1AC4DF", 
+    "localizedname": "ia.machine.freezer.name", 
+    "requires-blueprint": false, 
+    "color": "60A1D9", 
     "parts": [
         {
             "x": -1,

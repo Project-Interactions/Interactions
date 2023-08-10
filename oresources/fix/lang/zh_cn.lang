@@ -1,6 +1,8 @@
 //conflict fix
 tile.mixer.name=混合离心器
 item.amber.name=琥珀
+tile.boiler.name=高压能量激发器
+tile.bin.name=储物仓
 
 //correct
 item.thermalfoundation.material.crystalEnder.name=谐振笼合物

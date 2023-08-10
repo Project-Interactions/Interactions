@@ -66,7 +66,7 @@ Agglomeration.addRecipe(<teslacorelib:machine_case>,[<ore:gearNaturium>,<ore:cir
 Agglomeration.addRecipe(<thermalexpansion:frame:64>,[<ore:gearTin>,<ore:gearLead>,<ore:circuitAdvanced>,<teslacorelib:machine_case>],400000,0xCCFFFF,0x99FFFF,<thermalfoundation:storage:1>,<immersiveengineering:metal_decoration0:5>,<thermalfoundation:storage:3>,null,null,null);
 
 //
-RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5000);
+RuneAltar.addRecipe(<botania:rune:2>, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
 //
 Agglomeration.addRecipe(<compactmachines3:machine>,[<thermalfoundation:material:261>,<ore:circuitGood>],100000,0xCCFFFF,0x99FFFF,<extrautils2:decorativesolidwood:1>,<immersiveengineering:metal_decoration0:5>,<enderio:block_alloy_endergy>,<compactmachines3:wallbreakable>,<techreborn:storage2:10>,<compactmachines3:wallbreakable>);
 Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>],200000,0xCCFFFF,0xFFFFFF,<thermalfoundation:storage_alloy>,<naturesaura:infused_stone>,<thermalfoundation:storage_alloy>,<compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
@@ -79,7 +79,7 @@ ElvenTrade.removeRecipe(<botania_tweaks:ultimate_extended_crafty_crate>);
 
 
 //some mbd stuff
-ElvenTrade.addRecipe([<interaction:mana_converter>], [<botania:alfheimportal>]);
+ElvenTrade.addRecipe([<modularmachinery:mana_converter_controller>], [<botania:alfheimportal>]);
 ElvenTrade.addRecipe([<interaction:energy_drinker>], [<botania:livingwood:5>]);
 ElvenTrade.addRecipe([<interaction:cloud_forge>], [<aether_legacy:enchanter>]);
 ElvenTrade.addRecipe([<interaction:refrigerator>], [<aether_legacy:freezer>]);

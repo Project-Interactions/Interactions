@@ -1,14 +1,19 @@
+#mmce
+modularmachinery.aspect_infuser=Aspect Infuser
+modularmachinery.mana_converter=Mana Converter
+modularmachinery.ebf=Electric Blast Furnace (EBF)
+modularmachinery.freezer=Vacuum Freezer
+modularmachinery.magnetizer=Magnetizer
+modularmachinery.mixer=Mixer
+ia.aspect_infuser.speed=30% faster crafting speed, superimposed
+
 #controller
-magnetizer.name=Magnetizer
-blastfurnace.name=Electric Blast Furnace
-mana_converter.name=Mana Converter
 ae_crafter.name=AE Crafter
 advanced_pnc.name=Creative Pneumatic Compressor
 arcane_crafter.name=Arcane Assembly
 chaos.name=Chaos Aggregator
 mixer.name=Mixer
 uu_crafter.name=UU Crafter
-vacuum_freezer.name=Vacuum Freezer
 molecular_recombination.name=Molecular Recombination Instrument
 orechid.name=Mechanical Orechid
 gaia.name=Gaia Agglomeration Plate
@@ -22,19 +27,13 @@ mana_zoom.name=Magical Lens
 refrigerator.name=Refrigerator
 typewriter.name=Magical Typewriter
 wind_hole.name=Wind Generator
-aspect_infuser.name=Aspect Infuser
 
 #tile
-tile.interaction.magnetizer.name=Magnetizer
-tile.interaction.blastfurnace.name=Electric Blast Furnace
-tile.interaction.mana_converter.name=Mana Converter
 tile.interaction.ae_crafter.name=AE Crafter
 tile.interaction.advanced_pnc.name=Creative Pneumatic Compressor
 tile.interaction.arcane_crafter.name=Arcane Assembly
 tile.interaction.chaos.name=Chaos Aggregator
-tile.interaction.mixer.name=Mixer
 tile.interaction.uu_crafter.name=UU Crafter
-tile.interaction.vacuum_freezer.name=Vacuum Freezer
 tile.interaction.molecular_recombination.name=Molecular Recombination Instrument
 tile.interaction.orechid.name=Mechanical Orechid
 tile.interaction.gaia.name=Gaia Agglomeration Plate
@@ -48,19 +47,13 @@ tile.interaction.mana_zoom.name=Magical Lens
 tile.interaction.refrigerator.name=Refrigerator
 tile.interaction.typewriter.name=Magical Typewriter
 tile.interaction.wind_hole.name=Wind Generator
-tile.interaction.aspect_infuser.name=Aspect Infuser
 
 #recipe map
-multiblocked.recipe_map.magnetizer.name=Magnetize
-multiblocked.recipe_map.blastfurnace.name=EBF
-multiblocked.recipe_map.mana_converter.name=Mana Convertion
 multiblocked.recipe_map.ae_crafter.name=AE Craft
 multiblocked.recipe_map.advanced_pnc.name=Creative Pneumatic Compression
 multiblocked.recipe_map.arcane_crafter.name=Arcane Assembly
 multiblocked.recipe_map.chaos.name=Chaos Aggregator
-multiblocked.recipe_map.mixer.name=Mixing
 multiblocked.recipe_map.uu_crafter.name=UU Craft
-multiblocked.recipe_map.vacuum_freezer.name=Vacuum Freez
 multiblocked.recipe_map.molecular_recombination.name=Molecular Recombination
 multiblocked.recipe_map.orechid.name=Mechanical Orechid
 multiblocked.recipe_map.gaia.name=Gaia Agglomeration Plate
@@ -74,7 +67,6 @@ multiblocked.recipe_map.mana_zoom.name=Magical Lens
 multiblocked.recipe_map.refrigerator.name=Refrigeration
 multiblocked.recipe_map.typewriter.name=Magical Typewriter
 multiblocked.recipe_map.wind_hole.name=Wind Generation
-multiblocked.recipe_map.aspect_infuser.name=Aspect Infuse
 
 #part
 tile.interaction.starlight.name=Starlight Interface

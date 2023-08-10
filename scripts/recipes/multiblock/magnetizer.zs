@@ -1,4 +1,4 @@
-#loader reloadable
+#reloadable
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.IngredientArrayBuilder;
