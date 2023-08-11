@@ -3,7 +3,7 @@
 	y: 11.5d,
 	shape: "gear",
 	text: [
-		"现在你可以制作科技复兴的机器了"
+		"{9881d108.ia.bbbf412b}"
 	],
 	dependencies: [
 		"391bcb74"

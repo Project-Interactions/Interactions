@@ -158,7 +158,7 @@ contenttweaker.part.dustore=%s Ore Dust
 ia.custom.welcome.name=§o§lWelcome to§c§o§lInteractions Modpack§r§c§l!
 
 ia.tooltip.1=May reduce tps, use with caution
-ia.tooltip.2=The recipe works in the corresponding dimension, throwing stone/netherrack/end stone drops in the entity hatch
+//ia.tooltip.2=The recipe works in the corresponding dimension, throwing stone/netherrack/end stone drops in the entity hatch
 ia.tooltip.3=Select the book you want to throw and Shift-right click to throw
 //ia.tooltip.4=需要使用无尽要素的水晶块合成
 ia.tooltip.5=Right click on the wasteland world

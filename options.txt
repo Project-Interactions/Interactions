@@ -271,7 +271,6 @@ key_key.plustic_mots.desc:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
-key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
 key_pi.key.et_world:0
@@ -342,7 +341,7 @@ key_向右旋转载具:0
 key_向左旋转载具:0
 key_向上移动载具:0
 key_向下移动载具:0
-key_key.sort_config:37
+key_key.sort_config:51
 key_key.sort:-98
 key_key.control:0
 key_enderio.keybind.inventory:0

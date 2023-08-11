@@ -1,6 +1,6 @@
 //need localize
 <naturesaura:generator_limit_remover>.addTooltip(game.localize("ia.tooltip.1"));
-<interaction:orechid>.addTooltip(game.localize("ia.tooltip.2"));
+//<interaction:orechid>.addTooltip(game.localize("ia.tooltip.2"));
 <akashictome:tome>.addTooltip(game.localize("ia.tooltip.3"));
 //<qmd:creative_particle_source>.addTooltip(game.localize("ia.tooltip.4"));
 <contenttweaker:give>.addTooltip(game.localize("ia.tooltip.5"));

@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: 10.5d,
 	text: [
-		"合金制作"
+		"{ia.tic}"
 	],
 	dependencies: [
 		"6b12eeda"

@@ -2,7 +2,7 @@
 	x: -0.5d,
 	y: 4.5d,
 	text: [
-		"你只能使用它来自动化神秘基座"
+		"{9881d108.ia.b69d728c}"
 	],
 	dependencies: [
 		"9fcbd097"
@@ -11,7 +11,7 @@
 		uid: "1f932023",
 		type: "item",
 		items: [{
-			item: "interaction:aspect_infuser"
+			item: "modularmachinery:aspect_infuser_controller"
 		}]
 	}]
 }

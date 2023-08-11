@@ -8,6 +8,9 @@ import mods.botania.ManaInfusion;
 import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
 import mods.botania.ElvenTrade;
+import mods.botania.Orechid;
+import mods.botania.OrechidIgnem;
+import mods.botania.OrechidEndium;
 import mods.botanicadds.GaiaPlate;
 import mods.astralsorcery.LightTransmutation;
 //main
@@ -79,7 +82,7 @@ ElvenTrade.removeRecipe(<botania_tweaks:ultimate_extended_crafty_crate>);
 
 
 //some mbd stuff
-ElvenTrade.addRecipe([<modularmachinery:mana_converter_controller>], [<botania:alfheimportal>]);
+ElvenTrade.addRecipe([<modularmachinery:mana_converter_controller>], [<botania:alfheimportal>,<botanianeedsit:mana_capacitor_terrasteel>]);
 ElvenTrade.addRecipe([<interaction:energy_drinker>], [<botania:livingwood:5>]);
 ElvenTrade.addRecipe([<interaction:cloud_forge>], [<aether_legacy:enchanter>]);
 ElvenTrade.addRecipe([<interaction:refrigerator>], [<aether_legacy:freezer>]);
@@ -113,7 +116,7 @@ ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <plustic:mirionnugget>, 1
 Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
 Agglomeration.addRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>],200000);
 
-ManaInfusion.addAlchemy(<minecraft:ghast_tear>, <botania:blazeblock>, 10000);
+ManaInfusion.addAlchemy(<minecraft:ghast_tear>, <botania:blazeblock>, 5000);
 
 RuneAltar.removeRecipe(<botanicadds:mana_tesseract>);
 RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<ore:circuitAdvanced>,<ore:gearTerrasteel>,<botanicadds:dreamrock>,<botania:manaresource:12>,<botanicadds:rune_tp>], 150000);
@@ -127,3 +130,65 @@ recipes.addShaped(<botania:manaresource:15>,[
 ]);
 
 RecipeUtils.recipeTweak(true, <botania:felpumpkin>, [[null, <minecraft:string>, null], [<minecraft:bone>, <minecraft:pumpkin>, <minecraft:rotten_flesh>], [null, <minecraft:magma_cream>, null]]);
+
+ManaInfusion.addAlchemy(<thaumcraft:cinderpearl>, <thaumcraft:vishroom>, 8000);
+ManaInfusion.addAlchemy(<thaumcraft:shimmerleaf>, <thaumcraft:cinderpearl>, 8000);
+ManaInfusion.addAlchemy(<thaumcraft:vishroom>, <thaumcraft:shimmerleaf>, 8000);
+
+//orechid rework
+RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:petal:8>,<minecraft:stone>], 500000);
+RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:petal:14>,<minecraft:netherrack>], 500000);
+RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechidEndium"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:petal:10>,<minecraft:end_stone>], 500000);
+
+OrechidEndium.clear();
+OrechidEndium.addOre(<ore:oreAurorium>, 32);
+OrechidEndium.addOre(<ore:orePalladium>, 20);
+OrechidEndium.addOre(<ore:oreAbyssum>, 8);
+
+val removeOres as string[] = 
+[
+"oreAluminum",
+"oreIron",
+"oreOsmium",
+"oreTin",
+"oreCertusQuartz",
+"oreRuby",
+"oreCinnabar",
+"oreLead",
+"oreSapphire",
+"oreCoal",
+"oreDiamond",
+"oreTungsten",
+"oreEmerald",
+"orePlatinum",
+"oreUranium",
+"oreNickel",
+"oreLapis",
+"oreAmber",
+"oreMithril",
+"oreSilver",
+"oreGold",
+"oreGalena",
+"oreZinc",
+"oreQuartzBlack",
+"oreRedstone",
+"oreSulfur",
+"oreCopper",
+"oreApatite"
+];
+
+for ro in removeOres {
+    Orechid.removeOre(ro);
+}
+Orechid.addOre(<ore:oreJauxum>, 48);
+Orechid.addOre(<ore:oreVibranium>, 10);
+Orechid.addOre(<ore:oreKarmesine>, 48);
+Orechid.addOre(<ore:oreOvium>, 48);
+
+OrechidIgnem.removeOre("oreQuartz");
+OrechidIgnem.removeOre("oreCobalt");
+OrechidIgnem.removeOre("oreArdite");
+OrechidIgnem.addOre(<ore:oreValyrium>, 32);
+OrechidIgnem.addOre(<ore:oreOsram>, 10);
+OrechidIgnem.addOre(<ore:oreTiberium>, 64);
+OrechidIgnem.addOre(<ore:orePrometheum>, 32);

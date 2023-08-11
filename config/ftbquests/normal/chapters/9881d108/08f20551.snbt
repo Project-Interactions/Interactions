@@ -1,9 +1,9 @@
 {
-	title: "两种神秘金属",
+	title: "{9881d108.ia.08f20551.title}",
 	x: -1.5d,
 	y: 1.5d,
 	text: [
-		"神秘时代黄铜的矿词已经改变了"
+		"{9881d108.ia.08f20551.1}"
 	],
 	dependencies: [
 		"67bde826"
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "f056b8cd",
 		type: "item",
-		title: "炼金黄铜",
+		title: "{9881d108.ia.08f20551.2}",
 		items: [{
 			item: "thaumcraft:ingot 1 2"
 		}],

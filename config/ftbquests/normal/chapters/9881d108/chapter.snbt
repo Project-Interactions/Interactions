@@ -1,8 +1,8 @@
 {
-	title: "《你现在是一个合格的神秘使了，快点试试科技吧》",
+	title: "{9881d108.ia.title}",
 	icon: "extrautils2:ingredients 1 11",
 	description: [
-		"阶段四"
+		"{9881d108.ia.desc}"
 	],
 	always_invisible: false,
 	group: 0,

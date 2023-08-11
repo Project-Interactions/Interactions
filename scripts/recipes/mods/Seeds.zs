@@ -459,7 +459,7 @@ seedMAT3(<mysticalagriculture:obsidian_seeds>,<twilightforest:giant_obsidian>);
 
 seedT4(<mysticalagriculture:gold_seeds>,<ore:blockGold>);
 seedT4(<mysticalagriculture:lapis_lazuli_seeds>,<ore:blockLapis>);
-seedT4(<mysticalagriculture:end_seeds>,<ore:oc:stoneEndstone>);
+seedT4(<mysticalagriculture:end_seeds>,<ore:endstone>);
 seedT4(<mysticalagriculture:experience_seeds>,<actuallyadditions:item_solidified_experience>);
 seedT4(<mysticalagriculture:diamond_seeds>,<ore:blockDiamond>);
 seedT4(<mysticalagriculture:emerald_seeds>,<ore:blockEmerald>);

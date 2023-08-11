@@ -1,0 +1,7 @@
+mods.enderio.SagMill.removeByInput(item('minecraft:bedrock'))
+mods.enderio.SagMill.recipeBuilder()
+        .input(item('minecraft:bedrock'))
+        .output(item('minecraft:bedrock'))
+        .output(item('enderio:item_material:20'))
+        .energy(10000)
+        .register()

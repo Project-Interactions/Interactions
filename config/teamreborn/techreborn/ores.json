@@ -136,7 +136,7 @@
       "veinsPerChunk": 3,
       "minYHeight": 10,
       "maxYHeight": 250,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn.ore",
@@ -170,7 +170,7 @@
     }
   ],
   "rubberTreeConfig": {
-    "shouldSpawn": true,
+    "shouldSpawn": false,
     "chance": 75,
     "clusterSize": 7,
     "sapRarity": 10,

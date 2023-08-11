@@ -2,7 +2,7 @@
 	x: -18.0d,
 	y: -3.5d,
 	text: [
-		"寰宇之力"
+		"{aa0595b3.ia.e407253f}"
 	],
 	dependencies: [
 		"02a8ac48",

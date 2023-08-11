@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: 6.0d,
 	text: [
-		"一些生物可通过其召唤"
+		"{9881d108.ia.fc9e264d}"
 	],
 	dependencies: [
 		"212adc1c"

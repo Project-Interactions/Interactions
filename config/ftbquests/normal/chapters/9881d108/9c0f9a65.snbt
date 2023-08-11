@@ -2,7 +2,7 @@
 	x: -0.5d,
 	y: -0.5d,
 	text: [
-		"高级火源"
+		"{9881d108.ia.9c0f9a65}"
 	],
 	dependencies: [
 		"67bde826"

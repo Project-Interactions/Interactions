@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: 15.5d,
 	text: [
-		"只能进行加法运算"
+		"{9881d108.ia.254ec2ab}"
 	],
 	dependencies: [
 		"65d80d5f"

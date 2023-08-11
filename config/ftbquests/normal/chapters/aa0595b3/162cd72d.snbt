@@ -2,7 +2,7 @@
 	x: -11.0d,
 	y: 6.0d,
 	text: [
-		"通过这一个工作台"
+		"{aa0595b3.ia.162cd72d.1}"
 	],
 	dependencies: [
 		"cad12c35"
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "88c2d12e",
 		type: "checkmark",
-		title: "寻找"
+		title: "{aa0595b3.ia.162cd72d.2}"
 	}],
 	rewards: [{
 		uid: "74beb35e",

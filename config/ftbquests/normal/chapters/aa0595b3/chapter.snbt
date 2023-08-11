@@ -1,8 +1,8 @@
 {
-	title: "《将万物压缩获得宇宙的力量》",
+	title: "{aa0595b3.ia.title}",
 	icon: "avaritia:resource 1 6",
 	description: [
-		"阶段八"
+		"{aa0595b3.ia.desc}"
 	],
 	always_invisible: false,
 	group: 0,

@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: 22.0d,
 	text: [
-		"shift+右键可切换多种模式"
+		"{9881d108.ia.8adcd97c}"
 	],
 	dependencies: [
 		"0b8d8c7f",

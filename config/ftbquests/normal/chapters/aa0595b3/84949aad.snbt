@@ -2,7 +2,7 @@
 	x: -7.5d,
 	y: 1.5d,
 	text: [
-		"开始龙之研究"
+		"{aa0595b3.ia.84949aad}"
 	],
 	dependencies: [
 		"5dc02c74"

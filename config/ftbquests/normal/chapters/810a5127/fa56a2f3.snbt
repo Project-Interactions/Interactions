@@ -8,7 +8,7 @@
 		uid: "e1487924",
 		type: "item",
 		items: [{
-			item: "interaction:mana_converter"
+			item: "modularmachinery:mana_converter_controller"
 		}]
 	}],
 	rewards: [{

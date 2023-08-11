@@ -3,7 +3,7 @@
 	y: 11.5d,
 	shape: "gear",
 	text: [
-		"更高级的机器"
+		"{9881d108.ia.9ef9ee6a}"
 	],
 	dependencies: [
 		"bbbf412b"

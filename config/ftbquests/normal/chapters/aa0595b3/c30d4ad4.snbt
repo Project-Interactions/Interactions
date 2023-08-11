@@ -2,7 +2,7 @@
 	x: 6.0d,
 	y: -3.0d,
 	text: [
-		"两种火箭燃料混合形成，用作高级火箭的燃料"
+		"{aa0595b3.ia.c30d4ad4}"
 	],
 	dependencies: [
 		"c7f45b4c"

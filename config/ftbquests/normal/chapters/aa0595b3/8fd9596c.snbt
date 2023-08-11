@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: -6.0d,
 	text: [
-		"大量获得氦-3的方法"
+		"{aa0595b3.ia.8fd9596c}"
 	],
 	dependencies: [
 		"8a13de36"

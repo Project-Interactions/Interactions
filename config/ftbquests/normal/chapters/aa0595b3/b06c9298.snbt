@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: 3.0d,
 	text: [
-		"二氧化硫"
+		"{aa0595b3.ia.b06c9298}"
 	],
 	dependencies: [
 		"ea21c88f"

@@ -2,7 +2,7 @@
 	x: 4.5d,
 	y: -3.0d,
 	text: [
-		"你有多种方法获取它"
+		"{aa0595b3.ia.97dc5490}"
 	],
 	dependencies: [
 		"62a0a54b"

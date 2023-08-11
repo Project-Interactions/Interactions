@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 0.0d,
 	text: [
-		"用于生产水蒸气"
+		"{aa0595b3.ia.b82fc2df}"
 	],
 	dependencies: [
 		"ea21c88f"

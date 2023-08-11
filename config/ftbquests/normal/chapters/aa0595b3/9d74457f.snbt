@@ -2,7 +2,7 @@
 	x: -9.0d,
 	y: -5.0d,
 	text: [
-		"可以被复制"
+		"{aa0595b3.ia.9d74457f}"
 	],
 	dependencies: [
 		"2a1f8b7a"

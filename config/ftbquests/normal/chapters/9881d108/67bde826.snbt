@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -0.5d,
 	text: [
-		"世界盐右键工作台和炼药锅获得"
+		"{9881d108.ia.67bde826}"
 	],
 	dependencies: [
 		"dbcbf805"

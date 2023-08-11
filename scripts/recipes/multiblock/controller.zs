@@ -9,13 +9,12 @@ recipes.addShaped(<modularmachinery:magnetizer_controller>, [[<immersiveengineer
 recipes.addShaped(<multiblocked:multiblock_builder>, [[<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>],[<ore:circuitBasic>, <immersivepetroleum:schematic>, <ore:circuitBasic>], [<buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>, <buildinggadgets:constructionblock_dense>]]);
 recipes.addShaped(<multiblocked:entity>, [[<integrateddynamics:part_entity_writer_item>, <techreborn:machine_casing:2>, <integrateddynamics:part_entity_reader_item>]]);
 recipes.addShaped(<interaction:lp>, [[<bloodmagic:decorative_brick>, <bloodarsenal:base_item:4>, <bloodmagic:decorative_brick>],[<bloodarsenal:base_item:4>, <bloodmagic:blood_tank:3>, <bloodarsenal:base_item:4>], [<bloodmagic:decorative_brick>, <bloodarsenal:base_item:4>, <bloodmagic:decorative_brick>]]);
-recipes.addShaped(<interaction:orechid>, [[<botanicadds:rune_tp>, <ore:ingotFluixSteel>, <botanicadds:rune_energy>],[<ore:ingotFluixSteel>, <thaumicwonders:coalescence_matrix_precursor>, <ore:ingotFluixSteel>], [<botanicadds:rune_energy>, <ore:ingotFluixSteel>, <botanicadds:rune_tp>]]);
 
 //addon by Revo
-recipes.addShaped(<interaction:wind_hole>, [[null, null, null],[null, <immersiveengineering:metal_device1:2>, null], [null, null, null]]);
+recipes.addShaped(<interaction:wind_hole>, [[null, <ore:feather>, null],[<ore:feather>, <immersiveengineering:metal_device1:2>, <ore:feather>], [null, <ore:feather>, null]]);
 recipes.addShaped(<interaction:energy_warpper>, [[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>],[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
 recipes.addShaped(<interaction:mana_zoom>, [[null, <minecraft:glowstone_dust>, null],[<minecraft:glowstone_dust>, <botania:alchemycatalyst>, <minecraft:glowstone_dust>], [null, <minecraft:glowstone_dust>, null]]);
 recipes.addShapeless(<interaction:fake_philostone>, [<techreborn:storage2:3>,<thermalfoundation:material:1024>,<thermalfoundation:material:1024>]);
 recipes.addShapeless(<interaction:typewriter>, [<minecraft:writable_book>,<minecraft:enchanting_table>]);
-recipes.addShaped(<interaction:elemtia_flask>, [[null, null, null],[null, <botania:conjurationcatalyst>, null], [null, null, null]]);
+recipes.addShaped(<interaction:elemtia_flask>, [[null, <botania:vial:1>, null],[<botania:vial:1>, <botania:conjurationcatalyst>, <botania:vial:1>], [null, <botania:vial:1>, null]]);
 recipes.addShapeless(<interaction:lava_generator>, [<ore:circuitAdvanced>,<minecraft:blaze_powder>]);

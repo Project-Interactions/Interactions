@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: 10.5d,
 	text: [
-		"提供GP电量"
+		"{9881d108.ia.391bcb74}"
 	],
 	dependencies: [
 		"7b944400",

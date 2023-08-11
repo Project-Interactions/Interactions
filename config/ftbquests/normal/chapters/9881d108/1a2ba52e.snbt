@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: 20.0d,
 	text: [
-		"等待一段时间就能自动发电"
+		"{9881d108.ia.1a2ba52e}"
 	],
 	dependencies: [
 		"ab8a98b6",

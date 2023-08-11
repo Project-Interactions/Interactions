@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -2.0d,
 	text: [
-		"世界盐右键书架获得"
+		"{9881d108.ia.dbcbf805}"
 	],
 	dependencies: [
 		"46fa16e7"

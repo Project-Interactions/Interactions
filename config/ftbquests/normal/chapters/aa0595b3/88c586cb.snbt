@@ -2,7 +2,7 @@
 	x: 6.0d,
 	y: 1.5d,
 	text: [
-		"用于压制片"
+		"{aa0595b3.ia.88c586cb}"
 	],
 	dependencies: [
 		"ccbdb619"
