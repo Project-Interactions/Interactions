@@ -93,7 +93,7 @@ Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_v
 
 addRegexLogFilter("No InductionSmelter recipe exists for.*");
 val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
-val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<thermalfoundation:ore:7>,<techreborn:dust:55>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungstensteel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>];
+val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<thermalfoundation:ore:7>,<techreborn:dust:55>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungstensteel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>,<minecraft:compass>];
 for i in a { 
     for j in b {
         InductionSmelter.removeRecipe(i,j);

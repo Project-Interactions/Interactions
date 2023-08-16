@@ -133,7 +133,7 @@ key_pneumaticcraft.chestplate.launcher:0
 key_neat.keybind.toggle:0
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:0
-key_key.ping:25:SHIFT
+key_key.ping:0
 key_ping.key.alert:75
 key_ping.key.mine:76
 key_ping.key.look:77
@@ -280,8 +280,13 @@ key_key.taiga.alt_action:0
 key_key.carpet_forward:0
 key_key.carpet_backward:0
 key_key.craftingGrid:0
-key_key.vaultopic.view:31:SHIFT
-key_key.vaultopic.vice:46:SHIFT
+key_key.vaultopic.view:0
+key_key.vaultopic.vice:0
+key_visualores.key.action:211
+key_visualores.button.neromantic:0
+key_visualores.button.aura_flux:0
+key_visualores.button.excavator:0
+key_visualores.button.starlight:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0

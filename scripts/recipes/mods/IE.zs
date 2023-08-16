@@ -313,6 +313,8 @@ MetalPress.addRecipe(<botania:manaresource:21>*4,<minecraft:cobblestone>,<immers
 recipes.remove(<immersiveengineering:material> * 4);
 recipes.addShaped(<immersiveengineering:material> * 2, [[<ore:plankTreatedWood>], [<ore:plankTreatedWood>]]);
 
+recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
+
 /*
 GardenCloche.registerItemFertilizer(IIngredient fertilizer, float multiplier);
 

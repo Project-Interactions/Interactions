@@ -8,7 +8,6 @@ import mods.bloodmagic.BloodAltar;
 import mods.bloodmagic.AlchemyTable;
 import mods.bloodmagic.AlchemyArray;
 import mods.animus.AnimusPlugin;
-import dj2addons.bloodmagic.HellfireForge;
 
 
 recipes.remove(<bloodmagic:alchemy_table>);
@@ -48,10 +47,5 @@ AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);
 
 recipes.addShaped(<bloodmagic:decorative_brick:3> * 4, [[<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, null],[<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, null], [null, null, null]]);
 
-//HellfireForge
-//Speeding up the Hellfire Forge
-HellfireForge.setCraftingTicksRequired(10);
-//Speeding up Will Transfer rate
-HellfireForge.setWorldWillTransferRate(10);
-//Crafting with all Will types
-HellfireForge.setCraftWithAllWillTypes(true);
+BloodAltar.addRecipe(<thermalfoundation:material:865>, <thermalfoundation:material:864>, 0, 500, 6, 12);
+BloodAltar.addRecipe(<thermalfoundation:material:865>, <immersiveengineering:material:7>, 0, 500, 6, 12);

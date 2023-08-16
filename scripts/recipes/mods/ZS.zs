@@ -6,7 +6,6 @@ import mods.zensummoning.SummoningDirector;
 import mods.zensummoning.MobInfo;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
-recipes.removeShapeless(<integrateddynamics:coal_generator>);
 //蓝色史莱姆
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
@@ -62,6 +61,38 @@ SummoningDirector.addSummonInfo(
 	.setReagents([<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>])
 	.addMob(MobInfo.create()
 	.setMob("thaumcraft:pech")
+		.setCount(1)
+	)
+);
+
+//te
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+	.setCatalyst(<mysticalagriculture:chunk:21>)
+	.setConsumeCatalyst(true)
+	.setReagents([<thermalfoundation:material:2048>,<thermalfoundation:material:2048>,<thermalfoundation:material:2048>,<thermalfoundation:material:2048>])
+	.addMob(MobInfo.create()
+	.setMob("thermalfoundation:blizz")
+		.setCount(1)
+	)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+	.setCatalyst(<mysticalagriculture:chunk:22>)
+	.setConsumeCatalyst(true)
+	.setReagents([<thermalfoundation:material:2050>,<thermalfoundation:material:2050>,<thermalfoundation:material:2050>,<thermalfoundation:material:2050>])
+	.addMob(MobInfo.create()
+	.setMob("thermalfoundation:blitz")
+		.setCount(1)
+	)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+	.setCatalyst(<mysticalagriculture:chunk:23>)
+	.setConsumeCatalyst(true)
+	.setReagents([<thermalfoundation:material:2052>,<thermalfoundation:material:2052>,<thermalfoundation:material:2052>,<thermalfoundation:material:2052>])
+	.addMob(MobInfo.create()
+	.setMob("thermalfoundation:basalz")
 		.setCount(1)
 	)
 );

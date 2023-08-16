@@ -246,3 +246,6 @@ RecipeUtils.recipeTweak(true, <mctsmelteryio:machine>, [[<tconstruct:seared:3>, 
 RecipeUtils.recipeTweak(true, <simplesmelteryaccelerator:smeltery_accelerator>, [[<ore:circuitAdvanced>, <ore:gearManyullyn>, <ore:circuitAdvanced>], [<ore:gearManyullyn>, <mctsmelteryio:machine>, <ore:gearManyullyn>], [<tconstruct:seared:3>, <ore:gearManyullyn>, <tconstruct:seared:3>]]);
 recipes.remove(<mctsmelteryio:powdered_fuel> * 3);
 recipes.addShaped(<mctsmelteryio:powdered_fuel> * 2, [[<ore:dustCoal>, <ore:gunpowder>, <ore:dustCoal>], [<ore:dustCoal>, <ore:dustGold>, <ore:dustCoal>], [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>]]);
+
+//
+mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treated_wood>, <ore:plankWood>, <liquid:creosote>, 125, true, 10);

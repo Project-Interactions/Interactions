@@ -8,7 +8,7 @@
         "blacklist": "minecraft:hell, minecraft:sky",
         "depth_min": 0,
         "depth_max": 10,
-        "weight": 8
+        "weight": 4
       }
     ]
   }

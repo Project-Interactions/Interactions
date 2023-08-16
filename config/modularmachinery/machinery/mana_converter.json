@@ -281,7 +281,8 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmagic:blockstarlightproviderinput"
+                "modularmagic:blockstarlightproviderinput",
+                "botania:shimmerrock@0"
             ]
         },
         {

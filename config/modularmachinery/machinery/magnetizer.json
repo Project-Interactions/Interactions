@@ -45,11 +45,27 @@
             ]
         },
         {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
                 "tconstruct:clear_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
             ]
         },
         {

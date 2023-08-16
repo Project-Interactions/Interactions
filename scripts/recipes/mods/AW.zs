@@ -160,3 +160,13 @@ RecipeBuilder.get("engineer")
   .setFluid(<liquid:etching_acid>*1000)
   .addOutput(<contenttweaker:etched_assembled_circuit_plate>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setName("treated_wood")
+  .setShaped([
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+    [<ore:plankWood>,null,<ore:plankWood>],
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]])
+  .setFluid(<liquid:creosote>*1000)
+  .addOutput(<immersiveengineering:treated_wood>*8)
+  .create();
