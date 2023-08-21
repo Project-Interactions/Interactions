@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	text: [
+		"{9881d108.ia.e31cbac0}"
+	],
+	dependencies: [
+		"efa5230c"
+	],
+	tasks: [{
+		uid: "54c3ba96",
+		type: "item",
+		items: [{
+			item: "sharetome:sharing_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

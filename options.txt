@@ -6,7 +6,7 @@ gamma:1.0
 saturation:0.0
 renderDistance:8
 guiScale:4
-particles:0
+particles:2
 bobView:true
 anaglyph3d:false
 maxFps:260
@@ -117,6 +117,10 @@ key_key.conarm.toggle_chest.desc:0
 key_key.conarm.toggle_leg.desc:0
 key_keybind.hammercorerenderstack:0
 key_ChatFlow:88
+key_key.toggleFoVChanges:51:SHIFT
+key_key.reloadSoundSystem:66:SHIFT
+key_key.toggleTimeOfDayOverlay:0
+key_key.togglePotionParticles:66:CONTROL
 key_cos.key.opencosarmorinventory:0
 key_key.findme.search:21
 key_key.ftbutilities.nbt:0
@@ -133,11 +137,6 @@ key_pneumaticcraft.chestplate.launcher:0
 key_neat.keybind.toggle:0
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:0
-key_key.ping:0
-key_ping.key.alert:75
-key_ping.key.mine:76
-key_ping.key.look:77
-key_ping.key.goto:72
 key_Toggle Raw Input:0
 key_Rescan Key:43
 key_schematica.key.load:0
@@ -158,6 +157,7 @@ key_key.openglasses.nightvision:0
 key_key.openglasses.thermalvision:0
 key_key.openglasses.config:0
 key_key.xtones.scroll:42
+key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
 key_key.clipboardPaste:210
 key_key.cofh.multimode:47
@@ -284,8 +284,8 @@ key_key.vaultopic.view:0
 key_key.vaultopic.vice:0
 key_visualores.key.action:211
 key_visualores.button.neromantic:0
-key_visualores.button.aura_flux:0
 key_visualores.button.excavator:0
+key_visualores.button.aura_flux:0
 key_visualores.button.starlight:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
@@ -307,33 +307,6 @@ key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
 key_gui.xaero_toggle_tracked_players:0
 key_gui.xaero_minimap_settings:21
-key_Fast Mapping:0
-key_Baritone Goal Waypoint:0
-key_Waystones Waypoint Sync:0
-key_Waystones Dimension Sync:0
-key_Persist WM Dim Switch:0
-key_Transparent Obsidian Roof:0
-key_Skip Background Render:0
-key_NewChunks Highlighting:0
-key_Save/Load NewChunks to Disk:0
-key_Portal Highlights:0
-key_PortalSkip Detection:0
-key_WDL Highlight:0
-key_Prefer Overworld Waypoints:0
-key_Show Waypoint Distances:0
-key_null OW Dim Dir:0
-key_Nether Cave Fix:0
-key_Cross Dimension Teleport:0
-key_Show Render Distance:0
-key_Show Render Distance WorldMap:0
-key_Always Render Player Name:0
-key_Always Render Player Icon:0
-key_Fix Main Entity Dot:0
-key_Transparent Background:0
-key_Switch to Nether:0
-key_Switch to Overworld:0
-key_Switch to End:0
-key_Waypoint Beacons:0
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:45
 key_gui.xaero_map_zoom_in:0
@@ -373,7 +346,7 @@ key_enderio.keybind.fovminusfast:0
 key_key.craftpresence.config_keycode.name:0
 key_rsb.keybind.find_recipe:79
 key_rsb.keybind.find_uses:80
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

@@ -4,12 +4,10 @@ modularmachinery.mana_converter=魔能转换器
 modularmachinery.ebf=电力高炉
 modularmachinery.freezer=真空冷冻机
 modularmachinery.magnetizer=磁化机
-modularmachinery.mixer=混合机
+modularmachinery.mixer=混合器
 ia.aspect_infuser.speed=加快30%的制作速度，可叠加
-
 #controller
 ae_crafter.name=应用能源合成器
-advanced_pnc.name=创造气动压缩机
 arcane_crafter.name=辉耀装配室
 chaos.name=混沌聚合器
 uu_crafter.name=UU物质生成器
@@ -25,10 +23,10 @@ mana_zoom.name=聚魔透镜
 refrigerator.name=冷凝锅炉
 typewriter.name=魔力打字机
 wind_hole.name=风洞发电舱
-
+huge_le_infuser.name=大型 LE 灌注器
+ember_chamber.name=余烬压力室
 #tile
 tile.interaction.ae_crafter.name=应用能源合成器
-tile.interaction.advanced_pnc.name=创造气动压缩机
 tile.interaction.arcane_crafter.name=辉耀装配室
 tile.interaction.chaos.name=混沌聚合器
 tile.interaction.uu_crafter.name=UU物质生成器
@@ -44,11 +42,11 @@ tile.interaction.mana_zoom.name=聚魔透镜
 tile.interaction.refrigerator.name=冷凝锅炉
 tile.interaction.typewriter.name=魔力打字机
 tile.interaction.wind_hole.name=风洞发电舱
-
+tile.interaction.huge_le_infuser.name=大型 LE 灌注器
+tile.interaction.ember_chamber.name=余烬压力室
 #recipe map
 multiblocked.recipe_map.uu=UU生成
 multiblocked.recipe_map.chaos=混沌聚合
-multiblocked.recipe_map.pnc=创造压力
 multiblocked.recipe_map.ae_crafter=应用装配
 multiblocked.recipe_map.molecular_recombination=分子重组仪
 multiblocked.recipe_map.arcane=辉耀装配
@@ -63,13 +61,13 @@ multiblocked.recipe_map.energy_drinker=饮料发电
 multiblocked.recipe_map.typewriter=印刷魔力
 multiblocked.recipe_map.energy_warpper=跃迁发电
 multiblocked.recipe_map.lava_generator=炙热发电
-
+multiblocked.recipe_map.huge_le_infuser=大型 LE 灌注器
+multiblocked.recipe_map.ember_pnc=余烬压力室
 #part
 tile.interaction.starlight.name=星能接口
 tile.interaction.ta.name=元动能量接口
 tile.interaction.gp.name=GP能量接口
 tile.interaction.lp.name=LP能量接口
-
 #capability
 tile.multiblocked.item.any.name=任意物品接口
 tile.multiblocked.fluid.any.name=任意流体接口
@@ -84,6 +82,5 @@ tile.multiblocked.qmd_particle.any.name=任意粒子接口
 tile.multiblocked.starlight_as.any.name=任意星能接口
 tile.multiblocked.ember.any.name=任意余烬能量接口
 tile.multiblocked.ta_impetus.any.name=任意元动能量接口
-
 #description
 interaction.gaia.description=这是一个演示多方块结构，请按照植物魔法辞典搭建

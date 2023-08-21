@@ -84,7 +84,7 @@ RecipeBuilder.get("engineer")
   .setName("mechanical_circuit_board")
   .setShaped([
     [<ore:ingotHOPGraphite>, <ore:wireCopper>, <ore:wireCopper>],
-    [<ore:wireCopper>, <ore:gearSteel>, <ore:plateAdvancedElectronicAlloy>],
+    [<ore:wireCopper>, <ore:gearAluminum>, <ore:plateAdvancedElectronicAlloy>],
     [<ore:plateAdvancedElectronicAlloy>, <ore:electronTube>, <ore:electronTube>]])
   .addOutput(<contenttweaker:mechanical_circuit_board> * 3)
   .create();

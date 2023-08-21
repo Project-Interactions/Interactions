@@ -59,7 +59,7 @@ ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
 ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:4>);
 ArcFurnace.removeRecipe(<enderio:item_alloy_ingot>);
 ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:1>);
-
+ArcFurnace.removeRecipe(<techreborn:ingot:17>);
 
 MetalPress.removeRecipe(<moreplates:void_gear>);
 MetalPress.removeRecipe(<moreplates:void_plate>);

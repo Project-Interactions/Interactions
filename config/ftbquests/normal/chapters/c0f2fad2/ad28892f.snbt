@@ -8,7 +8,7 @@
 		uid: "8f09e4e2",
 		type: "item",
 		items: [{
-			item: "interaction:blastfurnace"
+			item: "modularmachinery:ebf_controller"
 		}]
 	},
 	{

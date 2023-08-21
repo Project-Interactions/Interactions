@@ -16,6 +16,7 @@ furnace.remove(<techreborn:ingot:15>);
 furnace.remove(<tconstruct:ingots>);
 furnace.remove(<tconstruct:ingots:1>);
 furnace.remove(<mekanism:ingot:1>);
+furnace.remove(<techreborn:ingot:17>);
 furnace.remove(<nuclearcraft:ingot:3>);
 furnace.remove(<nuclearcraft:ingot:7>);
 furnace.remove(<nuclearcraft:ingot:6>);

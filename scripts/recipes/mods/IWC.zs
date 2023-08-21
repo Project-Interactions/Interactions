@@ -9,7 +9,7 @@ FluidToFluid.transform(<liquid:living_water>, <liquid:water>, [<ore:treeLeaves>*
 FluidToFluid.transform(<liquid:mana>, <liquid:cobalt>, [<thermalfoundation:geode>*8], true);
 FluidToFluid.transform(<liquid:witch_water>, <liquid:sewage>, [<tconstruct:slime_dirt>], true);
 //fti
-FluidToItem.transform(<embers:blend_caminite>, <liquid:blend_caminite>, [<deepmoblearning:polymer_clay>], true);
+FluidToItem.transform(<embers:blend_caminite>*2, <liquid:blend_caminite>, [<deepmoblearning:polymer_clay>], true);
 FluidToItem.transform(<appliedenergistics2:material:45>*16, <liquid:steel>, [<techreborn:dust:3>*64], true);
 FluidToItem.transform(<tconstruct:slime_dirt>, <liquid:slime_cot>, [<minecraft:dirt>], true);
 FluidToItem.transform(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), <liquid:napalm>, [<immersiveengineering:blueprint>], true);
@@ -27,6 +27,9 @@ FluidToItem.transform(<mekanism:gastank>.withTag({tier: 4}), <liquid:ytinifni>, 
 FluidToItem.transform(<contenttweaker:aether_log_fix>, <liquid:etching_acid>, [<aether_legacy:aether_log>], false);
 
 FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:creosote>, [<naturesaura:bottle_two_the_rebottling>], true);
+FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:ender>, [<naturesaura:bottle_two_the_rebottling>], false);
+FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:liquid_sunshine>, [<naturesaura:bottle_two_the_rebottling>], false);
+FluidToItem.transform(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <liquid:lifeessence>, [<naturesaura:bottle_two_the_rebottling>], true);
 
 FluidToItem.transform(<thaumcraft:sapling_silverwood>, <liquid:astralsorcery.liquidstarlight>, [<ore:ingotSilver>*64], true);
 FluidToItem.transform(<thaumcraft:sapling_greatwood>, <liquid:astralsorcery.liquidstarlight>, [<ore:ingotElectrum>*64], true);

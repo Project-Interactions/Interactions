@@ -25,6 +25,8 @@ recipes.addShapeless(<appliedenergistics2:interface>,[<appliedenergistics2:part:
 recipes.removeByRecipeName("ae2fc:dual_interface");
 recipes.addShapeless(<ae2fc:dual_interface>, [<appliedenergistics2:interface>, <appliedenergistics2:fluid_interface>,<calculator:atomicbinder>]);
 
+recipes.removeByRecipeName("appliedenergistics2:materials/annihilationcore");
+recipes.addShaped(<appliedenergistics2:material:44> * 2, [[<ore:gemQuartz> | <appliedenergistics2:material:11>, <ore:dustFluix>, <appliedenergistics2:material:23>]]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:molecular_assembler>, [[<moreplates:certus_quartz_plate>, <calculator:flawlessglass>, <moreplates:certus_quartz_plate>],[<appliedenergistics2:material:44>, <techreborn:auto_crafting_table>, <appliedenergistics2:material:43>], [<ore:circuitOperation>, <calculator:flawlessglass>, <ore:circuitOperation>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:drive>, [[<appliedenergistics2:part:16>, <appliedenergistics2:material:24>, <appliedenergistics2:part:16>],[<appliedenergistics2:chest>, <appliedenergistics2:material:35>, <appliedenergistics2:chest>], [<appliedenergistics2:part:16>, <appliedenergistics2:material:24>, <appliedenergistics2:part:16>]]);
@@ -94,12 +96,24 @@ recipes.removeShaped(<aeadditions:storage.physical:2>);
 recipes.removeShaped(<aeadditions:storage.physical>);
 recipes.removeShaped(<aeadditions:storage.physical:3>);
 recipes.removeShaped(<aeadditions:storage.physical:1>);
-recipes.removeShaped(<aeadditions:storage.fluid:6>);
-recipes.removeShaped(<aeadditions:storage.fluid:4>);
-recipes.removeShaped(<aeadditions:storage.fluid:5>);
+recipes.removeShaped(<aeadditions:storage.fluid>);
+recipes.removeShaped(<aeadditions:storage.fluid:1>);
+recipes.removeShaped(<aeadditions:storage.fluid:2>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_64k>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_16k>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_4k>);
+recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_2_cubed>);
+recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_16_cubed>);
+recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_128_cubed>);
+recipes.remove(<thaumicenergistics:essentia_cell_1k>);
+recipes.remove(<thaumicenergistics:essentia_cell_4k>);
+recipes.remove(<thaumicenergistics:essentia_cell_16k>);
+recipes.remove(<thaumicenergistics:essentia_cell_64k>);
+
+recipes.addShapeless(<thaumicenergistics:essentia_cell_64k>, [<contenttweaker:essentia_cell_casing>,<thaumicenergistics:essentia_component_64k>]);
+recipes.addShapeless(<thaumicenergistics:essentia_cell_16k>, [<contenttweaker:essentia_cell_casing>,<thaumicenergistics:essentia_component_16k>]);
+recipes.addShapeless(<thaumicenergistics:essentia_cell_4k>, [<contenttweaker:essentia_cell_casing>,<thaumicenergistics:essentia_component_4k>]);
+recipes.addShapeless(<thaumicenergistics:essentia_cell_1k>, [<contenttweaker:essentia_cell_casing>,<thaumicenergistics:essentia_component_1k>]);
 
 recipes.remove(<appliedenergistics2:material:52>);
 recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
@@ -175,10 +189,6 @@ RecipeUtils.recipeTweak(true, <aeadditions:storage.component:3>, [[<ore:dustGlow
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:13>, [[<ore:dyeYellow>, <threng:material:14>, <ore:dyeYellow>], [<aeadditions:storage.component:12>, <appliedenergistics2:material:22>, <aeadditions:storage.component:12>], [<ore:dyeYellow>, <aeadditions:storage.component:12>, <ore:dyeYellow>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:6>, [[<ore:dyeBlue>, <threng:material:14>, <ore:dyeBlue>], [<aeadditions:storage.component:5>, <appliedenergistics2:material:22>, <aeadditions:storage.component:5>], [<ore:dyeBlue>, <aeadditions:storage.component:5>, <ore:dyeBlue>]]);
 
-recipes.remove(<aeadditions:fluidfiller>);
-recipes.addShapeless(<aeadditions:fluidfiller>, [<ae2fc:fluid_assembler>, <appliedenergistics2:part:520>]);
-recipes.remove(<aeadditions:fluidcrafter>);
-recipes.addShapeless(<ae2fc:fluid_assembler>,[<aeadditions:fluidcrafter>]);
 
 //fix magnet card jei
 Inscriber.removeRecipe(<appliedenergistics2:material:60>);

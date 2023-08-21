@@ -1,11 +1,47 @@
 {
-  "name": "pnc",
+  "name": "ember_pnc",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
+      "uid": "6ac926a6-d71e-45a8-846c-6fdee79b7003",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"embers:aspectus_dawnstone\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "ember": [
+          {
+            "chance": 1.0,
+            "content": 80000.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:ultimate_ingot_right_up\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "d78d830b-5acd-41e0-b53f-65c4e6df9826",
-      "duration": 1,
+      "duration": 10,
       "inputs": {
         "item": [
           {

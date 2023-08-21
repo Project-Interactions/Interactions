@@ -57,3 +57,15 @@ MetalFormer.removeRecipesByInput(<embers:plate_bronze>);
 
 MetalFormer.addRecipe(<thermalfoundation:material:163>, <liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:4>,2100);
 MetalFormer.addRecipe(<thermalfoundation:material:355>,<liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:3>,2100);
+
+Alchemy.add(<interaction:ember_chamber>, [<embers:alchemy_pedestal>,<embers:alchemy_tablet>,<embers:alchemy_tablet>,<pneumaticcraft:pressure_chamber_interface>,<pneumaticcraft:pressure_chamber_interface>], {"silver":40 to 50,"copper":20 to 36});
+
+//suger
+Melter.remove(<liquid:sugar>*16);
+Melter.add(<liquid:sugar>*144, <minecraft:sugar>);
+
+Alchemy.remove(<embers:ancient_motive_core>);
+Alchemy.add(<embers:ancient_motive_core>*2, [<embers:ancient_motive_core>,<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>], {"dawnstone":24 to 32});
+
+//custom aspect
+//Alchemy.addAspect(string name, IItemStack item);

@@ -149,3 +149,4 @@
 <ore:blockTerrasteel>.add(<botania:storage:1>);
 
 <ore:stickNdYAG>.add(<qmd:part:5>);
+<ore:dustSoulium>.add(<mysticalagriculture:crafting:29>);

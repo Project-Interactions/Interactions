@@ -143,6 +143,8 @@ c0f2fad2.ia.fd01c588=The final product, you'll need it to make advanced electron
 #9881d108 chapter
 9881d108.ia.title="You are now a qualified Thaumaturge, hurry up and try technology"
 9881d108.ia.desc=Stage Four
+9881d108.ia.e31cbac0=Upgraded version of Tome of Knowledge, fake players can use it
+9881d108.ia.efa5230c=You can share knowledge with others, but fake players are not supported
 9881d108.ia.0b624ce7=Can perform division operation
 9881d108.ia.0ef591b8.1=At the beginning you can only risk death to craft
 9881d108.ia.0ef591b8.2=Can also be made from harder to obtain metals
@@ -188,7 +190,7 @@ c0f2fad2.ia.fd01c588=The final product, you'll need it to make advanced electron
 9881d108.ia.dbcbf805=You can get it by right-clicking on the bookshelf of Salis Mundus, you need this step to unlock research
 9881d108.ia.ea0ab1e1.title=Three Metals
 9881d108.ia.ea0ab1e1.1=Cannot be fired in TR blast furnace now
-9881d108.ia.ea0ab1e1.2=Use Twilight Alloy Coil
+9881d108.ia.ea0ab1e1.2=Please use the custom multiblock structure
 9881d108.ia.ece6538c.title=Reinforced Stone
 9881d108.ia.ece6538c.1=It can be obtained with a resonance instrument
 9881d108.ia.ece6538c.2=There are many functions in computing technology, please don't be limited to tasks
@@ -241,6 +243,8 @@ e54907cd.ia.e0df5556=Strange crafting recipe
 e54907cd.ia.ef280612=Please refer to JETIF for crafting method
 e54907cd.ia.fd4c6b5c=Crystals can be mined in bedrock layer by adding fuel through pipes
 e54907cd.ia.febd38a7=Is there a possibility that advanced storage elements have more storage types?
+e54907cd.ia.fb44dff5.1=Ancient Golems don't spawn naturally now, you need to manually build structures to summon them
+e54907cd.ia.fb44dff5.2=Structure similar to snow golem, replace pumpkin head with ancient lantern, replace snow blocks with ancient bricks
 #940d670c.ia
 940d670c.ia.title=Advanced Automation
 940d670c.ia.01d1e670=Fluid crafting for multiblock machines

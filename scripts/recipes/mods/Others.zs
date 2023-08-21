@@ -40,8 +40,6 @@ recipes.addShapeless(<projectred-core:resource_item:103>, [<enderio:item_alloy_i
 recipes.addShaped(<darkutils:trap_move> * 4, [[null, null, null],[<ore:coal>, <tconstruct:arrow_head>.withTag({Material: "wood"}).onlyWithTag({Material: "wood"}), <ore:coal>], [<tconstruct:large_plate>.withTag({Material: "stone"}).onlyWithTag({Material: "stone"}), <ore:coal>, <tconstruct:large_plate>.withTag({Material: "stone"}).onlyWithTag({Material: "stone"})]]);
 recipes.addShaped(<zensummoning:altar>, [[<moreplates:demon_plate>, null, <moreplates:demon_plate>],[null, <extrautils2:compressednetherrack:3>, null], [<moreplates:demon_plate>, null, <moreplates:demon_plate>]]);
 
-recipes.remove(<weirdinggadget:weirding_gadget>);
-
 recipes.addShapeless(<buildinggadgets:constructionblock_dense>,[<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>]);
 
 //recipes.remove(<landcraft:landia_portal_marker>);
@@ -67,3 +65,5 @@ RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [[null, <ore:pl
 RecipeUtils.recipeTweak(true, <torchmaster:mega_torch>, [[<torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>], [<minecraft:diamond>, <botania:bifrostperm>, <minecraft:diamond>], [<minecraft:gold_block>, <botania:bifrostperm>, <minecraft:gold_block>]]);
 
 RecipeUtils.recipeTweak(true, <energymeters:meter>, [[<minecraft:cobblestone>, <ore:blockGlass>, <minecraft:cobblestone>], [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>], [<minecraft:cobblestone>, <ore:circuitBasic>, <minecraft:cobblestone>]]);
+
+RecipeUtils.recipeTweak(true, <bibliocraft:bibliochase>, [[null, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, null], [<minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, <extrautils2:ingredients:12>, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>], [null, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, null]]);

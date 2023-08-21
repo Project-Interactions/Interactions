@@ -40,6 +40,7 @@ item.contenttweaker.inverse_entropy_alloy.name=Inverse Entropy Alloy
 item.contenttweaker.inverse_entropy_circuit.name=Inverse Entropy Controll Circuit
 
 item.contenttweaker.wood_essence.name=Wooden Essence
+item.contenttweaker.essentia_cell_casing.name=Essentia Storage Housing
 
 item.contenttweaker.outside_minecraft.name=Outside Minecraft?
 item.contenttweaker.give.name=----

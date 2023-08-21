@@ -4,6 +4,9 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.extendedcrafting.EnderCrafting;
 import mods.extendedcrafting.TableCrafting;
+import mods.extendedcrafting.CompressionCrafting;
+
+CompressionCrafting.addRecipe(<pneumaticcraft:creative_compressor>, <contenttweaker:mana_matter>, 10000, <botania:pool:1>, 10000000);
 
 TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
 

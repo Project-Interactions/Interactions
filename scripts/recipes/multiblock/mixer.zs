@@ -2,6 +2,9 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.IngredientArrayBuilder;
+import mods.modularmachinery.RecipeAdapterBuilder;
+
+RecipeAdapterBuilder.create("mixer","tconstruct:smeltery_alloy").build();
 
 RecipeBuilder.newBuilder("tungstensteel", "mixer", 80)
     .addInputs([<techreborn:dust:55>,<thermalfoundation:material:96>])
@@ -12,13 +15,13 @@ RecipeBuilder.newBuilder("tungstensteel", "mixer", 80)
 RecipeBuilder.newBuilder("will_alloy", "mixer", 200)
     .addInputs([<liquid:raw_will>*1000,<liquid:corrosive_will>*1000,<liquid:destructive_will>*1000,<liquid:vengeful_will>*1000,<liquid:steadfast_will>*1000])
     .addEnergyPerTickInput(500)
-    .addFluidOutput(<liquid:will_alloy>*1000)
+    .addFluidOutput(<liquid:will_alloy>*2000)
     .build();
 
 RecipeBuilder.newBuilder("superconduct","mixer",200)
     .addInputs([<liquid:sunnarium>*500,<liquid:universal_metal>*500,<liquid:heavywater>*500,<liquid:semiconductor>*500])
     .addEnergyPerTickInput(500)
-    .addLifeEssenceInput(200000,false)
+    //.addLifeEssenceInput(200000,false)
     .addFluidOutput(<liquid:superconduct>*1000)
     .build();
 

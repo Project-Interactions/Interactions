@@ -247,5 +247,10 @@ RecipeUtils.recipeTweak(true, <simplesmelteryaccelerator:smeltery_accelerator>, 
 recipes.remove(<mctsmelteryio:powdered_fuel> * 3);
 recipes.addShaped(<mctsmelteryio:powdered_fuel> * 2, [[<ore:dustCoal>, <ore:gunpowder>, <ore:dustCoal>], [<ore:dustCoal>, <ore:dustGold>, <ore:dustCoal>], [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>]]);
 
+//treated_wood
+Casting.addBasinRecipe(<immersiveengineering:treated_wood>, <ore:plankWood>, <liquid:creosote>, 125, true, 10);
+
 //
-mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treated_wood>, <ore:plankWood>, <liquid:creosote>, 125, true, 10);
+Melting.removeRecipe(<liquid:meteorite_fluid>*288, <taiga:obsidiorite_block>);
+Melting.addRecipe(<liquid:obsidiorite_fluid>*288,<taiga:obsidioritecobble_block>,704);
+

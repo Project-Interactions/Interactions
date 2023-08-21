@@ -5,7 +5,7 @@
 //<qmd:creative_particle_source>.addTooltip(game.localize("ia.tooltip.4"));
 <contenttweaker:give>.addTooltip(game.localize("ia.tooltip.5"));
 <cookingforblockheads:sink>.addTooltip(game.localize("ia.tooltip.6"));
-<contenttweaker:material_part:152>.addTooltip(game.localize("ia.tooltip.7"));
+//<contenttweaker:material_part:152>.addTooltip(game.localize("ia.tooltip.7"));
 <contenttweaker:material_part:127>.addTooltip(game.localize("ia.tooltip.8"));
 //<thermalfoundation:geode>.addTooltip(game.localize("ia.tooltip.9"));
 <buildinggadgets:constructionblock_dense>.addTooltip(game.localize("ia.tooltip.10"));

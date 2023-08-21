@@ -71,7 +71,13 @@ Crucible.registerRecipe("chorus_fruit"   , "TWOND_END_HEDGE", <minecraft:chorus_
 Crucible.removeRecipe(<thaumicbases:metalleatseed>);
 Crucible.registerRecipe("hard_metalleatseed"   , "TB.PLANT1", <thaumicbases:metalleatseed>, <mysticalagriculture:iron_seeds>, [<aspect:ordo>*25,<aspect:metallum>*25,<aspect:victus>*25]);
 
+Crucible.registerRecipe("sharing_tome", "", <sharetome:sharing_tome>, <thaumadditions:knowledge_tome>, [<aspect:humanus>*20]);
 
+val hg = <thaumcraft:quicksilver>;
+ArcaneWorkbench.removeRecipe(<thaumicenergistics:diffusion_core>*2);
+ArcaneWorkbench.removeRecipe(<thaumicenergistics:coalescence_core>*2);
+ArcaneWorkbench.registerShapedRecipe("hard_diffusion_core","DIGISENTIA@2",10, [<aspect:aer>, <aspect:ignis>],<thaumicenergistics:diffusion_core>*2,[[hg,hg,hg],[<ore:plateThauminite>,<ore:dustFluix>,<appliedenergistics2:material:22>],[hg,hg,hg]]);
+ArcaneWorkbench.registerShapedRecipe("hard_coalescence_core","DIGISENTIA@2",10, [<aspect:aer>, <aspect:ignis>],<thaumicenergistics:coalescence_core>*2,[[hg,hg,hg],[<ore:plateThauminite>,<ore:dustFluix>,<appliedenergistics2:material:23>],[hg,hg,hg]]);
 
 var aspectMap as CTAspectStack[][IIngredient] = {
 };
@@ -201,5 +207,5 @@ Infusion.registerRecipe(
     50, //instability
     [<aspect:praecantatio>*100,<aspect:instrumentum>*100,<aspect:superbia>*100,<aspect:cognitio>*100,<aspect:caeles>*100], //aspect
     <thaumcraft:thaumonomicon>, //core item
-    [<thaumadditions:mithminite_block>,<tconevo:metal_block:4>,<contenttweaker:sub_block_holder_0:7>,<thaumadditions:mithminite_smelter>,<thaumadditions:jar_mithminite>,<thaumadditions:mithminite_fabric>,<thaumadditions:knowledge_tome>,<thaumicenergistics:essentia_component_64k>,<thaumicwonders:void_beacon>]//items
+    [<thaumadditions:mithminite_block>,<tconevo:metal_block:4>,<contenttweaker:sub_block_holder_0:7>,<thaumadditions:mithminite_smelter>,<thaumadditions:jar_mithminite>,<thaumadditions:mithminite_fabric>,<sharetome:sharing_tome>,<thaumicenergistics:essentia_component_64k>,<thaumicwonders:void_beacon>]//items
 );

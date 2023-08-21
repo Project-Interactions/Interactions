@@ -1,12 +1,8 @@
 ## About translation
 
-This modpack now support zh_cn,zh_tw and en_us(WIP).
+We now support en_us(English) and zh_cn(简体中文).
 
-Custom items are translated.
-
-We are now making FTBQ translation keys,but it may take a long time.
-
-Thanks lonelyxiya for part of zh_tw translation.
+Please Pull Request on Github if you want to contribute translations to this modpack.
 
 # Interactions
 

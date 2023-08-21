@@ -21,3 +21,11 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item("botania:pool", 1), [
 [item('botanianeedsit:mana_capacitor_terrasteel'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanianeedsit:mana_capacitor_terrasteel')], 
 [item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel')]
 ])
+
+mods.extendedcrafting.TableCrafting.addShaped(2, item("interaction:huge_le_infuser", 1), [
+[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')], 
+[ore('plateDenseMystic'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseSkyfather'), ore('plateDenseMystic')], 
+[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')], 
+[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseMystic')], 
+[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')]
+])

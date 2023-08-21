@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	text: [
+		"{e54907cd.ia.fb44dff5.1}",
+		"{e54907cd.ia.fb44dff5.2}"
+	],
+	dependencies: [
+		"a9a569ba"
+	],
+	tasks: [{
+		uid: "12ccbe31",
+		type: "item",
+		items: [{
+			item: "embers:archaic_brick"
+		}]
+	}]
+}

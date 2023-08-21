@@ -110,7 +110,6 @@ recipes.remove(<techreborn:part:1>);
 
 recipes.remove(<techreborn:energycrystal>);
 
-recipes.addShaped(<techreborn:plate_bending_machine>, [[<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>],[<ore:circuitBasic>, <techreborn:machine_frame>, <ore:circuitBasic>], [<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>]]);
 recipes.addShaped(<techreborn:machine_casing:1>*2, [[<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>],[<techreborn:part:13>, <techreborn:machine_frame:1>, <techreborn:part:13>], [<ore:plateSteel>, <ore:circuitMana>, <ore:plateSteel>]]);
 
 recipes.remove(<techreborn:part:2>*4);
@@ -127,6 +126,9 @@ industrialElectrolyzer.addRecipe(<techreborn:dust:59>*2,<techreborn:dust:52>,<co
 industrialGrinder.addRecipe(<enderio:item_material:20>*64,<taiga:eezo_dust>*8,null,null,<enderio:block_infinity:2>,<appliedenergistics2:material:6>,<liquid:petrotheum>*200,160,512);
 industrialGrinder.addRecipe(<taiga:meteorite_dust>*2,<taiga:duranite_dust>,null,null,<taiga:meteoritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
 industrialGrinder.addRecipe(<taiga:obsidiorite_dust>*2,<taiga:uru_dust>,null,null,<taiga:obsidioritecobble_block>*4,<appliedenergistics2:material:6>,<liquid:aerotheum>*100,160,512);
+
+industrialGrinder.addRecipe(<taiga:meteoritecobble_block>,null,null,null,<taiga:meteorite_block>,null,<liquid:petrotheum>*50,80,512);
+industrialGrinder.addRecipe(<taiga:obsidioritecobble_block>,null,null,null,<taiga:obsidiorite_block>,null,<liquid:petrotheum>*50,80,512);
 
 fusionReactor.removeRecipe(<techreborn:part:39>*4);
 
@@ -243,6 +245,7 @@ recipes.addShaped(<techreborn:cable:8>, [[<techreborn:machine_frame:1>, <ore:cir
 
 //easy circuit
 assemblingMachine.removeAll();
+assemblingMachine.addRecipe(<techreborn:water_mill>, <ore:plateAdvancedAlloy>.firstItem*4, <techreborn:machine_frame>, 800, 250);
 assemblingMachine.addRecipe(<techreborn:wind_mill>, <ore:plateMagnalium>.firstItem*4, <techreborn:machine_frame>, 800, 250);
 assemblingMachine.addRecipe(<techreborn:part:40>*4, <ore:ingotEnchantedMetal>.firstItem, <thaumcraft:plate>, 400, 300);
 assemblingMachine.addRecipe(<techreborn:part:29>, <techreborn:part:40>, <ore:wireRefinedIron>.firstItem*4, 200, 200);

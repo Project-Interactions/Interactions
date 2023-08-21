@@ -17,6 +17,7 @@ GCT.addRecipe("ae2_casing_2",<aeadditions:storage.casing:2>,[<redstonearsenal:ma
 GCT.addRecipe("ae2_casing_3",<aeadditions:storage.casing:1>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:machineblock2:11>*3]);
 GCT.addRecipe("ae2_casing_4",<aeadditions:storage.casing>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<ironchest:iron_chest:2>*3]);
 GCT.addRecipe("ae2_casing_5",<appliedenergistics2:material:39>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<ironchest:iron_chest>*3]);
+GCT.addRecipe("ae2_casing_6",<contenttweaker:essentia_cell_casing>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<thaumadditions:jar_thaumium>*3]);
 
 GCT.addRecipe("ae2_glass_1",<appliedenergistics2:quartz_glass>,[<calculator:flawlessglass>,<ore:crystalCertusQuartz>]);
 GCT.addRecipe("ae2_glass_2",<appliedenergistics2:quartz_vibrant_glass>*64,[<appliedenergistics2:quartz_glass>*64,<astralsorcery:iteminfusedglass>]);

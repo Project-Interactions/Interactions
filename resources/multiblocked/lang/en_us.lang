@@ -6,10 +6,8 @@ modularmachinery.freezer=Vacuum Freezer
 modularmachinery.magnetizer=Magnetizer
 modularmachinery.mixer=Mixer
 ia.aspect_infuser.speed=30% faster crafting speed, superimposed
-
 #controller
 ae_crafter.name=AE Crafter
-advanced_pnc.name=Creative Pneumatic Compressor
 arcane_crafter.name=Arcane Assembly
 chaos.name=Chaos Aggregator
 mixer.name=Mixer
@@ -26,10 +24,10 @@ mana_zoom.name=Magical Lens
 refrigerator.name=Refrigerator
 typewriter.name=Magical Typewriter
 wind_hole.name=Wind Generator
-
+huge_le_infuser.name=Huge LE Infuser
+ember_chamber.name=Ember Pressure Chamber
 #tile
 tile.interaction.ae_crafter.name=AE Crafter
-tile.interaction.advanced_pnc.name=Creative Pneumatic Compressor
 tile.interaction.arcane_crafter.name=Arcane Assembly
 tile.interaction.chaos.name=Chaos Aggregator
 tile.interaction.uu_crafter.name=UU Crafter
@@ -45,10 +43,10 @@ tile.interaction.mana_zoom.name=Magical Lens
 tile.interaction.refrigerator.name=Refrigerator
 tile.interaction.typewriter.name=Magical Typewriter
 tile.interaction.wind_hole.name=Wind Generator
-
+tile.interaction.huge_le_infuser.name=Huge LE Infuser
+tile.interaction.ember_chamber.name=Ember Pressure Chamber
 #recipe map
 multiblocked.recipe_map.ae_crafter.name=AE Craft
-multiblocked.recipe_map.advanced_pnc.name=Creative Pneumatic Compression
 multiblocked.recipe_map.arcane_crafter.name=Arcane Assembly
 multiblocked.recipe_map.chaos.name=Chaos Aggregator
 multiblocked.recipe_map.uu_crafter.name=UU Craft
@@ -64,13 +62,13 @@ multiblocked.recipe_map.mana_zoom.name=Magical Lens
 multiblocked.recipe_map.refrigerator.name=Refrigeration
 multiblocked.recipe_map.typewriter.name=Magical Typewriter
 multiblocked.recipe_map.wind_hole.name=Wind Generation
-
+multiblocked.recipe_map.huge_le_infuser=Huge LE Infuser
+multiblocked.recipe_map.ember_pnc=Ember Pressure Chamber
 #part
 tile.interaction.starlight.name=Starlight Interface
 tile.interaction.ta.name=Impulse Energy Interface
 tile.interaction.gp.name=GP Energy Interface
 tile.interaction.lp.name=LP Energy Interface
-
 #capability
 tile.multiblocked.item.any.name=Any Item Interface
 tile.multiblocked.fluid.any.name=Any fluid interface
@@ -85,6 +83,5 @@ tile.multiblocked.qmd_particle.any.name=Any QMD Particle Interface
 tile.multiblocked.starlight_as.any.name=Any Starlight Interface
 tile.multiblocked.ember.any.name=Any Ember Energy Interface
 tile.multiblocked.ta_impetus.any.name=Any impetus interface
-
 #description
 interaction.gaia.description=This is a demonstration multiblock structure, please build it according to the Lexica Botania
