@@ -248,12 +248,13 @@ assemblingMachine.removeAll();
 assemblingMachine.addRecipe(<techreborn:water_mill>, <ore:plateAdvancedAlloy>.firstItem*4, <techreborn:machine_frame>, 800, 250);
 assemblingMachine.addRecipe(<techreborn:wind_mill>, <ore:plateMagnalium>.firstItem*4, <techreborn:machine_frame>, 800, 250);
 assemblingMachine.addRecipe(<techreborn:part:40>*4, <ore:ingotEnchantedMetal>.firstItem, <thaumcraft:plate>, 400, 300);
-assemblingMachine.addRecipe(<techreborn:part:29>, <techreborn:part:40>, <ore:wireRefinedIron>.firstItem*4, 200, 200);
+assemblingMachine.addRecipe(<techreborn:part:29>*2, <techreborn:part:40>, <ore:wireRefinedIron>.firstItem*4, 200, 200);
 assemblingMachine.addRecipe(<techreborn:part:41>*2, <techreborn:part:40>*4, <ore:gearDemonicMetal>.firstItem, 400, 300);
 assemblingMachine.addRecipe(<techreborn:part:42>*4, <ore:itemRubber>.firstItem*4, <ore:dustLunar>.firstItem*2, 400, 250);
-assemblingMachine.addRecipe(<techreborn:part:30>, <techreborn:part:42>*4, <techreborn:part:41>, 400, 400);
+assemblingMachine.addRecipe(<techreborn:part:30>*2, <techreborn:part:42>*4, <techreborn:part:41>, 400, 400);
 assemblingMachine.addRecipe(<techreborn:part:43>*2, <ore:platePlatinum>.firstItem, <industrialforegoing:plastic>*2, 200, 400);
-assemblingMachine.addRecipe(<techreborn:part>, <techreborn:part:43>, <ore:plateMenril>.firstItem*2, 400, 600);
+assemblingMachine.addRecipe(<techreborn:part>*2, <techreborn:part:43>, <ore:plateMenril>.firstItem*2, 400, 600);
 assemblingMachine.addRecipe(<techreborn:part:1>, <techreborn:part:3>, <actuallyadditions:item_crystal_empowered:4>*8, 400, 800);
 
+grinder.removeInputRecipe(<mekanism:saltblock>);
 

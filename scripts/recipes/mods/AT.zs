@@ -6,7 +6,9 @@ recipes.remove(<avaritia:extreme_crafting_table>);
 recipes.remove(<avaritia:resource:1>);
 recipes.remove(<avaritia:resource>);
 
-recipes.addShapeless(<denseneutroncollectors:triple_compressed_neutron_collector>*2,[<denseneutroncollectors:triple_compressed_neutron_collector>]);
+val nt = <ore:blockCosmicNeutronium>;
+val tcnc = <denseneutroncollectors:triple_compressed_neutron_collector>;
+recipes.addShaped(tcnc*2,[[nt,nt,nt],[nt,tcnc,nt],[nt,nt,nt]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:extreme_crafting_table>, [
 	[<ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>, <ore:gearCrystalMatrix>], 

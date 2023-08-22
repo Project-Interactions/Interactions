@@ -315,6 +315,8 @@ recipes.addShaped(<immersiveengineering:material> * 2, [[<ore:plankTreatedWood>]
 
 recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
 
+Crusher.addRecipe(<contenttweaker:infinity_dust>*4, <storagedrawers:upgrade_creative:1>,20480);
+
 /*
 GardenCloche.registerItemFertilizer(IIngredient fertilizer, float multiplier);
 

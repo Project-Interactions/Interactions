@@ -1,0 +1,6 @@
+mods.extendedcrafting.TableCrafting.addShaped(4, item('contenttweaker:infinity_key'), [
+[null, null, null, null, item('storagedrawers:upgrade_creative', 1), null, item('storagedrawers:upgrade_creative', 1), null, item('storagedrawers:upgrade_creative', 1)], 
+[item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1), null, item('storagedrawers:upgrade_creative', 1), null, item('storagedrawers:upgrade_creative', 1), null, item('storagedrawers:upgrade_creative', 1)], 
+[item('storagedrawers:upgrade_creative', 1), ore('blockInfinity'), item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1), item('storagedrawers:drawer_key'), item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1)], 
+[item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1), item('storagedrawers:upgrade_creative', 1), null, null, null, null, null, null]
+])

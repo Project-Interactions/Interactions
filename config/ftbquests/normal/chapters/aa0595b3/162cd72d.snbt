@@ -1,4 +1,5 @@
 {
+	icon: "storagedrawers:drawer_key",
 	x: -11.0d,
 	y: 6.0d,
 	text: [
@@ -12,10 +13,5 @@
 		uid: "88c2d12e",
 		type: "checkmark",
 		title: "{aa0595b3.ia.162cd72d.2}"
-	}],
-	rewards: [{
-		uid: "74beb35e",
-		type: "item",
-		item: "biggercraftingtables:biggercraftingtable"
 	}]
 }

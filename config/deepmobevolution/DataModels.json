@@ -67,10 +67,11 @@
       "minecraft:ender_dragon"
     ],
     "lootItems": [
-      "minecraft:dragon_breath,32",
+      "minecraft:dragon_breath,16",
       "minecraft:dragon_egg,1",
       "draconicevolution:dragon_heart,1",
-      "draconicevolution:draconium_dust,64"
+      "draconicevolution:draconium_dust,32",
+      "mysticalagradditions:stuff,2,3"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,

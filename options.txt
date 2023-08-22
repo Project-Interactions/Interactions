@@ -6,7 +6,7 @@ gamma:1.0
 saturation:0.0
 renderDistance:8
 guiScale:4
-particles:2
+particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
@@ -283,9 +283,9 @@ key_key.craftingGrid:0
 key_key.vaultopic.view:0
 key_key.vaultopic.vice:0
 key_visualores.key.action:211
-key_visualores.button.neromantic:0
 key_visualores.button.excavator:0
 key_visualores.button.aura_flux:0
+key_visualores.button.neromantic:0
 key_visualores.button.starlight:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78

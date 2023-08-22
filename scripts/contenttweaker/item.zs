@@ -68,6 +68,9 @@ var regItem as string[]=[
 "powered_circuit_board",
 "mana_matter",
 "essentia_cell_casing",
+"infinity_key",
+"infinity_dust",
+"first",
 "oganesson897"
 ];
 for items in regItem {

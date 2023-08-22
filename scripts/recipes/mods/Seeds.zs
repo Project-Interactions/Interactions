@@ -16,6 +16,7 @@ import mods.actuallyadditions.Empowerer;
 import moretweaker.draconicevolution.FusionCrafting;
 import mods.mekanism.infuser;
 import mods.zenutils.StaticString;
+import mods.extendedcrafting.CompressionCrafting;
 
 static ess1 as IItemStack = <mysticalagriculture:crafting:17>;
 static ess2 as IItemStack = <mysticalagriculture:crafting:18>;
@@ -38,6 +39,23 @@ static essi3 as IIngredient = <ore:ingotIntermedium>;
 static essi4 as IIngredient = <ore:ingotSuperium>;
 static essi5 as IIngredient = <ore:ingotSupremium>;
 static essi6 as IIngredient = <ore:ingotInsanium>;
+
+//ma special
+FusionCrafting.add(ess6, ess5, FusionCrafting.WYVERN, 5000000, [<mysticalagradditions:insanium>,<mysticalagradditions:insanium>,<mysticalagradditions:insanium>,<mysticalagradditions:insanium>,<mysticalagradditions:insanium>,<mysticalagradditions:insanium>]);
+recipes.remove(<mysticalagradditions:neutronium_seeds>);
+recipes.remove(<mysticalagradditions:awakened_draconium_seeds>);
+recipes.remove(<mysticalagradditions:dragon_egg_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<mysticalagradditions:special:5>);
+recipes.remove(<mysticalagradditions:special:4>);
+recipes.addShaped(<mysticalagradditions:special:4>, [[<ore:blockInsanium>, <ore:blockDraconiumAwakened>, <ore:blockInsanium>],[<ore:blockDraconiumAwakened>, <ore:blockUltimate>, <ore:blockDraconiumAwakened>], [<ore:blockInsanium>, <ore:blockDraconiumAwakened>, <ore:blockInsanium>]]);
+recipes.addShaped(<mysticalagradditions:special:5>, [[<ore:blockInsanium>, <ore:blockCosmicNeutronium>, <ore:blockInsanium>],[<ore:blockCosmicNeutronium>, <ore:blockUltimate>, <ore:blockCosmicNeutronium>], [<ore:blockInsanium>, <ore:blockCosmicNeutronium>, <ore:blockInsanium>]]);
+recipes.removeByRecipeName("mysticalagradditions:nugget");
+recipes.removeByRecipeName("mysticalagradditions:resource");
+infuser.addRecipe("ENTROPY", 10, <mysticalagradditions:awakened_draconium_essence>*8, <draconicevolution:draconic_ingot>);
+infuser.addRecipe("OBSIDIANHARD", 10, <mysticalagradditions:neutronium_essence>*8, <avaritia:resource:4>);
+FusionCrafting.add(<mysticalagradditions:nether_star_seeds>, ess6, FusionCrafting.WYVERN, 5000000, [<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,essi6,essi6,essi6,essi6,essi6]);
+FusionCrafting.add(<mysticalagradditions:dragon_egg_seeds>, ess6, FusionCrafting.WYVERN, 5000000, [<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,essi6,essi6,essi6,essi6,essi6]);
 
 function seedT2(name as string,output as IItemStack,item as IIngredient) as void{
     mods.astralsorcery.Altar.addAttunementAltarRecipe("ia:seed/" ~ name, output, 500, 300, [
@@ -70,6 +88,13 @@ function seedT3(name as string,output as IItemStack,item as IIngredient) as void
 function seedT5(output as IItemStack,item as IIngredient) as void{
     FusionCrafting.add(output, ess5, FusionCrafting.WYVERN, 5000000, [item,item,item,item,item,essi5,essi5,essi5,essi5,essi5]);
 }
+
+function seedT6(output as IItemStack,item as IIngredient) as void{
+    CompressionCrafting.addRecipe(output, item,100, ess6, 10000000);
+}
+
+seedT6(<mysticalagradditions:awakened_draconium_seeds>,<ore:blockDraconiumAwakened>);
+seedT6(<mysticalagradditions:neutronium_seeds>,<ore:blockCosmicNeutronium>);
 
 function toSnakeCase(arg as string) as string {
     if (arg.contains("_")) { //snake case
@@ -138,6 +163,10 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
         infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem*3, oreDict[type ~ name].firstItem);
     }
     if(tier == 6){
+        recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_crux." ~ toSnakeCase(name));
+        seedT6(oreDict["mysticalSeeds" ~ name].firstItem,block);
+        infuser.addRecipe("ENTROPY", 10, oreDict["essence" ~ name].firstItem*8, oreDict[type ~ name].firstItem);
+        recipes.addShaped(oreDict["crux" ~ name].firstItem, [[<ore:blockInsanium>, block, <ore:blockInsanium>],[block, <ore:blockUltimate>, block], [<ore:blockInsanium>, block, <ore:blockInsanium>]]);
     }
 }
 
