@@ -10,7 +10,8 @@ import mods.nuclearcraft.Assembler;
 import mods.mekanism.combiner;
 
 recipes.removeByRecipeName("mekanism:energycube_create");
-
+recipes.remove(<mekanism:saltblock>);
+recipes.addShaped(<mekanism:saltblock>, [[<mekanism:salt>, <mekanism:salt>,<mekanism:salt>], [<mekanism:salt>, <mekanism:salt>,<mekanism:salt>],[<mekanism:salt>, <mekanism:salt>,<mekanism:salt>]]);
 recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
 recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);

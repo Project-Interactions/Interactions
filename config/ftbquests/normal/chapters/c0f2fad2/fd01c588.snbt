@@ -1,11 +1,12 @@
 {
 	x: -1.0d,
-	y: 1.5d,
+	y: 4.0d,
 	text: [
 		"{c0f2fad2.ia.fd01c588}"
 	],
 	dependencies: [
-		"a3c4de26"
+		"247f3146",
+		"3cd95d03"
 	],
 	tasks: [{
 		uid: "d40c5c32",
@@ -13,5 +14,10 @@
 		items: [{
 			item: "thermalfoundation:material 1 70"
 		}]
+	},
+	{
+		uid: "a5c30a3b",
+		type: "fluid",
+		fluid: "aqua_regia"
 	}]
 }

@@ -109,7 +109,8 @@ fluid.duplication=Molten Duplication Alloy
 fluid.ytinifni=ytinifnI
 fluid.molten_elfglass=Molten Elfglass
 fluid.mix_rocket_fuel=Mixed Rocket Fuel
-
+fluid.uu_multi=UU Amplifier
+fluid.uu_multi_adv=Advanced UU Amplifier
 
 //block
 tile.contenttweaker.frost_proof_machine_casing.name=Freeze Machine Casing

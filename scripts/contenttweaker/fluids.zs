@@ -23,16 +23,22 @@ zsFluid4.register();
 var zsFluid5 = VanillaFactory.createFluid("living_water", Color.fromHex("00CC33"));
 zsFluid5.register();
 
+var zsFluid6 = VanillaFactory.createFluid("uu_multi", Color.fromHex("FF00E2"));
+zsFluid6.register();
+
 var zsFluid7 = VanillaFactory.createFluid("slime_cot", Color.fromHex("00CC33"));
 zsFluid7.register();
 
 var zsFluid8 = VanillaFactory.createFluid("waste_water", Color.fromHex("9999CC"));
 zsFluid8.register();
 
+var zsFluid9 = VanillaFactory.createFluid("uu_multi_adv", Color.fromHex("B900FF"));
+zsFluid9.register();
+
 var zsFluid10 = VanillaFactory.createFluid("will_alloy", Color.fromHex("FFFFFF"));
 zsFluid10.register();
 
-var zsFluid13 = VanillaFactory.createFluid("uu", Color.fromHex("DF00E3"));
+var zsFluid13 = VanillaFactory.createFluid("uu", Color.fromHex("4F1C48"));
 zsFluid13.register();
 
 var zsFluid16 = VanillaFactory.createFluid("liquid_chaos", Color.fromHex("231923"));

@@ -109,7 +109,8 @@ fluid.duplication=熔融复制金属
 fluid.ytinifni=流涌尽无
 fluid.molten_elfglass=熔融精灵玻璃
 fluid.mix_rocket_fuel=混合火箭燃料
-
+fluid.uu_multi=UU 增幅液
+fluid.uu_multi_adv=高级 UU 增幅液
 
 //block
 tile.contenttweaker.frost_proof_machine_casing.name=冷冻机器方块

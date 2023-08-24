@@ -2,7 +2,6 @@
 	x: -4.5d,
 	y: 0.0d,
 	dependencies: [
-		"943833bd",
 		"16279130"
 	],
 	tasks: [{

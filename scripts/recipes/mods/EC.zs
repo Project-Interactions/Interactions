@@ -7,6 +7,7 @@ import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.CompressionCrafting;
 
 CompressionCrafting.addRecipe(<pneumaticcraft:creative_compressor>, <contenttweaker:mana_matter>, 10000, <botania:pool:1>, 10000000);
+CompressionCrafting.addRecipe(<extendedcrafting:compressor>, <minecraft:piston>, 100, <extendedcrafting:compressor>, 1000000);
 
 TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
 

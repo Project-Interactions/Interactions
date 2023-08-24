@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	dependencies: [
+		"a3c4de26"
+	],
+	tasks: [{
+		uid: "7afeeefc",
+		type: "item",
+		items: [{
+			item: "qmd:atmosphere_collector"
+		}]
+	},
+	{
+		uid: "01dc9ad7",
+		type: "fluid",
+		fluid: "compressed_air"
+	}]
+}

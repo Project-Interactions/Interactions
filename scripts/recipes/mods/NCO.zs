@@ -1,5 +1,3 @@
-
-
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Radiation;
@@ -14,6 +12,10 @@ import mods.nuclearcraft.Crystallizer;
 import mods.nuclearcraft.Electrolyzer;
 import mods.nuclearcraft.Centrifuge;
 import mods.nuclearcraft.Pressurizer;
+import mods.nuclearcraft.Infuser;
+import mods.nuclearcraft.Enricher;
+import mods.qmd.target_chamber as TargetChamber;
+import mods.qmd.nucleosynthesis_chamber as NucleosynthesisChamber;
 
 recipes.remove(<nuclearcraft:glowing_mushroom>);
 
@@ -69,11 +71,11 @@ Radiation.setRadiationLevel(<contenttweaker:sub_block_holder_0:4>,3.2);
 Radiation.setRadiationLevel(<liquid:heavymetalelements>,2.1);
 
 
-mods.qmd.nucleosynthesis_chamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
+NucleosynthesisChamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,<particle:muon>*1000,<liquid:europium>*100,null,1000,4030);
 
 recipes.addShaped(<nuclearcraft:cobblestone_generator>, [[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],[<extrautils2:compressedcobblestone:1>, <ore:blockRefinedIron>, <extrautils2:compressedcobblestone:1>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
 
-mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
+Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
 
 Assembler.removeRecipeWithOutput(<qmd:part:8>);
 
@@ -86,21 +88,11 @@ Assembler.addRecipe(<qmd:semiconductor:4>*3,<ore:ingotBloodInfusedIron>*4,<ore:s
 Assembler.removeRecipeWithOutput(<qmd:semiconductor:6>);
 Assembler.addRecipe(<qmd:semiconductor:5>*3,<theaurorian:auroriansteel>*4,<ore:gearPlatinum>*2,<ore:wireBSCCO>*4,<qmd:semiconductor:6>);
 
-mods.nuclearcraft.Crystallizer.addRecipe(<liquid:molten_mana>*200, <thermalfoundation:geode>);
-mods.nuclearcraft.Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);
-mods.nuclearcraft.Melter.addRecipe(<rftools:dimensional_shard>,<liquid:dimensionalshard>*150);
+Crystallizer.addRecipe(<liquid:molten_mana>*200, <thermalfoundation:geode>);
+Melter.addRecipe(<ore:dustMana>,<liquid:molten_mana>*100);
+Melter.addRecipe(<rftools:dimensional_shard>,<liquid:dimensionalshard>*150);
 
 RecipeUtils.recipeTweak(true, <qmd:vacuum_chamber_plasma_glass> * 2, [[<bloodarsenal:blood_stained_glass>, <ore:wireBSCCO>, <ore:ingotSuperAlloy>], [<ore:wireBSCCO>, <ore:gemBoronNitride>, <ore:wireBSCCO>], [<ore:ingotSuperAlloy>, <ore:wireBSCCO>, <bloodarsenal:blood_stained_glass>]]);
-
-mods.extendedcrafting.TableCrafting.addShaped(3,<interaction:uu_crafter>, [
-	[<qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>], 
-	[<qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>], 
-	[<techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>], 
-	[<techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>], 
-	[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>, <ore:circuitUniversal>, <techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>], 
-	[<qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <mekanism:machineblock2>, <qmd:containment_casing>], 
-	[<qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>, <qmd:containment_casing>]
-]);
 
 
 val AlloyFurnaceRemove as IItemStack[] = 
@@ -161,8 +153,6 @@ Melter.removeRecipeWithOutput(<liquid:refinedglowstone>*16);
 Melter.removeRecipeWithOutput(<liquid:refinedglowstone>*144);
 Melter.removeRecipeWithOutput(<liquid:refinedglowstone>*1296);
 
-mods.qmd.target_chamber.addRecipe(<techreborn:quantum_tank>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
-
 val cb = <thaumadditions:crystal_block>.withTag({Aspect: "superbia"});
 mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>, [
 	[cb, cb, cb, cb, cb], 
@@ -181,3 +171,12 @@ Electrolyzer.addRecipe(<liquid:moltensalt>*200, <liquid:hydrogen>*1000, <liquid:
 Centrifuge.addRecipe(<liquid:neutronium>*100, <liquid:red_matter>*100, <liquid:dark_matter>*400, null, null, null, null);
 
 Pressurizer.removeRecipeWithOutput(<techreborn:plates:38>);
+
+//uu
+NucleosynthesisChamber.addRecipe(<liquid:liquid_chaos>*200, <liquid:uu>*100, <particle:neutron>*5000, <liquid:neutronium>*100, null, 1000, 14030);
+NucleosynthesisChamber.addRecipe(<liquid:uu_multi>*100, <liquid:baratol>*500, <particle:neutron>*1000, <liquid:uu>*1000, null, 1000, 14030);
+NucleosynthesisChamber.addRecipe(<liquid:uu_multi_adv>*100, <liquid:baratol>*500, <particle:neutron>*1000, <liquid:uu>*10, null, 1000, 14030);
+TargetChamber.addRecipe(<techreborn:quantum_tank>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
+Enricher.addRecipe(<qmd:waste_fission>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);
+Enricher.addRecipe(<qmd:waste_fission:1>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);
+Melter.addRecipe(<techreborn:scrapbox>,<liquid:uu_multi>*10);

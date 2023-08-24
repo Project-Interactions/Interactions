@@ -76,3 +76,4 @@ Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "copper"}), <twiligh
 Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "silver"}), <twilightforest:armor_shard>);
 Grindstone.addRecipe(<conarm:armor_trim>.withTag({Material: "lead"}), <twilightforest:armor_shard>);
 
+StarlightInfusion.addInfusion(<botania:quartz:1>, <appliedenergistics2:material>, false, 0.7, 200);

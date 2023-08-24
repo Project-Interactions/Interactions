@@ -15,10 +15,5 @@
 		items: [{
 			item: "contenttweaker:sub_block_holder_0 1 9"
 		}]
-	},
-	{
-		uid: "c688fc22",
-		type: "fluid",
-		fluid: "aqua_regia"
 	}]
 }

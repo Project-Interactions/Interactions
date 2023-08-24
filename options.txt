@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -271,6 +271,7 @@ key_key.plustic_mots.desc:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
+key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
 key_pi.key.et_world:0
@@ -283,10 +284,10 @@ key_key.craftingGrid:0
 key_key.vaultopic.view:0
 key_key.vaultopic.vice:0
 key_visualores.key.action:211
+key_visualores.button.starlight:0
 key_visualores.button.excavator:0
 key_visualores.button.aura_flux:0
 key_visualores.button.neromantic:0
-key_visualores.button.starlight:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
