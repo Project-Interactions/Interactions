@@ -4,6 +4,11 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.industrialforegoing.FluidSievingMachine;
 import mods.industrialforegoing.FluidDictionary;
+import mods.industrialforegoing.Extractor;
+
+Extractor.add(<integrateddynamics:menril_log>, <fluid:menrilresin> * 5);
+Extractor.remove(<thaumcraft:log_silverwood>);
+Extractor.add(<thaumcraft:log_silverwood>, <fluid:fluid_quicksilver> * 5);
 
 recipes.addShaped(<teslacorelib:speed_tier2> * 2, [[null, <ore:gearDiamond>, null],[<teslacorelib:speed_tier1>, <ore:circuitAdvanced>, <teslacorelib:speed_tier1>], [null, <ore:gearDiamond>, null]]);
 recipes.addShaped(<teslacorelib:speed_tier1> * 2, [[null, <ore:circuitBasic>, null],[<teslacorelib:base_addon>, <ore:gearGold>, <teslacorelib:base_addon>], [null, <ore:circuitBasic>, null]]);
@@ -65,3 +70,6 @@ FluidSievingMachine.add(<liquid:if.pink_slime>*1000, <industrialforegoing:pink_s
 FluidSievingMachine.add(<liquid:blood>*1000, <twilightforest:fiery_blood>, <botania:vial>);
 
 //FluidDictionary
+//mercury quicksilver
+FluidDictionary.add("mercury", "fluid_quicksilver", 1);
+FluidDictionary.add("fluid_quicksilver", "mercury", 1);

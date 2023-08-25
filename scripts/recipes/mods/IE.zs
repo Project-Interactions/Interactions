@@ -228,8 +228,6 @@ CoolingTower.addRecipe(<liquid:nitrogen> * 7800, <liquid:oxygen>*2100, null, <li
 //coils
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_0:6>, [<ore:wireAdvancedElectronicAlloy>*8,<ore:itemRubber>*6]);
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1>, [<ore:wireMenril>*8,<ore:itemRubber>*6]);
-Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:2>, [<ore:wireNaturium>*8,<ore:itemRubber>*6]);
-Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:4>, [<ore:wireTwilghtSteel>*8,<ore:itemRubber>*6]);
 Blueprint.addRecipe("Coil", <contenttweaker:sub_block_holder_1:6>, [<ore:wireGaia>*8,<ore:itemRubber>*6]);
 recipes.addShapeless(<immersiveengineering:blueprint>.withTag({blueprint: "Coil"}),[<ore:circuitGood>,<ore:wireElectrum>,<ore:wireAluminum>,<ore:wireCopper>]);
 

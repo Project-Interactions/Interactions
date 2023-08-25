@@ -254,3 +254,4 @@ Casting.addBasinRecipe(<immersiveengineering:treated_wood>, <ore:plankWood>, <li
 Melting.removeRecipe(<liquid:meteorite_fluid>*288, <taiga:obsidiorite_block>);
 Melting.addRecipe(<liquid:obsidiorite_fluid>*288,<taiga:obsidioritecobble_block>,704);
 
+Casting.addTableRecipe(<thaumcraft:quicksilver>, <tconstruct:cast_custom:2>, <liquid:fluid_quicksilver>, 125, false);

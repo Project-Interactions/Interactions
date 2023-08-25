@@ -68,3 +68,11 @@ recipes.remove(<enderio:item_material:18>);
 
 recipes.remove(<enderio:item_material:52> * 6);
 recipes.addShaped(<enderio:item_material:52>, [[<ore:dustSoularium>, <ore:dustNetherQuartz>, <enderio:item_material:49>], [<ore:dustNetherQuartz>, <enderio:item_material:50>, <ore:dustNetherQuartz>], [<enderio:item_material:49>, <ore:dustNetherQuartz>, <ore:dustSoularium>]]);
+
+//endergy energy conduit harder
+RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:1> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotConstructionAlloy> | <ore:ingotIron>, <enderio:item_endergy_conduit>, <ore:ingotConstructionAlloy> | <ore:ingotIron>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:2> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotAluminum>, <enderio:item_endergy_conduit:1>, <ore:ingotAluminum>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:3> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotGold>, <enderio:item_endergy_conduit:2>, <ore:ingotGold>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:4> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotCopper>, <enderio:item_endergy_conduit:3>, <ore:ingotCopper>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:5> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotSilver>, <enderio:item_endergy_conduit:4>, <ore:ingotSilver>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:6> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotElectrum>, <enderio:item_endergy_conduit:5>, <ore:ingotElectrum>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);

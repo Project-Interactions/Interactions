@@ -72,9 +72,9 @@ materials.Semiconductor.registerParts(["block", "ingot","plate","gear","rod","nu
 materials.Energium.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);
 materials.UUMatter.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);
 materials.Duplication.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
-materials.Naturium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);
+materials.Naturium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Menril.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);
-materials.TwilghtSteel.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);
+materials.TwilghtSteel.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Gaia.registerParts(["coil","wire"] as string[]);
 materials.Nyx.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","ore"] as string[]);
 materials.Command.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);

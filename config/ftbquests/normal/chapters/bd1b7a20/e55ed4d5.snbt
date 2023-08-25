@@ -1,21 +1,21 @@
 {
 	x: 1.5d,
-	y: 3.0d,
+	y: 4.0d,
 	dependencies: [
 		"61ae6327"
 	],
 	tasks: [{
-		uid: "698762b1",
+		uid: "03ee734e",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 128"
+			item: "minecraft:iron_ingot"
 		}],
 		count: 64L
 	}],
 	rewards: [{
-		uid: "c51b5256",
+		uid: "333a02d3",
 		type: "item",
-		item: "thermalfoundation:storage",
-		count: 16
+		item: "minecraft:iron_block",
+		count: 32
 	}]
 }
