@@ -15,3 +15,5 @@ val remove as IItemStack[] =
 for Remove in remove {
     ItemStages.addItemStage("ban", Remove);
 }
+
+ItemStages.stageEnchant("ban", <enchantment:astralsorcery:enchantment.as.smelting>);
