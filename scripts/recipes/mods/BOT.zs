@@ -101,7 +101,7 @@ RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamr
 Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.h_o_p_graphite>],200000,0xCCFFFF,0x99FFFF,<techreborn:machine_frame>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
 
 //mana_circuit
-RuneAltar.addRecipe(<contenttweaker:mana_circuit>*3, [<ore:ingotPinkMetal>,<contenttweaker:mana_circuit_board>,<moreplates:pig_iron_plate>,<contenttweaker:material_part:150>], 100000);
+RuneAltar.addRecipe(<contenttweaker:mana_circuit>*3, [<ore:ingotPinkMetal>,<contenttweaker:mana_circuit_board>,<moreplates:pig_iron_plate>,<ore:plateNaturium>], 100000);
 
 //biome stone
 for i in 0 to 8 {

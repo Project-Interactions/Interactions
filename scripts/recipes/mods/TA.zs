@@ -11,11 +11,11 @@ recipes.addShapeless(<theaurorian:auroriansteel>*9, [<theaurorian:auroriansteelb
 recipes.remove(<theaurorian:auroriansteel> * 6);
 
 //MoonlightForge
-MoonlightForge.addRecipe(<theaurorian:moonstoneingot>, <theaurorian:crystal>, <theaurorian:scrapcrystalline>);
-MoonlightForge.addRecipe(<taiga:aurorium_ingot>, <theaurorian:crystal>, <theaurorian:scrapaurorianite>);
+MoonlightForge.addRecipe(<theaurorian:moonstoneingot>*2, <theaurorian:crystal>, <theaurorian:scrapcrystalline>);
+MoonlightForge.addRecipe(<taiga:aurorium_ingot>*2, <theaurorian:crystal>, <theaurorian:scrapaurorianite>);
 //Scrapper
-Scrapper.addRecipe(<environmentaltech:lonsdaleite_crystal>, <theaurorian:crystal>*2);
-Scrapper.addRecipe(<thaumcraft:ingot:1>, <theaurorian:scrapumbra>);
+Scrapper.addRecipe(<environmentaltech:lonsdaleite_crystal>, <theaurorian:crystal>*5);
+Scrapper.addRecipe(<thaumcraft:ingot:1>, <theaurorian:scrapumbra>*2);
 
 recipes.remove(<theaurorian:silentwoodstick> * 4);
 recipes.addShaped(<theaurorian:silentwoodstick> * 2, [[<theaurorian:silentwoodplanks>], [<theaurorian:silentwoodplanks>]]);

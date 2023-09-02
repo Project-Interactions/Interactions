@@ -258,10 +258,11 @@ e54907cd.ia.fb44dff5.2=Structure similar to snow golem, replace pumpkin head wit
 940d670c.ia.f0a46f03=Can encode 4x4 recipes
 940d670c.ia.f7c7ff72=More slots and capacity
 940d670c.ia.a64204c6.title=Packaged crafting
-940d670c.ia.a64204c6.1=Applies to crafting of more than 16 items/fluids
-940d670c.ia.a64204c6.2=>9,≤16 can use the augmented model terminal
-940d670c.ia.a64204c6.3=Packaged crafting now supports Extended Crafting, Astral Sorcery, Avaritia and Draconic Evolution
+940d670c.ia.a64204c6.1=Applies to crafting of more than 42 items/fluids
+940d670c.ia.a64204c6.2=>9,≤42 can use ME Extended Processing Pattern Terminal or ME Ultimate Encode
+940d670c.ia.a64204c6.3=Packaged crafting now supports Extended Crafting, Astral Sorcery, Avaritia,Thaumcraft and Draconic Evolution
 940d670c.ia.a64204c6.4=You can find them by searching @packaged in the HEI interface
+940d670c.ia.5ac21318=can encodes 42->8 recipes and supports fluids
 #215b43fe chapter
 215b43fe.ia.chapter.title="Application of Biology and Agriculture in the Field of Science and Technology"
 215b43fe.ia.chapter.description=Tier Six

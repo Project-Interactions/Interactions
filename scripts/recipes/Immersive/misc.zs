@@ -107,3 +107,5 @@ MetalPress.addRecipe(<moreplates:emerald_plate>,<minecraft:emerald>,<immersiveen
 
 MetalPress.addRecipe(<moreplates:reinforced_iron_plate>,<calculator:reinforcedironingot>,<immersiveengineering:mold>,1024);
 MetalPress.addRecipe(<moreplates:reinforced_iron_gear>,<calculator:reinforcedironingot>*4,<immersiveengineering:mold:1>,1024);
+
+MetalPress.addRecipe(<thaumicbases:thauminite_plate>,<thaumicbases:thauminite_ingot>,<immersiveengineering:mold>,1024);

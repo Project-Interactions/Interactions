@@ -134,7 +134,7 @@ RecipeUtils.recipeTweak(true, <ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>,
 recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
 recipes.addShapeless(<ae2fc:part_fluid_pattern_terminal>, [<appliedenergistics2:part:340>, <ae2fc:fluid_pattern_encoder>,<aeadditions:fluidfiller>]);
 RecipeUtils.recipeTweak(true, <ae2fc:fluid_level_maintainer>, [[<ore:dustFluix>, <appliedenergistics2:part:281>, <ore:dustFluix>], [<appliedenergistics2:material:24>, <appliedenergistics2:crafting_monitor>, <appliedenergistics2:material:24>], [<ore:dustFluix>, <ore:dyeBlue>, <ore:dustFluix>]]);
-
+RecipeUtils.recipeTweak(true, <ae2fc:ultimate_encoder>, [[<packagedauto:encoder>, <appliedenergistics2:material:24>, <packagedauto:packager_extension>], [<appliedenergistics2:fluix_block>, <ae2fc:part_fluid_pattern_ex_terminal>, <appliedenergistics2:fluix_block>], [<ae2fc:fluid_pattern_encoder>, <ae2fc:fluid_pattern_encoder>, <ae2fc:fluid_pattern_encoder>]]);
 
 //lazyae2 machines
 RecipeUtils.recipeTweak(true, <threng:machine:4>, [[<ore:ingotFluixSteel>, <ae2fc:ingredient_buffer>, <ore:ingotFluixSteel>], [<appliedenergistics2:material:22>, <threng:material:4>, <appliedenergistics2:material:22>], [<ore:ingotFluixSteel>, <appliedenergistics2:material:53>, <ore:ingotFluixSteel>]]);

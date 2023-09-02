@@ -47,3 +47,15 @@ RecipeBuilder.newBuilder("crude_salis_mundus", "mana_converter", 120)
     .addStarlightInput(800)
     .addItemOutput(<contenttweaker:crude_salis_mundus>)
     .build();
+
+RecipeBuilder.newBuilder("tc_crystals", "mana_converter", 60)
+    .addItemInputs([<thaumcraft:nugget:9>])
+    .addManaInput(1000)
+    .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})).setChance(0.2)
+    .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})).setChance(0.2)
+    .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})).setChance(0.2)
+    .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})).setChance(0.2)
+    .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})).setChance(0.2)
+    .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})).setChance(0.2)
+    .build();
+
