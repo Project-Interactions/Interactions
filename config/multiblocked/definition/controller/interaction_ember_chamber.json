@@ -157,6 +157,10 @@
         ],
         "type": "states"
       },
+      "mp": {
+        "capability": "mm_mech_power",
+        "type": "capability"
+      },
       "D": {
         "states": [
           {
@@ -204,10 +208,6 @@
       },
       "any": {
         "type": "any"
-      },
-      "fluid": {
-        "capability": "fluid",
-        "type": "capability"
       }
     },
     "symbolMap": {
@@ -242,7 +242,7 @@
         "ember"
       ],
       "I": [
-        "fluid"
+        "mp"
       ],
       "J": [
         "J"

@@ -172,10 +172,10 @@ Centrifuge.addRecipe(<liquid:neutronium>*100, <liquid:red_matter>*100, <liquid:d
 Pressurizer.removeRecipeWithOutput(<techreborn:plates:38>);
 
 //uu
-NucleosynthesisChamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,(<particle:muon>*456000)~1,<liquid:europium>*100,null,1000,4030);
-NucleosynthesisChamber.addRecipe(<liquid:liquid_chaos>*200, <liquid:uu>*100, (<particle:neutron>*20000000)~1, <liquid:neutronium>*100, null, 1000, 14030);
-NucleosynthesisChamber.addRecipe(<liquid:uu_multi>*100, <liquid:baratol>*500, (<particle:neutron>*5000000)~1, <liquid:uu>*10, null, 1000, 14030);
-NucleosynthesisChamber.addRecipe(<liquid:uu_multi_adv>*100, <liquid:baratol>*500, (<particle:neutron>*5000000)~1, <liquid:uu>*1000, null, 1000, 14030);
+NucleosynthesisChamber.addRecipe(<liquid:hydrogen>*400,<liquid:neodymium>*144,(<particle:muon>*456000)~1,<liquid:europium>*100,null,10000,4030);
+NucleosynthesisChamber.addRecipe(<liquid:liquid_chaos>*200, <liquid:uu>*100, (<particle:neutron>*20000000)~1, <liquid:neutronium>*100, null, 10000, 14030);
+NucleosynthesisChamber.addRecipe(<liquid:uu_multi>*100, <liquid:baratol>*500, (<particle:neutron>*5000000)~1, <liquid:uu>*10, null, 10000, 14030);
+NucleosynthesisChamber.addRecipe(<liquid:uu_multi_adv>*100, <liquid:baratol>*500, (<particle:neutron>*5000000)~1, <liquid:uu>*1000, null, 10000, 14030);
 TargetChamber.addRecipe(<techreborn:quantum_tank>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
 Enricher.addRecipe(<qmd:waste_fission>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);
 Enricher.addRecipe(<qmd:waste_fission:1>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);

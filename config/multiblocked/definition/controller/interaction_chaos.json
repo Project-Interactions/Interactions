@@ -104,19 +104,6 @@
         "type": "states",
         "io": "IN"
       },
-      "G": {
-        "states": [
-          {
-            "id": "projecte:alchemical_chest",
-            "meta": 0
-          }
-        ],
-        "type": "states",
-        "io": "OUT"
-      },
-      "any": {
-        "type": "any"
-      },
       "gas": {
         "capability": "mek_gas",
         "type": "capability"
@@ -124,6 +111,9 @@
       "fluid": {
         "capability": "fluid",
         "type": "capability"
+      },
+      "any": {
+        "type": "any"
       },
       "energy": {
         "capability": "forge_energy",
@@ -156,7 +146,7 @@
         "gas"
       ],
       "G": [
-        "G"
+        "gas"
       ]
     }
   }

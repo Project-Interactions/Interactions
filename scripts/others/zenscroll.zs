@@ -42,7 +42,7 @@ ZenScroll.add(<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte})
 ,<storagedrawers:upgrade_creative:1>
 ,<draconicevolution:creative_exchanger>);
 
-ZenScroll.add(<bloodmagic:activation_crystal:2>,<bloodmagic:sacrificial_dagger:1>);
+ZenScroll.add(<bloodmagic:activation_crystal:2>,<bloodmagic:sacrificial_dagger:1>,<avaritia:armok_orb>);
 ZenScroll.add(<extrautils2:itemcreativedestructionwand>,<extrautils2:itemcreativebuilderswand>);
 ZenScroll.add(<thaumicenergistics:essentia_cell_creative>,<thaumicwonders:creative_essentia_jar>,<thaumicaugmentation:impetus_creative:1>,<thaumicaugmentation:impetus_creative>);
 ZenScroll.add(<thaumcraft:creative_flux_sponge>,<thaumcraft:thaumonomicon:1>);

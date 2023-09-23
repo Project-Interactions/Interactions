@@ -197,3 +197,36 @@ Inscriber.addRecipe(<appliedenergistics2:material:60>, <appliedenergistics2:mate
 //tweak infinity card
 Inscriber.removeRecipe(<appliedenergistics2:material:59>);
 Inscriber.addRecipe(<appliedenergistics2:material:59>, <aeadditions:storage.component:3>, false, <aeadditions:storage.component:5>, <aeadditions:storage.component:12>);
+
+//ae2uele replace extracpus
+recipes.remove(<appliedenergistics2:material:70>);
+recipes.remove(<appliedenergistics2:material:69>);
+recipes.remove(<appliedenergistics2:material:68>);
+recipes.remove(<appliedenergistics2:material:67>);
+recipes.remove(<appliedenergistics2:material:66>);
+recipes.remove(<appliedenergistics2:material:65>);
+recipes.remove(<appliedenergistics2:material:64>);
+recipes.remove(<appliedenergistics2:material:63>);
+recipes.remove(<appliedenergistics2:material:62>);
+recipes.remove(<appliedenergistics2:material:61>);
+recipes.remove(<appliedenergistics2:fluid_storage_cell_4mb>);
+recipes.remove(<appliedenergistics2:fluid_storage_cell_1mb>);
+recipes.remove(<appliedenergistics2:storage_cell_16mb>);
+recipes.remove(<appliedenergistics2:storage_cell_4mb>);
+recipes.remove(<appliedenergistics2:storage_cell_1mb>);
+recipes.remove(<appliedenergistics2:storage_cell_256mb>);
+recipes.remove(<appliedenergistics2:storage_cell_64mb>);
+recipes.remove(<appliedenergistics2:fluid_storage_cell_16mb>);
+recipes.remove(<appliedenergistics2:crafting_storage_16mb>);
+recipes.remove(<appliedenergistics2:crafting_storage_4mb>);
+recipes.remove(<appliedenergistics2:crafting_storage_1mb>);
+recipes.addShaped(<appliedenergistics2:material:67> * 64, [[<appliedenergistics2:material:66>, <draconicevolution:chaotic_core>, <appliedenergistics2:material:66>]]);
+recipes.addShaped(<appliedenergistics2:material:66>, [[<bloodarsenal:base_item:2>, <draconicevolution:awakened_core>, <bloodarsenal:base_item:2>],[<appliedenergistics2:material:65>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:material:65>], [<bloodarsenal:base_item:2>, <appliedenergistics2:material:65>, <bloodarsenal:base_item:2>]]);
+recipes.addShaped(<appliedenergistics2:material:65>, [[<bloodarsenal:base_item:2>, <draconicevolution:wyvern_core>, <bloodarsenal:base_item:2>],[<appliedenergistics2:material:64>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:material:64>], [<bloodarsenal:base_item:2>, <appliedenergistics2:material:64>, <bloodarsenal:base_item:2>]]);
+recipes.addShaped(<appliedenergistics2:material:64>, [[<bloodarsenal:base_item:2>, <draconicevolution:draconic_core>, <bloodarsenal:base_item:2>],[<aeadditions:storage.component:3>, <appliedenergistics2:quartz_vibrant_glass>, <aeadditions:storage.component:3>], [<bloodarsenal:base_item:2>, <aeadditions:storage.component:3>, <bloodarsenal:base_item:2>]]);
+recipes.addShapeless(<appliedenergistics2:crafting_storage_16mb>, [<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:3>]);
+recipes.addShapeless(<appliedenergistics2:crafting_storage_4mb>, [<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:2>]);
+recipes.addShapeless(<appliedenergistics2:crafting_storage_1mb>, [<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:1>]);
+recipes.addShapeless(<appliedenergistics2:storage_cell_256mb>, [<aeadditions:storage.casing>,<appliedenergistics2:material:65>]);
+recipes.addShapeless(<appliedenergistics2:storage_cell_64mb>, [<aeadditions:storage.casing>,<appliedenergistics2:material:64>]);
+recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_16mb>, [<aeadditions:storage.casing:1>,<appliedenergistics2:material:70>]);

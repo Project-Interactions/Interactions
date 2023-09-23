@@ -186,20 +186,7 @@ recipes.addShapeless(<minecraft:wooden_sword>, [<tconstruct:sword_blade>.withTag
 recipes.addShapeless(<minecraft:wooden_axe>, [<tconstruct:axe_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
 recipes.addShapeless(<minecraft:wooden_pickaxe>, [<tconstruct:pick_head>.withTag({Material: "wood"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>.withTag({Material: "wood"})]);
 //ae2
-recipes.remove(<appliedenergistics2:certus_quartz_sword>);
-recipes.remove(<appliedenergistics2:certus_quartz_pickaxe>);
-recipes.remove(<appliedenergistics2:certus_quartz_spade>);
-recipes.remove(<appliedenergistics2:certus_quartz_axe>);
-recipes.remove(<appliedenergistics2:nether_quartz_sword>);
-recipes.remove(<appliedenergistics2:nether_quartz_pickaxe>);
-recipes.remove(<appliedenergistics2:nether_quartz_spade>);
-recipes.remove(<appliedenergistics2:nether_quartz_hoe>);
-recipes.remove(<appliedenergistics2:nether_quartz_axe>);
-recipes.addShapeless(<appliedenergistics2:certus_quartz_axe>, [<tconstruct:axe_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
-recipes.addShapeless(<appliedenergistics2:certus_quartz_hoe>, [<tconstruct:scythe_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
-recipes.addShapeless(<appliedenergistics2:certus_quartz_spade>, [<tconstruct:shovel_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
-recipes.addShapeless(<appliedenergistics2:certus_quartz_sword>, [<tconstruct:pick_head>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
-recipes.addShapeless(<appliedenergistics2:certus_quartz_sword>, [<tconstruct:sword_blade>.withTag({Material: "certus_quartz"}).onlyWithTag({Material: "certus_quartz"}),<tconstruct:binding>.withTag({Material: "wood"}),<tconstruct:tool_rod>]);
+
 //actu addon
 val remove as IItemStack[] = 
 [

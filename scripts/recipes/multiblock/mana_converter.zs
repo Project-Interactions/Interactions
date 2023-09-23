@@ -59,3 +59,10 @@ RecipeBuilder.newBuilder("tc_crystals", "mana_converter", 60)
     .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})).setChance(0.2)
     .build();
 
+RecipeBuilder.newBuilder("asgardandelion", "mana_converter", 40)
+    .addItemInputs([<ore:ingotCrystalMatrix>])
+    .addItemInput(<botania:pool:1>).setChance(0)
+    .addManaInput(50000)
+    .addStarlightInput(800)
+    .addItemOutput(<botania:specialflower>.withTag({type: "asgardandelion"}))
+    .build();

@@ -1,14 +1,14 @@
 {
 	x: -18.0d,
-	y: -1.5d,
+	y: 0.0d,
 	dependencies: [
-		"e407253f"
+		"d1085936"
 	],
 	tasks: [{
-		uid: "7d7f8bf5",
+		uid: "af449c5a",
 		type: "item",
 		items: [{
-			item: "auraddons:item_creative_aura_cache"
+			item: "avaritia:armok_orb"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

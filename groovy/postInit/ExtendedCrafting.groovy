@@ -11,15 +11,15 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item('environmentaltech:void_or
 ])
 
 mods.extendedcrafting.TableCrafting.addShaped(4, item("botania:pool", 1), [
-[item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel')], 
-[item('botanianeedsit:mana_capacitor_terrasteel'), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botanianeedsit:mana_capacitor_terrasteel')], 
-[item('botanianeedsit:mana_capacitor_terrasteel'), item('botania:pool', 3), ore('runeLustB'), ore('runeGluttonyB'), item('botanicadds:rune_energy'), ore('runeSlothB'), ore('runeWrathB'), item('botania:pool', 3), item('botanianeedsit:mana_capacitor_terrasteel')], 
+[item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter')], 
+[item('contenttweaker:lp_matter'), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('contenttweaker:lp_matter')], 
+[item('contenttweaker:lp_matter'), item('botania:pool', 3), ore('runeLustB'), ore('runeGluttonyB'), item('botanicadds:rune_energy'), ore('runeSlothB'), ore('runeWrathB'), item('botania:pool', 3), item('contenttweaker:lp_matter')], 
 [ore('gearGaia'), ore('runeEnvyB'), item('botania:lens', 14), item('botania:lens', 15), ore('singularityMirion'), item('botania:lens', 16), item('botania:lens', 20), ore('runeEarthB'), ore('gearGaia')], 
-[ore('gearGaia'), ore('runeSpringB'), ore('runeFireB'), ore('singularityMirion'), item('auraddons:item_creative_aura_cache'), ore('singularityMirion'), ore('runeWaterB'), ore('runeManaB'), ore('gearGaia')], 
+[ore('gearGaia'), ore('runeSpringB'), ore('runeFireB'), ore('singularityMirion'), item('avaritia:armok_orb'), ore('singularityMirion'), ore('runeWaterB'), ore('runeManaB'), ore('gearGaia')], 
 [ore('gearGaia'), ore('runeAirB'), item('botania:lens', 21), item('botania:lens', 22), item('botania_tweaks:compressed_tiny_potato_8'), item('botania:lens', 10), item('botania:lens', 23), ore('runeWinterB'), ore('gearGaia')], 
-[item('botanianeedsit:mana_capacitor_terrasteel'), item('botanicadds:pool_dreaming'), ore('runePrideB'), ore('runeSummerB'), item('botanicadds:rune_tp'), ore('runeGreedB'), ore('runeAutumnB'), item('botanicadds:pool_dreaming'), item('botanianeedsit:mana_capacitor_terrasteel')], 
-[item('botanianeedsit:mana_capacitor_terrasteel'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanianeedsit:mana_capacitor_terrasteel')], 
-[item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel'), item('botanianeedsit:mana_capacitor_terrasteel')]
+[item('contenttweaker:lp_matter'), item('botanicadds:pool_dreaming'), ore('runePrideB'), ore('runeSummerB'), item('botanicadds:rune_tp'), ore('runeGreedB'), ore('runeAutumnB'), item('botanicadds:pool_dreaming'), item('contenttweaker:lp_matter')], 
+[item('contenttweaker:lp_matter'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('contenttweaker:lp_matter')], 
+[item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter'), item('contenttweaker:lp_matter')]
 ])
 
 mods.extendedcrafting.TableCrafting.addShaped(2, item("interaction:huge_le_infuser"), [
@@ -28,4 +28,16 @@ mods.extendedcrafting.TableCrafting.addShaped(2, item("interaction:huge_le_infus
 [ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')], 
 [ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseMystic')], 
 [ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')]
+])
+
+mods.extendedcrafting.TableCrafting.addShaped(4, item("avaritia:armok_orb"), [
+[null, null, item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), null, null], 
+[null, item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), null], 
+[item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('forbiddenmagicre:eldritch_orb'), ore('blockBloodInfusedIron'), ore('slimeballBlood'), ore('blockBloodInfusedIron'), item('forbiddenmagicre:eldritch_orb'), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3)], 
+[item('bloodarsenal:blood_diamond', 3), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), item('avaritia:resource', 5), ore('slimeballBlood'), item('avaritia:resource', 5), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), item('bloodarsenal:blood_diamond', 3)], 
+[item('bloodarsenal:blood_diamond', 3), ore('blockBloodInfusedIron'), item('avaritia:resource', 5), ore('slimeballBlood'), item('auraddons:item_creative_aura_cache'), ore('slimeballBlood'), item('avaritia:resource', 5), ore('blockBloodInfusedIron'), item('bloodarsenal:blood_diamond', 3)], 
+[item('bloodarsenal:blood_diamond', 3), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), ore('slimeballBlood'), ore('slimeballBlood'), ore('slimeballBlood'), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), item('bloodarsenal:blood_diamond', 3)], 
+[item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('forbiddenmagicre:eldritch_orb'), ore('blockBloodInfusedIron'), ore('slimeballBlood'), ore('blockBloodInfusedIron'), item('forbiddenmagicre:eldritch_orb'), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3)], 
+[null, item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), null], 
+[null, null, item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), null, null]
 ])

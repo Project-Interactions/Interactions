@@ -1,5 +1,6 @@
 ignoreUpdate:144
 updateNotification:false
+allowInternetAccess:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false

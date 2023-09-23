@@ -1,12 +1,9 @@
 {
 	title: "{e54907cd.ia.5546a985.title}",
-	x: 7.5d,
+	x: 6.0d,
 	y: 4.5d,
 	text: [
 		"{e54907cd.ia.5546a985}"
-	],
-	dependencies: [
-		"dac98e8a"
 	],
 	tasks: [{
 		uid: "f26542c8",

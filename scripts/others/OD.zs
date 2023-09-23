@@ -68,7 +68,7 @@
 
 <ore:itemRubber>.remove(<industrialforegoing:plastic>);
 <ore:platePlastic>.add(<industrialforegoing:plastic>);
-<ore:blockGaia>.add(<avaritiatweaks:gaia_block>);
+<ore:blockGaia>.add(<avaritia:gaia_block>);
 
 <ore:circuitMana>.add(<contenttweaker:thaumic_circuit>);
 <ore:circuitThaumic>.add(<contenttweaker:arcane_thaumic_circuit>);

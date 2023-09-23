@@ -13,6 +13,6 @@
 		}
 	},
 	{
-		item: "extracpus:crafting_storage_16384k"
+		item: "appliedenergistics2:crafting_storage_16mb"
 	}]
 }

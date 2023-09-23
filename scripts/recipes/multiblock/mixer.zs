@@ -30,3 +30,10 @@ RecipeBuilder.newBuilder("heavymetalelements", "mixer", 80)
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:heavymetalelements>*200)
     .build();
+
+RecipeBuilder.newBuilder("lp_matter","mixer",100)
+    .addInputs([<ore:dustBloodInfusedGlitch>,<ore:dustBloodBronze>])
+    .addEnergyPerTickInput(500000)
+    .addLifeEssenceInput(100000000,false)
+    .addItemOutput(<contenttweaker:lp_matter>)
+    .build();

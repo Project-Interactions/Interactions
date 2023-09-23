@@ -23,6 +23,12 @@
             "chance": 1.0,
             "content": 80000.0
           }
+        ],
+        "mm_mech_power": [
+          {
+            "chance": 1.0,
+            "content": 100.0
+          }
         ]
       },
       "outputs": {

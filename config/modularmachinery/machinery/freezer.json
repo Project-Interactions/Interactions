@@ -180,7 +180,8 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockparallelcontroller"
+                "modularmachinery:blockparallelcontroller",
+                "contenttweaker:frost_proof_machine_casing@0"
             ]
         },
         {
