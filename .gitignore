@@ -24,3 +24,4 @@ config/thaumicjei_itemstack_aspects.json
 config/time.history
 config/astralsorcery/amulet_enchantments.cfg
 config/splash.properties
+scripts/.vscode/settings.json

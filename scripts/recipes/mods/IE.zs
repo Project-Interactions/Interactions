@@ -32,7 +32,7 @@ import mods.immersivetechnology.MeltingCrucible;
 import mods.immersivetechnology.PressurizedFluid;
 import mods.immersivetechnology.HighPressureSteamTurbine;
 
-import mods.J0B10.tweaks.GardenCloche;
+import mods.smokeythebandicoot.zencloche.GardenCloche;
 //
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
@@ -316,17 +316,15 @@ recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
 Crusher.addRecipe(<contenttweaker:infinity_dust>*4, <storagedrawers:upgrade_creative:1>,20480);
 
 /*
-GardenCloche.registerItemFertilizer(IIngredient fertilizer, float multiplier);
-
-# "Register the given fluid as fertilizer with the given growth multiplier.
-GardenCloche.registerFluidFertilizer(ILiquidStack fluid, float multiplier);
-
-# Register the given seed so it can be grown in the Graden Cloche.
-# Specifying a list of drops, the needed soil and optionally a block to
-# display visually inside the cloche.
-# If no soil is specified, dirt is used instead.
-# If no display block is specified, the seed is used as block.
-# This may result in texture errors if the item can't be a block.
-GardenCloche.registerCrop(IItemStack seed, IItemStack[] drops,
-                @Optional IIngredient soil, @Optional IBlock display);
+Register the given ingredient as fertilizer with the given growth multiplier.
+Will throw an exeception for ingredients such as <*> that can't be resolved to a list of items.
+registerItemFertilizer(IIngredient fertilizer, float multiplier)
+Register the given fluid as fertilizer with the given growth multiplier
+registerFluidFertilizer(ILiquidStack fluid, float multiplier)
+Register the given seed so it can be grown in the Graden Cloche.
+Specifying a list of drops, the needed soil and optionally a block to display visually inside the cloche.
+If no soil is specified, dirt is used instead.
+If no display block is specified, the seed is used as block.
+This may result in texture errors if the item can't be a block.
+registerCrop(IItemStack seed, IItemStack[] drops, @Optional IIngredient soil, @Optional IBlock display)
 */

@@ -120,6 +120,7 @@ Trick.removeAll();
 //add
 Trick.addRecipe("trickEbonyIvory", <contenttweaker:powered_circuit>, <contenttweaker:psio_powered_circuit>, <psi:cad_assembly:3>);
 Trick.addRecipe("", <jaopca:dust.redstone_alloy>, <psi:material>, <psi:cad_assembly>);
+Trick.addRecipe("", <jaopca:dust.red_alloy>, <psi:material>, <psi:cad_assembly>);
 Trick.addRecipe("trickInfusion", <enderio:item_alloy_ingot:1>,  <psi:material:1>, <psi:cad_assembly>);
 Trick.addRecipe("trickGreaterInfusion", <calculator:flawlessdiamond>, <psi:material:2>, <psi:cad_assembly:2>);
 Trick.addRecipe("trickEbonyIvory", <taiga:basalt_ingot>, <psi:material:6>, <psi:cad_assembly:2>);

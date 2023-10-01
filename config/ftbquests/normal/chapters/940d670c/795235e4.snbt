@@ -1,0 +1,26 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	dependencies: [
+		"e0b379a0"
+	],
+	tasks: [{
+		uid: "7f7c91ff",
+		type: "item",
+		items: [{
+			id: "extendedae:infinity_cell",
+			tag: {
+				r: {
+					FluidName: "water",
+					Count: 0b,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				},
+				t: "f"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

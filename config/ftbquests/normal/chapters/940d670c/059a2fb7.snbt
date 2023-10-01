@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	dependencies: [
+		"e0b379a0"
+	],
+	tasks: [{
+		uid: "f6b46f87",
+		type: "item",
+		items: [{
+			id: "extendedae:infinity_cell",
+			tag: {
+				r: {
+					id: "minecraft:cobblestone",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				},
+				t: "i"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
