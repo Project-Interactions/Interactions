@@ -89,13 +89,13 @@ recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [[null, <ceramics:cl
 recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [[null, <flopper:flopper>, null],[null, <ore:gearIron>, null], [null, <ceramics:clay_bucket>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:6>, [[null, <modularmachinery:blockoutputbus:5>, null],[null, <ore:gearDraconium>, null], [null, <draconicevolution:draconium_chest>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:5>, [[null, <modularmachinery:blockoutputbus:4>, null],[null, <ore:gearFluix>, null], [null, <appliedenergistics2:chest>, null]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:4>, [[null, <modularmachinery:blockoutputbus:3>, null],[null, <ore:gearUnstable>, null], [null, <avaritiaddons:avaritiaddons_chest>, null]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:4>, [[null, <modularmachinery:blockoutputbus:3>, null],[null, <ore:gearMirion>, null], [null, <avaritiaddons:avaritiaddons_chest>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:3>, [[null, <modularmachinery:blockoutputbus:2>, null],[null, <ore:gearManasteel>, null], [null, <ironchest:iron_chest:5>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:2>, [[null, <modularmachinery:blockoutputbus:1>, null],[null, <ore:gearDiamond>, null], [null, <ironchest:iron_chest:2>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:1>, [[null, <modularmachinery:blockoutputbus>, null],[null, <ore:gearRefinedIron>, null], [null, <ironchest:iron_chest>, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus:6>, [[null, <modularmachinery:blockinputbus:5>, null],[null, <ore:gearDraconium>, null], [null, <draconicevolution:draconium_chest>, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus:5>, [[null, <modularmachinery:blockinputbus:4>, null],[null, <ore:gearFluix>, null], [null, <appliedenergistics2:chest>, null]]);
-recipes.addShaped(<modularmachinery:blockinputbus:4>, [[null, <modularmachinery:blockinputbus:3>, null],[null, <ore:gearUnstable>, null], [null, <avaritiaddons:avaritiaddons_chest>, null]]);
+recipes.addShaped(<modularmachinery:blockinputbus:4>, [[null, <modularmachinery:blockinputbus:3>, null],[null, <ore:gearMirion>, null], [null, <avaritiaddons:avaritiaddons_chest>, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus:3>, [[null, <modularmachinery:blockinputbus:2>, null],[null, <ore:gearManasteel>, null], [null, <ironchest:iron_chest:5>, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus:2>, [[null, <modularmachinery:blockinputbus:1>, null],[null, <ore:gearDiamond>, null], [null, <ironchest:iron_chest:2>, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus:1>, [[null, <modularmachinery:blockinputbus>, null],[null, <ore:gearRefinedIron>, null], [null, <ironchest:iron_chest>, null]]);

@@ -110,6 +110,8 @@ InductionSmelter.removeRecipe(<jaopca:dust.energetic_alloy>,<minecraft:ender_pea
 recipes.remove(<thermalexpansion:augment:257>);
 InductionSmelter.removeRecipe(<enderio:item_material>,<enderio:item_material:51>);
 
+Transposer.removeExtractRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}));
+
 //morb
 recipes.remove(<thermalexpansion:morb>*8);
 recipes.addShapeless(<thermalexpansion:morb>,[<ore:crystalSlag>,<ore:slimeball>,<tconstruct:dried_clay>,<thaumadditions:dna_sample>]);

@@ -6,8 +6,6 @@ import crafttweaker.item.IIngredient;
 
 val remove as IItemStack[] = 
 [
-<botania:specialflower>.withTag({type: "entropinnyum"}),
-<botania:floatingspecialflower>.withTag({type: "entropinnyum"}),
 <unstabletools:unstable_shears>,
 <botania:enchanter>
 ];

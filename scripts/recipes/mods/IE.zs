@@ -120,7 +120,7 @@ ElectrolyticCrucibleBattery.addRecipe(
 
 Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*1000, [<ore:dustIron>], 2048);
 
-Mixer.addRecipe(<liquid:advanced_etching>*1000,<liquid:etching_acid>*2000,[<ore:dustHOPGraphite>,<ore:powderMana>],4096);
+Mixer.addRecipe(<liquid:advanced_etching>*500,<liquid:etching_acid>*500,[<ore:dustHOPGraphite>,<ore:powderMana>],4096);
 
 <ore:circuitAdvanced>.add(<contenttweaker:processor_mechanical_circuit>);
 <ore:circuitProcessor>.add(<contenttweaker:processor_mechanical_circuit>);

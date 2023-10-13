@@ -25,7 +25,7 @@ recipes.addShaped(<integrateddynamics:variable>*8, [[<integrateddynamics:crystal
 
 Squeezer.removeRecipesWithOutput(<contenttweaker:material_part:108>);
 
-MechanicalDryingBasin.addRecipe(<twilightforest:borer_essence>, <liquid:essence> * 2000, <twilightforest:borer_essence>*2, null, 30);
+MechanicalDryingBasin.addRecipe(<twilightforest:borer_essence>, <liquid:essence> * 2000, <twilightforest:borer_essence>*2, null, 60);
 
 val woodType as IItemStack[] = 
 [
@@ -45,3 +45,11 @@ val woodType as IItemStack[] =
 for wt in woodType {
     MechanicalDryingBasin.addRecipe(wt, <liquid:creosote> * 125, <immersiveengineering:treated_wood>, null, 10);
 }
+
+MechanicalDryingBasin.addRecipe(<thaumcraft:primordial_pearl:7>, <liquid:void_metal>*288, <thaumcraft:primordial_pearl:6>, null, 20);
+MechanicalDryingBasin.addRecipe(<thaumcraft:primordial_pearl:6>, <liquid:void_metal>*288, <thaumcraft:primordial_pearl:5>, null, 20);
+MechanicalDryingBasin.addRecipe(<thaumcraft:primordial_pearl:5>, <liquid:void_metal>*288, <thaumcraft:primordial_pearl:4>, null, 20);
+MechanicalDryingBasin.addRecipe(<thaumcraft:primordial_pearl:4>, <liquid:void_metal>*288, <thaumcraft:primordial_pearl:3>, null, 20);
+MechanicalDryingBasin.addRecipe(<thaumcraft:primordial_pearl:3>, <liquid:void_metal>*288, <thaumcraft:primordial_pearl:2>, null, 20);
+MechanicalDryingBasin.addRecipe(<thaumcraft:primordial_pearl:2>, <liquid:void_metal>*288, <thaumcraft:primordial_pearl:1>, null, 20);
+MechanicalDryingBasin.addRecipe(<thaumcraft:primordial_pearl:1>, <liquid:void_metal>*288, <thaumcraft:primordial_pearl>, null, 20);
