@@ -21,7 +21,8 @@
 					particle_amount: 10000000,
 					particle_capacity: 10000000
 				}
-			}
+			},
+			Count: 1b
 		}
 	}]
 }

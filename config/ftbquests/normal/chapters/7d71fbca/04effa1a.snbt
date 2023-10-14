@@ -12,7 +12,6 @@
 			tag: {
 				orb: "bloodmagic:master"
 			}
-		}],
-		ignore_nbt: 1b
+		}]
 	}]
 }

@@ -307,7 +307,6 @@ jaopcaSeedTweak(1,"Marble");
 jaopcaSeedTweak(2,"Marshmallow");
 jaopcaSeedTweak(5,"MelodicAlloy");
 jaopcaSeedTweak(4,"Menril");
-jaopcaSeedTweak(4,"Mercury");
 jaopcaSeedTweak(5,"Meteorite");
 jaopcaSeedTweak(5,"Mirion");
 jaopcaSeedTweak(5,"Mithminite");
