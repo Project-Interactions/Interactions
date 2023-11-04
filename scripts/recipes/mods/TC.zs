@@ -9,6 +9,7 @@ import mods.thaumicrestoration.CrystalInfusion;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Infusion;
+import mods.randomtweaker.thaumadditions.IFluxConcentrator;
 
 furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:ore:6>);
 

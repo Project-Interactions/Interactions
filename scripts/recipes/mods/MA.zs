@@ -58,51 +58,17 @@ recipes.addShaped(<mysticalagriculture:crafting:1>, [[null, <mysticalagriculture
 //recipes.addShaped("mysticalagradditions_special_3", <mysticalagradditions:special:5>, [[<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>], [<denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockDiamond>, <denseneutroncollectors:triple_compressed_neutron_collector>], [<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>]]);
 
 //mysticalcreations
-//some replace with jargca
-/*
-recipes.addShaped(<mysticalcreations:mithminite_seeds>,
-[[<thaumadditions:mithminite_ingot>,<mysticalagradditions:insanium>,<thaumadditions:mithminite_ingot>],
-[<mysticalagradditions:insanium>,<mysticalagradditions:insanium:1>,<mysticalagradditions:insanium>],
-[<thaumadditions:mithminite_ingot>,<mysticalagradditions:insanium>,<thaumadditions:mithminite_ingot>]]
-);
-recipes.addShaped(<thaumadditions:mithminite_nugget>,
-[[<mysticalcreations:mithminite_essence>,<mysticalcreations:mithminite_essence>,<mysticalcreations:mithminite_essence>],
-[<mysticalcreations:mithminite_essence>,<mysticalcreations:mithminite_essence>,<mysticalcreations:mithminite_essence>],
-[<mysticalcreations:mithminite_essence>,<mysticalcreations:mithminite_essence>,<mysticalcreations:mithminite_essence>]]
-);
-//精金
-recipes.addShaped(<mysticalcreations:adaminite_seeds>,
-[[<thaumadditions:adaminite_ingot>,<mysticalagriculture:crafting:4>,<thaumadditions:adaminite_ingot>],
-[<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:21>,<mysticalagriculture:crafting:4>],
-[<thaumadditions:adaminite_ingot>,<mysticalagriculture:crafting:4>,<thaumadditions:adaminite_ingot>]]
-);
-recipes.addShaped(<thaumadditions:adaminite_nugget>,
-[[<mysticalcreations:adaminite_essence>,<mysticalcreations:adaminite_essence>,<mysticalcreations:adaminite_essence>],
-[<mysticalcreations:adaminite_essence>,<mysticalcreations:adaminite_essence>,<mysticalcreations:adaminite_essence>],
-[<mysticalcreations:adaminite_essence>,<mysticalcreations:adaminite_essence>,<mysticalcreations:adaminite_essence>]]
-);
-//秘银
-recipes.addShaped(<mysticalcreations:mithrillium_seeds>,
-[[<thaumadditions:mithrillium_ingot>,<mysticalagriculture:crafting:3>,<thaumadditions:mithrillium_ingot>],
-[<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:20>,<mysticalagriculture:crafting:3>],
-[<thaumadditions:mithrillium_ingot>,<mysticalagriculture:crafting:3>,<thaumadditions:mithrillium_ingot>]]
-);
-recipes.addShaped(<thaumadditions:mithrillium_ingot>,
-[[<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>],
-[<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>],
-[<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>,<mysticalcreations:mithrillium_essence>]]
-);
-*/
-//天华
+//need to be converted to JARGCA type recipes later
+//aether
 recipes.addShaped(<mysticalcreations:aether_seeds>,
-[[<aetherworks:item_resource:4>,<mysticalagriculture:crafting:3>,<aetherworks:item_resource:4>],
+[[<ore:blockAether>,<mysticalagriculture:crafting:3>,<ore:blockAether>],
 [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:20>,<mysticalagriculture:crafting:3>],
-[<aetherworks:item_resource:4>,<mysticalagriculture:crafting:3>,<aetherworks:item_resource:4>]]
+[<ore:blockAether>,<mysticalagriculture:crafting:3>,<ore:blockAether>]]
 );
 recipes.addShaped(<aetherworks:item_resource:4>,
 [[<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>],]
 );
-//活石
+//livingrock
 recipes.addShaped(<mysticalcreations:livingrock_seeds>,
 [[<botania:livingrock>,<mysticalagriculture:crafting:2>,<botania:livingrock>],
 [<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:2>],
@@ -111,7 +77,17 @@ recipes.addShaped(<mysticalcreations:livingrock_seeds>,
 recipes.addShaped(<botania:livingrock>*3,
 [[<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>],]
 );
+//prosperity
+recipes.addShaped(<mysticalcreations:prosperity_seeds>,
+[[<ore:blockProsperity>,<mysticalagriculture:crafting:4>,<ore:blockProsperity>],
+[<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:21>,<mysticalagriculture:crafting:4>],
+[<ore:blockProsperity>,<mysticalagriculture:crafting:4>,<ore:blockProsperity>]]
+);
+recipes.addShaped(<mysticalagriculture:crafting:5>,
+[[<mysticalcreations:prosperity_essence>,<mysticalcreations:prosperity_essence>,<mysticalcreations:prosperity_essence>],]
+);
 
+//armor
 recipes.removeByRecipeName("mysticalagriculture:supremium_helmet");
 recipes.removeByRecipeName("mysticalagriculture:supremium_chestplate");
 recipes.removeByRecipeName("mysticalagriculture:supremium_leggings");

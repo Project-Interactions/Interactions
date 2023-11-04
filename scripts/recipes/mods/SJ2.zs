@@ -113,7 +113,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:25>
 	[<redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>], 
 	[<simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:itemjetpack:23>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>], 
 	[<simplyjetpacks:metaitemmods:24>, null, null, <simplyjetpacks:itemfluxpack:14>, null, null, <simplyjetpacks:metaitemmods:24>], 
-	[null, <conarm:chest_core>.withTag({Material: "gelid_enderium"}), null, <simplyjetpacks:itemfluxpack:14>, null, <conarm:chest_core>.withTag({Material: "gelid_gem"}), null], 
+	[null, <conarm:chest_core>.withTag({Material: "gelid_enderium"}), null, <simplyjetpacks:itemfluxpack:14>, null, <conarm:chest_core>.withTag({Material: "rrr_gelid_gem"}), null], 
 	[<simplyjetpacks:metaitemmods:24>, null, <simplyjetpacks:metaitemmods:24>, <simplyjetpacks:itemfluxpack:14>, <simplyjetpacks:metaitemmods:24>, null, <simplyjetpacks:metaitemmods:24>]
 ]);
 

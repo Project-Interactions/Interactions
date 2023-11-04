@@ -21,6 +21,10 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:molecular_assemblerimp>, [[<a
 RecipeUtils.recipeTweak(true, <appliedenergistics2:interfaceimp>, [[<ore:ingotElectricalSteel>, <appliedenergistics2:interface>, <ore:ingotElectricalSteel>], [<appliedenergistics2:interface>, <appliedenergistics2:material:35>, <appliedenergistics2:interface>], [<ore:ingotElectricalSteel>, <appliedenergistics2:interface>, <ore:ingotElectricalSteel>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:interfaceadv>, [[<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>], [<appliedenergistics2:interfaceimp>, <appliedenergistics2:material:36>, <appliedenergistics2:interfaceimp>], [<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:interfaceper>, [[<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>], [<appliedenergistics2:interfaceadv>, <appliedenergistics2:material:37>, <appliedenergistics2:interfaceadv>], [<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>]]);
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfacepatterns");
+recipes.addShaped(<appliedenergistics2:interface_patterns>, [[<ore:ingotIron>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<neenergistics:pattern_interface>, <appliedenergistics2:material:52>, <neenergistics:pattern_interface>], [<ore:ingotIron>, <appliedenergistics2:material:35>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <appliedenergistics2:driveimp>, [[<ore:blockThaumium>, <appliedenergistics2:material:24>, <ore:blockThaumium>], [<appliedenergistics2:drive>, null, <appliedenergistics2:drive>], [<ore:blockThaumium>, <appliedenergistics2:material:24>, <ore:blockThaumium>]]);
+RecipeUtils.recipeTweak(true, <appliedenergistics2:material:42>*2, [[<ore:stickVibrantAlloy>,<ore:plateEnergeticAlloy>,<ore:stickVibrantAlloy>],[<ore:dustFluix>,<ore:gemCertusQuartz>,<ore:dustEnderPearl>],[<ore:stickVibrantAlloy>,<ore:plateEnergeticAlloy>,<ore:stickVibrantAlloy>]]);
 
 recipes.removeByRecipeName("aeadditions:misc/parttointerface");
 recipes.addShapeless(<appliedenergistics2:fluid_interface>,[<appliedenergistics2:part:441>]);
@@ -234,3 +238,4 @@ recipes.addShapeless(<appliedenergistics2:crafting_storage_1mb>, [<appliedenergi
 recipes.addShapeless(<appliedenergistics2:storage_cell_256mb>, [<aeadditions:storage.casing>,<appliedenergistics2:material:65>]);
 recipes.addShapeless(<appliedenergistics2:storage_cell_64mb>, [<aeadditions:storage.casing>,<appliedenergistics2:material:64>]);
 recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_16mb>, [<aeadditions:storage.casing:1>,<appliedenergistics2:material:70>]);
+recipes.addShaped(<appliedenergistics2:material:70>, [[<ore:dyeBlue>, <threng:material:14>, <ore:dyeBlue>],[<aeadditions:storage.component:6>, <appliedenergistics2:material:22>, <aeadditions:storage.component:6>], [<ore:dyeBlue>, <aeadditions:storage.component:6>, <ore:dyeBlue>]]);

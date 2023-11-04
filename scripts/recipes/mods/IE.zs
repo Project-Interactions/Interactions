@@ -207,7 +207,7 @@ RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:13>, [[<botania
 recipes.addShaped(<qmd:atmosphere_collector>, [[<ore:circuitGood>, <embers:ember_detector>, <ore:circuitGood>],[<ore:plateMagnet>, <ore:scaffoldingSteel>, <ore:plateMagnet>], [<ore:circuitGood>, <ore:plateMagnet>, <ore:circuitGood>]]);
 //ChemicalReactor
 //aqua regia
-ChemicalReactor.addRecipe(<liquid:aqua_regia>*12, <liquid:nitric_acid>*6, <liquid:sulfuric_acid>*9, 128);
+ChemicalReactor.addRecipe(<liquid:aqua_regia>*12, <liquid:nitric_acid>*4, <liquid:hydrochloric_acid>*12, 128);
 //sulfur
 ChemicalReactor.addRecipe(<liquid:sulfuric_acid>*10, <liquid:water>*10, <liquid:sulfur_trioxide>*10, 128);
 ChemicalReactor.addRecipe(<liquid:sulfur_trioxide>*12, <liquid:oxygen>*6, <liquid:sulfur_dioxide>*6, 128);
@@ -218,6 +218,8 @@ Fermenter.addRecipe(null, <liquid:sulfur_dioxide>*500, <ore:dustSulfur>, 4096);
 ChemicalReactor.addRecipe(<liquid:nitric_acid>*8,<liquid:nitrogen_dioxide>*12, <liquid:water>*4, 128);
 ChemicalReactor.addRecipe(<liquid:nitrogen_dioxide>*8,<liquid:oxygen>*4, <liquid:nitric_oxide>*8, 128);
 ChemicalReactor.addRecipe(<liquid:nitric_oxide>*8,<liquid:oxygen>*4,<liquid:nitrogen>*4, 128);
+//hydrochloric_acid
+ChemicalReactor.addRecipe(<liquid:hydrochloric_acid>*8,<liquid:hydrogen>*4,<liquid:chlorine>*4, 128);
 //advanced_electronic_alloy
 recipes.addShapeless(<jaopca:dust.advanced_electronic_alloy> * 4, [<ore:dustPlatinum>,<ore:dustPlatinum>,<ore:dustMagnet>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustTin>,<ore:dustLead>,<ore:dustNickel>]);
 furnace.remove(<contenttweaker:material_part:211>);
@@ -315,6 +317,7 @@ recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
 
 Crusher.addRecipe(<contenttweaker:infinity_dust>*4, <storagedrawers:upgrade_creative:1>,20480);
 
+furnace.addRecipe(<thermalfoundation:rockwool:7>,<immersiveengineering:material:7>);
 /*
 Register the given ingredient as fertilizer with the given growth multiplier.
 Will throw an exeception for ingredients such as <*> that can't be resolved to a list of items.

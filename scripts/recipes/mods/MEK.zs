@@ -8,6 +8,7 @@ import mod.mekanism.gas.IGasStack;
 import mods.mekanism.thermalevaporation;
 import mods.nuclearcraft.Assembler;
 import mods.mekanism.combiner;
+import mods.mekanism.fusioncooling;
 
 recipes.removeByRecipeName("mekanism:energycube_create");
 recipes.remove(<mekanism:saltblock>);
@@ -180,15 +181,15 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:basicblock:14>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <mekanism:basicblock:10>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <qmd:vacuum_chamber_plasma_glass>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-RecipeUtils.recipeTweak(true, <bfr:reactorglass>, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <mekanism:basicblock:10>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
+RecipeUtils.recipeTweak(true, <mekanismgenerators:reactorglass>, [[null, <mekanismgenerators:reactor:1>, null], [<mekanismgenerators:reactor:1>, <mekanism:basicblock:10>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
 
 RecipeUtils.recipeTweak(true, <mekanism:machineblock3>, [[<ore:ingotRefinedObsidian>, <ore:circuitNuclear>, <ore:ingotRefinedObsidian>], [<ore:alloyUltimate>, <mekanism:teleportationcore>, <ore:alloyUltimate>], [<ore:ingotRefinedObsidian>, <ore:circuitNuclear>, <ore:ingotRefinedObsidian>]]);
 
 //fusion
-recipes.remove(<bfr:reactor>);
-recipes.addShaped(<bfr:reactor>, [[<ore:circuitUniversal>, <ore:paneGlass>, <ore:circuitUniversal>], [<bfr:reactor:1>, <mekanism:gastank>.withTag({tier: 3}), <bfr:reactor:1>], [<bfr:reactor:1>, <bfr:reactor:1>, <bfr:reactor:1>]]);
-RecipeUtils.recipeTweak(true, <bfr:reactor:2> * 2, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
-RecipeUtils.recipeTweak(true, <bfr:reactor:3>, [[null, <bfr:reactor:1>, null], [<bfr:reactor:1>, <qmd:accelerator_redstone_port>, <bfr:reactor:1>], [null, <bfr:reactor:1>, null]]);
+recipes.remove(<mekanismgenerators:reactor>);
+recipes.addShaped(<mekanismgenerators:reactor>, [[<ore:circuitUniversal>, <ore:paneGlass>, <ore:circuitUniversal>], [<mekanismgenerators:reactor:1>, <mekanism:gastank>.withTag({tier: 3}), <mekanismgenerators:reactor:1>], [<mekanismgenerators:reactor:1>, <mekanismgenerators:reactor:1>, <mekanismgenerators:reactor:1>]]);
+RecipeUtils.recipeTweak(true, <mekanismgenerators:reactor:2> * 2, [[null, <mekanismgenerators:reactor:1>, null], [<mekanismgenerators:reactor:1>, <qmd:accelerator_port>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
+RecipeUtils.recipeTweak(true, <mekanismgenerators:reactor:3>, [[null, <mekanismgenerators:reactor:1>, null], [<mekanismgenerators:reactor:1>, <qmd:accelerator_redstone_port>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
 
 //thermalevaporation
 //tweak lithium
@@ -244,3 +245,6 @@ recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:dye:4>, null], [<o
 
 recipes.removeByRecipeName("mekanism:gaugedropper");
 recipes.addShaped(<mekanism:gaugedropper>, [[null, <ore:ingotAdvancedElectronicAlloy>, null], [<ore:paneGlass>, null, <ore:paneGlass>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
+
+//
+fusioncooling.addRecipe(<fluid:preheated_water>*1000,<fluid:high_pressure_steam>*1000);

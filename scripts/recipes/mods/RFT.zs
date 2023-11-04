@@ -45,3 +45,7 @@ condenser.addRecipe(<liquid:dimensionalshard>*1000, <darkutils:material:1>,<rfto
 recipes.remove(<xnet:netcable>*16);
 recipes.addShaped(<xnet:netcable>*4,[[<opencomputers:material:8>,<opencomputers:material:8>,<opencomputers:material:8>],[<opencomputers:material:8>,<enderio:item_item_conduit>,<opencomputers:material:8>],[<opencomputers:material:8>,<opencomputers:material:8>,<opencomputers:material:8>]]);
 RecipeUtils.recipeTweak(true, <xnet:controller>, [[<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>], [<xnet:netcable>, <xnet:netcable>, <xnet:netcable>], [<minecraft:iron_ingot>, <minecraft:gold_ingot>, <minecraft:iron_ingot>]]);
+
+//cheaper
+RecipeUtils.recipeTweak(true, <rftools:builder>, [[<ore:blockTitanium>, <minecraft:ender_pearl>, <ore:blockTitanium>], [<minecraft:redstone>, <nuclearcraft:part:10>, <minecraft:redstone>], [<ore:blockTitanium>, <minecraft:redstone>, <ore:blockTitanium>]]);
+RecipeUtils.recipeTweak(true, <rftools:scanner>, [[<rftools:infused_diamond>, <minecraft:ender_pearl>, <rftools:infused_diamond>], [<minecraft:quartz>, <reactorbuilder:reactorbuilder>, <minecraft:quartz>], [<rftools:infused_diamond>, <minecraft:redstone>, <rftools:infused_diamond>]]);

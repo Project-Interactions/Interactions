@@ -5,8 +5,19 @@ import crafttweaker.item.IIngredient;
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Melting;
 import mods.tconstruct.Casting;
+import mods.randomtweaker.tconstruct.IBook;
 
 
+IBook.changeMaterialItem("xu_magical_wood", <extrautils2:decorativesolidwood:1>);
+IBook.changeMaterialItem("xu_evil_metal", <ore:ingotEvilMetal>.firstItem);
+IBook.changeMaterialItem("xu_enchanted_metal", <ore:ingotEnchantedMetal>.firstItem);
+IBook.changeMaterialItem("xu_demonic_metal", <ore:ingotDemonicMetal>.firstItem);
+
+IBook.changeMaterialItem("sunnarium", <contenttweaker:sunnarium>);
+
+IBook.changeMaterialItem("electricium", <ore:ingotElectricium>.firstItem);
+IBook.changeMaterialItem("skyfather", <ore:ingotSkyfather>.firstItem);
+IBook.changeMaterialItem("mystic", <ore:ingotMystic>.firstItem);
 
 Melting.removeRecipe(<liquid:glowstone>);
 Melting.removeRecipe(<liquid:coal>);

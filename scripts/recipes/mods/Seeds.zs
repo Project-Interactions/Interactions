@@ -553,7 +553,7 @@ seedT5(<mysticalagriculture:fluxed_electrum_seeds>,<ore:blockElectrumFlux>);
 seedT5(<mysticalagriculture:enderium_seeds>,<ore:blockEnderium>);
 seedT5(<mysticalagriculture:lumium_seeds>,<ore:blockLumium>);
 seedT5(<mysticalagriculture:signalum_seeds>,<ore:blockSignalum>);
-seedT5(<mysticalagriculture:starmetal_seeds>,<ore:blockStarmetal>);
+seedT5(<mysticalagriculture:starmetal_seeds>,<ore:blockAstralStarmetal>);
 seedT5(<mysticalagriculture:rock_crystal_seeds>,getSymbol(<mysticalagriculture:rock_crystal_seeds>));
 seedT5(<mysticalagriculture:draconium_seeds>,<ore:blockDraconium>);
 seedT5(<mysticalagriculture:knightmetal_seeds>,<ore:blockKnightmetal>);

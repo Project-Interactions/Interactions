@@ -38,3 +38,11 @@
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
 	fluxChance = 110
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
+
