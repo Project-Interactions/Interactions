@@ -160,7 +160,7 @@ contenttweaker.part.dustore=%s矿粉
 ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l！
 
 ia.tooltip.1=此物品可能导致tps降低，谨慎使用
-ia.tooltip.2=在使用时请临时输入/rawinput关闭功能，完成后可再次输入以开启
+//ia.tooltip.2=在使用时请临时输入/rawinput关闭功能，完成后可再次输入以开启
 ia.tooltip.3=选择你想丢出的书并Shift右键以丢出
 //ia.tooltip.4=需要使用无尽要素的水晶块合成
 ia.tooltip.5=在废土世界右键
