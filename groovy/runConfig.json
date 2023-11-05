@@ -1,6 +1,6 @@
 {
   "packName": "Interactions",
-  "version": "1.55",
+  "version": "1.55.1",
   "debug": false,
   "loaders": {
     "preInit": [

@@ -105,7 +105,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotStee
 Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
 //chlorine
-Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*1000, [<ore:dustSalt>], 2048);
+Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*500, [<ore:dustSalt>*2], 2048);
 ElectrolyticCrucibleBattery.removeRecipe(<liquid:moltensalt>*1000);
 ElectrolyticCrucibleBattery.addRecipe(
     <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:moltensodium>*200,
@@ -118,7 +118,7 @@ ElectrolyticCrucibleBattery.addRecipe(
     50000, 100
 );
 
-Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*1000, [<ore:dustIron>], 2048);
+Mixer.addRecipe(<liquid:etching_acid>*500, <liquid:chlorine>*500, [<ore:dustIron>], 2048);
 
 Mixer.addRecipe(<liquid:advanced_etching>*500,<liquid:etching_acid>*500,[<ore:dustHOPGraphite>,<ore:powderMana>],4096);
 

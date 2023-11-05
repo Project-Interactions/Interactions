@@ -17,14 +17,6 @@ recipes.remove(<extrautils2:passivegenerator> * 3);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:interface>, [[<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>],[<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:fluid_interface>, [[<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:gas_interface>, [[<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>]]);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:molecular_assemblerimp>, [[<appliedenergistics2:material:30>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:30>], [<appliedenergistics2:material:35>, <appliedenergistics2:molecular_assembler>, <appliedenergistics2:material:35>], [<appliedenergistics2:material:30>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:30>]]);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:interfaceimp>, [[<ore:ingotElectricalSteel>, <appliedenergistics2:interface>, <ore:ingotElectricalSteel>], [<appliedenergistics2:interface>, <appliedenergistics2:material:35>, <appliedenergistics2:interface>], [<ore:ingotElectricalSteel>, <appliedenergistics2:interface>, <ore:ingotElectricalSteel>]]);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:interfaceadv>, [[<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>], [<appliedenergistics2:interfaceimp>, <appliedenergistics2:material:36>, <appliedenergistics2:interfaceimp>], [<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>]]);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:interfaceper>, [[<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>], [<appliedenergistics2:interfaceadv>, <appliedenergistics2:material:37>, <appliedenergistics2:interfaceadv>], [<ore:ingotElectricalSteel>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotElectricalSteel>]]);
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfacepatterns");
-recipes.addShaped(<appliedenergistics2:interface_patterns>, [[<ore:ingotIron>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<neenergistics:pattern_interface>, <appliedenergistics2:material:52>, <neenergistics:pattern_interface>], [<ore:ingotIron>, <appliedenergistics2:material:35>, <ore:ingotIron>]]);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:driveimp>, [[<ore:blockThaumium>, <appliedenergistics2:material:24>, <ore:blockThaumium>], [<appliedenergistics2:drive>, null, <appliedenergistics2:drive>], [<ore:blockThaumium>, <appliedenergistics2:material:24>, <ore:blockThaumium>]]);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:material:42>*2, [[<ore:stickVibrantAlloy>,<ore:plateEnergeticAlloy>,<ore:stickVibrantAlloy>],[<ore:dustFluix>,<ore:gemCertusQuartz>,<ore:dustEnderPearl>],[<ore:stickVibrantAlloy>,<ore:plateEnergeticAlloy>,<ore:stickVibrantAlloy>]]);
 
 recipes.removeByRecipeName("aeadditions:misc/parttointerface");
 recipes.addShapeless(<appliedenergistics2:fluid_interface>,[<appliedenergistics2:part:441>]);
@@ -205,37 +197,3 @@ Inscriber.addRecipe(<appliedenergistics2:material:60>, <appliedenergistics2:mate
 //tweak infinity card
 Inscriber.removeRecipe(<appliedenergistics2:material:59>);
 Inscriber.addRecipe(<appliedenergistics2:material:59>, <aeadditions:storage.component:3>, false, <aeadditions:storage.component:5>, <aeadditions:storage.component:12>);
-
-//ae2uele replace extracpus
-recipes.remove(<appliedenergistics2:material:70>);
-recipes.remove(<appliedenergistics2:material:69>);
-recipes.remove(<appliedenergistics2:material:68>);
-recipes.remove(<appliedenergistics2:material:67>);
-recipes.remove(<appliedenergistics2:material:66>);
-recipes.remove(<appliedenergistics2:material:65>);
-recipes.remove(<appliedenergistics2:material:64>);
-recipes.remove(<appliedenergistics2:material:63>);
-recipes.remove(<appliedenergistics2:material:62>);
-recipes.remove(<appliedenergistics2:material:61>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_4mb>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_1mb>);
-recipes.remove(<appliedenergistics2:storage_cell_16mb>);
-recipes.remove(<appliedenergistics2:storage_cell_4mb>);
-recipes.remove(<appliedenergistics2:storage_cell_1mb>);
-recipes.remove(<appliedenergistics2:storage_cell_256mb>);
-recipes.remove(<appliedenergistics2:storage_cell_64mb>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_16mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_16mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_4mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_1mb>);
-recipes.addShaped(<appliedenergistics2:material:67> * 64, [[<appliedenergistics2:material:66>, <draconicevolution:chaotic_core>, <appliedenergistics2:material:66>]]);
-recipes.addShaped(<appliedenergistics2:material:66>, [[<bloodarsenal:base_item:2>, <draconicevolution:awakened_core>, <bloodarsenal:base_item:2>],[<appliedenergistics2:material:65>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:material:65>], [<bloodarsenal:base_item:2>, <appliedenergistics2:material:65>, <bloodarsenal:base_item:2>]]);
-recipes.addShaped(<appliedenergistics2:material:65>, [[<bloodarsenal:base_item:2>, <draconicevolution:wyvern_core>, <bloodarsenal:base_item:2>],[<appliedenergistics2:material:64>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:material:64>], [<bloodarsenal:base_item:2>, <appliedenergistics2:material:64>, <bloodarsenal:base_item:2>]]);
-recipes.addShaped(<appliedenergistics2:material:64>, [[<bloodarsenal:base_item:2>, <draconicevolution:draconic_core>, <bloodarsenal:base_item:2>],[<aeadditions:storage.component:3>, <appliedenergistics2:quartz_vibrant_glass>, <aeadditions:storage.component:3>], [<bloodarsenal:base_item:2>, <aeadditions:storage.component:3>, <bloodarsenal:base_item:2>]]);
-recipes.addShapeless(<appliedenergistics2:crafting_storage_16mb>, [<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:3>]);
-recipes.addShapeless(<appliedenergistics2:crafting_storage_4mb>, [<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:2>]);
-recipes.addShapeless(<appliedenergistics2:crafting_storage_1mb>, [<appliedenergistics2:crafting_unit>,<aeadditions:storage.component:1>]);
-recipes.addShapeless(<appliedenergistics2:storage_cell_256mb>, [<aeadditions:storage.casing>,<appliedenergistics2:material:65>]);
-recipes.addShapeless(<appliedenergistics2:storage_cell_64mb>, [<aeadditions:storage.casing>,<appliedenergistics2:material:64>]);
-recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_16mb>, [<aeadditions:storage.casing:1>,<appliedenergistics2:material:70>]);
-recipes.addShaped(<appliedenergistics2:material:70>, [[<ore:dyeBlue>, <threng:material:14>, <ore:dyeBlue>],[<aeadditions:storage.component:6>, <appliedenergistics2:material:22>, <aeadditions:storage.component:6>], [<ore:dyeBlue>, <aeadditions:storage.component:6>, <ore:dyeBlue>]]);

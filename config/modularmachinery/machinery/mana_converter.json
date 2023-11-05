@@ -249,7 +249,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmagic:blockmanaproviderinput"
+                "modularmachinery:blockmanaproviderinput"
             ]
         },
         {
@@ -281,7 +281,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmagic:blockstarlightproviderinput",
+                "modularmachinery:blockstarlightproviderinput",
                 "botania:shimmerrock@0"
             ]
         },

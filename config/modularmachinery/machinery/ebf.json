@@ -58,7 +58,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "modularmagic:blockstarlightproviderinput",
+                "modularmachinery:blockstarlightproviderinput",
                 "thermalfoundation:storage_alloy@2"
             ]
         },
@@ -164,7 +164,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmagic:blockmanaproviderinput",
+                "modularmachinery:blockmanaproviderinput",
                 "thermalfoundation:storage_alloy@2"
             ]
         },
@@ -269,7 +269,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmagic:blockauraproviderinput",
+                "modularmachinery:blockauraproviderinput",
                 "thermalfoundation:storage_alloy@2"
             ]
         },
