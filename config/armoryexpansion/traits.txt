@@ -261,6 +261,7 @@
   "shielding_armor",
   "tconevo.aftershock3",
   "tconevo.superdense_armor",
+  "tconevo.aftershock2",
   "tconevo.aftershock1",
   "tconevo.executor",
   "cascade",

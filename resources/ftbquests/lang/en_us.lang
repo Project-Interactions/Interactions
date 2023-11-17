@@ -348,10 +348,9 @@ aa0595b3.ia.b82fc2df=Used to produce water vapor
 aa0595b3.ia.c30d4ad4=A mixture of two types of rocket fuel used as fuel for advanced rockets
 aa0595b3.ia.cdfe222b=Use the power of ME to reverse endless
 aa0595b3.ia.e407253f=The power of the universe
-aa0595b3.ia.e725861b.1=Fusion reactors are not as safe as they used to be
-aa0595b3.ia.e725861b.2=You must control to prevent meltdown
+aa0595b3.ia.e725861b=Can produce huge amounts of energy
 #final
-ia.final=All things are one
+ia.final=All things in one
 #495fa152
 495fa152.ia.title=Other Chapters: Transport and Logistics
 495fa152.ia.1f1b8880=Wireless short distance transmission of items

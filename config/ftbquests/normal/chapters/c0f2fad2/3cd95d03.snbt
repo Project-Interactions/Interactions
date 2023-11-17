@@ -1,12 +1,12 @@
 {
 	x: -0.5d,
-	y: 3.0d,
+	y: 2.0d,
 	dependencies: [
-		"58cb21ba"
+		"a3c4de26"
 	],
 	tasks: [{
 		uid: "a03a1460",
 		type: "fluid",
-		fluid: "sulfuric_acid"
+		fluid: "hydrochloric_acid"
 	}]
 }

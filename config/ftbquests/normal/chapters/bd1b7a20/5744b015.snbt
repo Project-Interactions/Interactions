@@ -418,5 +418,433 @@
 				}
 			}
 		}
+	},
+	{
+		uid: "2091d740",
+		type: "item",
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				"akashictome:data": {
+					industrialforegoing: {
+						id: "industrialforegoing:book_manual",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "industrialforegoing"
+						},
+						Damage: 0s
+					},
+					tconstruct: {
+						id: "tconstruct:book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "tconstruct"
+						},
+						Damage: 0s
+					},
+					lightningcraft: {
+						id: "lightningcraft:guide",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "lightningcraft"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						id: "astralsorcery:itemjournal",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "astralsorcery"
+						},
+						Damage: 0s
+					},
+					ftbquests: {
+						id: "ftbquests:book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "ftbquests"
+						},
+						Damage: 0s
+					},
+					immersiveengineering: {
+						id: "immersiveengineering:tool",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "immersiveengineering"
+						},
+						Damage: 3s
+					},
+					qmd: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "qmd",
+							"patchouli:book": "qmd:guide"
+						},
+						Damage: 0s
+					},
+					valkyrielib: {
+						id: "valkyrielib:guide",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "valkyrielib"
+						},
+						Damage: 0s
+					},
+					rftools: {
+						id: "rftools:rftools_manual",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "rftools"
+						},
+						Damage: 0s
+					},
+					extendedcrafting: {
+						id: "extendedcrafting:guide",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "extendedcrafting"
+						},
+						Damage: 0s
+					},
+					draconicevolution: {
+						id: "draconicevolution:info_tablet",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "draconicevolution"
+						},
+						Damage: 0s
+					},
+					actuallyadditions: {
+						id: "actuallyadditions:item_booklet",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "actuallyadditions"
+						},
+						Damage: 0s
+					},
+					opencomputers: {
+						id: "opencomputers:tool",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "opencomputers"
+						},
+						Damage: 4s
+					},
+					hammercore: {
+						id: "hammercore:manual",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "hammercore"
+						},
+						Damage: 0s
+					},
+					cookingforblockheads: {
+						id: "cookingforblockheads:recipe_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads"
+						},
+						Damage: 0s
+					},
+					xnet: {
+						id: "xnet:xnet_manual",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "xnet"
+						},
+						Damage: 0s
+					},
+					nuclearcraft: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "nuclearcraft",
+							"patchouli:book": "nuclearcraft:guide"
+						},
+						Damage: 0s
+					},
+					rftoolscontrol: {
+						id: "rftoolscontrol:rftoolscontrol_manual",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "rftoolscontrol"
+						},
+						Damage: 0s
+					},
+					conarm: {
+						id: "conarm:book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "conarm"
+						},
+						Damage: 0s
+					},
+					pneumaticcraft: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "pneumaticcraft",
+							"patchouli:book": "pneumaticcraft:book"
+						},
+						Damage: 0s
+					},
+					naturesaura: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "naturesaura",
+							"patchouli:book": "naturesaura:book"
+						},
+						Damage: 0s
+					},
+					cookingforblockheads1: {
+						id: "cookingforblockheads:recipe_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads1"
+						},
+						Damage: 1s
+					},
+					engineersdecor: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "engineersdecor",
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						},
+						Damage: 0s
+					},
+					cookingforblockheads2: {
+						id: "cookingforblockheads:recipe_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads2"
+						},
+						Damage: 2s
+					},
+					deepmoblearning: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "deepmoblearning",
+							"patchouli:book": "deepmoblearning:book"
+						},
+						Damage: 0s
+					},
+					modularrouters: {
+						id: "guideapi:modularrouters-guidebook",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "modularrouters",
+							G-API_Category_Page: 0,
+							G-API_Category: 4,
+							G-API_Entry_Page: 0,
+							G-API_Page: 0
+						},
+						Damage: 0s
+					},
+					practicallogistics2: {
+						id: "practicallogistics2:plguide",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "practicallogistics2"
+						},
+						Damage: 0s
+					},
+					forestry: {
+						id: "forestry:book_forester",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "forestry"
+						},
+						Damage: 0s
+					}
+				},
+				"akashictome:is_morphing": 1b
+			}
+		}
+	},
+	{
+		uid: "940427ac",
+		type: "item",
+		item: {
+			id: "omniwand:wand",
+			tag: {
+				"omniwand:data": {
+					calculator: {
+						id: "calculator:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "calculator"
+						},
+						Damage: 0s
+					},
+					integratedtunnels: {
+						id: "integrateddynamics:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "integratedtunnels"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						id: "astralsorcery:itemwand",
+						Count: 1,
+						tag: {
+							astralsorcery: {},
+							"omniwand:definedMod": "astralsorcery"
+						},
+						Damage: 0s
+					},
+					immersiveengineering: {
+						id: "immersiveengineering:tool",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "immersiveengineering"
+						},
+						Damage: 0s
+					},
+					embers: {
+						id: "embers:tinker_hammer",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "embers"
+						},
+						Damage: 0s
+					},
+					rftools: {
+						id: "rftools:smartwrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "rftools"
+						},
+						Damage: 0s
+					},
+					botania: {
+						id: "botania:twigwand",
+						Count: 1,
+						tag: {
+							color1: 6,
+							color2: 6,
+							boundTileZ: 0,
+							boundTileX: 0,
+							boundTileY: -1,
+							"omniwand:definedMod": "botania"
+						},
+						Damage: 0s
+					},
+					draconicevolution: {
+						id: "draconicevolution:crystal_binder",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "draconicevolution"
+						},
+						Damage: 0s
+					},
+					enderio: {
+						id: "enderio:item_yeta_wrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "enderio"
+						},
+						Damage: 0s
+					},
+					thermalfoundation: {
+						id: "thermalfoundation:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:displayName": "新月锤",
+							display: {
+								Name: "Omniwand (新月锤)"
+							},
+							"omniwand:definedMod": "thermalfoundation",
+							"omniwand:is_transforming": 1b
+						},
+						Damage: 0s
+					},
+					practicallogistics2: {
+						id: "practicallogistics2:operator",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "practicallogistics2"
+						},
+						Damage: 0s
+					},
+					opencomputers: {
+						id: "opencomputers:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "opencomputers"
+						},
+						Damage: 0s
+					},
+					techreborn: {
+						id: "techreborn:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "techreborn"
+						},
+						Damage: 0s
+					},
+					littletiles: {
+						id: "littletiles:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "littletiles"
+						},
+						Damage: 0s
+					},
+					forestry: {
+						id: "forestry:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:definedMod": "forestry"
+						},
+						Damage: 0s
+					},
+					teslacorelib: {
+						id: "teslacorelib:wrench",
+						Count: 1,
+						tag: {
+							"omniwand:displayName": "Tesla扳手",
+							display: {
+								Name: "Omniwand (Tesla扳手)"
+							},
+							"omniwand:definedMod": "teslacorelib",
+							"omniwand:is_transforming": 1b
+						},
+						Damage: 0s
+					},
+					appliedenergistics2: {
+						id: "appliedenergistics2:certus_quartz_wrench",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"omniwand:displayName": "赛特斯石英扳手",
+							display: {
+								Name: "§rOmniwand (§a赛特斯石英扳手§r)"
+							},
+							"omniwand:definedMod": "appliedenergistics2",
+							"omniwand:is_transforming": 1b
+						}
+					},
+					environmentaltech: {
+						id: "environmentaltech:tool_multiblock_assembler",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"omniwand:definedMod": "environmentaltech",
+							"omniwand:is_transforming": 1b,
+							"omniwand:displayName": "装配杆",
+							display: {
+								Name: "§rOmniwand (§a装配杆§r)"
+							}
+						}
+					}
+				},
+				"omniwand:is_transforming": 1b
+			}
+		}
 	}]
 }

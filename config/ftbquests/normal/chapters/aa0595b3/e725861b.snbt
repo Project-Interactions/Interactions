@@ -2,8 +2,7 @@
 	x: 4.5d,
 	y: 0.0d,
 	text: [
-		"{aa0595b3.ia.e725861b.1}",
-		"{aa0595b3.ia.e725861b.2}"
+		"{aa0595b3.ia.e725861b}"
 	],
 	dependencies: [
 		"0e0c1f29"
@@ -12,7 +11,7 @@
 		uid: "511c1598",
 		type: "item",
 		items: [{
-			item: "bfr:reactor"
+			item: "mekanismgenerators:reactor"
 		}]
 	}]
 }

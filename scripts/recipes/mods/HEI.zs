@@ -17,27 +17,34 @@ var removeDescriptors as IItemStack[] = [
     <lightningcraft:ingot>,
     <extrautils2:ingredients:11>
 ];
-
-for remove in removeDescriptors {
-    MoreJei.removeDescription(remove);
+for rd in removeDescriptors {
+    MoreJei.removeDescription(rd);
 }
 
 addRegexLogFilter("Failed to hide recipe category");
 
-var jeiremove as string[]=[
-"TechReborn.Compressor",
-"tcomplement:high_oven_mix",
-"tcomplement:high_oven_heat",
-"tcomplement:high_oven_melting",
-"tcomplement:high_oven_fuel",
-"thermaldynamics.covers",
-"appliedenergistics2.grinder",
-"Painter",
-"actuallyadditions.booklet",
-"if_manual_category",
-"oc.manual",
-"ftbquests.quests"
+var removeCategory as string[]=[
+    "TechReborn.Compressor",
+    "tcomplement:high_oven_mix",
+    "tcomplement:high_oven_heat",
+    "tcomplement:high_oven_melting",
+    "tcomplement:high_oven_fuel",
+    "thermaldynamics.covers",
+    "appliedenergistics2.grinder",
+    "Painter",
+    "actuallyadditions.booklet",
+    "oc.manual",
+    "ftbquests.quests"
 ];
-for Remove in jeiremove {
-    JEI.hideCategory(Remove);
+for rc in removeCategory {
+    JEI.hideCategory(rc);
+}
+
+var removeItem as IItemStack[] = [
+    <botania:specialflower>.withTag({type: "entropinnyum"}),
+    <botania:floatingspecialflower>.withTag({type: "entropinnyum"})
+];
+
+for ri in removeItem {
+    JEI.hide(ri);
 }

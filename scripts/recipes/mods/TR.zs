@@ -206,7 +206,8 @@ recipes.addShaped(<techreborn:pump>, [[null, null, null],[<ore:circuitMana>, <te
 
 recipes.addShaped(<techreborn:lapotroncrystal>, [[<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>],[<ore:gearEnergium>, <ore:plateSapphire>, <ore:gearEnergium>], [<ore:energyCrystal>, <ore:plateDiamond>, <ore:energyCrystal>]]);
 
-grinder.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 300, 8);
+grinder.addRecipe(<immersiveengineering:material:17>, <ore:fuelCoke>, 300, 8);
+grinder.addRecipe(<immersiveengineering:material:17>*9, <ore:blockFuelCoke>, 300, 8);
 
 recipes.remove(<techreborn:solid_fuel_generator>);
 recipes.addShapeless(<techreborn:solid_fuel_generator>, [<ore:reBattery>, <techreborn:storage2:10>, <minecraft:furnace>]);
