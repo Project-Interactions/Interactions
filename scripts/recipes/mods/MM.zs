@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+
 recipes.remove(<modularmachinery:itemmodularium>*5);
 recipes.remove(<modularmachinery:blockenergyoutputhatch:1>);
 recipes.remove(<modularmachinery:blockenergyoutputhatch>);
@@ -27,6 +28,7 @@ recipes.addShapeless(<modularmachinery:blockparallelcontroller:2>, [<modularmach
 recipes.addShapeless(<modularmachinery:blockparallelcontroller:3>, [<modularmachinery:blockparallelcontroller:2>,<modularmachinery:blockparallelcontroller:2>,<ore:circuitNuclear>]);
 recipes.addShapeless(<modularmachinery:blockparallelcontroller:4>, [<modularmachinery:blockparallelcontroller:3>,<modularmachinery:blockparallelcontroller:3>,<ore:circuitUniversal>]);
 recipes.addShapeless(<modularmachinery:blocksmartinterface>, [<ore:circuitElite>,<nuclearcraft:machine_interface>]);
+
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch:7>, [[null, <modularmachinery:blockenergyoutputhatch:6>, null],[null, <ore:gearDraconiumAwakened>, null], [null, <draconicevolution:energy_storage_core>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch:6>, [[null, <modularmachinery:blockenergyoutputhatch:5>, null],[null, <ore:gearThermoconducting>, null], [null, <nuclearcraft:lithium_ion_cell>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch:5>, [[null, <modularmachinery:blockenergyoutputhatch:4>, null],[null, <ore:gearPulsatingIron>, null], [null, <actuallyadditions:block_phantom_energyface>, null]]);
@@ -43,34 +45,19 @@ recipes.addShaped(<modularmachinery:blockenergyinputhatch:2>, [[null, <modularma
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>, [[null, <modularmachinery:blockenergyinputhatch>, null],[null, <ore:gearRefinedIron>, null], [null, <enderio:item_endergy_conduit:5>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch>, [[null, <enderio:item_endergy_conduit:4>, null],[null, <ore:gearIron>, null], [null, <mekanism:energycube>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch>, [[null, <mekanism:energycube>, null],[null, <ore:gearIron>, null], [null, <enderio:item_endergy_conduit:4>, null]]);
-recipes.addShapeless(<modularmachinery:blockauraproviderinput>, [<modularmachinery:blockauraprovideroutput>]);
-recipes.addShapeless(<modularmachinery:blockauraprovideroutput>, [<modularmachinery:blockauraproviderinput>]);
-recipes.addShapeless(<modularmachinery:blockauraprovideroutput>, [<modularmachinery:blockauraproviderinput>]);
-recipes.addShapeless(<modularmachinery:blockauraproviderinput>, [<auraddons:block_aura_transporter>,<naturesaura:aura_detector>]);
 recipes.addShapeless(<modularmachinery:blockconstellationprovider>, [<astralsorcery:iteminfusedglass>,<astralsorcery:itemskyresonator>]);
-recipes.addShapeless(<modularmachinery:blockstarlightproviderinput>, [<modularmachinery:blockstarlightprovideroutput>]);
-recipes.addShapeless(<modularmachinery:blockstarlightprovideroutput>, [<modularmachinery:blockstarlightproviderinput>]);
 recipes.addShapeless(<modularmachinery:blockstarlightproviderinput>, [<ore:ingotAstralStarmetal>,<astralsorcery:itemrockcrystalsimple>]);
 recipes.addShaped(<modularmachinery:blockrainbowprovider>, [[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>],[<extrautils2:decorativesolid:8>, <extrautils2:poweroverload>, <extrautils2:decorativesolid:8>], [<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]]);
-recipes.addShapeless(<modularmachinery:blockgridproviderinput>, [<modularmachinery:blockgridprovideroutput>]);
-recipes.addShapeless(<modularmachinery:blockgridprovideroutput>, [<modularmachinery:blockgridproviderinput>]);
 recipes.addShapeless(<modularmachinery:blockgridproviderinput>, [<extrautils2:poweroverload>,<ore:ingotUnstable>]);
-recipes.addShapeless(<modularmachinery:blockaspectproviderinput>, [<modularmachinery:blockaspectprovideroutput>]);
-recipes.addShapeless(<modularmachinery:blockaspectprovideroutput>, [<modularmachinery:blockaspectproviderinput>]);
 recipes.addShapeless(<modularmachinery:blockaspectproviderinput>, [<thaumadditions:jar_thaumium>,<thaumcraft:tube>]);
-recipes.addShapeless(<modularmachinery:blocklifeessenceproviderinput>, [<modularmachinery:blocklifeessenceprovideroutput>]);
-recipes.addShapeless(<modularmachinery:blocklifeessenceprovideroutput>, [<modularmachinery:blocklifeessenceproviderinput>]);
 recipes.addShapeless(<modularmachinery:blocklifeessenceproviderinput>, [<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}).onlyWithTag({FluidName: "lifeessence", Amount: 1000}),<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).onlyWithTag({orb: "bloodmagic:apprentice"})]);
-recipes.addShapeless(<modularmachinery:blockwillproviderinput>, [<modularmachinery:blockwillprovideroutput>]);
-recipes.addShapeless(<modularmachinery:blockwillprovideroutput>, [<modularmachinery:blockwillproviderinput>]);
 recipes.addShapeless(<modularmachinery:blockwillproviderinput>, [<bloodmagic:demon_will_gauge>,<bloodmagic:item_demon_crystal>]);
-recipes.addShapeless(<modularmachinery:blockmanaproviderinput>, [<modularmachinery:blockmanaprovideroutput>]);
-recipes.addShapeless(<modularmachinery:blockmanaprovideroutput>, [<modularmachinery:blockmanaproviderinput>]);
 recipes.addShapeless(<modularmachinery:blockmanaproviderinput>, [<botania:pool:3>,<botanianeedsit:mana_charger>]);
 recipes.addShapeless(<modularmachinery:blockmefluidinputbus>, [<appliedenergistics2:fluid_interface>,<appliedenergistics2:part:241>]);
 recipes.addShapeless(<modularmachinery:blockmefluidoutputbus>, [<appliedenergistics2:fluid_interface>,<appliedenergistics2:part:261>]);
 recipes.addShapeless(<modularmachinery:blockmeiteminputbus>, [<appliedenergistics2:interface>,<appliedenergistics2:part:240>]);
 recipes.addShapeless(<modularmachinery:blockmeitemoutputbus>, [<appliedenergistics2:interface>,<appliedenergistics2:part:260>]);
+
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:7>, [[null, <modularmachinery:blockfluidoutputhatch:6>, null],[null, <ore:gearRefinedObsidian>, null], [null, <mekanism:machineblock2:11>.withTag({tier: 3}).onlyWithTag({tier: 3}), null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:6>, [[null, <modularmachinery:blockfluidoutputhatch:5>, null],[null, <ore:gearOsmium>, null], [null, <mekanism:machineblock2:11>.withTag({tier: 2}).onlyWithTag({tier: 2}), null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:5>, [[null, <modularmachinery:blockfluidoutputhatch:4>, null],[null, <ore:gearElectrumFlux>, null], [null, <mekanism:machineblock2:11>.withTag({tier: 1}).onlyWithTag({tier: 1}), null]]);
@@ -87,6 +74,7 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [[null, <modularmac
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [[null, <modularmachinery:blockfluidinputhatch>, null],[null, <ore:gearRefinedIron>, null], [null, <minecraft:bucket>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [[null, <ceramics:clay_bucket>, null],[null, <ore:gearIron>, null], [null, <flopper:flopper>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [[null, <flopper:flopper>, null],[null, <ore:gearIron>, null], [null, <ceramics:clay_bucket>, null]]);
+
 recipes.addShaped(<modularmachinery:blockoutputbus:6>, [[null, <modularmachinery:blockoutputbus:5>, null],[null, <ore:gearDraconium>, null], [null, <draconicevolution:draconium_chest>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:5>, [[null, <modularmachinery:blockoutputbus:4>, null],[null, <ore:gearFluix>, null], [null, <appliedenergistics2:chest>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:4>, [[null, <modularmachinery:blockoutputbus:3>, null],[null, <ore:gearMirion>, null], [null, <avaritiaddons:avaritiaddons_chest>, null]]);

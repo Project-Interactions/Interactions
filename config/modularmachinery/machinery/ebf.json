@@ -269,7 +269,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmachinery:blockauraproviderinput",
+                "modularmachinery:blockgridproviderinput",
                 "thermalfoundation:storage_alloy@2"
             ]
         },

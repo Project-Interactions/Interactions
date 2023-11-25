@@ -17,6 +17,8 @@ recipes.removeShaped(<minecraft:stick> * 4, [[<ore:plankWood>], [<ore:plankWood>
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>], [<ore:plankWood>]]);
 
+recipes.remove(<minecraft:bookshelf>);
+recipes.addShaped(<minecraft:bookshelf>,[[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>],[<minecraft:book>,<minecraft:book>,<minecraft:book>],[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
 //end portal uncraftable
 recipes.remove(<minecraft:end_portal_frame>);
 
