@@ -5,7 +5,7 @@ tile.boiler.name=高压能量激发器
 tile.bin.name=储物仓
 
 //correct
-item.thermalfoundation.material.crystalEnder.name=谐振笼合物
-item.thermalfoundation.material.crystalGlowstone.name=充能笼合物
-item.thermalfoundation.material.crystalRedstone.name=不稳定笼合物
+item.thermalfoundation.material.crystalEnder.name=谐振络合物
+item.thermalfoundation.material.crystalGlowstone.name=充能络合物
+item.thermalfoundation.material.crystalRedstone.name=不稳定络合物
 tile.thermalfoundation.ore.ender.name=谐振末地石

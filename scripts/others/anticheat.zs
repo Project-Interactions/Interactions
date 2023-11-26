@@ -32,7 +32,8 @@ var mod as string[]=[
     "slashbladetic",
     "cyclicmagic",
     "randomthings",
-    "lootbags"
+    "lootbags",
+    "chambers"
 ];
 
 for i in mod{
