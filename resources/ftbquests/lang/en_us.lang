@@ -263,6 +263,8 @@ e54907cd.ia.fb44dff5.2=Structure similar to snow golem, replace pumpkin head wit
 940d670c.ia.a64204c6.3=Packaged crafting now supports Extended Crafting, Astral Sorcery, Avaritia,Thaumcraft and Draconic Evolution
 940d670c.ia.a64204c6.4=You can find them by searching @packaged in the HEI interface
 940d670c.ia.5ac21318=can encodes 42->8 recipes and supports fluids
+940d670c.ia.059a2fb7=ME Infinity Cells
+940d670c.ia.34719d6d=Check "Information" in HEI for more
 #215b43fe chapter
 215b43fe.ia.chapter.title="Application of Biology and Agriculture in the Field of Science and Technology"
 215b43fe.ia.chapter.description=Tier Six
@@ -365,7 +367,7 @@ ia.final=All things in one
 495fa152.ia.ded8ca3e=Create directly
 495fa152.ia.e32f76de=Wireless transmission of energy
 #cd4fea27
-cd4fea27.ia.title=Other Chapters: Upgrade
+cd4fea27.ia.title=Other Chapters: Some Gadgets
 cd4fea27.ia.3d5ea218=Please do not use stackable buckets to fill liquid fuel after the furnace of this mod has been upgraded with liquid fuel
 #chapter f8dd7675
 f8dd7675.ia.title=Other Chapters: Wireless Devices

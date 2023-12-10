@@ -64,10 +64,11 @@ Crucible.removeRecipe(<thaumcraft:ingot>);
 Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum>*5]);
 Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY@2", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
 
+//original research TWOND_END_HEDGE
 Crucible.removeRecipe(<minecraft:ender_pearl>*2);
 Crucible.removeRecipe(<minecraft:chorus_fruit>);
-Crucible.registerRecipe("ender_pearl_dupe"   , "TWOND_END_HEDGE", <minecraft:ender_pearl>*2, <minecraft:ender_pearl>, [<aspect:alienis>*10,<aspect:motus>*15]);
-Crucible.registerRecipe("chorus_fruit"   , "TWOND_END_HEDGE", <minecraft:chorus_fruit>, <minecraft:apple>, [<aspect:alienis>*5,<aspect:sensus>*5,<aspect:herba>*5]);
+Crucible.registerRecipe("ender_pearl_dupe"   , "", <minecraft:ender_pearl>*2, <minecraft:ender_pearl>, [<aspect:alienis>*10,<aspect:motus>*15]);
+Crucible.registerRecipe("chorus_fruit"   , "", <minecraft:chorus_fruit>, <minecraft:apple>, [<aspect:alienis>*5,<aspect:sensus>*5,<aspect:herba>*5]);
 
 Crucible.removeRecipe(<thaumicbases:metalleatseed>);
 Crucible.registerRecipe("hard_metalleatseed"   , "TB.PLANT1", <thaumicbases:metalleatseed>, <mysticalagriculture:iron_seeds>, [<aspect:ordo>*25,<aspect:metallum>*25,<aspect:victus>*25]);
@@ -116,7 +117,8 @@ val ichorremove as IItemStack[] =
 <ichoriumkit:kami_legs>,
 <ichoriumkit:kami_boots>,
 <thaumicbases:herobrinesscythe>,
-<thaumcraft:elemental_hoe>
+<thaumcraft:elemental_hoe>,
+<warptheory:item_cleanser>
 ];
 for Remove in ichorremove {
     Infusion.removeRecipe(Remove);
@@ -209,4 +211,15 @@ Infusion.registerRecipe(
     [<aspect:praecantatio>*100,<aspect:instrumentum>*100,<aspect:superbia>*100,<aspect:cognitio>*100,<aspect:caeles>*100], //aspect
     <thaumcraft:thaumonomicon>, //core item
     [<thaumadditions:mithminite_block>,<tconevo:metal_block:4>,<contenttweaker:sub_block_holder_0:7>,<thaumadditions:mithminite_smelter>,<thaumadditions:jar_mithminite>,<thaumadditions:mithminite_fabric>,<sharetome:sharing_tome>,<thaumicenergistics:essentia_component_64k>,<thaumicwonders:void_beacon>]//items
+);
+
+//PURE_TEAR
+Infusion.registerRecipe(
+    "item_cleanser", //id
+    "PURE_TEAR", //research CAPITAL
+    <warptheory:item_cleanser>, //output
+    20, //instability
+    [<aspect:praecantatio>*100,<aspect:victus>*100], //aspect
+    <warptheory:item_cleanser_minor>, //core item
+    [<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>]//items
 );

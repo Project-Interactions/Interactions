@@ -4,14 +4,14 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:8
 guiScale:4
 particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:3
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -215,6 +215,8 @@ key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
 key_astraladditions.key.ring_toggle:0
 key_key.bettersigns.nosigntext:0
+key_keys.techreborn.config:0
+key_binniecore.key.hold.for.help.tooltips:15
 key_key.settings_menu:34
 key_key.range:19
 key_key.undo:22
@@ -226,7 +228,6 @@ key_key.material_list:50
 key_key.carry.desc:42
 key_key.overload:33:SHIFT
 key_key.chaosInjection:34:SHIFT
-key_keys.techreborn.config:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_FpsReducer.key.guiOpen:0
@@ -271,7 +272,6 @@ key_key.plustic_mots.desc:0
 key_key.neenergistics.ingredient.switch:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.noPreview:56
-key_key.neenergistics.crafting.helper.noPreview:56
 key_pi.key.open_pi:0
 key_pi.key.et_gui:0
 key_pi.key.et_world:0
@@ -284,10 +284,10 @@ key_key.craftingGrid:0
 key_key.vaultopic.view:0
 key_key.vaultopic.vice:0
 key_visualores.key.action:211
-key_visualores.button.excavator:0
 key_visualores.button.neromantic:0
-key_visualores.button.aura_flux:0
 key_visualores.button.starlight:0
+key_visualores.button.aura_flux:0
+key_visualores.button.excavator:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -313,6 +313,7 @@ key_gui.xaero_open_settings:45
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
+key_gui.xaero_toggle_dimension:0
 key_开关喷气背包:0
 key_打开火箭界面:0
 key_切换 RCS:0

@@ -86,6 +86,45 @@
       }
     },
     {
+      "uid": "ed58afbd-b302-4138-be66-0218069303a0",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"arcanearchives:storage_raw_quartz\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:quartztypesunny\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"arcanearchives:storage_raw_quartz\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "37eb3020-9fad-4226-9ac1-cb3064d540ae",
       "duration": 10,
       "inputs": {

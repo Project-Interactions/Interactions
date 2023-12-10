@@ -41,23 +41,9 @@ recipes.addShaped(<darkutils:trap_move> * 4, [[null, null, null],[<ore:coal>, <t
 recipes.addShaped(<zensummoning:altar>, [[<moreplates:demon_plate>, null, <moreplates:demon_plate>],[null, <extrautils2:compressednetherrack:3>, null], [<moreplates:demon_plate>, null, <moreplates:demon_plate>]]);
 
 recipes.addShapeless(<buildinggadgets:constructionblock_dense>,[<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>,<buildinggadgets:constructionpaste>]);
+recipes.remove(<buildinggadgets:exchangertool>);
 
-//recipes.remove(<landcraft:landia_portal_marker>);
-/*
-mods.avaritia.ExtremeCrafting.addShaped("landia_tp", <dimensionaledibles:custom_cake>.withTag({dimID: 1304, cakeName: "landia"}), [
-	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>], 
-	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>], 
-	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
-	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
-	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
-	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
-	[<ore:ingotLandium>, null, null, null, null, <ore:ingotLandium>, null, null, null], 
-	[<ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, null, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>, <ore:ingotLandium>], 
-	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]
-]);
-*/
 recipes.remove(<jaopca:block.tanzanite>);
-
 
 recipes.addShaped(<contenttweaker:sub_block_holder_0:11>, [[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>],[<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>], [<contenttweaker:material_part:152>, <contenttweaker:material_part:152>, <contenttweaker:material_part:152>]]);
 
@@ -67,3 +53,6 @@ RecipeUtils.recipeTweak(true, <torchmaster:mega_torch>, [[<torchmaster:feral_fla
 RecipeUtils.recipeTweak(true, <energymeters:meter>, [[<minecraft:cobblestone>, <ore:blockGlass>, <minecraft:cobblestone>], [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>], [<minecraft:cobblestone>, <ore:circuitBasic>, <minecraft:cobblestone>]]);
 
 RecipeUtils.recipeTweak(true, <bibliocraft:bibliochase>, [[null, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, null], [<minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, <extrautils2:ingredients:12>, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>], [null, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, null]]);
+
+recipes.remove(<darkutils:trap_tile:7>);
+recipes.addShaped(<darkutils:trap_tile:7>*6, [[<extrautils2:spike_iron>, <minecraft:skull:*>, <extrautils2:spike_iron>]]);

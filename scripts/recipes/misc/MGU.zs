@@ -12,3 +12,20 @@ RecipeUtils.recipeTweak(true, <mob_grinding_utils:saw>, [[<ore:circuitGood>, <ex
 RecipeUtils.recipeTweak(true, <mob_grinding_utils:tank_sink>, [[null, <minecraft:iron_bars>, null], [<minecraft:ender_eye>, <globalxp:xp_block>, <minecraft:ender_eye>], [null, <mob_grinding_utils:tank>, null]]);
 RecipeUtils.recipeTweak(true, <mob_grinding_utils:tank>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<mekanism:machineblock2:11>.withTag({tier: 0}), <ore:blockGlass>, <mekanism:machineblock2:11>.withTag({tier: 0})], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
 RecipeUtils.recipeTweak(true, <mob_grinding_utils:absorption_hopper>, [[null, <minecraft:ender_eye>, null], [null, <actuallyadditions:block_ranged_collector>, null], [<ore:obsidian>, <speedyhoppers:speedyhopper_mk3>, <ore:obsidian>]]);
+
+val stack as IItemStack[] = 
+[
+<mob_grinding_utils:saw_upgrade>,
+<mob_grinding_utils:saw_upgrade:1>,
+<mob_grinding_utils:saw_upgrade:2>,
+<mob_grinding_utils:saw_upgrade:3>,
+<mob_grinding_utils:saw_upgrade:4>,
+<mob_grinding_utils:saw_upgrade:5>
+];
+
+for tweak in stack {
+    tweak.maxStackSize = 10;
+}
+
+<mob_grinding_utils:fan_upgrade>.maxStackSize = 3;
+<mob_grinding_utils:fan_upgrade:1>.maxStackSize = 3;

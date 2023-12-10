@@ -1,5 +1,6 @@
 {
-	x: 4.0d,
+	title: "111111",
+	x: 1.0d,
 	y: 1.5d,
 	dependencies: [
 		"e0b379a0"
@@ -19,6 +20,25 @@
 					Craft: 0b
 				},
 				t: "i"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5ebc0f25",
+		type: "item",
+		items: [{
+			id: "extendedae:infinity_cell",
+			tag: {
+				r: {
+					FluidName: "water",
+					Count: 0b,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				},
+				t: "f"
 			}
 		}],
 		ignore_damage: true,

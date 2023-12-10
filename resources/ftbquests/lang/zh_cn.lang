@@ -263,6 +263,8 @@ e54907cd.ia.fb44dff5.2=结构类似雪傀儡，将南瓜头替换为古代灯笼
 940d670c.ia.a64204c6.3=封包合成现在支持合成拓展、星辉魔法、无尽贪婪、神秘时代和龙之研究
 940d670c.ia.a64204c6.4=你可以在HEI界面中搜索@packaged来找到它们
 940d670c.ia.5ac21318=可编码42->8的配方，且支持流体
+940d670c.ia.059a2fb7=ME无限存储元件
+940d670c.ia.34719d6d=请查看HEI中的“信息”页面
 #215b43fe chapter
 215b43fe.ia.chapter.title=《生物、农业在科技领域的应用》
 215b43fe.ia.chapter.description=阶段六
@@ -365,7 +367,7 @@ ia.final=万物归一
 495fa152.ia.ded8ca3e=可直接进行合成操作
 495fa152.ia.e32f76de=无线传输能量
 #cd4fea27
-cd4fea27.ia.title=其他章节：升级
+cd4fea27.ia.title=其他章节：小玩意
 cd4fea27.ia.3d5ea218=本模组的熔炉经液体燃料升级后请不要使用可堆叠的桶进行装填液体燃料
 #chapter f8dd7675
 f8dd7675.ia.title=其他章节：无线设备

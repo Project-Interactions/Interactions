@@ -4,6 +4,7 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.embers.Melter;
 import mods.embers.Alchemy;
+import mods.embers.Stamper;
 import mods.aetherworks.MetalFormer;
 import mods.aetherworks.Anvil;
 

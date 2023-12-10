@@ -17,6 +17,7 @@ recipes.remove(<extrautils2:passivegenerator> * 3);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:interface>, [[<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>],[<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:fluid_interface>, [[<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:gas_interface>, [[<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>]]);
+recipes.addShapeless(<aeadditions:part.base:2>, [<appliedenergistics2:interface>,<appliedenergistics2:part:441>,<appliedenergistics2:material:58>]);
 
 recipes.removeByRecipeName("aeadditions:misc/parttointerface");
 recipes.addShapeless(<appliedenergistics2:fluid_interface>,[<appliedenergistics2:part:441>]);
@@ -134,7 +135,7 @@ RecipeUtils.recipeTweak(true, <ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>,
 recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
 recipes.addShapeless(<ae2fc:part_fluid_pattern_terminal>, [<appliedenergistics2:part:340>, <ae2fc:fluid_pattern_encoder>,<aeadditions:fluidfiller>]);
 RecipeUtils.recipeTweak(true, <ae2fc:fluid_level_maintainer>, [[<ore:dustFluix>, <appliedenergistics2:part:281>, <ore:dustFluix>], [<appliedenergistics2:material:24>, <appliedenergistics2:crafting_monitor>, <appliedenergistics2:material:24>], [<ore:dustFluix>, <ore:dyeBlue>, <ore:dustFluix>]]);
-RecipeUtils.recipeTweak(true, <ae2fc:ultimate_encoder>, [[<packagedauto:encoder>, <appliedenergistics2:material:24>, <packagedauto:packager_extension>], [<appliedenergistics2:fluix_block>, <ae2fc:part_fluid_pattern_ex_terminal>, <appliedenergistics2:fluix_block>], [<ae2fc:fluid_pattern_encoder>, <ae2fc:fluid_pattern_encoder>, <ae2fc:fluid_pattern_encoder>]]);
+RecipeUtils.recipeTweak(true, <ae2fc:ultimate_encoder>, [[<packagedauto:encoder>, <appliedenergistics2:material:24>, <packagedauto:packager_extension>], [<appliedenergistics2:fluix_block>, <ae2fc:part_fluid_pattern_ex_terminal>, <appliedenergistics2:fluix_block>], [<ae2fc:fluid_pattern_encoder>, <ore:circuitMaster>, <ae2fc:fluid_pattern_encoder>]]);
 
 //lazyae2 machines
 RecipeUtils.recipeTweak(true, <threng:machine:4>, [[<ore:ingotFluixSteel>, <ae2fc:ingredient_buffer>, <ore:ingotFluixSteel>], [<appliedenergistics2:material:22>, <threng:material:4>, <appliedenergistics2:material:22>], [<ore:ingotFluixSteel>, <appliedenergistics2:material:53>, <ore:ingotFluixSteel>]]);
@@ -162,10 +163,11 @@ Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <or
 Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
 
 Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
-
 Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
 
-recipes.addShapeless(<aeadditions:part.base:2>, [<appliedenergistics2:interface>,<appliedenergistics2:part:441>,<appliedenergistics2:material:58>]);
+//nae2
+RecipeUtils.recipeTweak(true, <nae2:reconstruction_chamber>, [[<ore:ingotIron>, <actuallyadditions:block_misc:9>, <ore:ingotIron>], [<actuallyadditions:block_misc:9>, <appliedenergistics2:molecular_assembler>, <actuallyadditions:block_misc:9>], [<ore:ingotIron>, <actuallyadditions:block_misc:9>, <ore:ingotIron>]]);
+
 
 //
 mods.biggercraftingtables.Giant.addShaped(<appliedenergistics2:creative_storage_cell>.withTag({}), [

@@ -79,7 +79,7 @@ Factorizer.removeRecipeSplit(<thermalfoundation:storage:8>);
 Factorizer.removeRecipeCombine(<thermalfoundation:material:136>*9);
 Factorizer.removeRecipeSplit(<thermalfoundation:material:136>*9);
 
-
+Factorizer.removeRecipeCombine(<aetherworks:item_resource:4>);
 
 mods.thermalexpansion.Infuser.removeRecipe(<wirelessutils:fluxed_pearl>);
 

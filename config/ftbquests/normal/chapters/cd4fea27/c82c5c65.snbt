@@ -1,0 +1,17 @@
+{
+	x: 6.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "f491d9e2",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

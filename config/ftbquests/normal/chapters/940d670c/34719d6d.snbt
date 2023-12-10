@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"11111"
+	],
+	dependencies: [
+		"0e4a00e2"
+	],
+	tasks: [{
+		uid: "717b2db9",
+		type: "item",
+		items: [{
+			item: "nae2:reconstruction_chamber"
+		}]
+	}]
+}

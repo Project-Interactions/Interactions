@@ -21,6 +21,5 @@ recipes.addShaped(<interaction:elemtia_flask>, [[null, <botania:vial:1>, null],[
 recipes.addShapeless(<interaction:lava_generator>, [<ore:circuitAdvanced>,<minecraft:blaze_powder>]);
 
 //part
-recipes.addShaped(<interaction:chaos>, [[<tconevo:metal:13>, <tconevo:metal:13>, <tconevo:metal:13>],[<tconevo:metal:13>, <draconicevolution:fusion_crafting_core>, <tconevo:metal:13>], [<tconevo:metal:13>, <tconevo:metal:13>, <tconevo:metal:13>]]);
 recipes.addShaped(<interaction:ta>, [[<thaumicaugmentation:impetus_mirror>, <thaumicaugmentation:material:5>, <thaumicaugmentation:impetus_mirror>],[<thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>], [<thaumicaugmentation:impetus_mirror>, <thaumicaugmentation:material:5>, <thaumicaugmentation:impetus_mirror>]]);
 recipes.addShaped(<interaction:starlight>, [[<naturesaura:sky_ingot>, <naturesaura:sky_ingot>, <naturesaura:sky_ingot>],[<naturesaura:sky_ingot>, <ore:chest>, <naturesaura:sky_ingot>], [<naturesaura:sky_ingot>, <naturesaura:sky_ingot>, <naturesaura:sky_ingot>]]);

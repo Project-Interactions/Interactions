@@ -1,6 +1,6 @@
 {
 	title: "{cd4fea27.ia.title}",
-	icon: "thermalfoundation:upgrade",
+	icon: "botania:dice",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""
