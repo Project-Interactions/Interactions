@@ -1,3 +1,4 @@
+#reloadable
 import moretweaker.lightningcraft.LightningTransforming;
 import moretweaker.lightningcraft.LightningCrusher;
 import moretweaker.lightningcraft.LightningInfusion;

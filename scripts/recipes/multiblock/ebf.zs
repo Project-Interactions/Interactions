@@ -43,7 +43,7 @@ RecipeBuilder.newBuilder("TwilghtSteel", "ebf", 200)
     .build();
 RecipeBuilder.newBuilder("Naturium", "ebf", 100)
     .addItemInputs([<plustic:mirioningot>,<naturesaura:sky_ingot>])
-    .addManaInput(30000)
+    .addManaInput(30000,false)
     .addItemOutput(<ore:ingotNaturium>.firstItem)
     .build();
 RecipeBuilder.newBuilder("cr", "ebf", 120)

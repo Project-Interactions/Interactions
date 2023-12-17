@@ -1,7 +1,9 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+
 recipes.remove(<twilightforest:uncrafting_table>);
 
 recipes.removeShapeless(<twilightforest:dark_planks> * 4);

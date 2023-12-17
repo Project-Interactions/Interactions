@@ -1,7 +1,10 @@
 {
-	title: "111111",
+	title: "{940d670c.ia.059a2fb7}",
 	x: 1.0d,
 	y: 1.5d,
+	text: [
+		"{940d670c.ia.34719d6d}"
+	],
 	dependencies: [
 		"e0b379a0"
 	],

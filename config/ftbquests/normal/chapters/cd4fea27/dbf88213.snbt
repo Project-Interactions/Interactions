@@ -1,0 +1,27 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "8482d765",
+		type: "item",
+		items: [{
+			id: "tiabs:timeinabottle",
+			tag: {}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f7e3b5f",
+		type: "item",
+		item: {
+			id: "tiabs:timeinabottle",
+			tag: {
+				timeData: {
+					storedTime: 1728000
+				}
+			}
+		}
+	}]
+}

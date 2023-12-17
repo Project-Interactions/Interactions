@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
@@ -39,3 +40,12 @@ recipes.remove(<binniecore:storage:3>);
 recipes.remove(<binniecore:storage:2>);
 recipes.remove(<binniecore:storage:1>);
 recipes.remove(<binniecore:storage>);
+
+//binnie harder
+recipes.remove(<genetics:misc>);
+Carpenter.addRecipe(<genetics:misc>, [[<moreplates:electrical_steel_plate>, <moreplates:electrical_steel_plate>, <moreplates:electrical_steel_plate>], [<moreplates:electrical_steel_plate>, <forestry:sturdy_machine>, <moreplates:electrical_steel_plate>], [<moreplates:electrical_steel_plate>, <moreplates:electrical_steel_plate>, <moreplates:electrical_steel_plate>]], 60, <liquid:refinediron> * 1000);
+recipes.removeByRecipeName("genetics:dna_dye_from_glowstone");
+recipes.removeByRecipeName("genetics:dna_dye");
+recipes.removeByRecipeName("genetics:fluorescent_dye");
+recipes.addShapeless(<genetics:misc:2>, [<tconstruct:throwball>,<enderio:block_holier_fog>]);
+recipes.addShapeless(<genetics:misc:1>, [<appliedenergistics2:material:8>,<thermalfoundation:material:819>]);

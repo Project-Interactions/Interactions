@@ -1,3 +1,4 @@
+#reloadable
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FluidToItem;
 import mods.pneumaticcraft.explosioncrafting;

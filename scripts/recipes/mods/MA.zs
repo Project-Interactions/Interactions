@@ -57,6 +57,7 @@ recipes.addShaped(<mysticalagriculture:crafting:1>, [[null, <mysticalagriculture
 //recipes.addShaped("mysticalagradditions_special_2", <mysticalagradditions:special:4>, [[<ore:blockInsanium>, <draconicadditions:chaotic_energy_core>, <ore:blockInsanium>], [<ore:ingotDraconiumAwakened>, <ore:blockDiamond>, <ore:ingotDraconiumAwakened>], [<ore:blockInsanium>, <draconicevolution:draconic_block>, <ore:blockInsanium>]]);
 //recipes.addShaped("mysticalagradditions_special_3", <mysticalagradditions:special:5>, [[<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>], [<denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockDiamond>, <denseneutroncollectors:triple_compressed_neutron_collector>], [<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>]]);
 
+#reloadable
 //mysticalcreations
 //need to be converted to JARGCA type recipes later
 //aether

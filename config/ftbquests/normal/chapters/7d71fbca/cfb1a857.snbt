@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 0.0d,
+	dependencies: [
+		"47be9fd3"
+	],
+	tasks: [{
+		uid: "66084fbe",
+		type: "item",
+		items: [{
+			item: "theaurorian:mushroomsmall"
+		}]
+	}]
+}

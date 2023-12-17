@@ -1,0 +1,13 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "1ae93199",
+		type: "item",
+		items: [{
+			item: "akashictome:tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
@@ -17,7 +18,7 @@ furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:ore:6>);
 recipes.remove(<thaumcraft:salis_mundus>);
 recipes.addShapeless(<thaumcraft:salis_mundus>,[<contenttweaker:crude_salis_mundus>,<naturesaura:chunk_loader>]);
 
-//石英粒修改
+//
 mods.techreborn.grinder.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 30, 15);
 recipes.remove(<thaumcraft:nugget:9> * 9);
 mods.immersiveengineering.Crusher.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 2048);
@@ -107,8 +108,10 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <thaumicenergistics:essentia_ce
 	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>]
 ]);
 
+//
+IFluxConcentrator.addRecipes(<theaurorian:mushroomsmall>,<defiledlands:scuronotte>);
 
-val ichorremove as IItemStack[] = 
+val infusionRemove as IItemStack[] = 
 [
 <ichoriumkit:ichor_block>,
 <ichoriumkit:ichor_helm>,
@@ -118,9 +121,10 @@ val ichorremove as IItemStack[] =
 <ichoriumkit:kami_boots>,
 <thaumicbases:herobrinesscythe>,
 <thaumcraft:elemental_hoe>,
-<warptheory:item_cleanser>
+<warptheory:item_cleanser>,
+<thaumadditions:jar_mithminite>
 ];
-for Remove in ichorremove {
+for Remove in infusionRemove {
     Infusion.removeRecipe(Remove);
 }
 //ichor block 8
@@ -210,7 +214,7 @@ Infusion.registerRecipe(
     50, //instability
     [<aspect:praecantatio>*100,<aspect:instrumentum>*100,<aspect:superbia>*100,<aspect:cognitio>*100,<aspect:caeles>*100], //aspect
     <thaumcraft:thaumonomicon>, //core item
-    [<thaumadditions:mithminite_block>,<tconevo:metal_block:4>,<contenttweaker:sub_block_holder_0:7>,<thaumadditions:mithminite_smelter>,<thaumadditions:jar_mithminite>,<thaumadditions:mithminite_fabric>,<sharetome:sharing_tome>,<thaumicenergistics:essentia_component_64k>,<thaumicwonders:void_beacon>]//items
+    [<thaumadditions:mithminite_block>,<tconevo:metal_block:4>,<contenttweaker:sub_block_holder_0:7>,<thaumadditions:mithminite_smelter>,<thaumadditions:jar_adaminite>,<thaumadditions:mithminite_fabric>,<sharetome:sharing_tome>,<thaumicenergistics:essentia_component_64k>,<thaumicwonders:void_beacon>]//items
 );
 
 //PURE_TEAR

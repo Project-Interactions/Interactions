@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.zensummoning.SummoningAttempt;

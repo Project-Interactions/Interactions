@@ -1,3 +1,4 @@
+#reloadable
 //Main
 furnace.remove(<nuclearcraft:ingot:12>);
 recipes.remove(<enderio:item_material:10>);

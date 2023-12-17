@@ -1,0 +1,21 @@
+{
+	x: 18.0d,
+	y: -1.5d,
+	dependencies: [
+		"cfb1a857"
+	],
+	tasks: [{
+		uid: "2c634cc6",
+		type: "item",
+		items: [{
+			item: "defiledlands:scuronotte"
+		}]
+	},
+	{
+		uid: "12a3779f",
+		type: "item",
+		items: [{
+			item: "defiledlands:defilement_powder"
+		}]
+	}]
+}

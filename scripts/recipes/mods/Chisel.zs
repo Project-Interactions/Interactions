@@ -1,3 +1,4 @@
+#reloadable
 import mods.chisel.Carving;
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;

@@ -1,8 +1,10 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.wirelessutils.condenser;
+
 //removal
 val remove as IItemStack[] = 
 [

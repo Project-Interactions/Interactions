@@ -1,7 +1,7 @@
+#reloadable
 import mods.jei.JEI;
 import moretweaker.jei.MoreJei;
 import crafttweaker.item.IItemStack;
-
 
 var removeDescriptors as IItemStack[] = [
     <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
