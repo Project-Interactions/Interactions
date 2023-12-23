@@ -24,9 +24,9 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <psi:programmer>, [
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly>, [
 	[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, null, null, null], 
 	[null, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>, null], 
-	[null, null, <ore:ingotRefinedIron>, <ore:gearIronCompressed>, <ore:ingotRefinedIron>], 
-	[null, null, null, <ore:gearIronCompressed>, <ore:gearIronCompressed>], 
-	[null, null, null, null, <ore:gearIronCompressed>]
+	[null, null, <ore:ingotRefinedIron>, <moreplates:compressed_iron_gear>, <ore:ingotRefinedIron>], 
+	[null, null, null, <moreplates:compressed_iron_gear>, <moreplates:compressed_iron_gear>], 
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:1>, [
@@ -34,7 +34,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:1>, [
 	[null, <ore:ingotElectrumFlux>, <ore:ingotElectrumFlux>, null, null], 
 	[null, null, <ore:ingotElectrumFlux>, <ore:ingotElectrumFlux>, <ore:ingotBlackIron>], 
 	[null, null, null, <ore:ingotBlackIron>, <ore:ingotBlackIron>], 
-	[null, null, null, null, <ore:ingotBlackIron>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:2>, [
@@ -42,7 +42,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:2>, [
 	[null, <ore:ingotPsi>, <ore:ingotPsi>, null, null], 
 	[null, null, <ore:ingotPsi>, <ore:ingotPsi>, <ore:ingotPsi>], 
 	[null, null, null, <ore:ingotPsi>, <ore:ingotPsi>], 
-	[null, null, null, null, <ore:ingotPsi>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:3>, [
@@ -50,7 +50,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:3>, [
 	[null, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, null, null], 
 	[null, null, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>], 
 	[null, null, null, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>], 
-	[null, null, null, null, <ore:ingotEbonyPsi>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:4>, [
@@ -58,7 +58,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:4>, [
 	[null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, null, null], 
 	[null, null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>], 
 	[null, null, null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>], 
-	[null, null, null, null, <ore:ingotIvoryPsi>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:overclocked_cad_assembly>, [
@@ -66,7 +66,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:overclocked_cad_assem
 	[null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, null, null], 
 	[null, <psi:cad_core:1>, <ore:ingotIvoryPsi>, <techreborn:upgrades>, null], 
 	[null, null, null, <ore:ingotIvoryPsi>, <techreborn:upgrades>], 
-	[null, null, null, null, <ore:ingotIvoryPsi>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:underclocked_cad_assembly>, [
@@ -74,7 +74,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:underclocked_cad_asse
 	[null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, null, null], 
 	[null, null, <ore:ingotIvoryPsi>, <techreborn:mv_transformer>, null], 
 	[null, null, null, <ore:ingotIvoryPsi>, <techreborn:mv_transformer>], 
-	[null, null, null, null, <ore:ingotIvoryPsi>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:undervolted_cad_assembly>, [
@@ -82,7 +82,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:undervolted_cad_assem
 	[null, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, null, null], 
 	[null, null, <ore:ingotEbonyPsi>, <techreborn:lv_transformer>, null], 
 	[null, null, null, <ore:ingotEbonyPsi>, <techreborn:lv_transformer>], 
-	[null, null, null, null, <ore:ingotEbonyPsi>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:overvolted_cad_assembly>, [
@@ -90,7 +90,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:overvolted_cad_assemb
 	[null, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, null, null], 
 	[null, <psi:cad_core:1>, <ore:ingotEbonyPsi>, <techreborn:upgrades>, null], 
 	[null, null, null, <ore:ingotEbonyPsi>, <techreborn:upgrades>], 
-	[null, null, null, null, <ore:ingotEbonyPsi>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:cad_assembly_mana_blaster>, [
@@ -98,7 +98,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:cad_assembly_mana_bla
 	[null, <ore:gearManasteel>, <ore:gearManasteel>, null, null], 
 	[null, null, <ore:gearManasteel>, <botania:elfglass>, <botania:elfglass>], 
 	[null, null, null, <ore:gearManasteel>, <botania:elfglass>], 
-	[null, null, null, null, <ore:gearManasteel>]
+	[null, null, null, null, <botania:managun>]
 ]);
 
 recipes.remove(<rpsideas:cad_assembly_mana_blaster>);

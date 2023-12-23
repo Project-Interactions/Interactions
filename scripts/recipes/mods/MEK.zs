@@ -9,7 +9,8 @@ import mod.mekanism.gas.IGasStack;
 import mods.mekanism.thermalevaporation;
 import mods.nuclearcraft.Assembler;
 import mods.mekanism.combiner;
-import mods.mekanism.fusioncooling;
+import mods.mekanism.compressor;
+import mods.mekanism.reaction;
 
 recipes.removeByRecipeName("mekanism:energycube_create");
 recipes.remove(<mekanism:saltblock>);
@@ -225,9 +226,6 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy
 	[null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null]
 ]);
 
-//chaos crystal duplication
-mods.mekanism.compressor.addRecipe(<thaumicrestoration:item_ingot:5>, <gas:liquid_chaos>, <draconicevolution:chaos_shard>);
-
 //cheaper energy cube
 recipes.addShaped(<mekanism:energycube>, [[<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>],[<thermalfoundation:material:24>, <ore:circuitBasic>, <thermalfoundation:material:24>], [<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>]]);
 
@@ -247,5 +245,11 @@ recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:dye:4>, null], [<o
 recipes.removeByRecipeName("mekanism:gaugedropper");
 recipes.addShaped(<mekanism:gaugedropper>, [[null, <ore:ingotAdvancedElectronicAlloy>, null], [<ore:paneGlass>, null, <ore:paneGlass>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
 
-//
-fusioncooling.addRecipe(<fluid:preheated_water>*1000,<fluid:high_pressure_steam>*1000);
+
+//chaos duplication rework
+mods.mekanism.chemical.dissolution.addRecipe(<tconevo:metal:5>, <gas:dragon>*144);
+reaction.addRecipe(<tconevo:metal:10>, <liquid:draconium>*144, <gas:fusionfuel>*144, null, <gas:crude_chaos>*144, 5000000, 100);
+compressor.addRecipe(<draconicevolution:chaos_shard:3>, <gas:chaos>, <draconicevolution:chaos_shard>);
+mods.mekanism.chemical.infuser.addRecipe(<gas:crude_chaos>, <gas:dragon>*8, <gas:treated_chaos>*9);
+mods.mekanism.chemical.washer.addRecipe(<gas:treated_chaos>, <gas:pure_chaos>);
+reaction.addRecipe(<thaumcraft:crystal_perditio>, <liquid:fluid_molten_perditio>*144, <gas:pure_chaos>*72, null, <gas:chaos>*72, 5000000, 100);

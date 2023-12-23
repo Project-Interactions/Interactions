@@ -10,7 +10,6 @@ recipes.removeByRecipeName("minecraft:hopper");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");
 recipes.removeByRecipeName("uppers:upper");
-recipes.removeByRecipeName("betternether:stalagnate_planks_chest");
 
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateIron>, null, <ore:plateIron>],[<ore:plateIron>, <tconstruct:wooden_hopper>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
