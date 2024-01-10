@@ -31,6 +31,7 @@ Transposer.addFillRecipe(<thermalfoundation:material:103>, <jaopca:dust.lead_pla
 recipes.removeShapeless(<redstonearsenal:material> * 2, [<ore:dustGold>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 recipes.removeShapeless(<redstonearsenal:material> * 2, [<ore:dustElectrum>, <ore:dustElectrum>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 
+RecipeUtils.recipeTweak(true, <thermalexpansion:augment:401>, [[null, <ore:gearOsmiridium>, null], [<ore:blockGlassHardened>, <thermalfoundation:material:515>, <ore:blockGlassHardened>], [null, <ore:blockOsgloglas>, null]]);
 
 val remove as IItemStack[] = 
 [

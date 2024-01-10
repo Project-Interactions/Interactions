@@ -93,7 +93,7 @@ fluid.heavymetalelements=熔融重金属元素
 fluid.will_alloy=意志五合一流体
 fluid.europium=熔融铕
 fluid.uu=UU物质
-fluid.liquid_chaos=液态混沌
+fluid.chaos=液态混沌
 fluid.superconduct=熔融超导体
 
 fluid.aqua_regia=王水
@@ -158,6 +158,7 @@ contenttweaker.part.dustore=%s矿粉
 
 //crt
 ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l！
+ia.change=下个版本此物品/方块将会被移除，请立即将其更换（一般方式为在工作台合成）
 
 ia.tooltip.1=此物品可能导致tps降低，谨慎使用
 //ia.tooltip.2=在使用时请临时输入/rawinput关闭功能，完成后可再次输入以开启

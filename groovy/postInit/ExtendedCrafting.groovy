@@ -41,3 +41,15 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item("avaritia:armok_orb"), [
 [null, item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), ore('blockBloodInfusedIron'), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), null], 
 [null, null, item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), item('bloodarsenal:blood_diamond', 3), null, null]
 ])
+
+mods.extendedcrafting.TableCrafting.addShaped(4, item("wirelessutils:level_upgrade", 5), [
+[ore('ingotUltimate'), ore('ingotUltimate'), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), ore('ingotUltimate'), ore('ingotUltimate')], 
+[ore('ingotUltimate'), null, null, null, ore('ingotUltimate'), null, null, null, ore('ingotUltimate')], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, ore('ingotUltimate'), ore('ingotUltimate'), ore('ingotUltimate'), null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, ore('ingotUltimate'), null, ore('ingotUltimate'), null, ore('ingotUltimate'), null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotUltimate'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotUltimate'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotUltimate'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[ore('ingotUltimate'), null, null, null, ore('ingotUltimate'), null, null, null, ore('ingotUltimate')], 
+[ore('ingotUltimate'), ore('ingotUltimate'), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), ore('ingotUltimate'), null]
+])

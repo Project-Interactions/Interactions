@@ -27,7 +27,7 @@ recipes.removeByRecipeName("hammercore:thaumadditions_recipestar.0");
 recipes.addShapeless(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), [<thaumcraft:nugget:9>]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:fabric>);
-ArcaneWorkbench.registerShapedRecipe("tc:fabric","",5, [<aspect:aer>, <aspect:ignis>, <aspect:terra>],<thaumcraft:fabric>,[[null,<botania:manaresource:22>,null],[<botania:manaresource:22>,null,<botania:manaresource:22>],[null,<botania:manaresource:22>,null]]);
+ArcaneWorkbench.registerShapedRecipe("harder_fabric","",5, [<aspect:aer>, <aspect:ignis>, <aspect:terra>],<thaumcraft:fabric>,[[null,<botania:manaresource:22>,null],[<botania:manaresource:22>,null,<botania:manaresource:22>],[null,<botania:manaresource:22>,null]]);
 
 Infusion.registerRecipe("seed_tier4", "", <mysticalagriculture:crafting:20>, 2.5, [<aspect:herba>*20,<aspect:alkimia>*20], <mysticalagriculture:crafting:19>, [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]);
 Infusion.registerRecipe("gaia_plate", "", <botanicadds:gaia_plate>, 6.5, [<aspect:aer>*20,<aspect:herba>*20,<aspect:alkimia>*30,<aspect:auram>*30], <botania:terraplate>, [<botanicadds:rune_energy>, <botanicadds:rune_tp>,<botanicadds:gaia_shard>,<botanicadds:gaia_shard>,<botanicadds:gaia_shard>,<botanicadds:elven_lapis_block>,<botanicadds:elven_lapis_block>,<botanicadds:elven_lapis_block> ]);
@@ -37,22 +37,23 @@ Infusion.registerRecipe("arcane_thaumic_circuit", "", <contenttweaker:arcane_tha
 recipes.removeShaped(<thaumcraft:stone_arcane> * 9, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <thaumcraft:crystal_essence>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <ore:ingotTwilghtSteel>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
 
+ArcaneWorkbench.registerShapedRecipe("elytra_dupe","",30, [<aspect:aer>*5],<minecraft:elytra>,[[null,<mysticalagradditions:stuff:3>,null],[<mysticalagradditions:stuff:3>,<thaumadditions:seal_symbol>.withTag({Aspect: "volatus"}),<mysticalagradditions:stuff:3>],[null,<mysticalagradditions:stuff:3>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
-ArcaneWorkbench.registerShapedRecipe("tc:mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
+ArcaneWorkbench.registerShapedRecipe("harder_mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
-ArcaneWorkbench.registerShapedRecipe("tc:mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>*2,[[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>],[<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>],[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>]]);
+ArcaneWorkbench.registerShapedRecipe("harder_mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>*2,[[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>],[<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>],[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>]]);
 
 ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
-ArcaneWorkbench.registerShapedRecipe("tc:fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<botania:managlass>,<botania:managlass>,<botania:managlass>],[<botania:managlass>,<thaumicaugmentation:material:1>,<botania:managlass>],[<botania:managlass>,<botania:managlass>,<botania:managlass>]]);
+ArcaneWorkbench.registerShapedRecipe("harder_fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<botania:managlass>,<botania:managlass>,<botania:managlass>],[<botania:managlass>,<thaumicaugmentation:material:1>,<botania:managlass>],[<botania:managlass>,<botania:managlass>,<botania:managlass>]]);
 
 recipes.addShapeless(<thaumcraft:thaumonomicon>,[<minecraft:writable_book>,<thaumcraft:crystal_essence:*>]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
-ArcaneWorkbench.registerShapedRecipe("tc:mmorphic_resonator","BASEARTIFICE",50, [<aspect:aer>, <aspect:ignis>],<thaumcraft:morphic_resonator>,[[null,<astralsorcery:itemcraftingcomponent:3>,null],[<ore:plateThaumium>,<thaumcraft:nugget:10>,<ore:plateThaumium>],[null,<astralsorcery:itemcraftingcomponent:3>,null]]);
+ArcaneWorkbench.registerShapedRecipe("harder_mmorphic_resonator","BASEARTIFICE",50, [<aspect:aer>, <aspect:ignis>],<thaumcraft:morphic_resonator>,[[null,<astralsorcery:itemcraftingcomponent:3>,null],[<ore:plateThaumium>,<thaumcraft:nugget:10>,<ore:plateThaumium>],[null,<astralsorcery:itemcraftingcomponent:3>,null]]);
 
-ArcaneWorkbench.registerShapedRecipe("tc:aspect_infuser","",80, [<aspect:aer>, <aspect:ignis>],<modularmachinery:aspect_infuser_controller>,[[<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>],[<extendedcrafting:storage:2>, <thaumcraft:essentia_output>, <extendedcrafting:storage:2>], [<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>]]);
+ArcaneWorkbench.registerShapedRecipe("harder_aspect_infuser","",80, [<aspect:aer>, <aspect:ignis>],<modularmachinery:aspect_infuser_controller>,[[<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>],[<extendedcrafting:storage:2>, <thaumcraft:essentia_output>, <extendedcrafting:storage:2>], [<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>]]);
 
 //try to fix no show
 Crucible.removeRecipe(<minecraft:web>);

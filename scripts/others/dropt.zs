@@ -180,6 +180,13 @@ Dropt.list("refined_ore_essence")
         )
         .items([<mekanism:otherdust>])
       )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<jaopca:dust.apatite>])
+      )
 );
 
 //basic ores

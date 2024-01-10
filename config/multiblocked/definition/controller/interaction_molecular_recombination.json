@@ -45,7 +45,7 @@
         "AAAAA",
         "BCCCA",
         "DC@CA",
-        "ECCCA",
+        "ICCCA",
         "AAAAA"
       ],
       [
@@ -153,8 +153,8 @@
       "G": {
         "states": [
           {
-            "id": "contenttweaker:uu",
-            "meta": 0
+            "id": "tconevo:metal_block",
+            "meta": 8
           }
         ],
         "type": "states"
@@ -163,15 +163,19 @@
         "capability": "qmd_particle",
         "type": "capability"
       },
-      "any": {
-        "type": "any"
-      },
       "fluid": {
         "capability": "fluid",
         "type": "capability"
       },
+      "any": {
+        "type": "any"
+      },
       "fe": {
         "capability": "forge_energy",
+        "type": "capability"
+      },
+      "gp": {
+        "capability": "exu2_gp",
         "type": "capability"
       }
     },
@@ -206,6 +210,9 @@
       "H": [
         "heat",
         "qmd"
+      ],
+      "I": [
+        "gp"
       ]
     }
   }

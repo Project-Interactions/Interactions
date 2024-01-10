@@ -80,7 +80,7 @@ mods.enderio.AlloySmelter.recipeBuilder()
         .energy(20000)
         .register()
 mods.enderio.AlloySmelter.recipeBuilder()
-        .input(item('botania:manaresource:14'), item('psi:material:3'),item('qmd:ingot_alloy:2'))
+        .input(item('botania:manaresource:14'), item('threng:material'),item('qmd:ingot_alloy:2'))
         .output(item('tconevo:material'))
         .tierNormal()       // recipes requires normal or enhanced tier
         .energy(100000)

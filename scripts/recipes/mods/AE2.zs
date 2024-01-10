@@ -15,6 +15,7 @@ furnace.remove(<appliedenergistics2:material:5>);
 recipes.remove(<appliedenergistics2:part:180> * 3);
 recipes.remove(<extrautils2:screen>);
 recipes.remove(<extrautils2:passivegenerator> * 3);
+recipes.remove(<aeadditions:hardmedrive>);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:interface>, [[<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>],[<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:fluid_interface>, [[<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:gas_interface>, [[<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>]]);
@@ -82,6 +83,11 @@ recipes.removeShaped(<aeadditions:storage.casing>, [[<appliedenergistics2:quartz
 recipes.removeShaped(<aeadditions:storage.casing:1>, [[<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>], [<ore:dustFluix>, null, <ore:dustFluix>], [<aeadditions:certustank>, <aeadditions:certustank>, <aeadditions:certustank>]]);
 recipes.removeShaped(<aeadditions:storage.casing:2>, [[<ore:ingotGold>, <ore:dustFluix>, <ore:ingotGold>], [<ore:dustFluix>, null, <ore:dustFluix>], [<aeadditions:certustank>, <aeadditions:certustank>, <aeadditions:certustank>]]);
 
+recipes.removeShaped(<aeadditions:storage.gas:3>);
+recipes.removeShaped(<aeadditions:storage.gas:1>);
+recipes.removeShaped(<aeadditions:storage.gas:4>);
+recipes.removeShaped(<aeadditions:storage.gas>);
+recipes.removeShaped(<aeadditions:storage.gas:2>);
 recipes.removeShaped(<aeadditions:storage.gas:5>);
 recipes.removeShaped(<aeadditions:storage.gas:6>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_1k>);
@@ -89,18 +95,6 @@ recipes.removeShaped(<appliedenergistics2:storage_cell_64k>);
 recipes.removeShaped(<appliedenergistics2:storage_cell_16k>);
 recipes.removeShaped(<appliedenergistics2:storage_cell_4k>);
 recipes.removeShaped(<appliedenergistics2:storage_cell_1k>);
-recipes.removeShaped(<aeadditions:storage.gas:3>);
-recipes.removeShaped(<aeadditions:storage.gas:1>);
-recipes.removeShaped(<aeadditions:storage.gas:4>);
-recipes.removeShaped(<aeadditions:storage.gas>);
-recipes.removeShaped(<aeadditions:storage.gas:2>);
-recipes.removeShaped(<aeadditions:storage.physical:2>);
-recipes.removeShaped(<aeadditions:storage.physical>);
-recipes.removeShaped(<aeadditions:storage.physical:3>);
-recipes.removeShaped(<aeadditions:storage.physical:1>);
-recipes.removeShaped(<aeadditions:storage.fluid>);
-recipes.removeShaped(<aeadditions:storage.fluid:1>);
-recipes.removeShaped(<aeadditions:storage.fluid:2>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_64k>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_16k>);
 recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_4k>);
@@ -183,15 +177,39 @@ mods.biggercraftingtables.Giant.addShaped(<appliedenergistics2:creative_storage_
 	[null, null, null, null, <aeadditions:storage.casing>, null, null, null, null]
 ]);
 
-RecipeUtils.recipeTweak(true, <aeadditions:storage.component:1>, [[<ore:dustGlowstone>, <threng:material:6>, <ore:dustGlowstone>], [<aeadditions:storage.component>, <appliedenergistics2:material:22>, <aeadditions:storage.component>], [<ore:dustGlowstone>, <aeadditions:storage.component>, <ore:dustGlowstone>]]);
-RecipeUtils.recipeTweak(true, <aeadditions:storage.component:5>, [[<ore:dyeBlue>, <threng:material:6>, <ore:dyeBlue>], [<aeadditions:storage.component:4>, <appliedenergistics2:material:22>, <aeadditions:storage.component:4>], [<ore:dyeBlue>, <aeadditions:storage.component:4>, <ore:dyeBlue>]]);
+RecipeUtils.recipeTweak(true, <aeadditions:storage.component:11>, [[<ore:dyeYellow>, <threng:material:6>, <ore:dyeYellow>], [<aeadditions:storage.component:10>, <appliedenergistics2:material:22>, <aeadditions:storage.component:10>], [<ore:dyeYellow>, <aeadditions:storage.component:10>, <ore:dyeYellow>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:12>, [[<ore:dyeYellow>, <threng:material:6>, <ore:dyeYellow>], [<aeadditions:storage.component:11>, <appliedenergistics2:material:22>, <aeadditions:storage.component:11>], [<ore:dyeYellow>, <aeadditions:storage.component:11>, <ore:dyeYellow>]]);
-
-RecipeUtils.recipeTweak(true, <aeadditions:storage.component:2>, [[<ore:dustGlowstone>, <threng:material:14>, <ore:dustGlowstone>], [<aeadditions:storage.component:1>, <appliedenergistics2:material:22>, <aeadditions:storage.component:1>], [<ore:dustGlowstone>, <aeadditions:storage.component:1>, <ore:dustGlowstone>]]);
-RecipeUtils.recipeTweak(true, <aeadditions:storage.component:3>, [[<ore:dustGlowstone>, <threng:material:14>, <ore:dustGlowstone>], [<aeadditions:storage.component:2>, <appliedenergistics2:material:22>, <aeadditions:storage.component:2>], [<ore:dustGlowstone>, <aeadditions:storage.component:2>, <ore:dustGlowstone>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:storage.component:13>, [[<ore:dyeYellow>, <threng:material:14>, <ore:dyeYellow>], [<aeadditions:storage.component:12>, <appliedenergistics2:material:22>, <aeadditions:storage.component:12>], [<ore:dyeYellow>, <aeadditions:storage.component:12>, <ore:dyeYellow>]]);
-RecipeUtils.recipeTweak(true, <aeadditions:storage.component:6>, [[<ore:dyeBlue>, <threng:material:14>, <ore:dyeBlue>], [<aeadditions:storage.component:5>, <appliedenergistics2:material:22>, <aeadditions:storage.component:5>], [<ore:dyeBlue>, <aeadditions:storage.component:5>, <ore:dyeBlue>]]);
 
+RecipeUtils.recipeTweak(true, <nae2:material:1>, [[<ore:dustFluix>, <threng:material:6>, <ore:dustFluix>], [<appliedenergistics2:material:38>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:38>], [<ore:dustFluix>, <appliedenergistics2:material:38>, <ore:dustFluix>]]);
+RecipeUtils.recipeTweak(true, <nae2:material:2>, [[<ore:dustFluix>, <threng:material:6>, <ore:dustFluix>], [<nae2:material:1>, <appliedenergistics2:quartz_glass>, <nae2:material:1>], [<ore:dustFluix>, <nae2:material:1>, <ore:dustFluix>]]);
+RecipeUtils.recipeTweak(true, <nae2:material:3>, [[<ore:dustFluix>, <threng:material:14>, <ore:dustFluix>], [<nae2:material:2>, <appliedenergistics2:quartz_glass>, <nae2:material:2>], [<ore:dustFluix>, <nae2:material:2>, <ore:dustFluix>]]);
+RecipeUtils.recipeTweak(true, <nae2:material:4>, [[<ore:dustFluix>, <threng:material:14>, <ore:dustFluix>], [<nae2:material:3>, <appliedenergistics2:quartz_glass>, <nae2:material:3>], [<ore:dustFluix>, <nae2:material:3>, <ore:dustFluix>]]);
+
+RecipeUtils.recipeTweak(true, <nae2:material:5>, [[<ore:dustFluix>, <threng:material:6>, <ore:dustFluix>], [<appliedenergistics2:material:57>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:57>], [<ore:dustFluix>, <appliedenergistics2:material:57>, <ore:dustFluix>]]);
+RecipeUtils.recipeTweak(true, <nae2:material:6>, [[<ore:dustFluix>, <threng:material:6>, <ore:dustFluix>], [<nae2:material:5>, <appliedenergistics2:quartz_glass>, <nae2:material:5>], [<ore:dustFluix>, <nae2:material:5>, <ore:dustFluix>]]);
+RecipeUtils.recipeTweak(true, <nae2:material:7>, [[<ore:dustFluix>, <threng:material:14>, <ore:dustFluix>], [<nae2:material:6>, <appliedenergistics2:quartz_glass>, <nae2:material:6>], [<ore:dustFluix>, <nae2:material:6>, <ore:dustFluix>]]);
+RecipeUtils.recipeTweak(true, <nae2:material:8>, [[<ore:dustFluix>, <threng:material:14>, <ore:dustFluix>], [<nae2:material:7>, <appliedenergistics2:quartz_glass>, <nae2:material:7>], [<ore:dustFluix>, <nae2:material:7>, <ore:dustFluix>]]);
+
+recipes.remove(<nae2:storage_cell_16384k>);
+recipes.remove(<nae2:storage_cell_4096k>);
+recipes.remove(<nae2:storage_cell_1024k>);
+recipes.remove(<nae2:storage_cell_256k>);
+
+recipes.addShapeless(<nae2:storage_cell_16384k>, [<aeadditions:storage.casing>,<nae2:material:4>]);
+recipes.addShapeless(<nae2:storage_cell_4096k>, [<aeadditions:storage.casing>,<nae2:material:3>]);
+recipes.addShapeless(<nae2:storage_cell_1024k>, [<aeadditions:storage.casing>,<nae2:material:2>]);
+recipes.addShapeless(<nae2:storage_cell_256k>, [<aeadditions:storage.casing>,<nae2:material:1>]);
+
+recipes.remove(<nae2:storage_cell_fluid_16384k>);
+recipes.remove(<nae2:storage_cell_fluid_4096k>);
+recipes.remove(<nae2:storage_cell_fluid_1024k>);
+recipes.remove(<nae2:storage_cell_fluid_256k>);
+
+recipes.addShapeless(<nae2:storage_cell_fluid_16384k>, [<aeadditions:storage.casing:1>,<nae2:material:8>]);
+recipes.addShapeless(<nae2:storage_cell_fluid_4096k>, [<aeadditions:storage.casing:1>,<nae2:material:7>]);
+recipes.addShapeless(<nae2:storage_cell_fluid_1024k>, [<aeadditions:storage.casing:1>,<nae2:material:6>]);
+recipes.addShapeless(<nae2:storage_cell_fluid_256k>, [<aeadditions:storage.casing:1>,<nae2:material:5>]);
 
 //fix magnet card jei
 Inscriber.removeRecipe(<appliedenergistics2:material:60>);
@@ -200,3 +218,48 @@ Inscriber.addRecipe(<appliedenergistics2:material:60>, <appliedenergistics2:mate
 //tweak infinity card
 Inscriber.removeRecipe(<appliedenergistics2:material:59>);
 Inscriber.addRecipe(<appliedenergistics2:material:59>, <aeadditions:storage.component:3>, false, <aeadditions:storage.component:5>, <aeadditions:storage.component:12>);
+
+//1.59 swap
+var change as IItemStack[] = [
+    <aeadditions:storage.component>,
+    <aeadditions:storage.component:1>,
+    <aeadditions:storage.component:2>,
+    <aeadditions:storage.component:3>,
+    <extracpus:crafting_storage_256k>,
+    <extracpus:crafting_storage_1024k>,
+    <extracpus:crafting_storage_4096k>,
+    <extracpus:crafting_storage_16384k>,
+    <aeadditions:storage.physical>,
+    <aeadditions:storage.physical:1>,
+    <aeadditions:storage.physical:2>,
+    <aeadditions:storage.physical:3>,
+    <aeadditions:storage.component:4>,
+    <aeadditions:storage.component:5>,
+    <aeadditions:storage.component:6>,
+    <aeadditions:storage.fluid>,
+    <aeadditions:storage.fluid:1>,
+    <aeadditions:storage.fluid:2>
+];
+for warn in change {
+    recipes.remove(warn);
+    warn.addTooltip(game.localize("ia.change"));
+}
+recipes.addShapeless(<nae2:storage_cell_16384k>, [<aeadditions:storage.physical:3>]);
+recipes.addShapeless(<nae2:storage_cell_4096k>, [<aeadditions:storage.physical:2>]);
+recipes.addShapeless(<nae2:storage_cell_1024k>, [<aeadditions:storage.physical:1>]);
+recipes.addShapeless(<nae2:storage_cell_256k>, [<aeadditions:storage.physical>]);
+recipes.addShapeless(<nae2:material:4>, [<aeadditions:storage.component:3>]);
+recipes.addShapeless(<nae2:material:3>, [<aeadditions:storage.component:2>]);
+recipes.addShapeless(<nae2:material:2>, [<aeadditions:storage.component:1>]);
+recipes.addShapeless(<nae2:material:1>, [<aeadditions:storage.component>]);
+recipes.addShapeless(<nae2:storage_crafting_16384k>, [<extracpus:crafting_storage_16384k>]);
+recipes.addShapeless(<nae2:storage_crafting_4096k>, [<extracpus:crafting_storage_4096k>]);
+recipes.addShapeless(<nae2:storage_crafting_1024k>, [<extracpus:crafting_storage_1024k>]);
+recipes.addShapeless(<nae2:storage_crafting_256k>, [<extracpus:crafting_storage_256k>]);
+recipes.addShapeless(<nae2:material:7>, [<aeadditions:storage.component:6>]);
+recipes.addShapeless(<nae2:material:6>, [<aeadditions:storage.component:5>]);
+recipes.addShapeless(<nae2:material:5>, [<aeadditions:storage.component:4>]);
+recipes.addShapeless(<nae2:storage_cell_fluid_4096k>, [<aeadditions:storage.fluid:2>]);
+recipes.addShapeless(<nae2:storage_cell_fluid_1024k>, [<aeadditions:storage.fluid:1>]);
+recipes.addShapeless(<nae2:storage_cell_fluid_256k>, [<aeadditions:storage.fluid>]);
+

@@ -16,13 +16,6 @@
 		}]
 	},
 	{
-		uid: "f6c8f567",
-		type: "item",
-		items: [{
-			item: "engineersdecor:factory_hopper"
-		}]
-	},
-	{
 		uid: "b2daaa80",
 		type: "item",
 		items: [{

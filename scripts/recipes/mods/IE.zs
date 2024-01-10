@@ -40,8 +40,7 @@ recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:mat
 
 BlastFurnace.addRecipe(<techreborn:ingot:19>, <minecraft:iron_ingot>, 100,<immersiveengineering:material:7>);
 BlastFurnace.addRecipe(<techreborn:storage2:10>, <minecraft:iron_block>, 900,<immersiveengineering:material:7>);
-
-BlastFurnace.addRecipe(<thermalfoundation:material:132>, <thermalfoundation:material:68>, 140,<immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:1>,160,<immersiveengineering:material:7>);
 BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 
@@ -70,7 +69,7 @@ ArcFurnace.removeRecipe(<qmd:ingot>);
 
 ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
 ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>*2);
-
+ArcFurnace.removeRecipe(<twilightforest:knightmetal_ingot>*2);
 
 Excavator.removeMineral("Platinum");
 Excavator.removeMineral("Wolframite");

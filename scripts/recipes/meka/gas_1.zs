@@ -4,14 +4,6 @@
 import mods.mekatweaker.GasFactory;
 import mods.mekatweaker.Gas;
 
-var everlasting = GasFactory.createFromFluid(<liquid:everlasting>);
-everlasting.register();
-
-var chaos = GasFactory.createGas("chaos");
-chaos.setIcon("blocks/gas/chaos");
-chaos.setColor(0x000000);
-chaos.register();
-
 var dragon = GasFactory.createGas("dragon");
 dragon.setIcon("blocks/gas/dragon");
 dragon.setColor(0xF1651A);

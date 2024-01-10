@@ -18,6 +18,7 @@ import moretweaker.draconicevolution.FusionCrafting;
 import mods.mekanism.infuser;
 import mods.zenutils.StaticString;
 import mods.extendedcrafting.CompressionCrafting;
+import mods.smokeythebandicoot.zencloche.GardenCloche;
 
 static ess1 as IItemStack = <mysticalagriculture:crafting:17>;
 static ess2 as IItemStack = <mysticalagriculture:crafting:18>;
@@ -136,7 +137,7 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
     recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material." ~ toSnakeCase(name));
     recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds." ~ toSnakeCase(name));
     if(tier == 1){
-        ArcaneWorkbench.registerShapedRecipe("seedt1_" ~ name,"FIRSTSTEPS",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
+        ArcaneWorkbench.registerShapedRecipe("seedt1_" ~ name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
         oreDict["mysticalSeeds" ~ name].firstItem,
         [[block,essi1,block],
         [essi1,ess1,essi1],
@@ -168,6 +169,7 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
         seedT6(oreDict["mysticalSeeds" ~ name].firstItem,block);
         infuser.addRecipe("ENTROPY", 10, oreDict["essence" ~ name].firstItem*8, oreDict[type ~ name].firstItem);
         recipes.addShaped(oreDict["crux" ~ name].firstItem, [[<ore:blockInsanium>, block, <ore:blockInsanium>],[block, <ore:blockUltimate>, block], [<ore:blockInsanium>, block, <ore:blockInsanium>]]);
+        GardenCloche.registerCrop(oreDict["mysticalSeeds" ~ name].firstItem, [oreDict["essence" ~ name].firstItem], oreDict["crux" ~ name].firstItem, oreDict["mysticalCrop" ~ name].firstItem);
     }
 }
 
@@ -440,7 +442,7 @@ for seeds in loadedMods["mysticalagriculture"].items {
     }
 }
 function seedMAT1(output as IItemStack,block as IIngredient) as void{
-    ArcaneWorkbench.registerShapedRecipe(output.name,"FIRSTSTEPS",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
+    ArcaneWorkbench.registerShapedRecipe(output.name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
         output,
         [[block,essi1,block],
         [essi1,ess1,essi1],

@@ -31,6 +31,9 @@ recipes.addShaped(<forestry:arboretum>, [[<tconstruct:firewood:1>, <ore:circuitA
 recipes.remove(<forestry:can> * 12);
 recipes.addShaped(<forestry:can> * 12, [[null, <ore:plateTin>, null], [<ore:plateTin>, null, <ore:plateTin>]]);
 
+//
+recipes.addShaped(<forestry:fertilizer_compound> * 10, [[<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>], [<ore:dustAsh>, <ore:dustApatite>, <ore:dustAsh>], [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]]);
+recipes.addShaped(<forestry:fertilizer_compound> * 6, [[null, <ore:sand>, null], [null, <ore:dustApatite>, null], [null, <ore:sand>, null]]);
 
 //binnie remove
 recipes.remove(<binniecore:glass>);

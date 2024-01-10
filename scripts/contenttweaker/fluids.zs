@@ -41,7 +41,7 @@ zsFluid10.register();
 var zsFluid13 = VanillaFactory.createFluid("uu", Color.fromHex("4F1C48"));
 zsFluid13.register();
 
-var zsFluid16 = VanillaFactory.createFluid("liquid_chaos", Color.fromHex("231923"));
+var zsFluid16 = VanillaFactory.createFluid("chaos", Color.fromHex("231923"));
 zsFluid16.register();
 
 var zsFluid21 = VanillaFactory.createFluid("hot_blend_caminite", Color.fromHex("FFFFFF"));

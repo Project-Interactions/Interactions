@@ -38,18 +38,16 @@ Melting.removeRecipe(<liquid:signalum>,<thermalfoundation:material:101>);
 Melting.removeRecipe(<liquid:lumium>,<thermalfoundation:material:102>);
 Melting.removeRecipe(<liquid:enderium>,<thermalfoundation:material:103>);
 
-Melting.removeRecipe(<liquid:aluminum>,<techreborn:smalldust:1>);
-Melting.removeRecipe(<liquid:aluminum>,<techreborn:dust:1>);
-Melting.removeRecipe(<liquid:aluminum>,<thermalfoundation:material:68>);
-Melting.removeRecipe(<liquid:aluminum>,<thermalfoundation:ore:4>);
-Melting.removeRecipe(<liquid:aluminum>,<immersiveengineering:ore:1>);
-Melting.removeRecipe(<liquid:aluminum>,<nuclearcraft:dust:12>);
-
 Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:material:70>);
 Melting.removeRecipe(<liquid:platinum>,<techreborn:dust:38>);
 Melting.removeRecipe(<liquid:platinum>,<techreborn:smalldust:38>);
 Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:ore:6>);
 Melting.removeRecipe(<liquid:platinum>,<techreborn:ore:9>);
+
+Melting.removeRecipe(<liquid:gold>,<thermalfoundation:material:1>);
+Melting.removeRecipe(<liquid:gold>,<techreborn:smalldust:24>);
+Melting.removeRecipe(<liquid:gold>,<minecraft:gold_ore>);
+Melting.removeRecipe(<liquid:gold>,<lightningcraft:ore_block:1>);
 
 Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:material:71>);
 Melting.removeRecipe(<liquid:iridium>,<techreborn:dust:64>);

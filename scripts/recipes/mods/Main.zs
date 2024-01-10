@@ -3,7 +3,7 @@
 furnace.remove(<nuclearcraft:ingot:12>);
 recipes.remove(<enderio:item_material:10>);
 recipes.remove(<actuallyadditions:item_pickaxe_quartz>);
-furnace.remove(<thermalfoundation:material:132>);
+furnace.remove(<minecraft:gold_ingot>);
 furnace.remove(<immersiveengineering:metal:1>);
 furnace.remove(<techreborn:ingot:24>);
 furnace.remove(<techreborn:ingot:14>);
