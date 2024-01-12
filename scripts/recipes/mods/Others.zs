@@ -57,3 +57,9 @@ RecipeUtils.recipeTweak(true, <bibliocraft:bibliochase>, [[null, <minecraft:wood
 
 recipes.remove(<darkutils:trap_tile:7>);
 recipes.addShaped(<darkutils:trap_tile:7>*6, [[<extrautils2:spike_iron>, <minecraft:skull:*>, <extrautils2:spike_iron>]]);
+
+//flowing time
+recipes.removeByRecipeName("flowingtime:timewatch");
+recipes.remove(<flowingtime:flpedestal>);
+recipes.addShaped(<flowingtime:flpedestal>, [[null, <ore:gearBlackIron>, null],[null, <ore:blockBlackIron>, null], [<ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>]]);
+recipes.addShaped(<flowingtime:timewatch>, [[<ore:plateBlackIron>, <tiabs:timeinabottle>, <ore:plateBlackIron>],[<tiabs:timeinabottle>, <naturesaura:clock_hand>, <tiabs:timeinabottle>], [<ore:plateBlackIron>, <tiabs:timeinabottle>, <ore:plateBlackIron>]]);

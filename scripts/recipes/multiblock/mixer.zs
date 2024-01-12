@@ -3,8 +3,11 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeModifierBuilder;
 
-RecipeAdapterBuilder.create("mixer","tconstruct:smeltery_alloy").build();
+RecipeAdapterBuilder.create("mixer","tconstruct:smeltery_alloy")
+    .addEnergyPerTickInput(500)
+    .build();
 
 RecipeBuilder.newBuilder("tungstensteel", "mixer", 80)
     .addInputs([<techreborn:dust:55>,<thermalfoundation:material:96>])

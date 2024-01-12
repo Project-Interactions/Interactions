@@ -277,6 +277,7 @@ function advancedAlloy(output as ILiquidStack,input as ILiquidStack[]) as void{
 	RecipeBuilder.newBuilder(output.name,"mixer",4)
     .addInputs(input)
     .addFluidOutput(output)
+	.addEnergyPerTickInput(500)
     .build();
     Alloy.addRecipe(output, input);
 }

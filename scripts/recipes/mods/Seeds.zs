@@ -8,7 +8,6 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
-import mods.inworldcrafting.FluidToItem;
 import mods.astralsorcery.Altar;
 import mods.botania.ManaInfusion;
 import mods.extendedcrafting.TableCrafting;
@@ -142,12 +141,12 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
         [[block,essi1,block],
         [essi1,ess1,essi1],
         [block,essi1,block]]);
-        ManaInfusion.addInfusion(oreDict[type ~ name].firstItem, oreDict["essence" ~ name].firstItem, 50);
+        recipes.addShaped(oreDict[type ~ name].firstItem*16,[[oreDict["essence" ~ name].firstItem,oreDict["essence" ~ name].firstItem,oreDict["essence" ~ name].firstItem],[oreDict["essence" ~ name].firstItem,null,oreDict["essence" ~ name].firstItem],[oreDict["essence" ~ name].firstItem,oreDict["essence" ~ name].firstItem,oreDict["essence" ~ name].firstItem]]);
         infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem, oreDict[type ~ name].firstItem);
     }
     if(tier == 2){
         seedT2(name,oreDict["mysticalSeeds" ~ name].firstItem,block);
-        FluidToItem.transform(oreDict[type ~ name].firstItem*16, <liquid:essence>, [oreDict["essence" ~ name].firstItem*32], true);
+        ManaInfusion.addInfusion(oreDict[type ~ name].firstItem, oreDict["essence" ~ name].firstItem, 50);
         infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem*2, oreDict[type ~ name].firstItem);
     }
     if(tier == 3){
@@ -612,11 +611,11 @@ function essenceTweak(output as IItemStack,tier as int) as void {
         }
     }
     if (tier == 1){
-        ManaInfusion.addInfusion(output, essence, 50);
+        recipes.addShaped(output*16,[[essence,essence,essence],[essence,null,essence],[essence,essence,essence]]);
         infuser.addRecipe("BIO", 2, essence, output);
     }
     if (tier == 2){
-        FluidToItem.transform(output*16, <liquid:essence>, [essence*32], true);
+        ManaInfusion.addInfusion(output, essence, 50);
         infuser.addRecipe("BIO", 2, essence*2, output);
     }
     if (tier == 3){
@@ -722,7 +721,7 @@ Crucible.registerRecipe("essence_to_material" ~ "aquamarine", "METALPURIFICATION
 infuser.addRecipe("BIO", 2, <mysticalagriculture:aquamarine_essence>*2, <astralsorcery:itemcraftingcomponent>);
 
 recipes.removeByRecipeName("mysticalagriculture:dustbedrock");
-FluidToItem.transform(<enderio:item_material:20>*16, <liquid:essence>, [<mysticalagriculture:grains_of_infinity_essence>*32], true);
+ManaInfusion.addInfusion(<enderio:item_material:20>, <mysticalagriculture:grains_of_infinity_essence>, 50);
 infuser.addRecipe("BIO", 2, <mysticalagriculture:grains_of_infinity_essence>*2, <enderio:item_material:20>);
 
 recipes.remove(<astralsorcery:blockcustomore>);
@@ -741,11 +740,11 @@ function essenceTweakSpecial(output as IItemStack,tier as int,realoutput as IIte
         }
     }
     if (tier == 1){
-        ManaInfusion.addInfusion(realoutput, essence, 50);
+        recipes.addShaped(realoutput*16,[[essence,essence,essence],[essence,null,essence],[essence,essence,essence]]);
         infuser.addRecipe("BIO", 2, essence, realoutput);
     }
     if (tier == 2){
-        FluidToItem.transform(realoutput*16, <liquid:essence>, [essence*32], true);
+        ManaInfusion.addInfusion(realoutput, essence, 50);
         infuser.addRecipe("BIO", 2, essence*2, realoutput);
     }
     if (tier == 3){

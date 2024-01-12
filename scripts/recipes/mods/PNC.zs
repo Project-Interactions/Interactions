@@ -9,13 +9,6 @@ import mods.pneumaticcraft.refinery;
 import mods.pneumaticcraft.assembly;
 
 pressurechamber.removeAllRecipes();
-//pressurechamber.removeRecipe([<pneumaticcraft:compressed_iron_block>]);
-//pressurechamber.removeRecipe([<pneumaticcraft:ingot_iron_compressed>]);
-//pressurechamber.removeRecipe([<forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1000})]);
-//pressurechamber.removeRecipe([<pneumaticcraft:transistor>]);
-//pressurechamber.removeRecipe([<pneumaticcraft:capacitor>]);
-
-
 pressurechamber.addRecipe([<jaopca:stick.enriched_gold>*6,<minecraft:redstone>*2], 3.0, [<pneumaticcraft:turbine_blade>]);
 pressurechamber.addRecipe([<pneumaticcraft:ingot_iron_compressed>,<pneumaticcraft:plastic:2>], 3.5, [<pneumaticcraft:empty_pcb:100>]);
 pressurechamber.addRecipe([<enderio:item_material>,<moreplates:dark_steel_gear>,<pneumaticcraft:heat_frame>,<enderio:item_material:51>,<ore:circuitElite>], 3.0, [<enderio:item_material:1>]);
@@ -64,3 +57,23 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:thermopneumatic_processing_plant>,
 RecipeUtils.recipeTweak(true, <pneumaticcraft:plastic_mixer>, [[<ore:ingotIronCompressed>, <ore:blockGlass>, <ore:ingotIronCompressed>], [<ore:blockGlass>, <ore:circuitOperation>, <ore:blockGlass>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
 RecipeUtils.recipeTweak(true, <pneumaticcraft:gps_tool>, [[null, <ore:circuitOperation>, null], [<ore:plasticRed>, <ore:circuitOperation>, <ore:plasticRed>], [<ore:plasticRed>, <ore:gemDiamond>, <ore:plasticRed>]]);
 RecipeUtils.recipeTweak(true, <pneumaticcraft:refinery>, [[<ore:ingotIronCompressed>, <ore:circuitOperation>, <ore:ingotIronCompressed>], [<calculator:flawlessglass>, <ore:gemDiamond>, <calculator:flawlessglass>], [<ore:ingotIronCompressed>, <ore:circuitOperation>, <ore:ingotIronCompressed>]]);
+
+//boom
+explosioncrafting.addRecipe(<avaritia:neutronium_compressor>,<extendedcrafting:compressor>,50);
+explosioncrafting.addRecipe(<techreborn:part:44>,<techreborn:rubber_sapling> ,0);
+explosioncrafting.addRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:refined_ore_essence>,40);
+explosioncrafting.addRecipe(<contenttweaker:ore_essence>,<contenttweaker:basic_refined_ore_essence>,20);
+explosioncrafting.addRecipe(<thermalfoundation:material:768>,<techreborn:dust:16> ,90);
+explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<mysticalagriculture:fire_essence>,80);
+//gems
+explosioncrafting.addRecipe(<ore:dustSapphire>,<techreborn:gem:1>,40);
+explosioncrafting.addRecipe(<ore:dustEmerald>,<minecraft:emerald>,40);
+explosioncrafting.addRecipe(<ore:dustRuby>,<techreborn:gem>,40);
+explosioncrafting.addRecipe(<ore:dustDiamond>,<minecraft:diamond>,40);
+explosioncrafting.addRecipe(<ore:dustPeridot>,<techreborn:gem:2>,40);
+//starting
+explosioncrafting.addRecipe(<minecraft:gravel>,<minecraft:sand>,20);
+explosioncrafting.addRecipe(<minecraft:cobblestone>,<minecraft:gravel>,20);
+explosioncrafting.addRecipe(<extrautils2:compressedgravel>,<extrautils2:compressedsand>,20);
+explosioncrafting.addRecipe(<extrautils2:compressedgravel:1>,<extrautils2:compressedsand:1>,20);
+explosioncrafting.addRecipe(<extrautils2:compressedcobblestone:1>,<extrautils2:compressedgravel:1>,20);

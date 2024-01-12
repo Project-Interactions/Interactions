@@ -10,6 +10,7 @@ recipes.addShaped(<multiblocked:multiblock_builder>, [[<buildinggadgets:construc
 recipes.addShaped(<multiblocked:entity>, [[<integrateddynamics:part_entity_writer_item>, <techreborn:machine_casing:2>, <integrateddynamics:part_entity_reader_item>]]);
 recipes.addShaped(<interaction:lp>, [[<bloodmagic:decorative_brick>, <bloodarsenal:base_item:4>, <bloodmagic:decorative_brick>],[<bloodarsenal:base_item:4>, <bloodmagic:blood_tank:3>, <bloodarsenal:base_item:4>], [<bloodmagic:decorative_brick>, <bloodarsenal:base_item:4>, <bloodmagic:decorative_brick>]]);
 recipes.addShaped(<interaction:arcane_crafter>, [[<arcanearchives:storage_shaped_quartz>, <ore:circuitOperation>, <arcanearchives:storage_shaped_quartz>],[<ore:circuitOperation>, <ore:circuitOperation>, <ore:circuitOperation>], [<arcanearchives:storage_shaped_quartz>, <ore:circuitOperation>, <arcanearchives:storage_shaped_quartz>]]);
+recipes.addShaped(<modularmachinery:melter_controller>, [[null, <ore:blockIgnitz>, null],[<ore:blockIgnitz>, <nuclearcraft:melter>, <ore:blockIgnitz>], [<tcomplement:melter:8>, <ore:blockIgnitz>, <tcomplement:melter:8>]]);
 
 //addon by Revo
 recipes.addShaped(<interaction:wind_hole>, [[null, <ore:feather>, null],[<ore:feather>, <immersiveengineering:metal_device1:2>, <ore:feather>], [null, <ore:feather>, null]]);

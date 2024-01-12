@@ -5,6 +5,7 @@ modularmachinery.ebf=Electric Blast Furnace (EBF)
 modularmachinery.freezer=Vacuum Freezer
 modularmachinery.magnetizer=Magnetizer
 modularmachinery.mixer=Mixer
+modularmachinery.melter=Melter
 ia.aspect_infuser.speed=30% faster crafting speed, superimposed
 #controller
 ae_crafter.name=AE Crafter

@@ -1,5 +1,6 @@
 {
   "packName": "Interactions",
+  "packId": "interactions",
   "version": "1.58",
   "debug": false,
   "loaders": {
