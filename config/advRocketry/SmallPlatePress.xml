@@ -189,7 +189,7 @@
 			<oreDict>blockAdvancedAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;36</itemStack>
+			<itemStack>contenttweaker:material_part;4;242</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -381,7 +381,7 @@
 			<oreDict>blockBrass</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;18</itemStack>
+			<itemStack>thaumcraft:plate;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -477,7 +477,7 @@
 			<oreDict>blockCarbon</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;2</itemStack>
+			<itemStack>jaopca:plate.carbon;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -494,14 +494,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.chocolate;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockChrome</oreDict>
-		</input>
-		<output>
-			<itemStack>techreborn:plates;4;20</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -858,14 +850,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockEuropium</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;4;19</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockEvilMetal</oreDict>
 		</input>
 		<output>
@@ -994,14 +978,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockIchorium</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.ichorium;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockIgnitz</oreDict>
 		</input>
 		<output>
@@ -1077,7 +1053,7 @@
 			<oreDict>blockIridiumAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;38</itemStack>
+			<itemStack>contenttweaker:material_part;4;235</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1290,14 +1266,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockMercury</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.mercury;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockMeteorite</oreDict>
 		</input>
 		<output>
@@ -1334,14 +1302,6 @@
 		</input>
 		<output>
 			<itemStack>thaumadditions:mithrillium_plate;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockMixedMetal</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.mixed_metal;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1530,14 +1490,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockPlutonium</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.plutonium;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockPlutonium238</oreDict>
 		</input>
 		<output>
@@ -1661,7 +1613,7 @@
 			<oreDict>blockRefinedIron</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;35</itemStack>
+			<itemStack>contenttweaker:material_part;4;229</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1941,7 +1893,7 @@
 			<oreDict>blockTungsten</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;32</itemStack>
+			<itemStack>jaopca:plate.tungsten;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1954,10 +1906,10 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockTungstensteel</oreDict>
+			<oreDict>blockTungstenSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;33</itemStack>
+			<itemStack>contenttweaker:material_part;4;249</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -2141,7 +2093,7 @@
 			<oreDict>blockZinc</oreDict>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;4;34</itemStack>
+			<itemStack>jaopca:plate.zinc;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -2382,14 +2334,6 @@
 		</input>
 		<output>
 			<itemStack>taiga:tiberium_dust;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>oreTungsten</oreDict>
-		</input>
-		<output>
-			<itemStack>techreborn:dust;2;55</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">

@@ -10,35 +10,21 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<techreborn:dust:52>])
+        .items([<ore:dustSulfur>.firstItem])
       )
       .addDrop(
         Dropt.drop()
         .selector(
         Dropt.weight(60)
         )
-        .items([<techreborn:dust:49>])
+        .items([<ore:dustSapphire>.firstItem])
       )
       .addDrop(
         Dropt.drop()
         .selector(
         Dropt.weight(60)
         )
-        .items([<techreborn:dust:45>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:43>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:41>])
+        .items([<ore:dustRuby>.firstItem])
       )
       .addDrop(
         Dropt.drop()
@@ -73,7 +59,7 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<techreborn:dust:59>])
+        .items([<ore:dustZinc>.firstItem])
       )
       .addDrop(
         Dropt.drop()
@@ -87,56 +73,14 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<techreborn:dust>])
+        .items([<ore:dustEmerald>.firstItem])
       )
       .addDrop(
         Dropt.drop()
         .selector(
         Dropt.weight(60)
         )
-        .items([<techreborn:dust:2>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:5>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:11>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:18>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:23>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:36>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<techreborn:dust:56>])
+        .items([<ore:dustPeridot>.firstItem])
       )
       .addDrop(
         Dropt.drop()
@@ -186,6 +130,13 @@ Dropt.list("refined_ore_essence")
         Dropt.weight(60)
         )
         .items([<jaopca:dust.apatite>])
+      )
+      .addDrop(
+        Dropt.drop()
+        .selector(
+        Dropt.weight(60)
+        )
+        .items([<jaopca:dust.cinnabar>])
       )
 );
 

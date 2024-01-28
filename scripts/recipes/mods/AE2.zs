@@ -13,12 +13,9 @@ recipes.remove(<enderio:item_material>);
 recipes.remove(<appliedenergistics2:grindstone>);
 furnace.remove(<appliedenergistics2:material:5>);
 recipes.remove(<appliedenergistics2:part:180> * 3);
-recipes.remove(<extrautils2:screen>);
-recipes.remove(<extrautils2:passivegenerator> * 3);
-recipes.remove(<aeadditions:hardmedrive>);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:interface>, [[<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>],[<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <calculator:flawlessglass>, <techreborn:plates:35>]]);
-RecipeUtils.recipeTweak(true, <appliedenergistics2:fluid_interface>, [[<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeBlue>, <techreborn:plates:35>]]);
-RecipeUtils.recipeTweak(true, <aeadditions:gas_interface>, [[<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<techreborn:plates:35>, <ore:dyeYellow>, <techreborn:plates:35>]]);
+RecipeUtils.recipeTweak(true, <appliedenergistics2:interface>, [[<ore:plateRefinedIron>, <calculator:flawlessglass>, <ore:plateRefinedIron>],[<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<ore:plateRefinedIron>, <calculator:flawlessglass>, <ore:plateRefinedIron>]]);
+RecipeUtils.recipeTweak(true, <appliedenergistics2:fluid_interface>, [[<ore:plateRefinedIron>, <ore:dyeBlue>, <ore:plateRefinedIron>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<ore:plateRefinedIron>, <ore:dyeBlue>, <ore:plateRefinedIron>]]);
+RecipeUtils.recipeTweak(true, <aeadditions:gas_interface>, [[<ore:plateRefinedIron>, <ore:dyeYellow>, <ore:plateRefinedIron>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<ore:plateRefinedIron>, <ore:dyeYellow>, <ore:plateRefinedIron>]]);
 recipes.addShapeless(<aeadditions:part.base:2>, [<appliedenergistics2:interface>,<appliedenergistics2:part:441>,<appliedenergistics2:material:58>]);
 
 recipes.removeByRecipeName("aeadditions:misc/parttointerface");
@@ -31,7 +28,7 @@ recipes.addShapeless(<ae2fc:dual_interface>, [<appliedenergistics2:interface>, <
 recipes.removeByRecipeName("appliedenergistics2:materials/annihilationcore");
 recipes.addShaped(<appliedenergistics2:material:44> * 2, [[<ore:gemQuartz> | <appliedenergistics2:material:11>, <ore:dustFluix>, <appliedenergistics2:material:23>]]);
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:molecular_assembler>, [[<moreplates:certus_quartz_plate>, <calculator:flawlessglass>, <moreplates:certus_quartz_plate>],[<appliedenergistics2:material:44>, <techreborn:auto_crafting_table>, <appliedenergistics2:material:43>], [<ore:circuitOperation>, <calculator:flawlessglass>, <ore:circuitOperation>]]);
+RecipeUtils.recipeTweak(true, <appliedenergistics2:molecular_assembler>, [[<moreplates:certus_quartz_plate>, <calculator:flawlessglass>, <moreplates:certus_quartz_plate>],[<appliedenergistics2:material:44>, <avaritia:compressed_crafting_table>, <appliedenergistics2:material:43>], [<ore:circuitOperation>, <calculator:flawlessglass>, <ore:circuitOperation>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:drive>, [[<appliedenergistics2:part:16>, <appliedenergistics2:material:24>, <appliedenergistics2:part:16>],[<appliedenergistics2:chest>, <appliedenergistics2:material:35>, <appliedenergistics2:chest>], [<appliedenergistics2:part:16>, <appliedenergistics2:material:24>, <appliedenergistics2:part:16>]]);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:chest>, [[<appliedenergistics2:quartz_glass>, <moreplates:fluix_gear>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:part:16>, <ore:circuitOperation>, <appliedenergistics2:part:16>], [<thaumcraft:plate:2>, <appliedenergistics2:part:380>, <thaumcraft:plate:2>]]);
 recipes.addShapeless(<appliedenergistics2:part:360>, [<appliedenergistics2:part:380>,<integrateddynamics:proxy>,<appliedenergistics2:material:23>]);
@@ -126,7 +123,7 @@ RecipeUtils.recipeTweak(true, <ae2fc:burette>, [[<ore:circuitElite>, <rftools:sh
 RecipeUtils.recipeTweak(true, <ae2fc:ingredient_buffer>, [[<enderio:block_buffer>, <appliedenergistics2:material:35>, <ore:ingotIron>], [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>], [<ore:ingotIron>, <appliedenergistics2:material:54>, <enderio:block_buffer>]]);
 recipes.remove(<ae2fc:fluid_packet_decoder>);
 recipes.addShaped(<ae2fc:fluid_packet_decoder>, [[<ore:circuitElite>, <minecraft:hopper>, <ore:circuitElite>], [<appliedenergistics2:part:16>, <appliedenergistics2:fluid_interface>, <appliedenergistics2:part:16>], [<ore:ingotIron>, <appliedenergistics2:material:23>, <ore:ingotIron>]]);
-RecipeUtils.recipeTweak(true, <ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <threng:machine:4>, <ore:blockLapis>], [<ore:ingotIron>, <techreborn:digital_chest>, <ore:ingotIron>], [<ore:ingotIron>, <ore:circuitElite>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <ae2fc:fluid_pattern_encoder>, [[<ore:blockLapis>, <threng:machine:4>, <ore:blockLapis>], [<ore:ingotIron>, <ironchest:iron_chest:5>, <ore:ingotIron>], [<ore:ingotIron>, <ore:circuitElite>, <ore:ingotIron>]]);
 recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
 recipes.addShapeless(<ae2fc:part_fluid_pattern_terminal>, [<appliedenergistics2:part:340>, <ae2fc:fluid_pattern_encoder>,<aeadditions:fluidfiller>]);
 RecipeUtils.recipeTweak(true, <ae2fc:fluid_level_maintainer>, [[<ore:dustFluix>, <appliedenergistics2:part:281>, <ore:dustFluix>], [<appliedenergistics2:material:24>, <appliedenergistics2:crafting_monitor>, <appliedenergistics2:material:24>], [<ore:dustFluix>, <ore:dyeBlue>, <ore:dustFluix>]]);
@@ -157,7 +154,7 @@ Etcher.removeRecipe(<appliedenergistics2:material:24>);
 Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <ore:dustRedstone>, <ore:itemSilicon>);
 Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
 
-Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
+//Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
 Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
 
 //nae2
@@ -217,9 +214,9 @@ Inscriber.addRecipe(<appliedenergistics2:material:60>, <appliedenergistics2:mate
 
 //tweak infinity card
 Inscriber.removeRecipe(<appliedenergistics2:material:59>);
-Inscriber.addRecipe(<appliedenergistics2:material:59>, <aeadditions:storage.component:3>, false, <aeadditions:storage.component:5>, <aeadditions:storage.component:12>);
+Inscriber.addRecipe(<appliedenergistics2:material:59>, <nae2:material:4>, false, <nae2:material:8>, <aeadditions:storage.component:12>);
 
-//1.59 swap
+/*
 var change as IItemStack[] = [
     <aeadditions:storage.component>,
     <aeadditions:storage.component:1>,
@@ -242,7 +239,7 @@ var change as IItemStack[] = [
 ];
 for warn in change {
     recipes.remove(warn);
-    warn.addTooltip(game.localize("ia.change"));
+    warn.addTooltip(game.localize("ia.deprecated"));
 }
 recipes.addShapeless(<nae2:storage_cell_16384k>, [<aeadditions:storage.physical:3>]);
 recipes.addShapeless(<nae2:storage_cell_4096k>, [<aeadditions:storage.physical:2>]);
@@ -262,4 +259,4 @@ recipes.addShapeless(<nae2:material:5>, [<aeadditions:storage.component:4>]);
 recipes.addShapeless(<nae2:storage_cell_fluid_4096k>, [<aeadditions:storage.fluid:2>]);
 recipes.addShapeless(<nae2:storage_cell_fluid_1024k>, [<aeadditions:storage.fluid:1>]);
 recipes.addShapeless(<nae2:storage_cell_fluid_256k>, [<aeadditions:storage.fluid>]);
-
+*/

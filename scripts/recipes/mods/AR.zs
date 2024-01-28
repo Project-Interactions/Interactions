@@ -177,8 +177,3 @@ ARTweaker.forMachine("Crystallizer")
 .build();
 
 ARTweaker.forMachine("SmallPlatePresser").removeAll();
-
-ARTweaker.forMachine("RollingMachine")
-.remover()
-.addOutputs(<techreborn:plates:38>)
-.remove();

@@ -418,14 +418,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotIchorium</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:stick.ichorium;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotBoron11</oreDict>
 		</input>
 		<output>
@@ -546,14 +538,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotMixedMetal</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:stick.mixed_metal;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotLumix</oreDict>
 		</input>
 		<output>
@@ -574,14 +558,6 @@
 		</input>
 		<output>
 			<itemStack>moreplates:nickel_stick;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotPlutonium</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:stick.plutonium;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -637,7 +613,7 @@
 			<oreDict>ingotAdvancedAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>jaopca:stick.advanced_alloy;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;244</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -802,14 +778,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotTungstensteel</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:stick.tungstensteel;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotThorium</oreDict>
 		</input>
 		<output>
@@ -954,14 +922,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotChrome</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:stick.chrome;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotPlutonium241</oreDict>
 		</input>
 		<output>
@@ -1070,14 +1030,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:stick.beryllium_7;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotMercury</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:stick.mercury;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1213,7 +1165,7 @@
 			<oreDict>ingotRefinedIron</oreDict>
 		</input>
 		<output>
-			<itemStack>jaopca:stick.refined_iron;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;230</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1222,14 +1174,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:stick.essence_metal;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotEuropium</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;2;21</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1446,6 +1390,14 @@
 		</input>
 		<output>
 			<itemStack>jaopca:stick.soularium;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungstenSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;251</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1701,7 +1653,7 @@
 			<oreDict>ingotIridiumAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>jaopca:stick.iridium_alloy;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;237</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">

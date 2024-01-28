@@ -9,7 +9,7 @@
       "5": "superconduct_block",
       "6": "advanced_electronic_alloy_coil",
       "7": "six_in_one_thaumic_block",
-      "8": "europium_block",
+      "8": "tungsten_steel_block",
       "9": "crude_gold_ore",
       "10": "mithril_block",
       "11": "twilght_steel_block",
@@ -21,12 +21,15 @@
     "1": {
       "0": "menril_coil",
       "1": "naturium_block",
+      "2": "refined_iron_block",
       "3": "menril_block",
+      "4": "iridium_alloy_block",
       "5": "advanced_electronic_alloy_block",
       "6": "gaia_coil",
       "7": "nyx_ore",
       "8": "nyx_block",
-      "9": "gallium_block"
+      "9": "gallium_block",
+      "10": "advanced_alloy_block"
     }
   }
 }

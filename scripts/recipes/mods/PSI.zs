@@ -4,6 +4,7 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.psi.Trick;
+import mods.zenscroll.ZenScroll;
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembler>, [
 	[null, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>, <ore:gearQuartzBlack>, null], 
@@ -60,38 +61,9 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <psi:cad_assembly:4>, [
 	[null, null, null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>], 
 	[null, null, null, null, <botania:managun>]
 ]);
+ZenScroll.add(<psi:cad_assembly:4>,<rpsideas:overclocked_cad_assembly>,<rpsideas:underclocked_cad_assembly>);
+ZenScroll.add(<psi:cad_assembly:3>,<rpsideas:undervolted_cad_assembly>,<rpsideas:overvolted_cad_assembly>);
 
-mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:overclocked_cad_assembly>, [
-	[<ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, <psi:cad_core:1>, null, null], 
-	[null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, null, null], 
-	[null, <psi:cad_core:1>, <ore:ingotIvoryPsi>, <techreborn:upgrades>, null], 
-	[null, null, null, <ore:ingotIvoryPsi>, <techreborn:upgrades>], 
-	[null, null, null, null, <botania:managun>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:underclocked_cad_assembly>, [
-	[<ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, null, null, null], 
-	[null, <ore:ingotIvoryPsi>, <ore:ingotIvoryPsi>, null, null], 
-	[null, null, <ore:ingotIvoryPsi>, <techreborn:mv_transformer>, null], 
-	[null, null, null, <ore:ingotIvoryPsi>, <techreborn:mv_transformer>], 
-	[null, null, null, null, <botania:managun>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:undervolted_cad_assembly>, [
-	[<ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, null, null, null], 
-	[null, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, null, null], 
-	[null, null, <ore:ingotEbonyPsi>, <techreborn:lv_transformer>, null], 
-	[null, null, null, <ore:ingotEbonyPsi>, <techreborn:lv_transformer>], 
-	[null, null, null, null, <botania:managun>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:overvolted_cad_assembly>, [
-	[<ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, <psi:cad_core:1>, null, null], 
-	[null, <ore:ingotEbonyPsi>, <ore:ingotEbonyPsi>, null, null], 
-	[null, <psi:cad_core:1>, <ore:ingotEbonyPsi>, <techreborn:upgrades>, null], 
-	[null, null, null, <ore:ingotEbonyPsi>, <techreborn:upgrades>], 
-	[null, null, null, null, <botania:managun>]
-]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <rpsideas:cad_assembly_mana_blaster>, [
 	[<ore:gearManasteel>, <ore:gearManasteel>, null, null, null], 

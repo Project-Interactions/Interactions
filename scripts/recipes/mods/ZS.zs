@@ -8,9 +8,10 @@ import mods.zensummoning.MobInfo;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 //蓝色史莱姆
+
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-	.setCatalyst(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "slime_cot", Amount: 1000}}))
+	.setCatalyst(<forestry:can:1>.withTag({Fluid: {FluidName: "slime_cot", Amount: 1000}}))
 	.setConsumeCatalyst(true)
 	.setReagents([<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>])
 	.addMob(MobInfo.create()
@@ -22,7 +23,7 @@ SummoningDirector.addSummonInfo(
 //血腥1
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-	.setCatalyst(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}))
+	.setCatalyst(<forestry:can:1>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}))
 	.setConsumeCatalyst(true)
 	.setReagents([<botania:brewflask>.withTag({brewKey: "bloodthirst"}),<thaumcraft:ingot>])
 	.addMob(MobInfo.create()
@@ -33,7 +34,7 @@ SummoningDirector.addSummonInfo(
 //血腥2
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-	.setCatalyst(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}))
+	.setCatalyst(<forestry:can:1>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}))
 	.setConsumeCatalyst(true)
 	.setReagents([<botania:brewvial>.withTag({brewKey: "bloodthirst"}),<thaumcraft:ingot>])
 	.addMob(MobInfo.create()

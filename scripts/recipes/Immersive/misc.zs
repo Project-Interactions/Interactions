@@ -1,10 +1,6 @@
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.MetalPress;
 
-
-ArcFurnace.removeRecipe(<techreborn:ingot:15>);
-ArcFurnace.removeRecipe(<techreborn:ingot:15>*2);
-ArcFurnace.removeRecipe(<techreborn:ingot:3>);
 ArcFurnace.removeRecipe(<mekanism:ingot:1>);
 ArcFurnace.removeRecipe(<mekanism:ingot:1>*2);
 ArcFurnace.removeRecipe(<thermalfoundation:material:134>);
@@ -59,12 +55,10 @@ ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
 ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:4>);
 ArcFurnace.removeRecipe(<enderio:item_alloy_ingot>);
 ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:1>);
-ArcFurnace.removeRecipe(<techreborn:ingot:17>);
 
 MetalPress.removeRecipe(<moreplates:void_gear>);
 MetalPress.removeRecipe(<moreplates:void_plate>);
 MetalPress.removeRecipe(<immersiveengineering:graphite_electrode>);
-MetalPress.removeRecipe(<techreborn:plates:38>);
 
 MetalPress.addRecipe(<moreplates:restonia_plate>,<actuallyadditions:item_crystal>,<immersiveengineering:mold>,1024);
 MetalPress.addRecipe(<moreplates:palis_plate>,<actuallyadditions:item_crystal:1>,<immersiveengineering:mold>,1024);

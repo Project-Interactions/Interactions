@@ -30,7 +30,7 @@ recipes.remove(<solarflux:efficiency_upgrade>);
 recipes.remove(<solarflux:blank_upgrade>);
 
 //panels
-recipes.addShaped(<solarflux:solar_panel_3>, [[<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>],[null, <moreplates:redstone_alloy_gear>, null], [<solarflux:solar_panel_2>, <techreborn:storage2:10>, <solarflux:solar_panel_2>]]);
+recipes.addShaped(<solarflux:solar_panel_3>, [[<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>],[null, <moreplates:redstone_alloy_gear>, null], [<solarflux:solar_panel_2>, <ore:blockRefinedIron>, <solarflux:solar_panel_2>]]);
 recipes.addShaped(<solarflux:solar_panel_2> * 2, [[<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>],[<solarflux:solar_panel_1>, <ore:craftingPiston>, <solarflux:solar_panel_1>], [<solarflux:solar_panel_1>, <ore:craftingPiston>, <solarflux:solar_panel_1>]]);
 recipes.addShaped(<solarflux:solar_panel_1> * 2, [[<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>],[<ore:bricksStone>, <ore:ingotRefinedIron>, <ore:bricksStone>], [<ore:bricksStone>, <ore:bricksStone>, <ore:bricksStone>]]);
 recipes.addShaped(<solarflux:solar_panel_8>, [[<solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>],[<ore:gearOsmium>, <ore:plateDenseTungstensteel>, <ore:gearOsmium>], [<solarflux:solar_panel_7>, <mysticalagradditions:special:1>, <solarflux:solar_panel_7>]]);

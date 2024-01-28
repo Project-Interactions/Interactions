@@ -75,8 +75,8 @@ lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
 uiScale:1
-bossHealthPushBox:1
-potionEffectPushBox:1
+bossHealthPushBox:0
+potionEffectPushBox:0
 minimapFrame:2
 minimapFrameColor:15
 compassColor:9
@@ -89,7 +89,7 @@ waypointDistancePrecision:1
 mainDotSize:2
 partialYTeleportation:true
 deleteReachedDeathpoints:true
-hideMinimapUnderScreen:true
+hideMinimapUnderScreen:false
 hideMinimapUnderF3:true
 manualCaveModeStartAuto:true
 manualCaveModeStart:-1

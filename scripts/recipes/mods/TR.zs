@@ -1,4 +1,5 @@
 #reloadable
+/*
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
@@ -258,3 +259,8 @@ assemblingMachine.addRecipe(<techreborn:part:43>*2, <ore:platePlatinum>.firstIte
 assemblingMachine.addRecipe(<techreborn:part>*2, <techreborn:part:43>, <ore:plateMenril>.firstItem*2, 400, 600);
 assemblingMachine.addRecipe(<techreborn:part:1>, <techreborn:part:3>, <actuallyadditions:item_crystal_empowered:4>*8, 400, 800);
 
+//carbon fiber
+recipes.remove(<techreborn:part:35>);
+recipes.addShaped(<techreborn:part:35>*8, [[<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})], [<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}}), null, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})], [<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})]]);
+recipes.addShaped(<techreborn:part:35>, [[null, <ore:dustCoke>, null], [<ore:dustCoke>, null, <ore:dustCoke>], [null, <ore:dustCoke>, null]]);
+*/

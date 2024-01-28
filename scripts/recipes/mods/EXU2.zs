@@ -9,24 +9,16 @@ import mods.extrautils2.Crusher;
 recipes.remove(<extrautils2:quarryproxy>);
 recipes.removeShapeless(<extrautils2:rainbowgenerator>);
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.removeShaped(<extrautils2:resonator>, [[<ore:dustRedstone>, <ore:blockCoal>, <ore:dustRedstone>], [<ore:ingotIron>, <extrautils2:ingredients>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-recipes.removeShaped(<extrautils2:passivegenerator:5>, [[<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients:1>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <minecraft:nether_brick_fence:*>, <extrautils2:decorativesolid:3>]]);
-recipes.removeShaped(<extrautils2:passivegenerator:7>, [[null, <extrautils2:ingredients:1>, null], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);
-recipes.removeShaped(<extrautils2:passivegenerator:3>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>], [<extrautils2:ingredients:1>, <extrautils2:ingredients>, <extrautils2:ingredients:1>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
-recipes.removeShaped(<extrautils2:passivegenerator:2>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <ore:ingotGold>, <extrautils2:decorativesolid:3>]]);
-recipes.removeShaped(<extrautils2:passivegenerator:4>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>], [null, <extrautils2:ingredients:1>, <extrautils2:ingredients>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
-recipes.addShaped(<extrautils2:passivegenerator:5>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>],[<extrautils2:decorativesolid:3>, <techreborn:solid_fuel_generator>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>]]);
+recipes.remove(<extrautils2:screen>);
+recipes.remove(<extrautils2:passivegenerator> * 3);
+recipes.remove(<aeadditions:hardmedrive>);
+recipes.remove(<extrautils2:resonator>);
 recipes.addShaped(<extrautils2:passivegenerator> * 2, [[null, <solarflux:solar_panel_2>, null],[<ore:blockAquamarine>, <solarflux:solar_panel_2>, <ore:blockAquamarine>], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);
-recipes.addShaped(<extrautils2:passivegenerator:7>, [[null, <extrautils2:ingredients:1>, null],[<moreplates:demon_gear>, <extrautils2:ingredients:1>, <moreplates:demon_gear>], [<extrautils2:decorativesolid:2>, <extrautils2:decorativesolid:2>, <extrautils2:decorativesolid:2>]]);
-recipes.addShaped(<extrautils2:passivegenerator:4>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>],[<extrautils2:decorativesolid:3>, <techreborn:wind_mill>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>]]);
-recipes.addShaped(<extrautils2:passivegenerator:3>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>],[<extrautils2:decorativesolid:3>, <techreborn:water_mill>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>]]);
-recipes.addShaped(<extrautils2:passivegenerator:2>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>],[<extrautils2:decorativesolid:3>, <techreborn:thermal_generator>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>]]);
 recipes.addShaped(<contenttweaker:useful_block>, [[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>],[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>], [<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>]]);
 recipes.addShaped(<extrautils2:resonator>, [[<ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>],[<extrautils2:ingredients>, <extrautils2:machine>, <extrautils2:ingredients>], [<astralsorcery:itemcraftingcomponent:4>, <contenttweaker:useful_block>, <astralsorcery:itemcraftingcomponent:4>]]);
 Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
-Resonator.add(<techreborn:machine_frame>, <contenttweaker:useful_block>, 1600);
 
-recipes.addShaped(<extrautils2:machine> * 2, [[<ore:plateAlchemicalBrass>, <ore:gearTwilghtSteel>, <ore:plateThaumium>],[<immersiveengineering:metal_decoration0:5>, <ore:circuitMana>, <immersiveengineering:metal_decoration0:5>], [<ore:plateThaumium>, <ore:gearTwilghtSteel>, <ore:plateAlchemicalBrass>]]);
+recipes.addShaped(<extrautils2:machine> * 2, [[<ore:plateBrass>, <ore:gearTwilghtSteel>, <ore:plateThaumium>],[<immersiveengineering:metal_decoration0:5>, <ore:circuitMana>, <immersiveengineering:metal_decoration0:5>], [<ore:plateThaumium>, <ore:gearTwilghtSteel>, <ore:plateBrass>]]);
 
 
 Resonator.add(<compactmachines3:machine:3>, <compactmachines3:machine:2>, 10000);

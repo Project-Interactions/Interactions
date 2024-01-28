@@ -31,29 +31,26 @@ Melting.removeRecipe(<liquid:tungsten>);
 Melting.removeRecipe(<liquid:osmium>,<mekanism:dust:2>);
 Melting.removeRecipe(<liquid:osmium>,<mekanism:oreblock>);
 
+Melting.removeRecipe(<liquid:titanium>,<libvulpes:ore0:8>);
+Melting.removeRecipe(<liquid:titanium>,<qmd:dust:3>);
+
 Melting.removeRecipe(<liquid:fluxed_electrum>,<redstonearsenal:material>);
 Melting.removeRecipe(<liquid:gelid_enderium>,<redstonerepository:material>);
+
+Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:material:70>);
+Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:ore:6>);
 
 Melting.removeRecipe(<liquid:signalum>,<thermalfoundation:material:101>);
 Melting.removeRecipe(<liquid:lumium>,<thermalfoundation:material:102>);
 Melting.removeRecipe(<liquid:enderium>,<thermalfoundation:material:103>);
 
-Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:material:70>);
-Melting.removeRecipe(<liquid:platinum>,<techreborn:dust:38>);
-Melting.removeRecipe(<liquid:platinum>,<techreborn:smalldust:38>);
-Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:ore:6>);
-Melting.removeRecipe(<liquid:platinum>,<techreborn:ore:9>);
-
 Melting.removeRecipe(<liquid:gold>,<thermalfoundation:material:1>);
-Melting.removeRecipe(<liquid:gold>,<techreborn:smalldust:24>);
 Melting.removeRecipe(<liquid:gold>,<minecraft:gold_ore>);
 Melting.removeRecipe(<liquid:gold>,<lightningcraft:ore_block:1>);
 
 Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:material:71>);
-Melting.removeRecipe(<liquid:iridium>,<techreborn:dust:64>);
-Melting.removeRecipe(<liquid:iridium>,<techreborn:smalldust:66>);
 Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:ore:7>);
-Melting.removeRecipe(<liquid:iridium>,<techreborn:ore:1>);
+Melting.removeRecipe(<liquid:iridium>,<libvulpes:ore0:10>);
 
 Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_axe>);
 Melting.removeRecipe(<liquid:valkyrie>,<aether_legacy:valkyrie_boots>);
@@ -135,7 +132,7 @@ recipes.removeShaped(<tinkertoolcasts:upgrade_ultimate>, [[<minecraft:emerald_bl
 recipes.addShaped(<tinkertoolcasts:upgrade_ultimate>, [[<extendedcrafting:material:33>, <extendedcrafting:material:32>, <extendedcrafting:material:33>],[<tinkertoolcasts:upgrade_iridium>, <extendedcrafting:material:32>, <tinkertoolcasts:upgrade_iridium>], [null, <extendedcrafting:material:32>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_iridium>, [[<plustic:osmiridiumnugget>, <plustic:osmiridiumingot>, <plustic:osmiridiumnugget>],[<tinkertoolcasts:upgrade_reinforced>, <plustic:osmiridiumingot>, <tinkertoolcasts:upgrade_reinforced>], [null, <plustic:osmiridiumingot>, null]]);
 recipes.addShaped(<tinkertoolcasts:upgrade_reinforced>, [[<ore:nuggetAdvancedElectronicAlloy>, <ore:ingotAdvancedElectronicAlloy>, <ore:nuggetAdvancedElectronicAlloy>],[<tinkertoolcasts:upgrade_advanced>, <ore:ingotAdvancedElectronicAlloy>, <tinkertoolcasts:upgrade_advanced>], [null, <ore:ingotAdvancedElectronicAlloy>, null]]);
-recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>],[<techreborn:nuggets:19>, <techreborn:ingot:19>, <techreborn:nuggets:19>], [null, <techreborn:ingot:19>, null]]);
+recipes.addShaped(<tinkertoolcasts:upgrade_advanced>, [[<ore:nuggetRefinedIron>, <ore:ingotRefinedIron>, <ore:nuggetRefinedIron>],[<ore:nuggetRefinedIron>, <ore:ingotRefinedIron>, <ore:nuggetRefinedIron>], [null, <ore:ingotRefinedIron>, null]]);
 
 Casting.addTableRecipe(<immersiveengineering:material:20>, <immersiveengineering:mold:4>, <liquid:copper>,144,false, 80);
 Casting.addTableRecipe(<immersiveengineering:material:21>, <immersiveengineering:mold:4>, <liquid:electrum>,144,false, 80);
@@ -161,11 +158,8 @@ recipes.remove(<tconevo:metal:40>);
 recipes.removeShapeless(<tconevo:metal:40> * 9);
 
 //Melting recipe for cot liquid
-Melting.addRecipe(<liquid:refinediron>*144,<techreborn:ingot:19>,600);
-Melting.addRecipe(<liquid:refinediron>*1296,<techreborn:storage2:10>,600);
 Melting.addRecipe(<liquid:tic_useful_metal>*144,<contenttweaker:useful_ingot>,900);
 Melting.addRecipe(<liquid:tic_useful_metal>*1296,<contenttweaker:useful_block>,900);
-Melting.addRecipe(<liquid:advancedalloy>*144,<techreborn:ingot:20>,450);
 
 //remove part casting
 val part as IItemStack[] = 
@@ -264,10 +258,6 @@ function advancedCast(input as ILiquidStack,output as IItemStack,amount as int,t
 }
 //tinker toolcast fix
 advancedCast(<liquid:diamond>,<minecraft:diamond>,666,380,"gem");
-Casting.addTableRecipe(<techreborn:plates:35>, <tconstruct:cast_custom:3>, <liquid:refinediron>,144,false, 80);
-Casting.addBasinRecipe(<techreborn:storage2:10>, null, <liquid:refinediron>, 1296, false, 640);
-advancedCast(<liquid:refinediron>,<techreborn:plates:35>,144,80,"plate");
-advancedCast(<liquid:refinediron>,<techreborn:ingot:19>,144,20,"ingot");
 Casting.addTableRecipe(<contenttweaker:useful_ingot>, <tconstruct:cast_custom>, <liquid:tic_useful_metal>,144,false, 80);
 advancedCast(<liquid:tic_useful_metal>,<contenttweaker:useful_ingot>,144,80,"ingot");
 Casting.addBasinRecipe(<contenttweaker:useful_block>, null, <liquid:tic_useful_metal>, 1296, false, 640);

@@ -219,7 +219,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "techreborn:refined_iron_fence"
+                "enderio:block_dark_iron_bars"
             ]
         },
         {
@@ -227,7 +227,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "techreborn:refined_iron_fence"
+                "enderio:block_dark_iron_bars"
             ]
         },
         {
@@ -235,7 +235,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "techreborn:refined_iron_fence"
+                "enderio:block_dark_iron_bars"
             ]
         },
         {

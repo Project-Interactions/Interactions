@@ -1,28 +1,20 @@
 {
-	x: -6.0d,
-	y: 6.5d,
+	title: "不稳定金属锭",
+	x: -5.0d,
+	y: 6.0d,
 	text: [
 		"{9881d108.ia.0ef591b8.1}",
 		"{9881d108.ia.0ef591b8.2}",
 		"{9881d108.ia.0ef591b8.3}"
 	],
 	tasks: [{
-		uid: "ea8f23dd",
+		uid: "5ab818dd",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotUnstable"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotUnstable"
-				}
-			}
-		}],
-		ignore_nbt: 1b
+			item: "extrautils2:unstableingots 1 2"
+		},
+		{
+			item: "extrautils2:unstableingots"
+		}]
 	}]
 }

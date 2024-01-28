@@ -457,15 +457,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotPlutonium</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.plutonium</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotConstantan</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -506,7 +497,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;1;36</itemStack>
+			<itemStack>contenttweaker:material_part;1;242</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -799,15 +790,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotAlchemicalBrass</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>thaumcraft:plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotGallium</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -875,7 +857,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;1;35</itemStack>
+			<itemStack>contenttweaker:material_part;1;229</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -965,7 +947,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;1;32</itemStack>
+			<itemStack>jaopca:plate.tungsten</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -993,6 +975,15 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.dark_chocolate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungstenSteel</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;1;249</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1028,7 +1019,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;1;34</itemStack>
+			<itemStack>jaopca:plate.zinc</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1145,7 +1136,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;1;38</itemStack>
+			<itemStack>contenttweaker:material_part;1;235</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1290,15 +1281,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.ignitz</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotPlatinum</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>thermalfoundation:material;1;326</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1600,15 +1582,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotIchorium</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.ichorium</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotEnergium</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -1654,15 +1627,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotCarbon</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>techreborn:plates;1;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotBrickNetherGlazed</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -1672,11 +1636,11 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotMixedMetal</oreDict>
+			<oreDict>ingotCarbon</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>jaopca:plate.mixed_metal</itemStack>
+			<itemStack>jaopca:plate.carbon</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -1798,15 +1762,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotTungstensteel</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>techreborn:plates;1;33</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotThorium</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -1870,15 +1825,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotChrome</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>techreborn:plates;1;20</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotReinforcedIron</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -1911,15 +1857,6 @@
 		</input>
 		<output>
 			<itemStack>moreplates:vivid_alloy_plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotMercury</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.mercury</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -2001,15 +1938,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.basalt</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotEuropium</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;19</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -2342,7 +2270,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>techreborn:plates;1;18</itemStack>
+			<itemStack>thaumcraft:plate</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -2496,15 +2424,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.chromium</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotInvar</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>thermalfoundation:material;1;354</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">

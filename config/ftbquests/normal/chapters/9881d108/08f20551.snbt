@@ -2,9 +2,6 @@
 	title: "{9881d108.ia.08f20551.title}",
 	x: -1.5d,
 	y: 1.5d,
-	text: [
-		"{9881d108.ia.08f20551.1}"
-	],
 	dependencies: [
 		"67bde826"
 	],

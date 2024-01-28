@@ -20,7 +20,7 @@
 	{
 		uid: "a9d02ac6",
 		type: "item",
-		item: "techreborn:gem 1 1",
-		count: 4
+		item: "projectred-core:resource_item 1 201",
+		count: 16
 	}]
 }

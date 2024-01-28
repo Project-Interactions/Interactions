@@ -2,7 +2,7 @@
     "registryname": "melter", 
     "localizedname": "ia.machine.melter.name", 
     "requires-blueprint": false, 
-    "color": "80372b", 
+    "color": "FF4900", 
     "parts": [
         {
             "x": -1,

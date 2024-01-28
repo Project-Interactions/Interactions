@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "8e81cadf",
+		type: "item",
+		items: [{
+			item: "ifgretro:rubber_sapling"
+		}]
+	}]
+}

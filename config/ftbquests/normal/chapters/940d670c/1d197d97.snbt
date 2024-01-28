@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 1.5d,
+	text: [
+		"配方均分发配"
+	],
+	dependencies: [
+		"7afb950f"
+	],
+	tasks: [{
+		uid: "8db7a8e4",
+		type: "item",
+		items: [{
+			item: "nae2:part 1 1"
+		}]
+	}]
+}

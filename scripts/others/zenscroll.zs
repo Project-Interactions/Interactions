@@ -24,12 +24,10 @@ ZenScroll.add(<rftools:powercell_creative>
 ,<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})
 ,<draconicevolution:draconium_capacitor:2>
 ,<calculator:creativepowercube>
-,<techreborn:creative_solar_panel>
 ,<draconicevolution:creative_rf_source>
 ,<integrateddynamics:creative_energy_battery>);
 
-ZenScroll.add(<techreborn:creative_quantum_tank>
-,<thermalexpansion:reservoir:32000>
+ZenScroll.add(<thermalexpansion:reservoir:32000>
 ,<extrautils2:drum:4>
 ,<mekanism:machineblock2:11>.withTag({tier: 4}));
 
@@ -37,12 +35,10 @@ ZenScroll.add(<techreborn:creative_quantum_tank>
 ZenScroll.add(<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte})
 ,<extrautils2:creativechest>
 ,<extrautils2:creativeharvest>
-,<techreborn:creative_quantum_chest>
 ,<mekanism:basicblock:6>.withTag({tier: 4})
 ,<storagedrawers:upgrade_creative:1>
 ,<draconicevolution:creative_exchanger>);
 
-ZenScroll.add(<bloodmagic:activation_crystal:2>,<bloodmagic:sacrificial_dagger:1>,<avaritia:armok_orb>);
 ZenScroll.add(<extrautils2:itemcreativedestructionwand>,<extrautils2:itemcreativebuilderswand>);
 ZenScroll.add(<thaumicenergistics:essentia_cell_creative>,<thaumicwonders:creative_essentia_jar>,<thaumicaugmentation:impetus_creative:1>,<thaumicaugmentation:impetus_creative>);
 ZenScroll.add(<thaumcraft:creative_flux_sponge>,<thaumcraft:thaumonomicon:1>);

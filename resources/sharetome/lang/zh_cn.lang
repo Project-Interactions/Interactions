@@ -1,7 +1,0 @@
-sharetome.misc.give=当 %s 的知识成为你自己的知识时，你的头脑中充满了可能性……
-sharetome.misc.no_change=你阅读了这本书，但没有发现任何新内容。
-sharetome.misc.write=你将你的发现写在书本中，并将其密封以供其他人阅读。
-
-sharetome.tooltip.player=由 %s 书写
-
-item.sharetome:sharing_tome.name=知识共享之书

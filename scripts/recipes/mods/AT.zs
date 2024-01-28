@@ -36,15 +36,13 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:armok_orb>);
-mods.avaritia.ExtremeCrafting.remove(<botania:specialflower>.withTag({type: "asgardandelion"}));
 
 mods.avaritia.ExtremeCrafting.addShaped("infinityingot", <avaritia:resource:6>, [
 	[null, null, null, null, null, null, null, null, null], 
 	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <avaritia:infinitato>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <avaritiatweaks:infinitato>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
@@ -63,5 +61,5 @@ mods.extendedcrafting.TableCrafting.addShapeless(4,<contenttweaker:wood_essence>
 	<minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2>, <minecraft:log2:1>, <advancedrocketry:alienwood>, <advancedrocketry:charcoallog>, <bloodarsenal:blood_infused_wooden_log>, <forestry:logs.0:2>, <forestry:logs.0:1>, <forestry:logs.0>, <defiledlands:tenebra_log>, <calculator:diamondlog>, <calculator:pearlog>, <calculator:tanzanitelog>,
 	<calculator:amethystlog>, <botanicadds:elvenwood_log>, <forestry:logs.3:1>, <forestry:logs.3>, <forestry:logs.5:1>, <forestry:logs.5:2>, <forestry:logs.5:3>, <forestry:logs.6>, <avaritia:resource:2>, <forestry:logs.6:2>, <forestry:logs.6:3>, <theaurorian:weepingwillowlog>, <forestry:logs.7>, <twilightforest:twilight_log>, <integrateddynamics:menril_log>,
 	<twilightforest:magic_log:3>, <twilightforest:magic_log:2>, <twilightforest:magic_log:1>, <twilightforest:magic_log>, <twilightforest:twilight_log:3>, <twilightforest:twilight_log:2>, <twilightforest:twilight_log:1>, <lightningcraft:wood_log>, <harvestcraft:pammaple>, <harvestcraft:pampaperbark>, <thaumcraft:log_greatwood>, <thaumcraft:log_silverwood>,
-	<techreborn:rubber_log>, <theaurorian:silentwoodlog>, <thaumicbases:enderlogs>, <thaumicbases:goldenlogs>, <immersiveengineering:treated_wood>, <naturesaura:ancient_log>, <botania:livingwood>, <twilightforest:giant_log>, <forbiddenmagicre:log_tainted>, <botania:livingwood:5>, <stygian:endlog>, <astralsorcery:blockinfusedwood>, <thaumcraft:taint_log>,
+	<ifgretro:rubber_wood_log>, <theaurorian:silentwoodlog>, <thaumicbases:enderlogs>, <thaumicbases:goldenlogs>, <immersiveengineering:treated_wood>, <naturesaura:ancient_log>, <botania:livingwood>, <twilightforest:giant_log>, <forbiddenmagicre:log_tainted>, <botania:livingwood:5>, <stygian:endlog>, <astralsorcery:blockinfusedwood>, <thaumcraft:taint_log>,
 	<extrautils2:decorativesolidwood:1>, <botania:dreamwood>, <aether_legacy:aether_log:1>, <aether_legacy:aether_log>, <tconstruct:firewood:1>, <thaumicbases:netherlogs>, <botania:shimmerwoodplanks>, <animus:blockbloodwood>, <forestry:logs.6:1>]);

@@ -20,7 +20,7 @@ recipes.removeShaped(<calculator:calculator>, [[<ore:cobblestone>, <calculator:c
 recipes.removeShaped(<calculator:calculatorscreen>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 recipes.removeShaped(<calculator:calculatorassembly> * 8, [[<ore:cobblestone>, <minecraft:stone_button:*>, <ore:cobblestone>], [<minecraft:stone_button:*>, <ore:cobblestone>, <minecraft:stone_button:*>], [<ore:cobblestone>, <minecraft:stone_button:*>, <ore:cobblestone>]]);
 recipes.removeShaped(<calculator:powercube>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <minecraft:furnace:*>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-recipes.addShaped(<calculator:powercube>, [[<ore:calculatorReinforcedStone>, <ore:circuitMana>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <techreborn:energycrystal>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <ore:circuitMana>, <ore:calculatorReinforcedStone>]]);
+recipes.addShaped(<calculator:powercube>, [[<ore:calculatorReinforcedStone>, <ore:circuitMana>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <contenttweaker:energycrystal>, <ore:calculatorReinforcedStone>], [<ore:calculatorReinforcedStone>, <ore:circuitMana>, <ore:calculatorReinforcedStone>]]);
 recipes.removeShaped(<calculator:advancedassembly> * 4, [[<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>], [<calculator:calculatorassembly:*>, <calculator:reinforcedironingot:*>, <calculator:calculatorassembly:*>], [<calculator:enrichedgoldingot:*>, <calculator:calculatorassembly:*>, <calculator:enrichedgoldingot:*>]]);
 recipes.removeShaped(<calculator:atomicmodule> * 4, [[<ore:gemTanzanite>, <calculator:calculatorassembly:*>, <ore:gemTanzanite>], [<calculator:calculatorassembly:*>, <ore:gemDiamond>, <calculator:calculatorassembly:*>], [<ore:gemTanzanite>, <calculator:calculatorassembly:*>, <ore:gemTanzanite>]]);
 //part
@@ -38,7 +38,7 @@ flawless.removeRecipe(<minecraft:diamond>);
 flawless.removeRecipe(<minecraft:ghast_tear>);
 flawless.removeRecipe(<minecraft:blaze_rod>);
 flawless.removeRecipe(<calculator:flawlessglass>*4);
-flawless.addRecipe(<techreborn:reinforced_glass>, <techreborn:reinforced_glass>, <techreborn:reinforced_glass>, <techreborn:reinforced_glass>,<calculator:flawlessglass>*3);
+flawless.addRecipe(<thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>,<calculator:flawlessglass>*3);
 
 val ccs = <ore:calculatorCircuit>;
 flawless.addRecipe(<contenttweaker:circuit_stack>, <contenttweaker:operation_circuit>, <contenttweaker:operation_circuit>, <contenttweaker:circuit_stack>,<contenttweaker:applicated_operation_circuit>);

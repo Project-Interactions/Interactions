@@ -2,17 +2,12 @@
 	title: "ae16384",
 	loot_size: 1,
 	rewards: [{
-		item: "extracpus:crafting_storage_16384k"
+		item: "nae2:storage_crafting_16384k"
 	},
 	{
 		item: {
-			id: "aeadditions:storage.physical",
-			Damage: 3s,
-			tag: {
-				upgrades: {},
-				config: {},
-				fuzzyMode: "IGNORE_ALL"
-			}
+			id: "nae2:storage_cell_16384k",
+			tag: {}
 		}
 	}]
 }

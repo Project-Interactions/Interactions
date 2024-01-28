@@ -158,7 +158,8 @@ contenttweaker.part.dustore=%s Ore Dust
 
 //crt
 ia.custom.welcome.name=§o§lWelcome to§c§o§lInteractions Modpack§r§c§l!
-ia.change=This item/block will be removed in the next version, please replace it immediately (the usual method is to swap it at the workbench)
+ia.change=This item/block will be removed in the next version, §cplease replace it immediately§r (the usual method is to swap it at the workbench)
+ia.deprecated=This item/block has been deprecated
 
 ia.tooltip.1=May reduce tps, use with caution
 //ia.tooltip.2=Please temporarily enter /rawinput to turn off the function when using it. After completion, you can enter it again to turn it on.

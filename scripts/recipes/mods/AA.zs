@@ -29,9 +29,9 @@ recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<moreplates:
 	recipes.remove(<actuallyadditions:item_misc:8>);
 	recipes.addShapedMirrored("Advanced Coil", 
 	<actuallyadditions:item_misc:8>, 
-	[[null, <techreborn:cable:6>, <forestry:oak_stick>],
-	[<techreborn:cable:6>, <actuallyadditions:item_misc:7>, <techreborn:cable:6>], 
-	[<forestry:oak_stick>, <techreborn:cable:6>, null]]);
+	[[null, <ore:wireGold>, <forestry:oak_stick>],
+	[<ore:wireGold>, <actuallyadditions:item_misc:7>, <ore:wireGold>], 
+	[<forestry:oak_stick>, <ore:wireGold>, null]]);
 
 //remove orginal recipes
 val removeEmpowerer as IItemStack[] = 
@@ -97,13 +97,14 @@ for remove2 in removeAtomicReconstructor {
 }
 
 AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
+
 //readd
 # Restonia
-	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <ore:stickArdite>, <moreplates:demon_plate>, 25000, 100, [1.0, 0.0, 0.0]);
-	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal>, <techreborn:gem>, <enderio:item_alloy_ingot:3>, <ore:stickArdite>, <moreplates:demon_plate>, 250000, 200, [1.0, 0.0, 0.0]);
+	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <projectred-core:resource_item:200>, <enderio:item_alloy_ingot:3>, <ore:stickArdite>, <moreplates:demon_plate>, 25000, 100, [1.0, 0.0, 0.0]);
+	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal>, <projectred-core:resource_item:200>, <enderio:item_alloy_ingot:3>, <ore:stickArdite>, <moreplates:demon_plate>, 250000, 200, [1.0, 0.0, 0.0]);
 # Palis
-	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <botanicadds:mana_lapis>, <naturesaura:sky_ingot>, 25000, 100, [0.0, 0.0, 1.0]);
-	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <moreplates:cobalt_gear>, <techreborn:gem:1>, <botanicadds:mana_lapis>, <naturesaura:sky_ingot>, 250000, 200, [0.0, 0.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <moreplates:cobalt_gear>, <projectred-core:resource_item:201>, <botanicadds:mana_lapis>, <naturesaura:sky_ingot>, 25000, 100, [0.0, 0.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <moreplates:cobalt_gear>, <projectred-core:resource_item:201>, <botanicadds:mana_lapis>, <naturesaura:sky_ingot>, 250000, 200, [0.0, 0.0, 1.0]);
 # Diamantine
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <calculator:enddiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 50000, 200, [0.0, 1.0, 1.0]);
 	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <calculator:enddiamond>, <thaumcraft:nitor_blue>, <astralsorcery:itemcraftingcomponent>, <botania:manaresource>, 500000, 400, [0.0, 1.0, 1.0]);
@@ -111,13 +112,13 @@ AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal:3>,<extrautils2:compressedcobblestone:1>, <extendedcrafting:material>, <thaumcraft:plate:3>, <actuallyadditions:block_misc:2>, 25000, 100, [0.1, 0.0, 0.0]);
 	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>,<extrautils2:compressedcobblestone:1>, <extendedcrafting:material>, <thaumcraft:plate:3>, <actuallyadditions:block_misc:2>, 250000, 200, [0.1, 0.0, 0.0]);
 # Emeradic
-	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <tconstruct:materials:9>, <techreborn:gem:2>, <moreplates:terrasteel_gear>,<thaumcraft:crystal_terra>, 50000, 200, [0.0, 1.0, 0.498039]);
-	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <tconstruct:materials:9>, <techreborn:gem:2>, <moreplates:terrasteel_gear>,<thaumcraft:crystal_terra>, 500000, 400, [0.0, 1.0, 0.498039]);
+	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <tconstruct:materials:9>, <projectred-core:resource_item:202>, <moreplates:terrasteel_gear>,<thaumcraft:crystal_terra>, 50000, 200, [0.0, 1.0, 0.498039]);
+	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <tconstruct:materials:9>, <projectred-core:resource_item:202>, <moreplates:terrasteel_gear>,<thaumcraft:crystal_terra>, 500000, 400, [0.0, 1.0, 0.498039]);
 # Enori
-	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 25000, 100, [1.0, 1.0, 1.0]);
-	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <techreborn:ingot:19>, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 250000, 200, [1.0, 1.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <ore:ingotRefinedIron>.firstItem, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 25000, 100, [1.0, 1.0, 1.0]);
+	Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <ore:ingotRefinedIron>.firstItem, <ceramics:porcelain>, <environmentalmaterials:alabaster>, <ore:plateLithium>, 250000, 200, [1.0, 1.0, 1.0]);
 
-AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:5>, <techreborn:ingot:19>, 5000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:5>, <ore:ingotRefinedIron>.firstItem, 5000);
 AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <thermalfoundation:material:802>, 5000);
 AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <immersiveengineering:material:6>, 5000);
 AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <enderio:item_material:15>, 5000);

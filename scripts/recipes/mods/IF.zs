@@ -23,8 +23,8 @@ recipes.remove(<teslacorelib:energy_tier1>);
 recipes.remove(<teslacorelib:base_addon>);
 RecipeUtils.recipeTweak(true, <industrialforegoing:laser_base>, [[<industrialforegoing:plastic>, <moreplates:pig_iron_gear>, <industrialforegoing:plastic>],[<ore:plateNaturium>, <botanicadds:rune_energy>, <ore:plateNaturium>], [<ore:runeGreedB>, <teslacorelib:machine_case>, <ore:runeGreedB>]]);
 RecipeUtils.recipeTweak(true, <industrialforegoing:laser_drill>, [[<industrialforegoing:plastic>, <industrialforegoing:laser_lens>, <industrialforegoing:plastic>],[<industrialforegoing:plastic>, <ore:blockUranium>, <industrialforegoing:plastic>], [<ore:plateNaturium>, <teslacorelib:machine_case>, <ore:plateNaturium>]]);
-furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:dust:11>, 1.0);
-recipes.addShaped(<industrialforegoing:mob_imprisonment_tool>, [[null, <industrialforegoing:plastic>, null],[<industrialforegoing:plastic>, <techreborn:plates:35>, <industrialforegoing:plastic>], [null, <industrialforegoing:plastic>, null]]);
+furnace.addRecipe(<thaumcraft:quicksilver>, <ore:dustCinnabar>, 1.0);
+recipes.addShaped(<industrialforegoing:mob_imprisonment_tool>, [[null, <industrialforegoing:plastic>, null],[<industrialforegoing:plastic>, <ore:plateRefinedIron>, <industrialforegoing:plastic>], [null, <industrialforegoing:plastic>, null]]);
 
 recipes.remove(<industrialforegoing:infinity_drill>);
 

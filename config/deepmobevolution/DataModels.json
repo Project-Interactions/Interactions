@@ -13,7 +13,7 @@
     "lootItems": [
       "minecraft:blaze_rod,22",
       "thermalfoundation:material,32,771",
-      "ichoriumkit:resourcekami,2,1"
+      "thaumictinkerer:kamiresource,2,1"
     ],
     "deepLearnerDisplay": {
       "hearts": 10,
@@ -101,7 +101,7 @@
       "minecraft:ender_pearl,6",
       "minecraft:end_crystal,1",
       "enderio:block_enderman_skull,2",
-      "ichoriumkit:resourcekami,2,0"
+      "thaumictinkerer:kamiresource,2,0"
     ],
     "trial": {
       "entities": "deepmoblearning:trial_enderman",
@@ -135,7 +135,7 @@
     ],
     "lootItems": [
       "minecraft:ghast_tear,8",
-      "ichoriumkit:resourcekami,2,0"
+      "thaumictinkerer:kamiresource,2,0"
     ],
     "deepLearnerDisplay": {
       "hearts": 10,

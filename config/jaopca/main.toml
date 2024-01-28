@@ -43,7 +43,7 @@
 	#List of oredict modules that should not be registered.
 	moduleBlacklist = []
 	#List of custom oredict entries to add. Format: <mod:item@meta=oredict>
-	custom = []
+	custom = ["thaumictinkerer:kamiresource@3=ingotIchorium","thaumictinkerer:kamiresource@5=nuggetIchorium","deepmoblearning:glitch_infused_ingot@0=ingotGlitch", "aetherworks:item_resource@4=ingotAether", "calculator:reinforcedironingot@0=ingotReinforcedIron", "calculator:redstoneingot@0=ingorReinforcedRedstone", "naturesaura:infused_iron@0=ingotInfusedIron", "naturesaura:infused_iron@0=ingotInfusedIron", "naturesaura:sky_ingot@0=ingotSky", "twilightforest:steeleaf_ingot@0=ingotSteelleaf", "theaurorian:auroriansteel@0=ingotAurorianSteel", "theaurorian:ceruleaningot@0=ingotCerulean", "theaurorian:moonstoneingot@0=ingotMoonstone", "theaurorian:aurorianiteingot@0=ingotAurorianite", "theaurorian:crystallineingot@0=ingotCrystalline", "theaurorian:umbraingot@0=ingotUmbra", "soot:ingot_antimony@0=ingotAntinomy", "industrialforegoing:pink_slime_ingot@0=ingotPinkSlime", "threng:material@0=ingotFluixSteel", "bloodarsenal:base_item@4=ingotBloodInfusedIron", "contenttweaker:cold_ingot@0=ingotCold", "contenttweaker:useful_ingot@0=ingotUseful"]
 
 #Configurations related to recipes.
 [recipes]

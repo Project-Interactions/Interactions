@@ -2,16 +2,6 @@ import mods.ltt.LootTable;
 
 var itemsToRemove as string[] = [
 	
-    "techreborn:ingot:10",
-	"techreborn:ingot:14",
-	"techreborn:ingot:15",
-	"techreborn:ingot:16",
-	"techreborn:ingot:17",
-	"techreborn:ingot:22",
-	"techreborn:ingot:3",
-	"techreborn:ingot:7",
-	"techreborn:part",
-	"techreborn:machine_frame:2",
 	"twilightforest:uncrafting_table",
 	"actuallyadditions:block_misc:4",
 	"actuallyadditions:item_crystal",

@@ -8,13 +8,13 @@
 		uid: "ceb75c5c",
 		type: "item",
 		items: [{
-			item: "techreborn:ingot 1 19"
+			item: "contenttweaker:material_part 1 228"
 		}],
 		count: 16L
 	}],
 	rewards: [{
 		uid: "295ac8ae",
 		type: "item",
-		item: "techreborn:storage2 1 10"
+		item: "contenttweaker:sub_block_holder_1 1 2"
 	}]
 }

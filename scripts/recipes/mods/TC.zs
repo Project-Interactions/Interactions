@@ -12,14 +12,12 @@ import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Infusion;
 import mods.randomtweaker.thaumadditions.IFluxConcentrator;
 
-furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:ore:6>);
-
 //salis_mundus
 recipes.remove(<thaumcraft:salis_mundus>);
 recipes.addShapeless(<thaumcraft:salis_mundus>,[<contenttweaker:crude_salis_mundus>,<naturesaura:chunk_loader>]);
 
 //
-mods.techreborn.grinder.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 30, 15);
+mods.thermalexpansion.Pulverizer.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 1500);
 recipes.remove(<thaumcraft:nugget:9> * 9);
 mods.immersiveengineering.Crusher.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 2048);
 recipes.removeByRecipeName("hammercore:thaumadditions_recipestar.0");
@@ -40,7 +38,7 @@ recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarb
 ArcaneWorkbench.registerShapedRecipe("elytra_dupe","",30, [<aspect:aer>*5],<minecraft:elytra>,[[null,<mysticalagradditions:stuff:3>,null],[<mysticalagradditions:stuff:3>,<thaumadditions:seal_symbol>.withTag({Aspect: "volatus"}),<mysticalagradditions:stuff:3>],[null,<mysticalagradditions:stuff:3>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
-ArcaneWorkbench.registerShapedRecipe("harder_mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateAlchemicalBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateAlchemicalBrass>,null]]);
+ArcaneWorkbench.registerShapedRecipe("harder_mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateBrass>,null]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
 ArcaneWorkbench.registerShapedRecipe("harder_mechanism_complex","BASEARTIFICE",50, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_complex>*2,[[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>],[<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>],[<ore:plateSixInOneThaumic>,<thaumcraft:mechanism_simple>,<ore:plateSixInOneThaumic>]]);
@@ -74,8 +72,6 @@ Crucible.registerRecipe("chorus_fruit"   , "", <minecraft:chorus_fruit>, <minecr
 
 Crucible.removeRecipe(<thaumicbases:metalleatseed>);
 Crucible.registerRecipe("hard_metalleatseed"   , "TB.PLANT1", <thaumicbases:metalleatseed>, <mysticalagriculture:iron_seeds>, [<aspect:ordo>*25,<aspect:metallum>*25,<aspect:victus>*25]);
-
-Crucible.registerRecipe("sharing_tome", "", <sharetome:sharing_tome>, <thaumadditions:knowledge_tome>, [<aspect:humanus>*20]);
 
 val hg = <thaumcraft:quicksilver>;
 ArcaneWorkbench.removeRecipe(<thaumicenergistics:diffusion_core>*2);
@@ -114,12 +110,12 @@ IFluxConcentrator.addRecipes(<theaurorian:mushroomsmall>,<defiledlands:scuronott
 
 val infusionRemove as IItemStack[] = 
 [
-<ichoriumkit:ichor_block>,
-<ichoriumkit:ichor_helm>,
-<ichoriumkit:kami_helm>,
-<ichoriumkit:kami_chest>,
-<ichoriumkit:kami_legs>,
-<ichoriumkit:kami_boots>,
+<thaumictinkerer:ichor_block>,
+<thaumictinkerer:ichor_helm>,
+<thaumictinkerer:kami_helm>,
+<thaumictinkerer:kami_chest>,
+<thaumictinkerer:kami_legs>,
+<thaumictinkerer:kami_boots>,
 <thaumicbases:herobrinesscythe>,
 <thaumcraft:elemental_hoe>,
 <warptheory:item_cleanser>,
@@ -135,12 +131,12 @@ for Remove in infusionRemove {
 Infusion.registerRecipe(
     "harder_kami", //id
     "ICHOR", //research CAPITAL
-    <ichoriumkit:resourcekami:2>, //output
+    <thaumictinkerer:kamiresource:2>, //output
     8, //instability
     [<aspect:spiritus>*125, <aspect:lux>*125,<aspect:humanus>*125], //aspect
     <minecraft:nether_star>, //core item
-    [<ichoriumkit:resourcekami>,
-    <ichoriumkit:resourcekami:1>,
+    [<thaumictinkerer:kamiresource>,
+    <thaumictinkerer:kamiresource:1>,
     <botanicadds:elven_lapis>,
     <moreplates:manyullyn_plate>]//items
 );
@@ -148,41 +144,41 @@ Infusion.registerRecipe(
 Infusion.registerRecipe(
     "harder_kami_helm", //id
     "KAMIHELM", //research CAPITAL
-    <ichoriumkit:kami_helm>, //output
+    <thaumictinkerer:kami_helm>, //output
     40, //instability
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100], //aspect
-    <ichoriumkit:ichor_helm>, //core item
-    [<ichoriumkit:resourcekami:3>,<ichoriumkit:resourcekami:3>,<mysticalagriculture:supremium_helmet>]//items
+    <thaumictinkerer:ichor_helm>, //core item
+    [<thaumictinkerer:kamiresource:3>,<thaumictinkerer:kamiresource:3>,<mysticalagriculture:supremium_helmet>]//items
 );
 
 Infusion.registerRecipe(
     "harder_kami_chest", //id
     "KAMICHEST", //research CAPITAL
-    <ichoriumkit:kami_chest>, //output
+    <thaumictinkerer:kami_chest>, //output
     40, //instability
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100], //aspect
-    <ichoriumkit:ichor_chest>, //core item
-    [<ichoriumkit:resourcekami:3>,<ichoriumkit:resourcekami:3>,<mysticalagriculture:supremium_chestplate>]//items
+    <thaumictinkerer:ichor_chest>, //core item
+    [<thaumictinkerer:kamiresource:3>,<thaumictinkerer:kamiresource:3>,<mysticalagriculture:supremium_chestplate>]//items
 );
 
 Infusion.registerRecipe(
     "harder_kami_leg", //id
     "KAMILEGS", //research CAPITAL
-    <ichoriumkit:kami_legs>, //output
+    <thaumictinkerer:kami_legs>, //output
     40, //instability
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100], //aspect
-    <ichoriumkit:ichor_legs>, //core item
-    [<ichoriumkit:resourcekami:3>,<ichoriumkit:resourcekami:3>,<mysticalagriculture:supremium_leggings>]//items
+    <thaumictinkerer:ichor_legs>, //core item
+    [<thaumictinkerer:kamiresource:3>,<thaumictinkerer:kamiresource:3>,<mysticalagriculture:supremium_leggings>]//items
 );
 
 Infusion.registerRecipe(
     "KAMIBOOTS", //id
     "ICHOR@1", //research CAPITAL
-    <ichoriumkit:kami_boots>, //output
+    <thaumictinkerer:kami_boots>, //output
     40, //instability
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100], //aspect
-    <ichoriumkit:ichor_boots>, //core item
-    [<ichoriumkit:resourcekami:3>,<ichoriumkit:resourcekami:3>,<mysticalagriculture:supremium_boots>]//items
+    <thaumictinkerer:ichor_boots>, //core item
+    [<thaumictinkerer:kamiresource:3>,<thaumictinkerer:kamiresource:3>,<mysticalagriculture:supremium_boots>]//items
 );
 
 Infusion.registerRecipe(
@@ -192,7 +188,7 @@ Infusion.registerRecipe(
     20, //instability
     [<aspect:potentia>*115,<aspect:aversio>*40,<aspect:alienis>*25,<aspect:mortuus>*25], //aspect
     <thaumadditions:mithminite_scythe>, //core item
-    [<thaumcraft:metal_void>,<ichoriumkit:resourcekami:2>,<thaumcraft:metal_void>,<ichoriumkit:resourcekami:2>]//items
+    [<thaumcraft:metal_void>,<thaumictinkerer:kamiresource:2>,<thaumcraft:metal_void>,<thaumictinkerer:kamiresource:2>]//items
 );
 
 Infusion.registerRecipe(
@@ -204,8 +200,8 @@ Infusion.registerRecipe(
     <thaumcraft:void_hoe>, //core item
     [<thaumcraft:plank_greatwood>,<thaumcraft:nugget:10>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})]//items
 );
-ArcaneWorkbench.removeRecipe(<ichoriumkit:resourcekami:3>);
-ArcaneWorkbench.registerShapedRecipe("harder_kami","ICHOR",300, [<aspect:aer>,<aspect:aqua>,<aspect:ordo>,<aspect:terra>,<aspect:ignis>,<aspect:perditio>],<ichoriumkit:resourcekami:3>*3,[[<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>],[<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>,<ichoriumkit:resourcekami:2>],[<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>]]);
+ArcaneWorkbench.removeRecipe(<thaumictinkerer:kamiresource:3>);
+ArcaneWorkbench.registerShapedRecipe("harder_kami","ICHOR",300, [<aspect:aer>,<aspect:aqua>,<aspect:ordo>,<aspect:terra>,<aspect:ignis>,<aspect:perditio>],<thaumictinkerer:kamiresource:3>*3,[[<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>],[<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>],[<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>]]);
 
 //creative
 Infusion.registerRecipe(
@@ -215,7 +211,7 @@ Infusion.registerRecipe(
     50, //instability
     [<aspect:praecantatio>*100,<aspect:instrumentum>*100,<aspect:superbia>*100,<aspect:cognitio>*100,<aspect:caeles>*100], //aspect
     <thaumcraft:thaumonomicon>, //core item
-    [<thaumadditions:mithminite_block>,<tconevo:metal_block:4>,<contenttweaker:sub_block_holder_0:7>,<thaumadditions:mithminite_smelter>,<thaumadditions:jar_adaminite>,<thaumadditions:mithminite_fabric>,<sharetome:sharing_tome>,<thaumicenergistics:essentia_component_64k>,<thaumicwonders:void_beacon>]//items
+    [<thaumadditions:mithminite_block>,<tconevo:metal_block:4>,<contenttweaker:sub_block_holder_0:7>,<thaumadditions:mithminite_smelter>,<thaumadditions:jar_adaminite>,<thaumadditions:mithminite_fabric>,<thaumictinkerer:share_book>,<thaumicenergistics:essentia_component_64k>,<thaumicwonders:void_beacon>]//items
 );
 
 //PURE_TEAR
@@ -228,3 +224,8 @@ Infusion.registerRecipe(
     <warptheory:item_cleanser_minor>, //core item
     [<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>]//items
 );
+
+//harder more 100% produce smelters
+ArcaneWorkbench.removeRecipe(<thaumadditions:adaminite_smelter>);
+ArcaneWorkbench.removeRecipe(<thaumadditions:mithminite_smelter>);
+

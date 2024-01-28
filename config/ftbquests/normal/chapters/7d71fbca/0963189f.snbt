@@ -24,7 +24,8 @@
 					FluidName: "lifeessence",
 					Amount: 1000
 				}
-			}
+			},
+			Count: 1b
 		},
 		count: 8
 	}]

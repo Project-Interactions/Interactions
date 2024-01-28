@@ -8,12 +8,6 @@
 
 <ore:circuitMana>.add(<contenttweaker:infused_mana_circuit>);
 
-<ore:circuitElite>.remove(<techreborn:part:1>);
-<ore:circuitMaster>.remove(<techreborn:part>);
-<ore:circuitAdvanced>.add(<techreborn:part>);
-<ore:circuitAdvanced>.remove(<techreborn:part:30>);
-<ore:circuiGood>.add(<techreborn:part:30>);
-
 <ore:circuitElite>.add(<qmd:semiconductor:4>);
 <ore:circuitMaster>.add(<qmd:semiconductor:5>);
 <ore:circuitNuclear>.add(<qmd:semiconductor:6>);

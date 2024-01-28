@@ -46,20 +46,8 @@
 <ore:blockUUMatter>.add(<tconevo:metal_block:8>);
 <ore:blockEnergium>.add(<tconevo:metal_block:7>);
 
-<ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
-<ore:ingotAlchemicalBrass>.add(<thaumcraft:ingot:2>);
-<ore:plateBrass>.remove(<thaumcraft:plate>);
-<ore:plateAlchemicalBrass>.add(<thaumcraft:plate>);
-<ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
-<ore:nuggetAlchemicalBrass>.add(<thaumcraft:nugget:8>);
-<ore:blockBrass>.remove(<thaumcraft:metal_brass>);
-<ore:blockAlchemicalBrass>.add(<thaumcraft:metal_brass>);
-
 <ore:heartAwakenedDraconium>.add(<draconicevolution:dragon_heart>);
 <ore:heartChaotic>.add(<draconicadditions:chaos_heart>);
-
-
-<ore:saplingRubber>.add(<techreborn:rubber_sapling>);
 
 <ore:ingotSunnarium>.add(<contenttweaker:sunnarium>);
 <ore:plateSunnarium>.add(<contenttweaker:sunnariumalloy>);
@@ -68,7 +56,7 @@
 
 <ore:itemRubber>.remove(<industrialforegoing:plastic>);
 <ore:platePlastic>.add(<industrialforegoing:plastic>);
-<ore:blockGaia>.add(<avaritia:gaia_block>);
+<ore:blockGaia>.add(<avaritiatweaks:gaia_block>);
 
 <ore:circuitMana>.add(<contenttweaker:thaumic_circuit>);
 <ore:circuitThaumic>.add(<contenttweaker:arcane_thaumic_circuit>);
@@ -118,7 +106,6 @@
 <ore:crystalCrudeOil>.add(<immersivepetroleum:material>);
 <ore:clathrateOil>.add(<immersivepetroleum:material>);
 
-<ore:blockRefinedIron>.add(<techreborn:storage2:10>);
 //cc +
 <ore:ingotReinforcedRedstone>.add(<calculator:redstoneingot>);
 <ore:blockReinforcedRedstone>.add(<calculator:material:9>);
@@ -150,3 +137,10 @@
 
 <ore:stickNdYAG>.add(<qmd:part:5>);
 <ore:dustSoulium>.add(<mysticalagriculture:crafting:29>);
+
+<ore:ingotAurorianite>.add(<theaurorian:aurorianiteingot>);
+<ore:ingotCrystalline>.add(<theaurorian:crystallineingot>);
+<ore:ingotUmbra>.add(<theaurorian:umbraingot>);
+<ore:nuggetAurorianite>.add(<theaurorian:scrapaurorianite>);
+<ore:nuggetCrystalline>.add(<theaurorian:scrapcrystalline>);
+<ore:nuggetUmbra>.add(<theaurorian:scrapumbra>);

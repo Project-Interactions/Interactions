@@ -12,13 +12,11 @@ import mods.thermalexpansion.Compactor;
 
 recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <minecraft:bucket>, <ore:ingotCopper>], [null, <ore:blockRedstone>, null]]);
 
-recipes.removeShaped(<thermalexpansion:machine:5>, [[null, <minecraft:piston:*>, null], [<ore:ingotBronze>, <thermalexpansion:frame>, <ore:ingotBronze>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 recipes.removeShaped(<thermalexpansion:machine:1>, [[null, <minecraft:piston:*>, null], [<minecraft:flint:*>, <thermalexpansion:frame>, <minecraft:flint:*>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 recipes.removeShaped(<thermalexpansion:machine>, [[null, <ore:dustRedstone>, null], [<minecraft:brick_block:*>, <thermalexpansion:frame>, <minecraft:brick_block:*>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
-recipes.addShaped(<thermalexpansion:machine:5>, [[null, <techreborn:plate_bending_machine>, null], [<ore:circuitElite>, <thermalexpansion:frame>, <ore:circuitElite>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
-recipes.addShaped(<thermalexpansion:machine:1>, [[null, <techreborn:grinder>, null], [<ore:circuitElite>, <thermalexpansion:frame>, <ore:circuitElite>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
-recipes.addShaped(<thermalexpansion:machine>, [[null, <techreborn:electric_furnace>, null], [<ore:circuitElite>, <thermalexpansion:frame>, <ore:circuitElite>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
+recipes.addShaped(<thermalexpansion:machine:1>, [[null, <actuallyadditions:block_grinder_double>, null], [<ore:circuitElite>, <thermalexpansion:frame>, <ore:circuitElite>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
+recipes.addShaped(<thermalexpansion:machine>, [[null, <industrialforegoing:resourceful_furnace>, null], [<ore:circuitElite>, <thermalexpansion:frame>, <ore:circuitElite>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
 recipes.removeShapeless(<thermalfoundation:material:101> * 4, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 recipes.removeShapeless(<thermalfoundation:material:102> * 4, [<ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000})]);
@@ -50,12 +48,11 @@ for Remove in remove {
 
 recipes.removeShaped(<thermalexpansion:frame:64>, [[<ore:ingotTin>, <ore:blockGlass>, <ore:ingotTin>], [<ore:blockGlass>, <ore:gearCopper>, <ore:blockGlass>], [<ore:ingotTin>, <ore:blockGlass>, <ore:ingotTin>]]);
 
-Transposer.removeFillRecipe(<techreborn:ingot:16>,<liquid:cryotheum>*200);
 Transposer.removeFillRecipe(<minecraft:diamond>,<liquid:redstone>*500);
 Transposer.removeFillRecipe(<minecraft:emerald>,<liquid:cryotheum>*500);
 
 Transposer.addFillRecipe(<jaopca:dust.crystal_flux>,<nuclearcraft:gem_dust> , <liquid:redstone>*500,1000 );
-Transposer.addFillRecipe(<jaopca:dust.gelid_crystal>,<techreborn:dust:18> ,<liquid:cryotheum>*500,1000 );
+Transposer.addFillRecipe(<jaopca:dust.gelid_crystal>,<actuallyadditions:item_dust:3> ,<liquid:cryotheum>*500,1000 );
 
 
 recipes.remove(<thermalexpansion:frame>);
@@ -95,7 +92,7 @@ Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_v
 
 addRegexLogFilter("No InductionSmelter recipe exists for.*");
 val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
-val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<thermalfoundation:ore:7>,<techreborn:dust:55>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungstensteel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>,<minecraft:compass>];
+val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<thermalfoundation:ore:7>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungsten_steel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>,<minecraft:compass>];
 for i in a { 
     for j in b {
         InductionSmelter.removeRecipe(i,j);
@@ -122,7 +119,6 @@ RecipeUtils.recipeTweak(true, <thermalexpansion:augment:416>, [[null, <ore:gearS
 
 Factorizer.addRecipeSplit(<deepmoblearning:glitch_infused_ingot>, <extrautils2:unstableingots:1>*3);
 
-Compactor.removeStorageRecipe(<techreborn:ingot:22>);
 Pulverizer.removeRecipe(<libvulpes:ore0>);
 
 RecipeUtils.recipeTweak(true, <thermallogistics:terminal_item>, [[null, <thermallogistics:manager:*>, null], [<thermaldynamics:duct_32>, <thermalexpansion:frame:64>, <thermaldynamics:duct_32>], [<ore:gearCopper>, <ore:circuitAdvanced>, <ore:gearCopper>]]);

@@ -43,7 +43,7 @@ PureDaisy.addRecipe(<astralsorcery:blockinfusedwood>, <botania:livingwood>);
 ManaInfusion.removeRecipe(<moreplates:manasteel_plate>);
 ManaInfusion.removeRecipe(<moreplates:manasteel_gear>);
 ManaInfusion.removeRecipe(<botania:storage>);
-ManaInfusion.addInfusion(<botania:storage>, <techreborn:storage2:10>, 25000);
+ManaInfusion.addInfusion(<botania:storage>, <ore:blockRefinedIron>, 25000);
 ManaInfusion.removeRecipe(<ore:ingotManasteel>);
 ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotRefinedIron>, 2500);
 
@@ -73,7 +73,7 @@ Agglomeration.addRecipe(<thermalexpansion:frame:64>,[<ore:gearTin>,<ore:gearLead
 RuneAltar.removeRecipe(<botania:rune:2>*2);
 RuneAltar.addRecipe(<botania:rune:2>*2, [<minecraft:stone>,<immersiveengineering:stone_decoration:3>,<botania:manaresource>,<botania:manaresource:23>], 5200);
 //
-Agglomeration.addRecipe(<compactmachines3:machine>,[<thermalfoundation:material:261>,<ore:circuitGood>],100000,0xCCFFFF,0x99FFFF,<extrautils2:decorativesolidwood:1>,<immersiveengineering:metal_decoration0:5>,<enderio:block_alloy_endergy>,<compactmachines3:wallbreakable>,<techreborn:storage2:10>,<compactmachines3:wallbreakable>);
+Agglomeration.addRecipe(<compactmachines3:machine>,[<thermalfoundation:material:261>,<ore:circuitGood>],100000,0xCCFFFF,0x99FFFF,<extrautils2:decorativesolidwood:1>,<immersiveengineering:metal_decoration0:5>,<enderio:block_alloy_endergy>,<compactmachines3:wallbreakable>,<ore:blockRefinedIron>.firstItem,<compactmachines3:wallbreakable>);
 Agglomeration.addRecipe(<compactmachines3:machine:1>,[<compactmachines3:machine>],200000,0xCCFFFF,0xFFFFFF,<thermalfoundation:storage_alloy>,<naturesaura:infused_stone>,<thermalfoundation:storage_alloy>,<compactmachines3:wallbreakable>,<naturesaura:infused_stone>,<compactmachines3:wallbreakable>);
 
 ElvenTrade.removeRecipe(<botania:dreamwood>);
@@ -99,7 +99,7 @@ RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamr
 //botania doppleganger not drop fix
 <entity:botania:doppleganger>.addPlayerOnlyDrop(<botania:manaresource:5>,4,8);
 
-Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.h_o_p_graphite>],200000,0xCCFFFF,0x99FFFF,<techreborn:machine_frame>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
+Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.h_o_p_graphite>],200000,0xCCFFFF,0x99FFFF,<contenttweaker:useful_block>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
 
 //mana_circuit
 RuneAltar.addRecipe(<contenttweaker:mana_circuit>*3, [<ore:ingotPinkMetal>,<contenttweaker:mana_circuit_board>,<moreplates:pig_iron_plate>,<ore:plateNaturium>], 100000);

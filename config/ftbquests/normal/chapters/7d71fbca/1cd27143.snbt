@@ -1,9 +1,6 @@
 {
 	x: 13.5d,
-	y: 7.5d,
-	dependencies: [
-		"664e2250"
-	],
+	y: 9.0d,
 	tasks: [{
 		uid: "36bd5706",
 		type: "item",
@@ -11,7 +8,8 @@
 			id: "techreborn:lapotronicorb",
 			tag: {
 				energy: 0
-			}
+			},
+			Count: 1b
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

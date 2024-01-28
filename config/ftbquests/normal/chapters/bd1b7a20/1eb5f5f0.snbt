@@ -18,6 +18,6 @@
 	rewards: [{
 		uid: "7676c1e0",
 		type: "item",
-		item: "techreborn:storage2 1 10"
+		item: "enderio:block_alloy_endergy"
 	}]
 }

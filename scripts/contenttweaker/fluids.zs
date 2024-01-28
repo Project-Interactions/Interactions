@@ -81,14 +81,6 @@ heavymetalelements.stillLocation = "base:fluids/molten";
 heavymetalelements.flowingLocation = "base:fluids/molten_flowing";
 heavymetalelements.register();
 
-val europium = mods.contenttweaker.VanillaFactory.createFluid("europium", Color.fromHex("FFFFFF").getIntColor());
-europium.material = <blockmaterial:lava>;
-europium.viscosity = 2400;
-europium.density = 2400;
-europium.stillLocation = "base:fluids/molten";
-europium.flowingLocation = "base:fluids/molten_flowing";
-europium.register();
-
 val semiconductor = mods.contenttweaker.VanillaFactory.createFluid("semiconductor", Color.fromHex("FFFFFF").getIntColor());
 semiconductor.material = <blockmaterial:lava>;
 semiconductor.viscosity = 2400;

@@ -70,7 +70,6 @@ item.contenttweaker.thaumic_suncrystal.name=神阳水晶
 
 item.contenttweaker.printed_copper_plate.name=压印铜板
 item.contenttweaker.etched_assembled_circuit_plate.name=蚀刻的组装电路基板
-item.contenttweaker.pre_rubber.name=半加工橡胶
 item.contenttweaker.mechanical_circuit_board.name=机械电路基板
 item.contenttweaker.processor_circuit_board.name=处理器电路基板
 
@@ -91,7 +90,6 @@ fluid.waste_water=废水
 fluid.semiconductor=熔融半导体
 fluid.heavymetalelements=熔融重金属元素
 fluid.will_alloy=意志五合一流体
-fluid.europium=熔融铕
 fluid.uu=UU物质
 fluid.chaos=液态混沌
 fluid.superconduct=熔融超导体
@@ -123,7 +121,6 @@ tile.contenttweaker.aether_log_fix.name=蚀刻天根木
 //material
 base.material.kanthal=坝塔尔合金
 base.material.gold=金
-base.material.europium=铕
 base.material.gallium=镓
 base.material.tough=高强合金
 base.material.heavymetalelements=重金属元素
@@ -141,6 +138,9 @@ base.material.six_in_one_thaumic=六合一神秘
 base.material.crude_gold=贵金属
 base.material.advanced_electronic_alloy=高级电子合金
 base.material.magnet=磁铁
+base.material.iridium_alloy=铱合金
+base.material.advanced_alloy=高级合金
+base.material.tungsten_steel=钨钢
 
 //part
 contenttweaker.part.dust_tiny=小搓%s粉
@@ -158,7 +158,8 @@ contenttweaker.part.dustore=%s矿粉
 
 //crt
 ia.custom.welcome.name=§o§l欢迎游玩§c§o§l交汇整合包§r§c§l！
-ia.change=下个版本此物品/方块将会被移除，请立即将其更换（一般方式为在工作台合成）
+ia.change=下个版本此物品/方块将会被移除，§c请立即将其更换§r（一般方式为在工作台合成）
+ia.deprecated=§c此物品已弃用§r
 
 ia.tooltip.1=此物品可能导致tps降低，谨慎使用
 //ia.tooltip.2=在使用时请临时输入/rawinput关闭功能，完成后可再次输入以开启

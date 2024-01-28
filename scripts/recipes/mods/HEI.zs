@@ -10,7 +10,6 @@ var removeDescriptors as IItemStack[] = [
     <appliedenergistics2:material:14>,
     <appliedenergistics2:material:13>,
     <appliedenergistics2:material:15>,
-    <techreborn:scrapbox>,
     <minecraft:diamond>,
     <minecraft:gold_ingot>,
     <lightningcraft:material:11>,
@@ -24,7 +23,6 @@ for rd in removeDescriptors {
 addRegexLogFilter("Failed to hide recipe category");
 
 var removeCategory as string[]=[
-    "TechReborn.Compressor",
     "tcomplement:high_oven_mix",
     "tcomplement:high_oven_heat",
     "tcomplement:high_oven_melting",
@@ -34,7 +32,8 @@ var removeCategory as string[]=[
     "Painter",
     "actuallyadditions.booklet",
     "oc.manual",
-    "ftbquests.quests"
+    "ftbquests.quests",
+    "extrautils2.blockPatterns"
 ];
 for rc in removeCategory {
     JEI.hideCategory(rc);

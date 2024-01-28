@@ -45,7 +45,7 @@ recipes.removeShaped(<pneumaticcraft:pneumatic_dynamo>, [[null, <pneumaticcraft:
 recipes.removeShaped(<pneumaticcraft:flux_compressor>, [[<ore:dustRedstone>, <pneumaticcraft:compressed_iron_gear>, <pneumaticcraft:printed_circuit_board>], [<minecraft:redstone_block>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:advanced_pressure_tube>], [<ore:dustRedstone>, <minecraft:furnace>, <pneumaticcraft:printed_circuit_board>]]);
 
 recipes.addShaped(<pneumaticcraft:advanced_air_compressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <pneumaticcraft:air_compressor>, <pneumaticcraft:advanced_pressure_tube>], [<ore:ingotIronCompressed>, <minecraft:furnace>, <ore:ingotIronCompressed>]]);
-recipes.addShaped(<pneumaticcraft:air_compressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <techreborn:machine_frame:2>, <pneumaticcraft:pressure_tube>], [<ore:ingotIronCompressed>, <minecraft:furnace>, <ore:ingotIronCompressed>]]);
+//recipes.addShaped(<pneumaticcraft:air_compressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <techreborn:machine_frame:2>, <pneumaticcraft:pressure_tube>], [<ore:ingotIronCompressed>, <minecraft:furnace>, <ore:ingotIronCompressed>]]);
 recipes.addShaped(<pneumaticcraft:pressure_chamber_valve>, [[null, <moreplates:compressed_iron_plate>, <moreplates:compressed_iron_plate>],[<moreplates:compressed_iron_plate>, <aeadditions:certustank>, <moreplates:compressed_iron_plate>], [<moreplates:compressed_iron_plate>, <moreplates:compressed_iron_plate>,<ore:circuitOperation>]]);
 recipes.addShaped(<pneumaticcraft:pneumatic_dynamo>, [[null, <pneumaticcraft:advanced_pressure_tube>, null], [<moreplates:compressed_iron_gear>, <ore:ingotIronCompressed>, <moreplates:compressed_iron_gear>], [<ore:ingotIronCompressed>, <pneumaticcraft:printed_circuit_board>, <ore:ingotIronCompressed>]]);
 recipes.addShaped(<pneumaticcraft:flux_compressor>, [[<ore:circuitOperation>, <moreplates:compressed_iron_gear>, <pneumaticcraft:printed_circuit_board>], [<minecraft:redstone_block>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:advanced_pressure_tube>], [<ore:circuitOperation>, <minecraft:furnace>, <pneumaticcraft:printed_circuit_board>]]);
@@ -60,17 +60,16 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:refinery>, [[<ore:ingotIronCompres
 
 //boom
 explosioncrafting.addRecipe(<avaritia:neutronium_compressor>,<extendedcrafting:compressor>,50);
-explosioncrafting.addRecipe(<techreborn:part:44>,<techreborn:rubber_sapling> ,0);
+explosioncrafting.addRecipe(<aether_legacy:skyroot_sapling>,<ifgretro:rubber_sapling>,10);
 explosioncrafting.addRecipe(<contenttweaker:basic_refined_ore_essence>,<contenttweaker:refined_ore_essence>,40);
 explosioncrafting.addRecipe(<contenttweaker:ore_essence>,<contenttweaker:basic_refined_ore_essence>,20);
-explosioncrafting.addRecipe(<thermalfoundation:material:768>,<techreborn:dust:16> ,90);
 explosioncrafting.addRecipe(<extrautils2:compressedcobblestone>,<mysticalagriculture:fire_essence>,80);
 //gems
-explosioncrafting.addRecipe(<ore:dustSapphire>,<techreborn:gem:1>,40);
+explosioncrafting.addRecipe(<ore:dustSapphire>,<ore:gemSapphire>.firstItem,40);
 explosioncrafting.addRecipe(<ore:dustEmerald>,<minecraft:emerald>,40);
-explosioncrafting.addRecipe(<ore:dustRuby>,<techreborn:gem>,40);
+explosioncrafting.addRecipe(<ore:dustRuby>,<ore:gemRuby>.firstItem,40);
 explosioncrafting.addRecipe(<ore:dustDiamond>,<minecraft:diamond>,40);
-explosioncrafting.addRecipe(<ore:dustPeridot>,<techreborn:gem:2>,40);
+explosioncrafting.addRecipe(<ore:dustPeridot>,<ore:gemPeridot>.firstItem,40);
 //starting
 explosioncrafting.addRecipe(<minecraft:gravel>,<minecraft:sand>,20);
 explosioncrafting.addRecipe(<minecraft:cobblestone>,<minecraft:gravel>,20);

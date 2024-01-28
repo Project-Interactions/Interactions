@@ -38,8 +38,8 @@ import mods.smokeythebandicoot.zencloche.GardenCloche;
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
 
-BlastFurnace.addRecipe(<techreborn:ingot:19>, <minecraft:iron_ingot>, 100,<immersiveengineering:material:7>);
-BlastFurnace.addRecipe(<techreborn:storage2:10>, <minecraft:iron_block>, 900,<immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<ore:ingotRefinedIron>.firstItem, <minecraft:iron_ingot>, 100,<immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<ore:blockRefinedIron>.firstItem, <minecraft:iron_block>, 900,<immersiveengineering:material:7>);
 BlastFurnace.addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:1>,160,<immersiveengineering:material:7>);
 BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
@@ -50,7 +50,6 @@ recipes.remove(<immersiveengineering:metal_decoration1:1> * 6);
 recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 4, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[null, <ore:stickSteel>, null], [<ore:stickSteel>, null, <ore:stickSteel>]]);
 
 recipes.remove(<extrautils2:machine> * 4);
-recipes.remove(<techreborn:part:4> * 2);
 recipes.removeShapeless(<tconstruct:throwball:1>);
 
 recipes.remove(<immersiveengineering:material:3> * 4);
@@ -82,11 +81,12 @@ recipes.removeShapeless(<immersiveengineering:material:21>);
 recipes.removeShapeless(<immersiveengineering:material:22>);
 recipes.removeShapeless(<immersiveengineering:material:23>);
 recipes.remove(<immersiveengineering:metal_decoration0:7> * 2);
-recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>],[<techreborn:part:36>, <ore:circuitGood>, <techreborn:part:36>], [<ore:plateSteel>, <techreborn:part:36>, <ore:plateSteel>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>, <minecraft:packed_ice>, <ore:plateSteel>],[<minecraft:packed_ice>, <ore:circuitGood>, <minecraft:packed_ice>], [<ore:plateSteel>, <minecraft:packed_ice>, <ore:plateSteel>]]);
 
 Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
 
-Squeezer.addRecipe(<contenttweaker:pre_rubber>,null,<techreborn:part:31>,1024);
+furnace.remove(<ifgretro:rubber_bar>);
+Squeezer.addRecipe(<contenttweaker:pre_rubber>,null,<ifgretro:rubber_bar>,1024);
 
 //AlloySmelter
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
@@ -132,15 +132,12 @@ AlloySmelter.removeRecipe(<thaumcraft:ingot:2>*4);
 recipes.remove(<thaumcraft:ingot:2>*4);
 mods.forestry.Carpenter.removeRecipe(<thaumcraft:ingot:2>*9);
 recipes.remove(<thaumcraft:ingot:2>);
-recipes.addShaped(<thaumcraft:ingot:2>,[[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>],[<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>,<ore:nuggetAlchemicalBrass>]]);
+recipes.addShaped(<thaumcraft:ingot:2>,[[<ore:nuggetBrass>,<ore:nuggetBrass>,<ore:nuggetBrass>],[<ore:nuggetBrass>,<ore:nuggetBrass>,<ore:nuggetBrass>],[<ore:nuggetBrass>,<ore:nuggetBrass>,<ore:nuggetBrass>]]);
 MetalPress.removeRecipe(<thaumcraft:plate>);
 MetalPress.addRecipe(<thaumcraft:plate>,<thaumcraft:ingot:2>,<immersiveengineering:mold>,1024);
 
 RecipeUtils.recipeTweak(true,<immersiveengineering:stone_decoration:8> * 2, [[null, <tconstruct:clear_glass>, null], [<ore:dustAluminum>, <ore:dyeGreen>, <ore:dustAluminum>], [null, <tconstruct:clear_glass>, null]]);
 RecipeUtils.recipeTweak(true,<engineersdecor:panzerglass_block> * 4, [[<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>], [<immersiveengineering:stone_decoration:8>, <minecraft:diamond>, <immersiveengineering:stone_decoration:8>], [<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>]]);
-
-//obsidian plate
-MetalPress.addRecipe(<techreborn:plates:9>,<minecraft:obsidian>,<immersiveengineering:mold>,1024);
 
 
 Distillation.addRecipe([<liquid:oil>*800], [<qmd:dust2:2>], <liquid:rich_iodine_oil>*1000, 1024, 100, [0.5]);
@@ -177,7 +174,7 @@ Crusher.addRecipe(<thermalfoundation:material:768>*9, <minecraft:coal_block>, 10
 
 Crusher.addRecipe(<minecraft:magma_cream>*3, <minecraft:magma>, 2048);
 
-ArcFurnace.addRecipe(<techreborn:ingot:19>*2, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 1024,[<ore:ingotIron>], "Alloying");
+ArcFurnace.addRecipe(<ore:ingotRefinedIron>.firstItem*2, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 1024,[<ore:ingotIron>], "Alloying");
 
 RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveengineering:metal_decoration1>, <immersiveengineering:connector>, <immersiveengineering:metal_decoration1>], [<ore:circuitGood>, <immersiveengineering:wooden_decoration:1>, <ore:circuitGood>], [null, <immersiveengineering:metal_device1:7>, null]]);
 
@@ -192,7 +189,7 @@ RecipeUtils.recipeTweak(true,<engineersdecor:small_tree_cutter>, [[<ore:gearStee
 
 RecipeUtils.recipeTweak(true,<immersivetech:valve:2> * 2, [[<ore:plateIron>, <immersiveengineering:connector:12>, <ore:plateIron>], [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), <immersiveengineering:material:8>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})], [<ore:plateIron>, <immersiveengineering:material:27>, <ore:plateIron>]]);
 
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:4>, <ore:redstone>, null, 40, 1024,[<techreborn:ingot:19>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:4>, <ore:redstone>, null, 40, 1024,[<ore:ingotRefinedIron>], "Alloying");
 
 //Dilithium
 Crusher.removeRecipe(<libvulpes:productgem>);

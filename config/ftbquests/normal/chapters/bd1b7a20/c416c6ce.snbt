@@ -30,7 +30,8 @@
 					FluidName: "creosote",
 					Amount: 1000
 				}
-			}
+			},
+			Count: 1b
 		},
 		count: 4
 	}]
