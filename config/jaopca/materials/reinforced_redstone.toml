@@ -1,5 +1,5 @@
 
-#Configurations for material InfusedIron.
+#Configurations for material ReinforcedRedstone.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
@@ -14,11 +14,11 @@
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 3056950
+	color = 12085095
 
 [mysticalagriculture]
 	#The crop tier of this material.
-	tier = 4
+	tier = 3
 	#The amount of Mystical Agriculture essence required to craft materials.
 	inputCount = 8
 	#The amount of material obtained by crafting Mystical Agriculture essence.

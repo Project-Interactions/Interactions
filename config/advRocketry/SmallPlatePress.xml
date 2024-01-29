@@ -202,6 +202,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockAether</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.aether;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockAlubrass</oreDict>
 		</input>
 		<output>
@@ -242,6 +250,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockAntinomy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.antinomy;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockArdite</oreDict>
 		</input>
 		<output>
@@ -262,6 +278,22 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.astrium;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockAurorianSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.aurorian_steel;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockAurorianite</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.aurorianite;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -342,6 +374,14 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.blood_infused_glitch;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBloodInfusedIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.blood_infused_iron;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -482,6 +522,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockCerulean</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.cerulean;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockChaoticMetal</oreDict>
 		</input>
 		<output>
@@ -526,6 +574,14 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.cocoa_butter;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockCold</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.cold;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -590,6 +646,14 @@
 		</input>
 		<output>
 			<itemStack>moreplates:crystal_matrix_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockCrystalline</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.crystalline;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -874,6 +938,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockFluixSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.fluix_steel;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockFoolsGold</oreDict>
 		</input>
 		<output>
@@ -918,6 +990,14 @@
 		</input>
 		<output>
 			<itemStack>redstonerepository:material;4;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockGlitch</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.glitch;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -978,6 +1058,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockIchorium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.ichorium;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockIgnitz</oreDict>
 		</input>
 		<output>
@@ -1006,6 +1094,14 @@
 		</input>
 		<output>
 			<itemStack>moreplates:infinity_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockInfusedIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.infused_iron;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1306,6 +1402,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockMoonstone</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.moonstone;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockMystic</oreDict>
 		</input>
 		<output>
@@ -1482,6 +1586,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockPinkSlime</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.pink_slime;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockPlatinum</oreDict>
 		</input>
 		<output>
@@ -1626,6 +1738,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockReinforcedIron</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:reinforced_iron_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockSeismum</oreDict>
 		</input>
 		<output>
@@ -1702,6 +1822,14 @@
 		</input>
 		<output>
 			<itemStack>contenttweaker:material_part;4;194</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSky</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.sky;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1938,6 +2066,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockUmbra</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.umbra;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockUmbrium</oreDict>
 		</input>
 		<output>
@@ -2006,6 +2142,14 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.uru;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockUseful</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.useful;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">

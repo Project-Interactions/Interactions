@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
@@ -56,37 +57,6 @@ recipes.addShaped(<mysticalagriculture:crafting:1>, [[null, <mysticalagriculture
 
 //recipes.addShaped("mysticalagradditions_special_2", <mysticalagradditions:special:4>, [[<ore:blockInsanium>, <draconicadditions:chaotic_energy_core>, <ore:blockInsanium>], [<ore:ingotDraconiumAwakened>, <ore:blockDiamond>, <ore:ingotDraconiumAwakened>], [<ore:blockInsanium>, <draconicevolution:draconic_block>, <ore:blockInsanium>]]);
 //recipes.addShaped("mysticalagradditions_special_3", <mysticalagradditions:special:5>, [[<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>], [<denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockDiamond>, <denseneutroncollectors:triple_compressed_neutron_collector>], [<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>]]);
-
-#reloadable
-//mysticalcreations
-//need to be converted to JARGCA type recipes later
-//aether
-recipes.addShaped(<mysticalcreations:aether_seeds>,
-[[<ore:blockAether>,<mysticalagriculture:crafting:3>,<ore:blockAether>],
-[<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:20>,<mysticalagriculture:crafting:3>],
-[<ore:blockAether>,<mysticalagriculture:crafting:3>,<ore:blockAether>]]
-);
-recipes.addShaped(<aetherworks:item_resource:4>,
-[[<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>,<mysticalcreations:aether_essence>],]
-);
-//livingrock
-recipes.addShaped(<mysticalcreations:livingrock_seeds>,
-[[<botania:livingrock>,<mysticalagriculture:crafting:2>,<botania:livingrock>],
-[<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:2>],
-[<botania:livingrock>,<mysticalagriculture:crafting:2>,<botania:livingrock>]]
-);
-recipes.addShaped(<botania:livingrock>*3,
-[[<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>,<mysticalcreations:livingrock_essence>],]
-);
-//prosperity
-recipes.addShaped(<mysticalcreations:prosperity_seeds>,
-[[<ore:blockProsperity>,<mysticalagriculture:crafting:4>,<ore:blockProsperity>],
-[<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:21>,<mysticalagriculture:crafting:4>],
-[<ore:blockProsperity>,<mysticalagriculture:crafting:4>,<ore:blockProsperity>]]
-);
-recipes.addShaped(<mysticalagriculture:crafting:5>,
-[[<mysticalcreations:prosperity_essence>,<mysticalcreations:prosperity_essence>,<mysticalcreations:prosperity_essence>],]
-);
 
 //armor
 recipes.removeByRecipeName("mysticalagriculture:supremium_helmet");

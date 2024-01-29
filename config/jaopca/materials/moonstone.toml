@@ -8,7 +8,7 @@
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false
 	#The module blacklist of this material.
-	moduleBlacklist = []
+	moduleBlacklist = ["molten"]
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
@@ -37,4 +37,8 @@
 	richChance = 105
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
 	fluxChance = 110
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "theaurorian:auroriancobblestone"
 

@@ -341,6 +341,7 @@ jaopcaSeedTweak(5,"PotassiumHydroxide");
 jaopcaSeedTweak(5,"Potassium");
 jaopcaSeedTweak(5,"Primordial");
 jaopcaSeedTweak(5,"Prometheum");
+jaopcaSeedTweak(5,"Prosperity");
 jaopcaSeedTweak(5,"Proxii");
 jaopcaSeedTweak(4,"PureNetherQuartz");
 jaopcaSeedTweak(5,"PyrolyticCarbon");
@@ -349,7 +350,8 @@ jaopcaSeedTweak(5,"Radium");
 jaopcaSeedTweak(6,"Ravaging");
 jaopcaSeedTweak(4,"RedAlloy");
 jaopcaSeedTweak(4,"RefinedIron");
-jaopcaSeedTweak(3,"ReforcedIron");
+jaopcaSeedTweak(3,"ReinforcedIron");
+jaopcaSeedTweak(3,"ReinforcedRedstone");
 jaopcaSeedTweak(5,"Remorseful");
 jaopcaSeedTweak(3,"Rhodochrosite");
 jaopcaSeedTweak(1,"Salt");
@@ -383,6 +385,7 @@ jaopcaSeedTweak(4,"Tanzanite");
 jaopcaSeedTweak(5,"Terbium");
 jaopcaSeedTweak(5,"Terrax");
 jaopcaSeedTweak(4,"Thermite");
+jaopcaSeedTweak(4,"Thauminite");
 jaopcaSeedTweak(6,"Thermoconducting");
 jaopcaSeedTweak(4,"Tiberium");
 jaopcaSeedTweak(3,"TinSilver");
@@ -750,40 +753,3 @@ function essenceTweakSpecial(output as IItemStack,tier as int,realoutput as IIte
 
 essenceTweakSpecial(<qmd:ingot:8>,5,<mekanism:ingot:1>);
 essenceTweakSpecial(<nuclearcraft:ingot:4>,4,<immersiveengineering:metal:5>);
-
-//读不到配方，上硬办法吧（
-/*
-function finalTweak(input as string[],tier as int) as void{
-    if (input.length == 2){
-        jaopcaSeedTweak(input[1],tier,input[0]);
-    }
-    if (input.length == 3){
-        jaopcaSeedTweak(input[1] ~ input[2],tier,input[0]);
-    }
-    if (input.length == 4){
-        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3],tier,input[0]);
-    }
-    if (input.length == 5){
-        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3] ~ input[4],tier,input[0]);
-    }
-    if (input.length == 6){
-        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3] ~ input[4] ~ input[5],tier,input[0]);
-    }
-    if (input.length == 7){
-        jaopcaSeedTweak(input[1] ~ input[2] ~ input[3] ~ input[4] ~ input[5] ~ input[6],tier,input[0]);
-    }
-}
-for seeds in loadedMods["jaopca"].items {
-    if (seeds.name.matches("item.jaopca.mysticalagriculture_seeds.*")) {
-        val recipe as ICraftingRecipe = recipes.getRecipesFor(seeds)[0];
-        val leftup as IOreDictEntry = recipe.ingredients1D[0];
-        val middle as IItemStack = recipe.ingredients1D[5];
-        val splits as string[] = StaticString.splitByCharacterTypeCamelCase(leftup.name);
-        if (middle.definition.id == "mysticalagradditions:insanium" && middle.metadata == 1) {
-            break;
-        }
-        val ts as int = middle.metadata - 16;
-        final(splits,ts);
-    }
-}
-*/

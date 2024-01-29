@@ -14,7 +14,7 @@
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 16777215
+	color = 4798553
 
 [mysticalagriculture]
 	#The crop tier of this material.

@@ -1,5 +1,5 @@
 
-#Configurations for material InfusedIron.
+#Configurations for material Mithrillium.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
@@ -14,7 +14,7 @@
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 3056950
+	color = 6387455
 
 [mysticalagriculture]
 	#The crop tier of this material.

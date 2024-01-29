@@ -144,3 +144,6 @@
 <ore:nuggetAurorianite>.add(<theaurorian:scrapaurorianite>);
 <ore:nuggetCrystalline>.add(<theaurorian:scrapcrystalline>);
 <ore:nuggetUmbra>.add(<theaurorian:scrapumbra>);
+
+<ore:crystalProsperity>.add(<mysticalagriculture:crafting:5>);
+<ore:blockFluix>.add(<appliedenergistics2:fluix_block>);
