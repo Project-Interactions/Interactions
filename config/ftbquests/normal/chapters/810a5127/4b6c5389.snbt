@@ -15,7 +15,7 @@
 		uid: "d421bcf8",
 		type: "item",
 		item: {
-			id: "techreborn:dynamiccell",
+			id: "forestry 1 1",
 			tag: {
 				Fluid: {
 					FluidName: "menrilresin",

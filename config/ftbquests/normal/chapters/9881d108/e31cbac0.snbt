@@ -11,7 +11,10 @@
 		uid: "54c3ba96",
 		type: "item",
 		items: [{
-			item: "sharetome:sharing_tome"
+			id: "thaumictinkerer:share_book",
+			tag: {
+				player: "[none]"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

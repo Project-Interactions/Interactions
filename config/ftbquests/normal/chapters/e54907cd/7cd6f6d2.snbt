@@ -17,7 +17,7 @@
 		uid: "5d945c08",
 		type: "item",
 		item: {
-			id: "techreborn:dynamiccell",
+			id: "forestry:can 1 1",
 			tag: {
 				Fluid: {
 					FluidName: "oil",

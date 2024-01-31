@@ -8,7 +8,6 @@
 	tasks: [{
 		uid: "f056b8cd",
 		type: "item",
-		title: "{9881d108.ia.08f20551.2}",
 		items: [{
 			item: "thaumcraft:ingot 1 2"
 		}],

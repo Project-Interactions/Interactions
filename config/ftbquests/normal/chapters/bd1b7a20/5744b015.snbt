@@ -779,14 +779,6 @@
 						},
 						Damage: 0s
 					},
-					techreborn: {
-						id: "techreborn:wrench",
-						Count: 1,
-						tag: {
-							"omniwand:definedMod": "techreborn"
-						},
-						Damage: 0s
-					},
 					littletiles: {
 						id: "littletiles:wrench",
 						Count: 1,

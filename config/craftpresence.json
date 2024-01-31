@@ -355,7 +355,8 @@
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
       "modpack_logo": "https://github.com/mczph/mczph/blob/main/256.png?raw=true",
-      "mczph": "https://mc-heads.net/avatar/b5cce1d26046413ba7a3223247ba36c6"
+      "mczph": "https://mc-heads.net/avatar/b5cce1d26046413ba7a3223247ba36c6",
+      "mczph.modded.fun": "https://api.mcsrvstat.us/icon/mczph.modded.fun"
     },
     "dynamicVariables": {
       "default": "Example Text",

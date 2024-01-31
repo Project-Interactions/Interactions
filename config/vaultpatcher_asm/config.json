@@ -1,0 +1,14 @@
+{
+  "mods": [
+    "example"
+  ],
+  "classes": [],
+  "apply_mods": [],
+  "debug_mode": {
+    "is_enable": false,
+    "output_format": "<source> -> <target>",
+    "output_mode": 0,
+    "export_class": false,
+    "use_cache": true
+  }
+}

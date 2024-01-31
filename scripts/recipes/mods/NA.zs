@@ -6,9 +6,7 @@ import crafttweaker.item.IIngredient;
 import mods.naturesaura.TreeRitual;
 import mods.naturesaura.Altar;
 recipes.remove(<naturesaura:gold_fiber> * 4);
-recipes.removeShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), [<minecraft:paper>, <minecraft:paper>, <minecraft:leather>, <ore:treeSapling>]);
 recipes.addShaped(<naturesaura:gold_fiber> * 2, [[null, <ore:dustGold>, null],[<ore:dustGold>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <ore:dustGold>], [null, <ore:dustGold>, null]]);
-recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), [[<botania:manaresource:22>, <botania:manaresource:22>, <botania:manaresource:22>],[<botania:manaresource:22>, <minecraft:paper>, <botania:manaresource:22>], [<botania:manaresource:22>, <botania:manaresource:22>, <botania:manaresource:22>]]);
 
 TreeRitual.removeRecipe(<naturesaura:nature_altar>);
 mods.botania.RuneAltar.addRecipe(<naturesaura:nature_altar>,[<naturesaura:gold_leaf>, <naturesaura:gold_leaf>,<naturesaura:gold_leaf>, <naturesaura:token_joy>, <botania:manaresource>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <botania:livingrock:1>], 1000);

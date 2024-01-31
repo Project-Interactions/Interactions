@@ -86,7 +86,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>
 Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
 
 furnace.remove(<ifgretro:rubber_bar>);
-Squeezer.addRecipe(<contenttweaker:pre_rubber>,null,<ifgretro:rubber_bar>,1024);
+Squeezer.addRecipe(<ifgretro:rubber_bar>,null,<contenttweaker:pre_rubber>,1024);
 
 //AlloySmelter
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
@@ -105,15 +105,15 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotStee
 Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
 //chlorine
-Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*500, [<ore:dustSalt>*2], 2048);
+Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*1000, [<ore:dustSalt>], 2048);
 ElectrolyticCrucibleBattery.removeRecipe(<liquid:moltensalt>*1000);
 ElectrolyticCrucibleBattery.addRecipe(
-    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:moltensodium>*200,
-    null,<liquid:moltensalt>*200,
+    <liquid:sodium>*144, <liquid:chlorine>*500, null,
+    null,<liquid:sodium_chloride>*666,
     50000, 100
 );
 ElectrolyticCrucibleBattery.addRecipe(
-    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:moltensodium>*200,
+    <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332,
     null,<liquid:sodium_chloride_solution>*1332,
     50000, 100
 );
@@ -178,6 +178,8 @@ ArcFurnace.addRecipe(<ore:ingotRefinedIron>.firstItem*2, <ore:ingotIron>, <immer
 
 RecipeUtils.recipeTweak(true,<portabledrill:portable_drill>, [[<immersiveengineering:metal_decoration1>, <immersiveengineering:connector>, <immersiveengineering:metal_decoration1>], [<ore:circuitGood>, <immersiveengineering:wooden_decoration:1>, <ore:circuitGood>], [null, <immersiveengineering:metal_device1:7>, null]]);
 
+MeltingCrucible.removeRecipe(<qmd:chemical_dust:3>);
+MeltingCrucible.addRecipe(<liquid:sodium_chloride>*666, <mekanism:salt>, 10240, 40);
 MeltingCrucible.addRecipe(<liquid:molten_elfglass>*500, <botania:elfglass>, 20480, 40);
 MeltingCrucible.addRecipe(<liquid:lava>*1000, <minecraft:netherrack>, 20480, 20);
 
@@ -248,9 +250,11 @@ Boiler.addRecipe(<liquid:steam> * 6000, <liquid:distwater> * 2000, 10);
 
 SolarTower.removeRecipe(<liquid:water>);
 SolarTower.removeRecipe(<liquid:distwater>);
+SolarTower.removeRecipe(<liquid:moltensodium>);
 
 SolarTower.addRecipe(<liquid:steam> * 2500, <liquid:water>     * 1000, 20);
 SolarTower.addRecipe(<liquid:steam> * 4000, <liquid:distwater> * 1000, 20);
+SolarTower.addRecipe(<liquid:sodium> * 500, <liquid:superheatedmoltensodium> * 500, 20);
 
 HighPressureSteamTurbine.removeFuel(<liquid:highpressuresteam>);
 HighPressureSteamTurbine.addFuel(<liquid:exhaust_steam> * 40, <liquid:high_pressure_steam> * 40, 1);
@@ -265,8 +269,8 @@ HeatExchanger.removeRecipe(<liquid:distwater>   , <liquid:superheatedmoltensodiu
 HeatExchanger.removeRecipe(<liquid:exhauststeam>, <liquid:water>);
 HeatExchanger.addRecipe(<liquid:steam>     * 2250, null                            , <liquid:fluegas>                 * 1000, <liquid:water>        * 1250, 64, 4);
 HeatExchanger.addRecipe(<liquid:steam>     * 2500, null                            , <liquid:fluegas>                 * 1000, <liquid:distwater>    * 1250, 64, 4);
-HeatExchanger.addRecipe(<liquid:steam>     * 2250, <liquid:moltensodium>     *   80, <liquid:superheatedmoltensodium> *   80, <liquid:water>        * 1250, 64, 4);
-HeatExchanger.addRecipe(<liquid:steam>     * 2500, <liquid:moltensodium>     *   80, <liquid:superheatedmoltensodium> *   80, <liquid:distwater>    * 1250, 64, 4);
+HeatExchanger.addRecipe(<liquid:steam>     * 2250, <liquid:sodium>     *   500, <liquid:superheatedmoltensodium> *   500, <liquid:water>        * 1250, 64, 4);
+HeatExchanger.addRecipe(<liquid:steam>     * 2500, <liquid:sodium>     *   500, <liquid:superheatedmoltensodium> *   500, <liquid:distwater>    * 1250, 64, 4);
 HeatExchanger.addRecipe(<liquid:distwater> * 1250, <liquid:hot_water>        * 4500, <liquid:water>                   * 4500, <liquid:exhauststeam> * 2500, 32, 4);
 
 GasTurbine.removeFuel(<liquid:biodiesel>);
@@ -315,16 +319,3 @@ recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
 Crusher.addRecipe(<contenttweaker:infinity_dust>*4, <storagedrawers:upgrade_creative:1>,20480);
 
 furnace.addRecipe(<thermalfoundation:rockwool:7>,<immersiveengineering:material:7>);
-/*
-Register the given ingredient as fertilizer with the given growth multiplier.
-Will throw an exeception for ingredients such as <*> that can't be resolved to a list of items.
-registerItemFertilizer(IIngredient fertilizer, float multiplier)
-Register the given fluid as fertilizer with the given growth multiplier
-registerFluidFertilizer(ILiquidStack fluid, float multiplier)
-Register the given seed so it can be grown in the Graden Cloche.
-Specifying a list of drops, the needed soil and optionally a block to display visually inside the cloche.
-If no soil is specified, dirt is used instead.
-If no display block is specified, the seed is used as block.
-This may result in texture errors if the item can't be a block.
-registerCrop(IItemStack seed, IItemStack[] drops, @Optional IIngredient soil, @Optional IBlock display)
-*/

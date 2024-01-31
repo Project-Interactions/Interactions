@@ -16,6 +16,9 @@ import mods.randomtweaker.thaumadditions.IFluxConcentrator;
 recipes.remove(<thaumcraft:salis_mundus>);
 recipes.addShapeless(<thaumcraft:salis_mundus>,[<contenttweaker:crude_salis_mundus>,<naturesaura:chunk_loader>]);
 
+recipes.removeByRecipeName("thaumictinkerer:share_book");
+recipes.addShaped(<thaumictinkerer:share_book>.withTag({player: "[none]"}), [[null, <thaumcraft:scribing_tools>, null], [<minecraft:paper>, <thaumadditions:knowledge_tome>, <minecraft:paper>], [null, <minecraft:paper>, null]]);
+
 //
 mods.thermalexpansion.Pulverizer.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 1500);
 recipes.remove(<thaumcraft:nugget:9> * 9);
@@ -61,7 +64,7 @@ Crucible.registerRecipe("hedge_string"   , "HEDGEALCHEMY@3", <minecraft:string>,
 
 Crucible.removeRecipe(<thaumcraft:ingot:2>);
 Crucible.removeRecipe(<thaumcraft:ingot>);
-Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum>*5]);
+Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotCopper>, [<aspect:instrumentum>*5]);
 Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY@2", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
 
 //original research TWOND_END_HEDGE

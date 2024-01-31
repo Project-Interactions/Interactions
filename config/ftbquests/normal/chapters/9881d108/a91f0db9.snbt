@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 10.5d,
+	dependencies: [
+		"c4f6b4cb"
+	],
+	tasks: [{
+		uid: "c415c586",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:pressurizer"
+		}]
+	}]
+}

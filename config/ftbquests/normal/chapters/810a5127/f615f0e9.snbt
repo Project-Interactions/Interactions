@@ -15,7 +15,7 @@
 		uid: "b080cc4b",
 		type: "item",
 		item: {
-			id: "techreborn:dynamiccell",
+			id: "forestry:can 1 1",
 			tag: {
 				Fluid: {
 					FluidName: "astralsorcery.liquidstarlight",

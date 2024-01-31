@@ -14,7 +14,7 @@
 		uid: "48cb04df",
 		type: "item",
 		item: {
-			id: "techreborn:dynamiccell",
+			id: "forestry:can 1 1",
 			tag: {
 				Fluid: {
 					FluidName: "lava",

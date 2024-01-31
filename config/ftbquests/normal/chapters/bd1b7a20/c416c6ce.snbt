@@ -24,7 +24,7 @@
 		uid: "ff75b1b7",
 		type: "item",
 		item: {
-			id: "techreborn:dynamiccell",
+			id: "forestry:can 1 1",
 			tag: {
 				Fluid: {
 					FluidName: "creosote",

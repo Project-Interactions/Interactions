@@ -32,8 +32,8 @@ recipes.remove(<industrialforegoing:dryrubber>);
 
 recipes.remove(<teslacorelib:machine_case>);
 
-RecipeUtils.recipeTweak(true, <industrialforegoing:tree_fluid_extractor>, [[<ore:plateMagnesium>, <minecraft:redstone>, <ore:plateMagnesium>], [<ore:runeWaterB>, <teslacorelib:machine_case>, <ore:runeFireB>], [<minecraft:stone>, <ore:gearIron>, <minecraft:stone>]]);
-RecipeUtils.recipeTweak(true, <industrialforegoing:latex_processing_unit>, [[<ore:plateMagnesium>, <minecraft:redstone>, <ore:plateMagnesium>], [<ore:runeEarthB>, <teslacorelib:machine_case>, <ore:runeAirB>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:tree_fluid_extractor>, [[<ore:plateAdvancedElectronicAlloy>, <minecraft:redstone>, <ore:plateAdvancedElectronicAlloy>], [<ore:runeWaterB>, <teslacorelib:machine_case>, <ore:runeFireB>], [<minecraft:stone>, <ore:gearIron>, <minecraft:stone>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:latex_processing_unit>, [[<ore:plateAdvancedElectronicAlloy>, <minecraft:redstone>, <ore:plateAdvancedElectronicAlloy>], [<ore:runeEarthB>, <teslacorelib:machine_case>, <ore:runeAirB>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>]]);
 
 RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>], [<minecraft:iron_sword>, <teslacorelib:machine_case>, <minecraft:iron_sword>], [<minecraft:iron_axe>, <actuallyadditions:block_misc:6>, <minecraft:iron_axe>]]);
 

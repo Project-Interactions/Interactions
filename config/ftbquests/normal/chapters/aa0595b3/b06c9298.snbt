@@ -18,7 +18,7 @@
 	rewards: [{
 		uid: "f8cec9e5",
 		type: "item",
-		item: "techreborn:dust 1 52",
+		item: "forestry:can 1 1",
 		count: 16
 	}]
 }

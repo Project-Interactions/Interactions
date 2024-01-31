@@ -31,8 +31,6 @@ recipes.remove(<nuclearcraft:part:12>);
 recipes.addShaped(<nuclearcraft:part>, [[<nuclearcraft:dust:8>, <taiga:meteorite_ingot>, null],[<taiga:meteorite_ingot>, <immersiveengineering:material:18>, null], [null, null, null]]);
 recipes.addShaped(<nuclearcraft:part:4>, [[null, <taiga:palladium_ingot>, null],[<enderio:item_alloy_ingot>, <taiga:palladium_ingot>, <enderio:item_alloy_ingot>], [null, <taiga:palladium_ingot>, null]]);
 recipes.remove(<nuclearcraft:part:4> * 2);
-recipes.removeShaped(<nuclearcraft:alloy_furnace>, [[<ore:plateBasic>, <ore:dustRedstone>, <ore:plateBasic>], [<minecraft:brick:*>, <minecraft:furnace:*>, <minecraft:brick:*>], [<ore:plateBasic>, <ore:solenoidCopper>, <ore:plateBasic>]]);
-recipes.addShaped(<nuclearcraft:alloy_furnace>, [[<ore:plateBasic>, <ore:dustRedstone>, <ore:plateBasic>], [<minecraft:brick:*>, <enderio:block_enhanced_alloy_smelter>, <minecraft:brick:*>], [<ore:plateBasic>, <ore:solenoidCopper>, <ore:plateBasic>]]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <nuclearcraft:part:8>*2, [
 	[null, null, <ore:ingotFerroboron>, <ore:ingotFerroboron>, null], 
 	[<ore:ingotFerroboron>, <ore:ingotFerroboron>, <ore:solenoidCopper>, <ore:ingotInvar>, <ore:ingotDarkSteel>], 
@@ -55,7 +53,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <nuclearcraft:part:7>*2, [
 	[<ore:ingotHSLASteel>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotHSLASteel>]
 ]);
 //File End
-recipes.removeShaped(<nuclearcraft:solid_fission_controller>, [[<ore:plateAdvanced>, <ore:ingotTough>, <ore:plateAdvanced>], [<ore:ingotHardCarbon>, <ore:steelFrame>, <ore:ingotHardCarbon>], [<ore:plateAdvanced>, <ore:ingotTough>, <ore:plateAdvanced>]]);
+recipes.removeShaped(<nuclearcraft:solid_fission_controller>, [[<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>], [<ore:ingotHardCarbon>, <ore:steelFrame>, <ore:ingotHardCarbon>], [<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>]]);
 recipes.addShaped(<nuclearcraft:solid_fission_controller>, [[<ore:plateElite>, <ore:ingotTough>, <ore:plateElite>], [<ore:ingotHardCarbon>, <ore:steelFrame>, <ore:ingotHardCarbon>], [<ore:plateElite>, <ore:ingotTough>,<ore:plateElite>]]);
 recipes.removeShaped(<nuclearcraft:separator>, [[<ore:plateBasic>, <ore:motor>, <ore:plateBasic>], [<ore:dustRedstone>, <ore:chassis>, <ore:dustRedstone>], [<ore:plateBasic>, <ore:motor>, <ore:plateBasic>]]);
 recipes.addShaped(<nuclearcraft:separator>, [[<nuclearcraft:part:1>, <ore:motor>, <nuclearcraft:part:1>], [<calculator:algorithmseparator>, <ore:chassis>, <calculator:algorithmseparator>], [<nuclearcraft:part:1>, <ore:motor>, <nuclearcraft:part:1>]]);
@@ -116,7 +114,14 @@ val AlloyFurnaceRemove as IItemStack[] =
 <enderio:item_alloy_ingot:6>,
 <enderio:item_alloy_ingot:2>,
 <enderio:item_alloy_ingot:5>,
-<enderio:item_alloy_ingot:7>
+<enderio:item_alloy_ingot:7>,
+<enderio:item_material:15>,
+<enderio:item_material:14>,
+<enderio:item_alloy_ingot:8>,
+<enderio:item_alloy_ingot:4>,
+<enderio:item_alloy_ingot>,
+<enderio:item_alloy_ingot:3>
+
 ];
 
 for removea in AlloyFurnaceRemove {
@@ -155,6 +160,7 @@ Melter.removeRecipeWithOutput(<liquid:refinedglowstone>*1296);
 Melter.removeRecipeWithOutput(<liquid:carbon>*100);
 Melter.removeRecipeWithOutput(<liquid:carbon>*900);
 IngotFormer.removeRecipeWithInput(<liquid:carbon>*100);
+Melter.removeRecipeWithOutput(<liquid:brine>*15);
 
 val cb = <thaumadditions:crystal_block>.withTag({Aspect: "superbia"});
 mods.extendedcrafting.TableCrafting.addShaped(2, <qmd:creative_particle_source>, [
@@ -169,7 +175,6 @@ SaltMixer.addRecipe(<liquid:rocket_fuel>*1000, <liquid:rocketfuel>*1000, <liquid
 
 Crystallizer.addRecipe(<liquid:experience>*250, <actuallyadditions:item_solidified_experience>,0.2);
 
-Electrolyzer.addRecipe(<liquid:moltensalt>*200, <liquid:hydrogen>*1000, <liquid:chlorine>*1000, <liquid:sodium_hydroxide_solution>*1332, null);
 
 Centrifuge.addRecipe(<liquid:neutronium>*100, <liquid:red_matter>*100, <liquid:dark_matter>*400, null, null, null, null);
 
@@ -182,3 +187,10 @@ TargetChamber.addRecipe(<industrialforegoing:black_hole_tank>, (<particle:infini
 Enricher.addRecipe(<qmd:waste_fission>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);
 Enricher.addRecipe(<qmd:waste_fission:1>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);
 Melter.addRecipe(<mekanism:scrap>,<liquid:uu_multi>*10);
+
+//rework T4
+RecipeUtils.recipeTweak(true, <nuclearcraft:manufactory>, [[<ore:circuitThaumic>, <ore:dustRedstone>, <ore:circuitThaumic>], [<minecraft:flint:*>, <ore:emptyFrame>, <minecraft:flint:*>], [<ore:circuitThaumic>, <ore:blockLead>, <ore:circuitThaumic>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:alloy_furnace>, [[<ore:circuitThaumic>, <ore:dustRedstone>, <ore:circuitThaumic>], [<minecraft:brick:*>, <ore:emptyFrame>, <minecraft:brick:*>], [<ore:circuitThaumic>, <ore:blockCopper>, <ore:circuitThaumic>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:melter>, [[<ore:circuitOperation>, <ore:plateDenseExtreme>, <ore:circuitOperation>], [<ore:ingotThaumiumIgnis>, <ore:emptyFrame>, <ore:ingotThaumiumIgnis>], [<ore:circuitOperation>, <ore:blockAlumite>, <ore:circuitOperation>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:pressurizer>, [[<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>], [<ore:gearAdvancedElectronicAlloy>, <ore:emptyFrame>, <ore:gearAdvancedElectronicAlloy>], [<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:rock_crusher>, [[<ore:circuitOperation>, <ore:motor>, <ore:circuitOperation>], [<ore:ingotThaumiumTerra>, <ore:emptyFrame>, <ore:ingotThaumiumTerra>], [<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>]]);
