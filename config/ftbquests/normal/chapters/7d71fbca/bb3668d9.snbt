@@ -1,12 +1,11 @@
 {
-	x: 7.5d,
-	y: 2.5d,
+	x: 9.0d,
+	y: 0.0d,
 	text: [
 		"{7d71fbca.ia.bb3668d9}"
 	],
 	dependencies: [
-		"e29ace8f",
-		"f8e05a73"
+		"e29ace8f"
 	],
 	tasks: [{
 		uid: "b9311ecb",

@@ -33,7 +33,14 @@ recipes.removeShaped(<thaumcraft:plate:3> * 3, [[<ore:ingotVoid>, <ore:ingotVoid
 recipes.removeShaped(<thaumcraft:plate:2> * 3, [[<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>]]);
 recipes.removeShaped(<thaumcraft:plate:1> * 3, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<thaumcraft:plate> * 3, [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>]]);
-
+recipes.removeShaped(<thaumcraft:plate:2>);
+recipes.removeShaped(<thaumcraft:plate>);
+recipes.removeShaped(<thaumicrestoration:item_plate>*3);
+recipes.removeShaped(<thaumicrestoration:item_plate:1>*3);
+recipes.removeShaped(<thaumicrestoration:item_plate:2>*3);
+recipes.removeShaped(<thaumicrestoration:item_plate:3>*3);
+recipes.removeShaped(<thaumicrestoration:item_plate:4>*3);
+recipes.removeShaped(<thaumicrestoration:item_plate:5>*3);
 recipes.remove(<lightningcraft:rod:7>);
 recipes.remove(<lightningcraft:rod:6>);
 recipes.remove(<lightningcraft:rod:5>);

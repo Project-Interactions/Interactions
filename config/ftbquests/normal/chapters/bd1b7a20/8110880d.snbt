@@ -11,11 +11,12 @@
 		items: [{
 			item: "thermalfoundation:material 1 160"
 		}],
-		count: 8L
+		count: 16L
 	}],
 	rewards: [{
 		uid: "0cdb3e8b",
 		type: "item",
-		item: "thermalfoundation:storage_alloy"
+		item: "thermalfoundation:storage_alloy",
+		count: 4
 	}]
 }

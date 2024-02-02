@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 13.0d,
+	dependencies: [
+		"91f2b354"
+	],
+	tasks: [{
+		uid: "04cc9483",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot_former"
+		}]
+	}]
+}

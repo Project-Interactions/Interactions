@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"4eb53a81"
+	],
+	tasks: [{
+		uid: "42e51976",
+		type: "item",
+		items: [{
+			item: "artisanautomation:automator"
+		}]
+	},
+	{
+		uid: "883a6c52",
+		type: "item",
+		items: [{
+			item: "artisanautomation:automator_power_rf"
+		}]
+	}],
+	rewards: [{
+		uid: "57b2892b",
+		type: "item",
+		item: {
+			id: "artisanautomation:upgrade_speed",
+			tag: {
+				ArtisanWorktables: {
+					Upgrade: {
+						Speed: 0.5d,
+						EnergyUsage: 0.5d
+					}
+				}
+			}
+		}
+	}]
+}

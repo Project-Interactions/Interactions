@@ -1,6 +1,7 @@
 #reloadable
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
+import scripts.grassUtils.StringHelper;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.Melter;
@@ -17,6 +18,9 @@ import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.Enricher;
 import mods.qmd.target_chamber as TargetChamber;
 import mods.qmd.nucleosynthesis_chamber as NucleosynthesisChamber;
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.IngredientArrayBuilder;
 
 recipes.remove(<nuclearcraft:glowing_mushroom>);
 
@@ -28,21 +32,23 @@ recipes.remove(<nuclearcraft:part:8>);
 recipes.remove(<nuclearcraft:part:7>);
 recipes.remove(<nuclearcraft:part:9>);
 recipes.remove(<nuclearcraft:part:12>);
-recipes.addShaped(<nuclearcraft:part>, [[<nuclearcraft:dust:8>, <taiga:meteorite_ingot>, null],[<taiga:meteorite_ingot>, <immersiveengineering:material:18>, null], [null, null, null]]);
+recipes.addShaped(<nuclearcraft:part>, [[<ore:dustGraphite>, <ore:ingotEezo>, null],[<ore:ingotEezo>, <immersiveengineering:material:18>, null], [null, null, null]]);
 recipes.addShaped(<nuclearcraft:part:4>, [[null, <taiga:palladium_ingot>, null],[<enderio:item_alloy_ingot>, <taiga:palladium_ingot>, <enderio:item_alloy_ingot>], [null, <taiga:palladium_ingot>, null]]);
 recipes.remove(<nuclearcraft:part:4> * 2);
+RecipeUtils.recipeTweak(true,<nuclearcraft:assembler>, [[<ore:plateElite>, <ore:ingotHardCarbon>, <ore:plateElite>], [<ore:actuator>, <ore:chassis>, <ore:actuator>], [<ore:plateElite>, <ore:motor>, <ore:plateElite>]]);
+
 mods.extendedcrafting.TableCrafting.addShaped(2, <nuclearcraft:part:8>*2, [
 	[null, null, <ore:ingotFerroboron>, <ore:ingotFerroboron>, null], 
-	[<ore:ingotFerroboron>, <ore:ingotFerroboron>, <ore:solenoidCopper>, <ore:ingotInvar>, <ore:ingotDarkSteel>], 
-	[<ore:solenoidCopper>, <ore:solenoidCopper>, <ore:solenoidCopper>, <ore:ingotInvar>, <ore:ingotDarkSteel>], 
-	[<ore:ingotFerroboron>, <ore:ingotFerroboron>, <ore:solenoidCopper>, <ore:ingotInvar>, <ore:ingotDarkSteel>], 
+	[<ore:ingotFerroboron>, <ore:ingotFerroboron>, <ore:ingotFerroboron>, <ore:ingotInvar>, <ore:ingotDarkSteel>], 
+	[<ore:ingotFerroboron>, <ore:solenoidCopper>, <ore:solenoidCopper>, <ore:ingotInvar>, <ore:ingotDarkSteel>], 
+	[<ore:ingotFerroboron>, <ore:ingotFerroboron>, <ore:ingotFerroboron>, <ore:ingotInvar>, <ore:ingotDarkSteel>], 
 	[null, null, <ore:ingotFerroboron>, <ore:ingotFerroboron>, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <nuclearcraft:part:9>*2, [
 	[null, null, null, <ore:gearEndSteel>, <ore:gearEndSteel>], 
 	[null, null, <ore:craftingPiston>, <ore:craftingPiston>, <ore:gearEndSteel>], 
 	[<ore:ingotFerroboron>, <ore:craftingPiston>, <ore:craftingPiston>, <ore:craftingPiston>, null], 
-	[<ore:ingotOsram>, <ore:ingotFerroboron>, <ore:craftingPiston>, null, null], 
+	[<ore:ingotOsram>, <ore:solenoidCopper>, <ore:craftingPiston>, null, null], 
 	[<ore:ingotOsram>, <ore:ingotOsram>, <ore:ingotFerroboron>, null, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <nuclearcraft:part:7>*2, [
@@ -52,14 +58,13 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <nuclearcraft:part:7>*2, [
 	[null, <ore:ingotHSLASteel>, <ore:ingotConstantan>, <ore:ingotHSLASteel>, null], 
 	[<ore:ingotHSLASteel>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotHSLASteel>]
 ]);
-//File End
 recipes.removeShaped(<nuclearcraft:solid_fission_controller>, [[<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>], [<ore:ingotHardCarbon>, <ore:steelFrame>, <ore:ingotHardCarbon>], [<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>]]);
 recipes.addShaped(<nuclearcraft:solid_fission_controller>, [[<ore:plateElite>, <ore:ingotTough>, <ore:plateElite>], [<ore:ingotHardCarbon>, <ore:steelFrame>, <ore:ingotHardCarbon>], [<ore:plateElite>, <ore:ingotTough>,<ore:plateElite>]]);
 recipes.removeShaped(<nuclearcraft:separator>, [[<ore:plateBasic>, <ore:motor>, <ore:plateBasic>], [<ore:dustRedstone>, <ore:chassis>, <ore:dustRedstone>], [<ore:plateBasic>, <ore:motor>, <ore:plateBasic>]]);
 recipes.addShaped(<nuclearcraft:separator>, [[<nuclearcraft:part:1>, <ore:motor>, <nuclearcraft:part:1>], [<calculator:algorithmseparator>, <ore:chassis>, <calculator:algorithmseparator>], [<nuclearcraft:part:1>, <ore:motor>, <nuclearcraft:part:1>]]);
 recipes.removeShaped(<bloodmagic:altar>, [[<ore:stone>, null, <ore:stone>], [<ore:stone>, <minecraft:furnace>, <ore:stone>], [<ore:ingotGold>, <bloodmagic:monster_soul>, <ore:ingotGold>]]);
 recipes.removeShaped(<bloodmagic:soul_forge>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:stone>, <ore:ingotGold>, <ore:stone>], [<ore:stone>, <ore:blockIron>, <ore:stone>]]);
-//test
+
 Radiation.setRadiationLevel(<contenttweaker:material_part:53>,2.1);
 Radiation.setRadiationLevel(<contenttweaker:material_part:54>,2.1);
 Radiation.setRadiationLevel(<contenttweaker:material_part:55>,2.1);
@@ -96,14 +101,11 @@ RecipeUtils.recipeTweak(true, <qmd:vacuum_chamber_plasma_glass> * 2, [[<bloodars
 val AlloyFurnaceRemove as IItemStack[] = 
 [
 <qmd:ingot_alloy:2>*6,
-<plustic:osmiridiumingot>*2,
 <enderio:item_alloy_endergy_ingot:1>,
 <enderio:item_alloy_endergy_ingot:2>,
 <enderio:item_alloy_endergy_ingot:3>*2,
 <enderio:item_alloy_endergy_ingot:5>,
 <enderio:item_alloy_endergy_ingot:6>,
-<plustic:osmiridiumnugget>*2,
-<plustic:osmiridiumblock>,
 <advancedrocketry:productingot>*3,
 <advancedrocketry:productingot:1>*2,
 <advancedrocketry:productnugget>*3,
@@ -178,7 +180,6 @@ Crystallizer.addRecipe(<liquid:experience>*250, <actuallyadditions:item_solidifi
 
 Centrifuge.addRecipe(<liquid:neutronium>*100, <liquid:red_matter>*100, <liquid:dark_matter>*400, null, null, null, null);
 
-
 //uu
 NucleosynthesisChamber.addRecipe(<liquid:chaos>*200, <liquid:uu>*100, (<particle:neutron>*20000000)~1, <liquid:neutronium>*100, null, 10000, 14030);
 NucleosynthesisChamber.addRecipe(<liquid:uu_multi>*100, <liquid:baratol>*500, (<particle:neutron>*5000000)~1, <liquid:uu>*10, null, 10000, 14030);
@@ -191,6 +192,44 @@ Melter.addRecipe(<mekanism:scrap>,<liquid:uu_multi>*10);
 //rework T4
 RecipeUtils.recipeTweak(true, <nuclearcraft:manufactory>, [[<ore:circuitThaumic>, <ore:dustRedstone>, <ore:circuitThaumic>], [<minecraft:flint:*>, <ore:emptyFrame>, <minecraft:flint:*>], [<ore:circuitThaumic>, <ore:blockLead>, <ore:circuitThaumic>]]);
 RecipeUtils.recipeTweak(true, <nuclearcraft:alloy_furnace>, [[<ore:circuitThaumic>, <ore:dustRedstone>, <ore:circuitThaumic>], [<minecraft:brick:*>, <ore:emptyFrame>, <minecraft:brick:*>], [<ore:circuitThaumic>, <ore:blockCopper>, <ore:circuitThaumic>]]);
-RecipeUtils.recipeTweak(true, <nuclearcraft:melter>, [[<ore:circuitOperation>, <ore:plateDenseExtreme>, <ore:circuitOperation>], [<ore:ingotThaumiumIgnis>, <ore:emptyFrame>, <ore:ingotThaumiumIgnis>], [<ore:circuitOperation>, <ore:blockAlumite>, <ore:circuitOperation>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:melter>, [[<ore:circuitOperation>, <ore:ingotThaumiumIgnis>, <ore:circuitOperation>], [<ore:ingotThaumiumIgnis>, <ore:emptyFrame>, <ore:ingotThaumiumIgnis>], [<ore:circuitOperation>, <ore:blockAlumite>, <ore:circuitOperation>]]);
 RecipeUtils.recipeTweak(true, <nuclearcraft:pressurizer>, [[<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>], [<ore:gearAdvancedElectronicAlloy>, <ore:emptyFrame>, <ore:gearAdvancedElectronicAlloy>], [<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>]]);
-RecipeUtils.recipeTweak(true, <nuclearcraft:rock_crusher>, [[<ore:circuitOperation>, <ore:motor>, <ore:circuitOperation>], [<ore:ingotThaumiumTerra>, <ore:emptyFrame>, <ore:ingotThaumiumTerra>], [<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:rock_crusher>, [[<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>], [<ore:ingotThaumiumTerra>, <ore:emptyFrame>, <ore:ingotThaumiumTerra>], [<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:ingot_former>, [[<ore:circuitThaumic>, <minecraft:hopper:*>, <ore:circuitThaumic>], [<ore:ingotFerroboron>, <ore:emptyFrame>, <ore:ingotFerroboron>], [<ore:circuitThaumic>, <ore:ingotTough>, <ore:circuitThaumic>]]);
+
+Pressurizer.addRecipe(<ore:dustEnergium>*9, <contenttweaker:energy_crystal>);
+
+//alloy harder
+function alloyer(material as string,input1 as string,input2 as string,amount1 as int,amount2 as int,amount3 as int,multi as int) as void{
+	furnace.remove(oreDict["ingot" ~ material].firstItem);
+    mods.immersiveengineering.ArcFurnace.removeRecipe(oreDict["ingot" ~ material].firstItem);
+	mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,oreDict["dust" ~ material].firstItem);
+	AlloyFurnace.removeRecipeWithOutput(oreDict["ingot" ~ material].firstItem);
+	AlloyFurnace.removeRecipeWithOutput(oreDict["nugget" ~ material].firstItem);
+	AlloyFurnace.removeRecipeWithOutput(oreDict["block" ~ material].firstItem);
+	RecipeBuilder.newBuilder(material, "mixer", 80*multi)
+    .addInputs([oreDict["dust" ~ input1]*amount1,oreDict["dust" ~ input2]*amount2])
+    .addEnergyPerTickInput(500)
+    .addItemOutput(oreDict["dust" ~ material].firstItem*amount3)
+    .build();
+	RecipeBuilder.newBuilder(material, "ebf", 200*multi)
+    .addItemInputs([oreDict["dust" ~ material]])
+    .addEnergyPerTickInput(2000)
+    .addItemOutput(itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot"))
+    .build();
+	RecipeBuilder.newBuilder(material, "freezer", 80*multi)
+    .addItemInputs([itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot")])
+    .addEnergyPerTickInput(1000)
+    .addFluidInput(<liquid:cryotheum>*200)
+    .addItemOutput(oreDict["ingot" ~ material])
+    .build();
+}
+alloyer("Extreme","Tough","HardCarbon",1,1,1,1);
+alloyer("HSLASteel","Iron","CarbonManganese",15,1,16,1);
+alloyer("HardCarbon","Graphite","Diamond",2,1,2,1);
+alloyer("Thermalconducting","Extreme","BoronArsenide",1,1,2,1);
+alloyer("ZirconiumMolybdenum","Zirconium","Molybdenum",1,15,16,1);
+alloyer("Nichrome","Nickel","Chromium",1,1,2,1);
+alloyer("NiobiumTitanium","Nickel","Chromium",1,1,2,1);
+alloyer("Osmiridium","Osmium","Iridium",1,1,2,1);
+alloyer("SuperAlloy","Nichrome","NiobiumTitanium",2,1,3,1);

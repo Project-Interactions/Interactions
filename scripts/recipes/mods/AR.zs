@@ -41,11 +41,6 @@ val remove as IItemStack[] =
 <libvulpes:productgear:7>,
 <advancedrocketry:productgear>,
 <advancedrocketry:productgear:1>,
-<libvulpes:coil0:2>,
-<libvulpes:coil0:4>,
-<libvulpes:coil0:7>,
-<libvulpes:coil0:9>,
-<libvulpes:coil0:10>,
 <libvulpes:advstructuremachine>*16
 ];
 
@@ -81,6 +76,18 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:vacuumlaser>, [[<libvulpes:produ
 RecipeUtils.recipeTweak(true, <advancedrocketry:fueltank>, [[<ore:stickOsmium>, null, <ore:stickOsmium>], [<ore:plateOsmium>, <mekanism:machineblock2:11>.withTag({tier: 1}), <ore:plateOsmium>], [<ore:stickOsmium>, <ore:sheetIron>, <ore:stickOsmium>]]);
 RecipeUtils.recipeTweak(true, <advancedrocketry:bipropellantfueltank>, [[<ore:stickOsmiridium>, null, <ore:stickOsmiridium>], [<ore:plateOsmiridium>, <mekanism:machineblock2:11>.withTag({tier: 2}), <ore:plateOsmiridium>], [<ore:stickOsmiridium>, <ore:sheetSteel>, <ore:stickOsmiridium>]]);
 RecipeUtils.recipeTweak(true, <advancedrocketry:nuclearfueltank>, [[<ore:rodWyvernMetal>, null, <ore:rodWyvernMetal>], [<ore:plateWyvernMetal>, <mekanism:machineblock2:11>.withTag({tier: 3}), <ore:plateWyvernMetal>], [<ore:rodWyvernMetal>, <ore:sheetTitaniumIridium>, <ore:rodWyvernMetal>]]);
+
+//coils
+var auw = <ore:wireGold>;
+var cuw = <ore:wireCopper>;
+var tiw = <ore:wireTitanium>;
+var alw = <ore:wireAluminum>;
+var irw = <ore:wireIridium>;
+RecipeUtils.recipeTweak(true, <libvulpes:coil0:2>, [[auw,auw,auw],[auw,null,auw],[auw,auw,auw]]);
+RecipeUtils.recipeTweak(true, <libvulpes:coil0:4>, [[cuw,cuw,cuw],[cuw,null,cuw],[cuw,cuw,cuw]]);
+RecipeUtils.recipeTweak(true, <libvulpes:coil0:7>, [[tiw,tiw,tiw],[tiw,null,tiw],[tiw,tiw,tiw]]);
+RecipeUtils.recipeTweak(true, <libvulpes:coil0:9>, [[alw,alw,alw],[alw,null,alw],[alw,alw,alw]]);
+RecipeUtils.recipeTweak(true, <libvulpes:coil0:10>, [[irw,irw,irw],[irw,null,irw],[irw,irw,irw]]);
 
 ARTweaker.forMachine("ElectricArcFurnace").removeAll();
 ARTweaker.forMachine("ElectricArcFurnace")

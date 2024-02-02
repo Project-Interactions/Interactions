@@ -1,6 +1,6 @@
 {
 	x: -1.5d,
-	y: 8.5d,
+	y: 9.0d,
 	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "ba9b5906",

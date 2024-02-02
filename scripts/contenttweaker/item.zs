@@ -6,6 +6,8 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.IItemColorSupplier;
 import mods.contenttweaker.Color;
+import mods.contenttweaker.ResourceLocation;
+import scripts.grassUtils.StringHelperCot;
 
 var regItem as string[]=[
 "enrichedsunnarium",
@@ -19,11 +21,6 @@ var regItem as string[]=[
 "ore_essence",
 "twilight_crystal",
 "useful_ingot",
-
-"hot_iridium_ingot",
-"hot_osmium_ingot",
-"hot_tungsten_ingot",
-"hot_tungsten_steel_ingot",
 
 "uu_matter",
 "energy_crystal",
@@ -90,6 +87,24 @@ for items in regItem {
     VanillaFactory.createItem(items).register();
 }
 
-
-
+var hotReg as string[]=[
+    "Iridium",
+    "Osmium",
+    "Tungsten",
+    "TungstenSteel",
+    "Extreme",
+    "HSLASteel",
+    "HardCarbon",
+    "Thermalconducting",
+    "ZirconiumMolybdenum",
+    "Nichrome",
+    "NiobiumTitanium",
+    "Osmiridium",
+    "SuperAlloy"
+];
+for material in hotReg {
+    var reg = VanillaFactory.createItem("hot_" ~ StringHelperCot.toSnakeCase(material) ~ "_ingot");
+    reg.setTextureLocation(ResourceLocation.create("contenttweaker:items/hot_ingot"));
+    reg.register();
+}
 

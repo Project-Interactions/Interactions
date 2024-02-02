@@ -8,13 +8,14 @@
 		uid: "02de79d5",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 132"
+			item: "minecraft:gold_ingot"
 		}],
 		count: 16L
 	}],
 	rewards: [{
 		uid: "0107b317",
 		type: "item",
-		item: "thermalfoundation:storage 1 4"
+		item: "minecraft:gold_block",
+		count: 4
 	}]
 }

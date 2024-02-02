@@ -17,6 +17,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:interface>, [[<ore:plateRefin
 RecipeUtils.recipeTweak(true, <appliedenergistics2:fluid_interface>, [[<ore:plateRefinedIron>, <ore:dyeBlue>, <ore:plateRefinedIron>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<ore:plateRefinedIron>, <ore:dyeBlue>, <ore:plateRefinedIron>]]);
 RecipeUtils.recipeTweak(true, <aeadditions:gas_interface>, [[<ore:plateRefinedIron>, <ore:dyeYellow>, <ore:plateRefinedIron>], [<appliedenergistics2:material:44>, <ore:circuitOperation>, <appliedenergistics2:material:43>], [<ore:plateRefinedIron>, <ore:dyeYellow>, <ore:plateRefinedIron>]]);
 recipes.addShapeless(<aeadditions:part.base:2>, [<appliedenergistics2:interface>,<appliedenergistics2:part:441>,<appliedenergistics2:material:58>]);
+recipes.remove(<aeadditions:hardmedrive>);
 
 recipes.removeByRecipeName("aeadditions:misc/parttointerface");
 recipes.addShapeless(<appliedenergistics2:fluid_interface>,[<appliedenergistics2:part:441>]);

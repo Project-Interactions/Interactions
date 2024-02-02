@@ -27,12 +27,6 @@ RecipeBuilder.newBuilder("tungsten", "freezer", 80)
     .addFluidInput(<liquid:cryotheum>*200)
     .addItemOutput(<ore:ingotTungsten>.firstItem)
     .build();
-RecipeBuilder.newBuilder("tungsten_steel", "freezer", 80)
-    .addItemInputs([<contenttweaker:hot_tungsten_ingot>])
-    .addEnergyPerTickInput(1000)
-    .addFluidInput(<liquid:cryotheum>*200)
-    .addItemOutput(<ore:ingotTungstenSteel>.firstItem)
-    .build();
 RecipeBuilder.newBuilder("osmium", "freezer", 80)
     .addItemInputs([<contenttweaker:hot_osmium_ingot>])
     .addEnergyPerTickInput(1000)

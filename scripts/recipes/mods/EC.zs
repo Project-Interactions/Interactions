@@ -91,13 +91,13 @@ TableCrafting.addShaped(3, <extendedcrafting:crafting_core>, [
 
 TableCrafting.remove(<extendedcrafting:material:24>);
 TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
-	[<avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>, <avaritia:resource>], 
-	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
-	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
-	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
-	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
-	[<ore:ingotEnergeticSilver>, <ore:netherStar>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <ore:netherStar>, <ore:ingotPsi>], 
-	[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>]
+	[<ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>], 
+	[<ore:ingotEnergeticSilver>, <avaritia:resource>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <avaritia:resource>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <avaritia:resource>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <avaritia:resource>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <avaritia:resource>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <avaritia:resource>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <avaritia:resource>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <avaritia:resource>, <ore:ingotPsi>], 
+	[<ore:ingotEnergeticSilver>, <avaritia:resource>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <avaritia:resource>, <ore:ingotPsi>], 
+	[<ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>]
 ]);
 
 

@@ -1,6 +1,9 @@
 {
-	x: -5.0d,
-	y: 12.5d,
+	x: -4.0d,
+	y: 13.0d,
+	text: [
+		"{9881d108.ia.d2f4dd6d}"
+	],
 	dependencies: [
 		"9538a9d3"
 	],

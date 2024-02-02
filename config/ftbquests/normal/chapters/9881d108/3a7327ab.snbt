@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 14.0d,
+	dependencies: [
+		"a91f0db9"
+	],
+	tasks: [{
+		uid: "e02535e7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:energy_crystal"
+		}]
+	}]
+}

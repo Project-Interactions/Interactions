@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	dependencies: [
+		"f8e05a73"
+	],
+	tasks: [{
+		uid: "5598c6a6",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:centrifuge"
+		}]
+	}]
+}

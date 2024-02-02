@@ -48,6 +48,12 @@ Melting.removeRecipe(<liquid:gold>,<thermalfoundation:material:1>);
 Melting.removeRecipe(<liquid:gold>,<minecraft:gold_ore>);
 Melting.removeRecipe(<liquid:gold>,<lightningcraft:ore_block:1>);
 
+//prevent vanilla rail iron/gold dupe
+Melting.removeRecipe(<liquid:gold>,<minecraft:golden_rail>);
+Melting.removeRecipe(<liquid:iron>,<minecraft:detector_rail>);
+Melting.removeRecipe(<liquid:iron>,<minecraft:rail>);
+Melting.removeRecipe(<liquid:iron>,<minecraft:activator_rail>);
+
 Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:material:71>);
 Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:ore:7>);
 Melting.removeRecipe(<liquid:iridium>,<libvulpes:ore0:10>);

@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 7.5d,
+	dependencies: [
+		"1d4dedef"
+	],
+	tasks: [{
+		uid: "4ef0bcf4",
+		type: "item",
+		items: [{
+			item: "aether_legacy:holystone"
+		}]
+	}]
+}

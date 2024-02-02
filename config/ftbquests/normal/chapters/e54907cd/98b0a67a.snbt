@@ -26,6 +26,6 @@
 	{
 		uid: "c062d853",
 		type: "item",
-		item: "appliedenergistics2:crafting_accelerator"
+		item: "nae2:coprocessor_4x"
 	}]
 }

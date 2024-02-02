@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 6.0d,
+	dependencies: [
+		"c3c54d9c"
+	],
+	tasks: [{
+		uid: "882a92ea",
+		type: "item",
+		items: [{
+			item: "qmd:ore_leacher"
+		}]
+	}]
+}

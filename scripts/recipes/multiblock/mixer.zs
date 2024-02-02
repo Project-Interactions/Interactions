@@ -8,11 +8,7 @@ import mods.modularmachinery.RecipeModifierBuilder;
 RecipeAdapterBuilder.create("mixer","tconstruct:smeltery_alloy")
     .addEnergyPerTickInput(500)
     .build();
-RecipeBuilder.newBuilder("tungstensteel", "mixer", 80)
-    .addInputs([<ore:dustTungsten>,<ore:dustSteel>])
-    .addEnergyPerTickInput(500)
-    .addItemOutput(<jaopca:dust.tungsten_steel>)
-    .build();
+
 RecipeBuilder.newBuilder("will_alloy", "mixer", 200)
     .addInputs([<liquid:raw_will>*1000,<liquid:corrosive_will>*1000,<liquid:destructive_will>*1000,<liquid:vengeful_will>*1000,<liquid:steadfast_will>*1000])
     .addEnergyPerTickInput(500)

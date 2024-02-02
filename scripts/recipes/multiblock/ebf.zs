@@ -51,11 +51,6 @@ RecipeBuilder.newBuilder("cr", "ebf", 120)
     .addEnergyPerTickInput(500)
     .addItemOutput(<qmd:ingot:2>)
     .build();
-RecipeBuilder.newBuilder("ws", "ebf", 240)
-    .addItemInputs([<jaopca:dust.tungsten_steel>])
-    .addEnergyPerTickInput(1000)
-    .addItemOutput(<ore:ingotTungstenSteel>.firstItem)
-    .build();
 RecipeBuilder.newBuilder("os", "ebf", 240)
     .addItemInputs([<ore:dustOsmium>])
     .addEnergyPerTickInput(1000)

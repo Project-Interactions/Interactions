@@ -6,6 +6,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.recipes.ICraftingRecipe;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.oredict.IOreDictEntry;
+import scripts.grassUtils.StringHelper;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
 import mods.astralsorcery.Altar;
@@ -97,21 +98,6 @@ function seedT6(output as IItemStack,item as IIngredient) as void{
 seedT6(<mysticalagradditions:awakened_draconium_seeds>,<ore:blockDraconiumAwakened>);
 seedT6(<mysticalagradditions:neutronium_seeds>,<ore:blockCosmicNeutronium>);
 
-function toSnakeCase(arg as string) as string {
-    if (arg.contains("_")) { //snake case
-        return arg;
-    } else { //camel case
-        var temp as string = arg[0];
-        for i in 1 .. arg.length {
-            if (arg[i].toLowerCase() != arg[i]) {
-                temp ~= "_";
-            }
-            temp ~= arg[i];
-        }
-        return temp.toLowerCase();
-    }
-}
-
 function jaopcaSeedTweak(tier as int,name as string) as void{
     val block = oreDict["block" ~ name];
     var type as string = null;
@@ -133,8 +119,8 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
     if (name == "Polonium"){
         type = "dust";
     }
-    recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material." ~ toSnakeCase(name));
-    recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds." ~ toSnakeCase(name));
+    recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material." ~ StringHelper.toSnakeCase(name));
+    recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds." ~ StringHelper.toSnakeCase(name));
     if(tier == 1){
         ArcaneWorkbench.registerShapedRecipe("seedt1_" ~ name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
         oreDict["mysticalSeeds" ~ name].firstItem,
@@ -164,7 +150,7 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
         infuser.addRecipe("BIO", 2, oreDict["essence" ~ name].firstItem*3, oreDict[type ~ name].firstItem);
     }
     if(tier == 6){
-        recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_crux." ~ toSnakeCase(name));
+        recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_crux." ~ StringHelper.toSnakeCase(name));
         seedT6(oreDict["mysticalSeeds" ~ name].firstItem,block);
         infuser.addRecipe("ENTROPY", 10, oreDict["essence" ~ name].firstItem*8, oreDict[type ~ name].firstItem);
         recipes.addShaped(oreDict["crux" ~ name].firstItem, [[<ore:blockInsanium>, block, <ore:blockInsanium>],[block, <ore:blockUltimate>, block], [<ore:blockInsanium>, block, <ore:blockInsanium>]]);
@@ -202,6 +188,7 @@ jaopcaSeedTweak(3,"Blaze");
 jaopcaSeedTweak(4,"Blitz");
 jaopcaSeedTweak(4,"Blizz");
 jaopcaSeedTweak(4,"BloodBronze");
+jaopcaSeedTweak(4,"BloodInfusedIron");
 jaopcaSeedTweak(5,"BloodInfusedGlitch");
 jaopcaSeedTweak(2,"Borax");
 jaopcaSeedTweak(4,"BoronArsenide");
@@ -386,6 +373,12 @@ jaopcaSeedTweak(5,"Terbium");
 jaopcaSeedTweak(5,"Terrax");
 jaopcaSeedTweak(4,"Thermite");
 jaopcaSeedTweak(4,"Thauminite");
+jaopcaSeedTweak(4,"ThaumiumAer");
+jaopcaSeedTweak(4,"ThaumiumAqua");
+jaopcaSeedTweak(4,"ThaumiumIgnis");
+jaopcaSeedTweak(4,"ThaumiumOrdo");
+jaopcaSeedTweak(4,"ThaumiumPerditio");
+jaopcaSeedTweak(4,"ThaumiumTerra");
 jaopcaSeedTweak(6,"Thermoconducting");
 jaopcaSeedTweak(4,"Tiberium");
 jaopcaSeedTweak(3,"TinSilver");

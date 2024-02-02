@@ -18,6 +18,7 @@
 	rewards: [{
 		uid: "7676c1e0",
 		type: "item",
-		item: "enderio:block_alloy_endergy"
+		item: "enderio:block_alloy_endergy",
+		count: 2
 	}]
 }

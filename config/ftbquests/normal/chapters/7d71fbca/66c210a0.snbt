@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 7.5d,
+	dependencies: [
+		"ff94f2c2"
+	],
+	tasks: [{
+		uid: "c09311bb",
+		type: "item",
+		items: [{
+			item: "qmd:dust 1 14"
+		}]
+	}]
+}

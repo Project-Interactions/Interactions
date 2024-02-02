@@ -31,13 +31,11 @@ mods.contenttweaker.MaterialSystem.getPartBuilder().setName("coil").setPartType(
 
 
 static materials as Material[string] = {
-	"Kanthal": MaterialSystem.getMaterialBuilder().setName("Kanthal").setColor(Color.fromHex("BAAF95") as Color).build(),
 	"RefinedIron": MaterialSystem.getMaterialBuilder().setName("RefinedIron").setColor(Color.fromHex("F0F2F3")).build(),
 	"Gold": MaterialSystem.getMaterialBuilder().setName("Gold").setColor(Color.fromHex("FFFF33")).build(),
 	"Gallium": MaterialSystem.getMaterialBuilder().setName("Gallium").setColor(Color.fromHex("CCFFFF")).build(),
 	"Superconduct": MaterialSystem.getMaterialBuilder().setName("Superconduct").setColor(Color.fromHex("FFFAFA")).build(),
 	"Cloudium": MaterialSystem.getMaterialBuilder().setName("Cloudium").setColor(Color.fromHex("FCFCFC")).build(),
-    "Tough": MaterialSystem.getMaterialBuilder().setName("Tough").setColor(Color.fromHex("333333")).build(),
 	"Heavymetalelements": MaterialSystem.getMaterialBuilder().setName("Heavymetalelements").setColor(Color.fromHex("993333")).build(),
 	"Mithril": MaterialSystem.getMaterialBuilder().setName("Mithril").setColor(Color.fromHex("0099FF")).build(),
 	"Semiconductor": MaterialSystem.getMaterialBuilder().setName("Semiconductor").setColor(Color.fromHex("FFFAFA")).build(),
@@ -60,18 +58,16 @@ static materials as Material[string] = {
     "TungstenSteel": MaterialSystem.getMaterialBuilder().setName("TungstenSteel").setColor(Color.fromHex("3F48A0")).build(),
 
 };
-materials.Kanthal.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.RefinedIron.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","wire"] as string[]);
 materials.Gold.registerParts(["wire"] as string[]);
 materials.Gallium.registerParts(["block", "ingot","plate","gear","rod","nugget","dust","dust_tiny","dust_small"] as string[]);
 materials.Superconduct.registerParts(["block", "ingot","plate","gear","rod","nugget","dust","dust_tiny","dust_small"] as string[]);
 materials.Cloudium.registerParts(["block"] as string[]);
-materials.Tough.registerParts(["block"] as string[]);
 materials.Heavymetalelements.registerParts(["block", "ingot","plate","gear","rod","nugget","dust"] as string[]);
 materials.Mithril.registerParts(["block","ore"] as string[]);
 materials.Semiconductor.registerParts(["block", "ingot","plate","gear","rod","nugget","dust","dust_tiny","dust_small"] as string[]);
-materials.Energium.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);
-materials.UUMatter.registerParts(["ingot","plate","gear","rod","nugget","dust"] as string[]);
+materials.Energium.registerParts(["ingot"] as string[]);
+materials.UUMatter.registerParts(["ingot"] as string[]);
 materials.Duplication.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Naturium.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense"] as string[]);
 materials.Menril.registerParts(["block", "ingot","plate","gear","rod","nugget","plate_dense","coil","wire"] as string[]);

@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 7.5d,
+	dependencies: [
+		"a542e8d2"
+	],
+	tasks: [{
+		uid: "19dddf05",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanted_gravitite"
+		}]
+	}]
+}

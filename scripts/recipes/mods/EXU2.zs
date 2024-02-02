@@ -10,13 +10,11 @@ recipes.remove(<extrautils2:quarryproxy>);
 recipes.removeShapeless(<extrautils2:rainbowgenerator>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:screen>);
-recipes.remove(<extrautils2:passivegenerator> * 3);
-recipes.remove(<aeadditions:hardmedrive>);
-recipes.remove(<extrautils2:resonator>);
-recipes.addShaped(<extrautils2:passivegenerator> * 2, [[null, <solarflux:solar_panel_2>, null],[<ore:blockAquamarine>, <solarflux:solar_panel_2>, <ore:blockAquamarine>], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);
+RecipeUtils.recipeTweak(true, <extrautils2:passivegenerator> * 2, [[null, <solarflux:solar_panel_2>, null],[<ore:blockAquamarine>, <solarflux:solar_panel_2>, <ore:blockAquamarine>], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);
 recipes.addShaped(<contenttweaker:useful_block>, [[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>],[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>], [<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>]]);
-recipes.addShaped(<extrautils2:resonator>, [[<ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>],[<extrautils2:ingredients>, <extrautils2:machine>, <extrautils2:ingredients>], [<astralsorcery:itemcraftingcomponent:4>, <contenttweaker:useful_block>, <astralsorcery:itemcraftingcomponent:4>]]);
+RecipeUtils.recipeTweak(true, <extrautils2:resonator>, [[<ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>, <ore:plateThaumiumIgnis>],[<extrautils2:ingredients>, <extrautils2:machine>, <extrautils2:ingredients>], [<astralsorcery:itemcraftingcomponent:4>, <contenttweaker:useful_block>, <astralsorcery:itemcraftingcomponent:4>]]);
 Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
+RecipeUtils.recipeTweak(true, <extrautils2:passivegenerator:7>, [[null,<ore:plateDemonicMetal>,null],[<ore:plateDemonicMetal>, <extrautils2:ingredients:1>, <ore:plateDemonicMetal>], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);
 
 recipes.addShaped(<extrautils2:machine> * 2, [[<ore:plateBrass>, <ore:gearTwilghtSteel>, <ore:plateThaumium>],[<immersiveengineering:metal_decoration0:5>, <ore:circuitMana>, <immersiveengineering:metal_decoration0:5>], [<ore:plateThaumium>, <ore:gearTwilghtSteel>, <ore:plateBrass>]]);
 

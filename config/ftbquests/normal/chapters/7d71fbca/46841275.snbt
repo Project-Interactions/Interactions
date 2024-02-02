@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 7.5d,
+	dependencies: [
+		"7416462f",
+		"66c210a0"
+	],
+	tasks: [{
+		uid: "0a1a06f8",
+		type: "item",
+		items: [{
+			item: "qmd:part 1 4"
+		}]
+	},
+	{
+		uid: "db383792",
+		type: "item",
+		items: [{
+			item: "qmd:chemical_dust 1 1"
+		}]
+	}]
+}

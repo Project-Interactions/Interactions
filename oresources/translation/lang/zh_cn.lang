@@ -121,17 +121,6 @@ research.packagedthaumic.CLATHRATEESSENCEMATERIALIZER.title=源质水合物数�
 research.packagedthaumic.CLATHRATEESSENCEMATERIALIZER.stage.1=我已经能够创建能够在 ME 系统中以数字方式传输源质的组件。<BR>因此，如果能在 ME 系统中直接将数字化的源质转换为源质水合物将会很方便。<BR>为实现这一点，我需要能够瞬间形成源质水合物。
 //注：此处修改为不从ME系统获取能量
 research.packagedthaumic.CLATHRATEESSENCEMATERIALIZER.stage.2=通过将多个源质水化器、聚集核心和一些福鲁伊克斯水晶结合在一起，我制造了一台机器，可以将数字化的源质瞬间转换为源质水化物。<BR>这台机器不会从 ME 系统中获取能量，我需要为它独立供电。<BR>我也不应该在我的 ME 系统中添加多于一个该设备，因为这样做会使 ME 系统对相同的源质进行多次计数。
-//https://github.com/Invadermonky/Omniwand/pull/1
-#Localization files for Ominwand
-
-# Items
-item.omniwand:wand.name=全能魔杖
-
-# Tooltips
-tooltip.omniwand:shiftinfo=按住§bSHIFT§7以查看细节
-
-# Other
-omniwand:sudo_name=全能魔杖（%s）
 //https://github.com/AE2-UEL/NAE2/pull/42
 #PARSE_ESCAPES
 
@@ -290,65 +279,3 @@ tile.EcoGeneratorAdd.SolarStationSingular.name=奇点太阳能发电站
 tile.EcoGeneratorAdd.SolarStationDiffractive.name=衍射太阳能发电站
 tile.EcoGeneratorAdd.SolarStationPhotonic.name=光子太阳能发电站
 tile.EcoGeneratorAdd.SolarStationNeutron.name=中子太阳能发电站
-//https://github.com/AET9RNAL/Botaniverse/pull/1
-# Header
-itemGroup.botaniverse=寰宇植物学
-
-#Tiles
-tile.botaniverse:morepool0.name=尼弗尔海姆魔力池
-tile.botaniverse:morepool1.name=穆斯贝尔海姆魔力池
-tile.botaniverse:morepool2.name=亚尔夫海姆魔力池
-tile.botaniverse:morepool3.name=阿斯加德魔力池
-tile.botaniverse:morerock0.name=尼弗尔海姆石
-tile.botaniverse:morerock1.name=穆斯贝尔海姆石
-tile.botaniverse:morerock2.name=亚尔夫海姆石
-tile.botaniverse:morerock3.name=阿斯加德石
-tile.botaniverse:morewood0.name=尼弗尔海姆之木
-tile.botaniverse:morewood1.name=穆斯贝尔海姆之木
-tile.botaniverse:morewood2.name=亚尔夫海姆之木
-tile.botaniverse:morewood3.name=阿斯加德之木
-
-tile.botaniverse:morewood4.name=微光尼弗尔海姆之木
-tile.botaniverse:morewood5.name=微光穆斯贝尔海姆之木
-tile.botaniverse:morewood6.name=微光亚尔夫海姆之木
-tile.botaniverse:morewood7.name=微光阿斯加德之木
-
-tile.botaniverse:morespreader0.name=尼弗尔海姆魔力发射器
-tile.botaniverse:morespreader1.name=穆斯贝尔海姆魔力发射器
-tile.botaniverse:morespreader2.name=亚尔夫海姆魔力发射器
-tile.botaniverse:morespreader3.name=阿斯加德魔力发射器
-tile.botaniverse:morespreader4.name=创造魔力发射器
-
-
-tile.botaniverse:morepylon0.name=尼弗尔海姆水晶
-tile.botaniverse:morepylon1.name=穆斯贝尔海姆水晶
-tile.botaniverse:morepylon2.name=亚尔夫海姆水晶
-tile.botaniverse:morepylon3.name=阿斯加德水晶
-
-
-#Items
-item.botaniverse:spark_nilfheim.name=尼弗尔海姆火花
-item.botaniverse:spark_muspelheim.name=穆斯贝尔海姆火花
-item.botaniverse:spark_alfheim.name=亚尔夫海姆火花
-item.botaniverse:spark_asgard.name=阿斯加德火花
-item.botaniverse:morerune0.name=尼弗尔海姆符文
-item.botaniverse:morerune1.name=穆斯贝尔海姆符文
-item.botaniverse:morerune2.name=亚尔夫海姆符文
-item.botaniverse:morerune3.name=阿斯加德符文
-item.botaniverse:item_test0.name=测试
-
-
-
-
-#Entities
-entity.botaniverse:spark_nilfheim.name=尼弗尔海姆火花
-entity.botaniverse:spark_muspelheim.name=穆斯贝尔海姆火花
-entity.botaniverse:spark_alfheim.name=亚尔夫海姆火花
-entity.botaniverse:spark_asgard.name=阿斯加德火花
-
-
-#Whatever
-botaniversemisc.NilfheimPool=储存[10000000]魔力，可配置
-botaniversemisc.MuspelheimPool=储存[100000000]魔力，可配置
-botaniversemisc.AlfheimPool=储存[1000000000]魔力，可配置
-botaniversemisc.AsgardPool=储存[2147483647]魔力，可配置
