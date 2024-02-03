@@ -145,6 +145,15 @@ ManaInfusion.addAlchemy(<thaumcraft:cinderpearl>, <thaumcraft:vishroom>, 8000);
 ManaInfusion.addAlchemy(<thaumcraft:shimmerleaf>, <thaumcraft:cinderpearl>, 8000);
 ManaInfusion.addAlchemy(<thaumcraft:vishroom>, <thaumcraft:shimmerleaf>, 8000);
 
+//botaniverse rune harder
+mods.botania.RuneAltar.removeRecipe(<botaniverse:morerune>*2);
+mods.botania.RuneAltar.removeRecipe(<botaniverse:morerune:1> * 2);
+mods.botania.RuneAltar.removeRecipe(<botaniverse:morerune:2> * 2);
+mods.botania.RuneAltar.removeRecipe(<botaniverse:morerune:3> * 2);
+mods.botania.RuneAltar.addRecipe(<botaniverse:morerune>, [<ore:runeWrathB>, <ore:runeWaterB>, <ore:runeWinterB>, <ore:ingotElvenElementium>], 200000);
+mods.botania.RuneAltar.addRecipe(<botaniverse:morerune:1>, [<ore:runeWrathB>, <ore:runeAutumnB>, <ore:runeFireB>, <ore:ingotTerrasteel>], 1000000);
+mods.botania.RuneAltar.addRecipe(<botaniverse:morerune:2>, [<ore:runeLustB>, <ore:runeSummerB>, <ore:runeAirB>, <ore:ingotGaia>], 5000000);
+mods.botania.RuneAltar.addRecipe(<botaniverse:morerune:3>, [<ore:runePrideB>, <ore:runeAirB>, <ore:runeAutumnB>, <ore:ingotGaiasteel>], 25000000);
 //orechid rework
 RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:petal:8>,<minecraft:stone>], 500000);
 RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}), [<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botanicadds:gaiasteel_ingot>,<botania:petal:14>,<minecraft:netherrack>], 500000);

@@ -9,10 +9,10 @@
 <ore:industrialTnt>.remove(<minecraft:tnt>);
 
 <ore:nuggetVoid>.remove(<actuallyadditions:item_crystal_shard:3>);
-
-
+<ore:crystalVoid>.remove(<actuallyadditions:item_crystal:3>);
 <ore:gearVoid>.remove(<moreplates:void_gear>);
 <ore:plateVoid>.remove(<moreplates:void_plate>);
+
 <ore:plateBlackIron>.add(<extendedcrafting:material:2>);
 
 

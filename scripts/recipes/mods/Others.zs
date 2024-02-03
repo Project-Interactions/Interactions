@@ -24,7 +24,6 @@ mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:8>);
 recipes.remove(<mekanism:basicblock:8>);
 recipes.removeShapeless(<theaurorian:aurorianstone> * 4);
 recipes.remove(<nuclearcraft:compound:1> * 2);
-recipes.remove(<bloodmagic:soul_snare> * 4);
 recipes.remove(<immersiveengineering:stone_decoration:5> * 8);
 RecipeUtils.recipeTweak(true, <nuclearcraft:water_source>, [[<forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000})],[<forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <cookingforblockheads:sink>, <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000})], [<forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "distwater", Amount: 1000})]]);
 

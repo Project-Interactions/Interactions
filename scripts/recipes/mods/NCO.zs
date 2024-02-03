@@ -18,6 +18,7 @@ import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.Enricher;
 import mods.qmd.target_chamber as TargetChamber;
 import mods.qmd.nucleosynthesis_chamber as NucleosynthesisChamber;
+import mods.qmd.ore_leacher as OreLeacher;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.IngredientArrayBuilder;
@@ -123,7 +124,6 @@ val AlloyFurnaceRemove as IItemStack[] =
 <enderio:item_alloy_ingot:4>,
 <enderio:item_alloy_ingot>,
 <enderio:item_alloy_ingot:3>
-
 ];
 
 for removea in AlloyFurnaceRemove {
@@ -199,35 +199,40 @@ RecipeUtils.recipeTweak(true, <nuclearcraft:ingot_former>, [[<ore:circuitThaumic
 
 Pressurizer.addRecipe(<ore:dustEnergium>*9, <contenttweaker:energy_crystal>);
 
+//taiga
+OreLeacher.addRecipe(<enderio:block_infinity:2>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <enderio:item_material:20>*64, <taiga:eezo_dust>*2, null);
+OreLeacher.addRecipe(<taiga:meteorite_block>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <taiga:meteorite_dust>*4, <taiga:duranite_dust>, null);
+OreLeacher.addRecipe(<taiga:obsidiorite_block>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <taiga:obsidiorite_dust>*4, <taiga:uru_dust>, null);
+
 //alloy harder
 function alloyer(material as string,input1 as string,input2 as string,amount1 as int,amount2 as int,amount3 as int,multi as int) as void{
 	furnace.remove(oreDict["ingot" ~ material].firstItem);
     mods.immersiveengineering.ArcFurnace.removeRecipe(oreDict["ingot" ~ material].firstItem);
 	mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,oreDict["dust" ~ material].firstItem);
-	AlloyFurnace.removeRecipeWithOutput(oreDict["ingot" ~ material].firstItem);
-	AlloyFurnace.removeRecipeWithOutput(oreDict["nugget" ~ material].firstItem);
-	AlloyFurnace.removeRecipeWithOutput(oreDict["block" ~ material].firstItem);
-	RecipeBuilder.newBuilder(material, "mixer", 80*multi)
+	AlloyFurnace.removeRecipeWithOutput(oreDict["ingot" ~ material].firstItem*amount3);
+	AlloyFurnace.removeRecipeWithOutput(oreDict["nugget" ~ material].firstItem*amount3);
+	AlloyFurnace.removeRecipeWithOutput(oreDict["block" ~ material].firstItem*amount3);
+	RecipeBuilder.newBuilder(material ~ "_mixer", "mixer", 80*multi)
     .addInputs([oreDict["dust" ~ input1]*amount1,oreDict["dust" ~ input2]*amount2])
     .addEnergyPerTickInput(500)
     .addItemOutput(oreDict["dust" ~ material].firstItem*amount3)
     .build();
-	RecipeBuilder.newBuilder(material, "ebf", 200*multi)
-    .addItemInputs([oreDict["dust" ~ material]])
+	RecipeBuilder.newBuilder(material ~ "_ebf", "ebf", 200*multi)
+    .addItemInput(oreDict["dust" ~ material])
     .addEnergyPerTickInput(2000)
     .addItemOutput(itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot"))
     .build();
-	RecipeBuilder.newBuilder(material, "freezer", 80*multi)
-    .addItemInputs([itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot")])
+	RecipeBuilder.newBuilder(material ~ "_freezer", "freezer", 80*multi)
+    .addItemInput(itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot"))
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:cryotheum>*200)
-    .addItemOutput(oreDict["ingot" ~ material])
+    .addItemOutput(oreDict["ingot" ~ material].firstItem)
     .build();
 }
 alloyer("Extreme","Tough","HardCarbon",1,1,1,1);
 alloyer("HSLASteel","Iron","CarbonManganese",15,1,16,1);
 alloyer("HardCarbon","Graphite","Diamond",2,1,2,1);
-alloyer("Thermalconducting","Extreme","BoronArsenide",1,1,2,1);
+alloyer("Thermoconducting","Extreme","BoronArsenide",1,1,2,1);
 alloyer("ZirconiumMolybdenum","Zirconium","Molybdenum",1,15,16,1);
 alloyer("Nichrome","Nickel","Chromium",1,1,2,1);
 alloyer("NiobiumTitanium","Nickel","Chromium",1,1,2,1);

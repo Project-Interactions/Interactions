@@ -1,19 +1,21 @@
 {
+	icon: "thaumcraft:ingot 1 1",
 	x: -6.0d,
 	y: 13.5d,
 	dependencies: [
 		"738238c5"
 	],
 	tasks: [{
-		uid: "16615fd2",
+		uid: "9b5f56ce",
 		type: "item",
 		items: [{
-			item: "thaumcraft:ingot 1 1"
+			item: "thaumcraft:metal_void"
 		}]
 	}],
 	rewards: [{
 		uid: "9ece8c8c",
 		type: "item",
-		item: "thaumadditions:void_thaumometer"
+		item: "thaumcraft:ingot 1 1",
+		count: 16
 	}]
 }

@@ -95,7 +95,7 @@ var hotReg as string[]=[
     "Extreme",
     "HSLASteel",
     "HardCarbon",
-    "Thermalconducting",
+    "Thermoconducting",
     "ZirconiumMolybdenum",
     "Nichrome",
     "NiobiumTitanium",

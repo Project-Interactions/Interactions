@@ -38,7 +38,7 @@ Infusion.registerRecipe("arcane_thaumic_circuit", "", <contenttweaker:arcane_tha
 recipes.removeShaped(<thaumcraft:stone_arcane> * 9, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <thaumcraft:crystal_essence>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <ore:ingotTwilghtSteel>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
 
-ArcaneWorkbench.registerShapedRecipe("elytra_dupe","",30, [<aspect:aer>*5],<minecraft:elytra>,[[null,<mysticalagradditions:stuff:3>,null],[<mysticalagradditions:stuff:3>,<thaumadditions:seal_symbol>.withTag({Aspect: "volatus"}),<mysticalagradditions:stuff:3>],[null,<mysticalagradditions:stuff:3>,null]]);
+ArcaneWorkbench.registerShapedRecipe("elytra_dupe","",30, [<aspect:aer>*5],<minecraft:elytra>,[[<darkutils:shulker_pearl>,<mysticalagradditions:stuff:3>,<darkutils:shulker_pearl>],[<mysticalagradditions:stuff:3>,<thaumadditions:seal_symbol>.withTag({Aspect: "volatus"}),<mysticalagradditions:stuff:3>],[<darkutils:shulker_pearl>,<mysticalagradditions:stuff:3>,<darkutils:shulker_pearl>]]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
 ArcaneWorkbench.registerShapedRecipe("harder_mechanism_simple","BASEARTIFICE",10, [<aspect:aqua>, <aspect:ignis>],<thaumcraft:mechanism_simple>,[[null,<ore:plateBrass>,null],[<ore:plateDemonicMetal>,<ore:stickEnchantedMetal>,<ore:plateDemonicMetal>],[null,<ore:plateBrass>,null]]);

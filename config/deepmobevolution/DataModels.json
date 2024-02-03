@@ -192,7 +192,8 @@
     ],
     "lootItems": [
       "minecraft:shulker_shell,18",
-      "minecraft:diamond,2"
+      "minecraft:diamond,2",
+      "darkutils:shulker_pearl,1,0"
     ],
     "deepLearnerDisplay": {
       "hearts": 15,

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:item/hot_ingot"
+    "layer0": "contenttweaker:items/hot_ingot"
   }
 }

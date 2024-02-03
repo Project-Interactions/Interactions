@@ -125,16 +125,9 @@ Mixer.addRecipe(<liquid:advanced_etching>*500,<liquid:etching_acid>*500,[<ore:du
 <ore:circuitAdvanced>.add(<contenttweaker:processor_mechanical_circuit>);
 <ore:circuitProcessor>.add(<contenttweaker:processor_mechanical_circuit>);
 
-//prevent brass
-ArcFurnace.removeRecipe(<thaumcraft:ingot:2>);
-ArcFurnace.removeRecipe(<thaumcraft:ingot:2>*4);
-AlloySmelter.removeRecipe(<thaumcraft:ingot:2>*4);
-recipes.remove(<thaumcraft:ingot:2>*4);
-mods.forestry.Carpenter.removeRecipe(<thaumcraft:ingot:2>*9);
-recipes.remove(<thaumcraft:ingot:2>);
-recipes.addShaped(<thaumcraft:ingot:2>,[[<ore:nuggetBrass>,<ore:nuggetBrass>,<ore:nuggetBrass>],[<ore:nuggetBrass>,<ore:nuggetBrass>,<ore:nuggetBrass>],[<ore:nuggetBrass>,<ore:nuggetBrass>,<ore:nuggetBrass>]]);
-MetalPress.removeRecipe(<thaumcraft:plate>);
-MetalPress.addRecipe(<thaumcraft:plate>,<thaumcraft:ingot:2>,<immersiveengineering:mold>,1024);
+//fix tc & aa void conflict
+MetalPress.removeRecipe(<thaumcraft:plate:3>);
+MetalPress.addRecipe(<thaumcraft:plate:3>,<thaumcraft:ingot:1>,<immersiveengineering:mold>,1024);
 
 RecipeUtils.recipeTweak(true,<immersiveengineering:stone_decoration:8> * 2, [[null, <tconstruct:clear_glass>, null], [<ore:dustAluminum>, <ore:dyeGreen>, <ore:dustAluminum>], [null, <tconstruct:clear_glass>, null]]);
 RecipeUtils.recipeTweak(true,<engineersdecor:panzerglass_block> * 4, [[<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>], [<immersiveengineering:stone_decoration:8>, <minecraft:diamond>, <immersiveengineering:stone_decoration:8>], [<ore:stickSteel>, <immersiveengineering:stone_decoration:8>, <ore:stickSteel>]]);

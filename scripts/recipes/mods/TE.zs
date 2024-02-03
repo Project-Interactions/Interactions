@@ -90,6 +90,9 @@ Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_o
 Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_perditio>, <liquid:aerotheum> * 100,1200 );
 Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_vitium>, <liquid:aerotheum> * 100,1200 );
 
+//eezo
+InductionSmelter.addRecipe(<enderio:block_infinity:2>, <enderio:item_alloy_endergy_ball:2>, <enderio:item_material:20>*64, 25000, <taiga:eezo_dust>, 50);
+
 addRegexLogFilter("No InductionSmelter recipe exists for.*");
 val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
 val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<thermalfoundation:ore:7>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungsten_steel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>,<minecraft:compass>];

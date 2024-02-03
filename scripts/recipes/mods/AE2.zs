@@ -3,8 +3,8 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
-import mods.threng.Energizer;
 import mods.appliedenergistics2.Inscriber;
+import mods.threng.Energizer;
 import mods.threng.Etcher;
 import mods.threng.Aggregator;
 //misc
@@ -117,7 +117,8 @@ recipes.remove(<appliedenergistics2:quartz_glass> * 4);
 recipes.removeShapeless(<aeadditions:storage.casing:1>, [<appliedenergistics2:material:39>]);
 recipes.removeShapeless(<appliedenergistics2:material:39>, [<aeadditions:storage.casing:1>]);
 
-Inscriber.addRecipe(<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:18>,false,<mysticalagriculture:storage:2>);
+Inscriber.addRecipe(<mysticalagriculture:crafting:19>,<mysticalagriculture:crafting:18>,false,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>);
+Etcher.addRecipe(<mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:18>, <mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>);
 
 //ae2fc
 RecipeUtils.recipeTweak(true, <ae2fc:burette>, [[<ore:circuitElite>, <rftools:shape_card>, <ore:circuitElite>], [<appliedenergistics2:quartz_glass>, <minecraft:bucket>, <appliedenergistics2:quartz_glass>], [<calculator:precisionchamber>, <appliedenergistics2:material:23>, <calculator:precisionchamber>]]);

@@ -12,7 +12,8 @@ import mods.animus.AnimusPlugin;
 
 
 recipes.remove(<bloodmagic:alchemy_table>);
-recipes.addShaped(<bloodmagic:soul_snare>, [[<embers:ashen_cloth>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>],[null, <thaumadditions:adaminite_fabric>, <nuclearcraft:alloy:2>], [<thaumadditions:adaminite_fabric>, null, <embers:ashen_cloth>]]);
+recipes.remove(<bloodmagic:soul_snare> * 4);
+recipes.addShaped(<bloodmagic:soul_snare>*2, [[<embers:ashen_cloth>, <ore:ingotElectricium>, <ore:ingotElectricium>],[null, <thaumadditions:adaminite_fabric>, <ore:ingotElectricium>], [<thaumadditions:adaminite_fabric>, null, <embers:ashen_cloth>]]);
 
 
 BloodAltar.removeRecipe(<minecraft:diamond>);
