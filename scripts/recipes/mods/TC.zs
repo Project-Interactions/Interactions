@@ -36,7 +36,7 @@ Infusion.registerRecipe("gaia_plate", "", <botanicadds:gaia_plate>, 6.5, [<aspec
 Infusion.registerRecipe("arcane_thaumic_circuit", "", <contenttweaker:arcane_thaumic_circuit>, 2, [<aspect:aer>*20,<aspect:herba>*20,<aspect:alkimia>*30,<aspect:auram>*30], <contenttweaker:thaumic_circuit>, [<contenttweaker:thaumic_circuit>, <contenttweaker:thaumic_circuit>,<thaumcraft:mechanism_complex>,<thaumcraft:mechanism_complex>,<jaopca:gear.thaumium>]);
 
 recipes.removeShaped(<thaumcraft:stone_arcane> * 9, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <thaumcraft:crystal_essence>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
-recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <ore:ingotTwilghtSteel>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
+recipes.addShaped(<thaumcraft:stone_arcane> * 9, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <ore:ingotTwilightSteel>, <astralsorcery:blockblackmarble>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
 
 ArcaneWorkbench.registerShapedRecipe("elytra_dupe","",30, [<aspect:aer>*5],<minecraft:elytra>,[[<darkutils:shulker_pearl>,<mysticalagradditions:stuff:3>,<darkutils:shulker_pearl>],[<mysticalagradditions:stuff:3>,<thaumadditions:seal_symbol>.withTag({Aspect: "volatus"}),<mysticalagradditions:stuff:3>],[<darkutils:shulker_pearl>,<mysticalagradditions:stuff:3>,<darkutils:shulker_pearl>]]);
 
@@ -122,7 +122,8 @@ val infusionRemove as IItemStack[] =
 <thaumicbases:herobrinesscythe>,
 <thaumcraft:elemental_hoe>,
 <warptheory:item_cleanser>,
-<thaumadditions:jar_mithminite>
+<thaumadditions:jar_mithminite>,
+<thaumcraft:ingot:1>
 ];
 for Remove in infusionRemove {
     Infusion.removeRecipe(Remove);
@@ -228,6 +229,16 @@ Infusion.registerRecipe(
     [<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>,<jaopca:gear.adaminite>,<enderio:block_fused_glass>]//items
 );
 
+//BASEELDRITCH
+Infusion.registerRecipe(
+    "void_block", //id
+    "BASEELDRITCH", //research CAPITAL
+    <thaumcraft:metal_void>, //output
+    4, //instability
+    [<aspect:tenebrae>*40,<aspect:vitium>*20,<aspect:vacuos>*20], //aspect
+    <thaumicbases:thauminite_ingot>, //core item
+    [<thaumcraft:salis_mundus>,<thaumcraft:void_seed>,<thaumcraft:void_seed>,<thaumcraft:morphic_resonator>,<thaumcraft:void_seed>,<thaumcraft:void_seed>,<thaumcraft:salis_mundus>,<thaumcraft:void_seed>,<thaumcraft:void_seed>,<thaumcraft:morphic_resonator>,<thaumcraft:void_seed>,<thaumcraft:void_seed>]//items
+);
 //harder more 100% produce smelters
 ArcaneWorkbench.removeRecipe(<thaumadditions:adaminite_smelter>);
 ArcaneWorkbench.removeRecipe(<thaumadditions:mithminite_smelter>);

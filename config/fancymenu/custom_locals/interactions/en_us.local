@@ -16,7 +16,7 @@ fm.options.choose=Options
 fm.options.desc=Basic settings of the game
 
 fm.quitgame=Quit Game
-fm.quitgame.choose=You sure?
+fm.quitgame.choose=Sure?
 fm.quitgame.desc=Don't worry about touching by mistake
 
 fm.mod.desc=Basic settings for each mod

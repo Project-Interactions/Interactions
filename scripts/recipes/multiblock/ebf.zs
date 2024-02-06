@@ -28,7 +28,7 @@ RecipeBuilder.newBuilder("ef", "ebf", 200)
     .addEnergyPerTickInput(500)
     .addItemOutput(<redstonearsenal:material:32>)
     .build();
-RecipeBuilder.newBuilder("TwilghtSteel", "ebf", 200)
+RecipeBuilder.newBuilder("TwilightSteel", "ebf", 200)
     .addItemInput(<contenttweaker:twilight_symbol>).setChance(0)
     .addItemInputs([<twilightforest:knightmetal_ingot>,
 <twilightforest:carminite>,
@@ -39,7 +39,7 @@ RecipeBuilder.newBuilder("TwilghtSteel", "ebf", 200)
 <twilightforest:steeleaf_ingot>,
 <contenttweaker:sub_block_holder_0:1>])
     .addEnergyPerTickInput(400)
-    .addItemOutput(<ore:ingotTwilghtSteel>.firstItem)
+    .addItemOutput(<ore:ingotTwilightSteel>.firstItem)
     .build();
 RecipeBuilder.newBuilder("Naturium", "ebf", 100)
     .addItemInputs([<plustic:mirioningot>,<naturesaura:sky_ingot>])

@@ -10,6 +10,8 @@ import mods.contenttweaker.ResourceLocation;
 import scripts.grassUtils.StringHelperCot;
 
 var regItem as string[]=[
+"multiblock_builder",
+
 "enrichedsunnarium",
 "sunnarium",
 "sunnariumalloy",

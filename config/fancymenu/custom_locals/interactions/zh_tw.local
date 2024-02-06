@@ -1,27 +1,27 @@
 fm.welcome=歡迎游玩 §9Interactions §f模組包。
-fm.500mods=本模組包超過500個模組！
-fm.thank=祝你游戲愉快！
+fm.500mods=本模組包有超過500個模組！
+fm.thank=祝您遊戲愉快！
 
 fm.patreon=給一杯咖啡？（國際通用）
 fm.afadian=給一杯咖啡？(中國大陸)
 fm.github=翻閲源碼/貢獻模組包？
 
-fm.mcver=Minecraft 游戲版本：
+fm.mcver=Minecraft 遊戲版本：
 fm.forgever=Forge 版本：
-fm.totalmods=總模組數量：
-fm.activemods=載入模組數量：
+fm.totalmods=總模組數：
+fm.activemods=載入模組數：
 
 fm.options=選項
 fm.options.choose=選項
 fm.options.desc=游戲的基本設定
 
 fm.quitgame=離開遊戲
-fm.quitgame.choose=你確定要關閉游戲？
-fm.quitgame.desc=誤觸離開
+fm.quitgame.choose=確定？
+fm.quitgame.desc=別擔心誤觸
 
 fm.mod.desc=各種模組的基本設定
 
-fm.mp.desc=加入伺服器或者和你的朋友進行線上遊玩
+fm.mp.desc=加入伺服器或和你的好友聯機
 
 fm.lang.desc=切換語言（你也可以貢獻翻譯）
 

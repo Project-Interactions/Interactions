@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -92,8 +92,8 @@ key_Reload Menu | CTRL + ALT + :0
 key_Toggle Customization Overlay | CTRL + ALT + :0
 key_key.groovyscript.reload:0
 key_key.zume.zoom:46
-key_key.zume.zoom_in:13
-key_key.zume.zoom_out:12
+key_key.zume.zoom_in:0
+key_key.zume.zoom_out:0
 key_keybind.baublesinventory:48:SHIFT
 key_psimisc.keybind:25
 key_rpsideas.kb.offhandcast:0
@@ -256,6 +256,16 @@ key_key.jeiutilities.transferRecipeMax:20:CONTROL
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
 key_keywizard.keybind.openKeyboardWizard:0
+key_key.rotateup:200
+key_key.rotatedown:208
+key_key.rotateright:205
+key_key.rotateleft:203
+key_key.little.flip:34
+key_key.little.mark:50
+key_key.little.config.item:46
+key_key.little.config:46:CONTROL
+key_key.little.undo:44:CONTROL
+key_key.little.redo:21:CONTROL
 key_keybind.simplyjetpacks.gui:44:ALT
 key_keybind.simplyjetpacks.engine:34
 key_keybind.simplyjetpacks.charger:25
@@ -278,10 +288,10 @@ key_key.craftingGrid:0
 key_key.vaultopic.view:0
 key_key.vaultopic.vice:0
 key_visualores.key.action:0
-key_visualores.button.aura_flux:0
 key_visualores.button.starlight:0
-key_visualores.button.neromantic:0
 key_visualores.button.excavator:0
+key_visualores.button.neromantic:0
+key_visualores.button.aura_flux:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0

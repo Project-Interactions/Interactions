@@ -1,6 +1,0 @@
-{
-  "name": "chemical_reactor",
-  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
-  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
-  "recipes": []
-}

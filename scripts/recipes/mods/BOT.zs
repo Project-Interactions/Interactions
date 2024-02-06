@@ -93,9 +93,7 @@ ElvenTrade.removeRecipe(<botania_tweaks:ultimate_extended_crafty_crate>);
 
 //some mbd stuff
 ElvenTrade.addRecipe([<modularmachinery:mana_converter_controller>], [<botania:alfheimportal>,<botanianeedsit:mana_capacitor_terrasteel>]);
-ElvenTrade.addRecipe([<interaction:energy_drinker>], [<botania:livingwood:5>]);
-ElvenTrade.addRecipe([<interaction:cloud_forge>], [<aether_legacy:enchanter>]);
-ElvenTrade.addRecipe([<interaction:refrigerator>], [<aether_legacy:freezer>]);
+ElvenTrade.addRecipe([<modularmachinery:aether_amplifier_controller>], [<aether_legacy:enchanter>,<aether_legacy:freezer>]);
 
 RuneAltar.addRecipe(<astralsorcery:blockcollectorcrystal>, [<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>,<contenttweaker:crystal_useless>], 100000);
 

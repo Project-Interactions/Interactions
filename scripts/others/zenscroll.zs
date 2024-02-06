@@ -52,7 +52,6 @@ ZenScroll.add(<tinkertoolcasts:tank_creative>.withTag({})
 ,<tinkertoolcasts:cast_creative>);
 
 //mm
-ZenScroll.add(<interaction:ta>,<modularmachinery:blockimpetusproviderinput>,<modularmachinery:blockimpetusprovideroutput>);
 ZenScroll.add(<modularmachinery:blockstarlightproviderinput>,<modularmachinery:blockstarlightprovideroutput>);
 ZenScroll.add(<modularmachinery:blockgridproviderinput>,<modularmachinery:blockgridprovideroutput>);
 ZenScroll.add(<modularmachinery:blockaspectproviderinput>,<modularmachinery:blockaspectprovideroutput>);

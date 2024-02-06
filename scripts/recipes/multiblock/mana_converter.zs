@@ -42,7 +42,7 @@ RecipeBuilder.newBuilder("oreAstralStarmetal", "mana_converter", 80)
     .build();
 
 RecipeBuilder.newBuilder("crude_salis_mundus", "mana_converter", 120)
-    .addItemInputs([<ore:dustSaltpeter>*32,<ore:blockAmber>*8,<ore:powderMana>*32,<ore:gearTwilghtSteel>*2])
+    .addItemInputs([<ore:dustSaltpeter>*32,<ore:blockAmber>*8,<ore:powderMana>*32,<ore:gearTwilightSteel>*2])
     .addManaInput(50000,false)
     .addStarlightInput(800)
     .addItemOutput(<contenttweaker:crude_salis_mundus>)
@@ -65,4 +65,17 @@ RecipeBuilder.newBuilder("asgardandelion", "mana_converter", 40)
     .addManaInput(50000,false)
     .addStarlightInput(800)
     .addItemOutput(<botania:specialflower>.withTag({type: "asgardandelion"}))
+    .build();
+
+RecipeBuilder.newBuilder("naga", "mana_converter", 40)
+    .addItemInputs([<twilightforest:naga_scale>,<twilightforest:naga_stone:1>*4])
+    .addItemOutputs([<twilightforest:naga_scale>*2])
+    .addManaInput(10000,false)
+    .build();
+
+RecipeBuilder.newBuilder("liveroot", "mana_converter", 40)
+    .addItemInputs([<twilightforest:twilight_log>*16,<botania:fertilizer>])
+    .addInput(<ore:blockIronwood>).setChance(0)
+    .addItemOutputs([<twilightforest:root:1>])
+    .addManaInput(4000,false)
     .build();

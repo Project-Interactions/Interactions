@@ -204,6 +204,7 @@ OreLeacher.addRecipe(<enderio:block_infinity:2>,<liquid:nitric_acid>*16, <liquid
 OreLeacher.addRecipe(<taiga:meteorite_block>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <taiga:meteorite_dust>*4, <taiga:duranite_dust>, null);
 OreLeacher.addRecipe(<taiga:obsidiorite_block>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <taiga:obsidiorite_dust>*4, <taiga:uru_dust>, null);
 
+addRegexLogFilter("No InductionSmelter recipe exists for.*");
 //alloy harder
 function alloyer(material as string,input1 as string,input2 as string,amount1 as int,amount2 as int,amount3 as int,multi as int) as void{
 	furnace.remove(oreDict["ingot" ~ material].firstItem);

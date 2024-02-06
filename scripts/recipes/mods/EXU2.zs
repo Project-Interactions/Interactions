@@ -16,7 +16,7 @@ RecipeUtils.recipeTweak(true, <extrautils2:resonator>, [[<ore:plateThaumiumIgnis
 Resonator.add(<environmentalmaterials:hardened_stone>, <tconstruct:seared>, 400);
 RecipeUtils.recipeTweak(true, <extrautils2:passivegenerator:7>, [[null,<ore:plateDemonicMetal>,null],[<ore:plateDemonicMetal>, <extrautils2:ingredients:1>, <ore:plateDemonicMetal>], [<extrautils2:decorativesolid:2>, <extrautils2:ingredients>, <extrautils2:decorativesolid:2>]]);
 
-recipes.addShaped(<extrautils2:machine> * 2, [[<ore:plateBrass>, <ore:gearTwilghtSteel>, <ore:plateThaumium>],[<immersiveengineering:metal_decoration0:5>, <ore:circuitMana>, <immersiveengineering:metal_decoration0:5>], [<ore:plateThaumium>, <ore:gearTwilghtSteel>, <ore:plateBrass>]]);
+recipes.addShaped(<extrautils2:machine> * 2, [[<ore:plateBrass>, <ore:gearTwilightSteel>, <ore:plateThaumium>],[<immersiveengineering:metal_decoration0:5>, <ore:circuitMana>, <immersiveengineering:metal_decoration0:5>], [<ore:plateThaumium>, <ore:gearTwilightSteel>, <ore:plateBrass>]]);
 
 
 Resonator.add(<compactmachines3:machine:3>, <compactmachines3:machine:2>, 10000);
@@ -60,8 +60,6 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:passivegenerator:6
 	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
 	[<extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>]
 ]);
-
-recipes.addShaped(<interaction:gp>, [[<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>],[<contenttweaker:useful_ingot>, <extrautils2:poweroverload>, <contenttweaker:useful_ingot>], [<contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>, <contenttweaker:useful_ingot>]]);
 
 Crusher.remove(<thermalfoundation:material:69>);
 Crusher.remove(<immersiveengineering:metal:13>);

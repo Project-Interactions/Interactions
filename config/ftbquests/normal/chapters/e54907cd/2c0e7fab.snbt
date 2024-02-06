@@ -12,7 +12,7 @@
 		uid: "4c526a41",
 		type: "item",
 		items: [{
-			item: "interaction:ae_crafter"
+			item: "modularmachinery:ae_crafter_controller"
 		}]
 	},
 	{

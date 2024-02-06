@@ -88,8 +88,6 @@ recipes.addShaped(<tconstruct:soil> * 16, [[<minecraft:gravel>, <minecraft:sand>
 recipes.addShaped(<tconstruct:seared:3> * 2, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:clay_hard>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
 recipes.remove(<plustic:centrifuge>);
 recipes.remove(<plustic:centrifuge:1>);
-
-
 //alloys
 Alloy.removeRecipe(<liquid:osmiridium>);
 Alloy.removeRecipe(<liquid:enderium>);
@@ -279,6 +277,6 @@ function advancedAlloy(output as ILiquidStack,input as ILiquidStack[]) as void{
 }
 advancedAlloy(<liquid:crude_steel> * 2, [<liquid:refinediron> * 2, <liquid:stone>,  <liquid:clay>]);
 advancedAlloy(<liquid:tic_useful_metal>,[<liquid:xu_demonic_metal>,<liquid:xu_enchanted_metal>,<liquid:xu_evil_metal>]);
-advancedAlloy(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);
 advancedAlloy(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refinediron>]);
 advancedAlloy(<liquid:dilithium_fluid>,[<liquid:lithium>*2,<liquid:hard_carbon>]);
+advancedAlloy(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);

@@ -132,7 +132,7 @@ base.material.duplication=复制金属
 base.material.superconduct=超导
 base.material.cloudium=薄云轻合金
 base.material.naturium=自然合金
-base.material.twilght_steel=暮色合金
+base.material.twilight_steel=暮色合金
 base.material.refined_iron=精炼铁
 base.material.six_in_one_thaumic=六合一神秘
 base.material.crude_gold=贵金属
@@ -179,3 +179,6 @@ ia.rt.dart_shooter=吹箭筒
 ia.rt.tic_plus=匠魂附加
 ia.rt.tc_plus=神秘附加
 ia.rt.vis_seeds=魔力种子
+
+//jei
+comtenttweaker.essence_ore=矿物精华

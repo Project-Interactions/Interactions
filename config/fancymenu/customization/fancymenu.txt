@@ -405,7 +405,7 @@ customization {
   y = -9
   scale = 1.0
   alignment = left
-  value = §9Interaction §5Made By §6mczph
+  value = §bInteraction §dMade By §6mczph
 }
 
 customization {
@@ -432,7 +432,7 @@ customization {
   y = -45
   scale = 1.0
   alignment = left
-  value = {"placeholder":"local","values":{"key":"fm.mcver"}}§7%mcversion%
+  value = {"placeholder":"local","values":{"key":"fm.mcver"}} 1.12.2 LTS
 }
 
 customization {
@@ -468,7 +468,7 @@ customization {
   y = -36
   scale = 1.0
   alignment = left
-  value = {"placeholder":"local","values":{"key":"fm.forgever"}}§b%version:forge%
+  value = {"placeholder":"local","values":{"key":"fm.forgever"}} %version:forge%
 }
 
 customization {

@@ -135,7 +135,7 @@ base.material.duplication=Duplication Alloy
 base.material.superconduct=Superconductor
 base.material.cloudium=Light Cloudium
 base.material.naturium=Naturium
-base.material.twilght_steel=Twilight Steel
+base.material.twilight_steel=Twilight Steel
 base.material.refined_iron=Refined Iron
 base.material.six_in_one_thaumic=Six In One Thaumic
 base.material.crude_gold=Precious Metal
@@ -179,3 +179,6 @@ ia.rt.dart_shooter=Dart Shooter
 ia.rt.tic_plus=Tinkers' Plus
 ia.rt.tc_plus=Thaumcraft Plus
 ia.rt.vis_seeds=Vis Seeds
+
+//jei
+comtenttweaker.essence_ore=Ore Essence

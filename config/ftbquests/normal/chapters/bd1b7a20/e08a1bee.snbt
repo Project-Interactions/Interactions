@@ -15,7 +15,7 @@
 		uid: "7d420a78",
 		type: "item",
 		items: [{
-			item: "multiblocked:multiblock_builder"
+			item: "contenttweaker:multiblock_builder"
 		}]
 	}]
 }

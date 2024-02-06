@@ -12,13 +12,13 @@ import mods.mekanism.combiner;
 import mods.mekanism.compressor;
 import mods.mekanism.reaction;
 
+recipes.removeByMod("mekanismtools");
+
 recipes.removeByRecipeName("mekanism:energycube_create");
+//salt compat
 recipes.remove(<mekanism:saltblock>);
 recipes.addShaped(<mekanism:saltblock>, [[<mekanism:salt>, <mekanism:salt>,<mekanism:salt>], [<mekanism:salt>, <mekanism:salt>,<mekanism:salt>],[<mekanism:salt>, <mekanism:salt>,<mekanism:salt>]]);
-recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
-recipes.removeShaped(<mekanism:basicblock:14>);
-recipes.remove(<mekanism:basicblock2> * 4);
-//infuser
+//infuser rework
 infuser.removeRecipe(<mekanism:enrichedalloy>);
 infuser.addRecipe("REDSTONEHARD", 20, <ore:ingotZirconiumMolybdenum>, <mekanism:enrichedalloy>);
 
@@ -194,6 +194,9 @@ RecipeUtils.recipeTweak(true, <mekanismgenerators:reactor:2> * 2, [[null, <mekan
 RecipeUtils.recipeTweak(true, <mekanismgenerators:reactor:3>, [[null, <mekanismgenerators:reactor:1>, null], [<mekanismgenerators:reactor:1>, <qmd:accelerator_redstone_port>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
 
 //thermalevaporation
+recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
+recipes.removeShaped(<mekanism:basicblock:14>);
+recipes.remove(<mekanism:basicblock2> * 4);
 //tweak lithium
 thermalevaporation.removeRecipe(<liquid:brine>, <liquid:liquidlithium>);
 thermalevaporation.addRecipe(<liquid:rich_lithium_water>, <liquid:liquidlithium>);
@@ -226,13 +229,9 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy
 	[null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null]
 ]);
 
-//cheaper energy cube
-recipes.addShaped(<mekanism:energycube>, [[<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>],[<thermalfoundation:material:24>, <ore:circuitBasic>, <thermalfoundation:material:24>], [<moreplates:redstone_alloy_plate>, <thermalfoundation:material:24>, <moreplates:redstone_alloy_plate>]]);
-
 //ar
 infuser.addRecipe("DIAMONDHARD", 20, <contenttweaker:material_part:70>*2, <libvulpes:structuremachine>);
 
-recipes.removeByMod("mekanismtools");
 //fix taiga
 mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.dilithium>);
 mods.mekanism.chemical.injection.removeRecipe(<jaopca:mekanism_shard.tiberium>);

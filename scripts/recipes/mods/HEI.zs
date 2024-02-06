@@ -51,7 +51,7 @@ for ri in removeItem {
     JEI.hide(ri);
 }
 
-var keyJEI as IJeiPanel = JEI.createJei("essence_ore", "essence_ore");
+var keyJEI as IJeiPanel = JEI.createJei("essence_ore", "contenttweaker_essence_ore");
 keyJEI.setModid("contenttweaker");
 keyJEI.setBackground(IJeiUtils.createBackground(150, 50));
 keyJEI.addRecipeCatalyst(<contenttweaker:basic_refined_ore_essence>);

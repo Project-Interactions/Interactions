@@ -1,0 +1,10 @@
+modularmachinery.aspect_infuser=源质注入器
+modularmachinery.mana_converter=魔能转换器
+modularmachinery.ebf=电力高炉
+modularmachinery.freezer=真空冷冻机
+modularmachinery.magnetizer=磁化机
+modularmachinery.mixer=混合器
+modularmachinery.melter=融化器
+modularmachinery.aether_amplifier=天境增幅器
+modularmachinery.ae_crafter=应用合成器
+ia.aspect_infuser.speed=加快30%的制作速度，可叠加

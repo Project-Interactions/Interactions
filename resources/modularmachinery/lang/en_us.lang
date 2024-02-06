@@ -1,0 +1,10 @@
+modularmachinery.aspect_infuser=Aspect Infuser
+modularmachinery.mana_converter=Mana Converter
+modularmachinery.ebf=Electric Blast Furnace (EBF)
+modularmachinery.freezer=Vacuum Freezer
+modularmachinery.magnetizer=Magnetizer
+modularmachinery.mixer=Large Mixer
+modularmachinery.melter=Large Melter
+modularmachinery.aether_amplifier=Aether Amplifier
+modularmachinery.ae_crafter=Applicated Crafter
+ia.aspect_infuser.speed=30% faster crafting speed, superimposed

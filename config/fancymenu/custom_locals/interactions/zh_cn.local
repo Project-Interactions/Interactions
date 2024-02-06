@@ -16,7 +16,7 @@ fm.options.choose=选项
 fm.options.desc=游戏的基本设置
 
 fm.quitgame=退出游戏
-fm.quitgame.choose=你确定？
+fm.quitgame.choose=确定？
 fm.quitgame.desc=别担心误触
 
 fm.mod.desc=各个模组的基本设置
