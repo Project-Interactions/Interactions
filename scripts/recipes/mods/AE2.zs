@@ -156,7 +156,7 @@ Etcher.removeRecipe(<appliedenergistics2:material:24>);
 Etcher.addRecipe(<appliedenergistics2:material:22>, <ore:plateEnrichedGold>, <ore:dustRedstone>, <ore:itemSilicon>);
 Etcher.addRecipe(<appliedenergistics2:material:24>, <calculator:flawlessdiamond>, <ore:dustRedstone>, <ore:itemSilicon>);
 
-//Aggregator.addRecipe(<enderio:item_material>,<techreborn:machine_frame:2>, <enderio:block_infinity>, <ore:circuitOperation>);
+Aggregator.addRecipe(<enderio:item_material>,<nuclearcraft:part:11>, <enderio:block_infinity>, <ore:circuitOperation>);
 Energizer.addRecipe(<fluxnetworks:flux>, <calculator:redstoneingot>, 100000);
 
 //nae2

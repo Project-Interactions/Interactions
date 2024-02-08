@@ -7,4 +7,6 @@ modularmachinery.mixer=Large Mixer
 modularmachinery.melter=Large Melter
 modularmachinery.aether_amplifier=Aether Amplifier
 modularmachinery.ae_crafter=Applicated Crafter
+modularmachinery.arcane_crafter=Arcane Crafter
+modularmachinery.fusion_computer=Fusion Control Computer
 ia.aspect_infuser.speed=30% faster crafting speed, superimposed

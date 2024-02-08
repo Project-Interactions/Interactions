@@ -9,6 +9,7 @@ import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Transposer;
 import mods.thermalexpansion.Compactor;
+import mods.thermalexpansion.Infuser;
 
 recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <minecraft:bucket>, <ore:ingotCopper>], [null, <ore:blockRedstone>, null]]);
 
@@ -190,3 +191,5 @@ RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade>, [[null, <ore:ingotInv
 RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:1>, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <ore:gearSilver>, <ore:ingotElectrum>], [<ore:blockGlassHardened>, <ore:circuitOperation>, <ore:blockGlassHardened>]]);
 RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:2>, [[null, <ore:ingotSignalum>, null], [<ore:ingotSignalum>, <ore:gearElectrum>, <ore:ingotSignalum>], [<ore:dustCryotheum>, <ore:circuitElite>, <ore:dustCryotheum>]]);
 RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:3>, [[null, <ore:ingotEnderium>, null], [<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>], [<ore:dustPyrotheum>, <ore:circuitMaster>, <ore:dustPyrotheum>]]);
+
+Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 1000000);

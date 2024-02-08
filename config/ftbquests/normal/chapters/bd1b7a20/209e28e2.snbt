@@ -11,5 +11,10 @@
 		uid: "607368a1",
 		type: "fluid",
 		fluid: "concrete"
+	}],
+	rewards: [{
+		uid: "859c4d43",
+		type: "choice",
+		table: 1
 	}]
 }

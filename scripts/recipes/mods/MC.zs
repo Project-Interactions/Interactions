@@ -382,9 +382,7 @@ recipes.addShapeless(<actuallyadditions:item_chest_crystal_red>, [<conarm:chest_
 recipes.addShapeless(<actuallyadditions:item_helm_crystal_red>, [<conarm:helmet_core>.withTag({Material: "restonia_crystal"}),<conarm:armor_trim>.withTag({Material: "restonia_crystal"}),<conarm:armor_plate>.withTag({Material: "restonia_crystal"})]);
 //thermal f
 
-//embers & aether workd
-
-//techreborn
+//embers & aether work
 
 //botania
 

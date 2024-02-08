@@ -1,0 +1,1591 @@
+{
+    "registryname": "fusion_computer", 
+    "localizedname": "ia.machine.fusion_computer.name", 
+    "requires-blueprint": false, 
+    "color": "C34C4A", 
+    "parts": [
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "modularmachinery:blockrainbowprovider@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        }
+    ]}

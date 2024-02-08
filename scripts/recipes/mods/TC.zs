@@ -56,7 +56,7 @@ ArcaneWorkbench.registerShapedRecipe("harder_mmorphic_resonator","BASEARTIFICE",
 
 ArcaneWorkbench.registerShapedRecipe("harder_aspect_infuser","",80, [<aspect:aer>, <aspect:ignis>],<modularmachinery:aspect_infuser_controller>,[[<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>],[<extendedcrafting:storage:2>, <thaumcraft:essentia_output>, <extendedcrafting:storage:2>], [<thaumcraft:metal_thaumium>, <extendedcrafting:storage:2>, <thaumcraft:metal_thaumium>]]);
 
-//try to fix no show
+//try to fix no display
 Crucible.removeRecipe(<minecraft:web>);
 Crucible.removeRecipe(<minecraft:string>);
 Crucible.registerRecipe("hedge_web"      , "HEDGEALCHEMY@3", <minecraft:web>, <minecraft:string>, [<aspect:vinculum>*2]);
@@ -64,8 +64,10 @@ Crucible.registerRecipe("hedge_string"   , "HEDGEALCHEMY@3", <minecraft:string>,
 
 Crucible.removeRecipe(<thaumcraft:ingot:2>);
 Crucible.removeRecipe(<thaumcraft:ingot>);
-Crucible.registerRecipe("harder_ingot_1"   , "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotCopper>, [<aspect:instrumentum>*5]);
-Crucible.registerRecipe("harder_ingot_2"   , "METALLURGY@2", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
+Crucible.registerRecipe("harder_brass"   , "METALLURGY@1", <thaumcraft:ingot:2>*2, <ore:ingotCopper>, [<aspect:instrumentum>*5]);
+Crucible.registerRecipe("harder_thaumium"   , "METALLURGY@2", <thaumcraft:ingot>*2, <ore:ingotAstralStarmetal>, [<aspect:praecantatio>*5,<aspect:terra>*5]);
+
+Crucible.registerRecipe("harder_demonic"   , "", <extrautils2:ingredients:11>*2, <ore:ingotThaumiumIgnis>, [<aspect:infernum>*5]);
 
 //original research TWOND_END_HEDGE
 Crucible.removeRecipe(<minecraft:ender_pearl>*2);

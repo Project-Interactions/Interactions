@@ -1,0 +1,13 @@
+{
+	title: "concrete",
+	icon: "immersiveengineering:stone_decoration 1 5",
+	loot_size: 1,
+	rewards: [{
+		item: "engineersdecor:rebar_concrete",
+		count: 4
+	},
+	{
+		item: "immersiveengineering:stone_decoration 1 5",
+		count: 32
+	}]
+}

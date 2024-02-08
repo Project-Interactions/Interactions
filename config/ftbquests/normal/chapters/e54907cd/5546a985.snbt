@@ -1,26 +1,11 @@
 {
 	title: "{e54907cd.ia.5546a985.title}",
-	x: 6.0d,
-	y: 4.5d,
+	x: 7.5d,
+	y: 3.0d,
 	text: [
 		"{e54907cd.ia.5546a985}"
 	],
 	tasks: [{
-		uid: "f26542c8",
-		type: "item",
-		title: "Any dustAshes",
-		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "dustAshes"
-				}
-			}
-		}],
-		count: 4L
-	},
-	{
 		uid: "98038982",
 		type: "item",
 		title: "Any dustSkyStone",
@@ -34,6 +19,25 @@
 			}
 		}],
 		count: 4L
+	},
+	{
+		uid: "e39502c8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustAsh"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustAsh"
+				}
+			}
+		}],
+		count: 64L
 	}],
 	rewards: [{
 		uid: "e5041543",

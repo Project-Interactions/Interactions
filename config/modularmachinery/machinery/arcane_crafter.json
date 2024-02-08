@@ -1,0 +1,215 @@
+{
+    "registryname": "arcane_crafter", 
+    "localizedname": "ia.machine.arcane_crafter.name", 
+    "requires-blueprint": false, 
+    "color": "E1B54C", 
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "arcanearchives:radiant_crafting_table@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        }
+    ]}

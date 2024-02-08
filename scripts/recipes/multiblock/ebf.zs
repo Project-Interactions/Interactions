@@ -102,3 +102,9 @@ RecipeBuilder.newBuilder("archaic_brick", "ebf", 60)
     .addFluidInput(<liquid:blend_caminite>*500)
     .addItemOutput(<embers:archaic_brick>)
     .build();
+RecipeBuilder.newBuilder("sunnarium", "ebf", 300)
+    .addItemInputs([<ore:ingotSolarium>,<ore:ingotRefinedGlowstone>])
+    .addEnergyPerTickInput(8000)
+    .addFluidInput(<liquid:liquid_sunshine>*2000)
+    .addItemOutput(<contenttweaker:sunnarium>)
+    .build();

@@ -187,7 +187,7 @@ NucleosynthesisChamber.addRecipe(<liquid:uu_multi_adv>*100, <liquid:baratol>*500
 TargetChamber.addRecipe(<industrialforegoing:black_hole_tank>, (<particle:infinity>*50000000)^10000, <mekanism:machineblock2:11>.withTag({tier: 4}), null, null, null, 22000, 0.2, 15000);
 Enricher.addRecipe(<qmd:waste_fission>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);
 Enricher.addRecipe(<qmd:waste_fission:1>, <liquid:uu_multi>*10, <liquid:uu_multi_adv>*50, 1, 4, 0.1);
-Melter.addRecipe(<mekanism:scrap>,<liquid:uu_multi>*10);
+Melter.addRecipe(<appliedenergistics2:material:6>,<liquid:uu_multi>*10);
 
 //rework T4
 RecipeUtils.recipeTweak(true, <nuclearcraft:manufactory>, [[<ore:circuitThaumic>, <ore:dustRedstone>, <ore:circuitThaumic>], [<minecraft:flint:*>, <ore:emptyFrame>, <minecraft:flint:*>], [<ore:circuitThaumic>, <ore:blockLead>, <ore:circuitThaumic>]]);

@@ -1,5 +1,5 @@
 {
-	x: -11.0d,
+	x: -10.5d,
 	y: 3.0d,
 	dependencies: [
 		"5dc02c74"
@@ -14,7 +14,6 @@
 	rewards: [{
 		uid: "f1ef3431",
 		type: "item",
-		item: "minecraft:diamond_block",
-		count: 64
+		item: "avaritia:singularity 1 10"
 	}]
 }

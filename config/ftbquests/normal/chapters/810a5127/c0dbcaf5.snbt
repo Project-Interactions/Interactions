@@ -31,15 +31,15 @@
 		uid: "222c5988",
 		type: "item",
 		item: {
-			id: "forestry:can 1 1",
+			id: "forestry:can",
+			Damage: 1s,
 			tag: {
 				Fluid: {
 					FluidName: "astralsorcery.liquidstarlight",
 					Amount: 1000
 				}
-			},
-			Count: 1b
+			}
 		},
-		count: 2
+		count: 4
 	}]
 }

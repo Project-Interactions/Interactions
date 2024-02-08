@@ -1,14 +1,14 @@
 {
 	x: -12.0d,
-	y: -1.5d,
+	y: -4.5d,
 	dependencies: [
-		"e02ba9e5"
+		"5d42db2a"
 	],
 	tasks: [{
-		uid: "d258bf13",
+		uid: "47c90db6",
 		type: "item",
 		items: [{
-			item: "extendedcrafting:storage 1 3"
+			item: "extendedcrafting:crafting_core"
 		}]
 	}]
 }

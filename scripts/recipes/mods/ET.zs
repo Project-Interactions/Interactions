@@ -12,7 +12,7 @@ recipes.remove(<environmentaltech:void_ore_miner_cont_2>);
 
 recipes.remove(<environmentaltech:structure_panel_clear>);
 recipes.remove(<environmentaltech:litherite_crystal> * 4);
-//RecipeUtils.recipeTweak(true, <environmentaltech:void_ore_miner_cont_1>, [[<ore:blockLitherite>, <techreborn:machine_frame:2>, <ore:blockLitherite>],[<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>], [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]]);
+RecipeUtils.recipeTweak(true, <environmentaltech:void_ore_miner_cont_1>, [[<ore:blockLitherite>, <enderio:item_material>, <ore:blockLitherite>],[<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>], [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]]);
 RecipeUtils.recipeTweak(true, <environmentaltech:structure_panel>, [[<ore:plateElectrum>, <extrautils2:decorativesolid:7>, <ore:plateElectrum>],[<extrautils2:decorativesolid:7>, <environmentaltech:connector>, <extrautils2:decorativesolid:7>], [<ore:plateElectrum>, <extrautils2:decorativesolid:7>, <ore:plateElectrum>]]);
 RecipeUtils.recipeTweak(true, <environmentaltech:laser_core>, [[<calculator:flawlessglass>, <environmentaltech:connector>, <calculator:flawlessglass>],[<calculator:flawlessglass>, <environmentaltech:laser_lens>, <calculator:flawlessglass>], [<calculator:flawlessglass>, <environmentaltech:connector>, <calculator:flawlessglass>]]);
 recipes.addShapeless(<environmentaltech:structure_panel_clear>, [<environmentaltech:structure_panel>,<appliedenergistics2:quartz_glass>]);

@@ -76,6 +76,11 @@ Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelhelm>);
 Melting.removeRecipe(<liquid:manasteel>,<botania:manasteellegs>);
 Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelchest>);
 Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelboots>);
+
+Melting.removeRecipe(<liquid:diamond>,<actuallyadditions:item_dust:2>);
+Melting.removeRecipe(<liquid:diamond>,<mekanism:otherdust>);
+Melting.removeRecipe(<liquid:diamond>,<nuclearcraft:gem_dust>);
+Melting.removeRecipe(<liquid:diamond>,<lightningcraft:material:1>);
 //
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:glowstone", Count: 1 as byte, Damage: 0 as short}}));
 recipes.remove(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:redstone_block", Count: 1 as byte, Damage: 0 as short}}));

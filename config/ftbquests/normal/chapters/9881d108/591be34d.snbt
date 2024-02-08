@@ -4,6 +4,9 @@
 	text: [
 		"{9881d108.ia.591be34d}"
 	],
+	dependencies: [
+		"c5146ead"
+	],
 	tasks: [{
 		uid: "1a229967",
 		type: "item",
