@@ -469,6 +469,14 @@
             ]
         },
         {
+            "x": -4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@13"
+            ]
+        },
+        {
             "x": 6,
             "y": -1,
             "z": 12,

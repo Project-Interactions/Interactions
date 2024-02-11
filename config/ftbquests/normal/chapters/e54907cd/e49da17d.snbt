@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	dependencies: [
+		"f2344bac"
+	],
+	tasks: [{
+		uid: "4677739d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 10"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8ebc4ab2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 12"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2912f009",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 11"
+		}],
+		count: 4L
+	}]
+}

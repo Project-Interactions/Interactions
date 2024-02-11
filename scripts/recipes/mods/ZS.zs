@@ -7,8 +7,8 @@ import mods.zensummoning.SummoningDirector;
 import mods.zensummoning.MobInfo;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
-//蓝色史莱姆
 
+//blueslime
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
 	.setCatalyst(<forestry:can:1>.withTag({Fluid: {FluidName: "slime_cot", Amount: 1000}}))
@@ -20,7 +20,7 @@ SummoningDirector.addSummonInfo(
 	)
 );
 
-//血腥1
+//cultistcleric
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
 	.setCatalyst(<forestry:can:1>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}))
@@ -31,7 +31,7 @@ SummoningDirector.addSummonInfo(
 		.setCount(1)
 	)
 );
-//血腥2
+//cultistknight
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
 	.setCatalyst(<forestry:can:1>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}))

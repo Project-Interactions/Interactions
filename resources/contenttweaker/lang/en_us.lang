@@ -78,6 +78,8 @@ item.contenttweaker.circuit_stack.name=Circuit Stack
 item.contenttweaker.operation_circuit_board.name=Operation Circuit Board
 item.contenttweaker.mana_matter.name=Mana Matter
 item.contenttweaker.powered_circuit_board.name=Powered Circuit Board
+
+item.contenttweaker.multiblock_builder.name=Multiblock Builder
 //fluid
 fluid.blend_caminite=Liquid Caminite
 fluid.hot_blend_caminite=Hot Liquid Caminite

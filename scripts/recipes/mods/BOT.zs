@@ -37,6 +37,7 @@ RecipeUtils.recipeTweak(true, <botaniverse:morepool>, [[<ore:runeNilfheim>,<bota
 RecipeUtils.recipeTweak(true, <botaniverse:morepool:1>, [[<ore:plateGaia>, <botaniverse:morepool>, <ore:plateGaia>], [<botaniverse:morepool>, <ore:runeMuspelheim>, <botaniverse:morepool>], [<ore:plateGaia>, <botaniverse:morepool>, <ore:plateGaia>]]);
 RecipeUtils.recipeTweak(true, <botaniverse:morepool:2>, [[<ore:plateGaiasteel>, <botaniverse:morepool:1>, <ore:plateGaiasteel>], [<botaniverse:morepool:1>, <ore:runeAlfheim>, <botaniverse:morepool:1>], [<ore:plateGaiasteel>, <botaniverse:morepool:1>, <ore:plateGaiasteel>]]);
 recipes.remove(<botaniverse:morepool:3>);
+recipes.remove(<botaniverse:spark_asgard>);
 //gaia crystal
 LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_1:1>, <botania:pylon:2>, 20);
 //livingrock
@@ -118,7 +119,7 @@ for i in 8 to 16 {
     <ore:biomeCobblestone>.add(<botania:biomestonea>.definition.makeStack(i));
 }
 
-ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <plustic:mirionnugget>, 1000000);
+ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <jaopca:avaritia_singularity.mirion>, 2147483647);
 
 //cheaper terrasteel
 Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);

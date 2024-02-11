@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	text: [
+		"反应堆的爆炸可执行配方，详见JEI"
+	],
+	dependencies: [
+		"9d74457f"
+	],
+	tasks: [{
+		uid: "5f4717a4",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}]
+	}]
+}

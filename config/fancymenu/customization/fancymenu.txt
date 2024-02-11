@@ -432,7 +432,7 @@ customization {
   y = -45
   scale = 1.0
   alignment = left
-  value = {"placeholder":"local","values":{"key":"fm.mcver"}} 1.12.2 LTS
+  value = {"placeholder":"local","values":{"key":"fm.mcver"}} §e1.12.2 LTS
 }
 
 customization {
@@ -468,7 +468,7 @@ customization {
   y = -36
   scale = 1.0
   alignment = left
-  value = {"placeholder":"local","values":{"key":"fm.forgever"}} %version:forge%
+  value = {"placeholder":"local","values":{"key":"fm.forgever"}} §c%version:forge%
 }
 
 customization {

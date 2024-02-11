@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: -6.0d,
+	text: [
+		"用于稳定混沌武器和装备"
+	],
+	dependencies: [
+		"6cac6cee"
+	],
+	tasks: [{
+		uid: "1e64cbf9",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaos_stabilizer_core"
+		}]
+	}]
+}

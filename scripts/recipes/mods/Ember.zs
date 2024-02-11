@@ -69,4 +69,5 @@ Alchemy.remove(<embers:ancient_motive_core>);
 Alchemy.add(<embers:ancient_motive_core>*2, [<embers:ancient_motive_core>,<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>], {"dawnstone":24 to 32});
 
 //custom aspect
-//Alchemy.addAspect(string name, IItemStack item);
+Alchemy.addAspect("infinity", <embers:creative_ember_source>);
+Alchemy.add(<contenttweaker:ultimate_ingot_right_up>, [<embers:winding_gears>,<aetherworks:item_resource:5>,<aetherworks:item_resource:5>,<aetherworks:item_resource:5>,<aetherworks:item_resource:5>], {"infinity":1 to 64});

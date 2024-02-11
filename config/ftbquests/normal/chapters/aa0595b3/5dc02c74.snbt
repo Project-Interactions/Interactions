@@ -1,9 +1,6 @@
 {
 	x: -7.5d,
 	y: 3.0d,
-	text: [
-		"{aa0595b3.ia.5dc02c74}"
-	],
 	dependencies: [
 		"723cfcc5"
 	],
@@ -11,15 +8,7 @@
 		uid: "d48fc7a3",
 		type: "item",
 		items: [{
-			item: "techreborn:fusion_control_computer"
+			item: "modularmachinery:fusion_computer_controller"
 		}]
-	},
-	{
-		uid: "9d85303d",
-		type: "item",
-		items: [{
-			item: "techreborn:fusion_coil"
-		}],
-		count: 16L
 	}]
 }

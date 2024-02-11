@@ -43,23 +43,13 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extrautils2:rainbowgenerator>,
 	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
 	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
 	[<extrautils2:rainbowgenerator:2>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
-	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <environmentaltech:solar_cont_6>, <extrautils2:machine>, <environmentaltech:solar_cont_6>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
+	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <environmentaltech:solar_cont_6>, <minecraft:command_block>, <environmentaltech:solar_cont_6>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:2>], 
 	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <environmentaltech:solar_cont_6>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
 	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <contenttweaker:crystal_colorful>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
 	[<extrautils2:rainbowgenerator:1>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>, <extrautils2:rainbowgenerator:1>], 
 	[<extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:1>]
 ]);
 
-
-mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:passivegenerator:6>, [
-	[<extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>], 
-	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
-	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:rainbowgenerator>, <extrautils2:opinium:8>, <extrautils2:rainbowgenerator>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
-	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:opinium:8>, <minecraft:command_block>, <extrautils2:opinium:8>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
-	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:rainbowgenerator>, <extrautils2:opinium:8>, <extrautils2:rainbowgenerator>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
-	[<extrautils2:passivegenerator:8>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:quarry>, <extrautils2:passivegenerator:8>], 
-	[<extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:8>]
-]);
 
 Crusher.remove(<thermalfoundation:material:69>);
 Crusher.remove(<immersiveengineering:metal:13>);
@@ -87,3 +77,5 @@ enchanterTweaker(<minecraft:nether_star>,<thaumicrestoration:item_ingot:5>,<extr
 
 recipes.remove(<nuclearcraft:part:11>);
 Resonator.add(<nuclearcraft:part:11>, <contenttweaker:useful_block>, 1000);
+
+Resonator.add(<appliedenergistics2:creative_energy_cell>, <appliedenergistics2:dense_energy_cell>, 1000000000);

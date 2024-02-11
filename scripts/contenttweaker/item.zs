@@ -24,10 +24,6 @@ var regItem as string[]=[
 "twilight_crystal",
 "useful_ingot",
 
-"uu_matter",
-"energy_crystal",
-"lapotron_crystal",
-
 "andesite_pebble",
 "granite_pebble",
 "diorite_pebble",
@@ -78,7 +74,6 @@ var regItem as string[]=[
 "blank_ar_chip",
 "powered_circuit_board",
 "mana_matter",
-"lp_matter",
 "essentia_cell_casing",
 "infinity_key",
 "infinity_dust",

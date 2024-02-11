@@ -23,7 +23,7 @@ for Remove in remove {
 RecipeUtils.recipeTweak(true, <rftools:endergenic>, [[<thermalfoundation:material:359>, <extendedcrafting:material:36>, <thermalfoundation:material:359>],[<extendedcrafting:material:36>, <rftools:machine_frame>, <extendedcrafting:material:36>], [<thermalfoundation:material:359>, <extendedcrafting:material:36>, <thermalfoundation:material:359>]]);
 recipes.remove(<rftools:machine_frame>);
 
-RecipeUtils.recipeTweak(true, <rftools:matter_beamer>, [[<minecraft:redstone_block>, <contenttweaker:uu_matter>, <minecraft:redstone_block>], [<contenttweaker:uu_matter>, <rftools:machine_frame>, <contenttweaker:uu_matter>], [<minecraft:redstone_block>, <contenttweaker:uu_matter>, <minecraft:redstone_block>]]);
+RecipeUtils.recipeTweak(true, <rftools:matter_beamer>, [[<minecraft:redstone_block>, <ore:ingotUUMatter>, <minecraft:redstone_block>], [<ore:ingotUUMatter>, <rftools:machine_frame>, <ore:ingotUUMatter>], [<minecraft:redstone_block>, <ore:ingotUUMatter>, <minecraft:redstone_block>]]);
 
 
 recipes.addShaped(<rftools:machine_base> * 6, [[null, null, null],[<rftools:machine_frame>, <rftools:machine_frame>, <rftools:machine_frame>], [null, null, null]]);

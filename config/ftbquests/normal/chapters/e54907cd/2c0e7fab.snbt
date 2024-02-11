@@ -1,12 +1,9 @@
 {
 	title: "{e54907cd.ia.2c0e7fab.title}",
-	x: 0.0d,
-	y: 3.0d,
+	x: 4.5d,
+	y: -1.5d,
 	text: [
 		"{e54907cd.ia.2c0e7fab}"
-	],
-	dependencies: [
-		"5b2681d2"
 	],
 	tasks: [{
 		uid: "4c526a41",

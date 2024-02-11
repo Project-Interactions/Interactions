@@ -43,6 +43,7 @@ ZenScroll.add(<extrautils2:itemcreativedestructionwand>,<extrautils2:itemcreativ
 ZenScroll.add(<thaumicenergistics:essentia_cell_creative>,<thaumicwonders:creative_essentia_jar>,<thaumicaugmentation:impetus_creative:1>,<thaumicaugmentation:impetus_creative>);
 ZenScroll.add(<thaumcraft:creative_flux_sponge>,<thaumcraft:thaumonomicon:1>);
 
+ZenScroll.add(<botaniverse:spark_asgard>,<botaniverse:morepool:3>,<botaniverse:morespreader:4>,<botania:pool:1>);
 
 ZenScroll.add(<tinkertoolcasts:tank_creative>.withTag({})
 ,<tinkertoolcasts:cast_creative:4>

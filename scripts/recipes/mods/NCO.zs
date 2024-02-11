@@ -197,8 +197,6 @@ RecipeUtils.recipeTweak(true, <nuclearcraft:pressurizer>, [[<ore:circuitOperatio
 RecipeUtils.recipeTweak(true, <nuclearcraft:rock_crusher>, [[<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>], [<ore:ingotThaumiumTerra>, <ore:emptyFrame>, <ore:ingotThaumiumTerra>], [<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>]]);
 RecipeUtils.recipeTweak(true, <nuclearcraft:ingot_former>, [[<ore:circuitThaumic>, <minecraft:hopper:*>, <ore:circuitThaumic>], [<ore:ingotFerroboron>, <ore:emptyFrame>, <ore:ingotFerroboron>], [<ore:circuitThaumic>, <ore:ingotTough>, <ore:circuitThaumic>]]);
 
-Pressurizer.addRecipe(<ore:dustEnergium>*9, <contenttweaker:energy_crystal>);
-
 //taiga
 OreLeacher.addRecipe(<enderio:block_infinity:2>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <enderio:item_material:20>*64, <taiga:eezo_dust>*2, null);
 OreLeacher.addRecipe(<taiga:meteorite_block>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <taiga:meteorite_dust>*4, <taiga:duranite_dust>, null);
