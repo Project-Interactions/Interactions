@@ -98,3 +98,16 @@ SummoningDirector.addSummonInfo(
 		.setCount(1)
 	)
 );
+//defiled lands
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+	.setCatalyst(<deepmoblearning:glitch_heart>)
+	.setConsumeCatalyst(true)
+	.setReagents([<defiledlands:hephaestite_block>,<jaopca:plate.umbrium>,<defiledlands:scarlite_block>,<jaopca:plate.umbrium>])
+	.addMob(MobInfo.create()
+	.setMob("defiledlands:shambler")
+		.setCount(4)
+	.setMob("defiledlands:shambler_twisted")
+		.setCount(1)
+	)
+);

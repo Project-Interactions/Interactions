@@ -1,0 +1,26 @@
+{
+	x: 13.5d,
+	y: 7.5d,
+	text: [
+		"{7d71fbca.ia.e4ccff23}"
+	],
+	dependencies: [
+		"2bcf25b8"
+	],
+	tasks: [{
+		uid: "5345daac",
+		type: "item",
+		items: [{
+			item: "defiledlands:calling_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f7b0688",
+		type: "item",
+		items: [{
+			item: "defiledlands:conjuring_altar"
+		}]
+	}]
+}

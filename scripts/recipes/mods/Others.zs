@@ -59,3 +59,6 @@ recipes.removeByRecipeName("flowingtime:timewatch");
 recipes.remove(<flowingtime:flpedestal>);
 recipes.addShaped(<flowingtime:flpedestal>, [[null, <ore:gearBlackIron>, null],[null, <ore:blockBlackIron>, null], [<ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>]]);
 recipes.addShaped(<flowingtime:timewatch>, [[<ore:plateBlackIron>, <tiabs:timeinabottle>, <ore:plateBlackIron>],[<tiabs:timeinabottle>, <naturesaura:clock_hand>, <tiabs:timeinabottle>], [<ore:plateBlackIron>, <tiabs:timeinabottle>, <ore:plateBlackIron>]]);
+
+//defiled lands
+recipes.addShaped(<defiledlands:conjuring_altar>, [[<ore:gemScarlite>, <ore:gemScarlite>, <ore:gemScarlite>],[<ore:stoneDefiled>, <zensummoning:altar>, <ore:stoneDefiled>], [<ore:stoneDefiled>, <defiledlands:healing_pad>, <ore:stoneDefiled>]]);

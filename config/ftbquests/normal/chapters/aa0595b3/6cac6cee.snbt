@@ -2,7 +2,7 @@
 	x: -7.5d,
 	y: -4.5d,
 	text: [
-		"反应堆的爆炸可执行配方，详见JEI"
+		"{aa0595b3.ia.6cac6cee}"
 	],
 	dependencies: [
 		"9d74457f"

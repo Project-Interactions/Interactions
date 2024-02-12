@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: 10.5d,
+	dependencies: [
+		"501ee2e9"
+	],
+	tasks: [{
+		uid: "52c78cf8",
+		type: "item",
+		items: [{
+			item: "defiledlands:umbrium_ingot"
+		}]
+	}]
+}

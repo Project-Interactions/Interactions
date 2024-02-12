@@ -1,0 +1,26 @@
+{
+	x: 12.0d,
+	y: 7.5d,
+	dependencies: [
+		"501ee2e9"
+	],
+	tasks: [{
+		uid: "5b4eb6f5",
+		type: "kill",
+		entity: "defiledlands:shambler",
+		value: 1L
+	},
+	{
+		uid: "5ad453fe",
+		type: "item",
+		items: [{
+			item: "defiledlands:black_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "5f587da4",
+		type: "item",
+		item: "defiledlands:defilement_powder",
+		count: 8
+	}]
+}

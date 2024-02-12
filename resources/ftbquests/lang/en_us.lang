@@ -318,7 +318,7 @@ e54907cd.ia.fb44dff5.2=Structure similar to snow golem, replace pumpkin head wit
 7d71fbca.ia.d2cbcf94.1=crafted in Aurora
 7d71fbca.ia.d2cbcf94.2=Automation solutions are provided for raw materials
 7d71fbca.ia.d5579ab2=It will be generated in the nether world, and it needs to be summoned manually at the altar for the first time
-7d71fbca.ia.e4ccff23=Tungsten
+7d71fbca.ia.e4ccff23=Needs to be summoned in defiled biomes
 7d71fbca.ia.ea21c88f=mek machines can now only be upgraded using factory upgrades
 7d71fbca.ia.fe24bc23=Recipe has been modified, please refer to LE Aggregator's recipe Lightning Strike Crafting
 #aa0595b3
@@ -349,6 +349,8 @@ aa0595b3.ia.c30d4ad4=A mixture of two types of rocket fuel used as fuel for adva
 aa0595b3.ia.cdfe222b=Use the power of ME to reverse endless
 aa0595b3.ia.e407253f=The power of the universe
 aa0595b3.ia.e725861b=Can produce huge amounts of energy
+aa0595b3.ia.6cac6cee=The reactor explosion can execute recipes, and some blocks can act as polarizers to convert explosion types. For details, see JEI
+aa0595b3.ia.4f5db203=Used to stabilize Chaos weapons and equipments
 #final
 ia.final=All things in one
 #495fa152

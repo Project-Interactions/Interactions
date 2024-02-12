@@ -31,5 +31,5 @@ default.addTransmutation(<blockstate:draconicevolution:draconium_block>.matchBlo
 default.addDeposition(<blockstate:draconicevolution:draconium_ore>, 5);
 default.addPolariser(<blockstate:avaritia:block_resource:type=infinity>.matchBlock(), 100, infinity);
 
-infinity.addTransmutation(<blockstate:draconicevolution:draconium_block>.matchBlock(), 20, <blockstate:avaritia:block_resource:type=infinity>);
+infinity.addTransmutation(<blockstate:draconicevolution:draconium_block>.matchBlock(), 20, <blockstate:avaritiaddons:infinity_glass>);
 infinity.addDeposition(<blockstate:minecraft:command_block>,10);

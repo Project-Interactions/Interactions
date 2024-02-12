@@ -1,0 +1,22 @@
+{
+	x: 15.0d,
+	y: 7.5d,
+	dependencies: [
+		"e5e10de7"
+	],
+	tasks: [{
+		uid: "61a8171b",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_destroyer"
+		}],
+		count: 4L
+	},
+	{
+		uid: "014d7eec",
+		type: "item",
+		items: [{
+			item: "defiledlands:ravaging_ingot"
+		}]
+	}]
+}
