@@ -1,6 +1,6 @@
 # Declaration
 
-We've recently seen some people targeting [Rongmario](https://github.com/Rongmario) and [CleanroomMC](https://github.com/CleanroomMC)'s mods, and here's a stern condemnation of this behavior and boycotting them and their mods for forking just because of [**"questionable"**](https://www.pixiv.net/tags/loli/artworks?mode=safe) content just like they did.It is inappropriate to bring normal loving behavior into reality. I hope everyone can look at it rationally and work together to maintain the 1.12.2 community.
+[Something about Cleanroom](https://gist.github.com/Rongmario/6479470e3108185a45106c32ca0e1c4e#file-cleanroom_news_2024-02-12-md)
 
 ## About translation
 

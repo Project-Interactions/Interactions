@@ -73,62 +73,6 @@ zsFluid43.register();
 
 
 //moltens
-val heavymetalelements = mods.contenttweaker.VanillaFactory.createFluid("heavymetalelements", Color.fromHex("993333").getIntColor());
-heavymetalelements.material = <blockmaterial:lava>;
-heavymetalelements.viscosity = 2400;
-heavymetalelements.density = 2400;
-heavymetalelements.stillLocation = "base:fluids/molten";
-heavymetalelements.flowingLocation = "base:fluids/molten_flowing";
-heavymetalelements.register();
-
-val semiconductor = mods.contenttweaker.VanillaFactory.createFluid("semiconductor", Color.fromHex("FFFFFF").getIntColor());
-semiconductor.material = <blockmaterial:lava>;
-semiconductor.viscosity = 2400;
-semiconductor.density = 2400;
-semiconductor.stillLocation = "base:fluids/molten";
-semiconductor.flowingLocation = "base:fluids/molten_flowing";
-semiconductor.register();
-
-val superconduct = mods.contenttweaker.VanillaFactory.createFluid("superconduct", Color.fromHex("FFFFFF").getIntColor());
-superconduct.material = <blockmaterial:lava>;
-superconduct.viscosity = 2400;
-superconduct.density = 2400;
-superconduct.stillLocation = "base:fluids/molten";
-superconduct.flowingLocation = "base:fluids/molten_flowing";
-superconduct.register();
-
-val advancedalloy = mods.contenttweaker.VanillaFactory.createFluid("advancedalloy", Color.fromHex("FF9966").getIntColor());
-advancedalloy.material = <blockmaterial:lava>;
-advancedalloy.viscosity = 2400;
-advancedalloy.density = 2400;
-advancedalloy.stillLocation = "base:fluids/molten";
-advancedalloy.flowingLocation = "base:fluids/molten_flowing";
-advancedalloy.register();
-
-val duplication = mods.contenttweaker.VanillaFactory.createFluid("duplication", Color.fromHex("0052D8").getIntColor());
-duplication.material = <blockmaterial:lava>;
-duplication.viscosity = 2400;
-duplication.density = 2400;
-duplication.stillLocation = "base:fluids/molten";
-duplication.flowingLocation = "base:fluids/molten_flowing";
-duplication.register();
-
-val tic_useful_metal = mods.contenttweaker.VanillaFactory.createFluid("tic_useful_metal", Color.fromHex("759E7F").getIntColor());
-tic_useful_metal.material = <blockmaterial:lava>;
-tic_useful_metal.viscosity = 2400;
-tic_useful_metal.density = 2400;
-tic_useful_metal.stillLocation = "base:fluids/molten";
-tic_useful_metal.flowingLocation = "base:fluids/molten_flowing";
-tic_useful_metal.register();
-
-val refinediron = mods.contenttweaker.VanillaFactory.createFluid("refinediron", Color.fromHex("E1E8EB").getIntColor());
-refinediron.material = <blockmaterial:lava>;
-refinediron.viscosity = 2400;
-refinediron.density = 2400;
-refinediron.stillLocation = "base:fluids/molten";
-refinediron.flowingLocation = "base:fluids/molten_flowing";
-refinediron.register();
-
 val dimensionalshard = mods.contenttweaker.VanillaFactory.createFluid("dimensionalshard", Color.fromHex("0052D8").getIntColor());
 dimensionalshard.material = <blockmaterial:lava>;
 dimensionalshard.viscosity = 2400;

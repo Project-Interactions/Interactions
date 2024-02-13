@@ -328,7 +328,6 @@
     },
     "languageId": "en_us",
     "stripTranslationColors": false,
-    "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
     "renderTooltips": true,
     "configKeyCode": 0

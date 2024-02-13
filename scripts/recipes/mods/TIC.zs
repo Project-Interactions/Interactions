@@ -147,12 +147,12 @@ Casting.addTableRecipe(<immersiveengineering:material:20>, <immersiveengineering
 Casting.addTableRecipe(<immersiveengineering:material:21>, <immersiveengineering:mold:4>, <liquid:electrum>,144,false, 80);
 Casting.addTableRecipe(<immersiveengineering:material:22>, <immersiveengineering:mold:4>, <liquid:aluminum>,144,false, 80);
 Casting.addTableRecipe(<immersiveengineering:material:23>, <immersiveengineering:mold:4>, <liquid:steel>,144,false, 80);
-Casting.addTableRecipe(<contenttweaker:material_part:15>, <immersiveengineering:mold:4>, <liquid:refinediron>,144,false, 80);
+Casting.addTableRecipe(<contenttweaker:material_part:15>, <immersiveengineering:mold:4>, <liquid:refined_iron>,144,false, 80);
 Casting.addTableRecipe(<contenttweaker:material_part:16>, <immersiveengineering:mold:4>, <liquid:gold>,144,false, 80);
 
 Melting.removeRecipe(<liquid:void_metal>,<actuallyadditions:item_crystal:3>);
 
-Casting.addTableRecipe(<mysticalagriculture:crafting:16>, <mysticalagriculture:storage:5>, <liquid:refinediron>,288,true, 80);
+Casting.addTableRecipe(<mysticalagriculture:crafting:16>, <mysticalagriculture:storage:5>, <liquid:refined_iron>,288,true, 80);
 
 recipes.removeShaped(<tconstruct:seared:3>, [[<tconstruct:materials>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>]]);
 
@@ -165,10 +165,6 @@ recipes.remove(<tconstruct:materials:14>);
 recipes.removeShapeless(<tconevo:metal:37> * 9);
 recipes.remove(<tconevo:metal:40>);
 recipes.removeShapeless(<tconevo:metal:40> * 9);
-
-//Melting recipe for cot liquid
-Melting.addRecipe(<liquid:tic_useful_metal>*144,<contenttweaker:useful_ingot>,900);
-Melting.addRecipe(<liquid:tic_useful_metal>*1296,<contenttweaker:useful_block>,900);
 
 //remove part casting
 val part as IItemStack[] = 
@@ -267,9 +263,9 @@ function advancedCast(input as ILiquidStack,output as IItemStack,amount as int,t
 }
 //tinker toolcast fix
 advancedCast(<liquid:diamond>,<minecraft:diamond>,666,380,"gem");
-Casting.addTableRecipe(<contenttweaker:useful_ingot>, <tconstruct:cast_custom>, <liquid:tic_useful_metal>,144,false, 80);
-advancedCast(<liquid:tic_useful_metal>,<contenttweaker:useful_ingot>,144,80,"ingot");
-Casting.addBasinRecipe(<contenttweaker:useful_block>, null, <liquid:tic_useful_metal>, 1296, false, 640);
+Casting.addTableRecipe(<contenttweaker:useful_ingot>, <tconstruct:cast_custom>, <liquid:useful>,144,false, 80);
+advancedCast(<liquid:useful>,<contenttweaker:useful_ingot>,144,80,"ingot");
+Casting.addBasinRecipe(<contenttweaker:useful_block>, null, <liquid:useful>, 1296, false, 640);
 
 //alloy
 function advancedAlloy(output as ILiquidStack,input as ILiquidStack[]) as void{
@@ -280,8 +276,8 @@ function advancedAlloy(output as ILiquidStack,input as ILiquidStack[]) as void{
     .build();
     Alloy.addRecipe(output, input);
 }
-advancedAlloy(<liquid:crude_steel> * 2, [<liquid:refinediron> * 2, <liquid:stone>,  <liquid:clay>]);
-advancedAlloy(<liquid:tic_useful_metal>,[<liquid:xu_demonic_metal>,<liquid:xu_enchanted_metal>,<liquid:xu_evil_metal>]);
-advancedAlloy(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refinediron>]);
+advancedAlloy(<liquid:crude_steel> * 2, [<liquid:refined_iron> * 2, <liquid:stone>,  <liquid:clay>]);
+advancedAlloy(<liquid:useful>,[<liquid:xu_demonic_metal>,<liquid:xu_enchanted_metal>,<liquid:xu_evil_metal>]);
+advancedAlloy(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refined_iron>]);
 advancedAlloy(<liquid:dilithium_fluid>,[<liquid:lithium>*2,<liquid:hard_carbon>]);
 advancedAlloy(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);

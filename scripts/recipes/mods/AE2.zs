@@ -218,47 +218,23 @@ Inscriber.addRecipe(<appliedenergistics2:material:60>, <appliedenergistics2:mate
 Inscriber.removeRecipe(<appliedenergistics2:material:59>);
 Inscriber.addRecipe(<appliedenergistics2:material:59>, <nae2:material:4>, false, <nae2:material:8>, <aeadditions:storage.component:12>);
 
-/*
-var change as IItemStack[] = [
+
+var remove as IItemStack[] = [
     <aeadditions:storage.component>,
     <aeadditions:storage.component:1>,
     <aeadditions:storage.component:2>,
     <aeadditions:storage.component:3>,
-    <extracpus:crafting_storage_256k>,
-    <extracpus:crafting_storage_1024k>,
-    <extracpus:crafting_storage_4096k>,
-    <extracpus:crafting_storage_16384k>,
+    <aeadditions:storage.component:4>,
+    <aeadditions:storage.component:5>,
+    <aeadditions:storage.component:6>,
     <aeadditions:storage.physical>,
     <aeadditions:storage.physical:1>,
     <aeadditions:storage.physical:2>,
     <aeadditions:storage.physical:3>,
-    <aeadditions:storage.component:4>,
-    <aeadditions:storage.component:5>,
-    <aeadditions:storage.component:6>,
     <aeadditions:storage.fluid>,
     <aeadditions:storage.fluid:1>,
     <aeadditions:storage.fluid:2>
 ];
-for warn in change {
-    recipes.remove(warn);
-    warn.addTooltip(game.localize("ia.deprecated"));
+for aea in remove {
+    recipes.remove(aea);
 }
-recipes.addShapeless(<nae2:storage_cell_16384k>, [<aeadditions:storage.physical:3>]);
-recipes.addShapeless(<nae2:storage_cell_4096k>, [<aeadditions:storage.physical:2>]);
-recipes.addShapeless(<nae2:storage_cell_1024k>, [<aeadditions:storage.physical:1>]);
-recipes.addShapeless(<nae2:storage_cell_256k>, [<aeadditions:storage.physical>]);
-recipes.addShapeless(<nae2:material:4>, [<aeadditions:storage.component:3>]);
-recipes.addShapeless(<nae2:material:3>, [<aeadditions:storage.component:2>]);
-recipes.addShapeless(<nae2:material:2>, [<aeadditions:storage.component:1>]);
-recipes.addShapeless(<nae2:material:1>, [<aeadditions:storage.component>]);
-recipes.addShapeless(<nae2:storage_crafting_16384k>, [<extracpus:crafting_storage_16384k>]);
-recipes.addShapeless(<nae2:storage_crafting_4096k>, [<extracpus:crafting_storage_4096k>]);
-recipes.addShapeless(<nae2:storage_crafting_1024k>, [<extracpus:crafting_storage_1024k>]);
-recipes.addShapeless(<nae2:storage_crafting_256k>, [<extracpus:crafting_storage_256k>]);
-recipes.addShapeless(<nae2:material:7>, [<aeadditions:storage.component:6>]);
-recipes.addShapeless(<nae2:material:6>, [<aeadditions:storage.component:5>]);
-recipes.addShapeless(<nae2:material:5>, [<aeadditions:storage.component:4>]);
-recipes.addShapeless(<nae2:storage_cell_fluid_4096k>, [<aeadditions:storage.fluid:2>]);
-recipes.addShapeless(<nae2:storage_cell_fluid_1024k>, [<aeadditions:storage.fluid:1>]);
-recipes.addShapeless(<nae2:storage_cell_fluid_256k>, [<aeadditions:storage.fluid>]);
-*/
