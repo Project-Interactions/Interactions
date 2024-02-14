@@ -1,11 +1,12 @@
 {
-	x: 7.5d,
-	y: 1.5d,
+	x: -4.0d,
+	y: 13.0d,
 	dependencies: [
-		"e29ace8f"
+		"b26c5d68",
+		"e06de638"
 	],
 	tasks: [{
-		uid: "9580f618",
+		uid: "1fc1cd74",
 		type: "item",
 		items: [{
 			item: "nuclearcraft:assembler"

@@ -16,6 +16,7 @@ import mods.nuclearcraft.Centrifuge;
 import mods.nuclearcraft.Pressurizer;
 import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.Enricher;
+import mods.nuclearcraft.Manufactory;
 import mods.qmd.target_chamber as TargetChamber;
 import mods.qmd.nucleosynthesis_chamber as NucleosynthesisChamber;
 import mods.qmd.ore_leacher as OreLeacher;
@@ -196,6 +197,8 @@ RecipeUtils.recipeTweak(true, <nuclearcraft:melter>, [[<ore:circuitOperation>, <
 RecipeUtils.recipeTweak(true, <nuclearcraft:pressurizer>, [[<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>], [<ore:gearAdvancedElectronicAlloy>, <ore:emptyFrame>, <ore:gearAdvancedElectronicAlloy>], [<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>]]);
 RecipeUtils.recipeTweak(true, <nuclearcraft:rock_crusher>, [[<ore:circuitOperation>, <ore:blockTough>, <ore:circuitOperation>], [<ore:ingotThaumiumTerra>, <ore:emptyFrame>, <ore:ingotThaumiumTerra>], [<ore:circuitOperation>, <ore:ingotTough>, <ore:circuitOperation>]]);
 RecipeUtils.recipeTweak(true, <nuclearcraft:ingot_former>, [[<ore:circuitThaumic>, <minecraft:hopper:*>, <ore:circuitThaumic>], [<ore:ingotFerroboron>, <ore:emptyFrame>, <ore:ingotFerroboron>], [<ore:circuitThaumic>, <ore:ingotTough>, <ore:circuitThaumic>]]);
+recipes.remove(<nuclearcraft:assembler>);
+recipes.addShaped(<nuclearcraft:assembler>, [[<ore:circuitOperation>, <ore:gearHardCarbon>, <ore:circuitOperation>], [<ore:plateFerroboron>, <ore:emptyFrame>, <ore:plateFerroboron>], [<ore:circuitOperation>, <ore:plateFerroboron>, <ore:circuitOperation>]]);
 
 //taiga
 OreLeacher.addRecipe(<enderio:block_infinity:2>,<liquid:nitric_acid>*16, <liquid:hydrochloric_acid>*16, <liquid:sulfuric_acid>*16, <enderio:item_material:20>*64, <taiga:eezo_dust>*2, null);
@@ -237,3 +240,14 @@ alloyer("Nichrome","Nickel","Chromium",1,1,2,1);
 alloyer("NiobiumTitanium","Nickel","Chromium",1,1,2,1);
 alloyer("Osmiridium","Osmium","Iridium",1,1,2,1);
 alloyer("SuperAlloy","Nichrome","NiobiumTitanium",2,1,3,1);
+mods.tconstruct.Melting.removeRecipe(<liquid:hard_carbon>,<jaopca:dust.hard_carbon>);
+Melter.removeRecipeWithInput(<ore:dustHardCarbon>);
+
+//rubber
+Manufactory.addRecipe(<ifgretro:rubber_wood_log>, <ifgretro:rubber_bar>);
+
+//cheaper circuits
+Assembler.addRecipe(<ore:ingotEnchantedMetal>*2, <ore:plateBrass>*3,<ore:wireRefinedIron>*8,null,<contenttweaker:manual_circuit>*4);
+Assembler.addRecipe(<contenttweaker:manual_circuit>*2, <ore:gearDemonicMetal>,<ore:itemRubber>*4, <ore:dustLunar>*2,<contenttweaker:mechanical_circuit>);
+Assembler.addRecipe(<ore:platePlatinum>*3, <industrialforegoing:plastic>*6,<ore:plateMenril>*2,null,<contenttweaker:mana_circuit>);
+

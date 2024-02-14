@@ -227,3 +227,17 @@ groovyscript.recipe.piston_push.max_items=每次最多能推动的物品数：%d
 groovyscript.recipe.piston_push.min_level=最低挖掘等级：%d
 groovyscript.recipe.chance_produce=§2%s§7 几率产出
 groovyscript.recipe.chance_consume=§2%s§7 几率消耗
+#PARSE_ESCAPES
+tile.rubber_sapling.normal.name=橡胶树苗
+tile.rubber_sapling.sacred.name=神圣橡胶树苗
+tile.rubber_sapling.mega.name=宏伟橡胶树苗
+tile.rubber_sapling.massive.name=附魔神圣橡胶树苗
+tile.rubber_wood_log.name=橡胶木
+tile.rubber_leaves.normal.name=橡胶树叶
+tile.rubber_leaves.dry.name=干枯橡胶树叶
+
+item.raw_plastic.name=生塑料
+item.raw_rubber.name=生橡胶
+item.rubber_bar.name=橡胶条
+
+tip.info.tile.rubber_sapling.massive=警告：他是个高个子

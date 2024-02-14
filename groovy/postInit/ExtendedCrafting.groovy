@@ -61,3 +61,15 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item('mekanism:tierinstaller', 
 [ore('ingotUltimate'), null, null, item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), null, null, ore('ingotUltimate')], 
 [ore('ingotUltimate'), ore('ingotUltimate'), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), ore('ingotUltimate'), ore('ingotUltimate')]
 ])
+
+mods.extendedcrafting.TableCrafting.addShaped(4, item('lightningcraft:lightning_cell', 3), [
+[item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, null, null, null, ore('blockElectricium'), null, null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, null, null, ore('blockElectricium'), null, null, null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, null, ore('blockElectricium'), null, null, null, null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, ore('blockElectricium'), ore('blockElectricium'), item('minecraft:command_block'), ore('blockElectricium'), ore('blockElectricium'), null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, null, null, null, null, ore('blockElectricium'), null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, null, null, null, ore('blockElectricium'), null, null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, null, null, ore('blockElectricium'), null, null, null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2)]
+])

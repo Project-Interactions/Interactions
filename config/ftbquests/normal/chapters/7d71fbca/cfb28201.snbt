@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 1.5d,
+	dependencies: [
+		"d9ce5e52"
+	],
+	tasks: [{
+		uid: "fe4c25b1",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_irradiator"
+		}]
+	}]
+}
