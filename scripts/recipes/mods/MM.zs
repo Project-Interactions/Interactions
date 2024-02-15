@@ -45,7 +45,7 @@ recipes.addShaped(<modularmachinery:blockenergyinputhatch:3>, [[null, <modularma
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:2>, [[null, <modularmachinery:blockenergyinputhatch:1>, null],[null, <ore:gearSteel>, null], [null, <enderio:item_endergy_conduit:6>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>, [[null, <modularmachinery:blockenergyinputhatch>, null],[null, <ore:gearRefinedIron>, null], [null, <enderio:item_endergy_conduit:5>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch>, [[null, <enderio:item_endergy_conduit:4>, null],[null, <ore:gearIron>, null], [null, <enderio:item_endergy_conduit:4>, null]]);
-recipes.addShaped(<modularmachinery:blockenergyinputhatch>, [[null, <mekanism:energycube>, null],[null, <ore:gearIron>, null], [null, <enderio:item_endergy_conduit:4>, null]]);
+recipes.addShaped(<modularmachinery:blockenergyinputhatch>, [[null, null, null],[<enderio:item_endergy_conduit:4>, <ore:gearIron>, <enderio:item_endergy_conduit:4>], [null, null, null]]);
 recipes.addShapeless(<modularmachinery:blockconstellationprovider>, [<astralsorcery:iteminfusedglass>,<astralsorcery:itemskyresonator>]);
 recipes.addShapeless(<modularmachinery:blockstarlightproviderinput>, [<ore:ingotAstralStarmetal>,<astralsorcery:itemrockcrystalsimple>]);
 recipes.addShaped(<modularmachinery:blockrainbowprovider>, [[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>],[<extrautils2:decorativesolid:8>, <extrautils2:poweroverload>, <extrautils2:decorativesolid:8>], [<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]]);
