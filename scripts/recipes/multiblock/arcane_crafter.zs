@@ -58,3 +58,13 @@ RecipeBuilder.newBuilder("casing_5", "arcane_crafter", 20)
     .addFluidInput(<liquid:osmium>*864)
     .addItemOutput(<aeadditions:storage.casing:2>)
     .build();
+
+RecipeBuilder.newBuilder("pattern_1", "arcane_crafter", 20)
+    .addItemInputs([<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitOperation>])
+    .addItemOutput(<appliedenergistics2:material:52>*16)
+    .build();
+
+RecipeBuilder.newBuilder("pattern_2", "arcane_crafter", 20)
+    .addItemInputs([<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitElite>])
+    .addItemOutput(<appliedenergistics2:material:52>*32)
+    .build();

@@ -265,7 +265,7 @@ HeatExchanger.addRecipe(<liquid:steam>     * 2250, null                         
 HeatExchanger.addRecipe(<liquid:steam>     * 2500, null                            , <liquid:fluegas>                 * 1000, <liquid:distwater>    * 1250, 64, 4);
 HeatExchanger.addRecipe(<liquid:steam>     * 2250, <liquid:sodium>     *   500, <liquid:superheatedmoltensodium> *   500, <liquid:water>        * 1250, 64, 4);
 HeatExchanger.addRecipe(<liquid:steam>     * 2500, <liquid:sodium>     *   500, <liquid:superheatedmoltensodium> *   500, <liquid:distwater>    * 1250, 64, 4);
-HeatExchanger.addRecipe(<liquid:distwater> * 1250, <liquid:hot_water>        * 4500, <liquid:water>                   * 4500, <liquid:exhauststeam> * 2500, 32, 4);
+HeatExchanger.addRecipe(<liquid:distwater> * 1250, <liquid:hot_spring_water> * 4500, <liquid:water>                   * 4500, <liquid:exhauststeam> * 2500, 32, 4);
 
 GasTurbine.removeFuel(<liquid:biodiesel>);
 GasTurbine.removeFuel(<liquid:gasoline>);

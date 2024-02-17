@@ -96,6 +96,14 @@ InductionSmelter.addRecipe(<enderio:item_material:20>*64, <enderio:item_alloy_en
 
 InductionSmelter.addRecipe(<ore:ingotRefinedIron>.firstItem, <minecraft:sand>,<minecraft:iron_ingot>,1500);
 
+InductionSmelter.addRecipe(<ore:ingotBaseEssence>.firstItem,<ore:ingotPigiron>.firstItem, <ore:shardProsperity>.firstItem*4, 1000);
+InductionSmelter.addRecipe(<ore:ingotInferium>.firstItem,<ore:ingotBaseEssence>.firstItem, <ore:essenceInferium>.firstItem*4, 2000);
+InductionSmelter.addRecipe(<ore:ingotPrudentium>.firstItem,<ore:ingotInferium>.firstItem, <ore:essencePrudentium>.firstItem*4, 4000);
+InductionSmelter.addRecipe(<ore:ingotIntermedium>.firstItem,<ore:ingotPrudentium>.firstItem, <ore:essenceIntermedium>.firstItem*4, 8000);
+InductionSmelter.addRecipe(<ore:ingotSuperium>.firstItem,<ore:ingotIntermedium>.firstItem, <ore:essenceSuperium>.firstItem*4, 16000);
+InductionSmelter.addRecipe(<ore:ingotSupremium>.firstItem,<ore:ingotSuperium>.firstItem, <ore:essenceSupremium>.firstItem*4, 32000);
+InductionSmelter.addRecipe(<ore:ingotInsanium>.firstItem,<ore:ingotSupremium>.firstItem, <ore:essenceInsanium>.firstItem*4, 64000);
+
 addRegexLogFilter("No InductionSmelter recipe exists for.*");
 val a as IItemStack[] = [<thermalfoundation:material:866>,<minecraft:sand>,<thermalfoundation:material:865>];
 val b as IItemStack[] = [<thermalfoundation:material:71>,<thermalfoundation:ore:7>,<thermalfoundation:ore:6>,<thermalfoundation:ore:5>,<thermalfoundation:material:70>,<thermalfoundation:ore:7>,<redstonearsenal:material>,<redstonerepository:material>,<jaopca:dust.tungsten_steel>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<thermalfoundation:material:101>,<minecraft:clock>,<minecraft:compass>];

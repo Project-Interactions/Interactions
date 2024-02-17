@@ -55,9 +55,6 @@ recipes.addShaped(<mysticalagriculture:crafting:1>, [[null, <mysticalagriculture
 recipes.addShaped(<mysticalagriculture:crafting:1>, [[null, <mysticalagriculture:crafting>, null],[<mysticalagriculture:crafting>, <matc:intermediumcrystal>.anyDamage(), <mysticalagriculture:crafting>], [null, <mysticalagriculture:crafting>, null]]);
 recipes.addShaped(<mysticalagriculture:crafting:1>, [[null, <mysticalagriculture:crafting>, null],[<mysticalagriculture:crafting>, <matc:prudentiumcrystal>.anyDamage(), <mysticalagriculture:crafting>], [null, <mysticalagriculture:crafting>, null]]);
 
-//recipes.addShaped("mysticalagradditions_special_2", <mysticalagradditions:special:4>, [[<ore:blockInsanium>, <draconicadditions:chaotic_energy_core>, <ore:blockInsanium>], [<ore:ingotDraconiumAwakened>, <ore:blockDiamond>, <ore:ingotDraconiumAwakened>], [<ore:blockInsanium>, <draconicevolution:draconic_block>, <ore:blockInsanium>]]);
-//recipes.addShaped("mysticalagradditions_special_3", <mysticalagradditions:special:5>, [[<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>], [<denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockDiamond>, <denseneutroncollectors:triple_compressed_neutron_collector>], [<ore:blockInsanium>, <denseneutroncollectors:triple_compressed_neutron_collector>, <ore:blockInsanium>]]);
-
 //armor
 recipes.removeByRecipeName("mysticalagriculture:supremium_helmet");
 recipes.removeByRecipeName("mysticalagriculture:supremium_chestplate");

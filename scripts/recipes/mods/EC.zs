@@ -131,3 +131,7 @@ RecipeUtils.recipeTweak(true, <packagedexcrafting:ultimate_crafter>, [[<extended
 RecipeUtils.recipeTweak(true, <packagedexcrafting:elite_crafter>, [[<extendedcrafting:material:16>, <extendedcrafting:interface>, <extendedcrafting:material:16>], [<ore:plateBlackIron>, <extendedcrafting:table_elite>, <ore:plateBlackIron>], [<extendedcrafting:material:16>, <packagedauto:me_package_component>, <extendedcrafting:material:16>]]);
 RecipeUtils.recipeTweak(true, <packagedexcrafting:advanced_crafter>, [[<extendedcrafting:material:15>, <extendedcrafting:interface>, <extendedcrafting:material:15>], [<ore:plateBlackIron>, <extendedcrafting:table_advanced>, <ore:plateBlackIron>], [<extendedcrafting:material:15>, <packagedauto:me_package_component>, <extendedcrafting:material:15>]]);
 
+
+//solve nether star block conflict
+<ore:blockNetherStar>.remove(<extendedcrafting:storage:2>);
+recipes.remove(<extendedcrafting:storage:2>);

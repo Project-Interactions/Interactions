@@ -251,3 +251,11 @@ Assembler.addRecipe(<ore:ingotEnchantedMetal>*2, <ore:plateBrass>*3,<ore:wireRef
 Assembler.addRecipe(<contenttweaker:manual_circuit>*2, <ore:gearDemonicMetal>,<ore:itemRubber>*4, <ore:dustLunar>*2,<contenttweaker:mechanical_circuit>);
 Assembler.addRecipe(<ore:platePlatinum>*3, <industrialforegoing:plastic>*6,<ore:plateMenril>*2,null,<contenttweaker:mana_circuit>);
 
+//ess ingots
+AlloyFurnace.addRecipe(<ore:ingotPigiron>, <ore:shardProsperity>*4, <ore:ingotBaseEssence>.firstItem);
+AlloyFurnace.addRecipe(<ore:ingotBaseEssence>, <ore:essenceInferium>*4, <ore:ingotInferium>.firstItem);
+AlloyFurnace.addRecipe(<ore:ingotInferium>, <ore:essencePrudentium>*4, <ore:ingotPrudentium>.firstItem);
+AlloyFurnace.addRecipe(<ore:ingotPrudentium>, <ore:essenceIntermedium>*4, <ore:ingotIntermedium>.firstItem);
+AlloyFurnace.addRecipe(<ore:ingotIntermedium>, <ore:essenceSuperium>*4, <ore:ingotSuperium>.firstItem);
+AlloyFurnace.addRecipe(<ore:ingotSuperium>, <ore:essenceSupremium>*4, <ore:ingotSupremium>.firstItem);
+AlloyFurnace.addRecipe(<ore:ingotSupremium>, <ore:essenceInsanium>*4, <ore:ingotInsanium>.firstItem);

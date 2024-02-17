@@ -56,7 +56,7 @@ recipes.removeByRecipeName("mysticalagradditions:nugget");
 recipes.removeByRecipeName("mysticalagradditions:resource");
 infuser.addRecipe("ENTROPY", 10, <mysticalagradditions:awakened_draconium_essence>*8, <draconicevolution:draconic_ingot>);
 infuser.addRecipe("OBSIDIANHARD", 10, <mysticalagradditions:neutronium_essence>, <avaritia:resource:4>);
-FusionCrafting.add(<mysticalagradditions:nether_star_seeds>, ess6, FusionCrafting.WYVERN, 5000000, [<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,<extendedcrafting:storage:2>,essi6,essi6,essi6,essi6,essi6]);
+FusionCrafting.add(<mysticalagradditions:nether_star_seeds>, ess6, FusionCrafting.WYVERN, 5000000, [<ore:blockNetherStar>,<ore:blockNetherStar>,<ore:blockNetherStar>,<ore:blockNetherStar>,<ore:blockNetherStar>,essi6,essi6,essi6,essi6,essi6]);
 FusionCrafting.add(<mysticalagradditions:dragon_egg_seeds>, ess6, FusionCrafting.WYVERN, 5000000, [<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,<mysticalagradditions:stuff:3>,essi6,essi6,essi6,essi6,essi6]);
 
 function seedT2(name as string,output as IItemStack,item as IIngredient) as void{

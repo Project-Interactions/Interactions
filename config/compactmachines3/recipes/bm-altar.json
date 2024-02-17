@@ -2,7 +2,7 @@
     "name": "cm3:bm-altar",
     "disabled": false,
 
-    "target-block": "bloodmagicltar",
+    "target-block": "bloodmagic:altar",
     "target-count": 1,
 
 
