@@ -65,3 +65,5 @@ recipes.addShaped(<mysticalagriculture:supremium_leggings>, [[<mysticalagricultu
 recipes.addShaped(<mysticalagriculture:supremium_chestplate>, [[<mysticalagriculture:crafting:37>, <mysticalagriculture:gear:9>, <mysticalagriculture:crafting:37>],[<mysticalagriculture:crafting:37>, <deepmoblearning:glitch_infused_chestplate>, <mysticalagriculture:crafting:37>], [<mysticalagriculture:crafting:37>, <mysticalagriculture:crafting:37>, <mysticalagriculture:crafting:37>]]);
 recipes.addShaped(<mysticalagriculture:supremium_helmet>, [[<mysticalagriculture:crafting:37>, <mysticalagriculture:gear:9>, <mysticalagriculture:crafting:37>],[<mysticalagriculture:crafting:37>, <deepmoblearning:glitch_infused_helmet>, <mysticalagriculture:crafting:37>], [null, null, null]]);
 
+//creative
+recipes.addShapeless(<mysticalagradditions:insanium>*4,[<mysticalagradditions:stuff:69>.reuse()]);

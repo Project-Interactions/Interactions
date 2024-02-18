@@ -34,21 +34,6 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <avaritia:neutron_collector>*2,
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
 
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
-
-
-mods.avaritia.ExtremeCrafting.addShaped("infinityingot", <avaritia:resource:6>, [
-	[null, null, null, null, null, null, null, null, null], 
-	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <avaritiatweaks:infinitato>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>,<avaritia:resource:5>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
-	[null, null, null, null, null, null, null, null, null]
-]);
-
 //package
 RecipeUtils.recipeTweak(true, <packagedavaritia:extreme_crafter>, [[<avaritia:resource:1>, <packagedauto:me_package_component>, <avaritia:resource:1>], [<ore:dustRedstone>, <avaritiaddons:extreme_auto_crafter>, <ore:dustRedstone>], [<avaritia:resource:1>, <minecraft:hopper>, <avaritia:resource:1>]]);
 recipes.addShaped(<avaritiaddons:extreme_auto_crafter>, [[null, <avaritia:singularity:3>, null], [<ore:blockCosmicNeutronium>, <botania_tweaks:dire_crafty_crate>, <ore:blockCosmicNeutronium>], [null, <ore:blockCosmicNeutronium>, null]]);

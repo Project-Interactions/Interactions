@@ -11,23 +11,15 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item('environmentaltech:void_or
 ])
 
 mods.extendedcrafting.TableCrafting.addShaped(4, item("botania:pool", 1), [
-[ore('ore:runeAsgard'), ore('ore:runeAsgard'), ore('ore:runeAsgard'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), ore('ore:runeAsgard'), ore('ore:runeAsgard'), ore('ore:runeAsgard')], 
-[ore('ore:runeAsgard'), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), ore('ore:runeAsgard')], 
-[ore('ore:runeAsgard'), item('botania:pool', 3), ore('runeLustB'), ore('runeGluttonyB'), item('botanicadds:rune_energy'), ore('runeSlothB'), ore('runeWrathB'), item('botania:pool', 3), ore('ore:runeAsgard')], 
+[ore('runeAsgard'), ore('runeAsgard'), ore('runeAsgard'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), ore('runeAsgard'), ore('runeAsgard'), ore('runeAsgard')], 
+[ore('runeAsgard'), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), item('botania:pool', 3), ore('runeAsgard')], 
+[ore('runeAsgard'), item('botania:pool', 3), ore('runeLustB'), ore('runeGluttonyB'), item('botanicadds:rune_energy'), ore('runeSlothB'), ore('runeWrathB'), item('botania:pool', 3), ore('runeAsgard')], 
 [ore('gearGaia'), ore('runeEnvyB'), item('botania:lens', 14), item('botania:lens', 15), ore('singularityMirion'), item('botania:lens', 16), item('botania:lens', 20), ore('runeEarthB'), ore('gearGaia')], 
 [ore('gearGaia'), ore('runeSpringB'), ore('runeFireB'), ore('singularityMirion'), item('auraddons:item_creative_aura_cache'), ore('singularityMirion'), ore('runeWaterB'), ore('runeManaB'), ore('gearGaia')], 
 [ore('gearGaia'), ore('runeAirB'), item('botania:lens', 21), item('botania:lens', 22), item('botania_tweaks:compressed_tiny_potato_8'), item('botania:lens', 10), item('botania:lens', 23), ore('runeWinterB'), ore('gearGaia')], 
-[ore('ore:runeAsgard'), item('botanicadds:pool_dreaming'), ore('runePrideB'), ore('runeSummerB'), item('botanicadds:rune_tp'), ore('runeGreedB'), ore('runeAutumnB'), item('botanicadds:pool_dreaming'), ore('ore:runeAsgard')], 
-[ore('ore:runeAsgard'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), ore('ore:runeAsgard')], 
-[ore('ore:runeAsgard'), ore('ore:runeAsgard'), ore('ore:runeAsgard'), ore('gearGaia'), ore('gearGaia'), ore('gearGaia'), ore('ore:runeAsgard'), ore('ore:runeAsgard'), ore('ore:runeAsgard')]
-])
-
-mods.extendedcrafting.TableCrafting.addShaped(2, item("interaction:huge_le_infuser"), [
-[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')], 
-[ore('plateDenseMystic'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseSkyfather'), ore('plateDenseMystic')], 
-[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')], 
-[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseMystic')], 
-[ore('plateDenseMystic'), ore('plateDenseSkyfather'), ore('rodBlitz'), ore('plateDenseSkyfather'), ore('plateDenseMystic')]
+[ore('runeAsgard'), item('botanicadds:pool_dreaming'), ore('runePrideB'), ore('runeSummerB'), item('botanicadds:rune_tp'), ore('runeGreedB'), ore('runeAutumnB'), item('botanicadds:pool_dreaming'), ore('runeAsgard')], 
+[ore('runeAsgard'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), item('botanicadds:pool_dreaming'), ore('runeAsgard')], 
+[ore('runeAsgard'), ore('runeAsgard'), ore('runeAsgard'), ore('gearGaiasteel'), ore('gearGaiasteel'), ore('gearGaiasteel'), ore('runeAsgard'), ore('runeAsgard'), ore('runeAsgard')]
 ])
 mods.extendedcrafting.TableCrafting.addShaped(3, item('extrautils2:passivegenerator',6), [
 [item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8)], 
@@ -68,8 +60,18 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item('lightningcraft:lightning_
 [item('lightningcraft:lightning_cell', 2), null, null, null, ore('blockElectricium'), null, null, null, item('lightningcraft:lightning_cell', 2)], 
 [item('lightningcraft:lightning_cell', 2), null, null, ore('blockElectricium'), null, null, null, null, item('lightningcraft:lightning_cell', 2)], 
 [item('lightningcraft:lightning_cell', 2), null, ore('blockElectricium'), ore('blockElectricium'), item('minecraft:command_block'), ore('blockElectricium'), ore('blockElectricium'), null, item('lightningcraft:lightning_cell', 2)], 
-[item('lightningcraft:lightning_cell', 2), null, null, null, null, null, ore('blockElectricium'), null, item('lightningcraft:lightning_cell', 2)], 
 [item('lightningcraft:lightning_cell', 2), null, null, null, null, ore('blockElectricium'), null, null, item('lightningcraft:lightning_cell', 2)], 
 [item('lightningcraft:lightning_cell', 2), null, null, null, ore('blockElectricium'), null, null, null, item('lightningcraft:lightning_cell', 2)], 
+[item('lightningcraft:lightning_cell', 2), null, null, ore('blockElectricium'), null, null, null, null, item('lightningcraft:lightning_cell', 2)], 
 [item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2), item('lightningcraft:lightning_cell', 2)]
+])
+
+mods.extendedcrafting.TableCrafting.addShaped(3, item('mysticalagradditions:stuff', 69), [
+[null,ore('blockInsanium'), null, null, null, ore('blockInsanium'),null], 
+[null,null, null, ore('blockInsanium'), null, null,null], 
+[null,ore('blockInsanium'), null, ore('blockInsanium'), null, ore('blockInsanium'),null], 
+[null,ore('blockInsanium'), ore('blockInsanium'), ore('essenceLumium'), ore('blockInsanium'), ore('blockInsanium'),null], 
+[null,ore('blockInsanium'), ore('essenceLumium'), item('extendedcrafting:material', 13), ore('essenceLumium'), ore('blockInsanium'),null], 
+[null,ore('blockInsanium'), ore('essenceLumium'), ore('essenceLumium'), ore('essenceLumium'), ore('blockInsanium'),null], 
+[null,null, ore('blockInsanium'), ore('blockInsanium'), ore('blockInsanium'), null,null]
 ])
