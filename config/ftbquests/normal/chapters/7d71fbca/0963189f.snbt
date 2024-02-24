@@ -18,14 +18,14 @@
 		uid: "f5cdb26c",
 		type: "item",
 		item: {
-			id: "forestry:can 1 1",
+			id: "forestry:can",
+			Damage: 1s,
 			tag: {
 				Fluid: {
 					FluidName: "lifeessence",
 					Amount: 1000
 				}
-			},
-			Count: 1b
+			}
 		},
 		count: 8
 	}]

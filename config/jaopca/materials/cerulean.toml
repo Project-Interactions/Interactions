@@ -46,3 +46,9 @@
 	#The default base to use in Mekanism's Combiner to recreate ores.
 	oreBase = "theaurorian:auroriancobblestone"
 
+[avaritia_singularity]
+	#The base amount of blocks required to create one singularity.
+	inputAmount = 300
+	#Should the singularity be added to the Infinity Catalyst recipe.
+	addToCatalyst = true
+

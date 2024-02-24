@@ -20,12 +20,15 @@ val stack as IItemStack[] =
 <mob_grinding_utils:saw_upgrade:2>,
 <mob_grinding_utils:saw_upgrade:3>,
 <mob_grinding_utils:saw_upgrade:4>,
-<mob_grinding_utils:saw_upgrade:5>
+<mob_grinding_utils:saw_upgrade:5>,
+<mob_grinding_utils:fan_upgrade:2>
 ];
 
 for tweak in stack {
     tweak.maxStackSize = 10;
 }
 
-<mob_grinding_utils:fan_upgrade>.maxStackSize = 3;
+<mob_grinding_utils:fan_upgrade:0>.maxStackSize = 3;
 <mob_grinding_utils:fan_upgrade:1>.maxStackSize = 3;
+
+<mob_grinding_utils:absorption_upgrade>.maxStackSize = 6;
