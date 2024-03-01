@@ -5,41 +5,57 @@
     "color": "b19cd9", 
     "parts": [
         {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 0,
-            "z": 2,
-            "elements": [
-                "botania:quartztypemana@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "botania:quartztypemana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -2,
+            "z": 0,
             "elements": [
                 "botania:quartztypered@0"
             ]
         },
         {
             "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:quartztypered@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 1,
             "y": 1,
-            "z": 2,
+            "z": 4,
             "elements": [
                 "botania:bifrostperm@0"
             ]
@@ -47,6 +63,14 @@
         {
             "x": -1,
             "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
             "z": 2,
             "elements": [
                 "botania:bifrostperm@0"
@@ -55,13 +79,21 @@
         {
             "x": -2,
             "y": 1,
-            "z": 0,
+            "z": 3,
             "elements": [
                 "botania:bifrostperm@0"
             ]
         },
         {
             "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
             "y": 1,
             "z": 1,
             "elements": [
@@ -71,15 +103,23 @@
         {
             "x": 0,
             "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
             "z": 2,
             "elements": [
                 "botania:bifrostperm@0"
             ]
         },
         {
-            "x": 2,
-            "y": 1,
-            "z": 0,
+            "x": 1,
+            "y": 3,
+            "z": 3,
             "elements": [
                 "botania:bifrostperm@0"
             ]
@@ -87,15 +127,7 @@
         {
             "x": 2,
             "y": 1,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -1,
+            "z": 3,
             "elements": [
                 "botania:bifrostperm@0"
             ]
@@ -103,71 +135,23 @@
         {
             "x": -2,
             "y": 0,
-            "z": 1,
+            "z": 3,
             "elements": [
                 "botania:quartztypeelf@0"
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 0,
-            "z": 2,
+            "z": 4,
             "elements": [
                 "modularmachinery:blockinputbus"
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 0,
-            "z": -1,
+            "z": 1,
             "elements": [
                 "botania:quartztypeblaze@0"
             ]
@@ -175,13 +159,61 @@
         {
             "x": -2,
             "y": 0,
-            "z": 0,
+            "z": 2,
             "elements": [
                 "botania:quartztypesunny@0"
             ]
         },
         {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
             "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -2,
             "y": 2,
             "z": 2,
             "elements": [
@@ -190,32 +222,8 @@
         },
         {
             "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 2,
             "y": 0,
-            "z": 0,
+            "z": 2,
             "elements": [
                 "botania:quartztypesunny@0"
             ]
@@ -223,7 +231,7 @@
         {
             "x": 2,
             "y": 0,
-            "z": -1,
+            "z": 1,
             "elements": [
                 "botania:quartztypeblaze@0"
             ]
@@ -231,7 +239,7 @@
         {
             "x": -2,
             "y": 2,
-            "z": 1,
+            "z": 3,
             "elements": [
                 "botania:bifrostperm@0"
             ]
@@ -239,7 +247,7 @@
         {
             "x": 0,
             "y": 1,
-            "z": 0,
+            "z": 2,
             "elements": [
                 "modularmachinery:blockmanaprovideroutput"
             ]
@@ -247,7 +255,7 @@
         {
             "x": 2,
             "y": 0,
-            "z": 1,
+            "z": 3,
             "elements": [
                 "botania:quartztypeelf@0"
             ]
@@ -255,17 +263,9 @@
         {
             "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 4,
             "elements": [
                 "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "botania:quartztypered@0"
             ]
         }
     ]}
