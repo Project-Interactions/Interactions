@@ -12,40 +12,40 @@ val description_2 = "§b此催化剂可以提升§e25%§b的魔力聚焦量";
 RecipeBuilder.newBuilder("solar_mana_0", "mana_zoom", 200)
     .addCatalystInput(<contenttweaker:sunnarium>,
     [description_2],
-    [catalyst]).setChance(0)
+    [catalyst]).setChance(0) //阳光化合物-cot
     .addCatalystInput(<mekanismgenerators:solarpanel>,
     [description_2],
-    [catalyst]).setChance(0)
+    [catalyst]).setChance(0) //太阳能板-mek
     .addCatalystInput(<extrautils2:suncrystal>,
     [description_2],
-    [catalyst]).setChance(0)
+    [catalyst]).setChance(0) //太阳晶体-exu2
     .addCatalystInput(<thaumictinkerer:energetic_nitor>,
     [description_2],
-    [catalyst]).setChance(0)
+    [catalyst]).setChance(0) //超能闪耀之光-神秘工匠
     .addCatalystInput(<thaumadditions:crystal_block>.withTag({Aspect: "sol"}),
     [description_2],
-    [catalyst]).setChance(0)
+    [catalyst]).setChance(0) //sol水晶块-神秘addition
     .addCatalystInput(<advancedrocketry:satellitepowersource:1>,
     [description_2],
-    [catalyst]).setChance(0)
+    [catalyst]).setChance(0) //大型太阳能板-高级火箭
     .addCatalystInput(<astralsorcery:itemusabledust>,
     [description_1],
-    [stimulus]).setChance(0.05)
+    [stimulus]).setChance(0.05) //辉光粉-星辉
     .addCatalystInput(<enderio:item_material:38>,
     [description_1],
-    [stimulus]).setChance(0.05)
+    [stimulus]).setChance(0.05) //光伏粉-eio
     .addCatalystInput(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}),
     [description_1],
-    [stimulus]).setChance(0.05)
+    [stimulus]).setChance(0.05) //瓶装阳光-自然灵气
     .addCatalystInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]}),
     [description_1],
-    [stimulus]).setChance(0.05)
+    [stimulus]).setChance(0.05) //sol魔力水晶-神秘
     .addCatalystInput(<environmentaltech:photovoltaic_cell>,
     [description_1],
-    [stimulus]).setChance(0.05)
-    .addItemInputs([<botania:lens:17>]).setChance(0)
-    .addItemInputs([<solarflux:mirror>]).setChance(0)
-    .addManaOutput(200,false)
+    [stimulus]).setChance(0.05) //光电电池-环境科技
+    .addItemInputs([<botania:lens:17>]).setChance(0) //魔力透镜闪光-植魔
+    .addItemInputs([<solarflux:mirror>]).setChance(0) //镜面（0级光电池）-日光通量
+    .addManaOutput(200,false) //产魔量
     .build();
 
     RecipeBuilder.newBuilder("solar_mana_1", "mana_zoom", 200)
