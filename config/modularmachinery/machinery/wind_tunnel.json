@@ -9,7 +9,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -17,7 +17,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -25,7 +25,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -41,7 +41,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -49,7 +49,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -73,7 +73,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -81,7 +81,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -89,7 +89,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -105,7 +105,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -129,7 +129,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -145,7 +145,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -169,7 +169,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -185,7 +185,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -193,7 +193,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -233,7 +233,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -249,7 +249,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "nuclearcraft:ingot_block@12"
+                "thermalfoundation:storage@4"
             ]
         },
         {

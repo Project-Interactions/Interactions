@@ -4,42 +4,36 @@ import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.RecipeModifierBuilder;
 
-val stimulus = RecipeModifierBuilder.create("modularmachinery:energy", "output", 1.5, 1, false).build();
-val description_1 = "§b此部件可以提高§e50%§b的发电量";
-val catalyst = RecipeModifierBuilder.create("modularmachinery:energy", "output", 2.0, 1, false).build();
-val description_2 = "§b此催化剂可以提高§e100%§b的发电量";
+val boost1 = RecipeModifierBuilder.create("modularmachinery:energy", "output", 1.25, 1, false).build();
+val description_1 = game.localize("ia.wind_tunnel.boost1");
+val boost2 = RecipeModifierBuilder.create("modularmachinery:energy", "output", 1.5, 1, false).build();
+val description_2 = game.localize("ia.wind_tunnel.boost2");
 
-RecipeBuilder.newBuilder("wind_0", "wind_tunnel", 1)
-    .addCatalystInput(<jaopca:gear.valkyrie>,
-    [description_1],
-    [stimulus]).setChance(0) //女武神金属齿轮-jaopca
+RecipeBuilder.newBuilder("wind_0", "wind_tunnel", 320)
     .addCatalystInput(<jaopca:gear.thaumium_aer>,
     [description_1],
-    [stimulus]).setChance(0) //风神秘锭齿轮-jaopca
+    [boost1]).setChance(0)
     .addCatalystInput(<botania:rune:3>,
     [description_1],
-    [stimulus]).setChance(0) //风之符文-植物魔法
-    .addCatalystInput(<botanicadds:rune_energy>,
-    [description_1],
-    [stimulus]).setChance(0) //能量符文-植魔addition
-    .addCatalystInput(<mekanismgenerators:turbineblade>,
-    [description_1],
-    [stimulus]).setChance(0) //涡轮叶片-mek
+    [boost1]).setChance(0)
     .addCatalystInput(<libvulpes:productfan:6>,
     [description_1],
-    [stimulus]).setChance(0) //钢扇叶-高级火箭的库
-    .addCatalystInput(<immersiveengineering:wooden_device1:1>,
+    [boost1]).setChance(0)
+    .addCatalystInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
     [description_1],
-    [stimulus]).setChance(0) //风车-沉浸本体
+    [boost1]).setChance(0)
     .addCatalystInput(<bloodmagic:component:2>,
     [description_2],
-    [catalyst]).setChance(0.001) //风之试剂-血魔法
-    .addCatalystInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
-    [description_2],
-    [catalyst]).setChance(0.001) //aer魔法水晶-神秘
+    [boost2]).setChance(0)
     .addCatalystInput(<thermalfoundation:material:1026>,
     [description_2],
-    [catalyst]).setChance(0.001) //空气粉-热力
-    .addItemInputs([<mysticalmechanics:gear_fan>]).setChance(0) //铁风扇
-    .addEnergyPerTickOutput(36) //电力输出量
+    [boost2]).setChance(0)
+    .addCatalystInput(<mekanismgenerators:turbineblade>,
+    [description_2],
+    [boost2]).setChance(0)
+    .addCatalystInput(<jaopca:gear.valkyrie>,
+    [description_2],
+    [boost2]).setChance(0)
+    .addItemInput(<immersiveengineering:wooden_device1:1>).setChance(0.01)
+    .addEnergyPerTickOutput(64)
     .build();

@@ -1,0 +1,6 @@
+[
+    {"name": "wire","type": "item"},
+    {"name": "sheet","type": "item"},
+    {"name": "scaffolding","type": "block"},
+    {"name": "sheetmetal","type": "block"}
+]

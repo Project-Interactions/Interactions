@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: -3.0d,
+	dependencies: [
+		"d69f320d"
+	],
+	tasks: [{
+		uid: "4aee849a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionlaseretcher"
+		}]
+	}]
+}

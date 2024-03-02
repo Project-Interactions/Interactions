@@ -21,23 +21,12 @@
 		count: 4L
 	},
 	{
-		uid: "e39502c8",
+		uid: "4d505939",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustAsh"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "dustAsh"
-				}
-			}
+			item: "jaopca:dust.tanzanite"
 		}],
-		count: 64L
+		count: 4L
 	}],
 	rewards: [{
 		uid: "e5041543",

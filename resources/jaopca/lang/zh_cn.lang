@@ -1,5 +1,10 @@
+//parts
 item.jaopca.avaritia_singularity=%s奇点
-//materials in my modpack which has 500 mods
+item.jaopca.sheet=%s 片
+item.jaopca.wire=%s线
+block.jaopca.scaffolding=%s脚手架
+block.jaopca.sheetmetal=%s板方块
+//materials
 jaopca.material.Abyssum=深渊金属
 jaopca.material.Adamant=铿金
 jaopca.material.Adaminite=精金

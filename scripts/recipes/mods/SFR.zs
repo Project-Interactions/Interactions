@@ -20,14 +20,6 @@ recipes.remove(<solarflux:solar_panel_4> * 2);
 recipes.remove(<solarflux:solar_panel_3> * 2);
 recipes.remove(<solarflux:solar_panel_2>);
 recipes.remove(<solarflux:solar_panel_1>);
-recipes.remove(<solarflux:furnace_upgrade>);
-recipes.remove(<solarflux:block_charging_upgrade>);
-recipes.remove(<solarflux:dispersive_upgrade>);
-recipes.remove(<solarflux:traversal_upgrade>);
-recipes.remove(<solarflux:capacity_upgrade>);
-recipes.remove(<solarflux:transfer_rate_upgrade>);
-recipes.remove(<solarflux:efficiency_upgrade>);
-recipes.remove(<solarflux:blank_upgrade>);
 
 //panels
 recipes.addShaped(<solarflux:solar_panel_3>, [[<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>],[null, <moreplates:redstone_alloy_gear>, null], [<solarflux:solar_panel_2>, <ore:blockRefinedIron>, <solarflux:solar_panel_2>]]);

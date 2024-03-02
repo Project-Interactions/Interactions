@@ -52,11 +52,6 @@
 	*/
 	"toggleMode": false,
 	/* 
-	   Maximum zoom FOV.
-	   DEFAULT: `60.0`
-	*/
-	"maxFOV": 60.0,
-	/* 
 	   Minimum zoom FOV.
 	   DEFAULT: `1.0`
 	*/

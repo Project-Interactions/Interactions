@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: 5.5d,
+	dependencies: [
+		"0ef591b8"
+	],
+	tasks: [{
+		uid: "912fc7ca",
+		type: "item",
+		items: [{
+			item: "unstabletools:unstable_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5ddddc0",
+		type: "item",
+		item: "unstabletools:unstable_block"
+	}]
+}

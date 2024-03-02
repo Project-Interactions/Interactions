@@ -1,3 +1,4 @@
+//machines
 modularmachinery.aspect_infuser=Aspect Infuser
 modularmachinery.mana_converter=Mana Converter
 modularmachinery.ebf=Electric Blast Furnace (EBF)
@@ -10,8 +11,14 @@ modularmachinery.ae_crafter=Applicated Crafter
 modularmachinery.arcane_crafter=Arcane Crafter
 modularmachinery.fusion_computer=Fusion Control Computer
 modularmachinery.adv_coke_oven=Advanced Coke Oven
-ia.aspect_infuser.speed=30% faster crafting speed, superimposed
-
 modularmachinery.mana_zoom=Mana Zoomer
 modularmachinery.wind_tunnel=Wind Tunnel
 modularmachinery.washer=Washer
+
+//modifiers
+ia.aspect_infuser.speed=§e25%§b faster crafting speed§r, superimposed
+ia.mana_zoom.time=§e25%§b less colling time§r, superimposed
+ia.mana_zoom.mana=§e25%§b more mana generation§r, superimposed
+ia.washer.water=§e20%§b less dist water usage§r, superimposed
+ia.wind_tunnel.boost1=§e25%§b more power generation§r, superimposed
+ia.wind_tunnel.boost2=§e50%§b more power generation§r, superimposed
