@@ -160,7 +160,6 @@ recipes.addShaped(<immersiveengineering:storage_slab:5> * 6, [[<ore:blockUranium
 
 Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
 Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
-Crusher.removeRecipesForInput(<embers:ore_nickel>);
 
 Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 2048);
 Crusher.addRecipe(<thermalfoundation:material:69>*2, <ore:oreNickel>,2048);

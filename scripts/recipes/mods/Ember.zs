@@ -9,7 +9,6 @@ import mods.embers.Stamper;
 import mods.aetherworks.MetalFormer;
 import mods.aetherworks.Anvil;
 
-furnace.remove(<embers:ingot_aluminum>);
 
 recipes.removeShapeless(<embers:blend_caminite> * 8);
 recipes.remove(<embers:gear_dawnstone>);
@@ -54,8 +53,8 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <embers:creative_ember_source>,
 ]);
 
 //fix aetherwork metalformer don't receive unidict bronze
-MetalFormer.removeRecipesByInput(<embers:ingot_bronze>);
-MetalFormer.removeRecipesByInput(<embers:plate_bronze>);
+MetalFormer.removeRecipesByOutput(<aetherworks:item_resource:4>);
+MetalFormer.removeRecipesByOutput(<aetherworks:item_resource:3>);
 
 MetalFormer.addRecipe(<thermalfoundation:material:163>, <liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:4>,2100);
 MetalFormer.addRecipe(<thermalfoundation:material:355>,<liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:3>,2100);

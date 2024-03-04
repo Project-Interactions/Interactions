@@ -72,17 +72,6 @@ recipes.removeShapeless(<immersiveengineering:metal:37>, [<ore:ingotElectrum>, <
 recipes.removeShapeless(<immersiveengineering:metal:38>, [<ore:ingotSteel>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:40>, [<ore:ingotGold>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:39>, [<ore:ingotIron>, <immersiveengineering:tool>]);
-recipes.removeShapeless(<embers:plate_tin>, [<ore:ingotTin>, <ore:ingotTin>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_nickel>, [<ore:ingotNickel>, <ore:ingotNickel>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_electrum>, [<ore:ingotElectrum>, <ore:ingotElectrum>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_bronze>, [<ore:ingotBronze>, <ore:ingotBronze>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_aluminum>, [<ore:ingotAluminum>, <ore:ingotAluminum>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_gold>, [<ore:ingotGold>, <ore:ingotGold>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_iron>, [<ore:ingotIron>, <ore:ingotIron>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_dawnstone>, [<ore:ingotDawnstone>, <ore:ingotDawnstone>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_silver>, [<ore:ingotSilver>, <ore:ingotSilver>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_lead>, [<ore:ingotLead>, <ore:ingotLead>, <embers:tinker_hammer:*>]);
-recipes.removeShapeless(<embers:plate_copper>, [<ore:ingotCopper>, <ore:ingotCopper>, <embers:tinker_hammer:*>]);
 recipes.removeShapeless(<thermalfoundation:material:100> * 2, [<ore:dustCopper>, <ore:dustNickel>]);
 recipes.removeShapeless(<thermalfoundation:material:98> * 3, [<ore:dustIron>, <ore:dustIron>, <ore:dustNickel>]);
 recipes.removeShapeless(<thermalfoundation:material:97> * 2, [<ore:dustGold>, <ore:dustSilver>]);
