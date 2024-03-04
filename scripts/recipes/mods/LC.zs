@@ -76,8 +76,6 @@ RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cell:2>, [[<ore:stickSky
 RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cannon:2>, [[<ore:stickSkyfather>, <lightningcraft:material:4>, <ore:stickSkyfather>], [<ore:stickMystic>, <lightningcraft:lightning_cannon:1>, <ore:stickMystic>], [<ore:stickSkyfather>, <ore:dustMystic>, <ore:stickSkyfather>]]);
 RecipeUtils.recipeTweak(true, <lightningcraft:lightning_cell>, [[<ore:stickIron>, <ore:dustRedstone>, <ore:stickIron>], [<ore:plateElectricium>, <ore:plateGold>, <ore:plateElectricium>], [<ore:stickIron>, <ore:dustRedstone>, <ore:stickIron>]]);
 
-LightningInfusion.add(<contenttweaker:ultimate_ingot_right_down>*64,<lightningcraft:lightning_cell:3> , 100000, [<lightningcraft:metal_block:2>,<lightningcraft:metal_block:2>,<lightningcraft:metal_block:2>,<lightningcraft:metal_block:2>]);
-
 <ore:rodIron>.remove(<lightningcraft:rod>);
 <ore:rodSteel>.remove(<lightningcraft:rod:1>);
 <ore:rodLead>.remove(<lightningcraft:rod:2>);

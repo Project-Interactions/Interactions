@@ -147,3 +147,9 @@
 
 <ore:crystalProsperity>.add(<mysticalagriculture:crafting:5>);
 <ore:blockFluix>.add(<appliedenergistics2:fluix_block>);
+
+<ore:dustPsiDust>.add(<psi:material>);
+<ore:ingotPsiMetal>.add(<psi:material:1>);
+<ore:gemPsiGem>.add(<psi:material:2>);
+<ore:blockEbonyPsi>.add(<psi:psi_decorative:7>);
+<ore:blockIvoryPsi>.add(<psi:psi_decorative:8>);

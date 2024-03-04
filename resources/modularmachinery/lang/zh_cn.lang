@@ -14,6 +14,8 @@ modularmachinery.adv_coke_oven=高级焦炉
 modularmachinery.mana_zoom=聚魔焦镜
 modularmachinery.wind_tunnel=风洞舱
 modularmachinery.washer=陶瓷浸洗瓮
+modularmachinery.lightning_infuser=大型雷电灌注器
+modularmachinery.psi_converter=§bψ§r转换器§bψ§r
 
 //modifiers
 ia.aspect_infuser.speed=§b可以加快§e25%§b的制作速度§r，可叠加

@@ -92,7 +92,7 @@ Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_p
 Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_vitium>, <liquid:aerotheum> * 100,1200 );
 
 //eezo
-InductionSmelter.addRecipe(<enderio:item_material:20>*64, <enderio:item_alloy_endergy_ball:2>,<enderio:block_infinity:2> , 25000, <taiga:eezo_dust>, 50);
+InductionSmelter.addRecipe(<enderio:item_material:20>*8, <enderio:item_alloy_endergy_ball:2>,<enderio:block_infinity:1> , 25000, <taiga:eezo_dust>, 50);
 
 InductionSmelter.addRecipe(<ore:ingotRefinedIron>.firstItem, <minecraft:sand>,<minecraft:iron_ingot>,1500);
 
