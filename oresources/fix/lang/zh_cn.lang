@@ -1,11 +1,23 @@
 //conflict fix
-tile.mixer.name=混合离心器
 item.amber.name=琥珀
-tile.boiler.name=高压能量激发器
-tile.bin.name=储物仓
-
-//correct
+//thermal foundation
 item.thermalfoundation.material.crystalEnder.name=谐振络合物
 item.thermalfoundation.material.crystalGlowstone.name=充能络合物
 item.thermalfoundation.material.crystalRedstone.name=不稳定络合物
 tile.thermalfoundation.ore.ender.name=谐振末地石
+//astral stuffs
+tile.block_black_marble_wall.name=炭黑大理石墙
+tile.block_black_marble_brick_wall.name=炭黑大理石砖墙
+tile.block_black_marble_arch_wall.name=炭黑大理石横梁墙
+tile.block_black_marble_chiseled_wall.name=炭黑錾制大理石墙
+tile.block_black_marble_engraved_wall.name=炭黑凹面大理石墙
+tile.block_black_marble_runed_wall.name=炭黑精致大理石墙
+journal.astraladditions.ring_astral.text=在对液华共振器进行一些实验后，似乎可以制作一个可以将其按键绑定到流体特质信息和星光浓度的指环。太棒了！
+journal.astraladditions.armor_starmetal.text=用星辉可以制造出一套与铁相当的盔甲，除了几个值得注意的例外。星辉的天体属性使它更容易接受附魔，并且似乎增加了少量的韧性。
+
+tile.blockblackmarble.chiseled.name=錾制炭黑大理石
+tile.blockmarble.chiseled.name=錾制大理石
+
+tile.packagedastral.trait_crafter.relays.usable=目前可用标记星辉转继器: %s
+tile.packagedastral.trait_crafter.relays.required=最低所需标记星辉转继器: %s
+tile.packagedastral.marked_relay.name=标记星辉转继器

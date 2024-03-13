@@ -140,7 +140,7 @@ for Remove in infusionRemove {
 //ICHOR@1
 Infusion.registerRecipe(
     "harder_kami",
-    "ICHOR",
+    "TT_ICHOR@1",
     <thaumictinkerer:kamiresource:2>,
     8,
     [<aspect:spiritus>*125, <aspect:lux>*125,<aspect:humanus>*125],
@@ -153,7 +153,7 @@ Infusion.registerRecipe(
 
 Infusion.registerRecipe(
     "harder_kami_helm",
-    "KAMIHELM",
+    "TT_KAMIHELM",
     <thaumictinkerer:kami_helm>,
     40,
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100],
@@ -163,7 +163,7 @@ Infusion.registerRecipe(
 
 Infusion.registerRecipe(
     "harder_kami_chest",
-    "KAMICHEST",
+    "TT_KAMICHEST",
     <thaumictinkerer:kami_chest>,
     40,
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100],
@@ -173,7 +173,7 @@ Infusion.registerRecipe(
 
 Infusion.registerRecipe(
     "harder_kami_leg",
-    "KAMILEGS",
+    "TT_KAMILEGS",
     <thaumictinkerer:kami_legs>,
     40,
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100],
@@ -183,7 +183,7 @@ Infusion.registerRecipe(
 
 Infusion.registerRecipe(
     "KAMIBOOTS",
-    "ICHOR@1",
+    "TT_KAMIBOOTS",
     <thaumictinkerer:kami_boots>,
     40,
     [<aspect:victus>*100, <aspect:volatus>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:praemunio>*100],

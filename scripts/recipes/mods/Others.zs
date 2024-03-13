@@ -62,3 +62,5 @@ recipes.addShaped(<flowingtime:timewatch>, [[<ore:plateBlackIron>, <tiabs:timein
 
 //defiled lands
 recipes.addShaped(<defiledlands:conjuring_altar>, [[<ore:gemScarlite>, <ore:gemScarlite>, <ore:gemScarlite>],[<ore:stoneDefiled>, <zensummoning:altar>, <ore:stoneDefiled>], [<ore:stoneDefiled>, <defiledlands:healing_pad>, <ore:stoneDefiled>]]);
+
+RecipeUtils.recipeTweak(true, <personalworlds:personal_portal>, [[<ore:blockMarble>, <minecraft:book>, <ore:blockMarble>], [<minecraft:quartz_stairs:*>, <minecraft:quartz_block:*>, <minecraft:quartz_stairs:*>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);

@@ -224,3 +224,50 @@ item.raw_rubber.name=生橡胶
 item.rubber_bar.name=橡胶条
 
 tip.info.tile.rubber_sapling.massive=警告：他是个高个子
+//https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/4237
+visualores.button.oreveins=切换矿脉显示
+visualores.button.undergroundfluid=切换地下流体显示
+visualores.button.excavator=切换矿床显示
+visualores.button.aura_flux=切换灵气/咒波显示
+visualores.button.starlight=切换星能场级别显示
+visualores.button.neromantic=切换流体本源精华显示
+
+visualores.command.reset.usage=重置可视化勘探客户端缓存
+visualores.command.reset.success=重置客户端缓存！
+visualores.command.openfolder.usage=打开客户端缓存文件夹
+visualores.command.openfolder.message=打开缓存文件夹
+visualores.command.openfolder.error=无法打开缓存文件夹
+
+visualores.tooltipoverflow=…（还有 %d 行）
+
+visualores.keycategory=可视化勘探
+
+visualores.key.action=操作键
+
+visualores.share.clientonly=可视化勘探未在服务端安装，无法共享勘探数据！
+visualores.share.notification=%s 正在与你共享勘探数据！
+
+visualores.gregtech.newveins=已勘探到 %d 个新的矿脉！
+visualores.gregtech.depleted= （已耗尽）
+
+visualores.thaumcraft.aura=灵气：%d
+visualores.thaumcraft.flux=咒波：%d
+visualores.thaumcraft.base=总计：%d/%d
+
+visualores.astralsorcery.fluid=在底下深处含有%d
+//https://github.com/Ender-Development/Integrated-Computers/pull/7
+# Parts
+parttype.parttypes.ocid.computer_writer.name=计算机写入器
+parttype.parttypes.ocid.computer_reader.name=计算机读取器
+
+# Aspects
+aspect.aspects.integrateddynamics.write.boolean.computer.name=输出布尔值
+aspect.aspects.integrateddynamics.write.number.computer.name=输出数值
+aspect.aspects.integrateddynamics.write.string.computer.name=输出字符串
+aspect.aspects.integrateddynamics.write.nbt.computer.name=输出 NBT
+
+aspect.aspects.integrateddynamics.read.boolean.computer.name=输入布尔值
+aspect.aspects.integrateddynamics.read.double.computer.name=输入双精度浮点型数值
+aspect.aspects.integrateddynamics.read.long.computer.name=输入长整型数值
+aspect.aspects.integrateddynamics.read.string.computer.name=输入字符串
+aspect.aspects.integrateddynamics.read.boolean.computer.isnil.name=无值（NIL）被提供

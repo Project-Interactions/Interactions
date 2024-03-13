@@ -57,6 +57,18 @@
 	*/
 	"minFOV": 1.0,
 	/* 
+	   Maximum third-person zoom distance (in blocks).
+	   Set to `0.0` to disable third-person zoom.
+	   DEFAULT: `15.0`
+	*/
+	"maxThirdPersonZoomDistance": 15.0,
+	/* 
+	   Minimum third-person zoom distance (in blocks).
+	   Set to `0.0` to mimic vanilla.
+	   DEFAULT: `0.5`
+	*/
+	"minThirdPersonZoomDistance": 0.5,
+	/* 
 	   If `true`, the mod will be disabled (on some platforms, key binds will still show in game options; they won't do anything if this is set to `true`).
 	   Requires re-launch to take effect.
 	   DEFAULT: `false`

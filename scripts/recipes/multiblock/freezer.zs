@@ -22,7 +22,7 @@ RecipeBuilder.newBuilder("iridium", "freezer", 80)
     .addItemOutput(<thermalfoundation:material:135>)
     .build();
 RecipeBuilder.newBuilder("tungsten", "freezer", 80)
-    .addItemInputs([<contenttweaker:hot_tungsten_steel_ingot>])
+    .addItemInputs([<contenttweaker:hot_tungsten_ingot>])
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:cryotheum>*200)
     .addItemOutput(<ore:ingotTungsten>.firstItem)

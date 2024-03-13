@@ -238,6 +238,8 @@ alloyer("Nichrome","Nickel","Chromium",1,1,2,1);
 alloyer("NiobiumTitanium","Nickel","Chromium",1,1,2,1);
 alloyer("Osmiridium","Osmium","Iridium",1,1,2,1);
 alloyer("SuperAlloy","Nichrome","NiobiumTitanium",2,1,3,1);
+alloyer("TungstenSteel","Tungsten","Steel",1,1,2,1);
+
 mods.tconstruct.Melting.removeRecipe(<liquid:hard_carbon>,<jaopca:dust.hard_carbon>);
 Melter.removeRecipeWithInput(<ore:dustHardCarbon>);
 

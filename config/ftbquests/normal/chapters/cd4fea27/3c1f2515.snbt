@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "6a5a5435",
+		type: "item",
+		items: [{
+			item: "personalworlds:personal_portal"
+		}]
+	}]
+}
