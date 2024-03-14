@@ -29,18 +29,19 @@
 	*/
 	"zoomSmoothnessMs": 150,
 	/* 
-	   Smoothing animation progress will be raised to this exponent for easing. Higher numbers will feel faster.
-	   It is recommended to also increase `zoomSmoothnessMs` when increasing this.
-	   Set to `1` to disable.
-	   DEFAULT: `4`
+	   The algorithm responsible easing animations.
+	   You should probably leave this at the default if you don't understand what it does.
+	   OPTIONS: `LINEAR`, `QUADRATIC`, `QUARTIC`, `QUINTIC`
+	   DEFAULT: `QUART`
 	*/
-	"easingExponent": 4,
+	"animationEasingMethod": "QUARTIC",
 	/* 
-	   Zoom percentage will be squared before being applied if `true`.
-	   Makes differences in FOV more uniform. You should probably keep this on if you don't understand what it does.
-	   DEFAULT: `true`
+	   The algorithm responsible for making differences in FOV more uniform.
+	   You should probably leave this at the default if you don't understand what it does.
+	   OPTIONS: `LINEAR`, `QUADRATIC`, `QUARTIC`, `QUINTIC`
+	   DEFAULT: `QUADRATIC`
 	*/
-	"useQuadratic": true,
+	"zoomEasingMethod": "QUADRATIC",
 	/* 
 	   Default starting zoom percentage.
 	   DEFAULT: `0.5`
