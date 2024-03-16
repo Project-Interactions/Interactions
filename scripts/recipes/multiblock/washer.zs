@@ -7,7 +7,7 @@ import mods.modularmachinery.RecipeModifierBuilder;
 val water = RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.80, 1, false).build();
 val description_1 = game.localize("ia.washer.water");
 
-RecipeBuilder.newBuilder("washer_1", "washer", 100)
+RecipeBuilder.newBuilder("washer_1", "washer", 60)
     .addCatalystInput(<botania:rune>,
     [description_1],
     [water]).setChance(0)
@@ -35,7 +35,7 @@ RecipeBuilder.newBuilder("washer_1", "washer", 100)
     .addItemOutputs(<thermalfoundation:material:65>).setChance(0.12)
     .build();
 
-RecipeBuilder.newBuilder("washer_2", "washer", 100)
+RecipeBuilder.newBuilder("washer_2", "washer", 60)
     .addCatalystInput(<botania:rune>,
     [description_1],
     [water]).setChance(0)

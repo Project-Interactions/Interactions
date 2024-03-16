@@ -85,7 +85,6 @@
             "z": 1,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockoutputbus",
                 "ceramics:clay_hard@0"
             ]
         },
@@ -161,7 +160,6 @@
             "z": 1,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockoutputbus",
                 "ceramics:clay_hard@0"
             ]
         },
@@ -170,7 +168,6 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch",
                 "modularmachinery:blockoutputbus",
                 "ceramics:clay_hard@0"
             ]
@@ -188,7 +185,6 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch",
                 "modularmachinery:blockoutputbus",
                 "ceramics:clay_hard@0"
             ]

@@ -8,13 +8,22 @@
 		"{9881d108.ia.0ef591b8.3}"
 	],
 	tasks: [{
-		uid: "5ab818dd",
+		uid: "7db370f3",
 		type: "item",
 		items: [{
-			item: "extrautils2:unstableingots 1 2"
-		},
-		{
-			item: "extrautils2:unstableingots"
-		}]
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotUnstable"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotUnstable"
+				}
+			}
+		}],
+		ignore_nbt: 1b
 	}]
 }

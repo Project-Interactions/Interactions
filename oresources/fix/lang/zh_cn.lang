@@ -21,3 +21,11 @@ tile.blockmarble.chiseled.name=錾制大理石
 tile.packagedastral.trait_crafter.relays.usable=目前可用标记星辉转继器: %s
 tile.packagedastral.trait_crafter.relays.required=最低所需标记星辉转继器: %s
 tile.packagedastral.marked_relay.name=标记星辉转继器
+//bad ar "localized" control names
+key.openRocketUI=open_rocket_gui
+key.toggleJetpack=toggle_jetpack
+key.togglercs=toggle_rcs
+key.turnRocketLeft=rotate_vehicle_left
+key.turnRocketRight=rotate_vehicle_right
+key.turnRocketUp=move_vehicle_up
+key.turnRocketDown=move_vehicle_down

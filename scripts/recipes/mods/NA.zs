@@ -15,9 +15,9 @@ Altar.removeRecipe(<naturesaura:infused_iron>);
 Altar.removeRecipe(<naturesaura:infused_iron_block>);
 Altar.removeRecipe(<naturesaura:infused_stone>);
 //灌注铁
-Altar.addRecipe("infused_iron", <ore:ingotRefinedIron>, <naturesaura:infused_iron>, null, 20, 50);
+Altar.addRecipe("infused_iron", <ore:ingotRefinedIron>, <naturesaura:infused_iron>, null, 20, 30);
 //灌注石
-Altar.addRecipe("infused_stone", <aether_legacy:holystone>, <naturesaura:infused_stone>, null, 20, 50);
+Altar.addRecipe("infused_stone", <aether_legacy:holystone>, <naturesaura:infused_stone>, null, 20, 30);
 Altar.removeRecipe(<minecraft:blaze_powder>*4);
 Altar.removeRecipe(<minecraft:leather>);
 
@@ -48,3 +48,5 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <auraddons:item_creative_aura_c
 	[null, null, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, <naturesaura:field_creator>, null, null]
 ]);
 
+Altar.addRecipe("vine", <ore:treeLeaves>, <minecraft:vine>, null, 20, 20);
+Altar.addRecipe("apatite", <jaopca:dust.apatite>, <forestry:apatite>, null, 40, 40);

@@ -1,0 +1,8 @@
+//bad ar "localized" control names
+key.openRocketUI=open_rocket_gui
+key.toggleJetpack=toggle_jetpack
+key.togglercs=toggle_rcs
+key.turnRocketLeft=rotate_vehicle_left
+key.turnRocketRight=rotate_vehicle_right
+key.turnRocketUp=move_vehicle_up
+key.turnRocketDown=move_vehicle_down

@@ -24,9 +24,9 @@ recipes.removeByRecipeName("thaumictinkerer:share_book");
 recipes.addShaped(<thaumictinkerer:share_book>.withTag({player: "[none]"}), [[null, <thaumcraft:scribing_tools>, null], [<minecraft:paper>, <thaumadditions:knowledge_tome>, <minecraft:paper>], [null, <minecraft:paper>, null]]);
 
 //
-mods.thermalexpansion.Pulverizer.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<thaumcraft:nugget:9>, <botania:quartz:5>, 1500);
 recipes.remove(<thaumcraft:nugget:9> * 9);
-mods.immersiveengineering.Crusher.addRecipe(<thaumcraft:nugget:9>, <appliedenergistics2:crystal_seed:600>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<thaumcraft:nugget:9>, <botania:quartz:5>, 2048);
 recipes.removeByRecipeName("hammercore:thaumadditions_recipestar.0");
 
 recipes.addShapeless(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), [<thaumcraft:nugget:9>]);
