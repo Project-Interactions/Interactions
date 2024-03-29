@@ -53,10 +53,10 @@ tile.appliedenergistics2.crafting_unit.name=合成单元
 tile.appliedenergistics2.molecular_assembler.name=分子装配室
 
 // Stairs
-tile.appliedenergistics2.fluix_stairs.name=錾制赛特斯石英楼梯
-tile.appliedenergistics2.quartz_stairs.name=福鲁伊克斯楼梯
-tile.appliedenergistics2.chiseled_quartz_stairs.name=竖纹赛特斯石英楼梯
-tile.appliedenergistics2.quartz_pillar_stairs.name=赛特斯石英楼梯
+tile.appliedenergistics2.fluix_stairs.name=福鲁伊克斯楼梯
+tile.appliedenergistics2.quartz_stairs.name=赛特斯石英楼梯
+tile.appliedenergistics2.chiseled_quartz_stairs.name=錾制赛特斯石英楼梯
+tile.appliedenergistics2.quartz_pillar_stairs.name=竖纹赛特斯石英楼梯
 tile.appliedenergistics2.smooth_sky_stone_stairs.name=陨石块楼梯
 tile.appliedenergistics2.sky_stone_brick_stairs.name=陨石石砖楼梯
 tile.appliedenergistics2.sky_stone_small_brick_stairs.name=陨石砖块楼梯

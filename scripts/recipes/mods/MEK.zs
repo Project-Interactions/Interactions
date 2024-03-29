@@ -32,7 +32,7 @@ infuser.removeRecipe(<mekanism:controlcircuit>);
 infuser.addRecipe("REDSTONEHARD", 10, <ore:ingotOsmiridium>, <mekanism:controlcircuit>);
 
 infuser.removeRecipe(<mekanism:otherdust:5>);
-infuser.addRecipe("DIAMONDHARD", 10, <ore:dustDiamond>, <mekanism:otherdust:5>);
+infuser.addRecipe("DIAMONDHARD", 10, <enderio:block_reinforced_obsidian>, <mekanism:otherdust:5>);
 
 infuser.addRecipe("ENDERIUM", 20, <naturesaura:infused_iron>, <extendedcrafting:material:36>);
 

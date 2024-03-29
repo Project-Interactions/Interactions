@@ -210,51 +210,6 @@ groovyscript.recipe.piston_push.max_items=每次最多能推动的物品数：%d
 groovyscript.recipe.piston_push.min_level=最低挖掘等级：%d
 groovyscript.recipe.chance_produce=§2%s§7 几率产出
 groovyscript.recipe.chance_consume=§2%s§7 几率消耗
-#PARSE_ESCAPES
-tile.rubber_sapling.normal.name=橡胶树苗
-tile.rubber_sapling.sacred.name=神圣橡胶树苗
-tile.rubber_sapling.mega.name=宏伟橡胶树苗
-tile.rubber_sapling.massive.name=附魔神圣橡胶树苗
-tile.rubber_wood_log.name=橡胶木
-tile.rubber_leaves.normal.name=橡胶树叶
-tile.rubber_leaves.dry.name=干枯橡胶树叶
-
-item.raw_plastic.name=生塑料
-item.raw_rubber.name=生橡胶
-item.rubber_bar.name=橡胶条
-
-tip.info.tile.rubber_sapling.massive=警告：他是个高个子
-//https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/4237
-visualores.button.oreveins=切换矿脉显示
-visualores.button.undergroundfluid=切换地下流体显示
-visualores.button.excavator=切换矿床显示
-visualores.button.aura_flux=切换灵气/咒波显示
-visualores.button.starlight=切换星能场级别显示
-visualores.button.neromantic=切换流体本源精华显示
-
-visualores.command.reset.usage=重置可视化勘探客户端缓存
-visualores.command.reset.success=重置客户端缓存！
-visualores.command.openfolder.usage=打开客户端缓存文件夹
-visualores.command.openfolder.message=打开缓存文件夹
-visualores.command.openfolder.error=无法打开缓存文件夹
-
-visualores.tooltipoverflow=…（还有 %d 行）
-
-visualores.keycategory=可视化勘探
-
-visualores.key.action=操作键
-
-visualores.share.clientonly=可视化勘探未在服务端安装，无法共享勘探数据！
-visualores.share.notification=%s 正在与你共享勘探数据！
-
-visualores.gregtech.newveins=已勘探到 %d 个新的矿脉！
-visualores.gregtech.depleted= （已耗尽）
-
-visualores.thaumcraft.aura=灵气：%d
-visualores.thaumcraft.flux=咒波：%d
-visualores.thaumcraft.base=总计：%d/%d
-
-visualores.astralsorcery.fluid=在底下深处含有%d
 //https://github.com/Ender-Development/Integrated-Computers/pull/7
 # Parts
 parttype.parttypes.ocid.computer_writer.name=计算机写入器

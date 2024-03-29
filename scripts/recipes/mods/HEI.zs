@@ -83,6 +83,7 @@ eadd(0,<thermalfoundation:material:1>);
 eadd(0,<thermalfoundation:material:65>);
 eadd(0,<thermalfoundation:material:768>);
 
+eadd(1,<qmd:dust:7>);
 eadd(1,<immersiveengineering:metal:14>);
 eadd(1,<actuallyadditions:item_dust:3>);
 eadd(1,<jaopca:dust.apatite>);

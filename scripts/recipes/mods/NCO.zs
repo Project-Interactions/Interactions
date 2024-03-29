@@ -235,7 +235,7 @@ alloyer("HardCarbon","Graphite","Diamond",2,1,2,1);
 alloyer("Thermoconducting","Extreme","BoronArsenide",1,1,2,1);
 alloyer("ZirconiumMolybdenum","Zirconium","Molybdenum",1,15,16,1);
 alloyer("Nichrome","Nickel","Chromium",1,1,2,1);
-alloyer("NiobiumTitanium","Nickel","Chromium",1,1,2,1);
+alloyer("NiobiumTitanium","Niobium","Titanium",1,1,2,1);
 alloyer("Osmiridium","Osmium","Iridium",1,1,2,1);
 alloyer("SuperAlloy","Nichrome","NiobiumTitanium",2,1,3,1);
 alloyer("TungstenSteel","Tungsten","Steel",1,1,2,1);

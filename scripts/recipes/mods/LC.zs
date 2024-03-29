@@ -11,7 +11,8 @@ import crafttweaker.item.IIngredient;
 LightningTransforming.add(<lightningcraft:ingot>, [<enderio:item_alloy_ingot:5>,<psi:material:1>,<calculator:flawlessdiamond>]);
 LightningTransforming.add(<lightningcraft:material:11>, [<lightningcraft:ingot:1>,<lightningcraft:material:5>,<actuallyadditions:item_crystal_empowered:4>]);
 //LightningCrusher
-
+recipes.remove(<lightningcraft:lightning_crusher>);
+LightningCrusher.removeAll()
 //LightningInfusion
 LightningInfusion.remove(<lightningcraft:ingot:1>);
 LightningInfusion.add(<lightningcraft:ingot:1>*2, <lightningcraft:ingot>, 85, [<lightningcraft:stone_block>,<lightningcraft:stone_block>,<tinkersaether:valkyrie_ingot>,<tinkersaether:valkyrie_ingot>]);

@@ -32,3 +32,8 @@ recipes.addShaped(<modularmachinery:washer_controller>,
 [[<ceramics:unfired_clay:5>, <engineersdecor:factory_placer>, <ceramics:unfired_clay:5>],
 [<ceramics:unfired_clay:5>, <engineersdecor:small_block_breaker>, <ceramics:unfired_clay:5>],
 [<ceramics:unfired_clay:5>, <tcomplement:porcelain_melter:8>, <ceramics:unfired_clay:5>]]);
+
+recipes.addShaped(<modularmachinery:philostone_controller>,
+[[<chisel:voidstone>, <ore:blockDiamond>, <chisel:voidstone>],
+[<ore:blockDiamond>, <modularmachinery:washer_controller>, <ore:blockDiamond>],
+[<chisel:voidstone>, <ore:blockDiamond>, <chisel:voidstone>]]);

@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -289,10 +289,10 @@ key_key.craftingGrid:0
 key_key.vaultopic.view:34
 key_key.vaultopic.vice:47
 key_visualores.key.action:211
-key_visualores.button.starlight:0
-key_visualores.button.excavator:0
 key_visualores.button.neromantic:0
+key_visualores.button.starlight:0
 key_visualores.button.aura_flux:0
+key_visualores.button.excavator:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0

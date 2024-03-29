@@ -38,35 +38,7 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<nuclearcraft:dust:3>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<nuclearcraft:dust:5>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<nuclearcraft:dust:6>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<ore:dustZinc>.firstItem])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<nuclearcraft:dust:11>])
       )
       .addDrop(
         Dropt.drop()
@@ -109,13 +81,6 @@ Dropt.list("refined_ore_essence")
         Dropt.weight(60)
         )
         .items([<projectred-core:resource_item:105>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
-        .items([<nuclearcraft:dust:7>])
       )
       .addDrop(
         Dropt.drop()

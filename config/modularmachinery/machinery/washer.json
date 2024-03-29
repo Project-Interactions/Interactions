@@ -3,191 +3,28 @@
     "localizedname": "ia.machine.washer.name", 
     "requires-blueprint": false, 
     "color": "FFFFFF", 
-    "dynamic-patterns": [
-        {
-            "name": "line",
-            "faces": [
-                "north"
-            ],
-            "minSize": 1,
-            "maxSize": 8,
-            "parts": [
-                {
-                    "x": 0,
-                    "y": -1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": 1,
-                    "y": -1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockoutputbus"
-                    ]
-                },
-                {
-                    "x": -1,
-                    "y": 0,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockfluidinputhatch",
-                        "modularmachinery:blockfluidoutputhatch"
-                    ]
-                },
-                {
-                    "x": 1,
-                    "y": 0,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockfluidinputhatch",
-                        "modularmachinery:blockfluidoutputhatch"
-                    ]
-                },
-                {
-                    "x": -1,
-                    "y": 1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": 1,
-                    "y": 1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": 0,
-                    "y": 1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockinputbus"
-                    ]
-                },
-                {
-                    "x": -1,
-                    "y": -1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockoutputbus"
-                    ]
-                }
-            ],
-            "parts-end": [
-                {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockparallelcontroller"
-                    ]
-                },
-                {
-                    "x": 0,
-                    "y": -1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockenergyinputhatch"
-                    ]
-                },
-                {
-                    "x": 1,
-                    "y": -1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": -1,
-                    "y": 0,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": 1,
-                    "y": 0,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": -1,
-                    "y": 1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": 1,
-                    "y": 1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                },
-                {
-                    "x": 0,
-                    "y": 1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0",
-                        "modularmachinery:blockenergyinputhatch"
-                    ]
-                },
-                {
-                    "x": -1,
-                    "y": -1,
-                    "z": 0,
-                    "elements": [
-                        "ceramics:clay_hard@0"
-                    ]
-                }
-            ],
-            "structure-size-offset-start": {
-                "x": 0,
-                "y": 0,
-                "z": 1
-            },
-            "structure-size-offset": {
-                "x": 0,
-                "y": 0,
-                "z": 1
-            }
-        }
-    ],
     "parts": [
         {
-            "x": 0,
-            "y": -1,
-            "z": 0,
+            "x": -1,
+            "y": 0,
+            "z": 2,
             "elements": [
-                "ceramics:clay_hard@0",
-                "modularmachinery:blockupgradebus",
-                "modularmachinery:blockenergyinputhatch"
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "ceramics:clay_hard@0"
             ]
         },
         {
             "x": 1,
-            "y": -1,
-            "z": 0,
+            "y": 0,
+            "z": 2,
             "elements": [
                 "ceramics:clay_hard@0"
             ]
@@ -203,14 +40,15 @@
         {
             "x": 1,
             "y": 0,
-            "z": 0,
+            "z": 1,
             "elements": [
+                "modularmachinery:blockfluidinputhatch",
                 "ceramics:clay_hard@0"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
+            "x": 1,
+            "y": 0,
             "z": 0,
             "elements": [
                 "ceramics:clay_hard@0"
@@ -225,13 +63,62 @@
             ]
         },
         {
-            "x": 0,
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 1,
             "z": 0,
             "elements": [
-                "ceramics:clay_hard@0",
-                "modularmachinery:blockupgradebus",
-                "modularmachinery:blockenergyinputhatch"
+                "ceramics:clay_hard@0"
             ]
         },
         {
@@ -239,6 +126,93 @@
             "y": -1,
             "z": 0,
             "elements": [
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockoutputbus",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch",
+                "ceramics:clay_hard@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch",
                 "ceramics:clay_hard@0"
             ]
         }

@@ -28,6 +28,8 @@ Melting.removeRecipe(<liquid:redstone>);
 Melting.removeRecipe(<liquid:ender>);
 Melting.removeRecipe(<liquid:tungsten>);
 
+Melting.removeRecipe(<liquid:refined_obsidian>,<mekanism:otherdust:5>);
+
 Melting.removeRecipe(<liquid:osmium>,<mekanism:dust:2>);
 Melting.removeRecipe(<liquid:osmium>,<mekanism:oreblock>);
 

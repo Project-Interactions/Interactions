@@ -20,7 +20,7 @@ RecipeBuilder.newBuilder("electricium_ingot", "lightning_infuser", 20)
 RecipeBuilder.newBuilder("electricium_block", "lightning_infuser", 100)
     .addEnergyPerTickInput(50000)
     .addItemInputs([<ore:blockFlawlessDiamond>,<ore:blockPsiMetal>,<ore:blockPulsatingIron>])
-    .addItemOutput(<ore:ingotElectricium>.firstItem*2)
+    .addItemOutput(<ore:blockElectricium>.firstItem*2)
     .addGridPowerInput(20)
     .build();
 
