@@ -238,6 +238,7 @@ key_key.effortlessbuilding.mode.desc:184
 key_key.effortlessbuilding.undo.desc:44
 key_key.effortlessbuilding.redo.desc:21
 key_key.effortlessbuilding.altplacement.desc:157
+key_key.ae2fc.open_wireless_fluid_pattern_terminal.desc:0
 key_key.integrateddynamics.logic_programmer_focus_search:33
 key_key.integrateddynamics.logic_programmer_open_rename:19
 key_FpsReducer.key.guiOpen:0
@@ -289,10 +290,10 @@ key_key.craftingGrid:0
 key_key.vaultopic.view:34
 key_key.vaultopic.vice:47
 key_visualores.key.action:211
+key_visualores.button.excavator:0
 key_visualores.button.neromantic:0
 key_visualores.button.starlight:0
 key_visualores.button.aura_flux:0
-key_visualores.button.excavator:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0

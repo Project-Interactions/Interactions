@@ -12,23 +12,26 @@ import mods.TweakedPetroleum.TweakedGasReservoir;
 //   TweakedPowerTier.registerPowerTier(int capacity, int rft)
 
 
-    var powerTier = TweakedPowerTier.registerPowerTier(640000, 2048);
+var powerTier = TweakedPowerTier.registerPowerTier(640000, 2048);
 
+//default
+TweakedReservoir.registerReservoir("aquifer", <liquid:water>, 5000000, 10000000, 6, 25, 30, powerTier,[], [0]);
 
+TweakedReservoir.registerReservoir("oil", <liquid:oil>, 2500000, 15000000, 6, 25, 40, powerTier,[1], [], []);
 
-    TweakedReservoir.registerReservoir("iodine_oil", <liquid:rich_iodine_oil>, 2000000, 10000000, 6, 25, 20, powerTier,
-        [1], [], [], []);
-    
-    TweakedReservoir.registerReservoir("brine", <liquid:brine>, 5000000, 10000000, 6, 25, 20, powerTier,
-        [1], [], [], []);
+TweakedReservoir.registerReservoir("lava", <liquid:lava>, 250000, 1000000, 0, 25, 30, powerTier,[1]);
+
+//add
+TweakedReservoir.registerReservoir("iodine_oil", <liquid:rich_iodine_oil>, 2000000, 10000000, 6, 25, 20, powerTier,[1], [], [], []);
+
+TweakedReservoir.registerReservoir("brine", <liquid:brine>, 5000000, 10000000, 6, 25, 20, powerTier,[1], [], [], []);
 
 
 //Method Syntax
 //TweakedGasReservoir.registerGasReservoir(String name, IGasStack gas, int minSize, int maxSize, int replenishRate, int pumpSpeed, int weight, int powerTier,
 //    int[] dimBlacklist, int[] dimWhitelist, String[] biomeBlacklist, String[] biomeWhitelist)
 
-    
-    TweakedGasReservoir.registerGasReservoir("salt_water", <gas:brine>, 5000000, 10000000, 6, 25, 30, powerTier,
-        [], [0]);
-    
+//gas
+TweakedGasReservoir.registerGasReservoir("salt_water", <gas:brine>, 5000000, 10000000, 6, 25, 30, powerTier,[], [0]);
+
 
