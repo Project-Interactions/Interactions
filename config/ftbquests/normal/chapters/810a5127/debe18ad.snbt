@@ -5,8 +5,16 @@
 		"70e0a0cb"
 	],
 	tasks: [{
-		uid: "d2d5a7c9",
-		type: "fluid",
-		fluid: "essence"
+		uid: "0b656e78",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "essence",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

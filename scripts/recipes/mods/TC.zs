@@ -114,6 +114,14 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <thaumicenergistics:essentia_ce
 	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>]
 ]);
 
+//resolve ta plates need craft to unlock researches
+recipes.removeShaped(<thaumadditions:mithrillium_plate>*3);
+recipes.removeShaped(<thaumadditions:mithminite_plate>*3);
+recipes.removeShaped(<thaumadditions:adaminite_plate>*3);
+recipes.addShapeless(<thaumadditions:mithrillium_plate>,[<thaumadditions:mithrillium_plate>]);
+recipes.addShapeless(<thaumadditions:mithminite_plate>,[<thaumadditions:mithminite_plate>]);
+recipes.addShapeless(<thaumadditions:adaminite_plate>,[<thaumadditions:adaminite_plate>]);
+
 //
 IFluxConcentrator.addRecipes(<theaurorian:mushroomsmall>,<defiledlands:scuronotte>);
 

@@ -72,3 +72,6 @@ FluidSievingMachine.add(<liquid:blood>*1000, <twilightforest:fiery_blood>, <bota
 //mercury quicksilver
 FluidDictionary.add("mercury", "fluid_quicksilver", 1);
 FluidDictionary.add("fluid_quicksilver", "mercury", 1);
+
+//convert to if plastic
+recipes.addShapeless(<industrialforegoing:plastic>,[<pneumaticcraft:plastic:*>]);

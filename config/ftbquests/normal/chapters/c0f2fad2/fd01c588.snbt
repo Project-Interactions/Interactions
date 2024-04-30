@@ -16,8 +16,16 @@
 		}]
 	},
 	{
-		uid: "a5c30a3b",
-		type: "fluid",
-		fluid: "aqua_regia"
+		uid: "e842d09e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "aqua_regia",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

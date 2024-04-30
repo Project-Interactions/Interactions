@@ -8,10 +8,17 @@
 		"9029faa1"
 	],
 	tasks: [{
-		uid: "a551ad42",
-		type: "fluid",
-		fluid: "if.pink_slime",
-		amount: 2000
+		uid: "3fcd8fde",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "if.pink_slime",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "a870755b",

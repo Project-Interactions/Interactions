@@ -72,8 +72,8 @@ function enchanterTweaker(a as IItemStack, b as IItemStack,c as IItemStack,d as 
     enchanter.addRecipe({"input": a,"input_lapis": b},{"output": c},d,e);
 }
 
-enchanterTweaker(<actuallyadditions:item_solidified_experience>,<thaumicrestoration:item_ingot:3>,<extrautils2:ingredients:12>,32000,200);
-enchanterTweaker(<minecraft:nether_star>,<thaumicrestoration:item_ingot:5>,<extrautils2:ingredients:17>,64000,600);
+enchanterTweaker(<actuallyadditions:item_solidified_experience>,<thaumicrestoration:item_ingot:3>,<extrautils2:ingredients:12>*2,32000,200);
+enchanterTweaker(<minecraft:nether_star>,<thaumicrestoration:item_ingot:5>,<extrautils2:ingredients:17>*2,64000,600);
 
 recipes.remove(<nuclearcraft:part:11>);
 Resonator.add(<nuclearcraft:part:11>, <contenttweaker:useful_block>, 1000);

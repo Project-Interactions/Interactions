@@ -104,9 +104,18 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [[<ore:ingotStee
 
 Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
+//invar & aluminum brass fix
+ArcFurnace.removeRecipe(<thermalfoundation:material:162>*3);
+ArcFurnace.removeRecipe(<tconstruct:ingots:5>*4);
+
+ArcFurnace.addRecipe(<thermalfoundation:material:162>*3, <ore:ingotNickel>, null, 50, 1024,[<ore:dustIron>*2], "Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:162>*3, <ore:dustNickel>, null, 50, 1024,[<ore:dustIron>*2], "Alloying");
+
+ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotCopper>, null, 50, 1024,[<ore:dustAluminum>*3], "Alloying");
+ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:dustCopper>, null, 50, 1024,[<ore:dustAluminum>*3], "Alloying");
 //chlorine
 Mixer.addRecipe(<liquid:sodium_chloride_solution>*666, <liquid:water>*1000, [<ore:dustSalt>], 2048);
-ElectrolyticCrucibleBattery.removeRecipe(<liquid:moltensalt>*1000);
+ElectrolyticCrucibleBattery.removeRecipe(<liquid:moltensalt>*100);
 ElectrolyticCrucibleBattery.addRecipe(
     <liquid:sodium>*144, <liquid:chlorine>*500, null,
     null,<liquid:sodium_chloride>*666,
@@ -185,7 +194,7 @@ RecipeUtils.recipeTweak(true,<engineersdecor:small_solar_panel>, [[<solarflux:mi
 
 RecipeUtils.recipeTweak(true,<immersivetech:valve:2> * 2, [[<ore:plateIron>, <immersiveengineering:connector:12>, <ore:plateIron>], [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), <immersiveengineering:material:8>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) | <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})], [<ore:plateIron>, <immersiveengineering:material:27>, <ore:plateIron>]]);
 
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:4>, <ore:redstone>, null, 40, 1024,[<ore:ingotRefinedIron>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:4>, <minecraft:redstone>, null, 40, 1024,[<ore:ingotRefinedIron>], "Alloying");
 
 //Dilithium
 Crusher.removeRecipe(<libvulpes:productgem>);

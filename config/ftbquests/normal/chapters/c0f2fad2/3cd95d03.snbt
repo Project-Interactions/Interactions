@@ -5,8 +5,16 @@
 		"a3c4de26"
 	],
 	tasks: [{
-		uid: "a03a1460",
-		type: "fluid",
-		fluid: "hydrochloric_acid"
+		uid: "90b3b796",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrochloric_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

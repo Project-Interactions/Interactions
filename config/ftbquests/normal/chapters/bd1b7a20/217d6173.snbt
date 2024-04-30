@@ -5,8 +5,16 @@
 		"0868f5d3"
 	],
 	tasks: [{
-		uid: "8d17c1bc",
-		type: "fluid",
-		fluid: "etching_acid"
+		uid: "cdf3172b",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "etching_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

@@ -12,10 +12,17 @@
 		}]
 	},
 	{
-		uid: "f3dd49c0",
-		type: "fluid",
-		fluid: "astralsorcery.liquidstarlight",
-		amount: 2000
+		uid: "92886a42",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "astralsorcery.liquidstarlight",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "b03fbbcc",

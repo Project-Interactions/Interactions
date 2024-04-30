@@ -6,8 +6,16 @@
 		"c565d4de"
 	],
 	tasks: [{
-		uid: "df3d8a1b",
-		type: "fluid",
-		fluid: "advanced_etching"
+		uid: "ed8753fc",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "advanced_etching",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

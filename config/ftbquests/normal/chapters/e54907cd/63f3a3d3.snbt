@@ -12,9 +12,16 @@
 		}]
 	},
 	{
-		uid: "813f744d",
-		type: "fluid",
-		fluid: "plastic",
-		amount: 10000
+		uid: "acbd282e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plastic",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

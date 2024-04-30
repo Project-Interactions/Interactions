@@ -8,9 +8,17 @@
 		"3027c9cb"
 	],
 	tasks: [{
-		uid: "607368a1",
-		type: "fluid",
-		fluid: "concrete"
+		uid: "00e7bfcd",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "859c4d43",

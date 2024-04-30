@@ -5,8 +5,16 @@
 		"f962526f"
 	],
 	tasks: [{
-		uid: "70c376b0",
-		type: "fluid",
-		fluid: "nitrogen"
+		uid: "ebe9d601",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitrogen",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

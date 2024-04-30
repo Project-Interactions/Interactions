@@ -5,8 +5,16 @@
 		"9029faa1"
 	],
 	tasks: [{
-		uid: "7cf88fb3",
-		type: "fluid",
-		fluid: "meat"
+		uid: "6103ac9e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "meat",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }
