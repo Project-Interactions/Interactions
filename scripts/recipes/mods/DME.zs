@@ -15,10 +15,10 @@ RecipeUtils.recipeTweak(true, <deepmoblearning:extraction_chamber>, [[null, <ore
 RecipeUtils.recipeTweak(true, <deepmoblearning:deep_learner>, [[<deepmoblearning:soot_covered_plate>, <minecraft:repeater>, <deepmoblearning:soot_covered_plate>], [<minecraft:repeater>, <ore:paneGlass>, <minecraft:repeater>], [<ore:circuitElite>, <deepmoblearning:soot_covered_redstone>, <ore:circuitElite>]]);
 RecipeUtils.recipeTweak(true, <deepmoblearning:machine_casing>, [[<deepmoblearning:soot_covered_plate>, <deepmoblearning:polymer_clay>, <deepmoblearning:soot_covered_plate>],[<deepmoblearning:polymer_clay>, <actuallyadditions:block_misc:8>, <deepmoblearning:polymer_clay>], [<ore:circuitElite>, <deepmoblearning:polymer_clay>, <ore:circuitElite>]]);
 
-recipes.removeByRecipeName("deepmoblearning:armor_tools/recipe3_chestplate");
-recipes.removeByRecipeName("deepmoblearning:armor_tools/recipe4_leggings");
-recipes.removeByRecipeName("deepmoblearning:armor_tools/recipe2_helm");
-recipes.removeByRecipeName("deepmoblearning:armor_tools/recipe5_boots");
+recipes.remove(<deepmoblearning:glitch_infused_boots>);
+recipes.remove(<deepmoblearning:glitch_infused_leggings>);
+recipes.remove(<deepmoblearning:glitch_infused_chestplate>);
+recipes.remove(<deepmoblearning:glitch_infused_helmet>);
 recipes.addShaped(<deepmoblearning:glitch_infused_boots>, [[null, null, null],[<deepmoblearning:glitch_infused_ingot>, null, <deepmoblearning:glitch_infused_ingot>], [<deepmoblearning:glitch_infused_ingot>, <unstabletools:unstable_boots>, <deepmoblearning:glitch_infused_ingot>]]);
 recipes.addShaped(<deepmoblearning:glitch_infused_leggings>, [[<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>],[<deepmoblearning:glitch_infused_ingot>, <unstabletools:unstable_leggings>, <deepmoblearning:glitch_infused_ingot>], [<deepmoblearning:glitch_infused_ingot>, null, <deepmoblearning:glitch_infused_ingot>]]);
 recipes.addShaped(<deepmoblearning:glitch_infused_chestplate>, [[<deepmoblearning:glitch_infused_ingot>, <unstabletools:unstable_chestplate>, <deepmoblearning:glitch_infused_ingot>],[<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>], [<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>]]);
