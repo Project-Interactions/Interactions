@@ -47,8 +47,6 @@ recipes.remove(<jaopca:block.tanzanite>);
 RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [[null, <ore:plateElectrum>, null], [<botania:elfglass>, <immersiveengineering:metal_decoration2:4>, <botania:elfglass>], [null, <ore:plateElectrum>, null]]);
 RecipeUtils.recipeTweak(true, <torchmaster:mega_torch>, [[<torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>, <torchmaster:feral_flare_lantern>], [<minecraft:diamond>, <botania:bifrostperm>, <minecraft:diamond>], [<minecraft:gold_block>, <botania:bifrostperm>, <minecraft:gold_block>]]);
 
-RecipeUtils.recipeTweak(true, <energymeters:meter>, [[<minecraft:cobblestone>, <ore:blockGlass>, <minecraft:cobblestone>], [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>], [<minecraft:cobblestone>, <ore:circuitBasic>, <minecraft:cobblestone>]]);
-
 RecipeUtils.recipeTweak(true, <bibliocraft:bibliochase>, [[null, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, null], [<minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, <extrautils2:ingredients:12>, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>], [null, <minecraft:wooden_slab> | <minecraft:wooden_slab:1> | <minecraft:wooden_slab:2> | <minecraft:wooden_slab:3> | <minecraft:wooden_slab:4> | <minecraft:wooden_slab:5> | <bibliocraft:framingboard>, null]]);
 
 recipes.remove(<darkutils:trap_tile:7>);
@@ -64,3 +62,5 @@ recipes.addShaped(<flowingtime:timewatch>, [[<ore:plateBlackIron>, <tiabs:timein
 recipes.addShaped(<defiledlands:conjuring_altar>, [[<ore:gemScarlite>, <ore:gemScarlite>, <ore:gemScarlite>],[<ore:stoneDefiled>, <zensummoning:altar>, <ore:stoneDefiled>], [<ore:stoneDefiled>, <defiledlands:healing_pad>, <ore:stoneDefiled>]]);
 
 RecipeUtils.recipeTweak(true, <personalworlds:personal_portal>, [[<ore:blockMarble>, <minecraft:book>, <ore:blockMarble>], [<minecraft:quartz_stairs:*>, <minecraft:quartz_block:*>, <minecraft:quartz_stairs:*>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
+
+recipes.addShaped(<contenttweaker:sub_block_holder_0:10>, [[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>],[<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>], [<thermalfoundation:material:136>, <thermalfoundation:material:136>, <thermalfoundation:material:136>]]);

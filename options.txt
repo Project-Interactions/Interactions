@@ -91,9 +91,9 @@ key_Misc Caster Toggle:34
 key_Reload Menu | CTRL + ALT + :0
 key_Toggle Customization Overlay | CTRL + ALT + :0
 key_key.groovyscript.reload:19
-key_key.zume.zoom:46
-key_key.zume.zoom_in:0
-key_key.zume.zoom_out:0
+key_zume.zoom:44
+key_zume.zoom_in:13
+key_zume.zoom_out:12
 key_keybind.baublesinventory:48
 key_psimisc.keybind:21
 key_rpsideas.kb.offhandcast:0
@@ -287,12 +287,13 @@ key_key.taiga.alt_action:0
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.craftingGrid:0
+key_keybind.universaltweaks.clear_toasts:11
 key_key.vaultopic.view:34
 key_key.vaultopic.vice:47
 key_visualores.key.action:211
-key_visualores.button.excavator:0
-key_visualores.button.neromantic:0
 key_visualores.button.starlight:0
+key_visualores.button.neromantic:0
+key_visualores.button.excavator:0
 key_visualores.button.aura_flux:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78

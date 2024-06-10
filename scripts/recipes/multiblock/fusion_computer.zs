@@ -34,6 +34,13 @@ RecipeBuilder.newBuilder("ultimate_left_down", "fusion_computer", 64)
     .addItemOutput(<contenttweaker:ultimate_ingot_left_down>)
     .build();
 
+RecipeBuilder.newBuilder("rainbow_stone", "fusion_computer", 60)
+    .addItemInputs([<extrautils2:decorativesolid:3>])
+    .addEnergyPerTickInput(100000)
+    .addRainbowInput()
+    .addItemOutput(<extrautils2:decorativesolid:8>)
+    .build();
+
 RecipeBuilder.newBuilder("crystal_colorful", "fusion_computer", 64)
     .addItemInputs([<jaopca:mekanism_crystal.aluminum>, <mekanism:crystal:3>, <jaopca:mekanism_crystal.thorium>,<jaopca:mekanism_crystal.cobalt>, <jaopca:mekanism_crystal.jauxum>, <jaopca:mekanism_crystal.draconium>,<jaopca:mekanism_crystal.palladium>, <jaopca:mekanism_crystal.magnesium>, <jaopca:mekanism_crystal.platinum>])
     .addEnergyPerTickInput(1000000)

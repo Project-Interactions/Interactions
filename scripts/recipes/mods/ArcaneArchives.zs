@@ -14,9 +14,9 @@ GCT.addRecipe("ae2_pattern_1",<appliedenergistics2:material:52>*16,[<appliedener
 GCT.addRecipe("ae2_pattern_2",<appliedenergistics2:material:52>*32,[<appliedenergistics2:material:10>,<appliedenergistics2:quartz_vibrant_glass>*2,<ore:circuitElite>]);
 
 
-GCT.addRecipe("ae2_casing_2",<aeadditions:storage.casing:2>,[<appliedenergistics2:material:8>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:gastank>*3]);
-GCT.addRecipe("ae2_casing_3",<aeadditions:storage.casing:1>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:machineblock2:11>*3]);
-GCT.addRecipe("ae2_casing_4",<aeadditions:storage.casing>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<ironchest:iron_chest:2>*3]);
+GCT.addRecipe("ae2_casing_2",<contenttweaker:gas_cell_casing>,[<appliedenergistics2:material:8>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:gastank>*3]);
+GCT.addRecipe("ae2_casing_3",<contenttweaker:fluid_cell_casing>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<mekanism:machineblock2:11>*3]);
+GCT.addRecipe("ae2_casing_4",<contenttweaker:advanced_cell_casing>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<ironchest:iron_chest:2>*3]);
 GCT.addRecipe("ae2_casing_5",<appliedenergistics2:material:39>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<ironchest:iron_chest>*3]);
 GCT.addRecipe("ae2_casing_6",<contenttweaker:essentia_cell_casing>,[<appliedenergistics2:quartz_vibrant_glass>*3,<arcanearchives:storage_shaped_quartz>,<thaumadditions:jar_thaumium>*3]);
 

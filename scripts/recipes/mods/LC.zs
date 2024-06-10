@@ -7,6 +7,11 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 
+//remove rods and plates
+for i in 0 to 10 {
+	recipes.remove(<lightningcraft:rod>.definition.makeStack(i));
+	recipes.remove(<lightningcraft:plate>.definition.makeStack(i)*3);
+}
 //LightningTransforming
 LightningTransforming.add(<lightningcraft:ingot>, [<enderio:item_alloy_ingot:5>,<psi:material:1>,<calculator:flawlessdiamond>]);
 LightningTransforming.add(<lightningcraft:material:11>, [<lightningcraft:ingot:1>,<lightningcraft:material:5>,<actuallyadditions:item_crystal_empowered:4>]);

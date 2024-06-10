@@ -44,19 +44,19 @@ RecipeBuilder.newBuilder("casing_2", "arcane_crafter", 20)
 
 RecipeBuilder.newBuilder("casing_3", "arcane_crafter", 20)
     .addItemInputs([<appliedenergistics2:quartz_glass>*3,<arcanearchives:storage_shaped_quartz>,<ironchest:iron_chest:2>*3])
-    .addItemOutput(<aeadditions:storage.casing>)
+    .addItemOutput(<contenttweaker:advanced_cell_casing>)
     .build();
 
 RecipeBuilder.newBuilder("casing_4", "arcane_crafter", 20)
     .addItemInputs([<appliedenergistics2:quartz_glass>*3,<arcanearchives:storage_shaped_quartz>])
     .addFluidInput(<liquid:iron>*864)
-    .addItemOutput(<aeadditions:storage.casing:1>)
+    .addItemOutput(<contenttweaker:fluid_cell_casing>)
     .build();
 
 RecipeBuilder.newBuilder("casing_5", "arcane_crafter", 20)
     .addItemInputs([<appliedenergistics2:quartz_glass>*3,<arcanearchives:storage_shaped_quartz>])
     .addFluidInput(<liquid:osmium>*864)
-    .addItemOutput(<aeadditions:storage.casing:2>)
+    .addItemOutput(<contenttweaker:gas_cell_casing>)
     .build();
 
 RecipeBuilder.newBuilder("pattern_1", "arcane_crafter", 20)

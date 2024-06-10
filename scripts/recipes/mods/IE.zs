@@ -34,7 +34,10 @@ import mods.immersivetechnology.PressurizedFluid;
 import mods.immersivetechnology.HighPressureSteamTurbine;
 
 import mods.smokeythebandicoot.zencloche.GardenCloche;
+
 //
+recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
+recipes.remove(<immersiveengineering:stone_decoration> * 3);
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],[<tcomplement:materials:1>, <minecraft:blaze_powder>, <tcomplement:materials:1>], [<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <ceramics:unfired_clay:5>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
 

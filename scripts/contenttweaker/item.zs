@@ -62,6 +62,11 @@ var regItem as string[]=[
 "ultimate_ingot_right_down",
 "inverse_entropy_circuit",
 
+"essentia_cell_casing",
+"fluid_cell_casing",
+"gas_cell_casing",
+"advanced_cell_casing",
+
 "wood_essence",
 "outside_minecraft",
 "infinity_circuit",
@@ -74,7 +79,6 @@ var regItem as string[]=[
 "blank_ar_chip",
 "powered_circuit_board",
 "mana_matter",
-"essentia_cell_casing",
 "infinity_key",
 "infinity_dust",
 "first",
