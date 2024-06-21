@@ -53,7 +53,7 @@ static materials as Material[string] = {
     "Iridium": MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(Color.fromHex("FFFFFF")).build(),
     "AdvancedElectronicAlloy": MaterialSystem.getMaterialBuilder().setName("AdvancedElectronicAlloy").setColor(Color.fromHex("8690AF")).build(),
     "Magnet": MaterialSystem.getMaterialBuilder().setName("Magnet").setColor(Color.fromHex("172140")).build(),
-    "AdvancedAlloy": MaterialSystem.getMaterialBuilder().setName("AdvancedAlloy").setColor(Color.fromHex("9C9389")).build(),
+    "AdvancedAlloy": MaterialSystem.getMaterialBuilder().setName("AdvancedAlloy").setColor(Color.fromHex("DB8358")).build(),
     "TungstenSteel": MaterialSystem.getMaterialBuilder().setName("TungstenSteel").setColor(Color.fromHex("3F48A0")).build(),
 
 };

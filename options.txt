@@ -195,11 +195,6 @@ key_key.open_wireless_terminal.desc:20
 key_key.open_wireless_crafting_terminal.desc:18
 key_key.open_wireless_pattern_terminal.desc:19
 key_key.open_wireless_fluid_terminal.desc:33
-key_mekanism.key.mode:50
-key_mekanism.key.armorMode:34
-key_mekanism.key.feetMode:48
-key_mekanism.key.voice:22
-key_mekanism.key.enableHUD:35
 key_key.aether.accessory_menu:0
 key_key.aquaacrobatics.toggle_crawling:36
 key_key.craftingtweaks.rotate:0
@@ -228,6 +223,11 @@ key_key.fuzzy:0
 key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:48
+key_mekanism.key.voice:22
+key_mekanism.key.enableHUD:35
 key_key.carry.desc:42
 key_key.overload:24
 key_key.chaosInjection:46
@@ -291,10 +291,10 @@ key_keybind.universaltweaks.clear_toasts:11
 key_key.vaultopic.view:34
 key_key.vaultopic.vice:47
 key_visualores.key.action:211
-key_visualores.button.starlight:0
-key_visualores.button.neromantic:0
 key_visualores.button.excavator:0
+key_visualores.button.starlight:0
 key_visualores.button.aura_flux:0
+key_visualores.button.neromantic:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0

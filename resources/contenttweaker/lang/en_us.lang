@@ -41,6 +41,9 @@ item.contenttweaker.inverse_entropy_circuit.name=Inverse Entropy Controll Circui
 
 item.contenttweaker.wood_essence.name=Wooden Essence
 item.contenttweaker.essentia_cell_casing.name=Essentia Storage Housing
+item.contenttweaker.gas_cell_casing.name=Gas Storage Housing
+item.contenttweaker.fluid_cell_casing.name=Fluid Storage Housing
+item.contenttweaker.advanced_cell_casing.name=Advanced Storage Housing
 
 item.contenttweaker.outside_minecraft.name=Outside Minecraft?
 item.contenttweaker.give.name=----

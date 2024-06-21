@@ -226,30 +226,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockAmericium241</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.americium_241;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockAmericium242</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.americium_242;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockAmericium243</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.americium_243;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockAntinomy</oreDict>
 		</input>
 		<output>
@@ -322,34 +298,10 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockBerkelium247</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.berkelium_247;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockBerkelium248</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.berkelium_248;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockBeryllium</oreDict>
 		</input>
 		<output>
 			<itemStack>jaopca:plate.beryllium;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockBeryllium7</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.beryllium_7;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -390,22 +342,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.boron;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockBoron10</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.boron_10;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockBoron11</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.boron_11;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -474,46 +410,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockCalcium48</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.calcium_48;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCalifornium249</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.californium_249;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCalifornium250</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.californium_250;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCalifornium251</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.californium_251;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCalifornium252</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.californium_252;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockCarbon</oreDict>
 		</input>
 		<output>
@@ -562,14 +458,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockCobalt60</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.cobalt_60;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockCocoaButter</oreDict>
 		</input>
 		<output>
@@ -614,14 +502,6 @@
 		</input>
 		<output>
 			<itemStack>moreplates:iron_alloy_plate;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCopernicium291</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.copernicium_291;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -678,38 +558,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.crystaltine;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCurium243</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.curium_243;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCurium245</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.curium_245;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCurium246</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.curium_246;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockCurium247</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.curium_247;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -798,6 +646,14 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.dyonite;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockEbonyPsi</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.ebony_psi;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -901,7 +757,7 @@
 			<oreDict>blockEnergium</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;4;77</itemStack>
+			<itemStack>jaopca:plate.energium;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -998,14 +854,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.glitch;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockGold198</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.gold_198;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1138,18 +986,10 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockIridium192</oreDict>
+			<oreDict>blockIvoryPsi</oreDict>
 		</input>
 		<output>
-			<itemStack>jaopca:plate.iridium_192;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockIridiumAlloy</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;4;235</itemStack>
+			<itemStack>jaopca:plate.ivory_psi;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1158,14 +998,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.jauxum;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockKanthal</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;4;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1210,30 +1042,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockLithium6</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.lithium_6;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockLithium6Deuteride</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.lithium_6_deuteride;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockLithium7</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.lithium_7;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockLithiumManganeseDioxide</oreDict>
 		</input>
 		<output>
@@ -1262,22 +1070,6 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.magnesium;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockMagnesium24</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.magnesium_24;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockMagnesium26</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.magnesium_26;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1434,22 +1226,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockNeptunium236</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.neptunium_236;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockNeptunium237</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.neptunium_237;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockNichrome</oreDict>
 		</input>
 		<output>
@@ -1602,38 +1378,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockPlutonium238</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.plutonium_238;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockPlutonium239</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.plutonium_239;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockPlutonium241</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.plutonium_241;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockPlutonium242</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.plutonium_242;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockPotassium</oreDict>
 		</input>
 		<output>
@@ -1670,6 +1414,14 @@
 		</input>
 		<output>
 			<itemStack>moreplates:prudentium_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPsiMetal</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.psi_metal;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1742,6 +1494,14 @@
 		</input>
 		<output>
 			<itemStack>moreplates:reinforced_iron_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockReinforcedRedstone</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.reinforced_redstone;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1850,14 +1610,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockSodium22</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.sodium_22;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockSolarium</oreDict>
 		</input>
 		<output>
@@ -1886,6 +1638,14 @@
 		</input>
 		<output>
 			<itemStack>jaopca:plate.stainless_steel;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSteelleaf</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:plate.steelleaf;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -1954,10 +1714,66 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockThauminite</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumicbases:thauminite_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockThaumium</oreDict>
 		</input>
 		<output>
 			<itemStack>thaumcraft:plate;4;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThaumiumAer</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumicrestoration:item_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThaumiumAqua</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumicrestoration:item_plate;4;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThaumiumIgnis</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumicrestoration:item_plate;4;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThaumiumOrdo</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumicrestoration:item_plate;4;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThaumiumPerditio</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumicrestoration:item_plate;4;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThaumiumTerra</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumicrestoration:item_plate;4;3</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -2042,10 +1858,10 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>blockTwilghtSteel</oreDict>
+			<oreDict>blockTwilightSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;4;153</itemStack>
+			<itemStack>contenttweaker:material_part;4;259</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -2053,7 +1869,7 @@
 			<oreDict>blockUUMatter</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;4;83</itemStack>
+			<itemStack>jaopca:plate.u_u_matter;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -2102,38 +1918,6 @@
 		</input>
 		<output>
 			<itemStack>immersiveengineering:metal;4;35</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockUranium233</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.uranium_233;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockUranium234</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.uranium_234;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockUranium235</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.uranium_235;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockUranium238</oreDict>
-		</input>
-		<output>
-			<itemStack>jaopca:plate.uranium_238;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -2306,6 +2090,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>oreCerulean</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:dust.cerulean;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreCobalt</oreDict>
 		</input>
 		<output>
@@ -2390,6 +2182,14 @@
 		</input>
 		<output>
 			<itemStack>thermalfoundation:material;2;72</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreMoonstone</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:dust.moonstone;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">

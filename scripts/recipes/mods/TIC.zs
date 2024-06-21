@@ -283,5 +283,6 @@ advancedAlloy(<liquid:useful>,[<liquid:xu_demonic_metal>,<liquid:xu_enchanted_me
 advancedAlloy(<liquid:meteorite_fluid>,[<liquid:sky_stone>,<liquid:refined_iron>]);
 advancedAlloy(<liquid:dilithium_fluid>,[<liquid:lithium>*2,<liquid:hard_carbon>]);
 advancedAlloy(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liquid:refined_glowstone>]);
+advancedAlloy(<liquid:advanced_alloy> * 2,[<liquid:bronze>,<liquid:invar>,<liquid:constantan>]);
 
 <simplesmelteryaccelerator:smeltery_accelerator>.hardness = 5;

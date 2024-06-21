@@ -1,0 +1,10 @@
+tooltip.fanupgrade_width=Width Modifier: +1. Max of 10.
+tooltip.fanupgrade_height=Height Modifier: +1. Max of 10.
+tooltip.fanupgrade_distance=Distance Modifier: +1. Max of 10.
+
+tooltip.sawupgrade_sharpness=Sharpness: +1. Max of 5.
+tooltip.sawupgrade_looting=Looting: +1. Max of 5.
+tooltip.sawupgrade_fire=Fire Aspect: +1. Max of 5.
+tooltip.sawupgrade_smite=Smite: +1. Max of 5.
+tooltip.sawupgrade_arthropods=Bane of Arthropods: +1. Max of 5.
+tooltip.sawupgrade_beheading=Beheading: +1. Max of 5.

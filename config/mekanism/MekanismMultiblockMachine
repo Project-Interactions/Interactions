@@ -7,6 +7,9 @@ multiblock {
     # If machine is disabled in config, do we set its block to air if it is found in world?
     B:DestroyDisabledMultiBlockBlocks=true
 
+    # Energy per operation tick (Joules).
+    D:DigitalAssemblyTableUsage=200.0
+
     # Base energy storage (Joules).
     D:LargeChemicalWasherStorage=2160000.0
 
@@ -79,6 +82,9 @@ multiblockmachinegenerators {
 
 
 multiblockmachines {
+    # Allow DigitalAssemblyTable to be used/crafted. Requires game restart to fully take effect.
+    B:DigitalAssemblyTableEnabled=true
+
     # Allow LargeChemicalInfuser to be used/crafted. Requires game restart to fully take effect.
     B:LargeChemicalInfuserEnabled=true
 
