@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: 3.0d,
+	x: 5.5d,
+	y: 2.0d,
 	dependencies: [
 		"cbea127b"
 	],
@@ -8,7 +8,17 @@
 		uid: "4cf152ad",
 		type: "item",
 		items: [{
-			id: "aeadditions:terminal.gas.wireless",
+			id: "mekeng:wireless_gas_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d2ac5b74",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_fluid_terminal",
 			tag: {}
 		}],
 		ignore_damage: true,

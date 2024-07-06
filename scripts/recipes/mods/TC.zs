@@ -261,7 +261,7 @@ Infusion.registerRecipe(
     "TAR_ADAMINITE_SMELTER",
     <thaumadditions:adaminite_smelter>,
     8,
-    allAspects(50),
+    allAspects(20),
     <thaumadditions:mithrillium_smelter>,
     [<thaumadditions:adaminite_plate>,<thaumadditions:adaminite_plate>,<thaumadditions:adaminite_plate>]
 );
@@ -270,7 +270,7 @@ Infusion.registerRecipe(
     "TAR_MITHMINITE_SMELTER",
     <thaumadditions:mithminite_smelter>,
     12,
-    allAspects(100),
+    allAspects(50),
     <thaumadditions:adaminite_smelter>,
     [<thaumadditions:mithminite_plate>,<thaumadditions:mithminite_plate>,<thaumadditions:mithminite_plate>]
 );

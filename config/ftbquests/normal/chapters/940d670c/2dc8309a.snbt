@@ -4,22 +4,19 @@
 	text: [
 		"{940d670c.ia.2dc8309a}"
 	],
+	dependencies: [
+		"8727ac35"
+	],
 	tasks: [{
 		uid: "0c9de388",
 		type: "item",
 		items: [{
-			item: "aeadditions:part.base 1 6"
+			item: "mekeng:gas_terminal"
 		}]
 	}],
 	rewards: [{
 		uid: "72526cb9",
 		type: "item",
-		item: {
-			id: "aeadditions:storage.gas",
-			Damage: 1s,
-			tag: {
-				fuzzyMode: "IGNORE_ALL"
-			}
-		}
+		item: "mekeng:gas_core_1k"
 	}]
 }

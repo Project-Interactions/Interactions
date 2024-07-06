@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"ea21c88f"
+	],
+	tasks: [{
+		uid: "adfc4c42",
+		type: "item",
+		items: [{
+			item: "mekeng:gas_interface"
+		}]
+	},
+	{
+		uid: "dbedb009",
+		type: "item",
+		items: [{
+			item: "ae2fc:gas_discretizer"
+		}]
+	}]
+}

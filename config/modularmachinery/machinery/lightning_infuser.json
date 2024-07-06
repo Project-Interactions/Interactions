@@ -441,7 +441,7 @@
             "y": -6,
             "z": 6,
             "elements": [
-                "modularmachinery:blockgridproviderinput"
+                "modularmachinery:blockaspectproviderinput"
             ]
         },
         {

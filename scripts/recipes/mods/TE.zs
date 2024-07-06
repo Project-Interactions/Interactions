@@ -120,6 +120,9 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:770>,<thermalfoundatio
 InductionSmelter.removeRecipe(<enderio:item_alloy_ingot:1>,<minecraft:ender_pearl>);
 InductionSmelter.removeRecipe(<jaopca:dust.energetic_alloy>,<minecraft:ender_pearl>);
 
+InductionSmelter.removeRecipe(<minecraft:soul_sand>,<minecraft:gold_ingot>);
+InductionSmelter.removeRecipe(<minecraft:soul_sand>,<thermalfoundation:material:1>);
+
 recipes.remove(<thermalexpansion:augment:257>);
 InductionSmelter.removeRecipe(<enderio:item_material>,<enderio:item_material:51>);
 

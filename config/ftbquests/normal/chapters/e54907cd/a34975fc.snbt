@@ -1,14 +1,14 @@
 {
-	x: 7.5d,
+	x: 5.5d,
 	y: 3.0d,
 	dependencies: [
-		"cbea127b"
+		"6fa43b80"
 	],
 	tasks: [{
-		uid: "8ad44dff",
+		uid: "e71208cf",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:wireless_terminal",
+			id: "ae2fc:wireless_fluid_pattern_terminal",
 			tag: {}
 		}],
 		ignore_damage: true,

@@ -46,3 +46,16 @@ RecipeBuilder.newBuilder("crystal_colorful", "fusion_computer", 64)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<contenttweaker:crystal_colorful>)
     .build();
+
+RecipeBuilder.newBuilder("draconium_ingot", "fusion_computer", 64)
+    .addItemInputs([<ore:dustDraconium>,<ore:dustMana>])
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<draconicevolution:draconium_ingot>)
+    .build();
+
+RecipeBuilder.newBuilder("diamond_lattice", "fusion_computer", 128)
+    .addItemInputs([<ore:plateDenseDiamond>*4,<contenttweaker:compresseddiamond>*8,<ore:gearDiamatineEmpowered>*4])
+    .addEnergyPerTickInput(500000)
+    .addItemOutput(<avaritia:resource>)
+    .build();
+

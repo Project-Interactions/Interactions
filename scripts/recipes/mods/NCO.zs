@@ -141,7 +141,6 @@ val MelterRemove as IIngredient[] =
 <ore:dustDraconium>,
 <ore:oreDraconium>,
 <ore:ingotInfinity>,
-<ore:dustInfinity>,
 <ore:nuggetInfinity>,
 <ore:blockInfinity>,
 <ore:dustTitanium>,
