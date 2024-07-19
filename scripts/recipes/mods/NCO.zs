@@ -26,7 +26,9 @@ import mods.modularmachinery.IngredientArrayBuilder;
 
 recipes.remove(<nuclearcraft:glowing_mushroom>);
 
-addRegexLogFilter("At least one NuclearCraft recipe removal method has errored. Check the log for more details");
+addRegexLogFilter("At least one NuclearCraft recipe removal method has errored - check the log for more details");
+
+recipes.addShaped(<nuclearcraft:compound:1>, [[<ore:dustObsidian>, null, <ore:dustCalciumSulfate>],[null, <bloodarsenal:base_item:2>, null], [<ore:dustMagnesium>, null, <ore:itemBinderComposite>]]);
 
 recipes.remove(<nuclearcraft:part> * 2);
 recipes.remove(<nuclearcraft:part:10>);
@@ -63,8 +65,6 @@ recipes.removeShaped(<nuclearcraft:solid_fission_controller>, [[<ore:circuitOper
 recipes.addShaped(<nuclearcraft:solid_fission_controller>, [[<ore:plateElite>, <ore:ingotTough>, <ore:plateElite>], [<ore:ingotHardCarbon>, <ore:steelFrame>, <ore:ingotHardCarbon>], [<ore:plateElite>, <ore:ingotTough>,<ore:plateElite>]]);
 recipes.removeShaped(<nuclearcraft:separator>, [[<ore:plateBasic>, <ore:motor>, <ore:plateBasic>], [<ore:dustRedstone>, <ore:chassis>, <ore:dustRedstone>], [<ore:plateBasic>, <ore:motor>, <ore:plateBasic>]]);
 recipes.addShaped(<nuclearcraft:separator>, [[<nuclearcraft:part:1>, <ore:motor>, <nuclearcraft:part:1>], [<calculator:algorithmseparator>, <ore:chassis>, <calculator:algorithmseparator>], [<nuclearcraft:part:1>, <ore:motor>, <nuclearcraft:part:1>]]);
-recipes.removeShaped(<bloodmagic:altar>, [[<ore:stone>, null, <ore:stone>], [<ore:stone>, <minecraft:furnace>, <ore:stone>], [<ore:ingotGold>, <bloodmagic:monster_soul>, <ore:ingotGold>]]);
-recipes.removeShaped(<bloodmagic:soul_forge>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:stone>, <ore:ingotGold>, <ore:stone>], [<ore:stone>, <ore:blockIron>, <ore:stone>]]);
 
 Radiation.setRadiationLevel(<contenttweaker:material_part:53>,2.1);
 Radiation.setRadiationLevel(<contenttweaker:material_part:54>,2.1);
@@ -75,7 +75,7 @@ Radiation.setRadiationLevel(<contenttweaker:material_part:58>,2.1);
 Radiation.setRadiationLevel(<contenttweaker:sub_block_holder_0:4>,3.2);
 Radiation.setRadiationLevel(<liquid:heavymetalelements>,2.1);
 
-recipes.addShaped(<nuclearcraft:cobblestone_generator>, [[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],[<extrautils2:compressedcobblestone:1>, <ore:blockRefinedIron>, <extrautils2:compressedcobblestone:1>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
+RecipeUtils.recipeTweak(true, <nuclearcraft:cobblestone_generator>, [[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],[<extrautils2:compressedcobblestone:1>, <ore:blockRefinedIron>, <extrautils2:compressedcobblestone:1>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
 
 Pressurizer.removeRecipeWithOutput(<moreplates:void_plate>);
 

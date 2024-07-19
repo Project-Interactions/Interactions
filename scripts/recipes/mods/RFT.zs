@@ -32,7 +32,7 @@ RecipeUtils.recipeTweak(true, <rftools:crafter1>, [[null, <minecraft:redstone_to
 RecipeUtils.recipeTweak(true, <rftools:shape_card>, [[<minecraft:paper>, <tconstruct:hammer_head>.withTag({Material: "xu_enchanted_metal"}), <minecraft:paper>], [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>], [<minecraft:paper>, <tconstruct:hammer_head>.withTag({Material: "platinum"}), <minecraft:paper>]]);
 
 recipes.removeByRecipeName("rftools:storage_module_tablet");
-recipes.addShapeless(<rftools:storage_module_tablet>,[<rftools:modular_storage>,<extendedcrafting:handheld_table>]);
+recipes.addShapeless(<rftools:storage_module_tablet>,[<rftools:modular_storage>,<actuallyadditions:item_crafter_on_a_stick>]);
 
 RecipeUtils.recipeTweak(true, <rftools:storage_scanner>, [[<ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>],[<ore:blockSheetmetalSteel>, <fluxnetworks:fluxstorage>, <ore:blockSheetmetalSteel>], [<storagedrawers:upgrade_storage:1>, <ore:circuitAdvanced>, <storagedrawers:upgrade_storage:1>]]);
 RecipeUtils.recipeTweak(true, <rftools:modular_storage>, [[<ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>],[<ore:blockSheetmetalSteel>, <fluxnetworks:fluxstorage>, <ore:blockSheetmetalSteel>], [<immersiveengineering:metal_decoration0:6>, <ore:circuitAdvanced>, <immersiveengineering:metal_decoration0:6>]]);

@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	dependencies: [
+		"e32f76de"
+	],
+	tasks: [{
+		uid: "510badbe",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "a4b0a2ef",
+		type: "item",
+		item: "fluxnetworks:fluxcore"
+	}]
+}

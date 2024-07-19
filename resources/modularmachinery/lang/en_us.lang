@@ -16,6 +16,7 @@ modularmachinery.wind_tunnel=Wind Tunnel
 modularmachinery.washer=Washer
 modularmachinery.lightning_infuser=Huge Lightning Infuser
 modularmachinery.psi_converter=§bψ§r Converter §bψ§r
+modularmachinery.large_fabricator=Large Fabrication Chamber
 
 //modifiers
 ia.aspect_infuser.speed=§e25%§b faster crafting speed§r, superimposed

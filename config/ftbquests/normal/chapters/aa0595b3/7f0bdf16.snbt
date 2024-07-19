@@ -8,21 +8,12 @@
 		uid: "f4a2f94b",
 		type: "fluid",
 		fluid: "helium_3",
-		amount: 64000
+		amount: 4000
 	}],
 	rewards: [{
-		uid: "41079036",
+		uid: "029ce79b",
 		type: "item",
-		item: {
-			id: "qmd:canister",
-			Damage: 4s,
-			tag: {
-				particle_storage: {
-					particle_amount: 10000000,
-					particle_capacity: 10000000
-				}
-			},
-			Count: 1b
-		}
+		item: "advancedrocketry:ic 1 2",
+		count: 2
 	}]
 }

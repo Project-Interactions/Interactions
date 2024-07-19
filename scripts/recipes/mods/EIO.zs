@@ -9,6 +9,8 @@ recipes.addShaped(<enderio:item_item_conduit> * 6, [[<enderio:item_material:4>, 
 recipes.remove(<enderio:item_item_conduit> * 8);
 recipes.remove(<enderio:item_material:12>);
 recipes.addShaped(<enderio:item_item_conduit> * 9, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:2>, <enderio:item_alloy_nugget:2>, <enderio:item_alloy_ingot:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.remove(<enderio:item_material:22> * 8);
+recipes.addShaped(<enderio:item_material:22> * 8, [[<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>],[<engineersdecor:rebar_concrete>, <minecraft:sand>, <engineersdecor:rebar_concrete>], [<minecraft:gravel>, <engineersdecor:rebar_concrete>, <minecraft:gravel>]]);
 
 recipes.addShapeless(<enderio:item_material:75>, [<enderio:item_material:20>,<thermalfoundation:material:768>]);
 

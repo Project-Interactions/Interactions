@@ -55,5 +55,11 @@
 				Energy: 0
 			}
 		}
+	},
+	{
+		uid: "2827fd69",
+		type: "item",
+		item: "tce:tce_torch_lvl1",
+		count: 2
 	}]
 }

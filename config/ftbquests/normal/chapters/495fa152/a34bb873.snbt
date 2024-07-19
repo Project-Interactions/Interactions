@@ -10,5 +10,11 @@
 		items: [{
 			item: "modularrouters:item_router"
 		}]
+	}],
+	rewards: [{
+		uid: "f947b76f",
+		type: "item",
+		item: "modularrouters:blank_upgrade",
+		count: 4
 	}]
 }

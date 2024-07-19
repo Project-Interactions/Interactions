@@ -19,8 +19,7 @@
 				}
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "9302641d",

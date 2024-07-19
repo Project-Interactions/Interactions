@@ -5,8 +5,15 @@
 		"3f019d3d"
 	],
 	tasks: [{
-		uid: "86978d5d",
-		type: "fluid",
-		fluid: "crystaloil"
+		uid: "d051ea18",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "crystaloil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
 	}]
 }

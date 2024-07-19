@@ -8,5 +8,11 @@
 		uid: "6504fcf5",
 		type: "fluid",
 		fluid: "glowstone"
+	}],
+	rewards: [{
+		uid: "46986adf",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 16
 	}]
 }

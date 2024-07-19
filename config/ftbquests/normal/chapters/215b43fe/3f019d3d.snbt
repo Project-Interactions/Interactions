@@ -5,8 +5,15 @@
 		"b0bde0f9"
 	],
 	tasks: [{
-		uid: "5930157a",
-		type: "fluid",
-		fluid: "refinedcanolaoil"
+		uid: "f041fb7b",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "refinedcanolaoil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
 	}]
 }

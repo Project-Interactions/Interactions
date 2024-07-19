@@ -6,8 +6,15 @@
 		"6b29622a"
 	],
 	tasks: [{
-		uid: "26f6a1d4",
-		type: "fluid",
-		fluid: "empoweredoil"
+		uid: "7ac1ed9b",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "empoweredoil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
 	}]
 }

@@ -69,6 +69,7 @@ ArcFurnace.removeRecipe(<qmd:ingot:2>);
 ArcFurnace.removeRecipe(<qmd:ingot:1>);
 ArcFurnace.removeRecipe(<qmd:ingot>);
 
+ArcFurnace.removeRecipe(<astralsorcery:itemcraftingcomponent:1>);
 ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
 ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>*2);
 ArcFurnace.removeRecipe(<twilightforest:knightmetal_ingot>*2);

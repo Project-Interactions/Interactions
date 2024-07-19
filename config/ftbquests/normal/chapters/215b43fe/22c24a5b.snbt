@@ -8,5 +8,11 @@
 		uid: "9d218522",
 		type: "fluid",
 		fluid: "ender"
+	}],
+	rewards: [{
+		uid: "29858249",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
 	}]
 }

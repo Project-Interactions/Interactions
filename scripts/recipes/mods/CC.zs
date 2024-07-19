@@ -74,3 +74,6 @@ RecipeUtils.recipeTweak(true, <calculator:advancedgreenhouse>, [[<calculator:wea
 RecipeUtils.recipeTweak(true, <calculator:flawlessgreenhouse>, [[<calculator:flawlessglass:*>, <ore:circuitElite>, <calculator:flawlessglass:*>], [<calculator:advancedgreenhouse:*>, <calculator:atomicassembly:*>, <calculator:advancedgreenhouse:*>], [<calculator:flawlessglass:*>, <ore:circuitElite>, <calculator:flawlessglass:*>]]);
 
 RecipeUtils.recipeTweak(true, <calculator:calculatorlocator>, [[null, <thaumicwonders:void_beacon>, null], [<calculator:atomicassembly:*>, <calculator:dockingstation>, <calculator:atomicassembly:*>], [<calculator:atomicassembly:*>, <calculator:atomicassembly:*>, <calculator:atomicassembly:*>]]);
+
+//large fabricator
+flawless.addRecipe(<calculator:fabricationchamber>, <calculator:material:5>, <calculator:material:5>, <calculator:fabricationchamber>,<modularmachinery:large_fabricator_controller>);

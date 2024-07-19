@@ -13,6 +13,8 @@ import mods.animus.AnimusPlugin;
 
 recipes.remove(<bloodmagic:alchemy_table>);
 recipes.remove(<bloodmagic:soul_snare> * 4);
+recipes.removeShaped(<bloodmagic:altar>, [[<ore:stone>, null, <ore:stone>], [<ore:stone>, <minecraft:furnace>, <ore:stone>], [<ore:ingotGold>, <bloodmagic:monster_soul>, <ore:ingotGold>]]);
+recipes.removeShaped(<bloodmagic:soul_forge>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:stone>, <ore:ingotGold>, <ore:stone>], [<ore:stone>, <ore:blockIron>, <ore:stone>]]);
 recipes.addShaped(<bloodmagic:soul_snare>*2, [[<embers:ashen_cloth>, <ore:ingotElectricium>, <ore:ingotElectricium>],[null, <thaumadditions:adaminite_fabric>, <ore:ingotElectricium>], [<thaumadditions:adaminite_fabric>, null, <embers:ashen_cloth>]]);
 
 

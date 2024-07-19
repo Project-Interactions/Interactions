@@ -25,5 +25,11 @@
 				Level: 0b
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "c848abed",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 16
 	}]
 }

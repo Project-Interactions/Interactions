@@ -16,6 +16,9 @@ multiblock {
     # Energy per operation tick (Joules).
     D:LargeChemicalWasherUsage=200.0
 
+    # Large gas generator output.
+    D:LargeGasGeneratorOut=2160000.0
+
     # Base energy storage (Joules).
     D:LargeGasGeneratorStorage=2160000.0
 
@@ -34,6 +37,9 @@ multiblock {
     # Energy capable of being stored
     D:MultiblockHeatGeneratorStorage=4320000.0
 
+    # Large wind turbine output
+    D:MultiblockWindGeneratorOut=5.88E7
+
     # Energy capable of being stored
     D:MultiblockWindGeneratorStorage=5.88E7
 
@@ -51,6 +57,9 @@ multiblock {
 
     # Add this amount of Joules to the energy produced by a heat generator if it is in the Nether.
     D:largeHeatGenerationNether=2700.0
+
+    # Large thermal generator output
+    D:largeHeatGeneratorOut=4320000.0
 
     # Whether or not the organism causes harm when it is inside the leaf while it is working
     B:largewindGenerationDamage=false

@@ -12,8 +12,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "9c2b021c",
+		uid: "cd9ba942",
 		type: "item",
-		item: "teslacorelib:wrench"
+		item: "teslacorelib:machine_case"
 	}]
 }

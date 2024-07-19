@@ -5,8 +5,15 @@
 		"7cd6f6d2"
 	],
 	tasks: [{
-		uid: "4758c750",
-		type: "fluid",
-		fluid: "hot_blend_caminite"
+		uid: "8093b602",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hot_blend_caminite",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
 	}]
 }

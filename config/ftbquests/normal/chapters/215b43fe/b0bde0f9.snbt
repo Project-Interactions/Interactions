@@ -8,8 +8,15 @@
 		"2c35c109"
 	],
 	tasks: [{
-		uid: "275ade39",
-		type: "fluid",
-		fluid: "canolaoil"
+		uid: "13064c59",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "canolaoil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
 	}]
 }

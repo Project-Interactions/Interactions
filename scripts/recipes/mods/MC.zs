@@ -11,6 +11,8 @@ recipes.removeByRecipeName("enderio:tweak_wood_hopper");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");
 recipes.removeByRecipeName("uppers:upper");
 
+Anvil.remove([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 70 as short}]})]);
+
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateIron>, null, <ore:plateIron>],[<ore:plateIron>, <tconstruct:wooden_hopper>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
 recipes.removeShaped(<minecraft:stick> * 4, [[<ore:plankWood>], [<ore:plankWood>]]);

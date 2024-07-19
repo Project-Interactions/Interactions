@@ -2,8 +2,15 @@
 	x: 12.0d,
 	y: 6.0d,
 	tasks: [{
-		uid: "542efa54",
-		type: "fluid",
-		fluid: "will_alloy"
+		uid: "aba47b07",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "will_alloy",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
 	}]
 }

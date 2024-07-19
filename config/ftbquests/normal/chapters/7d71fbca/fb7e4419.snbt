@@ -5,8 +5,15 @@
 		"1119031b"
 	],
 	tasks: [{
-		uid: "edfb8aa5",
-		type: "fluid",
-		fluid: "mana"
+		uid: "f3f3f534",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mana",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
 	}]
 }

@@ -10,5 +10,20 @@
 		type: "fluid",
 		fluid: "oil",
 		amount: 4000
+	}],
+	rewards: [{
+		uid: "629650de",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
 	}]
 }

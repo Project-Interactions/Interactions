@@ -265,6 +265,8 @@ recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:dye:4>, null], [<o
 recipes.removeByRecipeName("mekanism:gaugedropper");
 recipes.addShaped(<mekanism:gaugedropper>, [[null, <ore:ingotAdvancedElectronicAlloy>, null], [<ore:paneGlass>, null, <ore:paneGlass>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
 
+//
+compressor.addRecipe(<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>);
 
 //chaos duplication rework
 mods.mekanism.chemical.dissolution.addRecipe(<tconevo:metal:5>, <gas:dragon>*144);
@@ -273,3 +275,6 @@ compressor.addRecipe(<draconicevolution:chaos_shard:3>, <gas:chaos>, <draconicev
 mods.mekanism.chemical.infuser.addRecipe(<gas:crude_chaos>, <gas:dragon>*8, <gas:treated_chaos>*9);
 mods.mekanism.chemical.washer.addRecipe(<gas:treated_chaos>, <gas:pure_chaos>);
 reaction.addRecipe(<thaumcraft:crystal_perditio>, <liquid:fluid_molten_perditio>*144, <gas:pure_chaos>*72, null, <gas:chaos>*72, 5000000, 100);
+
+//
+mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:8>);

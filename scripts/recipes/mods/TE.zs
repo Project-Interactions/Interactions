@@ -157,10 +157,7 @@ recipes.addShaped(<thermalexpansion:device:11>, [[null, <minecraft:dispenser:*>,
 recipes.addShaped(<thermalexpansion:device:12>, [[null, <minecraft:hopper:*>, null], [<ore:ingotTin>, <thermalexpansion:frame:64>, <ore:ingotTin>], [<ore:gearIron>, <thermaldynamics:servo:2>, <ore:gearIron>]]);
 
 //harder upgrades
-val id as string[] = 
-[
-"2","4","5","7","8","9","11","12","13","14"
-];
+val id as int[] = [2,4,5,7,8,9,11,12,13,14];
 
 for ids in id {
     recipes.removeByRecipeName("thermallogistics:requester_" ~ ids);
