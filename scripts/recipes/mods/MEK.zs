@@ -215,7 +215,7 @@ RecipeUtils.recipeTweak(true, <mekanismgenerators:reactor:2> * 2, [[null, <mekan
 RecipeUtils.recipeTweak(true, <mekanismgenerators:reactor:3>, [[null, <mekanismgenerators:reactor:1>, null], [<mekanismgenerators:reactor:1>, <qmd:accelerator_redstone_port>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
 
 //thermalevaporation
-recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:ingotTungstensteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
+recipes.addShaped(<mekanism:basicblock2> * 2, [[null, <ore:plateDenseCopper>, null],[<ore:plateDenseCopper>, <ore:blockTungstenSteel>, <ore:plateDenseCopper>], [null, <ore:plateDenseCopper>, null]]);
 recipes.removeShaped(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:basicblock2> * 4);
 //tweak lithium

@@ -17,6 +17,7 @@ modularmachinery.washer=Washer
 modularmachinery.lightning_infuser=Huge Lightning Infuser
 modularmachinery.psi_converter=§bψ§r Converter §bψ§r
 modularmachinery.large_fabricator=Large Fabrication Chamber
+modularmachinery.part_stamper=Part Stamper
 
 //modifiers
 ia.aspect_infuser.speed=§e25%§b faster crafting speed§r, superimposed

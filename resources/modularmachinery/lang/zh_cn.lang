@@ -18,6 +18,7 @@ modularmachinery.lightning_infuser=大型雷电灌注器
 modularmachinery.psi_converter=§bψ§r转换器§bψ§r
 modularmachinery.philostone=§5虚空贤者之石
 modularmachinery.large_fabricator=大型制造室
+modularmachinery.part_stamper=部件压模器
 
 //modifiers
 ia.aspect_infuser.speed=§b可以加快§e25%§b的制作速度§r，可叠加

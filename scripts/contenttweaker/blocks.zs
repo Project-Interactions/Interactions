@@ -8,7 +8,7 @@ refined_ore_essence.lightOpacity=255;
 refined_ore_essence.blockHardness=2;
 refined_ore_essence.blockResistance=3;
 refined_ore_essence.toolClass="shovel";
-refined_ore_essence.toolLevel=2;
+refined_ore_essence.toolLevel=3;
 refined_ore_essence.blockSoundType=<soundtype:sand>;
 refined_ore_essence.register();
 
@@ -17,7 +17,7 @@ basic_refined_ore_essence.lightOpacity=255;
 basic_refined_ore_essence.blockHardness=2;
 basic_refined_ore_essence.blockResistance=3;
 basic_refined_ore_essence.toolClass="shovel";
-basic_refined_ore_essence.toolLevel=3;
+basic_refined_ore_essence.toolLevel=2;
 basic_refined_ore_essence.blockSoundType=<soundtype:sand>;
 basic_refined_ore_essence.register();
 

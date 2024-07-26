@@ -130,8 +130,8 @@
             "moreplates:empowered_diamatine_gear",
             "mysticalagradditions:special",
             "mysticalagradditions:special",
-            "extendedcrafting:storage,1,2",
-            "extendedcrafting:storage,1,2"
+            "forbiddenmagicre:netherstar_block",
+            "forbiddenmagicre:netherstar_block"
         ]
     },
     {
@@ -195,6 +195,40 @@
         ]
     },
     {
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_core",
+        "catalyst": "tconevo:metal,1,14",
+        "energy": 64000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_component",
+        "catalyst": "draconicevolution:reactor_part",
+        "energy": 16000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:reactor_part,1,3",
+            "draconicevolution:reactor_part,1,4",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:particle_generator,1,2",
+            "mekanismgenerators:reactor,1,2",
+            "draconicevolution:particle_generator,1,2",
+            "mekanismgenerators:reactor,1,2"
+        ]
+    },
+    {
         "mode": "REMOVE",
         "result": "draconicevolution:draconic_block,4",
         "catalyst": "draconicevolution:draconium_block,4"
@@ -223,5 +257,15 @@
         "mode": "REMOVE",
         "result": "solarflux:solar_panel_chaotic,4",
         "catalyst": "draconicevolution:chaotic_core"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_component",
+        "catalyst": "draconicevolution:reactor_part"
     }
 ]

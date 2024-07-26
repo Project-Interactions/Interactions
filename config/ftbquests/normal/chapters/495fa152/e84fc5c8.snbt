@@ -1,0 +1,11 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "6f90e184",
+		type: "item",
+		items: [{
+			item: "energymeters:meter"
+		}]
+	}]
+}

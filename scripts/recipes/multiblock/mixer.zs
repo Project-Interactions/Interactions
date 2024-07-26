@@ -18,7 +18,6 @@ RecipeBuilder.newBuilder("will_alloy", "mixer", 200)
 RecipeBuilder.newBuilder("superconduct","mixer",200)
     .addInputs([<liquid:sunnarium>*500,<liquid:universal_metal>*500,<liquid:heavywater>*500,<liquid:semiconductor>*500])
     .addEnergyPerTickInput(500)
-    .addLifeEssenceInput(50000,false)
     .addFluidOutput(<liquid:superconduct>*1000)
     .build();
 

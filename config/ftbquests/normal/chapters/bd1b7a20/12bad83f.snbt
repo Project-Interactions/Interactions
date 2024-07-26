@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	text: [
+		"{bd1b7a20.ia.12bad83f.desc}"
+	],
+	size: 1.6d,
+	tasks: [{
+		uid: "2cded0d5",
+		type: "checkmark",
+		title: "{bd1b7a20.ia.12bad83f}",
+		icon: "chisel:futura 1 3"
+	}]
+}

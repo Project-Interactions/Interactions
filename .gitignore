@@ -16,8 +16,6 @@ $ cat .gitignore
 !/README.md
 !/icon.png
 !/LICENSE
-!/key_bindings.json
-!/options.txt
 !/optionsof.txt
 config/jei/worldSettings.cfg
 config/tconstruct_oredictcache.dat

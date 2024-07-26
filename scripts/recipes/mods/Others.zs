@@ -50,3 +50,6 @@ recipes.addShaped(<defiledlands:conjuring_altar>, [[<ore:gemScarlite>, <ore:gemS
 
 RecipeUtils.recipeTweak(true, <personalworlds:personal_portal>, [[<ore:blockMarble>, <minecraft:book>, <ore:blockMarble>], [<minecraft:quartz_stairs:*>, <minecraft:quartz_block:*>, <minecraft:quartz_stairs:*>], [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]]);
 
+RecipeUtils.recipeTweak(true, <energymeters:meter>, [[<ore:blockGlass>, <integrateddynamics:part_display_panel_item>, <ore:blockGlass>], [<ore:dustRedstone>, <integrateddynamics:cable>, <ore:dustRedstone>], [<ore:blockGlass>, <minecraft:cobblestone>, <ore:blockGlass>]]);
+
+RecipeUtils.recipeTweak(true, <clickmachine:auto_clicker>, [[<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>], [<ore:plateRefinedIron>, <tconstruct:sharpening_kit>.withTag({Material: "zanite"}), <ore:plateRefinedIron>], [<ore:plateRefinedIron>, <extrautils2:user>, <ore:plateRefinedIron>]]);

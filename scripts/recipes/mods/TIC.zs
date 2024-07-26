@@ -79,6 +79,11 @@ Melting.removeRecipe(<liquid:manasteel>,<botania:manasteellegs>);
 Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelchest>);
 Melting.removeRecipe(<liquid:manasteel>,<botania:manasteelboots>);
 
+Melting.removeRecipe(<liquid:elementium>,<botania:elementiumhelm>);
+Melting.removeRecipe(<liquid:elementium>,<botania:elementiumlegs>);
+Melting.removeRecipe(<liquid:elementium>,<botania:elementiumchest>);
+Melting.removeRecipe(<liquid:elementium>,<botania:elementiumboots>);
+
 Melting.removeRecipe(<liquid:diamond>,<actuallyadditions:item_dust:2>);
 Melting.removeRecipe(<liquid:diamond>,<mekanism:otherdust>);
 Melting.removeRecipe(<liquid:diamond>,<nuclearcraft:gem_dust>);
@@ -286,3 +291,7 @@ advancedAlloy(<liquid:osgloglas>,[<liquid:osmium>,<liquid:refined_obsidian>,<liq
 advancedAlloy(<liquid:advanced_alloy> * 2,[<liquid:bronze>,<liquid:invar>,<liquid:constantan>]);
 
 <simplesmelteryaccelerator:smeltery_accelerator>.hardness = 5;
+
+//obsidian cast fix
+Casting.removeBasinRecipe(<minecraft:obsidian>);
+Casting.addBasinRecipe(<minecraft:obsidian>,null,<liquid:obsidian>,288,false,120);

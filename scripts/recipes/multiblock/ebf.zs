@@ -108,3 +108,8 @@ RecipeBuilder.newBuilder("sunnarium", "ebf", 300)
     .addFluidInput(<liquid:liquid_sunshine>*2000)
     .addItemOutput(<contenttweaker:sunnarium>)
     .build();
+RecipeBuilder.newBuilder("SiCSiCCMC", "ebf", 60)
+    .addItemInputs([<ore:dustSiliconCarbide>*8,<ore:gemBoronNitride>*3,<ore:dustCrystalBinder>,<ore:ingotPyrolyticCarbon>*5])
+    .addEnergyPerTickInput(4000)
+    .addItemOutput(<nuclearcraft:alloy:14>*6)
+    .build();

@@ -51,4 +51,4 @@ RecipeUtils.recipeTweak(true, <xnet:controller>, [[<minecraft:repeater>, <minecr
 
 //cheaper
 RecipeUtils.recipeTweak(true, <rftools:builder>, [[<ore:blockTitanium>, <minecraft:ender_pearl>, <ore:blockTitanium>], [<minecraft:redstone>, <nuclearcraft:part:10>, <minecraft:redstone>], [<ore:blockTitanium>, <minecraft:redstone>, <ore:blockTitanium>]]);
-RecipeUtils.recipeTweak(true, <rftools:scanner>, [[<calculator:flawlessdiamond>, <minecraft:ender_pearl>, <calculator:flawlessdiamond>], [<minecraft:quartz>, <reactorbuilder:reactorbuilder>, <minecraft:quartz>], [<calculator:flawlessdiamond>, <minecraft:redstone>, <calculator:flawlessdiamond>]]);
+RecipeUtils.recipeTweak(true, <rftools:scanner>, [[<calculator:flawlessdiamond>, <minecraft:ender_pearl>, <calculator:flawlessdiamond>], [<minecraft:quartz>, <nuclearcraft:part:10>, <minecraft:quartz>], [<calculator:flawlessdiamond>, <minecraft:redstone>, <calculator:flawlessdiamond>]]);

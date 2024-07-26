@@ -12,6 +12,8 @@ recipes.remove(<draconicevolution:fusion_crafting_core>);
 recipes.remove(<draconicevolution:wyvern_energy_core>);
 recipes.remove(<draconicevolution:draconic_core>);
 
+RecipeUtils.recipeTweak(true, <draconicevolution:energy_storage_core>, [[<ore:ingotDraconium>, <draconicevolution:wyvern_core>, <ore:ingotDraconium>], [<draconicevolution:wyvern_energy_core>, <mekanism:basicblock2:3>.withTag({tier: 3}), <draconicevolution:wyvern_energy_core>], [<ore:ingotDraconium>, <draconicevolution:wyvern_core>, <ore:ingotDraconium>]]);
+
 RecipeUtils.recipeTweak(true, <draconicevolution:celestial_manipulator>, [[<ore:blockRedstone>, <enderio:block_weather_obelisk>, <ore:blockRedstone>], [<ore:ingotDraconium>, <ore:dragonEgg>, <ore:ingotDraconium>], [<ore:ingotIron>, <draconicevolution:wyvern_core:*>, <ore:ingotIron>]]);
 
 var default as BlastWave;

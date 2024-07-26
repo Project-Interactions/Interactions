@@ -11,17 +11,17 @@
 		amount: 2000
 	}],
 	rewards: [{
-		uid: "48cb04df",
+		uid: "00918465",
 		type: "item",
 		item: {
-			id: "forestry:can 1 1",
+			id: "forestry:can",
+			Damage: 1s,
 			tag: {
 				Fluid: {
-					FluidName: "lava",
+					FluidName: "lpg",
 					Amount: 1000
 				}
-			},
-			Count: 1b
+			}
 		},
 		count: 16
 	}]
