@@ -77,3 +77,6 @@ RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:3> * 4, [[<ore:itemC
 RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:4> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotCopper>, <enderio:item_endergy_conduit:3>, <ore:ingotCopper>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:5> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotSilver>, <enderio:item_endergy_conduit:4>, <ore:ingotSilver>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 RecipeUtils.recipeTweak(true, <enderio:item_endergy_conduit:6> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:ingotElectrum>, <enderio:item_endergy_conduit:5>, <ore:ingotElectrum>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+
+//cheaper painter
+RecipeUtils.recipeTweak(true, <enderio:block_painter>, [[<ore:gemQuartz>, <ore:gemDiamond>, <ore:gemQuartz>], [<ore:gearIronInfinity>, <ore:itemSimpleMachineChassi>, <ore:gearIronInfinity>], [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]]);

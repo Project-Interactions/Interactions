@@ -22,8 +22,8 @@ pressurechamber.addRecipe([<contenttweaker:pneumatic_circuit>*3,<embers:crystal_
 pressurechamber.addRecipe([<pneumaticcraft:turbine_blade>*2,<jaopca:gear.stainless_steel>], 2, [<libvulpes:productfan:6>]);
 pressurechamber.addRecipe([<mekanism:tierinstaller:1>,<psi:material:1>*2,<jaopca:dense_plate.silicon_carbide>,<libvulpes:structuremachine>], 3.6, [<contenttweaker:blank_ar_chip>]);
 pressurechamber.addRecipe([<embers:blend_caminite>], 2, [<embers:brick_caminite>]);
-pressurechamber.addRecipe([<redstonearsenal:material:160>], 3.5, [<jaopca:dust.crystal_flux>*4,<minecraft:tnt>*4]);
-pressurechamber.addRecipe([<redstonerepository:material:5>], 3.5, [<jaopca:dust.gelid_crystal>*4,<minecraft:tnt>*4]);
+pressurechamber.addRecipe([<jaopca:dust.crystal_flux>*4,<minecraft:tnt>*4], 3.5, [<redstonearsenal:material:160>*3]);
+pressurechamber.addRecipe([<jaopca:dust.gelid_crystal>*4,<minecraft:tnt>*4], 3.5, [<redstonerepository:material:5>*3]);
 
 explosioncrafting.removeRecipe(<pneumaticcraft:ingot_iron_compressed>);
 explosioncrafting.removeRecipe(<pneumaticcraft:compressed_iron_block>);
