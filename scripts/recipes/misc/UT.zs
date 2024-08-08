@@ -15,3 +15,6 @@ RecipeUtils.recipeTweak(true, <unstabletools:unstable_chestplate>, [[<ore:blockU
 RecipeUtils.recipeTweak(true, <unstabletools:unstable_leggings>, [[<ore:blockUnstable>, <ore:blockUnstable>, <ore:blockUnstable>], [<ore:blockUnstable>, null, <ore:blockUnstable>], [<ore:blockUnstable>, null, <ore:blockUnstable>]]);
 
 recipes.remove(<unstabletools:unstable_shears>);
+
+recipes.removeByRecipeName("unstabletools:advanced_division_sign");
+recipes.addShaped(<unstabletools:division_sign>.withTag({stable: 1 as byte}), [[<ore:blockUnstable>, <minecraft:elytra>, <ore:blockUnstable>],[<ore:blockAether>, <unstabletools:division_sign>, <ore:blockAether>], [<ore:blockUnstable>, <minecraft:elytra>, <ore:blockUnstable>]]);

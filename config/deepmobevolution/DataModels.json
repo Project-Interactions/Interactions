@@ -5,7 +5,9 @@
     "livingMatter": "hellish",
     "simulationRFCost": 1024,
     "craftingIngredients": [
-      "minecraft:blaze_powder"
+      "minecraft:blaze_rod",
+      "thermalfoundation:material,1,771",
+      "thaumictinkerer:kamiresource,1,1"
     ],
     "associatedMobs": [
       "minecraft:blaze"
@@ -41,7 +43,7 @@
     ],
     "lootItems": [
       "minecraft:gunpowder,64",
-      "minecraft:skull,6,4"
+      "minecraft:skull,1,4"
     ],
     "deepLearnerDisplay": {
       "hearts": 10,
@@ -91,7 +93,8 @@
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 2048,
     "craftingIngredients": [
-      "minecraft:ender_pearl"
+      "minecraft:ender_pearl",
+      "thaumictinkerer:kamiresource"
     ],
     "associatedMobs": [
       "minecraft:enderman",
@@ -128,7 +131,8 @@
     "livingMatter": "hellish",
     "simulationRFCost": 2048,
     "craftingIngredients": [
-      "minecraft:ghast_tear"
+      "minecraft:ghast_tear",
+      "thaumictinkerer:kamiresource"
     ],
     "associatedMobs": [
       "minecraft:ghast"
@@ -155,7 +159,8 @@
     "livingMatter": "overworldian",
     "simulationRFCost": 2048,
     "craftingIngredients": [
-      "minecraft:prismarine_shard"
+      "minecraft:prismarine_shard",
+      "minecraft:prismarine_crystals"
     ],
     "associatedMobs": [
       "minecraft:guardian",
@@ -185,14 +190,14 @@
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 1024,
     "craftingIngredients": [
-      "minecraft:shulker_shell"
+      "minecraft:shulker_shell",
+      "darkutils:shulker_pearl"
     ],
     "associatedMobs": [
       "minecraft:shulker"
     ],
     "lootItems": [
       "minecraft:shulker_shell,18",
-      "minecraft:diamond,2",
       "darkutils:shulker_pearl,1,0"
     ],
     "deepLearnerDisplay": {
@@ -292,7 +297,8 @@
     "livingMatter": "overworldian",
     "simulationRFCost": 1024,
     "craftingIngredients": [
-      "minecraft:spider_eye"
+      "minecraft:spider_eye",
+      "minecraft:web"
     ],
     "associatedMobs": [
       "minecraft:spider",
@@ -373,7 +379,7 @@
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 4096,
     "craftingIngredients": [
-      "minecraft:nether_star"
+      "forbiddenmagicre:netherstar_block"
     ],
     "associatedMobs": [
       "minecraft:wither"
@@ -529,7 +535,9 @@
     "livingMatter": "twilight",
     "simulationRFCost": 1024,
     "craftingIngredients": [
-      "twilightforest:firefly"
+      "twilightforest:naga_scale",
+      "twilightforest:charm_of_life_1",
+      "twilightforest:charm_of_keeping_1"
     ],
     "extraTooltip": "Gain data by defeating non-vanilla mobs in the Naga Courtyard and Lich Tower.",
     "associatedMobs": [
@@ -540,7 +548,7 @@
       "twilightforest:swarm_spider"
     ],
     "lootItems": [
-      "twilightforest:naga_scale,16",
+      "twilightforest:naga_scale,8",
       "twilightforest:charm_of_life_1,2",
       "twilightforest:charm_of_keeping_1,2",
       "minecraft:paper,64",
@@ -565,7 +573,10 @@
     "livingMatter": "twilight",
     "simulationRFCost": 1024,
     "craftingIngredients": [
-      "minecraft:waterlily"
+      "twilightforest:steeleaf_ingot",
+      "twilightforest:ironwood_ingot",
+      "twilightforest:fiery_ingot",
+      "twilightforest:hydra_chop"
     ],
     "extraTooltip": "Gain data by defeating non-vanilla mobs in the Swamp Labyrinth and Hydra Lair.",
     "associatedMobs": [
@@ -578,10 +589,10 @@
       "twilightforest:hydra"
     ],
     "lootItems": [
-      "twilightforest:steeleaf_ingot,16",
-      "twilightforest:ironwood_raw,8",
+      "twilightforest:steeleaf_ingot,8",
+      "twilightforest:ironwood_raw,4",
       "twilightforest:fiery_ingot,5",
-      "twilightforest:hydra_chop,16",
+      "twilightforest:hydra_chop,8",
       "minecraft:gold_ingot,22",
       "minecraft:red_mushroom,32",
       "minecraft:slime_ball,16"
@@ -607,7 +618,10 @@
     "livingMatter": "twilight",
     "simulationRFCost": 1024,
     "craftingIngredients": [
-      "twilightforest:arctic_fur"
+      "twilightforest:arctic_fur",
+      "twilightforest:alpha_fur",
+      "twilightforest:charm_of_life_2",
+      "twilightforest:charm_of_keeping_2"
     ],
     "extraTooltip": "Gain data by defeating non-vanilla mobs in the Yeti Lair and Ice Tower.",
     "associatedMobs": [
@@ -621,8 +635,8 @@
       "twilightforest:snow_queen"
     ],
     "lootItems": [
-      "twilightforest:arctic_fur,16",
-      "twilightforest:alpha_fur,8",
+      "twilightforest:arctic_fur,8",
+      "twilightforest:alpha_fur,2",
       "minecraft:packed_ice,16",
       "minecraft:feather,32",
       "twilightforest:charm_of_life_2,1",
@@ -648,7 +662,8 @@
     "livingMatter": "twilight",
     "simulationRFCost": 1024,
     "craftingIngredients": [
-      "twilightforest:twilight_log"
+      "twilightforest:armor_shard_cluster",
+      "twilightforest:carminite"
     ],
     "extraTooltip": "Gain data by defeating non-vanilla mobs in the Goblin Knight Stronghold and Dark Tower.",
     "associatedMobs": [
@@ -667,8 +682,8 @@
       "twilightforest:ur_ghast"
     ],
     "lootItems": [
-      "twilightforest:armor_shard_cluster,5",
-      "twilightforest:carminite,16",
+      "twilightforest:armor_shard_cluster,3",
+      "twilightforest:carminite,8",
       "minecraft:diamond_ore,3",
       "minecraft:emerald_ore,2",
       "minecraft:fish,32"
@@ -728,7 +743,7 @@
     "livingMatter": "overworldian",
     "simulationRFCost": 8192,
     "craftingIngredients": [
-      "avaritia:gaia_block,1"
+      "avaritiatweaks:gaia_block,1"
     ],
     "associatedMobs": [
       "botania:doppleganger"

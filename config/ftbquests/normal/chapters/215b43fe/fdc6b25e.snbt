@@ -1,5 +1,5 @@
 {
-	x: 12.5d,
+	x: 13.0d,
 	y: 3.5d,
 	text: [
 		"{215b43fe.ia.fdc6b25e}"
@@ -18,6 +18,6 @@
 	rewards: [{
 		uid: "7a63c08e",
 		type: "item",
-		item: "compactmachines3:machine 1 1"
+		item: "compactmachines3:machine 1 3"
 	}]
 }

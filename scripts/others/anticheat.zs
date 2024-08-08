@@ -17,7 +17,6 @@ import mods.ItemStages;
 var mod as string[]=[
     "projecte",
     "projectex",
-    "torcherino",
     "bacterium",
     "manaita_plus",
     "lolipickaxe",
@@ -32,8 +31,7 @@ var mod as string[]=[
     "slashbladetic",
     "cyclicmagic",
     "randomthings",
-    "lootbags",
-    "chambers"
+    "lootbags"
 ];
 
 for i in mod{

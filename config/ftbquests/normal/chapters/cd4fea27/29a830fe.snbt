@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	dependencies: [
+		"95d9ddd9"
+	],
+	tasks: [{
+		uid: "3ff2a0f1",
+		type: "item",
+		items: [{
+			item: "effortlessbuilding:reach_upgrade2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

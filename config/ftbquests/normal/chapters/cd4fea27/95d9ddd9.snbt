@@ -1,0 +1,13 @@
+{
+	x: 0.5d,
+	y: 7.0d,
+	tasks: [{
+		uid: "c5a422f2",
+		type: "item",
+		items: [{
+			item: "effortlessbuilding:reach_upgrade1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

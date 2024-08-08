@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "952c9cd1",
+		type: "item",
+		items: [{
+			item: "unstabletools:division_sign"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "03a9181f",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 1L
+	}]
+}

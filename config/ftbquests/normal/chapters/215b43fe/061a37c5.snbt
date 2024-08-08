@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 4.5d,
+	dependencies: [
+		"49d7f66d"
+	],
+	tasks: [{
+		uid: "be86f1b9",
+		type: "item",
+		items: [{
+			item: "chambers:empowerer_chamber"
+		}]
+	}]
+}

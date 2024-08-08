@@ -98,6 +98,9 @@ for remove2 in removeAtomicReconstructor {
 
 AtomicReconstructor.removeRecipe(<thaumcraft:plate:3>);
 
+AtomicReconstructor.removeRecipe(<actuallyadditions:block_testifi_bucks_green_wall>);
+AtomicReconstructor.addRecipe(<actuallyadditions:block_testifi_bucks_green_wall>, <botania:quartztypeelf>, 5000);
+
 //readd
 # Restonia
 	Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <projectred-core:resource_item:200>, <enderio:item_alloy_ingot:3>, <ore:stickArdite>, <moreplates:demon_plate>, 25000, 100, [1.0, 0.0, 0.0]);

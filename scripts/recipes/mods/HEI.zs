@@ -89,7 +89,14 @@ var removeItem as IItemStack[] = [
     <tce:tce_uk4>,
     <tce:tce_uk5>,
     <tce:tce_uk6>,
-    <extendedcrafting:storage:2>
+    <extendedcrafting:storage:2>,
+    <chambers:atom_chamber>,
+    <chambers:compact_chamber>,
+    <chambers:big_compact_chamber>,
+    <chambers:anvil_chamber>,
+    <chambers:soul_anvil_chamber>,
+    <chambers:enchant_chamber>,
+    <chambers:fusion_chamber>
 ];
 
 for ri in removeItem {

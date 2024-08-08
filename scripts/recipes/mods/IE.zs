@@ -87,10 +87,10 @@ recipes.removeShapeless(<immersiveengineering:material:23>);
 recipes.remove(<immersiveengineering:metal_decoration0:7> * 2);
 recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ore:plateSteel>, <minecraft:packed_ice>, <ore:plateSteel>],[<minecraft:packed_ice>, <ore:circuitGood>, <minecraft:packed_ice>], [<ore:plateSteel>, <minecraft:packed_ice>, <ore:plateSteel>]]);
 
-Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,40);
+Squeezer.addRecipe(<industrialforegoing:dryrubber>,null,<industrialforegoing:tinydryrubber>*8,512);
 
 furnace.remove(<ifgretro:rubber_bar>);
-Squeezer.addRecipe(<ifgretro:rubber_bar>,null,<contenttweaker:pre_rubber>,1024);
+Squeezer.addRecipe(<ifgretro:rubber_bar>,null,<contenttweaker:pre_rubber>,512);
 
 //AlloySmelter
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>, <ore:blockRedstone>, 100);
@@ -202,7 +202,6 @@ Crusher.removeRecipe(<libvulpes:productgem>*2);
 
 <ore:coilCopper>.remove(<immersiveengineering:metal_decoration0>);
 
-Squeezer.addRecipe(<minecraft:blaze_rod>,<liquid:lava>*500,<minecraft:blaze_powder>*5,60);
 
 RecipeUtils.recipeTweak(true,<immersiveengineering:metal_device1:13>, [[<botania:bifrostperm>, <ore:circuitAdvanced>, <botania:bifrostperm>], [<botania:bifrostperm>, null, <botania:bifrostperm>], [<ore:plankTreatedWood>, <ore:circuitAdvanced>, <ore:plankTreatedWood>]]);
 
@@ -322,3 +321,5 @@ recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
 Crusher.addRecipe(<contenttweaker:infinity_dust>*4, <storagedrawers:upgrade_creative:1>,20480);
 
 furnace.addRecipe(<thermalfoundation:rockwool:7>,<immersiveengineering:material:7>);
+
+Squeezer.addRecipe(<minecraft:blaze_powder>,null,<minecraft:blaze_powder>*5,1024);

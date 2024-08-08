@@ -216,7 +216,6 @@ jaopcaSeedTweak(3,"Cold");
 jaopcaSeedTweak(6,"Command");
 jaopcaSeedTweak(3,"ConstructionAlloy");
 jaopcaSeedTweak(4,"CopperOxide");
-jaopcaSeedTweak(6,"CosmicNeutronium");
 jaopcaSeedTweak(3,"CrudeGold");
 jaopcaSeedTweak(4,"CrudeOil");
 jaopcaSeedTweak(4,"CrudeSteel");

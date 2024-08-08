@@ -59,7 +59,6 @@ MetalFormer.removeRecipesByOutput(<aetherworks:item_resource:3>);
 MetalFormer.addRecipe(<thermalfoundation:material:163>, <liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:4>,2100);
 MetalFormer.addRecipe(<thermalfoundation:material:355>,<liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:3>,2100);
 
-
 //suger
 Melter.remove(<liquid:sugar>*16);
 Melter.add(<liquid:sugar>*144, <minecraft:sugar>);
@@ -69,4 +68,4 @@ Alchemy.add(<embers:ancient_motive_core>*2, [<embers:ancient_motive_core>,<ember
 
 //custom aspect
 Alchemy.addAspect("infinity", <embers:creative_ember_source>);
-Alchemy.add(<contenttweaker:ultimate_ingot_right_up>, [<embers:winding_gears>,<aetherworks:item_resource:5>,<aetherworks:item_resource:5>,<aetherworks:item_resource:5>,<aetherworks:item_resource:5>], {"infinity":1 to 64});
+Alchemy.add(<contenttweaker:ultimate_ingot_right_up>, [<embers:winding_gears>,null,null,null,null], {"infinity":1 to 64});

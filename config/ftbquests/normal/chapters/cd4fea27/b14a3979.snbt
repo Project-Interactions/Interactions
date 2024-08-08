@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 7.0d,
+	dependencies: [
+		"62a9359b"
+	],
+	tasks: [{
+		uid: "9e244550",
+		type: "item",
+		items: [{
+			id: "unstabletools:division_sign",
+			tag: {
+				stable: 1b,
+				activated: 1b
+			}
+		}],
+		ignore_damage: true
+	}]
+}

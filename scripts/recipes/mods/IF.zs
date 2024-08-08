@@ -37,7 +37,7 @@ RecipeUtils.recipeTweak(true, <industrialforegoing:latex_processing_unit>, [[<or
 
 RecipeUtils.recipeTweak(true, <industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>], [<minecraft:iron_sword>, <teslacorelib:machine_case>, <minecraft:iron_sword>], [<minecraft:iron_axe>, <actuallyadditions:block_misc:6>, <minecraft:iron_axe>]]);
 
-RecipeUtils.recipeTweak(true, <industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <minecraft:iron_sword>, <industrialforegoing:plastic>], [<minecraft:book>, <teslacorelib:machine_case>, <minecraft:book>], [<ore:gearGold>, <actuallyadditions:block_misc:6>, <ore:gearGold>]]);
+RecipeUtils.recipeTweak(true, <industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <minecraft:iron_sword>, <industrialforegoing:plastic>], [<ore:netherStar>, <teslacorelib:machine_case>, <ore:netherStar>], [<ore:gearGold>, <actuallyadditions:block_misc:6>, <ore:gearGold>]]);
 
 //range addon
 RecipeUtils.recipeTweak(true, <industrialforegoing:range_addon:11>, [[<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>], [<minecraft:emerald>, <industrialforegoing:range_addon:10>, <minecraft:emerald>], [<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>]]);

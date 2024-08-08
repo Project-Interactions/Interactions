@@ -53,6 +53,10 @@ ArcaneWorkbench.registerShapedRecipe("harder_mechanism_complex","BASEARTIFICE",5
 ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fortified_glass>*8);
 ArcaneWorkbench.registerShapedRecipe("harder_fortified_glass", "FORTIFIED_GLASS", 20, [<aspect:ordo>,<aspect:ignis>,<aspect:aqua>,<aspect:terra>],<thaumicaugmentation:fortified_glass>*8 , [[<botania:managlass>,<botania:managlass>,<botania:managlass>],[<botania:managlass>,<thaumicaugmentation:material:1>,<botania:managlass>],[<botania:managlass>,<botania:managlass>,<botania:managlass>]]);
 
+//reimplement thaumtweaks
+ArcaneWorkbench.removeRecipe(<thaumcraft:arcane_workbench_charger>);
+ArcaneWorkbench.registerShapedRecipe("harder_arcane_workbench_charger","WORKBENCHCHARGER",400 , [<aspect:aer>*2, <aspect:ordo>*2],<thaumcraft:arcane_workbench_charger>,[[null,<thaumcraft:vis_resonator>,null],[<ore:stickThauminite>,null,<ore:stickThauminite>],[<thaumcraft:stairs_greatwood>,<botanianeedsit:mana_charger>,<thaumcraft:stairs_greatwood>]]);
+
 recipes.addShapeless(<thaumcraft:thaumonomicon>,[<minecraft:writable_book>,<thaumcraft:crystal_essence:*>]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
