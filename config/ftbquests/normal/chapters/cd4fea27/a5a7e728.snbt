@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "eaec20ea",
+		type: "gamestage",
+		icon: "tce:tce_torch_lvl1",
+		stage: "speed"
+	}],
+	rewards: [{
+		uid: "1d269a70",
+		type: "item",
+		item: "tce:tce_torch_lvl1"
+	}]
+}

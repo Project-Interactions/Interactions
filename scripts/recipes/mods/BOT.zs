@@ -103,9 +103,6 @@ RecipeUtils.recipeTweak(true, <botania:runealtar>, [[<ore:livingrock>, <botania:
 
 RecipeUtils.recipeTweak(true, <botanicadds:pool_dreaming>, [[<botanicadds:dreamrock>, <botanicadds:dreamrock>, <botanicadds:dreamrock>], [<botanicadds:dreamrock>, <botania:pool:3>, <botanicadds:dreamrock>], [<ore:plateTerrasteel>, <ore:plateTerrasteel>, <ore:plateTerrasteel>]]);
 
-//botania doppleganger not drop fix
-<entity:botania:doppleganger>.addPlayerOnlyDrop(<botania:manaresource:5>,4,8);
-
 Agglomeration.addRecipe(<lootgames:ms_activator>,[<jaopca:gear.h_o_p_graphite>],200000,0xCCFFFF,0x99FFFF,<contenttweaker:useful_block>,<minecraft:tnt>,<minecraft:tnt>,<thermalfoundation:storage_alloy>,<minecraft:sand>,<minecraft:sand>);
 
 //mana_circuit

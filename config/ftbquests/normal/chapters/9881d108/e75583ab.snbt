@@ -1,6 +1,6 @@
 {
-	x: -0.5d,
-	y: 18.5d,
+	x: -1.0d,
+	y: 19.0d,
 	dependencies: [
 		"c635b8b8",
 		"4ff707f8"
@@ -11,5 +11,13 @@
 		items: [{
 			item: "calculator:calculatorlocator"
 		}]
+	},
+	{
+		uid: "9507f24d",
+		type: "item",
+		items: [{
+			item: "calculator:calculatorplug"
+		}],
+		count: 4L
 	}]
 }

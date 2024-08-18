@@ -221,10 +221,16 @@ function alloyer(material as string,input1 as string,input2 as string,amount1 as
     .addEnergyPerTickInput(2000)
     .addItemOutput(itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot"))
     .build();
-	RecipeBuilder.newBuilder(material ~ "_freezer", "freezer", 80*multi)
+	RecipeBuilder.newBuilder(material ~ "_freezer_cryotheum", "freezer", 80*multi)
     .addItemInput(itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot"))
     .addEnergyPerTickInput(1000)
-    .addFluidInput(<liquid:cryotheum>*200)
+    .addFluidInput(<liquid:cryotheum>*100)
+    .addItemOutput(oreDict["ingot" ~ material].firstItem)
+    .build();
+	RecipeBuilder.newBuilder(material ~ "_freezer_distwater", "freezer", 800*multi)
+    .addItemInput(itemUtils.getItem("contenttweaker:hot_" ~ StringHelper.toSnakeCase(material) ~ "_ingot"))
+    .addEnergyPerTickInput(1000)
+    .addFluidInput(<liquid:distwater>*2000)
     .addItemOutput(oreDict["ingot" ~ material].firstItem)
     .build();
 }
@@ -247,7 +253,7 @@ Manufactory.addRecipe(<ifgretro:rubber_wood_log>, <ifgretro:rubber_bar>);
 
 //cheaper circuits
 Assembler.addRecipe(<ore:ingotEnchantedMetal>*2, <ore:plateBrass>*3,<ore:wireRefinedIron>*8,null,<contenttweaker:manual_circuit>*4);
-Assembler.addRecipe(<contenttweaker:manual_circuit>*2, <ore:gearDemonicMetal>,<ore:itemRubber>*4, <ore:dustLunar>*2,<contenttweaker:mechanical_circuit>);
+Assembler.addRecipe(<contenttweaker:manual_circuit>*2, <ore:gearDemonicMetal>,<ore:itemRubber>*4, <extrautils2:ingredients:3>*2,<contenttweaker:mechanical_circuit>);
 Assembler.addRecipe(<ore:platePlatinum>*3, <industrialforegoing:plastic>*6,<ore:plateMenril>*2,null,<contenttweaker:mana_circuit>);
 
 //ess ingots

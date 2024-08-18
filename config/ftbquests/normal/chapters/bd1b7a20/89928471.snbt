@@ -57,9 +57,9 @@
 		}
 	},
 	{
-		uid: "2827fd69",
-		type: "item",
-		item: "tce:tce_torch_lvl1",
-		count: 2
+		uid: "09950b83",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "start"
 	}]
 }

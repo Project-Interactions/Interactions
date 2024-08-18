@@ -7,7 +7,6 @@ var itemsToRemove as string[] = [
 	"actuallyadditions:item_crystal",
 	"enderio:item_material:12",
 	"enderio:item_material:13",
-	"botania:manaresource",
 	"enderio:item_alloy_ingot:6",
 	"enderio:item_conduit_probe",
 	"actuallyadditions:block_crystal",

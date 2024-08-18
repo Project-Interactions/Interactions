@@ -1,0 +1,1 @@
+mods.TimeStages.addTimer("get_speed","start","speed",1,"hour");
