@@ -65,7 +65,7 @@
             "y": 0,
             "z": 16,
             "elements": [
-                "modularmachinery:blockrainbowprovider@0",
+                "modularmachinery:blockparallelcontroller",
                 "nuclearcraft:solid_fission_sink2@13"
             ]
         },

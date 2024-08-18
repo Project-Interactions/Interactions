@@ -90,7 +90,7 @@ TableCrafting.addShaped(3, <extendedcrafting:crafting_core>, [
 ]);
 
 TableCrafting.remove(<extendedcrafting:material:24>);
-TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
+TableCrafting.addShaped(3, <extendedcrafting:material:24>*16, [
 	[<ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>, <ore:ingotCerulean>], 
 	[<ore:ingotEnergeticSilver>, <avaritia:resource>, <ore:ingotSky>, <ore:ingotSky>, <ore:ingotSky>, <avaritia:resource>, <ore:ingotPsi>], 
 	[<ore:ingotEnergeticSilver>, <avaritia:resource>, <ore:ingotSky>, <ore:ingotLumix>, <ore:ingotSky>, <avaritia:resource>, <ore:ingotPsi>], 
@@ -101,7 +101,7 @@ TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
 ]);
 
 
-TableCrafting.addShaped(4, <extendedcrafting:storage:4>, [
+TableCrafting.addShaped(4, <extendedcrafting:material:32>*16, [
 	[<contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>], 
 	[<contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>], 
 	[<contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <contenttweaker:ultimate_ingot_left_up>, <ore:circuitUniversal>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>, <contenttweaker:ultimate_ingot_right_up>], 
@@ -130,6 +130,7 @@ recipes.addShapeless(<extendedcrafting:material:18>, [<ore:plateBlackIron>, <ext
 RecipeUtils.recipeTweak(true, <packagedexcrafting:ultimate_crafter>, [[<extendedcrafting:material:17>, <extendedcrafting:interface>, <extendedcrafting:material:17>], [<ore:plateBlackIron>, <extendedcrafting:table_ultimate>, <ore:plateBlackIron>], [<extendedcrafting:material:17>, <packagedauto:me_package_component>, <extendedcrafting:material:17>]]);
 RecipeUtils.recipeTweak(true, <packagedexcrafting:elite_crafter>, [[<extendedcrafting:material:16>, <extendedcrafting:interface>, <extendedcrafting:material:16>], [<ore:plateBlackIron>, <extendedcrafting:table_elite>, <ore:plateBlackIron>], [<extendedcrafting:material:16>, <packagedauto:me_package_component>, <extendedcrafting:material:16>]]);
 RecipeUtils.recipeTweak(true, <packagedexcrafting:advanced_crafter>, [[<extendedcrafting:material:15>, <extendedcrafting:interface>, <extendedcrafting:material:15>], [<ore:plateBlackIron>, <extendedcrafting:table_advanced>, <ore:plateBlackIron>], [<extendedcrafting:material:15>, <packagedauto:me_package_component>, <extendedcrafting:material:15>]]);
+RecipeUtils.recipeTweak(true, <packagedexcrafting:basic_crafter>, [[<extendedcrafting:material:14>, <extendedcrafting:interface>, <extendedcrafting:material:14>], [<ore:plateBlackIron>, <extendedcrafting:table_basic>,  <ore:plateBlackIron>], [<extendedcrafting:material:14>, <packagedauto:me_package_component>, <extendedcrafting:material:14>]]);
 
 
 //solve nether star block conflict

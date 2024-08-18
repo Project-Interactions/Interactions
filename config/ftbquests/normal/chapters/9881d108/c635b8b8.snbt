@@ -1,15 +1,13 @@
 {
-	x: 1.5d,
-	y: 18.75d,
-	shape: "gear",
+	x: 0.5d,
+	y: 17.5d,
 	text: [
 		"{9881d108.ia.c635b8b8.1}",
 		"{9881d108.ia.c635b8b8.2}"
 	],
 	dependencies: [
-		"4ff707f8"
+		"07c195cd"
 	],
-	size: 1.5d,
 	tasks: [{
 		uid: "b9084d79",
 		type: "item",

@@ -13,7 +13,7 @@
 		items: [{
 			item: "minecraft:obsidian"
 		}],
-		count: 12L
+		count: 10L
 	}],
 	rewards: [{
 		uid: "a5cfdf25",

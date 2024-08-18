@@ -62,8 +62,18 @@ RecipeBuilder.newBuilder("golden_amber", "aether_amplifier",80)
     .addItemOutputs([<aether_legacy:golden_amber>])
     .build();
 
-RecipeBuilder.newBuilder("steelleaf", "aether_amplifier", 40)
+RecipeBuilder.newBuilder("steeleaf", "aether_amplifier", 40)
     .addItemInputs([<twilightforest:steeleaf_ingot>,<ore:treeLeaves>*16])
     .addFluidInput(<liquid:steel>*500)
     .addItemOutputs([<twilightforest:steeleaf_ingot>*2])
+    .build();
+
+RecipeBuilder.newBuilder("victory_medal", "aether_amplifier", 40)
+    .addItemInputs([<aether_legacy:victory_medal>])
+    .addItemOutputs([<tinkersaether:valkyrie_nugget>*2])
+    .build();
+
+RecipeBuilder.newBuilder("gravitite", "aether_amplifier", 40)
+    .addItemInputs([<aether_legacy:gravitite_ore>])
+    .addItemOutputs([<aether_legacy:enchanted_gravitite>])
     .build();

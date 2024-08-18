@@ -31,5 +31,10 @@
 		type: "item",
 		item: "astralsorcery:blockblackmarble",
 		count: 64
+	},
+	{
+		uid: "826595bc",
+		type: "item",
+		item: "astraladditions:block_starmetal"
 	}]
 }

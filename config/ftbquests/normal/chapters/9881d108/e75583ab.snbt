@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 18.5d,
+	dependencies: [
+		"c635b8b8",
+		"4ff707f8"
+	],
+	tasks: [{
+		uid: "b1aae259",
+		type: "item",
+		items: [{
+			item: "calculator:calculatorlocator"
+		}]
+	}]
+}

@@ -18,13 +18,13 @@
 
 [mysticalagriculture]
 	#The crop tier of this material.
-	tier = 2
+	tier = 3
 	#The amount of Mystical Agriculture essence required to craft materials.
 	inputCount = 8
 	#The amount of material obtained by crafting Mystical Agriculture essence.
 	outputCount = 6
 
-[avaritia]
+[avaritia_singularity]
 	#The base amount of blocks required to create one singularity.
 	inputAmount = 300
 	#Should the singularity be added to the Infinity Catalyst recipe.
@@ -37,10 +37,4 @@
 	richChance = 105
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
 	fluxChance = 110
-
-[avaritia_singularity]
-	#The base amount of blocks required to create one singularity.
-	inputAmount = 300
-	#Should the singularity be added to the Infinity Catalyst recipe.
-	addToCatalyst = true
 

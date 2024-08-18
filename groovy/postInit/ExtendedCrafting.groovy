@@ -43,15 +43,15 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item("wirelessutils:level_upgra
 ])
 
 mods.extendedcrafting.TableCrafting.addShaped(4, item('mekanism:tierinstaller', 4)*4, [
-[ore('ingotUltimate'), ore('ingotUltimate'), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), ore('ingotUltimate'), ore('ingotUltimate'), ore('ingotUltimate')], 
-[ore('ingotUltimate'), null, null, null, null, null, ore('ingotUltimate'), ore('ingotUltimate'), ore('ingotUltimate')], 
+[ore('ingotInfinity'), ore('ingotInfinity'), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), ore('ingotInfinity'), ore('ingotInfinity'), ore('ingotInfinity')], 
+[ore('ingotInfinity'), null, null, null, null, null, ore('ingotInfinity'), ore('ingotInfinity'), ore('ingotInfinity')], 
 [item('mekanism:tierinstaller', 3), null, null, null, null, null, null, null, item('mekanism:tierinstaller', 3)], 
-[item('mekanism:tierinstaller', 3), null, null, ore('ingotUltimate'), null, ore('ingotUltimate'), null, null, item('mekanism:tierinstaller', 3)], 
-[item('mekanism:tierinstaller', 3), null, ore('ingotUltimate'), null, ore('ingotUltimate'), null, ore('ingotUltimate'), null, item('mekanism:tierinstaller', 3)], 
+[item('mekanism:tierinstaller', 3), null, null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, null, item('mekanism:tierinstaller', 3)], 
+[item('mekanism:tierinstaller', 3), null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, item('mekanism:tierinstaller', 3)], 
 [item('mekanism:tierinstaller', 3), null, null, null, null, null, null, null, item('mekanism:tierinstaller', 3)], 
 [item('mekanism:tierinstaller', 3), null, null, null, null, null, null, null, item('mekanism:tierinstaller', 3)], 
-[ore('ingotUltimate'), null, null, item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), null, null, ore('ingotUltimate')], 
-[ore('ingotUltimate'), ore('ingotUltimate'), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), ore('ingotUltimate'), ore('ingotUltimate')]
+[ore('ingotInfinity'), null, null, item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), null, null, ore('ingotInfinity')], 
+[ore('ingotInfinity'), ore('ingotInfinity'), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), ore('ingotInfinity'), ore('ingotInfinity')]
 ])
 
 mods.extendedcrafting.TableCrafting.addShaped(4, item('lightningcraft:lightning_cell', 3), [

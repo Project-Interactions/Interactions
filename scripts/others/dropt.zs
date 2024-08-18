@@ -59,13 +59,6 @@ Dropt.list("refined_ore_essence")
         .selector(
         Dropt.weight(60)
         )
-        .items([<appliedenergistics2:material:3>])
-      )
-      .addDrop(
-        Dropt.drop()
-        .selector(
-        Dropt.weight(60)
-        )
         .items([<actuallyadditions:item_dust:4>])
       )
       .addDrop(

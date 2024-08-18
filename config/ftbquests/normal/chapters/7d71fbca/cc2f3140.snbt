@@ -11,10 +11,5 @@
 			item: "bloodmagic:monster_soul"
 		}],
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "bdf3d28f",
-		type: "item",
-		item: "tconevo:metal 1 30"
 	}]
 }

@@ -232,8 +232,6 @@ Melting.removeRecipe(<liquid:osmium>,<minecraft:rail>);
 
 RecipeUtils.recipeTweak(true, <mctsmelteryio:upgrade>*2, [[<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>], [<ore:paper>, <ore:circuitGood>, <ore:paper>], [<ore:dyeBlue>, <ore:paper>, <ore:dyeBlue>]]);
 
-//Melting.addEntityMelting(<entity:botania:pink_wither>, <liquid:cryotheum>);
-
 RecipeUtils.recipeTweak(true, <mctsmelteryio:machine>, [[<tconstruct:seared:3>, <ore:circuitGood>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <speedyhoppers:speedyhopper_mk2>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <betterfurnacesreforged:gold_furnace>, <tconstruct:seared:3>]]);
 RecipeUtils.recipeTweak(true, <simplesmelteryaccelerator:smeltery_accelerator>, [[<ore:circuitAdvanced>, <ore:gearManyullyn>, <ore:circuitAdvanced>], [<ore:gearManyullyn>, <mctsmelteryio:machine>, <ore:gearManyullyn>], [<tconstruct:seared:3>, <ore:gearManyullyn>, <tconstruct:seared:3>]]);
 recipes.remove(<mctsmelteryio:powdered_fuel> * 3);
@@ -295,3 +293,6 @@ advancedAlloy(<liquid:advanced_alloy> * 2,[<liquid:bronze>,<liquid:invar>,<liqui
 //obsidian cast fix
 Casting.removeBasinRecipe(<minecraft:obsidian>);
 Casting.addBasinRecipe(<minecraft:obsidian>,null,<liquid:obsidian>,288,false,120);
+
+//if pink slime
+Melting.addEntityMelting(<entity:botania:pink_wither>, <liquid:if.pink_slime>*10);

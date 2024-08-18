@@ -93,6 +93,7 @@
   "spiky",
   "aridiculous",
   "tconevo.sentient_armor",
+  "speedy_armor",
   "tconevo.null_almighty_armor",
   "glimmer",
   "aridiculous_armor",

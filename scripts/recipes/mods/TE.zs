@@ -81,7 +81,7 @@ Factorizer.removeRecipeSplit(<thermalfoundation:material:136>*9);
 
 Factorizer.removeRecipeCombine(<aetherworks:item_resource:4>);
 
-mods.thermalexpansion.Infuser.removeRecipe(<wirelessutils:fluxed_pearl>);
+Infuser.removeRecipe(<wirelessutils:fluxed_pearl>);
 
 Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_aer>, <liquid:aerotheum> * 100,1200 );
 Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <thaumcraft:crystal_ignis>, <liquid:aerotheum> * 100,1200 );
@@ -203,3 +203,5 @@ RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:2>, [[null, <ore:ingotS
 RecipeUtils.recipeTweak(true, <thermalfoundation:upgrade:3>, [[null, <ore:ingotEnderium>, null], [<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>], [<ore:dustPyrotheum>, <ore:circuitMaster>, <ore:dustPyrotheum>]]);
 
 Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 1000000);
+
+Crucible.addRecipe(<liquid:if.pink_slime>*250,<industrialforegoing:pink_slime>,4096);

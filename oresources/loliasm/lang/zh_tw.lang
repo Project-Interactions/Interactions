@@ -1,0 +1,13 @@
+loliasm.crashscreen.title=§bInteractions模組包§r崩潰啦！
+
+loliasm.crashscreen.unknownCause=LoliASM未能分析出錯誤模組！
+
+loliasm.crashscreen.paragraph3.line1=你可以在整合包根目錄下的/crash-reports資料夾和/logs資料夾找到崩潰報告和日誌。
+loliasm.crashscreen.paragraph3.line2=由於安裝了LoliASM，你仍然可以繼續遊戲，但是如果問題重現，請考慮重啟遊戲或恢復存檔到最近的備份。
+loliasm.crashscreen.paragraph3.line3=如果繼續遊戲和重啟後該問題仍然存在並且沒有被反饋過，請通過任意途徑反饋給作者。
+loliasm.crashscreen.paragraph3.line4=§c§l請提交崩潰報告或日誌而不是該介面的截圖回饋問題，該介面截圖對解決問題沒有任何幫助。
+
+loliasm.initerrorscreen.paragraph3.line1=你可以在整合包根目錄下的/crash-reports資料夾和/logs資料夾找到崩潰報告和日誌。因為這是啟動錯誤，你只能退出遊戲。
+loliasm.initerrorscreen.paragraph3.line2=如果重啟後該問題仍然存在並且沒有被反饋過，請透過任意途徑回饋給作者。
+loliasm.initerrorscreen.paragraph3.line3=可以透過還原存檔到最近的備份來暫時修復。
+loliasm.initerrorscreen.paragraph3.line4=§c§l請提交崩潰報告或日誌而不是該介面的截圖回饋問題，該介面截圖對解決問題沒有任何幫助。

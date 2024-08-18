@@ -209,7 +209,8 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "appliedenergistics2:quartz_vibrant_glass@0"
+                "appliedenergistics2:quartz_vibrant_glass@0",
+                "modularmachinery:blockparallelcontroller"
             ]
         }
     ]}

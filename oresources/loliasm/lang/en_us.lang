@@ -1,0 +1,13 @@
+loliasm.crashscreen.title=§bIntersection Modpack§r Crashed!
+
+loliasm.crashscreen.unknownCause=LoliASM failed to analyze the error mod!
+
+loliasm.crashscreen.paragraph3.line1=You can find crash reports and logs in the /crash-reports folder and /logs folder in the root directory of the modpack.
+loliasm.crashscreen.paragraph3.line2=Since LoliASM is installed, you can still continue the game, but if the problem recurs, please consider restarting the game or restoring the save to the most recent backup.
+loliasm.crashscreen.paragraph3.line3=If the problem persists after continuing the game and restarting and has not been reported, please report it to the author through any means.
+loliasm.crashscreen.paragraph3.line4=§c§lPlease submit crash reports or logs instead of screenshots of this interface to report the problem. The screenshot of the interface is of no help in solving the problem.
+
+loliasm.initerrorscreen.paragraph3.line1=You can find crash reports and logs in the /crash-reports folder and /logs folder in the modpack root directory. Since this is a startup error, you can only exit the game.
+loliasm.initerrorscreen.paragraph3.line2=If the problem persists after restarting and has not been reported, please report it to the author through any means.
+loliasm.initerrorscreen.paragraph3.line3=You can temporarily fix it by restoring the save file to the most recent backup.
+loliasm.initerrorscreen.paragraph3.line4=§c§lPlease submit crash reports or logs instead of screenshots of this interface to report the problem. Screenshots of this interface are of no help in solving the problem.

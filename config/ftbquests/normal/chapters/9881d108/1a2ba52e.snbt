@@ -1,6 +1,6 @@
 {
 	x: -4.5d,
-	y: 18.5d,
+	y: 17.5d,
 	text: [
 		"{9881d108.ia.1a2ba52e}"
 	],
@@ -16,8 +16,14 @@
 		}]
 	}],
 	rewards: [{
-		uid: "655b91d2",
+		uid: "ce7de00a",
 		type: "item",
-		item: "calculator:material 1 6"
+		item: "calculator:transmitter"
+	},
+	{
+		uid: "f731d619",
+		type: "item",
+		item: "calculator:weatherstation",
+		count: 4
 	}]
 }

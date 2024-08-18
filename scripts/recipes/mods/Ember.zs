@@ -52,13 +52,6 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <embers:creative_ember_source>,
 	[<embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>, <embers:crystal_cell>]
 ]);
 
-//fix aetherwork metalformer don't receive unidict bronze
-MetalFormer.removeRecipesByOutput(<aetherworks:item_resource:4>);
-MetalFormer.removeRecipesByOutput(<aetherworks:item_resource:3>);
-
-MetalFormer.addRecipe(<thermalfoundation:material:163>, <liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:4>,2100);
-MetalFormer.addRecipe(<thermalfoundation:material:355>,<liquid:aetherworks.aetherium_gas>*144, <aetherworks:item_resource:3>,2100);
-
 //suger
 Melter.remove(<liquid:sugar>*16);
 Melter.add(<liquid:sugar>*144, <minecraft:sugar>);

@@ -145,7 +145,6 @@ eadd(1,<mekanism:otherdust>);
 eadd(1,<jaopca:dust.peridot>);
 eadd(1,<minecraft:glowstone_dust>);
 eadd(1,<jaopca:dust.sapphire>);
-eadd(1,<appliedenergistics2:material:3>);
 eadd(1,<jaopca:dust.ruby>);
 eadd(1,<thermalfoundation:material:771>);
 eadd(1,<jaopca:dust.cinnabar>);

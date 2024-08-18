@@ -12,8 +12,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "cb9f0d0d",
+		uid: "1558fd7a",
 		type: "item",
-		item: "techreborn:machine_frame 1 2"
+		item: "actuallyadditions:block_misc 1 9"
 	}]
 }

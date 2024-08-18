@@ -51,6 +51,7 @@ var regItem as string[]=[
 "psio_powered_circuit",
 "operation_circuit_board",
 "circuit_stack",
+"circuit_stack_stable",
 
 "compressedredstone",
 "compresseddiamond",

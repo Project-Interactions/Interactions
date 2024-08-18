@@ -238,7 +238,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <mekanism:teleportationcore>*4,
 	[null, null, <ore:ingotCrystallineAlloy>, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy_circuit>*64, [
+mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:inverse_entropy_circuit>*16, [
 	[null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null], 
 	[<ore:nuggetCosmicNeutronium>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, <ore:nuggetCosmicNeutronium>], 
 	[<ore:nuggetCosmicNeutronium>, null, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, <ore:nuggetCosmicNeutronium>], 
@@ -278,3 +278,13 @@ reaction.addRecipe(<thaumcraft:crystal_perditio>, <liquid:fluid_molten_perditio>
 
 //
 mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:8>);
+
+//stacksize fix
+<mekanism:energytablet>.maxStackSize = 1;
+<mekanism:gastank>.maxStackSize = 1;
+<mekanism:energycube>.maxStackSize = 1;
+
+<mekanism:machineblock>.maxStackSize = 1;
+<mekanism:machineblock2>.maxStackSize = 1;
+<mekanism:machineblock3>.maxStackSize = 1;
+<mekanism:machineblock4>.maxStackSize = 1;

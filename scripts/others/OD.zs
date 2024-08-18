@@ -72,18 +72,6 @@
 <ore:circuitElite>.add(<contenttweaker:powered_circuit>);
 <ore:circuitMaster>.add(<contenttweaker:psio_powered_circuit>);
 
-//redsone alloy and red alloy conflict
-<ore:ingotRedstoneAlloy>.add(<projectred-core:resource_item:103>);
-<ore:ingotRedAlloy>.add(<enderio:item_alloy_ingot:3>);
-<ore:plateRedstoneAlloy>.add(<moreplates:red_alloy_plate>);
-<ore:plateRedAlloy>.add(<moreplates:redstone_alloy_plate>);
-<ore:gearRedstoneAlloy>.add(<moreplates:red_alloy_gear>);
-<ore:gearRedAlloy>.add(<moreplates:redstone_alloy_gear>);
-<ore:blockRedstoneAlloy>.add(<jaopca:block.red_alloy>);
-<ore:blockRedAlloy>.add(<enderio:block_alloy:3>);
-<ore:nuggetRedstoneAlloy>.add(<jaopca:nugget.red_alloy>);
-<ore:nuggetRedAlloy>.add(<enderio:item_alloy_nugget:3>);
-
 //
 <ore:ingotThauminite>.add(<thaumicbases:thauminite_ingot>);
 <ore:nuggetThauminite>.add(<thaumicbases:nuggetthauminite>);

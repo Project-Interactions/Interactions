@@ -75,3 +75,5 @@ FluidDictionary.add("fluid_quicksilver", "mercury", 1);
 
 //convert to if plastic
 recipes.addShapeless(<industrialforegoing:plastic>,[<pneumaticcraft:plastic:*>]);
+
+recipes.addShaped(<industrialforegoing:mob_imprisonment_tool>.withTag({Health: 12.5, entity: "aether_legacy:swet"}),[[<tinkersaether:swet_crystal>,<aether_legacy:swetty_ball>,<tinkersaether:swet_crystal>],[<aether_legacy:swetty_ball>,<industrialforegoing:mob_imprisonment_tool>,<aether_legacy:swetty_ball>],[<tinkersaether:swet_crystal>,<aether_legacy:swetty_ball>,<tinkersaether:swet_crystal>]]);

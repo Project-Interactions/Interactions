@@ -30,14 +30,12 @@ RecipeBuilder.newBuilder("crafting_injector", "fusion_computer", 128)
 RecipeBuilder.newBuilder("ultimate_left_down", "fusion_computer", 64)
     .addItemInputs([<extrautils2:decorativesolid:8>])
     .addEnergyPerTickInput(1000000)
-    .addRainbowInput()
     .addItemOutput(<contenttweaker:ultimate_ingot_left_down>)
     .build();
 
 RecipeBuilder.newBuilder("rainbow_stone", "fusion_computer", 60)
     .addItemInputs([<extrautils2:decorativesolid:3>])
     .addEnergyPerTickInput(100000)
-    .addRainbowInput()
     .addItemOutput(<extrautils2:decorativesolid:8>)
     .build();
 

@@ -18,7 +18,7 @@ ResearchTable.builder("laser_gun", tic)
 ResearchTable.builder("dart_shooter", tic)
   .setIcons(<tinkersaether:dart_shooter>)
   .setTitle(game.localize("ia.rt.dart_shooter"))
-  .addCondition(<tinkersaether:valkyrie_ingot>*8,<lost_aether:platinum_key>)
+  .addCondition(<tinkersaether:valkyrie_ingot>*8,<aether_legacy:dungeon_key>,<aether_legacy:dungeon_key:1>,<aether_legacy:dungeon_key:2>,<lost_aether:platinum_key>)
   .setRewardStages("dart_shooter")
   .build();
 

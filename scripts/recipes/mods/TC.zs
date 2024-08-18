@@ -118,6 +118,11 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <thaumicenergistics:essentia_ce
 	[<thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>, <thaumicenergistics:essentia_component_64k>]
 ]);
 
+ArcaneWorkbench.removeRecipe(<thaumictinkerer:kamiresource:3>);
+ArcaneWorkbench.removeRecipe(<thaumictinkerer:kamiresource:4>);
+ArcaneWorkbench.registerShapedRecipe("harder_kami1","TT_ICHOR",500, [<aspect:aer>*5,<aspect:aqua>*5,<aspect:ordo>*5,<aspect:terra>*5,<aspect:ignis>*5,<aspect:perditio>*5],<thaumictinkerer:kamiresource:3>*3,[[<ore:ingotMithminite>,<ore:ingotMithminite>,<ore:ingotMithminite>],[<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>],[<ore:ingotThauminite>,<ore:ingotThauminite>,<ore:ingotThauminite>]]);
+ArcaneWorkbench.registerShapedRecipe("harder_kami2","TT_ICHOR",750, [<aspect:aer>*10,<aspect:aqua>*10,<aspect:ordo>*10,<aspect:terra>*10,<aspect:ignis>*10,<aspect:perditio>*10],<thaumictinkerer:kamiresource:4>*3,[[<thaumadditions:mithminite_fabric>,<thaumadditions:mithminite_fabric>,<thaumadditions:mithminite_fabric>],[<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>],[<ore:gemFlawlessDiamond>,<ore:gemFlawlessDiamond>,<ore:gemFlawlessDiamond>]]);
+
 //resolve ta plates need craft to unlock researches
 recipes.removeShaped(<thaumadditions:mithrillium_plate>*3);
 recipes.removeShaped(<thaumadditions:mithminite_plate>*3);
@@ -222,8 +227,6 @@ Infusion.registerRecipe(
     <thaumcraft:void_hoe>,
     [<thaumcraft:plank_greatwood>,<thaumcraft:nugget:10>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})]
 );
-ArcaneWorkbench.removeRecipe(<thaumictinkerer:kamiresource:3>);
-ArcaneWorkbench.registerShapedRecipe("harder_kami","ICHOR",300, [<aspect:aer>,<aspect:aqua>,<aspect:ordo>,<aspect:terra>,<aspect:ignis>,<aspect:perditio>],<thaumictinkerer:kamiresource:3>*3,[[<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>,<thaumadditions:mithrillium_ingot>],[<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>,<thaumictinkerer:kamiresource:2>],[<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>,<thaumicbases:thauminite_ingot>]]);
 
 //creative
 Infusion.registerRecipe(

@@ -3,7 +3,7 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.IngredientArrayBuilder;
 
-RecipeBuilder.newBuilder("atomic_module", "large_fabricator", 10)
+RecipeBuilder.newBuilder("circuit_stack_stable", "large_fabricator", 10)
     .addItemInputs([<calculator:circuitboard>.withTag({Stable: 1, Analysed: 1 as byte}),
 <calculator:circuitboard:1>.withTag({Stable: 1, Analysed: 1 as byte}),
 <calculator:circuitboard:2>.withTag({Stable: 1, Analysed: 1 as byte}),
@@ -18,29 +18,29 @@ RecipeBuilder.newBuilder("atomic_module", "large_fabricator", 10)
 <calculator:circuitboard:11>.withTag({Stable: 1, Analysed: 1 as byte}),
 <calculator:circuitboard:12>.withTag({Stable: 1, Analysed: 1 as byte}),
 <calculator:circuitboard:13>.withTag({Stable: 1, Analysed: 1 as byte})])
-    .addItemInput(<calculator:atomicmodule>).setChance(0)
-    .addItemOutput(<calculator:atomicmodule>)
+    .addItemInput(<contenttweaker:circuit_stack_stable>).setChance(0)
+    .addItemOutput(<contenttweaker:circuit_stack_stable>)
     .addEnergyPerTickInput(2000)
     .build();
 
-RecipeBuilder.newBuilder("atomic_assembly", "large_fabricator", 10)
-    .addItemInputs([<calculator:circuitboard>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:1>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:2>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:3>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:4>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:5>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:6>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:7>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:8>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:9>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:11>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:10>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:11>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:12>.withTag({Stable: 0, Analysed: 1 as byte})*4,
-<calculator:circuitboard:13>.withTag({Stable: 0, Analysed: 1 as byte})*4])
-    .addItemInput(<calculator:atomicassembly>).setChance(0)
-    .addItemOutput(<calculator:atomicassembly>)
+RecipeBuilder.newBuilder("circuit_stack", "large_fabricator", 10)
+    .addItemInputs([<calculator:circuitboard>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:1>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:2>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:3>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:4>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:5>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:6>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:7>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:8>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:9>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:11>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:10>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:11>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:12>.withTag({Stable: 0, Analysed: 1 as byte}),
+<calculator:circuitboard:13>.withTag({Stable: 0, Analysed: 1 as byte})])
+    .addItemInput(<contenttweaker:circuit_stack>).setChance(0)
+    .addItemOutput(<contenttweaker:circuit_stack>)
     .addEnergyPerTickInput(2000)
     .build();
 
@@ -116,4 +116,16 @@ RecipeBuilder.newBuilder("transfer_upgrade", "large_fabricator", 10)
     .addItemInput(<calculator:transferupgrade>).setChance(0)
     .addItemOutput(<calculator:transferupgrade>)
     .addEnergyPerTickInput(2000)
+    .build();
+
+RecipeBuilder.newBuilder("atomic_module", "large_fabricator", 10)
+    .addItemInputs([<contenttweaker:circuit_stack_stable>*2,<ore:plateEnchantedMetal>])
+    .addItemOutput(<calculator:atomicmodule>*2)
+    .addEnergyPerTickInput(10000)
+    .build();
+
+RecipeBuilder.newBuilder("advanced_assembly", "large_fabricator", 10)
+    .addItemInputs([<contenttweaker:circuit_stack>*2,<ore:gearReinforcedIron>,<calculator:calculatorassembly>])
+    .addItemOutput(<calculator:advancedassembly>)
+    .addEnergyPerTickInput(4000)
     .build();

@@ -291,7 +291,7 @@ var nstypes as int[string] = {
     "polishing_kit":2,
     "tube":3,
     "dart_tip":1,
-    "pipe_piece":1,
+    "pipe_piece":4,
     "chisel_head":1,
     "arrow_head":2,
     "kama_head":2,

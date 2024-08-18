@@ -160,7 +160,7 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
 
 jaopcaSeedTweak(5,"Abyssum");
 jaopcaSeedTweak(6,"Adamant");
-jaopcaSeedTweak(6,"Adaminite");
+jaopcaSeedTweak(5,"Adaminite");
 jaopcaSeedTweak(3,"AdvancedAlloy");
 jaopcaSeedTweak(3,"AdvancedElectronicAlloy");
 jaopcaSeedTweak(4,"Aerotheum");
@@ -295,7 +295,7 @@ jaopcaSeedTweak(5,"MelodicAlloy");
 jaopcaSeedTweak(4,"Menril");
 jaopcaSeedTweak(5,"Meteorite");
 jaopcaSeedTweak(5,"Mirion");
-jaopcaSeedTweak(5,"Mithminite");
+jaopcaSeedTweak(6,"Mithminite");
 jaopcaSeedTweak(5,"Mithrillium");
 jaopcaSeedTweak(4,"Molybdenum");
 jaopcaSeedTweak(4,"Moon");
