@@ -75,13 +75,13 @@ atomic.removeRecipe(<calculator:firediamond>);
 atomic.addRecipe(<minecraft:blaze_rod>,<ore:gemFlawlessDiamond>,<minecraft:blaze_rod>,<calculator:firediamond>);
 
 basic.removeRecipe(<calculator:reinforcedironingot>);
-basic.addRecipe(<ore:ingotReinforcedIron>,<sonarcore:reinforcedstoneblock>,<calculator:reinforcedironingot>);
+basic.addRecipe(<ore:ingotRefinedIron>,<sonarcore:reinforcedstoneblock>,<calculator:reinforcedironingot>);
 
 basic.removeRecipe(<calculator:enrichedgold>*4);
 basic.addRecipe(<ore:ingotAdvancedAlloy>,<ore:ingotRedAlloy>,<calculator:enrichedgoldingot>);
 
 scientific.removeRecipe(<calculator:redstoneingot>);
-scientific.addRecipe(<ore:ingotReinforcedIron>,<ore:ingotRedAlloy>,<calculator:redstoneingot>);
+scientific.addRecipe(<ore:ingotRefinedIron>,<ore:ingotRedAlloy>,<calculator:redstoneingot>);
 //large fabricator
 flawless.addRecipe(<calculator:fabricationchamber>, <calculator:flawlessassembly>,<calculator:flawlessassembly>, <calculator:fabricationchamber>,<modularmachinery:large_fabricator_controller>);
 

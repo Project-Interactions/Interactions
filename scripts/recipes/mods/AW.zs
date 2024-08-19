@@ -93,7 +93,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setName("manual_circuit")
   .setShaped([
-    [<ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>],
+    [<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>],
     [<contenttweaker:printed_copper_plate>, <contenttweaker:printed_copper_plate>, <contenttweaker:printed_manual_circuit_board_substrate>],
     [<contenttweaker:printed_manual_circuit_board_substrate>, <ore:plateCrudeSteel>, <ore:plateCrudeSteel>]])
   .addOutput(<contenttweaker:manual_circuit> * 2)

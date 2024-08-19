@@ -264,3 +264,6 @@ AlloyFurnace.addRecipe(<ore:ingotPrudentium>, <ore:essenceIntermedium>*4, <ore:i
 AlloyFurnace.addRecipe(<ore:ingotIntermedium>, <ore:essenceSuperium>*4, <ore:ingotSuperium>.firstItem);
 AlloyFurnace.addRecipe(<ore:ingotSuperium>, <ore:essenceSupremium>*4, <ore:ingotSupremium>.firstItem);
 AlloyFurnace.addRecipe(<ore:ingotSupremium>, <ore:essenceInsanium>*4, <ore:ingotInsanium>.firstItem);
+
+//clear glass
+IngotFormer.addRecipe(<liquid:glass>*1000,<tconstruct:clear_glass>);

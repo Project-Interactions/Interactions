@@ -164,4 +164,3 @@ inWorldCrafting.fluidToItem.recipeBuilder()
         .input(item('mekanism:energycube').withNbt(["tier": 4, "mekData": ["energyStored": 1.7976931348623157E308D]]))
         .output(item('mekanism:gastank').withNbt(["tier": 4]))
         .register()
-
