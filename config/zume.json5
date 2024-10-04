@@ -53,5 +53,5 @@
 	// DEFAULT: `false`
 	"disable": false,
 	// Used internally. Don't modify this.
-	"configVersion": 1,
+	"configVersion": 1
 }

@@ -50,8 +50,8 @@ for Remove in remove {
 recipes.addShaped(<advancedrocketry:misc>, [[null, null, null],[<enderio:item_material:41>, <enderio:item_material:41>, <enderio:item_material:41>], [<arcanearchives:material_interface>, <nuclearcraft:machine_interface>, <arcanearchives:material_interface>]]);
 
 
-Assembler.addRecipe(<ore:plateTungsten>*3,<nuclearcraft:lithium_ion_cell>,null,null,<libvulpes:battery>*2);
-Assembler.addRecipe(<libvulpes:battery>*2,<nuclearcraft:lithium_ion_battery_basic>,null,null,<libvulpes:battery:1>);
+Assembler.addRecipe(<ore:plateTungsten>*3,<ore:plateDU>*2,null,null,<libvulpes:battery>*2);
+Assembler.addRecipe(<libvulpes:battery>*2,<ore:plateElite>*2,null,null,<libvulpes:battery:1>);
 
 
 Assembler.addRecipe(<contenttweaker:blank_ar_chip>,<ore:gearPalisEmpowered>*2,<botanicadds:elven_lapis>*8,null,<advancedrocketry:ic:5>);

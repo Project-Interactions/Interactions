@@ -12,7 +12,9 @@ val remove as IItemStack[] =
 <tce:tce_d_compressed_torch_lvl2>,
 <tce:tce_d_compressed_torch_lvl3>,
 <tce:tce_d_compressed_torch_lvl4>,
-<tce:tce_d_compressed_torch_lvl5>
+<tce:tce_d_compressed_torch_lvl5>,
+<actuallyadditions:item_bag>,
+<actuallyadditions:item_void_bag>
 ];
 
 for Remove in remove {

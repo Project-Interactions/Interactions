@@ -267,3 +267,6 @@ AlloyFurnace.addRecipe(<ore:ingotSupremium>, <ore:essenceInsanium>*4, <ore:ingot
 
 //clear glass
 IngotFormer.addRecipe(<liquid:glass>*1000,<tconstruct:clear_glass>);
+
+Assembler.removeRecipeWithOutput(<qmd:source>);
+Assembler.addRecipe(<ore:stickTungsten>*6, <ore:plateTungsten>,null,null,<qmd:source>.withTag({particle_storage: {particle_amount: 50000000, particle_capacity: 50000000}}));

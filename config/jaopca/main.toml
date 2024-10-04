@@ -39,7 +39,7 @@
 #Configurations related to the ore dictionary.
 [oredict]
 	#List of oredict names that should not be added.
-	blacklist = ["FoolsGold", "Ashes","Coke"]
+	blacklist = ["FoolsGold", "Ashes", "Coke"]
 	#List of oredict modules that should not be registered.
 	moduleBlacklist = []
 	#List of custom oredict entries to add. Format: <mod:item@meta=oredict>

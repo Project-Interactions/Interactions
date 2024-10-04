@@ -51,7 +51,6 @@ var regItem as string[]=[
 "psio_powered_circuit",
 "operation_circuit_board",
 "circuit_stack",
-"circuit_stack_stable",
 
 "compressedredstone",
 "compresseddiamond",
@@ -88,6 +87,11 @@ var regItem as string[]=[
 for items in regItem {
     VanillaFactory.createItem(items).register();
 }
+
+//special items
+val stable = VanillaFactory.createItem("circuit_stack_stable");
+stable.glowing = true;
+stable.register();
 
 var hotReg as string[]=[
     "Iridium",

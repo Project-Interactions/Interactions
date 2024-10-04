@@ -1,10 +1,6 @@
 //
 <ore:blockIronwood>.add(<twilightforest:block_storage>);
 
-<ore:ingotNiobium>.add(<taiga:niob_ingot>);
-<ore:dustNiobium>.add(<taiga:niob_dust>);
-<ore:ingotNiob>.add(<qmd:ingot:1>);
-<ore:dustNiob>.add(<qmd:dust:1>);
 <ore:slimeball>.remove(<industrialforegoing:pink_slime>);
 <ore:industrialTnt>.remove(<minecraft:tnt>);
 
@@ -12,9 +8,6 @@
 <ore:crystalVoid>.remove(<actuallyadditions:item_crystal:3>);
 <ore:gearVoid>.remove(<moreplates:void_gear>);
 <ore:plateVoid>.remove(<moreplates:void_plate>);
-
-<ore:plateBlackIron>.add(<extendedcrafting:material:2>);
-
 
 <ore:LivingMatter>.add(<deepmoblearning:living_matter_overworldian>);
 <ore:LivingMatter>.add(<deepmoblearning:living_matter_hellish>);

@@ -122,7 +122,7 @@ function jaopcaSeedTweak(tier as int,name as string) as void{
     recipes.removeByRecipeName("jaopca:mysticalagriculture.essence_to_material." ~ StringHelper.toSnakeCase(name));
     recipes.removeByRecipeName("jaopca:mysticalagriculture.material_to_seeds." ~ StringHelper.toSnakeCase(name));
     if(tier == 1){
-        ArcaneWorkbench.registerShapedRecipe("seedt1_" ~ name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
+        ArcaneWorkbench.registerShapedRecipe("seedt1_" ~ name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:terra>*5],
         oreDict["mysticalSeeds" ~ name].firstItem,
         [[block,essi1,block],
         [essi1,ess1,essi1],
@@ -243,7 +243,7 @@ jaopcaSeedTweak(5,"Eezo");
 jaopcaSeedTweak(5,"Electricium");
 jaopcaSeedTweak(4,"ElectrotineAlloy");
 jaopcaSeedTweak(5,"EnchantedMetal");
-jaopcaSeedTweak(5,"Ender");
+jaopcaSeedTweak(3,"Ender");
 jaopcaSeedTweak(3,"Endstone");
 jaopcaSeedTweak(4,"EnergeticSilver");
 jaopcaSeedTweak(4,"Energetic");
@@ -430,7 +430,7 @@ for seeds in loadedMods["mysticalagriculture"].items {
     }
 }
 function seedMAT1(output as IItemStack,block as IIngredient) as void{
-    ArcaneWorkbench.registerShapedRecipe(output.name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:herba>*5],
+    ArcaneWorkbench.registerShapedRecipe(output.name,"",20, [<aspect:aqua>, <aspect:ignis>,<aspect:terra>*5],
         output,
         [[block,essi1,block],
         [essi1,ess1,essi1],

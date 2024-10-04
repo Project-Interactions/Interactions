@@ -116,7 +116,7 @@ for i in 8 to 16 {
     <ore:biomeCobblestone>.add(<botania:biomestonea>.definition.makeStack(i));
 }
 
-ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <jaopca:avaritia_singularity.mirion>, 2147483647);
+ManaInfusion.addInfusion(<contenttweaker:mana_matter>, <jaopca:avaritia_singularity.mirion>, 100000000);
 
 //cheaper terrasteel
 Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);

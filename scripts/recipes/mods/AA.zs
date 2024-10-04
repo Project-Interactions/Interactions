@@ -141,6 +141,9 @@ RecipeUtils.recipeTweak(true, <actuallyadditions:block_empowerer>, [[null, <actu
 //circuit
 Empowerer.addRecipe(<contenttweaker:powered_circuit>, <contenttweaker:powered_circuit_board>, <actuallyadditions:block_crystal_empowered>, <forestry:flexible_casing>, <calculator:material:7>, <moreplates:diamatine_gear>, 25000, 100, [1.0, 1.0, 1.0]);
 
+//ban
+recipes.remove(<actuallyadditions:item_bag>);
+recipes.remove(<actuallyadditions:item_void_bag>);
 AtomicReconstructor.addRecipe(<contenttweaker:powered_circuit_board>, <deepmoblearning:soot_covered_plate>, 10000);
 
 recipes.addShaped(<actuallyadditions:block_placer>, [[<ore:gearStone>, <ore:gearStone>, <ore:gearStone>],[<ore:gearStone>, <engineersdecor:factory_placer>, <extrautils2:endershard>], [<ore:gearStone>, <ore:gearStone>, <ore:gearStone>]]);

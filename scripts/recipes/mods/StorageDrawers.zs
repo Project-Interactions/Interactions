@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import mods.storagedrawers.Compaction;
 
 RecipeUtils.recipeTweak(true, <storagedrawers:controller>, [
     [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], 
@@ -35,3 +36,5 @@ RecipeUtils.recipeTweak(true, <storagedrawers:upgrade_storage:1>*2, [[<ore:stick
 RecipeUtils.recipeTweak(true, <storagedrawers:upgrade_storage:2>*2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<tconstruct:large_plate>.withTag({Material: "electrum"}), <storagedrawers:upgrade_template>, <tconstruct:large_plate>.withTag({Material: "electrum"})], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 RecipeUtils.recipeTweak(true, <storagedrawers:upgrade_storage:3>*2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<tconstruct:large_plate>.withTag({Material: "platinum"}), <storagedrawers:upgrade_template>, <tconstruct:large_plate>.withTag({Material: "platinum"})], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 RecipeUtils.recipeTweak(true, <storagedrawers:upgrade_storage:4>*2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<tconstruct:large_plate>.withTag({Material: "xu_enchanted_metal"}), <storagedrawers:upgrade_template>, <tconstruct:large_plate>.withTag({Material: "xu_enchanted_metal"})], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+
+//Compaction

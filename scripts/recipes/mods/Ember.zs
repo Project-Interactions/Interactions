@@ -62,3 +62,6 @@ Alchemy.add(<embers:ancient_motive_core>*2, [<embers:ancient_motive_core>,<ember
 //custom aspect
 Alchemy.addAspect("infinity", <embers:creative_ember_source>);
 Alchemy.add(<contenttweaker:ultimate_ingot_right_up>, [<embers:winding_gears>,null,null,null,null], {"infinity":1 to 64});
+
+//fix conflict
+Stamper.remove(<embers:dust_ember>);

@@ -96,7 +96,9 @@ var removeItem as IItemStack[] = [
     <chambers:anvil_chamber>,
     <chambers:soul_anvil_chamber>,
     <chambers:enchant_chamber>,
-    <chambers:fusion_chamber>
+    <chambers:fusion_chamber>,
+    <actuallyadditions:item_bag>,
+    <actuallyadditions:item_void_bag>
 ];
 
 for ri in removeItem {

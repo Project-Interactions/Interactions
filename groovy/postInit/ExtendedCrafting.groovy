@@ -31,15 +31,15 @@ mods.extendedcrafting.TableCrafting.addShaped(3, item('extrautils2:passivegenera
 [item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8), item('extrautils2:passivegenerator', 8)]
 ])
 mods.extendedcrafting.TableCrafting.addShaped(4, item("wirelessutils:level_upgrade", 5)*4, [
-[ore('ingotUltimate'), ore('ingotUltimate'), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), ore('ingotUltimate'), ore('ingotUltimate')], 
-[ore('ingotUltimate'), null, null, null, ore('ingotUltimate'), null, null, null, ore('ingotUltimate')], 
-[item('wirelessutils:conversion_upgrade', 4), null, null, ore('ingotUltimate'), ore('ingotUltimate'), ore('ingotUltimate'), null, null, item('wirelessutils:conversion_upgrade', 4)], 
-[item('wirelessutils:conversion_upgrade', 4), null, ore('ingotUltimate'), null, ore('ingotUltimate'), null, ore('ingotUltimate'), null, item('wirelessutils:conversion_upgrade', 4)], 
-[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotUltimate'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
-[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotUltimate'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
-[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotUltimate'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
-[ore('ingotUltimate'), null, null, null, ore('ingotUltimate'), null, null, null, ore('ingotUltimate')], 
-[ore('ingotUltimate'), ore('ingotUltimate'), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), ore('ingotUltimate'), null]
+[ore('ingotInfinity'), ore('ingotInfinity'), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), ore('ingotInfinity'), ore('ingotInfinity')], 
+[ore('ingotInfinity'), null, null, null, ore('ingotInfinity'), null, null, null, ore('ingotInfinity')], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, ore('ingotInfinity'), ore('ingotInfinity'), ore('ingotInfinity'), null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotInfinity'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotInfinity'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[item('wirelessutils:conversion_upgrade', 4), null, null, null, ore('ingotInfinity'), null, null, null, item('wirelessutils:conversion_upgrade', 4)], 
+[ore('ingotInfinity'), null, null, null, item('storagedrawers:upgrade_creative', 1), null, null, null, ore('ingotInfinity')], 
+[ore('ingotInfinity'), ore('ingotInfinity'), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), item('wirelessutils:conversion_upgrade', 4), ore('ingotInfinity'), ore('ingotInfinity')]
 ])
 
 mods.extendedcrafting.TableCrafting.addShaped(4, item('mekanism:tierinstaller', 4)*4, [
@@ -47,7 +47,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, item('mekanism:tierinstaller', 
 [ore('ingotInfinity'), null, null, null, null, null, ore('ingotInfinity'), ore('ingotInfinity'), ore('ingotInfinity')], 
 [item('mekanism:tierinstaller', 3), null, null, null, null, null, null, null, item('mekanism:tierinstaller', 3)], 
 [item('mekanism:tierinstaller', 3), null, null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, null, item('mekanism:tierinstaller', 3)], 
-[item('mekanism:tierinstaller', 3), null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, ore('ingotInfinity'), null, item('mekanism:tierinstaller', 3)], 
+[item('mekanism:tierinstaller', 3), null, ore('ingotInfinity'), null, item('storagedrawers:upgrade_creative', 1), null, ore('ingotInfinity'), null, item('mekanism:tierinstaller', 3)], 
 [item('mekanism:tierinstaller', 3), null, null, null, null, null, null, null, item('mekanism:tierinstaller', 3)], 
 [item('mekanism:tierinstaller', 3), null, null, null, null, null, null, null, item('mekanism:tierinstaller', 3)], 
 [ore('ingotInfinity'), null, null, item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), item('mekanism:tierinstaller', 3), null, null, ore('ingotInfinity')], 

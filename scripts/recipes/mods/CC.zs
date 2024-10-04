@@ -55,7 +55,7 @@ atomic.addRecipe(<mysticalagriculture:crafting:17>,<mysticalagriculture:storage:
 atomic.addRecipe(<calculator:material:5>,<calculator:material:5>,<compactmachines3:machine:3>,<compactmachines3:machine:4>);
 
 atomic.addRecipe(<calculator:firediamond>,<calculator:largetanzanite>,<calculator:largeamethyst>,<contenttweaker:operation_circuit_board>);
-atomic.addRecipe(<calculator:advancedassembly>,<contenttweaker:operation_circuit_board>,<calculator:advancedassembly>,<contenttweaker:operation_circuit>);
+atomic.addRecipe(<calculator:advancedassembly>,<contenttweaker:operation_circuit_board>,<calculator:advancedassembly>,<contenttweaker:operation_circuit>*3);
 
 
 recipes.remove(<calculator:atomicmultiplier>);

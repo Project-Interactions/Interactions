@@ -296,3 +296,12 @@ Casting.addBasinRecipe(<minecraft:obsidian>,null,<liquid:obsidian>,288,false,120
 
 //if pink slime
 Melting.addEntityMelting(<entity:botania:pink_wither>, <liquid:if.pink_slime>*10);
+
+//taiga blocks
+val taiga_mat as string[] = ["tiberium","aurorium","prometheum","duranite","valyrium","vibranium","karmesine","ovium","jauxum","terrax","palladium","uru","osram","abyssum","eezo","triberium","fractum","violium","proxii","tritonite","ignitz","imperomite","solarium","nihilite","adamant","dyonite","nucleum","lumix","seismum","astrium","niob","yrdeen","iox","meteorite","basalt","obsidiorite","dilithium"];
+
+for i in taiga_mat {
+	val ingot = itemUtils.getItem("taiga:" ~ i ~ "_ingot");
+	val block = itemUtils.getItem("taiga:" ~ i ~ "_block");
+    recipes.addShaped(block,[[ingot,ingot,ingot],[ingot,ingot,ingot],[ingot,ingot,ingot]]);
+}
