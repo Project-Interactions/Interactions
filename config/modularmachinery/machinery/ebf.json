@@ -241,6 +241,7 @@
             "elements": [
                 "modularmachinery:blockfluidinputhatch",
                 "modularmachinery:blockmefluidinputbus",
+                "modularmachinery:blockmepatternprovider",
                 "thermalfoundation:storage_alloy@2"
             ]
         },
@@ -280,6 +281,7 @@
             "elements": [
                 "modularmachinery:blockinputbus",
                 "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
                 "thermalfoundation:storage_alloy@2"
             ]
         },

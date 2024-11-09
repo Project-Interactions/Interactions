@@ -60,7 +60,7 @@ recipes.addShapeless(<modularmachinery:blockmeiteminputbus>, [<appliedenergistic
 recipes.addShapeless(<modularmachinery:blockmeitemoutputbus>, [<appliedenergistics2:interface>,<appliedenergistics2:part:260>]);
 recipes.addShapeless(<modularmachinery:blockmegasoutputbus>, [<mekeng:gas_interface>,<mekeng:gas_export_bus>]);
 recipes.addShapeless(<modularmachinery:blockmegasinputbus>, [<mekeng:gas_interface>,<mekeng:gas_import_bus>]);
-recipes.addShaped(<modularmachinery:blockmepatternprovider>, [[null, <appliedenergistics2:material:58>, null],[<appliedenergistics2:material:58>, <appliedenergistics2:interface>, <appliedenergistics2:material:58>], [null, <appliedenergistics2:material:58>, null]]);
+recipes.addShaped(<modularmachinery:blockmepatternprovider>, [[null, <appliedenergistics2:material:58>, null],[<modularmachinery:blockmeiteminputbus>, <appliedenergistics2:interface>, <modularmachinery:blockmeitemoutputbus>], [null, <appliedenergistics2:material:58>, null]]);
 
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:7>, [[null, <modularmachinery:blockfluidoutputhatch:6>, null],[null, <ore:gearRefinedObsidian>, null], [null, <mekanism:machineblock2:11>.withTag({tier: 3}).onlyWithTag({tier: 3}), null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:6>, [[null, <modularmachinery:blockfluidoutputhatch:5>, null],[null, <ore:gearOsmium>, null], [null, <mekanism:machineblock2:11>.withTag({tier: 2}).onlyWithTag({tier: 2}), null]]);

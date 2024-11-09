@@ -99,7 +99,8 @@
             "z": 2,
             "elements": [
                 "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus"
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider"
             ]
         },
         {

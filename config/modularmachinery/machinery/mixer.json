@@ -73,7 +73,8 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockmefluidinputbus"
+                "modularmachinery:blockmefluidinputbus",
+                "modularmachinery:blockmepatternprovider"
             ]
         },
         {
@@ -276,7 +277,8 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus"
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider"
             ]
         },
         {

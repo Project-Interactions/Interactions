@@ -73,7 +73,8 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmepatternprovider"
             ]
         },
         {

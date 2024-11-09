@@ -34,7 +34,8 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockmefluidinputbus"
+                "modularmachinery:blockmefluidinputbus",
+                "modularmachinery:blockmepatternprovider"
             ]
         },
         {
@@ -164,7 +165,8 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus"
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider"
             ]
         },
         {

@@ -105,7 +105,9 @@
           }
         }
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -309,7 +311,8 @@
     "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false
+    "enableClassGraph": false,
+    "useClassLoader": true
   },
   "accessibilitySettings": {
     "languageId": "en_us",

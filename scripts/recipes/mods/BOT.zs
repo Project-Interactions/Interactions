@@ -124,9 +124,8 @@ Agglomeration.addRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<bota
 
 ManaInfusion.addAlchemy(<minecraft:ghast_tear>, <botania:blazeblock>, 5000);
 
-recipes.removeByRecipeName("botanicadds:mana_tesseract_bind");
 RuneAltar.removeRecipe(<botanicadds:mana_tesseract>);
-
+RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<ore:circuitAdvanced>,<ore:gearTerrasteel>,<botanicadds:dreamrock>,<botania:manaresource:12>,<botanicadds:rune_tp>], 150000);
 RuneAltar.removeRecipe(<botania:specialflower>.withTag({type: "soarleander"}));
 
 recipes.addShaped(<botania:manaresource:15>,[

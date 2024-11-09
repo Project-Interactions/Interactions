@@ -3,6 +3,9 @@
   "packId": "interactions",
   "version": "1.71",
   "debug": false,
+  "classes": {
+    "preInit": []
+  },
   "loaders": {
     "preInit": [
       "preInit/"
@@ -10,5 +13,11 @@
     "postInit": [
       "postInit/"
     ]
+  },
+  "packmode": {
+    "values": [],
+    "default": "",
+    "_comment": "By default the packmode is not synced with the packmode mod. You can enable integration, but you can no longer change packmode on the fly.",
+    "integratePackmodeMod": false
   }
 }
