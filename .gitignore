@@ -10,7 +10,6 @@ $ cat .gitignore
 !/schematics
 !/resources
 !/oresources
-!/Saros Default Options
 
 #Files
 !/.gitignore
