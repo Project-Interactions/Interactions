@@ -3,7 +3,6 @@
     "0": {
       "0": "magnet_block",
       "1": "cloudium_block",
-      "2": "mithril_ore",
       "3": "semiconductor_block",
       "4": "heavymetalelements_block",
       "5": "superconduct_block",
@@ -11,7 +10,6 @@
       "7": "six_in_one_thaumic_block",
       "8": "tungsten_steel_block",
       "9": "crude_gold_ore",
-      "10": "mithril_block",
       "11": "twilight_steel_block",
       "12": "duplication_block",
       "14": "command_block"

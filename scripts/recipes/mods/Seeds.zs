@@ -592,7 +592,7 @@ seedMAT2(<mysticalagriculture:aluminum_brass_seeds>,<ore:blockAlubrass>);
 seedMAT2(<mysticalagriculture:apatite_seeds>,<ore:blockApatite>);
 
 function essenceTweak(output as IItemStack,tier as int) as void {
-    var essence as IItemStack = null;
+    var essence as IIngredient = null;
     for rec in recipes.getRecipesFor(output) {
         if (rec.resourceDomain == "mysticalagriculture"){
             recipes.removeShaped(output, rec.ingredients2D);
@@ -720,7 +720,7 @@ Empowerer.addRecipe(<pneumaticcraft:ingot_iron_compressed>*2, <mysticalagricultu
 infuser.addRecipe("BIO", 2, <mysticalagriculture:compressed_iron_essence>*2, <pneumaticcraft:ingot_iron_compressed>);
 
 function essenceTweakSpecial(output as IItemStack,tier as int,realoutput as IItemStack) as void {
-    var essence as IItemStack = null;
+    var essence as IIngredient = null;
     for rec in recipes.getRecipesFor(output) {
         if (rec.resourceDomain == "mysticalagriculture"){
             recipes.removeShaped(output, rec.ingredients2D);

@@ -37,7 +37,6 @@ static materials as Material[string] = {
 	"Superconduct": MaterialSystem.getMaterialBuilder().setName("Superconduct").setColor(Color.fromHex("FFFAFA")).build(),
 	"Cloudium": MaterialSystem.getMaterialBuilder().setName("Cloudium").setColor(Color.fromHex("FCFCFC")).build(),
 	"Heavymetalelements": MaterialSystem.getMaterialBuilder().setName("Heavymetalelements").setColor(Color.fromHex("993333")).build(),
-	"Mithril": MaterialSystem.getMaterialBuilder().setName("Mithril").setColor(Color.fromHex("0099FF")).build(),
 	"Semiconductor": MaterialSystem.getMaterialBuilder().setName("Semiconductor").setColor(Color.fromHex("FFFAFA")).build(),
 	"Energium": MaterialSystem.getMaterialBuilder().setName("Energium").setColor(Color.fromHex("FF2727")).build(),
 	"UUMatter": MaterialSystem.getMaterialBuilder().setName("UUMatter").setColor(Color.fromHex("DF00E3")).build(),
@@ -63,7 +62,6 @@ materials.Gallium.registerParts(["block", "ingot","plate","gear","rod","nugget",
 materials.Superconduct.registerParts(["block", "ingot","plate","gear","rod","nugget","dust","dust_tiny","dust_small"] as string[]);
 materials.Cloudium.registerParts(["block"] as string[]);
 materials.Heavymetalelements.registerParts(["block", "ingot","plate","gear","rod","nugget","dust"] as string[]);
-materials.Mithril.registerParts(["block","ore"] as string[]);
 materials.Semiconductor.registerParts(["block", "ingot","plate","gear","rod","nugget","dust","dust_tiny","dust_small"] as string[]);
 materials.Energium.registerParts(["ingot"] as string[]);
 materials.UUMatter.registerParts(["ingot"] as string[]);

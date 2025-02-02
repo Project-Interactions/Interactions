@@ -5,7 +5,6 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import mods.rockytweaks.Anvil;
 
-
 recipes.removeByRecipeName("minecraft:hopper");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");

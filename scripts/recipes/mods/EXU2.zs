@@ -79,3 +79,8 @@ recipes.remove(<nuclearcraft:part:11>);
 Resonator.add(<nuclearcraft:part:11>, <contenttweaker:useful_block>, 1000);
 
 Resonator.add(<appliedenergistics2:creative_energy_cell>, <appliedenergistics2:dense_energy_cell>, 1000000000);
+
+//moonstone & glass
+recipes.removeByRecipeName("extrautils2:moon_stone");
+recipes.remove(<extrautils2:ineffableglass>*8);
+recipes.addShaped(<extrautils2:ineffableglass>*8,[[<tconstruct:clear_glass>,<tconstruct:clear_glass>,<tconstruct:clear_glass>],[<tconstruct:clear_glass>,<extrautils2:ingredients:5>,<tconstruct:clear_glass>],[<tconstruct:clear_glass>,<tconstruct:clear_glass>,<tconstruct:clear_glass>]]);

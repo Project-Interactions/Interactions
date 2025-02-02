@@ -297,6 +297,11 @@ Casting.addBasinRecipe(<minecraft:obsidian>,null,<liquid:obsidian>,288,false,120
 //if pink slime
 Melting.addEntityMelting(<entity:botania:pink_wither>, <liquid:if.pink_slime>*10);
 
+//
+recipes.addShapeless(<tconstruct:slime_dirt:3>, [<tconstruct:slime_dirt>,<tconstruct:edible:4>]);
+recipes.addShapeless(<tconstruct:slime_dirt:2>, [<tconstruct:slime_dirt>,<tconstruct:edible:2>]);
+recipes.addShapeless(<tconstruct:slime_dirt:1>, [<tconstruct:slime_dirt>,<tconstruct:edible:1>]);
+
 //taiga blocks
 val taiga_mat as string[] = ["tiberium","aurorium","prometheum","duranite","valyrium","vibranium","karmesine","ovium","jauxum","terrax","palladium","uru","osram","abyssum","eezo","triberium","fractum","violium","proxii","tritonite","ignitz","imperomite","solarium","nihilite","adamant","dyonite","nucleum","lumix","seismum","astrium","niob","yrdeen","iox","meteorite","basalt","obsidiorite","dilithium"];
 

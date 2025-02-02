@@ -27,9 +27,6 @@
 <ore:ingotCold>.add(<contenttweaker:cold_ingot>);
 <ore:ingotAggregationMatrix>.add(<tconevo:material>);
 
-<ore:oreMithril>.remove(<thermalfoundation:ore:8>);
-<ore:blockMithril>.remove(<thermalfoundation:storage:8>);
-
 <ore:blockAstralStarmetal>.add(<astraladditions:block_starmetal>);
 
 <ore:craftingIndustrialDiamond>.remove(<minecraft:diamond>);

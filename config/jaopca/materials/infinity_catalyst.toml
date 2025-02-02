@@ -1,5 +1,5 @@
 
-#Configurations for material Mercury.
+#Configurations for material InfinityCatalyst.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
@@ -12,19 +12,19 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "metallic"
+	modelType = "crystal"
 	#The color of this material.
-	color = 13750737
+	color = 16777215
 
 [mysticalagriculture]
 	#The crop tier of this material.
-	tier = 4
+	tier = 3
 	#The amount of Mystical Agriculture essence required to craft materials.
 	inputCount = 8
 	#The amount of material obtained by crafting Mystical Agriculture essence.
 	outputCount = 4
 
-[avaritia]
+[avaritia_singularity]
 	#The base amount of blocks required to create one singularity.
 	inputAmount = 300
 	#Should the singularity be added to the Infinity Catalyst recipe.
@@ -37,10 +37,4 @@
 	richChance = 105
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
 	fluxChance = 110
-
-[avaritia_singularity]
-	#The base amount of blocks required to create one singularity.
-	inputAmount = 300
-	#Should the singularity be added to the Infinity Catalyst recipe.
-	addToCatalyst = true
 
