@@ -12,7 +12,7 @@
 			item: "naturesaura:sky_ingot"
 		}],
 		count: 4L,
-		consume_items: false
+		consume_items: 0b
 	}],
 	rewards: [{
 		uid: "fb0e1632",

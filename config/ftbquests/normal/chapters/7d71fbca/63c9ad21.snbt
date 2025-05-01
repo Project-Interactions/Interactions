@@ -8,12 +8,12 @@
 		uid: "ca0f00a6",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "lifeessence",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "lifeessence"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

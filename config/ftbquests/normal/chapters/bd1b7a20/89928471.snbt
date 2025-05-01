@@ -39,10 +39,7 @@
 		uid: "9285c45d",
 		type: "item",
 		item: {
-			id: "thermalexpansion:device",
-			Damage: 12s,
 			tag: {
-				Facing: 3b,
 				SideCache: [B;
 					0b,
 					1b,
@@ -52,8 +49,11 @@
 					0b
 				],
 				RSControl: 0b,
+				Facing: 3b,
 				Energy: 0
-			}
+			},
+			Damage: 12s,
+			id: "thermalexpansion:device"
 		}
 	},
 	{

@@ -8,12 +8,12 @@
 		uid: "cfe7001a",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "sodium_chloride_solution",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "sodium_chloride_solution"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

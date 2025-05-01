@@ -8,10 +8,10 @@
 		uid: "63f29c69",
 		type: "item",
 		items: [{
-			id: "calculator:energymodule",
-			tag: {}
+			tag: {},
+			id: "calculator:energymodule"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

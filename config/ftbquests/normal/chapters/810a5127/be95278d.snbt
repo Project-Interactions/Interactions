@@ -8,10 +8,10 @@
 		uid: "e539a627",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "gourmaryllis"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	}],
 	rewards: [{

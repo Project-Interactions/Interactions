@@ -12,18 +12,18 @@
 		uid: "9deb85ec",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemrockcrystalsimple",
 			tag: {
 				astralsorcery: {
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					}
 				}
-			}
+			},
+			id: "astralsorcery:itemrockcrystalsimple"
 		}],
 		count: 4L,
 		ignore_nbt: 1b

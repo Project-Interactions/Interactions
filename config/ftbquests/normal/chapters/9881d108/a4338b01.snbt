@@ -12,10 +12,10 @@
 		uid: "8227becb",
 		type: "item",
 		items: [{
-			id: "extrautils2:machine",
 			tag: {
 				Type: "extrautils2:enchanter"
-			}
+			},
+			id: "extrautils2:machine"
 		}]
 	}],
 	rewards: [{

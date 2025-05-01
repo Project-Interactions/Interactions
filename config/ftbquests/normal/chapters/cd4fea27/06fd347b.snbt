@@ -7,7 +7,7 @@
 		items: [{
 			item: "unstabletools:division_sign"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	},
 	{
 		uid: "03a9181f",

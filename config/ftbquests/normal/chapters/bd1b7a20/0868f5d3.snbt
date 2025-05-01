@@ -8,12 +8,12 @@
 		uid: "77e69389",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "chlorine",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "chlorine"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

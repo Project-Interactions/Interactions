@@ -8,7 +8,7 @@
 	dependencies: [
 		"cad12c35"
 	],
-	hide: true,
+	hide: 1b,
 	tasks: [{
 		uid: "88c2d12e",
 		type: "checkmark",

@@ -8,10 +8,10 @@
 		uid: "e71208cf",
 		type: "item",
 		items: [{
-			id: "ae2fc:wireless_fluid_pattern_terminal",
-			tag: {}
+			tag: {},
+			id: "ae2fc:wireless_fluid_pattern_terminal"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

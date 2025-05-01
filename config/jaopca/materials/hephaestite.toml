@@ -1,43 +1,37 @@
-
 #Configurations for material Hephaestite.
 [general]
-	#The alternative names of this material.
-	alternativeNames = []
-	#The byproducts of this material.
-	extras = []
-	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
 	#The module blacklist of this material.
 	moduleBlacklist = []
-	#Should items of this material have the enchanted glow.
-	hasEffect = false
-	#The model type of the material.
-	modelType = "crystal"
+	#The alternative names of this material.
+	alternativeNames = []
 	#The color of this material.
 	color = 9776640
-
+	#The byproducts of this material.
+	extras = []
+	#The model type of the material.
+	modelType = "crystal"
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 [mysticalagriculture]
+	#The amount of material obtained by crafting Mystical Agriculture essence.
+	outputCount = 4
 	#The crop tier of this material.
 	tier = 5
 	#The amount of Mystical Agriculture essence required to craft materials.
 	inputCount = 8
-	#The amount of material obtained by crafting Mystical Agriculture essence.
-	outputCount = 4
-
 [avaritia]
-	#The base amount of blocks required to create one singularity.
-	inputAmount = 300
 	#Should the singularity be added to the Infinity Catalyst recipe.
 	addToCatalyst = true
-
+	#The base amount of blocks required to create one singularity.
+	inputAmount = 300
 [enderio]
 	#The default byproduct material to output in Ender IO's sagmill.
 	byproduct = "minecraft:cobblestone"
-
 [mekanism]
 	#The default base to use in Mekanism's Combiner to recreate ores.
 	oreBase = "minecraft:cobblestone"
-
 [thermalexpansion_mysticalagriculture]
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Phyto-Gro.
 	basicChance = 100
@@ -45,10 +39,8 @@
 	richChance = 105
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
 	fluxChance = 110
-
 [avaritia_singularity]
-	#The base amount of blocks required to create one singularity.
-	inputAmount = 300
 	#Should the singularity be added to the Infinity Catalyst recipe.
 	addToCatalyst = true
-
+	#The base amount of blocks required to create one singularity.
+	inputAmount = 300

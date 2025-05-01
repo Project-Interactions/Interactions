@@ -334,7 +334,8 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockparallelcontroller"
+                "modularmachinery:blockparallelcontroller",
+                "immersiveengineering:sheetmetal@5"
             ]
         },
         {

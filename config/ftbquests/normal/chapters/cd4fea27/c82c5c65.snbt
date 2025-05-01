@@ -5,13 +5,13 @@
 		uid: "f491d9e2",
 		type: "item",
 		items: [{
-			id: "buildinggadgets:destructiontool",
 			tag: {
 				overlay: 1b,
 				fuzzy: 1b
-			}
+			},
+			id: "buildinggadgets:destructiontool"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

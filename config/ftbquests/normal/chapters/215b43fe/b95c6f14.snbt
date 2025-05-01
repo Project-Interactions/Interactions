@@ -12,40 +12,40 @@
 		uid: "6634b2dc",
 		type: "item",
 		items: [{
-			id: "deepmoblearning:glitch_infused_helmet",
-			tag: {}
+			tag: {},
+			id: "deepmoblearning:glitch_infused_helmet"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "12d363d7",
 		type: "item",
 		items: [{
-			id: "deepmoblearning:glitch_infused_chestplate",
-			tag: {}
+			tag: {},
+			id: "deepmoblearning:glitch_infused_chestplate"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "7b058860",
 		type: "item",
 		items: [{
-			id: "deepmoblearning:glitch_infused_leggings",
-			tag: {}
+			tag: {},
+			id: "deepmoblearning:glitch_infused_leggings"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "4cab4097",
 		type: "item",
 		items: [{
-			id: "deepmoblearning:glitch_infused_boots",
-			tag: {}
+			tag: {},
+			id: "deepmoblearning:glitch_infused_boots"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

@@ -11,15 +11,15 @@
 		uid: "cda53252",
 		type: "item",
 		items: [{
-			id: "ceramics:clay_bucket",
 			tag: {
 				fluids: {
-					FluidName: "lava",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "lava"
 				}
-			}
+			},
+			id: "ceramics:clay_bucket"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}],
 	rewards: [{
 		uid: "9302641d",

@@ -14,13 +14,13 @@
 		type: "item",
 		title: "Any calculatorReinforcedStone",
 		items: [{
-			id: "itemfilters:filter",
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "calculatorReinforcedStone"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 8L
 	}],

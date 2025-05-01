@@ -8,10 +8,10 @@
 		uid: "e87fbbd5",
 		type: "item",
 		items: [{
-			id: "bloodmagic:blood_orb",
 			tag: {
 				orb: "bloodmagic:weak"
-			}
+			},
+			id: "bloodmagic:blood_orb"
 		}]
 	}]
 }

@@ -26,15 +26,15 @@
 		uid: "4c4a8986",
 		type: "item",
 		items: [{
-			id: "tconstruct:tooltables",
-			Damage: 1s,
 			tag: {
 				textureBlock: {
-					id: "minecraft:planks",
+					Damage: 0s,
 					Count: 1b,
-					Damage: 0s
+					id: "minecraft:planks"
 				}
-			}
+			},
+			Damage: 1s,
+			id: "tconstruct:tooltables"
 		}],
 		ignore_nbt: 1b
 	},
@@ -42,15 +42,15 @@
 		uid: "b8c521f9",
 		type: "item",
 		items: [{
-			id: "tconstruct:tooltables",
-			Damage: 2s,
 			tag: {
 				textureBlock: {
-					id: "minecraft:log",
+					Damage: 0s,
 					Count: 1b,
-					Damage: 0s
+					id: "minecraft:log"
 				}
-			}
+			},
+			Damage: 2s,
+			id: "tconstruct:tooltables"
 		}],
 		ignore_nbt: 1b
 	},

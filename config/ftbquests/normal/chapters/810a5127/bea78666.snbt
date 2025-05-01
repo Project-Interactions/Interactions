@@ -8,12 +8,12 @@
 		uid: "11ecdf8c",
 		type: "item",
 		items: [{
-			id: "integrateddynamics:energy_battery",
 			tag: {
 				energy: 0
-			}
+			},
+			id: "integrateddynamics:energy_battery"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

@@ -11,10 +11,10 @@
 		uid: "91b22a70",
 		type: "item",
 		items: [{
-			id: "mekanism:gastank",
 			tag: {
 				tier: 4
-			}
+			},
+			id: "mekanism:gastank"
 		}],
 		ignore_nbt: 1b
 	}]

@@ -15,14 +15,14 @@
 		uid: "d421bcf8",
 		type: "item",
 		item: {
-			id: "forestry:can",
-			Damage: 1s,
 			tag: {
 				Fluid: {
-					FluidName: "menrilresin",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "menrilresin"
 				}
-			}
+			},
+			Damage: 1s,
+			id: "forestry:can"
 		},
 		count: 4
 	}]

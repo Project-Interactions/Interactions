@@ -18,14 +18,14 @@
 		uid: "c30a577b",
 		type: "item",
 		item: {
-			id: "thaumcraft:phial",
-			Damage: 1s,
 			tag: {
 				Aspects: [{
 					amount: 10,
 					key: "alienis"
 				}]
-			}
+			},
+			Damage: 1s,
+			id: "thaumcraft:phial"
 		},
 		count: 10
 	},
@@ -33,14 +33,14 @@
 		uid: "822f9b2c",
 		type: "item",
 		item: {
-			id: "thaumcraft:phial",
-			Damage: 1s,
 			tag: {
 				Aspects: [{
 					amount: 10,
 					key: "vitium"
 				}]
-			}
+			},
+			Damage: 1s,
+			id: "thaumcraft:phial"
 		},
 		count: 10
 	}]

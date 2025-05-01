@@ -5,12 +5,12 @@
 		uid: "aba47b07",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "will_alloy",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "will_alloy"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

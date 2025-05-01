@@ -8,10 +8,10 @@
 		uid: "b490a804",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "thermalily"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	}],
 	rewards: [{

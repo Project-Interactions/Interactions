@@ -15,12 +15,12 @@
 		uid: "acbd282e",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "plastic",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "plastic"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

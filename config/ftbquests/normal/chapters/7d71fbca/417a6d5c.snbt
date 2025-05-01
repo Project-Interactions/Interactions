@@ -9,8 +9,8 @@
 		uid: "ec8cf806",
 		type: "item",
 		items: [{
-			id: "bloodmagic:soul_gem",
-			tag: {}
+			tag: {},
+			id: "bloodmagic:soul_gem"
 		}],
 		ignore_nbt: 1b
 	}],
@@ -18,8 +18,8 @@
 		uid: "a5c0262a",
 		type: "item",
 		item: {
-			id: "bloodmagic:soul_gem",
-			tag: {}
+			tag: {},
+			id: "bloodmagic:soul_gem"
 		}
 	}]
 }

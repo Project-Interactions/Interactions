@@ -18,10 +18,10 @@
 		uid: "ed6fd2f0",
 		type: "item",
 		item: {
-			id: "botania:manatablet",
 			tag: {
 				mana: 250000
-			}
+			},
+			id: "botania:manatablet"
 		}
 	}]
 }

@@ -11,12 +11,12 @@
 		uid: "54c3ba96",
 		type: "item",
 		items: [{
-			id: "thaumictinkerer:share_book",
 			tag: {
 				player: "[none]"
-			}
+			},
+			id: "thaumictinkerer:share_book"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

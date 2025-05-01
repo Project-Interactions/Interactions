@@ -19,18 +19,18 @@
 		uid: "85fbcc50",
 		type: "item",
 		item: {
-			id: "simple_trophies:trophy",
 			tag: {
-				TrophyName: "Tier 3",
-				TrophyVariant: "classic",
-				TrophyItem: {
-					id: "contenttweaker:infused_mana_circuit",
-					Count: 1
-				},
-				TrophyColorRed: 0,
+				TrophyColorBlue: 164,
 				TrophyColorGreen: 20,
-				TrophyColorBlue: 164
-			}
+				TrophyColorRed: 0,
+				TrophyItem: {
+					Count: 1,
+					id: "contenttweaker:infused_mana_circuit"
+				},
+				TrophyVariant: "classic",
+				TrophyName: "Tier 3"
+			},
+			id: "simple_trophies:trophy"
 		}
 	}]
 }

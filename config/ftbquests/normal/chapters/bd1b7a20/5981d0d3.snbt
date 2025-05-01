@@ -11,12 +11,12 @@
 		uid: "5908c7e8",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:blueprint",
 			tag: {
 				blueprint: "components"
-			}
+			},
+			id: "immersiveengineering:blueprint"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

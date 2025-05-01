@@ -1,29 +1,26 @@
-
 #Configurations for material Heavymetalelements.
 [general]
-	#The alternative names of this material.
-	alternativeNames = []
-	#The byproducts of this material.
-	extras = []
-	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
 	#The module blacklist of this material.
 	moduleBlacklist = []
-	#Should items of this material have the enchanted glow.
-	hasEffect = false
-	#The model type of the material.
-	modelType = "metallic"
+	#The alternative names of this material.
+	alternativeNames = []
 	#The color of this material.
 	color = 6431009
-
+	#The byproducts of this material.
+	extras = []
+	#The model type of the material.
+	modelType = "metallic"
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 [mysticalagriculture]
+	#The amount of material obtained by crafting Mystical Agriculture essence.
+	outputCount = 4
 	#The crop tier of this material.
 	tier = 5
 	#The amount of Mystical Agriculture essence required to craft materials.
 	inputCount = 8
-	#The amount of material obtained by crafting Mystical Agriculture essence.
-	outputCount = 4
-
 [thermalexpansion_mysticalagriculture]
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Phyto-Gro.
 	basicChance = 100
@@ -31,8 +28,6 @@
 	richChance = 105
 	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
 	fluxChance = 110
-
 [molten]
 	#The temperature of this molten fluid.
 	temperature = 1000
-

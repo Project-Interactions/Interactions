@@ -25,14 +25,14 @@
 		uid: "8fc2ce51",
 		type: "item",
 		item: {
-			id: "thaumcraft:phial",
-			Damage: 1s,
 			tag: {
 				Aspects: [{
 					amount: 10,
 					key: "instrumentum"
 				}]
-			}
+			},
+			Damage: 1s,
+			id: "thaumcraft:phial"
 		},
 		count: 2
 	},
@@ -40,14 +40,14 @@
 		uid: "d91b6c37",
 		type: "item",
 		item: {
-			id: "thaumcraft:phial",
-			Damage: 1s,
 			tag: {
 				Aspects: [{
 					amount: 10,
 					key: "praecantatio"
 				}]
-			}
+			},
+			Damage: 1s,
+			id: "thaumcraft:phial"
 		},
 		count: 2
 	},
@@ -55,14 +55,14 @@
 		uid: "9d665f4e",
 		type: "item",
 		item: {
-			id: "thaumcraft:phial",
-			Damage: 1s,
 			tag: {
 				Aspects: [{
 					amount: 10,
 					key: "terra"
 				}]
-			}
+			},
+			Damage: 1s,
+			id: "thaumcraft:phial"
 		},
 		count: 2
 	}]

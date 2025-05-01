@@ -16,10 +16,10 @@
 		uid: "d4f7887e",
 		type: "item",
 		item: {
-			id: "tconstruct:binding",
 			tag: {
 				Material: "xu_enchanted_metal"
-			}
+			},
+			id: "tconstruct:binding"
 		}
 	}]
 }

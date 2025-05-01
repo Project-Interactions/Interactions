@@ -10,13 +10,13 @@
 		type: "item",
 		title: "Any plankTreatedWood",
 		items: [{
-			id: "itemfilters:filter",
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "plankTreatedWood"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 16L
 	}],
@@ -24,14 +24,14 @@
 		uid: "ff75b1b7",
 		type: "item",
 		item: {
-			id: "forestry:can",
-			Damage: 1s,
 			tag: {
 				Fluid: {
-					FluidName: "creosote",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "creosote"
 				}
-			}
+			},
+			Damage: 1s,
+			id: "forestry:can"
 		},
 		count: 4
 	}]

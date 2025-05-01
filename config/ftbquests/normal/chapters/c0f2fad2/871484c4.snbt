@@ -8,10 +8,10 @@
 		uid: "ad96c090",
 		type: "item",
 		items: [{
-			id: "botania:manatablet",
-			tag: {}
+			tag: {},
+			id: "botania:manatablet"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{

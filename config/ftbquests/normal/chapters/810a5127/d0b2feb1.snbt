@@ -11,13 +11,13 @@
 		uid: "3fcd8fde",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "if.pink_slime",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "if.pink_slime"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}],
 	rewards: [{
 		uid: "a870755b",

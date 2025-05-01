@@ -1,8 +1,6 @@
-
 [general]
 	#The material blacklist of this module.
 	materialBlacklist = []
-
 [recipes]
 	#The materials that should not have crushing to dust recipes added.
 	toDustMaterialBlacklist = []
@@ -10,4 +8,3 @@
 	toCrystalMaterialBlacklist = []
 	#The materials that should not have combining to ore recipes added.
 	toOreMaterialBlacklist = []
-

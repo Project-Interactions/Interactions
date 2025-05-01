@@ -12,18 +12,18 @@
 		uid: "62a6b86f",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any drawerBasic"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "drawerBasic"
 				}
-			}
+			},
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
+				}
+			},
+			id: "itemfilters:filter"
 		}]
 	}]
 }

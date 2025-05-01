@@ -11,10 +11,10 @@
 			item: "immersiveengineering:metal_device1 1 7"
 		},
 		{
-			id: "portabledrill:portable_drill",
 			ForgeCaps: {
 				"portabledrill:energy": 0
-			}
+			},
+			id: "portabledrill:portable_drill"
 		}]
 	}]
 }

@@ -8,11 +8,11 @@
 		uid: "3860c38c",
 		type: "item",
 		items: [{
-			id: "thermalexpansion:machine",
 			tag: {
-				RSControl: 0b,
-				Facing: 3b,
 				Energy: 0,
+				Facing: 3b,
+				RSControl: 0b,
+				Level: 0b,
 				SideCache: [B;
 					1b,
 					1b,
@@ -20,9 +20,9 @@
 					2b,
 					2b,
 					2b
-				],
-				Level: 0b
-			}
+				]
+			},
+			id: "thermalexpansion:machine"
 		}]
 	}]
 }

@@ -15,9 +15,9 @@
 		uid: "ffa5d9bc",
 		type: "item",
 		item: {
-			id: "bloodmagic:soul_gem",
+			tag: {},
 			Damage: 1s,
-			tag: {}
+			id: "bloodmagic:soul_gem"
 		}
 	}]
 }

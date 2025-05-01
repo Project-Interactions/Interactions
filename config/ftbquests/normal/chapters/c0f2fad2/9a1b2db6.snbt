@@ -12,11 +12,11 @@
 		uid: "3ec6b0a1",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:blueprint",
 			tag: {
 				blueprint: "electrode"
-			}
+			},
+			id: "immersiveengineering:blueprint"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

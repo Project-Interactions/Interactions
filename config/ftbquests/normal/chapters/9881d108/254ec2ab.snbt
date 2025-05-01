@@ -11,10 +11,10 @@
 		uid: "26a5ba2c",
 		type: "item",
 		items: [{
-			id: "calculator:calculator",
-			tag: {}
+			tag: {},
+			id: "calculator:calculator"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

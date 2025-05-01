@@ -20,10 +20,10 @@
 		uid: "05cfcb06",
 		type: "item",
 		item: {
-			id: "tconstruct:pick_head",
 			tag: {
 				Material: "mirion"
-			}
+			},
+			id: "tconstruct:pick_head"
 		}
 	}]
 }

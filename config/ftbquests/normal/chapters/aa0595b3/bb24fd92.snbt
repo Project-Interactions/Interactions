@@ -8,18 +8,18 @@
 		uid: "25269323",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreDimensionalShard"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreDimensionalShard"
 				}
-			}
+			},
+			tag: {
+				display: {
+					Name: "Any oreDimensionalShard"
+				}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{

@@ -10,18 +10,18 @@
 		uid: "3c1fab6f",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any LivingMatter"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "LivingMatter"
 				}
-			}
+			},
+			tag: {
+				display: {
+					Name: "Any LivingMatter"
+				}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 4L
 	}]

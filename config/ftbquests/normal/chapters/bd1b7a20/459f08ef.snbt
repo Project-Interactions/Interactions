@@ -63,13 +63,13 @@
 		type: "item",
 		title: "Any blockSteel",
 		items: [{
-			id: "itemfilters:filter",
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "blockSteel"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 9L
 	}],
@@ -77,18 +77,18 @@
 		uid: "3c64cdb7",
 		type: "item",
 		item: {
-			id: "simple_trophies:trophy",
 			tag: {
-				TrophyName: "Tier 1",
-				TrophyVariant: "classic",
-				TrophyItem: {
-					id: "contenttweaker:assembled_manual_circuit",
-					Count: 1
-				},
-				TrophyColorRed: 154,
+				TrophyColorBlue: 154,
 				TrophyColorGreen: 154,
-				TrophyColorBlue: 154
-			}
+				TrophyColorRed: 154,
+				TrophyItem: {
+					Count: 1,
+					id: "contenttweaker:assembled_manual_circuit"
+				},
+				TrophyVariant: "classic",
+				TrophyName: "Tier 1"
+			},
+			id: "simple_trophies:trophy"
 		}
 	}]
 }

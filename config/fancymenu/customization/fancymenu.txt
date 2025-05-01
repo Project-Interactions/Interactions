@@ -405,7 +405,7 @@ customization {
   y = -9
   scale = 1.0
   alignment = left
-  value = §bInteraction §dMade By §6mczph
+  value = §bInteractions §dMade By §6mczph
 }
 
 customization {

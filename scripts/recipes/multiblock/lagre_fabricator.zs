@@ -34,7 +34,6 @@ RecipeBuilder.newBuilder("circuit_stack", "large_fabricator", 10)
 <calculator:circuitboard:7>.withTag({Stable: 0, Analysed: 1 as byte}),
 <calculator:circuitboard:8>.withTag({Stable: 0, Analysed: 1 as byte}),
 <calculator:circuitboard:9>.withTag({Stable: 0, Analysed: 1 as byte}),
-<calculator:circuitboard:11>.withTag({Stable: 0, Analysed: 1 as byte}),
 <calculator:circuitboard:10>.withTag({Stable: 0, Analysed: 1 as byte}),
 <calculator:circuitboard:11>.withTag({Stable: 0, Analysed: 1 as byte}),
 <calculator:circuitboard:12>.withTag({Stable: 0, Analysed: 1 as byte}),

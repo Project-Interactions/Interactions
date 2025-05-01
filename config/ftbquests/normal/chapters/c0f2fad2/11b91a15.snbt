@@ -11,10 +11,10 @@
 		uid: "a2df0bc1",
 		type: "item",
 		items: [{
-			id: "naturesaura:aura_bottle",
 			tag: {
 				stored_type: "naturesaura:nether"
-			}
+			},
+			id: "naturesaura:aura_bottle"
 		}]
 	}]
 }

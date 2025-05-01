@@ -10,13 +10,13 @@
 		type: "item",
 		title: "Any dustSkyStone",
 		items: [{
-			id: "itemfilters:filter",
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustSkyStone"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 4L
 	},

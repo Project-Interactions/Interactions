@@ -8,14 +8,14 @@
 		uid: "104182c4",
 		type: "item",
 		items: [{
-			id: "tconstruct:toolforge",
 			tag: {
 				textureBlock: {
-					id: "minecraft:iron_block",
+					Damage: 0s,
 					Count: 1b,
-					Damage: 0s
+					id: "minecraft:iron_block"
 				}
-			}
+			},
+			id: "tconstruct:toolforge"
 		}],
 		ignore_nbt: 1b
 	}],

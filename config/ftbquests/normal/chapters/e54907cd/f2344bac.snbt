@@ -15,10 +15,10 @@
 		uid: "11011fc3",
 		type: "item",
 		item: {
-			id: "appliedenergistics2:crystal_seed",
 			tag: {
 				progress: 0
-			}
+			},
+			id: "appliedenergistics2:crystal_seed"
 		},
 		count: 4
 	},
@@ -26,11 +26,11 @@
 		uid: "7e7547c3",
 		type: "item",
 		item: {
-			id: "appliedenergistics2:crystal_seed",
-			Damage: 600s,
 			tag: {
 				progress: 600
-			}
+			},
+			Damage: 600s,
+			id: "appliedenergistics2:crystal_seed"
 		},
 		count: 4
 	},
@@ -38,11 +38,11 @@
 		uid: "1bef36cd",
 		type: "item",
 		item: {
-			id: "appliedenergistics2:crystal_seed",
-			Damage: 1200s,
 			tag: {
 				progress: 1200
-			}
+			},
+			Damage: 1200s,
+			id: "appliedenergistics2:crystal_seed"
 		},
 		count: 4
 	}]

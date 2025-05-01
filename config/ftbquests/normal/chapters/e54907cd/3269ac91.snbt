@@ -24,18 +24,18 @@
 		uid: "b7aa0c16",
 		type: "item",
 		item: {
-			id: "simple_trophies:trophy",
 			tag: {
-				TrophyName: "Tier 5",
-				TrophyVariant: "classic",
-				TrophyItem: {
-					id: "contenttweaker:thermal_pneumatic_circuit",
-					Count: 1
-				},
-				TrophyColorRed: 70,
+				TrophyColorBlue: 1,
 				TrophyColorGreen: 185,
-				TrophyColorBlue: 1
-			}
+				TrophyColorRed: 70,
+				TrophyItem: {
+					Count: 1,
+					id: "contenttweaker:thermal_pneumatic_circuit"
+				},
+				TrophyVariant: "classic",
+				TrophyName: "Tier 5"
+			},
+			id: "simple_trophies:trophy"
 		}
 	}]
 }

@@ -20,13 +20,13 @@
 		uid: "85eccb9d",
 		type: "item",
 		item: {
-			id: "ceramics:clay_bucket",
 			tag: {
 				fluids: {
-					FluidName: "lava",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "lava"
 				}
-			}
+			},
+			id: "ceramics:clay_bucket"
 		},
 		count: 2
 	}]

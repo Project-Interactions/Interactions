@@ -12,10 +12,10 @@
 		uid: "1a0f23f6",
 		type: "item",
 		items: [{
-			id: "calculator:scientificcalculator",
-			tag: {}
+			tag: {},
+			id: "calculator:scientificcalculator"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

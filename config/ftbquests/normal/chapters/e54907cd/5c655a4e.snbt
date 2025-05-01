@@ -8,20 +8,20 @@
 		uid: "4cf152ad",
 		type: "item",
 		items: [{
-			id: "mekeng:wireless_gas_terminal",
-			tag: {}
+			tag: {},
+			id: "mekeng:wireless_gas_terminal"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "d2ac5b74",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:wireless_fluid_terminal",
-			tag: {}
+			tag: {},
+			id: "appliedenergistics2:wireless_fluid_terminal"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

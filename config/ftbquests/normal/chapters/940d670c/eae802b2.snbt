@@ -26,10 +26,10 @@
 		uid: "debdfdec",
 		type: "item",
 		item: {
-			id: "thaumicenergistics:essentia_cell_4k",
 			tag: {
 				filter: {}
-			}
+			},
+			id: "thaumicenergistics:essentia_cell_4k"
 		}
 	}]
 }

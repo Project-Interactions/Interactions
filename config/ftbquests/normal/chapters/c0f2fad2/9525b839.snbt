@@ -58,13 +58,13 @@
 		type: "item",
 		title: "Any blockSteel",
 		items: [{
-			id: "itemfilters:filter",
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "blockSteel"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 2L
 	},

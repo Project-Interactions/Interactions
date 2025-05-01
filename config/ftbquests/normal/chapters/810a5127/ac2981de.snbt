@@ -8,10 +8,10 @@
 		uid: "8c9aec7b",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "munchdew"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	}],
 	rewards: [{

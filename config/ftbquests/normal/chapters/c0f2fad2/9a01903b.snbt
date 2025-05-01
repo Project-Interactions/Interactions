@@ -14,7 +14,7 @@
 			item: "naturesaura:wood_stand"
 		}],
 		count: 8L,
-		consume_items: false
+		consume_items: 0b
 	},
 	{
 		uid: "2d76c5d9",

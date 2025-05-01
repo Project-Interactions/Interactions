@@ -16,10 +16,10 @@
 		uid: "3203a421",
 		type: "item",
 		items: [{
-			id: "tconevo:part_arcane_focus",
 			tag: {
 				Material: "dragonstone"
-			}
+			},
+			id: "tconevo:part_arcane_focus"
 		}]
 	},
 	{

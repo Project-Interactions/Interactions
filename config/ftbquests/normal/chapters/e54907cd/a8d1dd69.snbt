@@ -30,10 +30,10 @@
 		uid: "4c116111",
 		type: "item",
 		items: [{
-			id: "embers:tinker_hammer",
-			tag: {}
+			tag: {},
+			id: "embers:tinker_hammer"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

@@ -1,5 +1,3 @@
-
 [general]
 	#The material blacklist of this module.
 	materialBlacklist = []
-

@@ -12,39 +12,39 @@
 		uid: "f6b46f87",
 		type: "item",
 		items: [{
-			id: "extendedae:infinity_cell",
 			tag: {
+				t: "i",
 				r: {
-					id: "minecraft:cobblestone",
-					Count: 1,
-					Damage: 0s,
-					Cnt: 1L,
 					Req: 0L,
+					Cnt: 1L,
+					Damage: 0s,
+					Count: 1,
+					id: "minecraft:cobblestone",
 					Craft: 0b
-				},
-				t: "i"
-			}
+				}
+			},
+			id: "extendedae:infinity_cell"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "5ebc0f25",
 		type: "item",
 		items: [{
-			id: "extendedae:infinity_cell",
 			tag: {
+				t: "f",
 				r: {
 					FluidName: "water",
-					Count: 0b,
-					Cnt: 1L,
 					Req: 0L,
+					Cnt: 1L,
+					Count: 0b,
 					Craft: 0b
-				},
-				t: "f"
-			}
+				}
+			},
+			id: "extendedae:infinity_cell"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

@@ -106,7 +106,7 @@ var arrow_shaft as IIngredient[string] ={
     "treatedwood":<ore:plankTreatedWood>,
     "livingwood":<botania:livingwood>,
     "dreamwood":<botania:dreamwood>,
-    "polyethylene":<mekanism:polyethene:2>,
+    "polyethylene":<mekanism:hdpe_sheet>,
     "tnt":<minecraft:tnt>,
     "skyroot":<aether_legacy:skyroot_plank>,
     "wood":<minecraft:planks:*>
@@ -176,7 +176,7 @@ var others as IIngredient[string] ={
     "treatedwood":<ore:plankTreatedWood>,
     "livingwood":<botania:livingwood>,
     "dreamwood":<botania:dreamwood>,
-    "polyethylene":<mekanism:polyethene:2>,
+    "polyethylene":<mekanism:hdpe_sheet>,
     "skyroot":<aether_legacy:skyroot_plank>,
     "wood":<minecraft:planks:*>,
     "flint":<minecraft:flint>,

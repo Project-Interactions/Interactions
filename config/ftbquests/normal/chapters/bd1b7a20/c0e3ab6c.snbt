@@ -22,15 +22,15 @@
 		uid: "57b2892b",
 		type: "item",
 		item: {
-			id: "artisanautomation:upgrade_speed",
 			tag: {
 				ArtisanWorktables: {
 					Upgrade: {
-						Speed: 0.5d,
-						EnergyUsage: 0.5d
+						EnergyUsage: 0.5d,
+						Speed: 0.5d
 					}
 				}
-			}
+			},
+			id: "artisanautomation:upgrade_speed"
 		}
 	}]
 }

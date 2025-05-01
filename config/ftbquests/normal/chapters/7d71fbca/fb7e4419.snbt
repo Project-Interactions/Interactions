@@ -8,12 +8,12 @@
 		uid: "f3f3f534",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "mana",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "mana"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

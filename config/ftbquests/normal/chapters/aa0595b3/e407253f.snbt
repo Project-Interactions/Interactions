@@ -20,19 +20,19 @@
 		uid: "40c6d188",
 		type: "item",
 		item: {
-			id: "simple_trophies:trophy",
 			tag: {
-				TrophyName: "Welcome To The End",
-				TrophyVariant: "classic",
-				TrophyItem: {
-					id: "avaritia:resource",
-					Count: 1,
-					Damage: 6s
-				},
-				TrophyColorRed: 255,
+				TrophyColorBlue: 255,
 				TrophyColorGreen: 0,
-				TrophyColorBlue: 255
-			}
+				TrophyColorRed: 255,
+				TrophyItem: {
+					Damage: 6s,
+					Count: 1,
+					id: "avaritia:resource"
+				},
+				TrophyVariant: "classic",
+				TrophyName: "Welcome To The End"
+			},
+			id: "simple_trophies:trophy"
 		}
 	}]
 }

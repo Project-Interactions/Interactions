@@ -9,11 +9,11 @@
 		uid: "01b7d167",
 		type: "item",
 		items: [{
-			id: "unstabletools:division_sign",
 			tag: {
 				stable: 1b
-			}
+			},
+			id: "unstabletools:division_sign"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

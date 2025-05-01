@@ -11,10 +11,10 @@
 		uid: "82a53a31",
 		type: "item",
 		items: [{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		}],
 		ignore_nbt: 1b
 	}],

@@ -11,18 +11,18 @@
 		uid: "7db370f3",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotUnstable"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotUnstable"
 				}
-			}
+			},
+			tag: {
+				display: {
+					Name: "Any ingotUnstable"
+				}
+			},
+			id: "itemfilters:filter"
 		}],
 		ignore_nbt: 1b
 	}]

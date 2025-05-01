@@ -25,17 +25,17 @@
 		uid: "51a9bcd9",
 		type: "item",
 		items: [{
-			id: "libvulpes:linker",
 			tag: {
 				MasterPos: {
-					MasterX: 0,
-					MasterY: 0,
 					MasterZ: 0,
+					MasterY: 0,
+					MasterX: 0,
 					dimId: -1
 				}
-			}
+			},
+			id: "libvulpes:linker"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

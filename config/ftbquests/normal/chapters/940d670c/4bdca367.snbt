@@ -11,15 +11,15 @@
 		uid: "5608897c",
 		type: "item",
 		items: [{
-			id: "nae2:pattern_multiplier",
 			tag: {
 				inv: {
 					Items: [],
 					Size: 27
 				}
-			}
+			},
+			id: "nae2:pattern_multiplier"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

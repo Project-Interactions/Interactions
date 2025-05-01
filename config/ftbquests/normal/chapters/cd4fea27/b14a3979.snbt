@@ -8,12 +8,12 @@
 		uid: "9e244550",
 		type: "item",
 		items: [{
-			id: "unstabletools:division_sign",
 			tag: {
 				stable: 1b,
 				activated: 1b
-			}
+			},
+			id: "unstabletools:division_sign"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

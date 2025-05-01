@@ -5,12 +5,12 @@
 		uid: "6bc9aa84",
 		type: "item",
 		items: [{
-			id: "buildinggadgets:copypastetool",
 			tag: {
 				mode: "Copy"
-			}
+			},
+			id: "buildinggadgets:copypastetool"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

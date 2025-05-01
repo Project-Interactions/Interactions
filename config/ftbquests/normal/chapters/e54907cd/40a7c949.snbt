@@ -8,12 +8,12 @@
 		uid: "f835e864",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "blend_caminite",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "blend_caminite"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

@@ -13,10 +13,10 @@
 		uid: "eac6d45f",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:conveyor",
 			tag: {
 				conveyorType: "immersiveengineering:conveyor"
-			}
+			},
+			id: "immersiveengineering:conveyor"
 		}],
 		count: 2L
 	},

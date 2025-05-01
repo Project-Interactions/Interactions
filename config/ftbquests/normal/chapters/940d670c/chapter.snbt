@@ -1,7 +1,7 @@
 {
 	title: "{940d670c.ia.title}",
 	icon: "ae2fc:dual_interface",
-	always_invisible: false,
+	always_invisible: 0b,
 	group: -448198707,
 	default_quest_shape: ""
 }

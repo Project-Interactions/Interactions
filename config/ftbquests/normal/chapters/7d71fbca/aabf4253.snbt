@@ -12,30 +12,30 @@
 		uid: "0f079254",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "orechid"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	},
 	{
 		uid: "d2c878bc",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "orechidIgnem"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	},
 	{
 		uid: "27183325",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "orechidEndium"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	}]
 }

@@ -10,7 +10,7 @@
 		items: [{
 			item: "effortlessbuilding:reach_upgrade3"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

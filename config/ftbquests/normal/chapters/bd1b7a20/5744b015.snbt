@@ -17,9 +17,24 @@
 		uid: "91d63f71",
 		type: "item",
 		item: {
-			id: "tconstruct:lumberaxe",
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
 			tag: {
+				Unbreakable: 1b,
 				TinkerData: {
+					UsedModifiers: 6,
 					Materials: [
 						"skyblock2",
 						"skyblock",
@@ -31,24 +46,39 @@
 						"log_breaker",
 						"reinforced",
 						"soulbound"
-					],
-					UsedModifiers: 6
+					]
 				},
+				Modifiers: [{
+					color: -3652181,
+					identifier: "skyblock",
+					level: 1
+				},
+				{
+					color: 16777215,
+					identifier: "tinkertweaks",
+					level: 1
+				},
+				{
+					color: 9659178,
+					identifier: "log_breaker",
+					level: 1
+				},
+				{
+					color: 5254787,
+					identifier: "reinforced",
+					level: 5
+				},
+				{
+					color: 16120748,
+					identifier: "soulbound"
+				}],
 				Stats: {
-					Durability: 1,
+					FreeModifiers: 0,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
 					HarvestLevel: 0,
 					Attack: 0.0f,
-					MiningSpeed: 0.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 0
-				},
-				StatsOriginal: {
-					Durability: 2,
-					HarvestLevel: 0,
-					Attack: 2.75f,
-					MiningSpeed: 0.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
+					Durability: 1
 				},
 				Special: {
 					Categories: [
@@ -57,64 +87,49 @@
 						"tool"
 					]
 				},
-				Modifiers: [{
-					identifier: "skyblock",
-					color: -3652181,
-					level: 1
-				},
-				{
-					identifier: "tinkertweaks",
-					color: 16777215,
-					level: 1
-				},
-				{
-					identifier: "log_breaker",
-					color: 9659178,
-					level: 1
-				},
-				{
-					identifier: "reinforced",
-					color: 5254787,
-					level: 5
-				},
-				{
-					identifier: "soulbound",
-					color: 16120748
-				}],
 				Traits: [
 					"skyblock",
 					"tinkertweaks",
 					"log_breaker",
 					"reinforced"
 				],
-				Unbreakable: 1b,
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.75f,
+					Durability: 2
+				},
 				display: {
 					LocName: "item.tinkerskyblock.axe"
 				}
 			},
-			ForgeCaps: {
-				"plustic:fruitsalad_cap": {
-					Items: [],
-					Size: 5
-				},
-				"plustic:": {
-					Items: [],
-					Size: 1
-				},
-				"plustic:musicofthespheres_cap": {
-					Items: [],
-					Size: 1
-				}
-			}
+			id: "tconstruct:lumberaxe"
 		}
 	},
 	{
 		uid: "fefdbe28",
 		type: "item",
 		item: {
-			id: "tconstruct:pickaxe",
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
 			tag: {
+				Unbreakable: 1b,
 				TinkerData: {
+					UsedModifiers: 6,
 					Materials: [
 						"skyblock2",
 						"skyblock",
@@ -125,24 +140,39 @@
 						"cobble_breaker",
 						"reinforced",
 						"soulbound"
-					],
-					UsedModifiers: 6
+					]
 				},
+				Modifiers: [{
+					color: -3652181,
+					identifier: "skyblock",
+					level: 1
+				},
+				{
+					color: 16777215,
+					identifier: "tinkertweaks",
+					level: 1
+				},
+				{
+					color: 10000536,
+					identifier: "cobble_breaker",
+					level: 1
+				},
+				{
+					color: 5254787,
+					identifier: "reinforced",
+					level: 5
+				},
+				{
+					color: 16120748,
+					identifier: "soulbound"
+				}],
 				Stats: {
-					Durability: 1,
+					FreeModifiers: 0,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
 					HarvestLevel: 0,
 					Attack: 0.0f,
-					MiningSpeed: 0.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 0
-				},
-				StatsOriginal: {
-					Durability: 1,
-					HarvestLevel: 0,
-					Attack: 0.75f,
-					MiningSpeed: 0.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
+					Durability: 1
 				},
 				Special: {
 					Categories: [
@@ -151,64 +181,49 @@
 						"tool"
 					]
 				},
-				Modifiers: [{
-					identifier: "skyblock",
-					color: -3652181,
-					level: 1
-				},
-				{
-					identifier: "tinkertweaks",
-					color: 16777215,
-					level: 1
-				},
-				{
-					identifier: "cobble_breaker",
-					color: 10000536,
-					level: 1
-				},
-				{
-					identifier: "reinforced",
-					color: 5254787,
-					level: 5
-				},
-				{
-					identifier: "soulbound",
-					color: 16120748
-				}],
 				Traits: [
 					"skyblock",
 					"tinkertweaks",
 					"cobble_breaker",
 					"reinforced"
 				],
-				Unbreakable: 1b,
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 0.75f,
+					Durability: 1
+				},
 				display: {
 					LocName: "item.tinkerskyblock.pickaxe"
 				}
 			},
-			ForgeCaps: {
-				"plustic:fruitsalad_cap": {
-					Items: [],
-					Size: 5
-				},
-				"plustic:": {
-					Items: [],
-					Size: 1
-				},
-				"plustic:musicofthespheres_cap": {
-					Items: [],
-					Size: 1
-				}
-			}
+			id: "tconstruct:pickaxe"
 		}
 	},
 	{
 		uid: "c121f2c7",
 		type: "item",
 		item: {
-			id: "tconstruct:scythe",
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
 			tag: {
+				Unbreakable: 1b,
 				TinkerData: {
+					UsedModifiers: 8,
 					Materials: [
 						"skyblock2",
 						"skyblock",
@@ -222,24 +237,53 @@
 						"soulbound",
 						"harvestwidth",
 						"harvestheight"
-					],
-					UsedModifiers: 8
+					]
 				},
+				Modifiers: [{
+					color: -3652181,
+					identifier: "skyblock",
+					level: 1
+				},
+				{
+					color: 16777215,
+					identifier: "tinkertweaks",
+					level: 1,
+					bonus_modifiers: 0,
+					xp: 7
+				},
+				{
+					color: 51456,
+					identifier: "leaf_breaker",
+					level: 1
+				},
+				{
+					color: 5254787,
+					identifier: "reinforced",
+					level: 5
+				},
+				{
+					color: 16120748,
+					identifier: "soulbound"
+				},
+				{
+					color: 13301410,
+					identifier: "harvestwidth"
+				},
+				{
+					color: 13301410,
+					identifier: "harvestheight"
+				}],
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
 				Stats: {
-					Durability: 1,
+					FreeModifiers: 0,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
 					HarvestLevel: 0,
 					Attack: 0.0f,
-					MiningSpeed: 0.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 0
-				},
-				StatsOriginal: {
-					Durability: 2,
-					HarvestLevel: 0,
-					Attack: 0.75f,
-					MiningSpeed: 0.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
+					Durability: 1
 				},
 				Special: {
 					Categories: [
@@ -249,78 +293,49 @@
 						"tool"
 					]
 				},
-				Modifiers: [{
-					identifier: "skyblock",
-					color: -3652181,
-					level: 1
-				},
-				{
-					identifier: "tinkertweaks",
-					color: 16777215,
-					level: 1,
-					xp: 7,
-					bonus_modifiers: 0
-				},
-				{
-					identifier: "leaf_breaker",
-					color: 51456,
-					level: 1
-				},
-				{
-					identifier: "reinforced",
-					color: 5254787,
-					level: 5
-				},
-				{
-					identifier: "soulbound",
-					color: 16120748
-				},
-				{
-					identifier: "harvestwidth",
-					color: 13301410
-				},
-				{
-					identifier: "harvestheight",
-					color: 13301410
-				}],
 				Traits: [
 					"skyblock",
 					"tinkertweaks",
 					"leaf_breaker",
 					"reinforced"
 				],
-				Unbreakable: 1b,
-				ench: [{
-					id: 33s,
-					lvl: 1s
-				}],
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 0.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 0.75f,
+					Durability: 2
+				},
 				display: {
 					LocName: "item.tinkerskyblock.scythe"
 				}
 			},
-			ForgeCaps: {
-				"plustic:fruitsalad_cap": {
-					Items: [],
-					Size: 5
-				},
-				"plustic:": {
-					Items: [],
-					Size: 1
-				},
-				"plustic:musicofthespheres_cap": {
-					Items: [],
-					Size: 1
-				}
-			}
+			id: "tconstruct:scythe"
 		}
 	},
 	{
 		uid: "31b00ced",
 		type: "item",
 		item: {
-			id: "tconstruct:frypan",
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
 			tag: {
+				Unbreakable: 1b,
 				TinkerData: {
+					UsedModifiers: 15,
 					Materials: [
 						"skyblock",
 						"sponge"
@@ -330,24 +345,51 @@
 						"knockback",
 						"reinforced",
 						"soulbound"
-					],
-					UsedModifiers: 15
+					]
 				},
+				Modifiers: [{
+					color: -3652181,
+					identifier: "skyblock",
+					level: 1
+				},
+				{
+					color: -3486642,
+					identifier: "squeaky",
+					level: 1
+				},
+				{
+					color: 16777215,
+					identifier: "tinkertweaks",
+					level: 1
+				},
+				{
+					color: 10461087,
+					identifier: "knockback",
+					max: 100,
+					extraInfo: "99 / 100",
+					level: 10,
+					current: 100
+				},
+				{
+					color: 5254787,
+					identifier: "reinforced",
+					level: 5
+				},
+				{
+					color: 16120748,
+					identifier: "soulbound"
+				}],
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
 				Stats: {
-					Durability: 1,
-					HarvestLevel: 0,
-					Attack: 0.0f,
+					FreeModifiers: 0,
 					MiningSpeed: 0.0f,
 					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 0
-				},
-				StatsOriginal: {
-					Durability: 788,
 					HarvestLevel: 0,
 					Attack: 0.0f,
-					MiningSpeed: 2.265f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
+					Durability: 1
 				},
 				Special: {
 					Categories: [
@@ -355,38 +397,6 @@
 						"tool"
 					]
 				},
-				Modifiers: [{
-					identifier: "skyblock",
-					color: -3652181,
-					level: 1
-				},
-				{
-					identifier: "squeaky",
-					color: -3486642,
-					level: 1
-				},
-				{
-					identifier: "tinkertweaks",
-					color: 16777215,
-					level: 1
-				},
-				{
-					identifier: "knockback",
-					color: 10461087,
-					level: 10,
-					current: 100,
-					max: 100,
-					extraInfo: "99 / 100"
-				},
-				{
-					identifier: "reinforced",
-					color: 5254787,
-					level: 5
-				},
-				{
-					identifier: "soulbound",
-					color: 16120748
-				}],
 				Traits: [
 					"skyblock",
 					"squeaky",
@@ -394,449 +404,439 @@
 					"knockback",
 					"reinforced"
 				],
-				ench: [{
-					id: 33s,
-					lvl: 1s
-				}],
-				Unbreakable: 1b,
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.265f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					Durability: 788
+				},
 				display: {
 					LocName: "item.tinkerskyblock.frypan"
 				}
 			},
-			ForgeCaps: {
-				"plustic:fruitsalad_cap": {
-					Items: [],
-					Size: 5
-				},
-				"plustic:": {
-					Items: [],
-					Size: 1
-				},
-				"plustic:musicofthespheres_cap": {
-					Items: [],
-					Size: 1
-				}
-			}
+			id: "tconstruct:frypan"
 		}
 	},
 	{
 		uid: "2091d740",
 		type: "item",
 		item: {
-			id: "akashictome:tome",
 			tag: {
+				"akashictome:is_morphing": 1b,
 				"akashictome:data": {
-					industrialforegoing: {
-						id: "industrialforegoing:book_manual",
-						Count: 1,
+					forestry: {
+						Damage: 0s,
 						tag: {
-							"akashictome:definedMod": "industrialforegoing"
+							"akashictome:definedMod": "forestry"
 						},
-						Damage: 0s
+						Count: 1,
+						id: "forestry:book_forester"
 					},
 					tconstruct: {
-						id: "tconstruct:book",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"akashictome:definedMod": "tconstruct"
 						},
-						Damage: 0s
-					},
-					lightningcraft: {
-						id: "lightningcraft:guide",
 						Count: 1,
-						tag: {
-							"akashictome:definedMod": "lightningcraft"
-						},
-						Damage: 0s
-					},
-					astralsorcery: {
-						id: "astralsorcery:itemjournal",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "astralsorcery"
-						},
-						Damage: 0s
-					},
-					ftbquests: {
-						id: "ftbquests:book",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "ftbquests"
-						},
-						Damage: 0s
-					},
-					immersiveengineering: {
-						id: "immersiveengineering:tool",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "immersiveengineering"
-						},
-						Damage: 3s
-					},
-					qmd: {
-						id: "patchouli:guide_book",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "qmd",
-							"patchouli:book": "qmd:guide"
-						},
-						Damage: 0s
-					},
-					valkyrielib: {
-						id: "valkyrielib:guide",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "valkyrielib"
-						},
-						Damage: 0s
-					},
-					rftools: {
-						id: "rftools:rftools_manual",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "rftools"
-						},
-						Damage: 0s
-					},
-					extendedcrafting: {
-						id: "extendedcrafting:guide",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "extendedcrafting"
-						},
-						Damage: 0s
-					},
-					draconicevolution: {
-						id: "draconicevolution:info_tablet",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "draconicevolution"
-						},
-						Damage: 0s
-					},
-					actuallyadditions: {
-						id: "actuallyadditions:item_booklet",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "actuallyadditions"
-						},
-						Damage: 0s
-					},
-					opencomputers: {
-						id: "opencomputers:tool",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "opencomputers"
-						},
-						Damage: 4s
-					},
-					hammercore: {
-						id: "hammercore:manual",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "hammercore"
-						},
-						Damage: 0s
-					},
-					cookingforblockheads: {
-						id: "cookingforblockheads:recipe_book",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "cookingforblockheads"
-						},
-						Damage: 0s
-					},
-					xnet: {
-						id: "xnet:xnet_manual",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "xnet"
-						},
-						Damage: 0s
-					},
-					nuclearcraft: {
-						id: "patchouli:guide_book",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "nuclearcraft",
-							"patchouli:book": "nuclearcraft:guide"
-						},
-						Damage: 0s
+						id: "tconstruct:book"
 					},
 					rftoolscontrol: {
-						id: "rftoolscontrol:rftoolscontrol_manual",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"akashictome:definedMod": "rftoolscontrol"
 						},
-						Damage: 0s
-					},
-					conarm: {
-						id: "conarm:book",
 						Count: 1,
-						tag: {
-							"akashictome:definedMod": "conarm"
-						},
-						Damage: 0s
-					},
-					pneumaticcraft: {
-						id: "patchouli:guide_book",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "pneumaticcraft",
-							"patchouli:book": "pneumaticcraft:book"
-						},
-						Damage: 0s
-					},
-					naturesaura: {
-						id: "patchouli:guide_book",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "naturesaura",
-							"patchouli:book": "naturesaura:book"
-						},
-						Damage: 0s
-					},
-					cookingforblockheads1: {
-						id: "cookingforblockheads:recipe_book",
-						Count: 1,
-						tag: {
-							"akashictome:definedMod": "cookingforblockheads1"
-						},
-						Damage: 1s
+						id: "rftoolscontrol:rftoolscontrol_manual"
 					},
 					engineersdecor: {
-						id: "patchouli:guide_book",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"akashictome:definedMod": "engineersdecor",
 							"patchouli:book": "engineersdecor:engineersdecor_manual"
 						},
-						Damage: 0s
-					},
-					cookingforblockheads2: {
-						id: "cookingforblockheads:recipe_book",
 						Count: 1,
+						id: "patchouli:guide_book"
+					},
+					hammercore: {
+						Damage: 0s,
 						tag: {
-							"akashictome:definedMod": "cookingforblockheads2"
+							"akashictome:definedMod": "hammercore"
 						},
-						Damage: 2s
+						Count: 1,
+						id: "hammercore:manual"
+					},
+					cookingforblockheads: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads"
+						},
+						Count: 1,
+						id: "cookingforblockheads:recipe_book"
+					},
+					industrialforegoing: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "industrialforegoing"
+						},
+						Count: 1,
+						id: "industrialforegoing:book_manual"
 					},
 					deepmoblearning: {
-						id: "patchouli:guide_book",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"akashictome:definedMod": "deepmoblearning",
 							"patchouli:book": "deepmoblearning:book"
 						},
-						Damage: 0s
+						Count: 1,
+						id: "patchouli:guide_book"
+					},
+					conarm: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "conarm"
+						},
+						Count: 1,
+						id: "conarm:book"
 					},
 					modularrouters: {
-						id: "guideapi:modularrouters-guidebook",
-						Count: 1,
+						Damage: 0s,
 						tag: {
-							"akashictome:definedMod": "modularrouters",
 							G-API_Category_Page: 0,
+							"akashictome:definedMod": "modularrouters",
+							G-API_Page: 0,
 							G-API_Category: 4,
-							G-API_Entry_Page: 0,
-							G-API_Page: 0
+							G-API_Entry_Page: 0
 						},
-						Damage: 0s
+						Count: 1,
+						id: "guideapi:modularrouters-guidebook"
+					},
+					opencomputers: {
+						Damage: 4s,
+						tag: {
+							"akashictome:definedMod": "opencomputers"
+						},
+						Count: 1,
+						id: "opencomputers:tool"
+					},
+					valkyrielib: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "valkyrielib"
+						},
+						Count: 1,
+						id: "valkyrielib:guide"
+					},
+					actuallyadditions: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "actuallyadditions"
+						},
+						Count: 1,
+						id: "actuallyadditions:item_booklet"
+					},
+					qmd: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "qmd",
+							"patchouli:book": "qmd:guide"
+						},
+						Count: 1,
+						id: "patchouli:guide_book"
+					},
+					cookingforblockheads2: {
+						Damage: 2s,
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads2"
+						},
+						Count: 1,
+						id: "cookingforblockheads:recipe_book"
+					},
+					naturesaura: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "naturesaura",
+							"patchouli:book": "naturesaura:book"
+						},
+						Count: 1,
+						id: "patchouli:guide_book"
+					},
+					astralsorcery: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "astralsorcery"
+						},
+						Count: 1,
+						id: "astralsorcery:itemjournal"
+					},
+					xnet: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "xnet"
+						},
+						Count: 1,
+						id: "xnet:xnet_manual"
+					},
+					rftools: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "rftools"
+						},
+						Count: 1,
+						id: "rftools:rftools_manual"
 					},
 					practicallogistics2: {
-						id: "practicallogistics2:plguide",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"akashictome:definedMod": "practicallogistics2"
 						},
-						Damage: 0s
-					},
-					forestry: {
-						id: "forestry:book_forester",
 						Count: 1,
+						id: "practicallogistics2:plguide"
+					},
+					draconicevolution: {
+						Damage: 0s,
 						tag: {
-							"akashictome:definedMod": "forestry"
+							"akashictome:definedMod": "draconicevolution"
 						},
-						Damage: 0s
+						Count: 1,
+						id: "draconicevolution:info_tablet"
+					},
+					lightningcraft: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "lightningcraft"
+						},
+						Count: 1,
+						id: "lightningcraft:guide"
+					},
+					ftbquests: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "ftbquests"
+						},
+						Count: 1,
+						id: "ftbquests:book"
+					},
+					nuclearcraft: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "nuclearcraft",
+							"patchouli:book": "nuclearcraft:guide"
+						},
+						Count: 1,
+						id: "patchouli:guide_book"
+					},
+					extendedcrafting: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "extendedcrafting"
+						},
+						Count: 1,
+						id: "extendedcrafting:guide"
+					},
+					cookingforblockheads1: {
+						Damage: 1s,
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads1"
+						},
+						Count: 1,
+						id: "cookingforblockheads:recipe_book"
+					},
+					immersiveengineering: {
+						Damage: 3s,
+						tag: {
+							"akashictome:definedMod": "immersiveengineering"
+						},
+						Count: 1,
+						id: "immersiveengineering:tool"
+					},
+					pneumaticcraft: {
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "pneumaticcraft",
+							"patchouli:book": "pneumaticcraft:book"
+						},
+						Count: 1,
+						id: "patchouli:guide_book"
 					}
-				},
-				"akashictome:is_morphing": 1b
-			}
+				}
+			},
+			id: "akashictome:tome"
 		}
 	},
 	{
 		uid: "940427ac",
 		type: "item",
 		item: {
-			id: "omniwand:wand",
 			tag: {
+				"omniwand:is_transforming": 1b,
 				"omniwand:data": {
-					calculator: {
-						id: "calculator:wrench",
-						Count: 1,
+					forestry: {
+						Damage: 0s,
 						tag: {
-							"omniwand:definedMod": "calculator"
+							"omniwand:definedMod": "forestry"
 						},
-						Damage: 0s
+						Count: 1,
+						id: "forestry:wrench"
+					},
+					teslacorelib: {
+						Damage: 0s,
+						tag: {
+							"omniwand:is_transforming": 1b,
+							"omniwand:displayName": "Tesla扳手",
+							"omniwand:definedMod": "teslacorelib",
+							display: {
+								Name: "Omniwand (Tesla扳手)"
+							}
+						},
+						Count: 1,
+						id: "teslacorelib:wrench"
+					},
+					enderio: {
+						Damage: 0s,
+						tag: {
+							"omniwand:definedMod": "enderio"
+						},
+						Count: 1,
+						id: "enderio:item_yeta_wrench"
+					},
+					embers: {
+						Damage: 0s,
+						tag: {
+							"omniwand:definedMod": "embers"
+						},
+						Count: 1,
+						id: "embers:tinker_hammer"
+					},
+					botania: {
+						Damage: 0s,
+						tag: {
+							color2: 6,
+							color1: 6,
+							"omniwand:definedMod": "botania",
+							boundTileZ: 0,
+							boundTileX: 0,
+							boundTileY: -1
+						},
+						Count: 1,
+						id: "botania:twigwand"
 					},
 					integratedtunnels: {
-						id: "integrateddynamics:wrench",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"omniwand:definedMod": "integratedtunnels"
 						},
-						Damage: 0s
+						Count: 1,
+						id: "integrateddynamics:wrench"
 					},
 					astralsorcery: {
-						id: "astralsorcery:itemwand",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							astralsorcery: {},
 							"omniwand:definedMod": "astralsorcery"
 						},
-						Damage: 0s
-					},
-					immersiveengineering: {
-						id: "immersiveengineering:tool",
 						Count: 1,
-						tag: {
-							"omniwand:definedMod": "immersiveengineering"
-						},
-						Damage: 0s
+						id: "astralsorcery:itemwand"
 					},
-					embers: {
-						id: "embers:tinker_hammer",
-						Count: 1,
+					thermalfoundation: {
+						Damage: 0s,
 						tag: {
-							"omniwand:definedMod": "embers"
+							"omniwand:is_transforming": 1b,
+							"omniwand:displayName": "新月锤",
+							"omniwand:definedMod": "thermalfoundation",
+							display: {
+								Name: "Omniwand (新月锤)"
+							}
 						},
-						Damage: 0s
+						Count: 1,
+						id: "thermalfoundation:wrench"
 					},
 					rftools: {
-						id: "rftools:smartwrench",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"omniwand:definedMod": "rftools"
 						},
-						Damage: 0s
-					},
-					botania: {
-						id: "botania:twigwand",
 						Count: 1,
-						tag: {
-							color1: 6,
-							color2: 6,
-							boundTileZ: 0,
-							boundTileX: 0,
-							boundTileY: -1,
-							"omniwand:definedMod": "botania"
-						},
-						Damage: 0s
-					},
-					draconicevolution: {
-						id: "draconicevolution:crystal_binder",
-						Count: 1,
-						tag: {
-							"omniwand:definedMod": "draconicevolution"
-						},
-						Damage: 0s
-					},
-					enderio: {
-						id: "enderio:item_yeta_wrench",
-						Count: 1,
-						tag: {
-							"omniwand:definedMod": "enderio"
-						},
-						Damage: 0s
-					},
-					thermalfoundation: {
-						id: "thermalfoundation:wrench",
-						Count: 1,
-						tag: {
-							"omniwand:displayName": "新月锤",
-							display: {
-								Name: "Omniwand (新月锤)"
-							},
-							"omniwand:definedMod": "thermalfoundation",
-							"omniwand:is_transforming": 1b
-						},
-						Damage: 0s
+						id: "rftools:smartwrench"
 					},
 					practicallogistics2: {
-						id: "practicallogistics2:operator",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"omniwand:definedMod": "practicallogistics2"
 						},
-						Damage: 0s
-					},
-					opencomputers: {
-						id: "opencomputers:wrench",
 						Count: 1,
+						id: "practicallogistics2:operator"
+					},
+					draconicevolution: {
+						Damage: 0s,
 						tag: {
-							"omniwand:definedMod": "opencomputers"
+							"omniwand:definedMod": "draconicevolution"
 						},
-						Damage: 0s
+						Count: 1,
+						id: "draconicevolution:crystal_binder"
 					},
 					littletiles: {
-						id: "littletiles:wrench",
-						Count: 1,
+						Damage: 0s,
 						tag: {
 							"omniwand:definedMod": "littletiles"
 						},
-						Damage: 0s
-					},
-					forestry: {
-						id: "forestry:wrench",
 						Count: 1,
-						tag: {
-							"omniwand:definedMod": "forestry"
-						},
-						Damage: 0s
-					},
-					teslacorelib: {
-						id: "teslacorelib:wrench",
-						Count: 1,
-						tag: {
-							"omniwand:displayName": "Tesla扳手",
-							display: {
-								Name: "Omniwand (Tesla扳手)"
-							},
-							"omniwand:definedMod": "teslacorelib",
-							"omniwand:is_transforming": 1b
-						},
-						Damage: 0s
-					},
-					appliedenergistics2: {
-						id: "appliedenergistics2:certus_quartz_wrench",
-						Count: 1,
-						Damage: 0s,
-						tag: {
-							"omniwand:displayName": "赛特斯石英扳手",
-							display: {
-								Name: "§rOmniwand (§a赛特斯石英扳手§r)"
-							},
-							"omniwand:definedMod": "appliedenergistics2",
-							"omniwand:is_transforming": 1b
-						}
+						id: "littletiles:wrench"
 					},
 					environmentaltech: {
-						id: "environmentaltech:tool_multiblock_assembler",
-						Count: 1,
-						Damage: 0s,
 						tag: {
-							"omniwand:definedMod": "environmentaltech",
 							"omniwand:is_transforming": 1b,
 							"omniwand:displayName": "装配杆",
 							display: {
 								Name: "§rOmniwand (§a装配杆§r)"
+							},
+							"omniwand:definedMod": "environmentaltech"
+						},
+						Damage: 0s,
+						Count: 1,
+						id: "environmentaltech:tool_multiblock_assembler"
+					},
+					immersiveengineering: {
+						Damage: 0s,
+						tag: {
+							"omniwand:definedMod": "immersiveengineering"
+						},
+						Count: 1,
+						id: "immersiveengineering:tool"
+					},
+					calculator: {
+						Damage: 0s,
+						tag: {
+							"omniwand:definedMod": "calculator"
+						},
+						Count: 1,
+						id: "calculator:wrench"
+					},
+					opencomputers: {
+						Damage: 0s,
+						tag: {
+							"omniwand:definedMod": "opencomputers"
+						},
+						Count: 1,
+						id: "opencomputers:wrench"
+					},
+					appliedenergistics2: {
+						tag: {
+							"omniwand:is_transforming": 1b,
+							"omniwand:displayName": "赛特斯石英扳手",
+							"omniwand:definedMod": "appliedenergistics2",
+							display: {
+								Name: "§rOmniwand (§a赛特斯石英扳手§r)"
 							}
-						}
+						},
+						Damage: 0s,
+						Count: 1,
+						id: "appliedenergistics2:certus_quartz_wrench"
 					}
-				},
-				"omniwand:is_transforming": 1b
-			}
+				}
+			},
+			id: "omniwand:wand"
 		}
 	}]
 }

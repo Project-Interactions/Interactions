@@ -13,39 +13,39 @@
 		uid: "dfeadedf",
 		type: "item",
 		items: [{
-			id: "calculator:flawlesscalculator",
 			tag: {
-				0: {},
-				slot4: "Energy Module",
-				1: {},
-				slot3: "Storage",
-				2: {},
 				slot2: "Crafting",
-				3: {},
+				slot4: "Energy Module",
+				slot3: "Storage",
+				slot0: "Flawless",
 				slot1: "Dynamic",
-				4: {},
-				slot0: "Flawless"
-			}
+				1: {},
+				2: {},
+				3: {},
+				0: {},
+				4: {}
+			},
+			id: "calculator:flawlesscalculator"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "ede248ff",
 		type: "item",
 		item: {
-			id: "simple_trophies:trophy",
 			tag: {
-				TrophyName: "Tier 4",
-				TrophyVariant: "classic",
-				TrophyItem: {
-					id: "contenttweaker:operation_circuit",
-					Count: 1
-				},
-				TrophyColorRed: 236,
+				TrophyColorBlue: 0,
 				TrophyColorGreen: 0,
-				TrophyColorBlue: 0
-			}
+				TrophyColorRed: 236,
+				TrophyItem: {
+					Count: 1,
+					id: "contenttweaker:operation_circuit"
+				},
+				TrophyVariant: "classic",
+				TrophyName: "Tier 4"
+			},
+			id: "simple_trophies:trophy"
 		}
 	}]
 }

@@ -16,18 +16,18 @@
 		uid: "7b5a3dc3",
 		type: "item",
 		item: {
-			id: "simple_trophies:trophy",
 			tag: {
-				TrophyName: "Tier 6",
-				TrophyVariant: "classic",
-				TrophyItem: {
-					id: "contenttweaker:psio_powered_circuit",
-					Count: 1
-				},
-				TrophyColorRed: 55,
+				TrophyColorBlue: 216,
 				TrophyColorGreen: 133,
-				TrophyColorBlue: 216
-			}
+				TrophyColorRed: 55,
+				TrophyItem: {
+					Count: 1,
+					id: "contenttweaker:psio_powered_circuit"
+				},
+				TrophyVariant: "classic",
+				TrophyName: "Tier 6"
+			},
+			id: "simple_trophies:trophy"
 		}
 	}]
 }

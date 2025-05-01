@@ -8,10 +8,10 @@
 		uid: "a37ece04",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "endoflame"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	}],
 	rewards: [{

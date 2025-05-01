@@ -8,12 +8,12 @@
 		uid: "f041fb7b",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "refinedcanolaoil",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "refinedcanolaoil"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

@@ -16,196 +16,196 @@
 		type: "item",
 		title: "{810a5127.ia.27db87cf.2}",
 		items: [{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.discidia",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.armara",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.vicio",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.aevitas",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.evorsio",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.lucerna",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.mineralis",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.horologium",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.octans",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.bootes",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.fornax",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		},
 		{
-			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.pelotrio",
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
 					collectorType: 0
 				}
-			}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
 		}],
 		ignore_nbt: 1b
 	}],

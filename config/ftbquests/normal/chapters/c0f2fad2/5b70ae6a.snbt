@@ -11,7 +11,7 @@
 			item: "botania:manaresource 1 7"
 		}],
 		count: 8L,
-		consume_items: false
+		consume_items: 0b
 	}],
 	rewards: [{
 		uid: "681359be",

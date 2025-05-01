@@ -21,7 +21,7 @@
 			item: "thaumcraft:log_silverwood"
 		}],
 		count: 4L,
-		consume_items: false
+		consume_items: 0b
 	},
 	{
 		uid: "4dcae829",

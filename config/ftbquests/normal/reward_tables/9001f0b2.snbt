@@ -6,8 +6,8 @@
 	},
 	{
 		item: {
-			id: "nae2:storage_cell_16384k",
-			tag: {}
+			tag: {},
+			id: "nae2:storage_cell_16384k"
 		}
 	}]
 }

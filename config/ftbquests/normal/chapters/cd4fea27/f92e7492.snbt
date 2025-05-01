@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "b5718065",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "ae2wut:wireless_universal_terminal"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

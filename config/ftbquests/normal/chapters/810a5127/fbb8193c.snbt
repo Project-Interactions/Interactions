@@ -8,10 +8,10 @@
 		uid: "2265d62a",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "hydroangeas"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	}],
 	rewards: [{

@@ -9,12 +9,12 @@
 		uid: "7ac1ed9b",
 		type: "item",
 		items: [{
-			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "empoweredoil",
-				Amount: 1000
-			}
+				Amount: 1000,
+				FluidName: "empoweredoil"
+			},
+			id: "forge:bucketfilled"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

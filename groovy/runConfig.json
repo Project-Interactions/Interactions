@@ -1,13 +1,11 @@
 {
   "packName": "Interactions",
   "packId": "interactions",
-  "version": "1.73",
+  "version": "1.74",
   "debug": false,
-  "classes": {
-    "preInit": []
-  },
   "loaders": {
     "preInit": [
+      "classes/",
       "preInit/"
     ],
     "postInit": [
